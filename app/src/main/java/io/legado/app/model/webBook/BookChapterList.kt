@@ -23,8 +23,8 @@ import splitties.init.appCtx
 import kotlin.coroutines.coroutineContext
 
 /**
-*lấy thư mục
-*/
+ * 获取目录
+ */
 object BookChapterList {
 
     suspend fun analyzeChapterList(
@@ -38,7 +38,7 @@ object BookChapterList {
             appCtx.getString(R.string.error_get_web_content, baseUrl)
         )
         val chapterList = ArrayList<BookChapter>()
-        Debug.log(bookSource.bookSourceUrl, "≡Thu hoạch thành công:${baseUrl}")
+        Debug.log(bookSource.bookSourceUrl, "≡获取成功:${baseUrl}")
         Debug.log(bookSource.bookSourceUrl, body, state = 30)
         val tocRule = bookSource.getTocRule()
         val nextUrlList = arrayListOf(redirectUrl)
@@ -78,13 +78,13 @@ object BookChapterList {
                         chapterList.addAll(chapterData.first)
                     }
                 }
-                Debug.log(bookSource.bookSourceUrl, "◇Tổng số trang của danh mục:${nextUrlList.size}")
+                Debug.log(bookSource.bookSourceUrl, "◇目录总页数:${nextUrlList.size}")
             }
 
             else -> {
                 Debug.log(
                     bookSource.bookSourceUrl,
-                    "◇Đồng phát phân tích mục lục, tổng số trang:${chapterData.second.size}"
+                    "◇并发解析目录,总页数:${chapterData.second.size}"
                 )
                 withContext(IO) {
                     val asyncArray = Array(chapterData.second.size) {
@@ -121,7 +121,7 @@ object BookChapterList {
         if (!book.getReverseToc()) {
             list.reverse()
         }
-        Debug.log(book.origin, "◇Tổng số mục lục:${list.size}")
+        Debug.log(book.origin, "◇目录总数:${list.size}")
         coroutineContext.ensureActive()
         val formatJs = tocRule.formatJs
         val bindings = SimpleBindings()
@@ -137,7 +137,7 @@ object BookChapterList {
                         bookChapter.title = it
                     }
                 }.onFailure {
-                    Debug.log(book.origin, "Format tiêu đề phạm sai lầm, ${it.localizedMessage}")
+                    Debug.log(book.origin, "格式化标题出错, ${it.localizedMessage}")
                 }
             }
         }
@@ -171,14 +171,14 @@ object BookChapterList {
         analyzeRule.setRedirectUrl(redirectUrl)
         //获取目录列表
         val chapterList = arrayListOf<BookChapter>()
-        Debug.log(bookSource.bookSourceUrl, "┌Thu hoạch mục lục danh sách", log)
+        Debug.log(bookSource.bookSourceUrl, "┌获取目录列表", log)
         val elements = analyzeRule.getElements(listRule)
-        Debug.log(bookSource.bookSourceUrl, "└Danh sách lớn nhỏ:${elements.size}", log)
+        Debug.log(bookSource.bookSourceUrl, "└列表大小:${elements.size}", log)
         //获取下一页链接
         val nextUrlList = arrayListOf<String>()
         val nextTocRule = tocRule.nextTocUrl
         if (getNextUrl && !nextTocRule.isNullOrEmpty()) {
-            Debug.log(bookSource.bookSourceUrl, "┌Thu hoạch mục lục trang kế tiếp danh sách", log)
+            Debug.log(bookSource.bookSourceUrl, "┌获取目录下一页列表", log)
             analyzeRule.getStringList(nextTocRule, isUrl = true)?.let {
                 for (item in it) {
                     if (item != redirectUrl) {
@@ -194,7 +194,7 @@ object BookChapterList {
         }
         coroutineContext.ensureActive()
         if (elements.isNotEmpty()) {
-            Debug.log(bookSource.bookSourceUrl, "┌Phân tích mục lục danh sách", log)
+            Debug.log(bookSource.bookSourceUrl, "┌解析目录列表", log)
             val nameRule = analyzeRule.splitSourceRule(tocRule.chapterName)
             val urlRule = analyzeRule.splitSourceRule(tocRule.chapterUrl)
             val vipRule = analyzeRule.splitSourceRule(tocRule.isVip)
@@ -219,13 +219,13 @@ object BookChapterList {
                         bookChapter.url = bookChapter.title + index
                         Debug.log(
                             bookSource.bookSourceUrl,
-                            "⇒Cấp 1 mục lục ${index} Không thu hoạch đến url, sử dụng tiêu đề thay thế"
+                            "⇒一级目录${index}未获取到url,使用标题替代"
                         )
                     } else {
                         bookChapter.url = baseUrl
                         Debug.log(
                             bookSource.bookSourceUrl,
-                            "⇒Mục lục ${index} Không thu hoạch đến url, sử dụng baseUrl thay thế"
+                            "⇒目录${index}未获取到url,使用baseUrl替代"
                         )
                     }
                 }
@@ -241,16 +241,16 @@ object BookChapterList {
                     chapterList.add(bookChapter)
                 }
             }
-            Debug.log(bookSource.bookSourceUrl, "└Mục lục danh sách phân tích hoàn thành", log)
+            Debug.log(bookSource.bookSourceUrl, "└目录列表解析完成", log)
             if (chapterList.isEmpty()) {
-                Debug.log(bookSource.bookSourceUrl, "◇Chương tiết danh sách vì khoảng không", log)
+                Debug.log(bookSource.bookSourceUrl, "◇章节列表为空", log)
             } else {
-                Debug.log(bookSource.bookSourceUrl, "≡Thông tin chương", log)
-                Debug.log(bookSource.bookSourceUrl, "◇Tên chương:${chapterList[0].title}", log)
-                Debug.log(bookSource.bookSourceUrl, "◇URL chương:${chapterList[0].url}", log)
-                Debug.log(bookSource.bookSourceUrl, "◇Thông tin chương:${chapterList[0].tag}", log)
-                Debug.log(bookSource.bookSourceUrl, "◇là VIP:${chapterList[0].isVip}", log)
-                Debug.log(bookSource.bookSourceUrl, "◇Phải chăng mua sắm:${chapterList[0].isPay}", log)
+                Debug.log(bookSource.bookSourceUrl, "≡首章信息", log)
+                Debug.log(bookSource.bookSourceUrl, "◇章节名称:${chapterList[0].title}", log)
+                Debug.log(bookSource.bookSourceUrl, "◇章节链接:${chapterList[0].url}", log)
+                Debug.log(bookSource.bookSourceUrl, "◇章节信息:${chapterList[0].tag}", log)
+                Debug.log(bookSource.bookSourceUrl, "◇是否VIP:${chapterList[0].isVip}", log)
+                Debug.log(bookSource.bookSourceUrl, "◇是否购买:${chapterList[0].isPay}", log)
             }
         }
         return Pair(chapterList, nextUrlList)

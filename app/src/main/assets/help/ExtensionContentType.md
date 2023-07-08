@@ -1,93 +1,93 @@
 ```java
 public enum MimeTypeEnum {
 
-    AAC("acc", "AAC âm tần ", "audio/aac"),
+    AAC("acc", "AAC音频", "audio/aac"),
 
-    ABW("abw", "AbiWord văn kiện ", "application/x-abiword"),
+    ABW("abw", "AbiWord文件", "application/x-abiword"),
 
-    ARC("arc", " Lưu trữ văn kiện ", "application/x-freearc"),
+    ARC("arc", "存档文件", "application/x-freearc"),
 
-    AVI("avi", " Âm tần video giao thoa cách thức ", "video/x-msvideo"),
+    AVI("avi", "音频视频交错格式", "video/x-msvideo"),
 
-    AZW("azw", " Amazon Kindle sách điện tử cách thức ", "application/vnd.amazon.ebook"),
+    AZW("azw", "亚马逊Kindle电子书格式", "application/vnd.amazon.ebook"),
 
-    BIN("bin", " Bất luận cái gì loại hình số nhị phân số liệu ", "application/octet-stream"),
+    BIN("bin", "任何类型的二进制数据", "application/octet-stream"),
 
-    BMP("bmp", "Windows OS / 2 vị đồ đồ hình ", "image/bmp"),
+    BMP("bmp", "Windows OS / 2位图图形", "image/bmp"),
 
-    BZ("bz", "BZip lưu trữ ", "application/x-bzip"),
+    BZ("bz", "BZip存档", "application/x-bzip"),
 
-    BZ2("bz2", "BZip2 lưu trữ ", "application/x-bzip2"),
+    BZ2("bz2", "BZip2存档", "application/x-bzip2"),
 
-    CSH("csh", "C-Shell kịch bản gốc ", "application/x-csh"),
+    CSH("csh", "C-Shell脚本", "application/x-csh"),
 
-    CSS("css", " Cấp liên kiểu dáng bày tỏ (CSS)", "text/css"),
+    CSS("css", "级联样式表（CSS）", "text/css"),
 
-    CSV("csv", " Dấu phẩy ngăn cách giá trị (CSV)", "text/csv"),
+    CSV("csv", "逗号分隔值（CSV）", "text/csv"),
 
-    DOC("doc", " Hơi mềm Word văn kiện ", "application/msword"),
+    DOC("doc", "微软Word文件", "application/msword"),
 
     DOCX("docx", "Microsoft Word（OpenXML）", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"),
 
-    EOT("eot", "MS Embedded OpenType kiểu chữ ", "application/vnd.ms-fontobject"),
+    EOT("eot", "MS Embedded OpenType字体", "application/vnd.ms-fontobject"),
 
-    EPUB("epub", " Điện tử ấn phẩm (EPUB)", "application/epub+zip"),
+    EPUB("epub", "电子出版物（EPUB）", "application/epub+zip"),
 
-    GZ("gz", "GZip áp súc hồ sơ ", "application/gzip"),
+    GZ("gz", "GZip压缩档案", "application/gzip"),
 
-    GIF("gif", " Đồ hình trao đổi cách thức (GIF)", "image/gif"),
+    GIF("gif", "图形交换格式（GIF）", "image/gif"),
 
-    HTM("htm", " Siêu văn bản tiêu ký ngôn ngữ (HTML)", "text/html"),
+    HTM("htm", "超文本标记语言（HTML）", "text/html"),
 
-    HTML("html", " Siêu văn bản tiêu ký ngôn ngữ (HTML)", "text/html"),
+    HTML("html", "超文本标记语言（HTML）", "text/html"),
 
-    ICO("ico", " Ô biểu tượng cách thức ", "image/vnd.microsoft.icon"),
+    ICO("ico", "图标格式", "image/vnd.microsoft.icon"),
 
-    ICS("ics", "iCalendar cách thức ", "text/calendar"),
+    ICS("ics", "iCalendar格式", "text/calendar"),
 
-    JAR("jar", "Java lưu trữ ", "application/java-archive"),
+    JAR("jar", "Java存档", "application/java-archive"),
 
-    JPEG("jpeg", "JPEG hình ảnh ", "image/jpeg"),
+    JPEG("jpeg", "JPEG图像", "image/jpeg"),
 
-    JPG("jpg", "JPEG hình ảnh ", "image/jpeg"),
+    JPG("jpg", "JPEG图像", "image/jpeg"),
 
     JS("js", "JavaScript", "text/javascript"),
 
-    JSON("json", "JSON cách thức ", "application/json"),
+    JSON("json", "JSON格式", "application/json"),
 
-    JSONLD("jsonld", "JSON-LD cách thức ", "application/ld+json"),
+    JSONLD("jsonld", "JSON-LD格式", "application/ld+json"),
 
-    MID("mid", " Nhạc khí con số tiếp lời (MIDI)", "audio/midi"),
+    MID("mid", "乐器数字接口（MIDI）", "audio/midi"),
 
-    MIDI("midi", " Nhạc khí con số tiếp lời (MIDI)", "audio/midi"),
+    MIDI("midi", "乐器数字接口（MIDI）", "audio/midi"),
 
-    MJS("mjs", "JavaScript module ", "text/javascript"),
+    MJS("mjs", "JavaScript模块", "text/javascript"),
 
-    MP3("mp3", "MP3 âm tần ", "audio/mpeg"),
+    MP3("mp3", "MP3音频", "audio/mpeg"),
 
-    MPEG("mpeg", "MPEG video ", "video/mpeg"),
+    MPEG("mpeg", "MPEG视频", "video/mpeg"),
 
-    MPKG("mpkg", " Quả táo lắp đặt chương trình bao ", "application/vnd.apple.installer+xml"),
+    MPKG("mpkg", "苹果安装程序包", "application/vnd.apple.installer+xml"),
 
-    ODP("odp", "OpenDocument biểu thị bản thảo văn kiện ", "application/vnd.oasis.opendocument.presentation"),
+    ODP("odp", "OpenDocument演示文稿文档", "application/vnd.oasis.opendocument.presentation"),
 
-    ODS("ods", "OpenDocument bảng tính điện tử văn kiện ", "application/vnd.oasis.opendocument.spreadsheet"),
+    ODS("ods", "OpenDocument电子表格文档", "application/vnd.oasis.opendocument.spreadsheet"),
 
-    ODT("odt", "OpenDocument văn tự văn kiện ", "application/vnd.oasis.opendocument.text"),
+    ODT("odt", "OpenDocument文字文件", "application/vnd.oasis.opendocument.text"),
 
-    OGA("oga", "OGG tin tức ", "audio/ogg"),
+    OGA("oga", "OGG音讯", "audio/ogg"),
 
-    OGV("ogv", "OGG video ", "video/ogg"),
+    OGV("ogv", "OGG视频", "video/ogg"),
 
     OGX("ogx", "OGG", "application/ogg"),
 
-    OPUS("opus", "OPUS âm tần ", "audio/opus"),
+    OPUS("opus", "OPUS音频", "audio/opus"),
 
-    OTF("otf", "otf kiểu chữ ", "font/otf"),
+    OTF("otf", "otf字体", "font/otf"),
 
-    PNG("png", " Dạng đơn giản internet đồ hình ", "image/png"),
+    PNG("png", "便携式网络图形", "image/png"),
 
-    PDF("pdf", "Adobe có thể cấy ghép văn kiện cách thức (PDF)", "application/pdf"),
+    PDF("pdf", "Adobe 可移植文档格式（PDF）", "application/pdf"),
 
     PHP("php", "php", "application/x-httpd-php"),
 
@@ -95,47 +95,47 @@ public enum MimeTypeEnum {
 
     PPTX("pptx", "Microsoft PowerPoint（OpenXML）", "application/vnd.openxmlformats-officedocument.presentationml.presentation"),
 
-    RAR("rar", "RAR hồ sơ ", "application/vnd.rar"),
+    RAR("rar", "RAR档案", "application/vnd.rar"),
 
-    RTF("rtf", " Giàu văn bản cách thức ", "application/rtf"),
+    RTF("rtf", "富文本格式", "application/rtf"),
 
-    SH("sh", "Bourne Shell kịch bản gốc ", "application/x-sh"),
+    SH("sh", "Bourne Shell脚本", "application/x-sh"),
 
-    SVG("svg", " Có thể thu phóng vectơ đồ hình (SVG)", "image/svg+xml"),
+    SVG("svg", "可缩放矢量图形（SVG）", "image/svg+xml"),
 
-    SWF("swf", " Cỡ nhỏ Web cách thức (SWF) hoặc Adobe Flash văn kiện ", "application/x-shockwave-flash"),
+    SWF("swf", "小型Web格式（SWF）或Adobe Flash文档", "application/x-shockwave-flash"),
 
-    TAR("tar", " Băng nhạc lưu trữ (TAR)", "application/x-tar"),
+    TAR("tar", "磁带存档（TAR）", "application/x-tar"),
 
-    TIF("tif", " Tiêu ký hình ảnh loại văn bản (TIFF)", "image/tiff"),
+    TIF("tif", "标记图像文件格式（TIFF）", "image/tiff"),
 
-    TIFF("tiff", " Tiêu ký hình ảnh loại văn bản (TIFF)", "image/tiff"),
+    TIFF("tiff", "标记图像文件格式（TIFF）", "image/tiff"),
 
-    TS("ts", "MPEG truyền thâu lưu ", "video/mp2t"),
+    TS("ts", "MPEG传输流", "video/mp2t"),
 
-    TTF("ttf", "ttf kiểu chữ ", "font/ttf"),
+    TTF("ttf", "ttf字体", "font/ttf"),
 
-    TXT("txt", " Văn bản ( Bình thường vì ASCII hoặc ISO 8859- n", "text/plain"),
+    TXT("txt", "文本（通常为ASCII或ISO 8859- n", "text/plain"),
 
-    VSD("vsd", " Hơi mềm Visio", "application/vnd.visio"),
+    VSD("vsd", "微软Visio", "application/vnd.visio"),
 
-    WAV("wav", " Hình sóng âm tần cách thức ", "audio/wav"),
+    WAV("wav", "波形音频格式", "audio/wav"),
 
-    WEBA("weba", "WEBM âm tần ", "audio/webm"),
+    WEBA("weba", "WEBM音频", "audio/webm"),
 
-    WEBM("webm", "WEBM video ", "video/webm"),
+    WEBM("webm", "WEBM视频", "video/webm"),
 
-    WEBP("webp", "WEBP hình ảnh ", "image/webp"),
+    WEBP("webp", "WEBP图像", "image/webp"),
 
-    WOFF("woff", "Web khai phóng kiểu chữ cách thức (WOFF)", "font/woff"),
+    WOFF("woff", "Web开放字体格式（WOFF）", "font/woff"),
 
-    WOFF2("woff2", "Web khai phóng kiểu chữ cách thức (WOFF)", "font/woff2"),
+    WOFF2("woff2", "Web开放字体格式（WOFF）", "font/woff2"),
 
     XHTML("xhtml", "XHTML", "application/xhtml+xml"),
 
-    XLS("xls", " Hơi mềm Excel", "application/vnd.ms-excel"),
+    XLS("xls", "微软Excel", "application/vnd.ms-excel"),
 
-    XLSX("xlsx", " Hơi mềm Excel(OpenXML)", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
+    XLSX("xlsx", "微软Excel（OpenXML）", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
 
     XML("xml", "XML", "application/xml"),
 
@@ -151,6 +151,6 @@ public enum MimeTypeEnum {
 
     MIME_3G2_WITHOUT_VIDEO("3g2", "3GPP2 audio/video container  doesn't contain video", "audio/3gpp2"),
 
-    MIME_7Z("7z", "7-zip lưu trữ ", "application/x-7z-compressed")
+    MIME_7Z("7z", "7-zip存档", "application/x-7z-compressed")
 }
 ```

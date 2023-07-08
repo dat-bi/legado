@@ -1,334 +1,266 @@
-# Đổi mới nhật ký
+# 更新日志
 
-* Chú ý tài khoản công chúng **[ Khai nguyên đọc ]** Menu • Phần mềm download Sớm hưởng thụ phiên bản mới.
-* Chú ý hợp tác tài khoản công chúng **[ Tiểu thuyết nhặt của rơi ]** Thu hoạch tiểu thuyết hay.
-## ** Tất đọc **
+* 关注公众号 **[开源阅读]** 菜单•软件下载 提前享受新版本。
+* 关注合作公众号 **[小说拾遗]** 获取好看的小说。
 
-【 Ấm áp nhắc nhở 】 * Đổi mới phía trước nhất định phải làm hảo dành trước, để tránh số liệu mất đi!*
-* Đọc chỉ là một cái chuyển mã công cụ, không cung cấp nội dung, lần thứ nhất lắp đặt app, cần tay mình động dẫn vào sách nguyên, có thể từ tài khoản công chúng **[ Khai nguyên đọc ]**
-, QQ nhóm, khốc sao trong bình luận thu hoạch từ thư hữu chế tác chia sẻ sách nguyên.
-* Xuất hiện thiếu chữ lỗ hổng chữ, nội dung thiếu hụt, sắp chữ rối loạn các loại tình huống, có thể là tịnh hóa quy tắc hoặc giản phồn chuyển đổi ra hiện vấn đề.
-* Manga nguyên đọc sách biểu hiện loạn mã, ** Đọc cùng với những cái khác phần mềm nguyên cũng không thông dụng **, thỉnh dẫn vào đọc ủng hộ manga nguyên!
+## **必读**
+
+【温馨提醒】 *更新前一定要做好备份，以免数据丢失！*
+
+* 阅读只是一个转码工具，不提供内容，第一次安装app，需要自己手动导入书源，可以从公众号 **[开源阅读]**
+  、QQ群、酷安评论里获取由书友制作分享的书源。
+* 正文出现缺字漏字、内容缺失、排版错乱等情况，有可能是净化规则或简繁转换出现问题。
+* 漫画源看书显示乱码，**阅读与其他软件的源并不通用**，请导入阅读的支持的漫画源！
+
 **2023/06/26**
-* Đổi mới cronet: 114.0.5735.196
+* 更新cronet: 114.0.5735.196
 
-* Giá sách đổi mới lúc biểu hiện còn thừa đổi mới số lượng, tại giá sách sắp đặt bên trong phối trí
-
-* Tăng thêm nút thoát
-
-* Phát hiện tăng thêm toàn bộ thêm vào kho truyện công năng
-
-* Cái khác một chút ưu hóa cùng bug chữa trị
-
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 书架更新时显示剩余更新数量,在书架布局里配置
+* 添加退出按钮
+* 发现添加全部加入书架功能
+* 其它一些优化和bug修复
+* 其中一些更新由 Xwite, Horis 提供
 
 **2023/06/19**
-* Đổi mới cronet: 114.0.5735.130
 
-* Chữa trị sách nguyên kéo lấy sắp xếp nhảy loạn vấn đề
-
-* Upload dẫn xuất ủng hộ áp súc, dẫn vào tự động bớt áp lực
+* 更新cronet: 114.0.5735.130
+* 修复书源拖动排序乱跳的问题
+* 上传导出支持压缩,导入自动解压
 
 **2023/06/15**
-* Chữa trị nhanh chóng thối lui bug
+
+* 修复闪退bug
 
 **2023/06/14**
-* Đổi mới cronet: 114.0.5735.60
 
-* Chữa trị dài theo menu toàn văn kết quả tìm kiếm không được đầy đủ hoặc không kết quả vấn đề
-
-* Ưu hóa toàn văn lùng tìm tốc độ
-
-* Chữa trị số trang quá đã lâu song hành thu hoạch vấn đề
-
-* Cấm dùng js điều động một chút loại phòng ngừa một chút ác ý sách nguyên
-
-* Cái khác một chút ưu hóa
-
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 更新cronet: 114.0.5735.60
+* 修复长按菜单全文搜索结果不全或无结果问题
+* 优化全文搜索速度
+* 修复正文页数太多时并行获取问题
+* 禁用js调用一些类防止一些恶意书源
+* 其它一些优化
+* 其中一些更新由 Xwite, Horis 提供
 
 **2023/06/06**
-* Đổi mới cronet: 114.0.5735.57
 
-* Giá sách quản lý giới diện click tên sách mở ra sách
-
-* Chữa trị mục lục không cách nào tăng thêm vấn đề
-
-* epub chia cắt dẫn xuất công năng
-
-* Cái khác một chút ưu hóa
-
-* Trong đó một chút đổi mới từ Xwite, Horis, Discut cung cấp
+* 更新cronet: 114.0.5735.57
+* 书架管理界面点击书名打开书籍
+* 修复目录无法加载问题
+* epub分割导出功能
+* 其它一些优化
+* 其中一些更新由 Xwite, Horis, Discut 提供
 
 **2023/05/19**
-* Đổi mới cronet: 113.0.5672.131
 
-* Mục lục format js tăng thêm một cái công cộng lượng biến đổi gInt, int loại hình ngầm thừa nhận giá trị 0
+* 更新cronet: 113.0.5672.131
 
-> Thí dụ mẫu 1
+* 目录格式化js添加一个公用变量gInt, int类型默认值0
 
-```
-" Thứ " + index + " Chương " + title
+> 示例1
 
 ```
-> Thí dụ mẫu 2
-
+"第" + index + "章" + title
 ```
 
+> 示例2
+
+```
 gInt++
-" Thứ " + gInt + " Chương " + title
-
+"第" + gInt + "章" + title
 ```
-* Ưu hóa chữa trị bug
 
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 优化修复bug
+* 其中一些更新由 Xwite, Horis 提供
 
 **2023/05/16**
-* Tăng thêm format mục lục quy tắc, chỉ có thể viết js, không cần @js: Tiêu chí, cung cấp lượng biến đổi index cùng title,index từ 1 bắt đầu
 
-* Tăng thêm tiêu đề quy tắc, kết quả đổi mới đến mục lục, có chút website chỉ có thể tại thu hoạch chính xác tiêu đề
-
-* Ưu hóa web bưng
-
-* Cái khác một chút ưu hóa
-
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 添加格式化目录规则,只能写js,不用@js:标志,提供变量index和title,index从1开始
+* 正文添加标题规则,结果更新到目录,有些网站只能在正文获取正确的标题
+* 优化web端
+* 其它一些优化
+* 其中一些更新由 Xwite, Horis 提供
 
 **2023/05/13**
-* Chữa trị tại tuyến tts đọc chậm thất bại bug
+
+* 修复在线tts朗读失败bug
 
 **2023/05/12**
-* web: Chữa trị tiến độ đồng bộ cùng Phím tắt thiết trí; Tăng thêm khoảng thời gian thiết trí; Ưu hóa siêu trường chương tiết danh sách phủ lên; Đồng bộ phát động: Đóng lại trình duyệt, hoán đổi ứng dụng, hoán đổi tab, trở về
 
-* Thay thế quy tắc tăng thêm bài trừ phạm vi chữ đoạn
-
-* Di chuyển đến Androidx Media3
-
-* Cái khác một chút ưu hóa
-
-* Trong đó một chút đổi mới từ Xwite, Horis, ag2s20150909 cung cấp
+* web: 修复进度同步和快捷键设置；添加间距设置；优化超长章节列表渲染；同步触发：关闭浏览器，切换应用，切换tab，返回
+* 替换规则添加排除范围字段
+* 迁移到Androidx Media3
+* 其它一些优化
+* 其中一些更新由 Xwite, Horis, ag2s20150909提供
 
 **2023/05/08**
-* Đổi mới cronet: 113.0.5672.76
 
-* web: Hoàn toàn mới truyền thư giao diện [MakeHui](https://github.com/MakeHui); Sửa đổi nguyên biên tập danh sách thao tác lôgic cùng nhiều tuyển tính năng
-
-* Ưu hóa bộ phận văn bản nhắc nhở toast
-
-* webView: Xem nhẹ bộ phận website chứng chỉ sai lầm
-
-* Dành trước khôi phục webDav: Điền mật mã vào sau tự động nghiệm chứng
-
-* Đổi nguyên tăng thêm tăng thêm số lượng từ tuyển hạng
-
-* Chữa trị toàn văn lùng tìm bắt đầu bug
-
-* Trong đó một chút đổi mới từ Xwite, Horis, Jason Yao cung cấp
+* 更新cronet: 113.0.5672.76
+* web: 全新传书页面 [MakeHui](https://github.com/MakeHui)；修正源编辑列表操作逻辑和多选性能
+* 优化部分文本提示toast
+* webView: 忽略部分网站的证书错误
+* 备份恢复webDav: 输入密码后自动验证
+* 换源添加加载字数选项
+* 修复全文搜索开始bug
+* 其中一些更新由 Xwite, Horis, Jason Yao提供
 
 **2023/05/03**
-* Văn kiện sách tra cứu nguyên văn kiện hậu tố phân biệt: Tự động phân biệt sau khi thất bại sẽ đọc đến download kết nối UrlOption type chữ đoạn
+
+* 文件类书源文件后缀识别：自动识别失败后会读取下载链接UrlOption的type字段
 
 ```
-
 https://www.example.com/file/ajzjxhxjncnc, {type: "txt"}
 ```
-* Đổi mới cronet: 112.0.5615.135
 
-* Nguyên tăng thêm jsLib chữ đoạn
+* 更新cronet: 112.0.5615.135
 
-> Rót vào JavaScript đến RhinoJs động cơ bên trong, ủng hộ hai loại cách thức
+* 源添加jsLib字段
 
-> `JavaScript Code` Trực tiếp điền JavaScript đoạn ngắn
+> 注入JavaScript到RhinoJs引擎中，支持两种格式  
+> `JavaScript Code` 直接填写JavaScript片段
+> `{"example":"https://www.example.com/js/example.js", ...}` 自动复用已经下载的js文件
 
-> `{"example":"https://www.example.com/js/example.js", ...}` Tự động phục dùng đã tải xuống js văn kiện
-
-* Dẫn vào sách nguyên menu tăng thêm lựa chọn chọn trúng đổi mới nguyên, chọn trúng mới tăng thêm nguyên
-
-* web bưng di chuyển đến vue3, bộ phận công năng không thực hiện
-
-* Tăng thêm bản địa mật mã thiết trí, dành trước liên quan đến tin tức nhạy cảm dùng mật mã mã hóa sau lại dành trước, như webdav mật mã chờ
-
-* Chữa trị epub chương tiết dị thường phân chia bug
-
-* Cái khác một chút ưu hóa
-
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 导入书源菜单添加选择选中更新源,选中新增源
+* web端迁移到vue3, 部分功能未实现
+* 添加本地密码设置,备份涉及到的敏感信息用密码加密后再备份,如webdav密码等
+* 修复epub章节异常分割的bug
+* 其它一些优化
+* 其中一些更新由 Xwite, Horis提供
 
 **2023/04/02**
-* Đổi mới cronet: 112.0.5615.47
 
-* Tăng thêm văn tự phía dưới phác họa
-
-* Cái khác một chút ưu hóa
-
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 更新cronet: 112.0.5615.47
+* 添加文字下划线
+* 其它一些优化
+* 其中一些更新由 Xwite, Horis提供
 
 **2023/04/01**
-* Nguyên app thấp nhất ủng hộ phiên bản tăng lên tới android7.0
 
-* Sáng tạo lollipop phiên bản ủng hộ android5.0
-
-* Tăng thêm nội trí văn kiện quản lý, quản lý sở hữu tư nhân văn kiện
-
-* Sách phân tổ tăng thêm dưới sự cho phép kéo đổi mới thiết trí
+* 原app最低支持版本提升到android7.0
+* 创建lollipop版本支持android5.0
+* 增加内置文件管理,管理私有文件
+* 书籍分组增加允许下拉刷新设置
 
 **2023/03/29**
-* Chữa trị thấp hơn android7.0 phiên bản không cách nào khôi phục dành trước vấn đề
 
-* Chữa trị thấp phiên bản Android sụp đổ vấn đề
+* 修复低于android7.0版本无法恢复备份的问题
+* 修复低版本安卓崩溃的问题
 
 **2023/03/28**
-* Đổi mới cronet: 111.0.5563.115
 
-* Đổi mới rhino: 1.7.14-2
-
-* Chữa trị bug
-
-* Tường tình trang phía dưới kéo đổi mới
-
-* Dẫn xuất vì bản địa văn kiện lúc không bảo lưu vip tiêu chí
-
-* Danh sách kết quả vì NativeObject lúc ủng hộ {{}}@get@put## Quy tắc
+* 更新cronet: 111.0.5563.115
+* 更新rhino: 1.7.14-2
+* 修复bug
+* 详情页下拉刷新
+* 导出为本地文件时不保留vip标识
+* 列表结果为NativeObject时支持{{}}@get@put##规则
 
 ```
 {bookId: 1}
-
 https://www.example.com/book/{{result.bookId}}
 ```
-* Giá sách chỉnh lý lùng tìm ủng hộ phân loại cùng giới thiệu vắn tắt
 
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 书架整理搜索支持分类和简介
+* 其中一些更新由 Xwite, Horis提供
 
 **2023/03/21**
-* Chữa trị phiếu tên sách giới diện xóa bỏ điều mục sau giới diện rối loạn bug
 
-* Một chút mang theo khung tìm kiếm giới diện tự động ẩn tàng bàn phím mềm
-
-* Bản địa sách cùng viễn trình sách dẫn vào giới diện ủng hộ file nén
-
-* Nội trí hai cái thẳng liên upload phối trí, có thể thông qua dẫn vào ngầm thừa nhận hoán đổi
-
-* Chữa trị không cách nào dẫn vào không tại mấy tổ bên trong một cái sách nguyên bản địa văn kiện
-
-* getVariable() ngầm thừa nhận trở về ""
-* Chữa trị bug
-
-* Trong đó một chút đổi mới từ Xwite, Horis cung cấp
+* 修复书签界面删除条目后界面错乱bug
+* 一些带有搜索框的界面自动隐藏软键盘
+* 本地书籍和远程书籍导入界面支持压缩包
+* 内置了两个直链上传配置,可以通过导入默认切换
+* 修复无法导入不在数组内的单个书源的本地文件
+* getVariable() 默认返回 ""
+* 修复bug
+* 其中一些更新由 Xwite, Horis提供
 
 **2023/03/14**
-* Đổi mới cronet: 111.0.5563.57
 
-* Ưu hóa văn kiện hình sách nguyên, giải quyết áp súc văn kiện mã hóa không phải UTF-8 báo sai vấn đề
-
-* js tăng thêm không đối với xưng mã hóa cùng ký tên phép tính
-
-* Văn kiện sách tra cứu nguyên ủng hộ zip 7z rar4 bớt áp lực
-
-* java.ajax(url: Any) tự động phán đoán là danh sách vẫn là ký tự xuyên
-
-* Chữa trị một chút bug
-
-* Trong đó một chút đổi mới từ Xwite, Horis, ag2s20150909 cung cấp
-
-* Chữa trị js mã hóa phép tính
+* 更新cronet: 111.0.5563.57
+* 优化文件型书源,解决压缩文件编码不是UTF-8报错问题
+* js添加非对称加密和签名算法
+* 文件类书源支持zip 7z rar4解压
+* java.ajax(url: Any)自动判断是列表还是字符串
+* 修复一些bug
+* 其中一些更新由 Xwite, Horis, ag2s20150909 提供
+* 修复js加密算法
 
 **2023/03/12**
-* Viễn trình sách tăng thêm webDav nhiều phối trí
 
-* Đổi mới văn kiện sách tra cứu nguyên tường tình trang giới diện lôgic
-
-* Nếm thử chữa trị giọng nói đọc chậm
-
-* Chữa trị đặc biệt tình huống đưa thư tịch dẫn vào giới diện tính toán sai lầm
-
-* Chữa trị đọc giới diện hướng dẫn cột đổi mới trễ
-
-* Chữa trị một ít lấy trống không mở đầu liên tiếp ghép lại
-
-* Chữa trị một ít trống không dành trước khôi phục sai lầm pop-up
-
-* Chữa trị chương tiết đều tại một cái xhtml bên trong epub nội dung phân tích
-
-* Chữa trị một ít epub trong văn kiện không quy phạm html văn kiện phân tích
-
-* Bản địa dành trước cũng áp dụng file nén, cùng webDav dành trước bảo trì nhất trí, từ webDav tải xuống dành trước văn kiện không cần bớt áp lực có thể trực tiếp khôi phục
-
-* Bản địa sách cùng viễn trình sách giới diện tăng thêm sàng lọc công năng
-
-* Trong đó một chút đổi mới từ Horis cùng Xwite cung cấp
+* 远程书籍添加webDav多配置
+* 更新文件类书源详情页界面逻辑
+* 尝试修复语音朗读
+* 修复特定情况下书籍导入界面计数错误
+* 修复阅读界面导航栏更新不及时
+* 修复某些以空白开头的链接的拼接
+* 修复某些空白备份恢复的错误弹窗
+* 修复章节都在一个xhtml里面的epub的内容解析
+* 修复某些epub文件里不规范html文档的解析
+* 本地备份也采用压缩包,和webDav备份保持一致,从webDav下载的备份文件不需要解压可以直接恢复
+* 本地书籍和远程书籍界面添加筛选功能
+* 其中一些更新由 Horis 和 Xwite 提供
 
 **2023/03/03**
-* Đọc chậm tốc độ tăng thêm trị số biểu hiện
 
-* Chương tiết tiến độ tăng thêm xx/yyy cách thức
-
-* Viễn trình sách đơn độc phối trí webDav, nhiều cái webDav nhìn tình huống lại thêm thêm
+* 朗读速度添加数值显示
+* 章节进度添加xx/yyy格式
+* 远程书籍单独配置webDav,多个webDav看情况再添加
 
 **2023/02/27**
-* Ưu hóa mới xây sách nguyên cùng đặt mua nguyên ngầm thừa nhận giá trị cùng ra khỏi lúc sửa chữa phán đoán
 
-* Ưu hóa phân tổ đổi mới lúc giới diện đổi mới
-
-* Một chút ưu hóa by Horis
+* 优化新建书源和订阅源的默认值和退出时的修改判断
+* 优化分组更新时界面刷新
+* 一些优化 by Horis
 
 **2023/02/22**
-* Tăng thêm tự định nghĩa từ điển quy tắc
 
-* Một chút ưu hóa by Horis
+* 添加自定义字典规则
+* 一些优化 by Horis
 
 **2023/02/16**
-* Đổi mới cronet: 110.0.5481.65
 
-* Tăng thêm thanh trừ WebView số liệu by Horis
-
-* Dùng đến thông báo thời điểm mới nhắc nhở thông tri quyền hạn thu hoạch
-
-* Sửa chữa đặt mua nguyên biên tập giới diện cùng sách nguyên một dạng
-
-* Một chút ưu hóa by Horis cùng Xwite
+* 更新cronet: 110.0.5481.65
+* 添加清除 WebView 数据 by Horis
+* 用到通知的时候才提示通知权限获取
+* 修改订阅源编辑界面和书源一样
+* 一些优化 by Horis 和 Xwite
 
 **2023/02/09**
-* Tăng thêm thông tri quyền hạn thiết trí nhắc nhở
 
-* Đổi mới nhật ký tăng thêm nút close
-
-* Đặt mua nguyên tăng thêm sổ đen cùng danh sách trắng, vì danh sách dùng, ngăn cách ủng hộ đang thì, nếu có sổ đen, sổ đen phối hợp trở về trống không,
-
-Không có sổ đen lại phán đoán danh sách trắng, tại danh sách trắng bên trong mới thông qua, cũng không có không làm xử lý
-
-* Đổi mới web biên tập;web giá sách chương tiết số thứ tự sửa đổi sau sẽ ** Đồng bộ số thứ tự **, càng tinh xác đã đọc số lượng từ đồng bộ thỉnh ** Trở về giá sách giới diện ** by Xwite
+* 添加通知权限设置提示
+* 更新日志添加关闭按钮
+* 订阅源添加黑名单和白名单,为列表用,分隔支持正则,如果有黑名单,黑名单匹配返回空白,
+  没有黑名单再判断白名单,在白名单中的才通过, 都没有不做处理
+* 更新web编辑；web书架章节序号更改后会**同步序号**，更精确的已读字数同步请**返回书架界面** by Xwite
 
 **2023/01/31**
-* web giá sách: Chữa trị tiến độ bug cùng chương tiết nhảy chuyển bug, đoạn bên trong khảm văn tự hình ảnh lười tăng thêm by Xwite
+
+* web书架: 修复进度bug和章节跳转bug，段落内嵌文字图片懒加载 by Xwite
 
 **2023/01/29**
-* Ưu hóa tiếng Anh hai đầu xếp hợp lý sắp chữ
 
-* web giá sách: Tiến độ đồng bộ chính xác đến đã đọc số lượng từ, trở về giá sách lúc đồng bộ app by Xwite
-
-* Một chút ưu hóa by Horis
+* 优化英文两端对齐排版
+* web书架：进度同步精确到已读字数，返回书架时同步app by Xwite
+* 一些优化 by Horis
 
 **2023/01/20**
-* web giá sách không hạn chế lớn nhất độ rộng by Xwite
 
-* Một chút ưu hóa by Horis
+* web书架不限制最大宽度 by Xwite
+* 一些优化 by Horis
 
 **2023/01/10**
-* Khác một chút có phần tổ chỗ cũng ủng hộ độc lập sắp xếp
 
-* Ưu hóa lùng tìm, ưu hóa cache, nếm thử giải quyết bộ phận sách nguyên chiếm dụng bộ nhớ quá lớn dẫn đến OOM
-
-* Chữa trị tiếng Trung AndroidZipFile không thể đọc đến không phải ASCII ký tự văn kiện tên by ag2s20150909
-
-* Cái khác một chút ưu hóa
+* 其他一些有分组的地方也支持独立排序
+* 优化搜索,优化缓存,尝试解决部分书源占用内存过大导致OOM
+* 修复中文AndroidZipFile不能读取非ASCII字符文件名 by ag2s20150909
+* 其它一些优化
 
 **2023/01/06**
-* Giá sách phân tổ ủng hộ độc lập sắp xếp
 
-* Thích phối android 13 chủ đề ô biểu tượng
-
-* Một chút ưu hóa by Horis
+* 书架分组支持独立排序
+* 适配 android 13 主题图标
+* 一些优化 by Horis
 
 ----
-* [2022 năm nhật ký ](https://github.com/gedoor/legado/blob/record2022/app/src/main/assets/updateLog.md)
-* [2021 năm nhật ký ](https://github.com/gedoor/legado/blob/record2021/app/src/main/assets/updateLog.md)
+
+* [2022年日志](https://github.com/gedoor/legado/blob/record2022/app/src/main/assets/updateLog.md)
+* [2021年日志](https://github.com/gedoor/legado/blob/record2021/app/src/main/assets/updateLog.md)

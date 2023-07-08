@@ -1,20 +1,20 @@
-# Đặt mua nguyên quản lý giới diện trợ giúp
+# 订阅源管理界面帮助
 
-- Đặt mua nguyên có thể thông qua quy tắc đặt mua một chút internet nội dung
-- Sách nguyên góc trên bên phải tiêu chí
-  - Điểm màu lục biểu thị sách nguyên có phát hiện, lại bắt đầu sử dụng phát hiện
-  - Điểm đỏ biểu thị sách nguyên có phát hiện, nhưng mà không khải dụng
-  - Không có tiêu chí biểu thị cuốn sách này nguyên không có phát hiện
-- Góc trên bên phải có phần tổ menu, có thể theo phân tổ sàng lọc sách nguyên
-  - Góc trên bên phải càng nhiều trong menu bao hàm
-  - Mới xây đặt mua nguyên
-  - Bản địa dẫn vào
-  - Internet dẫn vào
-  - Mã hai chiều dẫn vào
-  - Chia sẻ chọn trúng nguyên
-- Lựa chọn nguyên càng nhiều thao tác bên phải góc dưới trong menu mặt, thao tác cũng là nhằm vào lựa chọn sách nguyên
-  - Khải dụng lựa chọn
-  - Cấm dùng lựa chọn
-  - Đưa lên cao nhất lựa chọn
-  - Đưa thực chất lựa chọn
-  - Dẫn xuất lựa chọn
+* 订阅源可以通过规则订阅一些网络内容
+* 书源右上角标志
+  * 绿点表示书源有发现,且启用了发现
+  * 红点表示书源有发现,但是未启用
+  * 没有标志表示此书源没有发现
+* 右上角有分组菜单,可以按分组筛选书源
+* 右上角更多菜单里包含
+  * 新建订阅源
+  * 本地导入
+  * 网络导入
+  * 二维码导入
+  * 分享选中源
+* 选择源的更多操作在右下角的菜单里面,操作都是针对选择的书源
+  * 启用所选
+  * 禁用所选
+  * 置顶所选
+  * 置底所选
+  * 导出所选

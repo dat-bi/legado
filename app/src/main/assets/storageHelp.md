@@ -1,2 +1,2 @@
-* Do giới hạn truy cập lưu trữ của Android, việc đọc cần phải thiết lập ** thư mục con trong thư mục công cộng ** để thực hiện sao chép sách, tải xuống, chẳng hạn như Documents / Books, Download / Books
-* Nếu không thiết lập, bạn sẽ không thể sử dụng đúng các tính năng liên quan đến sách địa phương, sách webDav
+* 由于安卓的存储访问限制，阅读需要设置**公共目录下的子目录**来实现书籍拷贝、下载，例如Documents/Books、Download/Books
+* 如不设置，将无法正常使用本地书籍、webDav书籍的相关功能

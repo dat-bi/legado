@@ -68,10 +68,10 @@ class SearchActivity : VMBaseActivity<ActivityBookSearchBinding, SearchViewModel
     private val searchFinishCallback: (isEmpty: Boolean) -> Unit = searchFinish@{ isEmpty ->
         if (!isEmpty || viewModel.searchScope.isAll()) return@searchFinish
         launch {
-            alert("kết quả tìm kiếm trống") {
+            alert("搜索结果为空") {
                 val precisionSearch = appCtx.getPrefBoolean(PreferKey.precisionSearch)
                 if (precisionSearch) {
-                    setMessage("${viewModel.searchScope.display}Kết quả tìm kiếm nhóm trống, liệu có tắt tìm kiếm chính xác hay không？")
+                    setMessage("${viewModel.searchScope.display}分组搜索结果为空，是否关闭精准搜索？")
                     yesButton {
                         appCtx.putPrefBoolean(PreferKey.precisionSearch, false)
                         precisionSearchMenuItem?.isChecked = false
@@ -79,7 +79,7 @@ class SearchActivity : VMBaseActivity<ActivityBookSearchBinding, SearchViewModel
                         viewModel.search(searchView.query.toString())
                     }
                 } else {
-                    setMessage("${viewModel.searchScope.display}Kết quả tìm kiếm nhóm trống, liệu có chuyển sang tất cả các nhóm hay không？")
+                    setMessage("${viewModel.searchScope.display}分组搜索结果为空，是否切换到全部分组？")
                     yesButton {
                         viewModel.searchScope.update("")
                     }

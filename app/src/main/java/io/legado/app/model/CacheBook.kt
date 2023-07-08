@@ -83,7 +83,7 @@ object CacheBook {
 
     val downloadSummary: String
         get() {
-            return "đang tải xuống:${onDownloadCount}|Chờ:${waitCount}|thất bại:${errorDownloadMap.count()}|thành công:${successDownloadSet.size}"
+            return "正在下载:${onDownloadCount}|等待中:${waitCount}|失败:${errorDownloadMap.count()}|成功:${successDownloadSet.size}"
         }
 
     val isRun: Boolean
@@ -182,7 +182,7 @@ object CacheBook {
                 waitDownloadSet.add(chapter.index)
             } else {
                 AppLog.put(
-                    "Tải xuống${book.name}-${chapter.title}thất bại\n${error.localizedMessage}",
+                    "下载${book.name}-${chapter.title}失败\n${error.localizedMessage}",
                     error
                 )
             }
@@ -275,7 +275,7 @@ object CacheBook {
                 //出现错误等待一秒后重新加入待下载列表
                 delay(1000)
                 onPostError(chapter, it)
-                downloadFinish(chapter, "Không nhận được văn bản\n${it.localizedMessage}")
+                downloadFinish(chapter, "获取正文失败\n${it.localizedMessage}")
             }.onCancel {
                 onCancel(chapterIndex)
             }.onFinally {
@@ -301,7 +301,7 @@ object CacheBook {
                     downloadFinish(chapter, content, resetPageOffset)
                 }.onError {
                     onError(chapter, it)
-                    downloadFinish(chapter, "Không nhận được văn bản\n${it.localizedMessage}", resetPageOffset)
+                    downloadFinish(chapter, "获取正文失败\n${it.localizedMessage}", resetPageOffset)
                 }.onCancel {
                     onCancel(chapter.index)
                 }.onFinally {

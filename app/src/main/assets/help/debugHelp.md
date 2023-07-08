@@ -1,22 +1,22 @@
-# Sách nguyên điều chỉnh thử
+# 书源调试
 
-* Điều chỉnh thử lùng tìm >> Đưa vào chữ mấu chốt, như:
+* 调试搜索>>输入关键字，如：
 ```
 系统
 ```
-* Điều chỉnh thử phát hiện >> Đưa vào phát hiện URL, như:
+* 调试发现>>输入发现URL，如：
 ```
 月票榜::https://www.qidian.com/rank/yuepiao?page={{page}}
 ```
-* Trang chi tiết gỡ lỗi>>Nhập url trang chi tiết, chẳng hạn như:
+* 调试详情页>>输入详情页URL，如：
 ```
 https://m.qidian.com/book/1015609210
 ```
-* Điều chỉnh thử trang mục lục >> Đưa vào trang mục lục URL, như:
+* 调试目录页>>输入目录页URL，如：
 ```
 ++https://www.zhaishuyuan.com/read/30394
 ```
-*  Điều chỉnh thử trang >> Đưa vào trang URL, như:
+* 调试正文页>>输入正文页URL，如：
 ```
 --https://www.zhaishuyuan.com/chapter/30394/20940996
 ```

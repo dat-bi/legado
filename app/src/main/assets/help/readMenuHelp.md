@@ -1,43 +1,46 @@
-# Đọc giới diện trợ giúp văn kiện
-## Đọc giới diện Menu chính
-* Đỉnh chóp thao tác
-  * Tên chương xưng: Click có thể biên tập sách nguyên
-  * Chương tiết url: Click có thể mở ra trình duyệt xem
-  * Menu:** Loại hình khác nhau sách biểu hiện menu khác biệt **. Tường tình thỉnh xem xét menu văn tự, dài theo menu ô biểu tượng có thể biểu hiện văn tự
-* Ở giữa bên trái - Độ sáng điều tiết
-  * Độ sáng điều tiết đỉnh có đi theo hệ thống độ sáng chốt mở, sau khi mở ra độ sáng đi theo hệ thống, đóng lại sau mới có thể điều tiết độ sáng đầu
-* Dưới đáy thao tác
-  * 4 cái hình tròn cái nút theo thứ tự vì Toàn văn lùng tìm ✧ Tự động lật giấy ✧ Thay thế tịnh hóa ✧ Hoán đổi ban đêm hình thức
-  * Chương trước ✧ Chương sau ở giữa thanh tiến độ vì số trang tiến độ, phải nhanh chóng nhảy chuyển chương tiết click mục lục cái nút tiến vào mục lục nhanh chóng nhảy chuyển
-  * Mục lục -> Mục lục cùng phiếu tên sách giới diện
-  * Đọc chậm -> Đơn đánh ra bắt đầu đọc chậm, dài ấn vào vào đọc chậm thiết trí giới diện
-  * Giới diện -> Tất cả sắp chữ thiết trí đều ở bên trong
-  * Thiết trí -> Cái khác một chút thiết trí, không tìm được thiết trí đi ở đây xem, có thể nhấp nhô
-## Toàn văn lùng tìm
+# 阅读界面帮助文档
 
-Lùng tìm bản địa cache hoặc bản địa văn kiện, không thể lùng tìm tại tuyến nội dung
+## 阅读界面主菜单
+* 顶部操作
+  * 章节名称:点击可编辑书源
+  * 章节url:点击可打开浏览器浏览
+  * 菜单:**不同类型的书籍显示的菜单不同**。详情请查看菜单文字,长按菜单图标可显示文字
+* 中间左侧-亮度调节
+  * 亮度调节的顶端有跟随系统亮度的开关,打开后亮度跟随系统,关闭后才可以调节亮度条
+* 底部操作
+  * 4个圆形按钮依次为 全文搜索✧自动翻页✧替换净化✧切换夜间模式
+  * 上一章✧下一章中间的进度条为页数进度,要快速跳转章节点击目录按钮进入目录快速跳转
+  * 目录->目录和书签界面
+  * 朗读->单击开始朗读,长按进入朗读设置界面
+  * 界面->所有排版设置都在里面
+  * 设置->其它一些设置,找不到的设置去这里看看,可滚动
 
-Sách số lượng từ, tịnh hóa quy tắc số lượng, giản phồn chuyển hóa, văn chương phân đoạn đều biết ảnh hưởng đến lùng tìm tốc độ, thỉnh xét tình hình cụ thể khải dụng
-## Đọc chậm thiết trí giới diện
-  * Hậu trường -> Tiến vào hậu trường đọc chậm, có thể làm một chút chuyện khác
-  * Thiết trí -> Đọc chậm động cơ thiết trí, có thể hoán đổi bản địa TTS cùng tại tuyến đọc chậm, tại tuyến đọc chậm có thể tự định nghĩa
-## Sắp chữ thiết trí giới diện
-  * Ban ngày hình thức cùng ban đêm hình thức bối cảnh khác biệt sắp đặt giống nhau
-  * Dùng chung sắp đặt -> Khải dụng dùng chung sắp đặt lúc tất cả bối cảnh sử dụng cùng một sắp đặt, đóng lại dùng chung sắp đặt thì mỗi cái bối cảnh đơn độc sắp đặt
-  * Dài đấm lưng cảnh có thể vào văn tự màu sắc cùng bối cảnh thiết trí giới diện
-## Cái khác thiết trí giới diện
-  * Màn hình phương hướng
-  * Màn hình quá thời gian
-  * Ẩn tàng thanh trạng thái
-  * Mở rộng đến tóc cắt ngang trán
-  * Ẩn tàng hướng dẫn cột
-  * Văn tự hai đầu xếp hợp lý
-  * Văn tự dưới đáy xếp hợp lý
-  * Âm lượng khóa lật giấy
-  * Click lật giấy
-  * Đọc chậm lúc âm lượng khóa lật giấy
-  * Tự động đổi nguyên -> Sách nguyên bị xóa bỏ lúc tự động hoán đổi đến sách khác nguyên
-  * Dài theo lựa chọn văn bản
-  * Biểu hiện độ sáng điều tiết khống kiện
-  * Click khu vực thiết trí
-  * Tự định nghĩa lật giấy ấn phím
+## 全文搜索
+搜索本地缓存或者本地文件，不能搜索在线内容  
+书籍字数、净化规则数量、简繁转化、文章分段都会影响到搜索速度，请酌情启用
+
+## 朗读设置界面
+* 后台->进入后台朗读,可以做一些其它事
+* 设置->朗读引擎设置,可以切换本地TTS和在线朗读,在线朗读可自定义
+
+## 排版设置界面
+* 白天模式和夜间模式背景不同布局相同
+* 共用布局->启用共用布局时所有背景使用同一布局,关闭共用布局则每个背景单独布局
+* 长按背景可进入文字颜色和背景设置界面
+
+## 其它设置界面
+* 屏幕方向
+* 屏幕超时
+* 隐藏状态栏
+* 扩展到刘海
+* 隐藏导航栏
+* 文字两端对齐
+* 文字底部对齐
+* 音量键翻页
+* 点击翻页
+* 朗读时音量键翻页
+* 自动换源->书源被删除时自动切换到其它书源
+* 长按选择文本
+* 显示亮度调节控件
+* 点击区域设置
+* 自定义翻页按键

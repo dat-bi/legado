@@ -1,29 +1,29 @@
-  # Sách nguyên quản lý giới diện trợ giúp
+# 书源管理界面帮助
 
-* Sách nguyên góc trên bên phải tiêu chí
-  * Điểm màu lục biểu thị sách nguyên có phát hiện, lại bắt đầu sử dụng phát hiện
-  * Điểm đỏ biểu thị sách nguyên có phát hiện, nhưng mà không khải dụng
-  * Không có tiêu chí biểu thị cuốn sách này nguyên không có phát hiện
-* Góc trên bên phải có phần tổ menu, có thể theo phân tổ sàng lọc sách nguyên
-* Góc trên bên phải càng nhiều trong menu bao hàm
-  * Mới xây sách nguyên
-  * Bản địa dẫn vào
-  * Internet dẫn vào
-  * Mã hai chiều dẫn vào
-  * Chia sẻ chọn trúng nguyên
-* Lựa chọn nguyên càng nhiều thao tác bên phải góc dưới trong menu mặt, thao tác cũng là nhằm vào lựa chọn sách nguyên
-  * Khải dụng lựa chọn
-  * Cấm dùng lựa chọn
-  * Tăng thêm phân tổ
-  * Gỡ ra phân tổ
-  * Khải dụng phát hiện
-  * Cấm dùng phát hiện
-  * Đưa lên cao nhất lựa chọn
-  * Đưa thực chất lựa chọn
-  * Dẫn xuất lựa chọn
-  * Kiểm tra lựa chọn
-* Kiểm tra sách nguyên có thể đại lượng kiểm tra sách nguyên, bởi vì internet chờ nguyên nhân kết quả giới hạn tham khảo
-  * " Kiểm tra thành công " Là chỉ lựa chọn kiểm tra hạng mục toàn bộ thông qua
-  * Có thể bình thường phân biệt lùng tìm vì khoảng không, phát hiện vì khoảng không, lùng tìm ( Phát hiện ) mục lục vì khoảng không, lùng tìm ( Phát hiện ) vì khoảng không, kiểm tra quá thời gian, js thi hành sai lầm đưa đến mất đi hiệu lực, còn lại nguyên nhân coi là website mất đi hiệu lực
-  * Kiểm tra lùng tìm ưu tiên sử dụng sách nguyên điền kiểm tra từ mấu chốt, không tồn tại lúc sử dụng người sử dụng truyền vào từ mấu chốt
-  * Kiểm tra sau khi kết thúc sẽ tự động sàng lọc " Mất đi hiệu lực " Sách nguyên
+* 书源右上角标志
+  * 绿点表示书源有发现,且启用了发现
+  * 红点表示书源有发现,但是未启用
+  * 没有标志表示此书源没有发现
+* 右上角有分组菜单,可以按分组筛选书源
+* 右上角更多菜单里包含
+  * 新建书源
+  * 本地导入
+  * 网络导入
+  * 二维码导入
+  * 分享选中源
+* 选择源的更多操作在右下角的菜单里面,操作都是针对选择的书源
+  * 启用所选
+  * 禁用所选
+  * 添加分组
+  * 移除分组
+  * 启用发现
+  * 禁用发现
+  * 置顶所选
+  * 置底所选
+  * 导出所选
+  * 校验所选
+* 校验书源可批量校验书源，由于网络等原因结果仅限参考
+  * "校验成功"是指所选的校验项目全部通过
+  * 可正常识别搜索为空、发现为空、搜索(发现)目录为空、搜索(发现)正文为空、校验超时、js执行错误导致的失效，其余的原因视为网站失效
+  * 校验搜索优先使用书源填写的校验关键词，不存在时使用用户输入的关键词
+  * 校验结束后会自动筛选"失效"书源

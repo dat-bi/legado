@@ -1,23 +1,19 @@
-# WebDav dành trước giáo trình
-### Đọc ủng hộ mây dành trước, áp dụng WebDav hiệp nghị, tất cả ủng hộ WebDav vân bàn cũng có thể, đề nghị áp dụng quả hạch mây, mỗi tháng miễn phí 1G lưu lượng, dùng để dành trước đọc đầy đủ, phía dưới liền áp dụng quả hạch mây tới nói giải phối trí trình tự.
-1. Mở ra quả hạch lưới mây đứng https://www.jianguoyun.com/d/home#/
-2. Nếu như không có đăng ký qua quả hạch mây ghi danh trước một chút
+# WebDav备份教程
 
-3. Đăng lục quả hạch mây
+### 阅读支持云备份,采用WebDav协议,所有支持WebDav的云盘都可以,建议采用坚果云,每月免费1G流量,用来备份阅读足够了,下面就采用坚果云来讲解配置步骤.
 
-4. Góc trên bên phải người sử dụng tên ấn mở điểm tài khoản tin tức
+1. 打开坚果云网站 https://www.jianguoyun.com/d/home#/
+2. 如果没有注册过坚果云先注册一下
+3. 登录坚果云
+4. 右上角用户名点开点账户信息
+5. 点击安全选项
+6. 在第三方管理里添加应用
+7. 将应用示例里的服务器地址,用户名,和密码填到阅读的WebDav设置里
+8. 阅读的WebDav配置在我的-备份与恢复,创建子文件夹选项保持默认即可
+9. 设置完成后手动执行一下备份,看看是否成功
+10. 恢复时选择想要恢复的备份文件
 
-5. Click an toàn tuyển hạng
+### 自动备份说明
 
-6. Tại phe thứ ba trong sự quản lý tăng thêm ứng dụng
-
-7. Đem ứng dụng thí dụ mẫu bên trong server địa chỉ, người sử dụng tên, cùng mật mã lấp đến đọc WebDav thiết trí bên trong
-
-8. Đọc WebDav phối trí tại ta - Dành trước cùng khôi phục, sáng tạo Tử Văn kiện kẹp tuyển hạng bảo trì ngầm thừa nhận liền có thể
-
-9. Thiết trí sau khi hoàn thành thủ động thi hành một chút dành trước, xem có thành công hay không
-
-10. Khôi phục lúc lựa chọn muốn khôi phục dành trước văn kiện
-### Tự động dành trước chứng minh
-* Thiết trí hảo dành trước sau đó mỗi lần ra khỏi App sẽ tự động tiến hành dành trước
-* WebDav cùng một ngày dành trước sẽ bao trùm, không đồng nhất kỳ dành trước sẽ không bao trùm
+* 设置好备份之后每次退出App会自动进行备份
+* WebDav同一天的备份会覆盖,不同日期的备份不会覆盖

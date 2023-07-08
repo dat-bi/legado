@@ -72,19 +72,19 @@
 		<item>@string/screen_portrait</item>
 		<item>@string/screen_landscape</item>
 		<item>@string/screen_sensor</item>
-		<item>Đảo ngược màn hình dọc</item>
+		<item>反向竖屏</item>
 	</string-array>
 
 	<string-array name="double_page_title">
-		<item>Trang đơn tất cả các trạm</item>
-		<item>Tất cả các trạm</item>
-		<item>Trang bên</item>
-		<item>Sàn / Màn hình ngang</item>
+		<item>全局单页</item>
+		<item>全局双页</item>
+		<item>横屏双页</item>
+		<item>平板/横屏双页</item>
 	</string-array>
 
 	<string-array name="progress_bar_behavior_title">
-		<item>Điều chỉnh số trang trong chương này</item>
-		<item>Điều chỉnh vị trí chương</item>
+		<item>调整本章页数</item>
+		<item>调整章节位置</item>
 	</string-array>
 
 	<string-array name="icon_names" tools:ignore="Typos">
