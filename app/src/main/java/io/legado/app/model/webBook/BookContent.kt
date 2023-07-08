@@ -41,7 +41,7 @@ object BookContent {
         body ?: throw NoStackTraceException(
             appCtx.getString(R.string.error_get_web_content, baseUrl)
         )
-        Debug.log(bookSource.bookSourceUrl, "≡获取成功:${baseUrl}")
+        Debug.log(bookSource.bookSourceUrl, "≡Thu hoạch thành công:${baseUrl}")
         Debug.log(bookSource.bookSourceUrl, body, state = 40)
         val mNextChapterUrl = if (nextChapterUrl.isNullOrEmpty()) {
             appDb.bookChapterDao.getChapter(book.bookUrl, bookChapter.index + 1)?.url
@@ -63,7 +63,7 @@ object BookContent {
             val title = analyzeRule.runCatching {
                 getString(titleRule)
             }.onFailure {
-                Debug.log(bookSource.bookSourceUrl, "获取标题出错, ${it.localizedMessage}")
+                Debug.log(bookSource.bookSourceUrl, "Lỗi nhận tiêu đề,${it.localizedMessage}")
             }.getOrNull()
             if (!title.isNullOrBlank()) {
                 bookChapter.title = title
@@ -98,12 +98,12 @@ object BookContent {
                     nextUrl =
                         if (contentData.second.isNotEmpty()) contentData.second[0] else ""
                     contentList.add(contentData.first)
-                    Debug.log(bookSource.bookSourceUrl, "第${contentList.size}页完成")
+                    Debug.log(bookSource.bookSourceUrl, "Thứ${contentList.size}Trang hoàn thành")
                 }
             }
-            Debug.log(bookSource.bookSourceUrl, "◇本章总页数:${nextUrlList.size}")
+            Debug.log(bookSource.bookSourceUrl, "◇Tổng số trang trong chương này:${nextUrlList.size}")
         } else if (contentData.second.size > 1) {
-            Debug.log(bookSource.bookSourceUrl, "◇并发解析正文,总页数:${contentData.second.size}")
+            Debug.log(bookSource.bookSourceUrl, "◇Đồng phát phân tích, cuối cùng số trang:${contentData.second.size}")
             withContext(IO) {
                 val asyncArray = Array(contentData.second.size) {
                     async(IO) {
@@ -134,12 +134,12 @@ object BookContent {
         if (!replaceRegex.isNullOrEmpty()) {
             contentStr = analyzeRule.getString(replaceRegex, contentStr)
         }
-        Debug.log(bookSource.bookSourceUrl, "┌获取章节名称")
+        Debug.log(bookSource.bookSourceUrl, "┌Thu hoạch tên chương")
         Debug.log(bookSource.bookSourceUrl, "└${bookChapter.title}")
-        Debug.log(bookSource.bookSourceUrl, "┌获取正文内容")
+        Debug.log(bookSource.bookSourceUrl, "┌Thu hoạch nội dung")
         Debug.log(bookSource.bookSourceUrl, "└\n$contentStr")
         if (!bookChapter.isVolume && contentStr.isBlank()) {
-            throw ContentEmptyException("内容为空")
+            throw ContentEmptyException("nội dung trống")
         }
         if (needSave) {
             BookHelp.saveContent(bookSource, book, bookChapter, contentStr)
@@ -174,7 +174,7 @@ object BookContent {
         if (getNextPageUrl) {
             val nextUrlRule = contentRule.nextContentUrl
             if (!nextUrlRule.isNullOrEmpty()) {
-                Debug.log(bookSource.bookSourceUrl, "┌获取正文下一页链接", printLog)
+                Debug.log(bookSource.bookSourceUrl, "┌Nhận liên kết đến trang tiếp theo của văn bản", printLog)
                 analyzeRule.getStringList(nextUrlRule, isUrl = true)?.let {
                     nextUrlList.addAll(it)
                 }

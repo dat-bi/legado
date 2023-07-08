@@ -1,6 +1,5 @@
-# 替换管理界面帮助
-
-* 替换规则是用来替换正文内容的一种规则
-  * 菜单可以新建和导入规则
-  * 可以拖动排序
-  * 可以选择操作
+# Thay thế quản lý giới diện trợ giúp
+  * Thay thế quy tắc là dùng để thay thế nội dung một loại quy tắc
+    * Menu có thể mới xây cùng dẫn vào quy tắc
+    * Có thể kéo lấy sắp xếp
+    * Có thể lựa chọn thao tác

@@ -1,376 +1,314 @@
-# js变量和函数
+# js lượng biến đổi cùng hàm số
 
-书源规则中使用js可访问以下变量
-> java 变量-当前类  
-> baseUrl 变量-当前url,String  
-> result 变量-上一步的结果  
-> book 变量-[书籍类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/data/entities/Book.kt)  
-> chapter 变量-[当前目录类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/data/entities/BookChapter.kt)  
-> source 变量-[基础书源类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/data/entities/BaseSource.kt)  
-> cookie 变量-[cookie操作类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/http/CookieStore.kt)  
-> cache 变量-[缓存操作类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/CacheManager.kt)  
-> title 变量-当前标题,String  
-> src 内容,源码  
-> nextChapterUrl 变量 下一章节url  
-
-## 当前类对象的可使用的部分方法
-
-### [AnalyzeUrl](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/model/analyzeRule/AnalyzeUrl.kt) 部分函数
-> js中通过java.调用,只在`登录检查JS`规则中有效
+Sách nguyên quy tắc bên trong sử dụng js có thể phỏng vấn phía dưới lượng biến đổi
+> java lượng biến đổi - Trước mắt loại
+> baseUrl lượng biến đổi - Trước mắt url,String
+> result lượng biến đổi - Bên trên một bước kết quả
+> book lượng biến đổi -[ Sách loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/data/entities/Book.kt)> chapter lượng biến đổi -[ Trước mắt mục lục loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/data/entities/BookChapter.kt)> source lượng biến đổi -[ Cơ sở sách nguyên loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/data/entities/BaseSource.kt)> cookie lượng biến đổi -[cookie thao tác loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/http/CookieStore.kt)> cache lượng biến đổi -[ Cache thao tác loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/CacheManager.kt)> title lượng biến đổi - Trước mắt tiêu đề,String
+> src nội dung, nguyên mã
+> nextChapterUrl lượng biến đổi Chương sau tiết url
+## Trước mắt loại đối tượng có thể sử dụng bộ phận phương pháp
+### [AnalyzeUrl](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/model/analyzeRule/AnalyzeUrl.kt) bộ phận hàm số
+> js bên trong thông qua java. Điều động, chỉ ở ` Đăng lục kiểm tra JS` Quy tắc bên trong hữu hiệu
 ```
-initUrl() //重新解析url,可以用于登录检测js登录后重新解析url重新访问
-getHeaderMap().putAll(source.getHeaderMap(true)) //重新设置登录头
-getStrResponse( jsStr: String? = null, sourceRegex: String? = null) //返回访问结果,文本类型,书源内部重新登录后可调用此方法重新返回结果
-getResponse(): Response //返回访问结果,网络朗读引擎采用的是这个,调用登录后在调用这方法可以重新访问,参考阿里云登录检测
-```
+initUrl() // một lần nữa phân tích url, có thể dùng tại đăng lục kiểm trắc js đăng lục sau một lần nữa phân tích url một lần nữa phỏng vấn
 
-### [AnalyzeRule](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/model/analyzeRule/AnalyzeRule.kt) 部分函数
-* 获取文本/文本列表
-> `mContent` 待解析源代码，默认为当前页面  
-> `isUrl` 链接标识，默认为`false`
-```
-java.getString(ruleStr: String?, mContent: Any? = null, isUrl: Boolean = false)
-java.getStringList(ruleStr: String?, mContent: Any? = null, isUrl: Boolean = false)
-```
-* 设置解析内容
+getHeaderMap().putAll(source.getHeaderMap(true)) // thiết trí cái mới đăng lục đầu
 
-```
-java.setContent(content: Any?, baseUrl: String? = null):
-```
+getStrResponse( jsStr: String? null, sourceRegex: String? null) // trở về phỏng vấn kết quả, văn bản loại hình, sách nguyên nội bộ một lần nữa đăng lục sau có thể thuyên chuyển này phương pháp một lần nữa trở về kết quả
 
-* 获取Element/Element列表
-
-> 如果要改变解析源代码，请先使用`java.setContent`
-
+getResponse(): Response // trở về phỏng vấn kết quả, internet đọc chậm động cơ áp dụng chính là cái này, điều động đăng lục sau tại điều động phương pháp kia có thể một lần nữa phỏng vấn, tham khảo A Lí mây đăng lục kiểm trắc
+```### [AnalyzeRule](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/model/analyzeRule/AnalyzeRule.kt) bộ phận hàm số
+* Thu hoạch văn bản / văn bản danh sách
+> `mContent` Chờ phân tích mật mã gốc, thừa nhận làm trước mắt giao diện
+> `isUrl` Kết nối tiêu chí, thừa nhận làm `false````
+java.getString(ruleStr: String?, mContent: Any? null, isUrl: Boolean false)
+java.getStringList(ruleStr: String?, mContent: Any? null, isUrl: Boolean false)```* Thiết trí phân tích nội dung
 ```
+java.setContent(content: Any?, baseUrl: String? null):```* Thu hoạch Element/Element danh sách
+> Nếu như phải cải biến phân tích mật mã gốc, thỉnh sử dụng trước `java.setContent````
 java.getElement(ruleStr: String)
-java.getElements(ruleStr: String)
-```
-
-* 重新搜索书籍/重新获取目录url
-
-> 可以在刷新目录之前使用,有些书源书籍地址和目录url会变
-
+java.getElements(ruleStr: String)```* Một lần nữa lùng tìm sách / một lần nữa thu hoạch mục lục url
+> Có thể tại đổi mới mục lục phía trước sử dụng, có chút sách nguyên sách địa chỉ cùng mục lục url sẽ thành
 ```
 java.reGetBook()
-java.refreshTocUrl()
-```
-* 变量存取
-
+java.refreshTocUrl()```* Lượng biến đổi tồn lấy
 ```
 java.get(key)
-java.put(key, value)
-```
-
-### [js扩展类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/JsExtensions.kt) 部分函数
-
-* 网络请求
-
+java.put(key, value)```### [js mở rộng loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/JsExtensions.kt) bộ phận hàm số
+* Internet thỉnh cầu
 ```
 java.ajax(urlStr): String
-java.ajaxAll(urlList: Array<String>): Array<StrResponse?>
-//返回Response 方法body() code() message() header() raw() toString() 
+
+java.ajaxAll(urlList: Array): Array
+// trở về Response phương pháp body() code() message() header() raw() toString()
 java.connect(urlStr): StrResponse
 
-java.post(url: String, body: String, headerMap: Map<String, String>): Connection.Response
+java.post(url: String, body: String, headerMap: Map): Connection.Response
 
-java.get(url: String, headerMap: Map<String, String>): Connection.Response
+java.get(url: String, headerMap: Map): Connection.Response
 
-java.head(url: String, headerMap: Map<String, String>): Connection.Response
+java.head(url: String, headerMap: Map): Connection.Response
+* Sử dụng webView phỏng vấn internet
+* @param html trực tiếp dùng webView ghi vào html, nếu như html vì khoảng không trực tiếp phỏng vấn url
+* @param url html bên trong nếu có tương đối đường tắt tài nguyên không truyền vào url phỏng vấn không được
+* @param js dùng để lấy trở về giá trị js câu nói, không có liền trở về toàn bộ mật mã gốc
+* @return trở về js lấy được nội dung
 
-* 使用webView访问网络
-* @param html 直接用webView载入的html, 如果html为空直接访问url
-* @param url html内如果有相对路径的资源不传入url访问不了
-* @param js 用来取返回值的js语句, 没有就返回整个源代码
-* @return 返回js获取的内容
 java.webView(html: String?, url: String?, js: String?): String
+* Sử dụng nội trí trình duyệt mở ra kết nối, có thể dùng ở thu hoạch nghiệm chứng mã Thủ động nghiệm chứng website phòng bò
+* @param url muốn mở ra kết nối
+* @param title trình duyệt tiêu đề
 
-* 使用内置浏览器打开链接，可用于获取验证码 手动验证网站防爬
-* @param url 要打开的链接
-* @param title 浏览器的标题
-java.startBrowser(url: String, title: String)
+java.startBrowser(url: String, title: String)* Sử dụng nội trí trình duyệt mở ra kết nối, đồng thời chờ đợi website kết quả .body() thu hoạch website nội dung
 
-* 使用内置浏览器打开链接，并等待网页结果 .body()获取网页内容
 java.startBrowserAwait(url: String, title: String): StrResponse
-```
-* 调试
+```* Điều chỉnh thử
 ```
 java.log(msg)
-java.logType(var)
+java.logType(var)```* Thu hoạch người sử dụng truyền vào nghiệm chứng mã
 ```
-* 获取用户输入的验证码
-```
-java.getVerificationCode(imageUrl)
-```
-* 弹窗提示
+java.getVerificationCode(imageUrl)```* Pop-up nhắc nhở
 ```
 java.longToast(msg: Any?)
-java.toast(msg: Any?)
-```
-* 从网络(由java.cacheFile实现)、本地读取JavaScript文件，导入上下文请手动`eval(String(...))`
-```
-java.importScript(url)
-//相对路径支持android/data/{package}/cache
+java.toast(msg: Any?)```* Từ internet ( Từ java.cacheFile thực hiện ), bản địa đọc đến JavaScript văn kiện, dẫn vào trên dưới văn thỉnh thủ động `eval(String(...))````
+java.importScript(url)// tương đối đường đi ủng hộ android/data/{package}/cache
+
 java.importScript(relativePath)
-java.importScript(absolutePath)
+java.importScript(absolutePath)```* Cache internet văn kiện
 ```
-* 缓存网络文件
-```
-获取
+Thu hoạch
+
 java.cacheFile(url)
 java.cacheFile(url,saveTime)
-执行内容
+Thi hành nội dung
+
 eval(String(java.cacheFile(url)))
-删除缓存文件
-cache.delete(java.md5Encode16(url))
-```
-* 获取网络压缩文件里面指定路径的数据 *可替换Zip Rar 7Z
+Xóa bỏ cache văn kiện
+
+cache.delete(java.md5Encode16(url))```* Thu hoạch internet áp súc trong văn kiện mặt chỉ định đường tắt số liệu * Có thể thay đổi Zip Rar 7Z
 ```
 java.get*StringContent(url: String, path: String): String
 
 java.get*StringContent(url: String, path: String, charsetName: String): String
 
-java.get*ByteArrayContent(url: String, path: String): ByteArray?
-
-```
-* base64
-> flags参数可省略，默认Base64.NO_WRAP，查看[flags参数说明](https://blog.csdn.net/zcmain/article/details/97051870)
-```
+java.get*ByteArrayContent(url: String, path: String): ByteArray?```* base64
+> flags tham số có thể tiết kiệm hơi, ngầm thừa nhận Base64.NO_WRAP, xem xét [flags tham số chứng minh ](https://blog.csdn.net/zcmain/article/details/97051870)```
 java.base64Decode(str: String)
 java.base64Decode(str: String, charset: String)
 java.base64DecodeToByteArray(str: String, flags: Int)
-java.base64Encode(str: String, flags: Int)
+java.base64Encode(str: String, flags: Int)```* ByteArray
 ```
-* ByteArray
-```
-Str转Bytes
+Str chuyển Bytes
+
 java.strToBytes(str: String)
 java.strToBytes(str: String, charset: String)
-Bytes转Str
+Bytes chuyển Str
+
 java.bytesToStr(bytes: ByteArray)
-java.bytesToStr(bytes: ByteArray, charset: String)
+java.bytesToStr(bytes: ByteArray, charset: String)```* Hex
 ```
-* Hex
-```
-HexString 解码为字节数组
+HexString giải mã vì tự tiết mấy tổ
+
 java.hexDecodeToByteArray(hex: String)
-hexString 解码为utf8String
+hexString giải mã vì utf8String
+
 java.hexDecodeToString(hex: String)
-utf8 编码为hexString
-java.hexEncodeToString(utf8: String)
-```
-* 标识id
+utf8 mã hóa vì hexString
+
+java.hexEncodeToString(utf8: String)```* Tiêu chí id
 ```
 java.randomUUID()
-java.androidId()
+java.androidId()```* Phồn giản chuyển đổi
 ```
-* 繁简转换
-```
-将文本转换为简体
+Đem văn bản chuyển đổi thành giản thể
+
 java.t2s(text: String): String
-将文本转换为繁体
+
+Đem văn bản chuyển đổi thành phồn thể
+
 java.s2t(text: String): String
-```
-* 文件
->  所有对于文件的读写删操作都是相对路径,只能操作阅读缓存/android/data/{package}/cache/内的文件
-```
-//文件下载 url用于生成文件名，返回文件路径
+```* Văn kiện
+> Tất cả đối với văn kiện đọc viết xóa thao tác đều là tương đối đường đi, chỉ có thể thao tác đọc cache /android/data/{package}/cache/ bên trong văn kiện
+```// dưới văn kiện tái url dùng tạo ra văn kiện tên, trở về văn kiện đường đi
+
 downloadFile(url: String): String
-//文件解压,zipPath为压缩文件路径，返回解压路径
+// văn kiện bớt áp lực,zipPath vì áp súc văn kiện đường đi, trở về bớt áp lực đường đi
+
 unArchiveFile(zipPath: String): String
+
 unzipFile(zipPath: String): String
+
 unrarFile(zipPath: String): String
+
 un7zFile(zipPath: String): String
-//文件夹内所有文件读取
+// cặp văn kiện bên trong tất cả văn kiện đọc đến
+
 getTxtInFolder(unzipPath: String): String
-//读取文本文件
+// đọc đến văn bản văn kiện
+
 readTxtFile(path: String): String
-//删除文件
-deleteFile(path: String) 
-```
+// xóa bỏ văn kiện
 
-### [js加解密类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/JsEncodeUtils.kt) 部分函数
+deleteFile(path: String)```### [js thêm giải mã loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/JsEncodeUtils.kt) bộ phận hàm số
+> Cung cấp tại JavaScript trong hoàn cảnh mau lẹ điều động crypto phép tính hàm số, từ [hutool-crypto](https://www.hutool.cn/docs/#/crypto/ tường thuật tóm lược ) thực hiện
+> Khác không có tăng thêm phép tính nhưng tại JavaScript bên trong sử dụng `JavaImporter`[ Điều động ](https://m.jb51.net/article/92138.htm)Java, ví dụ có thể tham khảo ` Đọc chậm động cơ - A Lí mây giọng nói `> Chú ý: Nếu như truyền vào tham số không phải Utf8String có thể trước tiên điều động `java.hexDecodeToByteArray java.base64DecodeToByteArray` Chuyển thành ByteArray
+* Đối xứng mã hóa
+> Đưa vào tham số key iv ủng hộ ByteArray|**Utf8String**```// sáng tạo Cipher
 
-> 提供在JavaScript环境中快捷调用crypto算法的函数，由[hutool-crypto](https://www.hutool.cn/docs/#/crypto/概述)实现  
+java.createSymmetricCrypto(transformation, key, iv)```> Giải mã mã hóa tham số data ủng hộ ByteArray|Base64String|HexString|InputStream
+```// giải mã vì ByteArray String
 
-> 其他没有添加的算法可在JavaScript中使用`JavaImporter`[调用](https://m.jb51.net/article/92138.htm)Java，例子可参考`朗读引擎-阿里云语音`  
-
-> 注意：如果输入的参数不是Utf8String 可先调用`java.hexDecodeToByteArray java.base64DecodeToByteArray`转成ByteArray
-* 对称加密
-> 输入参数key iv 支持ByteArray|**Utf8String**
-```
-// 创建Cipher
-java.createSymmetricCrypto(transformation, key, iv)
-```
->解密加密参数 data支持ByteArray|Base64String|HexString|InputStream
-```
-//解密为ByteArray String
 cipher.decrypt(data)
-cipher.decryptStr(data)
-//加密为ByteArray Base64字符 HEX字符
+cipher.decryptStr(data)// mã hóa vì ByteArray Base64 ký tự HEX ký tự
+
 cipher.encrypt(data)
 cipher.encryptBase64(data)
-cipher.encryptHex(data)
-```
-* 非对称加密
-> 输入参数 key支持ByteArray|**Utf8String**
-```
-//创建cipher
-java.createAsymmetricCrypto(transformation)
-//设置密钥
-.setPublicKey(key)
-.setPrivateKey(key)
+cipher.encryptHex(data)```* Không đối với xưng mã hóa
+> Đưa vào tham số key ủng hộ ByteArray|**Utf8String**```// sáng tạo cipher
 
-```
-> 解密加密参数 data支持ByteArray|Base64String|HexString|InputStream  
-```
-//解密为ByteArray String
-cipher.decrypt(data,  usePublicKey: Boolean? = true
+java.createAsymmetricCrypto(transformation)// thiết trí chìa khóa bí mật
+.setPublicKey(key).setPrivateKey(key)```> Giải mã mã hóa tham số data ủng hộ ByteArray|Base64String|HexString|InputStream
+```// giải mã vì ByteArray String
+
+cipher.decrypt(data, usePublicKey: Boolean? true
 )
-cipher.decryptStr(data, usePublicKey: Boolean? = true
+cipher.decryptStr(data, usePublicKey: Boolean? true
+)// mã hóa vì ByteArray Base64 ký tự HEX ký tự
+
+cipher.encrypt(data, usePublicKey: Boolean? true
 )
-//加密为ByteArray Base64字符 HEX字符
-cipher.encrypt(data,  usePublicKey: Boolean? = true
+cipher.encryptBase64(data, usePublicKey: Boolean? true
 )
-cipher.encryptBase64(data,  usePublicKey: Boolean? = true
-)
-cipher.encryptHex(data,  usePublicKey: Boolean? = true
-)
-```
-* 签名
-> 输入参数 key 支持ByteArray|**Utf8String**
-```
-//创建Sign
-java.createSign(algorithm)
-//设置密钥
-.setPublicKey(key)
-.setPrivateKey(key)
-```
-> 签名参数 data支持ByteArray|inputStream|String
-```
-//签名输出 ByteArray HexString
+cipher.encryptHex(data, usePublicKey: Boolean? true
+)```* Ký tên
+> Đưa vào tham số key ủng hộ ByteArray|**Utf8String**```// sáng tạo Sign
+
+java.createSign(algorithm)// thiết trí chìa khóa bí mật
+.setPublicKey(key).setPrivateKey(key)```> Ký tên tham số data ủng hộ ByteArray|inputStream|String
+```// ký tên thu phát ByteArray HexString
+
 sign.sign(data)
-sign.signHex(data)
-```
-* 摘要
+sign.signHex(data)```* Trích yếu
 ```
 java.digestHex(data: String, algorithm: String,): String?
-
-java.digestBase64Str(data: String, algorithm: String,): String?
-```
-* md5
+java.digestBase64Str(data: String, algorithm: String,): String?```* md5
 ```
 java.md5Encode(str)
-java.md5Encode16(str)
-```
-* HMac
+java.md5Encode16(str)```* HMac
 ```
 java.HMacHex(data: String, algorithm: String, key: String): String
 
 java.HMacBase64(data: String, algorithm: String, key: String): String
-```
+```## book đối tượng có thể dùng thuộc tính
+### Thuộc tính
+> Phương pháp sử dụng: Tại js bên trong hoặc {{}} Bên trong sử dụng book. Thuộc tính phương thức liền có thể thu hoạch. Như tại nội dung sau tăng thêm ##{{book.name+" Cuốn "+title}} Có thể tịnh hóa Tên sách + Cuốn + Tên chương xưng ( Như Ta là đại minh tinh cuốn Chương 02: cha ta là hào môn tổng giám đốc ) loại này ký tự.```
+bookUrl // tường tình trang Url( Bản địa sách nguyên tồn trữ hoàn chỉnh văn kiện đường đi )
+tocUrl // trang mục lục Url (toc=table of Contents)
+origin // sách nguyên URL( Ngầm thừa nhận BookType.local)
+originName // sách nguyên tên or bản địa sách văn kiện tên
 
-## book对象的可用属性
-### 属性
-> 使用方法: 在js中或{{}}中使用book.属性的方式即可获取.如在正文内容后加上 ##{{book.name+"正文卷"+title}} 可以净化 书名+正文卷+章节名称（如 我是大明星正文卷第二章我爸是豪门总裁） 这一类的字符.
-```
-bookUrl // 详情页Url(本地书源存储完整文件路径)
-tocUrl // 目录页Url (toc=table of Contents)
-origin // 书源URL(默认BookType.local)
-originName //书源名称 or 本地书籍文件名
-name // 书籍名称(书源获取)
-author // 作者名称(书源获取)
-kind // 分类信息(书源获取)
-customTag // 分类信息(用户修改)
-coverUrl // 封面Url(书源获取)
-customCoverUrl // 封面Url(用户修改)
-intro // 简介内容(书源获取)
-customIntro // 简介内容(用户修改)
-charset // 自定义字符集名称(仅适用于本地书籍)
+name // sách tên ( Sách nguyên thu hoạch )
+author // tên tác giả xưng ( Sách nguyên thu hoạch )
+kind // phân loại tin tức ( Sách nguyên thu hoạch )
+customTag // phân loại tin tức ( Người sử dụng sửa chữa )
+coverUrl // trang bìa Url( Sách nguyên thu hoạch )
+customCoverUrl // trang bìa Url( Người sử dụng sửa chữa )
+intro // giới thiệu vắn tắt nội dung ( Sách nguyên thu hoạch )
+customIntro // giới thiệu vắn tắt nội dung ( Người sử dụng sửa chữa )
+charset // tự định nghĩa ký tự tụ tập tên ( Vẻn vẹn thích hợp với bản địa sách )
 type // 0:text 1:audio
-group // 自定义分组索引号
-latestChapterTitle // 最新章节标题
-latestChapterTime // 最新章节标题更新时间
-lastCheckTime // 最近一次更新书籍信息的时间
-lastCheckCount // 最近一次发现新章节的数量
-totalChapterNum // 书籍目录总数
-durChapterTitle // 当前章节名称
-durChapterIndex // 当前章节索引
-durChapterPos // 当前阅读的进度(首行字符的索引位置)
-durChapterTime // 最近一次阅读书籍的时间(打开正文的时间)
-canUpdate // 刷新书架时更新书籍信息
-order // 手动排序
-originOrder //书源排序
-variable // 自定义书籍变量信息(用于书源规则检索书籍信息)
- ```
 
-## chapter对象的部分可用属性
-> 使用方法: 在js中或{{}}中使用chapter.属性的方式即可获取.如在正文内容后加上 ##{{chapter.title+chapter.index}} 可以净化 章节标题+序号(如 第二章 天仙下凡2) 这一类的字符.
- ```
- url // 章节地址
- title // 章节标题
- baseUrl //用来拼接相对url
- bookUrl // 书籍地址
- index // 章节序号
- resourceUrl // 音频真实URL
- tag //
- start // 章节起始位置
- end // 章节终止位置
- variable //变量
- ```
- 
-## source对象的部分可用函数
-* 获取书源url
+group // tự định nghĩa phân tổ hướng dẫn tra cứu hào
+
+latestChapterTitle // chương mới nhất tiêu đề
+
+latestChapterTime // chương mới nhất tiêu đề thời gian đổi mới
+
+lastCheckTime // lần gần đây nhất càng sách mới tịch tin tức thời gian
+
+lastCheckCount // lần gần đây nhất phát hiện chương tiết mới số lượng
+
+totalChapterNum // sách mục lục tổng số
+
+durChapterTitle // trước mắt tên chương xưng
+
+durChapterIndex // trước mắt chương tiết hướng dẫn tra cứu
+
+durChapterPos // trước mắt đọc tiến độ ( Bài hàng chữ phù hướng dẫn tra cứu vị trí )
+durChapterTime // lần gần đây nhất đọc sách thời gian ( Mở ra thời gian )
+canUpdate // đổi mới giá sách lúc càng sách mới tịch tin tức
+
+order // thủ động sắp xếp
+
+originOrder // sách nguyên sắp xếp
+
+variable // tự định nghĩa sách lượng biến đổi tin tức ( Dùng sách nguyên quy tắc kiểm tra sách tin tức )```## chapter đối tượng bộ phận có thể dùng thuộc tính
+> Phương pháp sử dụng: Tại js bên trong hoặc {{}} Bên trong sử dụng chapter. Thuộc tính phương thức liền có thể thu hoạch. Như tại nội dung sau tăng thêm ##{{chapter.title+chapter.index}} Có thể tịnh hóa Chương tiết tiêu đề + Số thứ tự ( Như Chương 02: Thiên tiên hạ phàm 2) loại này ký tự.```
+url // chương tiết địa chỉ
+
+title // chương tiết tiêu đề
+
+baseUrl // dùng để ghép lại tương đối url
+
+bookUrl // sách địa chỉ
+
+index // chương tiết số thứ tự
+
+resourceUrl // âm tần chân thực URL
+
+tag //
+start // chương tiết mở đầu vị trí
+
+end // chương tiết kết thúc vị trí
+
+variable // lượng biến đổi
+```## source đối tượng bộ phận có thể dùng hàm số
+* Thu hoạch sách nguyên url
 ```
-source.getKey()
-```
-* 书源变量存取
+source.getKey()```* Sách nguyên lượng biến đổi tồn lấy
 ```
 source.setVariable(variable: String?)
-source.getVariable()
-```
-
-* 登录头操作
+source.getVariable()```* Đăng lục đầu thao tác
 ```
 source.getLoginHeader()
 source.getLoginHeaderMap().get(key: String)
 source.putLoginHeader(header: String)
-source.removeLoginHeader()
-```
-* 用户登录信息操作
-> 使用`登录UI`规则，并成功登录，阅读自动加密保存登录UI规则中除type为button的信息
+source.removeLoginHeader()```* Người sử dụng đăng lục tin tức thao tác
+> Sử dụng ` Đăng lục UI` Quy tắc, đồng thời thành công đăng lục, đọc tự động mã hóa bảo tồn đăng lục UI quy tắc bên trong trừ type vì button tin tức
 ```
 source.getLoginInfo()
 source.getLoginInfoMap().get(key: String)
-source.removeLoginInfo()
+source.removeLoginInfo()```## cookie đối tượng bộ phận có thể dùng hàm số
 ```
-## cookie对象的部分可用函数
-```
-获取全部cookie
-cookie.getCookie(url)
-获取cookie某一键值
-cookie.getKey(url,key)
-删除cookie
-cookie.removeCookie(url)
-```
+Thu hoạch toàn bộ cookie
 
-## cache对象的部分可用函数
-> saveTime单位:秒，可省略  
-> 保存至数据库和缓存文件(50M)，保存的内容较大时请使用`getFile putFile`
-```
-保存
+cookie.getCookie(url)
+Thu hoạch cookie một khóa giá trị
+
+cookie.getKey(url,key)
+Xóa bỏ cookie
+
+cookie.removeCookie(url)```## cache đối tượng bộ phận có thể dùng hàm số
+> saveTime đơn vị: Giây, có thể tiết kiệm hơi
+> Bảo tồn đến kho số liệu hòa hoãn tồn văn kiện (50M), bảo tồn nội dung khá lớn lúc xin sử dụng `getFile putFile````
+Bảo tồn
+
 cache.put(key: String, value: Any , saveTime: Int)
-读取数据库
+Đọc đến kho số liệu
+
 cache.get(key: String): String?
-删除
+Xóa bỏ
+
 cache.delete(key: String)
-缓存文件内容
+Cache văn kiện nội dung
+
 cache.putFile(key: String, value: String, saveTime: Int)
-读取文件内容
+Đọc đến văn kiện nội dung
+
 cache.getFile(key: String): String?
-保存到内存
+Bảo tồn đến bộ nhớ
+
 cache.deleteMemory(key: String)
 cache.getFromMemory(key: String): Any?
-cache.putMemory(key: String, value: Any)
-
-```
+cache.putMemory(key: String, value: Any)```

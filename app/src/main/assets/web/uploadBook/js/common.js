@@ -74,13 +74,13 @@ function substr_string(name)
 
 function checkFile(file) {
 	if (!file.name || !file.name.toLowerCase().match('('+config.fileTypes+')$')) {
-		return "格式不支持";
+		return "Định dạng không được hỗ trợ";
 	}
 
 	var len = filesUpload.length;
 	for(var i=0; i< len; i++){
 		if(filesUpload[i].name == file.name)	{
-			return "文件已存在";
+			return "Tệp đã tồn tại";
 		}
 	}
 	return null;

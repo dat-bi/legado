@@ -1,195 +1,281 @@
-# 源规则帮助
+# Nguyên quy tắc trợ giúp
 
-* [书源帮助文档](https://alanskycn.gitee.io/teachme/Rule/source.html)
-* [订阅源帮助文档](https://alanskycn.gitee.io/teachme/Rule/rss.html)
-* 辅助键盘❓中可插入URL参数模板,打开帮助,js教程,正则教程,选择文件
-* 规则标志, {{......}}内使用规则必须有明显的规则标志,没有规则标志当作js执行
+* [ Sách nguyên trợ giúp văn kiện ](https://alanskycn.gitee.io/teachme/Rule/source.html)
+* [ Đặt mua nguyên trợ giúp văn kiện ](https://alanskycn.gitee.io/teachme/Rule/rss.html)
+* Phụ trợ bàn phím ❓ Bên trong có thể cắm vào URL tham số mô bản, mở ra trợ giúp,js giáo trình, đang thì giáo trình, lựa chọn văn kiện
+
+* Quy tắc tiêu chí, {{......}} Bên trong sử dụng quy tắc nhất thiết phải có rõ ràng quy tắc tiêu chí, không có quy tắc tiêu chí coi như js thi hành
+
 ```
-@@ 默认规则,直接写时可以省略@@
-@XPath: xpath规则,直接写时以//开头可省略@XPath
-@Json: json规则,直接写时以$.开头可省略@Json
-: regex规则,不可省略,只可以用在书籍列表和目录列表
+@@ Ngầm thừa nhận quy tắc, trực tiếp viết lúc có thể tỉnh lược @@
+@XPath: xpath quy tắc, trực tiếp viết lúc lấy // mở đầu có thể tiết kiệm hơi @XPath
+
+@Json: json quy tắc, trực tiếp viết lúc lấy $. Mở đầu có thể tiết kiệm hơi @Json
+
+: regex quy tắc, không thể tỉnh lược, chỉ có thể dùng tại sách danh sách cùng mục lục danh sách
+
 ```
 * jsLib
-> 注入JavaScript到RhinoJs引擎中，支持两种格式，可实现[函数共用](https://github.com/gedoor/legado/wiki/JavaScript%E5%87%BD%E6%95%B0%E5%85%B1%E7%94%A8)
 
-> `JavaScript Code` 直接填写JavaScript片段  
-> `{"example":"https://www.example.com/js/example.js", ...}` 自动复用已经下载的js文件
+> Rót vào JavaScript đến RhinoJs động cơ bên trong, ủng hộ hai loại cách thức, có thể thực hiện [ Hàm số dùng chung ](https://github.com/gedoor/legado/wiki/JavaScript%E5%87%BD%E6%95%B0%E5%85%B1%E7%94%A8)
+> `JavaScript Code` Trực tiếp điền JavaScript đoạn ngắn
 
-* 并发率
-> 并发限制，单位ms，可填写两种格式
+> `{"example":"https://www.example.com/js/example.js", ...}` Tự động phục dùng đã tải xuống js văn kiện
 
-> `1000` 访问间隔1s  
-> `20/60000` 60s内访问次数20  
+* Đồng phát tỷ lệ
 
-* 书源类型: 文件
-> 对于类似知轩藏书提供文件整合下载的网站，可以在书源详情的下载URL规则获取文件链接
+> Đồng phát hạn chế, đơn vị ms, có thể điền hai loại cách thức
 
-> 通过截取下载链接或文件响应头头获取文件信息，获取失败会自动拼接`书名` `作者`和下载链接的`UrlOption`的`type`字段
+> `1000` Phỏng vấn khoảng cách 1s
 
-> 压缩文件解压缓存会在下次启动后自动清理，不会占用额外空间  
+> `20/60000` 60s bên trong phỏng vấn số lần 20
+
+* Sách nguyên loại hình: Văn kiện
+
+> Đối với giống biết hiên tàng thư cung cấp văn kiện chỉnh hợp tải xuống website, có thể tại sách nguyên tình hình rõ ràng download URL quy tắc thu hoạch văn kiện kết nối
+
+> Thông qua lấy ra download kết nối hoặc văn kiện hưởng ứng đầu lĩnh thu hoạch văn kiện tin tức, thu hoạch thất bại sẽ tự động ghép lại ` Tên sách ` ` Tác giả ` Cùng download liên tiếp `UrlOption` `type` Chữ đoạn
+
+> Áp súc văn kiện bớt áp lực cache sẽ ở lần sau sau khi khởi động tự động thanh lý, sẽ không chiếm dùng ngoài định mức không gian
 
 * CookieJar
-> 启用后会自动保存每次返回头中的Set-Cookie中的值，适用于验证码图片一类需要session的网站
 
-* 登录UI
-> 不使用内置webView登录网站，需要使用`登录URL`规则实现登录逻辑，可使用`登录检查JS`检查登录结果  
-> 版本20221113重要更改：按钮支持调用`登录URL`规则里面的函数，必须实现`login`函数
+> Khải dụng sau sẽ tự động bảo tồn mỗi lần trở về trong đầu Set-Cookie bên trong giá trị, thích hợp với nghiệm chứng mã hình ảnh một loại cần session website
+
+* Đăng lục UI
+
+> Không sử dụng nội trí webView đăng lục website, cần sử dụng ` Đăng lục URL` Quy tắc thực hiện đăng lục lôgic, có thể sử dụng ` Đăng lục kiểm tra JS` Kiểm tra đăng lục kết quả
+
+> Phiên bản 20221113 trọng yếu sửa đổi: Cái nút ủng hộ điều động ` Đăng lục URL` Trong quy tắc mặt hàm số, nhất thiết phải thực hiện `login` Hàm số
+
 ```
-规则填写示范
+
+Quy tắc điền làm mẫu
+
 [
-    {
-        name: "telephone",
-        type: "text"
-    },
-    {
-        name: "password",
-        type: "password"
-    },
-    {
-        name: "注册",
-        type: "button",
-        action: "http://www.yooike.com/xiaoshuo/#/register?title=%E6%B3%A8%E5%86%8C"
-    },
-    {
-        name: "获取验证码",
-        type: "button",
-        action: "getVerificationCode()"
-    }
+{
+
+name: "telephone",
+
+type: "text"
+},
+{
+
+name: "password",
+
+type: "password"
+},
+{
+
+name: " Đăng ký ",
+
+type: "button",
+
+action: "http://www.yooike.com/xiaoshuo/#/register?title=%E6%B3%A8%E5%86%8C"
+},
+{
+
+name: " Thu hoạch nghiệm chứng mã ",
+
+type: "button",
+
+action: "getVerificationCode()"
+}
 ]
 ```
-* 登录URL
-> 可填写登录链接或者实现登录UI的登录逻辑的JavaScript
+* Đăng lục URL
+
+> Có thể điền đăng lục kết nối hoặc thực hiện đăng lục UI đăng lục lôgic JavaScript
+
 ```
-示范填写
+
+Làm mẫu điền
+
 function login() {
-    java.log("模拟登录请求");
-    java.log(source.getLoginInfoMap());
+
+java.log(" Mô phỏng đăng lục thỉnh cầu ");
+
+java.log(source.getLoginInfoMap());
 }
+
 function getVerificationCode() {
-    java.log("登录UI按钮：获取到手机号码"+result.get("telephone"))
+
+java.log(" Đăng lục UI cái nút: Thu hoạch tới điện thoại di động dãy số "+result.get("telephone"))
 }
 
-登录按钮函数获取登录信息
-result.get("telephone")
-login函数获取登录信息
-source.getLoginInfo()
-source.getLoginInfoMap().get("telephone")
-source登录相关方法,可在js内通过source.调用,可以参考阿里云语音登录
-login()
-getHeaderMap(hasLoginHeader: Boolean = false)
-getLoginHeader(): String?
-getLoginHeaderMap(): Map<String, String>?
-putLoginHeader(header: String)
-removeLoginHeader()
-setVariable(variable: String?)
-getVariable(): String?
-AnalyzeUrl相关函数,js中通过java.调用
-initUrl() //重新解析url,可以用于登录检测js登录后重新解析url重新访问
-getHeaderMap().putAll(source.getHeaderMap(true)) //重新设置登录头
-getStrResponse( jsStr: String? = null, sourceRegex: String? = null) //返回访问结果,文本类型,书源内部重新登录后可调用此方法重新返回结果
-getResponse(): Response //返回访问结果,网络朗读引擎采用的是这个,调用登录后在调用这方法可以重新访问,参考阿里云登录检测
-```
+Đăng lục cái nút hàm số thu hoạch đăng lục tin tức
 
-* 发现url格式
+result.get("telephone")
+
+login hàm số thu hoạch đăng lục tin tức
+
+source.getLoginInfo()
+
+source.getLoginInfoMap().get("telephone")
+
+source đăng lục liên quan phương pháp, nhưng tại js bên trong thông qua source. Điều động, có thể tham khảo A Lí mây giọng nói đăng lục
+
+login()
+
+getHeaderMap(hasLoginHeader: Boolean false)
+
+getLoginHeader(): String?
+
+getLoginHeaderMap(): Map?
+
+putLoginHeader(header: String)
+
+removeLoginHeader()
+
+setVariable(variable: String?)
+
+getVariable(): String?
+
+AnalyzeUrl liên quan hàm số,js bên trong thông qua java. Điều động
+
+initUrl() // một lần nữa phân tích url, có thể dùng tại đăng lục kiểm trắc js đăng lục sau một lần nữa phân tích url một lần nữa phỏng vấn
+
+getHeaderMap().putAll(source.getHeaderMap(true)) // thiết trí cái mới đăng lục đầu
+
+getStrResponse( jsStr: String? null, sourceRegex: String? null) // trở về phỏng vấn kết quả, văn bản loại hình, sách nguyên nội bộ một lần nữa đăng lục sau có thể thuyên chuyển này phương pháp một lần nữa trở về kết quả
+
+getResponse(): Response // trở về phỏng vấn kết quả, internet đọc chậm động cơ áp dụng chính là cái này, điều động đăng lục sau tại điều động phương pháp kia có thể một lần nữa phỏng vấn, tham khảo A Lí mây đăng lục kiểm trắc
+
+```
+* Phát hiện url cách thức
+
 ```json
+
 [
-  {
-    "title": "xxx",
-    "url": "",
-    "style": {
-      "layout_flexGrow": 0,
-      "layout_flexShrink": 1,
-      "layout_alignSelf": "auto",
-      "layout_flexBasisPercent": -1,
-      "layout_wrapBefore": false
-    }
-  }
+{
+"title": "xxx",
+"url": "",
+"style": {
+"layout_flexGrow": 0,
+"layout_flexShrink": 1,
+"layout_alignSelf": "auto",
+"layout_flexBasisPercent": -1,
+"layout_wrapBefore": false
+
+}
+}
 ]
 ```
+* Thỉnh cầu đầu, ủng hộ http đại diện,socks4 socks5 đại diện thiết trí
 
-* 请求头,支持http代理,socks4 socks5代理设置
-```
-socks5代理
-{
-  "proxy":"socks5://127.0.0.1:1080"
-}
-http代理
-{
-  "proxy":"http://127.0.0.1:1080"
-}
-支持代理服务器验证
-{
-  "proxy":"socks5://127.0.0.1:1080@用户名@密码"
-}
-注意:这些请求头是无意义的,会被忽略掉
 ```
 
-* url添加js参数,解析url时执行,可在访问url时处理url,例
+socks5 đại diện
+
+{
+"proxy":"socks5://127.0.0.1:1080"
+}
+
+http đại diện
+
+{
+"proxy":"http://127.0.0.1:1080"
+}
+
+Ủng hộ đại diện server nghiệm chứng
+
+{
+"proxy":"socks5://127.0.0.1:1080@ Người sử dụng tên @ Mật mã "
+}
+
+Chú ý: Những thứ này thỉnh cầu đầu là không có ý nghĩa , sẽ bị bỏ qua
+
 ```
+* url tăng thêm js tham số, phân tích url lúc thi hành, nhưng tại phỏng vấn url lúc xử lý url, lệ
+
+```
+
 https://www.baidu.com,{"js":"java.headerMap.put('xxx', 'yyy')"}
+
 https://www.baidu.com,{"js":"java.url=java.url+'yyyy'"}
 ```
+* Tăng thêm js phương pháp, dùng bình định lại hướng chặn lại
 
-* 增加js方法，用于重定向拦截
-  * `java.get(urlStr: String, headers: Map<String, String>)`
-  * `java.post(urlStr: String, body: String, headers: Map<String, String>)`
-* 对于搜索重定向的源，可以使用此方法获得重定向后的url
+* `java.get(urlStr: String, headers: Map)`
+* `java.post(urlStr: String, body: String, headers: Map)`
+* Đối với lùng tìm bình định lại hướng nguyên, có thể sử dụng này phương pháp thu được bình định lại về phía sau url
+
 ```
 (()=>{
-  if(page==1){
-    let url='https://www.yooread.net/e/search/index.php,'+JSON.stringify({
-    "method":"POST",
-    "body":"show=title&tempid=1&keyboard="+key
-    });
-    return java.put('surl',String(java.connect(url).raw().request().url()));
-  } else {
-    return java.get('surl')+'&page='+(page-1)
-  }
+
+if(page==1){
+
+let url='https://www.yooread.net/e/search/index.php,'+JSON.stringify({
+"method":"POST",
+"body":"show=title&tempid=1&keyboard="+key
+
+});
+
+return java.put('surl',String(java.connect(url).raw().request().url()));
+} else {
+
+return java.get('surl')+'&page='+(page-1)
+}
 })()
-或者
+
+Hoặc
+
 (()=>{
-  let base='https://www.yooread.net/e/search/';
-  if(page==1){
-    let url=base+'index.php';
-    let body='show=title&tempid=1&keyboard='+key;
-    return base+java.put('surl',java.post(url,body,{}).header("Location"));
-  } else {
-    return base+java.get('surl')+'&page='+(page-1);
-  }
+
+let base='https://www.yooread.net/e/search/';
+
+if(page==1){
+
+let url=base+'index.php';
+
+let body='show=title&tempid=1&keyboard='+key;
+
+return base+java.put('surl',java.post(url,body,{}).header("Location"));
+} else {
+
+return base+java.get('surl')+'&page='+(page-1);
+}
 })()
+```
+* Hình ảnh kết nối ủng hộ sửa chữa headers
+
 ```
 
-* 图片链接支持修改headers
-```
-let options = {
+let options {
 "headers": {"User-Agent": "xxxx","Referrer":baseUrl,"Cookie":"aaa=vbbb;"}
 };
-'<img src="'+src+","+JSON.stringify(options)+'">'
+''
 ```
+* Kiểu chữ phân tích sử dụng
 
-* 字体解析使用
-> 使用方法,在正文替换规则中使用,原理根据f1字体的字形数据到f2中查找字形对应的编码
+> Phương pháp sử dụng, tại thay thế quy tắc bên trong sử dụng, nguyên lý căn cứ vào f1 kiểu chữ hình chữ số liệu đến f2 bên trong tra tìm hình chữ đối ứng mã hóa
+
 ```
-<js>
 (function(){
-  var b64=String(src).match(/ttf;base64,([^\)]+)/);
-  if(b64){
-    var f1 = java.queryBase64TTF(b64[1]);
-    var f2 = java.queryTTF("https://alanskycn.gitee.io/teachme/assets/font/Source Han Sans CN Regular.ttf");
-    return java.replaceFont(result, f1, f2);
-  }
-  return result;
+
+var b64=String(src).match(/ttf;base64,([^\)]+)/);
+
+if(b64){
+
+var f1 java.queryBase64TTF(b64[1]);
+
+var f2 java.queryTTF("https://alanskycn.gitee.io/teachme/assets/font/Source Han Sans CN Regular.ttf");
+
+return java.replaceFont(result, f1, f2);
+}
+
+return result;
 })()
-</js>
 ```
+* Mua sắm thao tác
 
-* 购买操作
-> 可直接填写链接或者JavaScript，如果执行结果是网络链接将会自动打开浏览器,js返回true自动刷新目录和当前章节
+> Có thể trực tiếp điền kết nối hoặc JavaScript, nếu như thi hành kết quả là internet kết nối sẽ tự động mở ra trình duyệt,js trở về true tự động đổi mới mục lục cùng trước mắt chương tiết
 
-* 图片解密
-> 适用于图片需要二次解密的情况，直接填写JavaScript，返回解密后的`ByteArray`  
-> 部分变量说明：java（仅支持[js扩展类](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/JsExtensions.kt)），result为待解密图片的`ByteArray`，src为图片链接
+* Hình ảnh giải mã
 
-* 封面解密
-> 同图片解密 其中result为待解密封面的`inputStream`
+> Thích hợp với hình ảnh cần lần thứ hai giải mã tình huống, trực tiếp điền JavaScript, trở về giải mã sau `ByteArray`
+> Bộ phận lượng biến đổi chứng minh: java( Vẻn vẹn ủng hộ [js mở rộng loại ](https://github.com/gedoor/legado/blob/master/app/src/main/java/io/legado/app/help/JsExtensions.kt)), result vì chờ giải mã hình ảnh `ByteArray`, src vì hình ảnh kết nối
+
+* Trang bìa giải mã
+
+> Cùng hình ảnh giải mã Trong đó result vì chờ giải mã trang bìa `inputStream`

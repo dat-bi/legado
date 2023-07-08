@@ -363,9 +363,9 @@ object ReadBook : CoroutineScope by MainScope() {
         if (bookSource != null) {
             CacheBook.getOrCreate(bookSource, book).download(scope, chapter)
         } else {
-            val msg = if (book.isLocal) "无内容" else "没有书源"
+            val msg = if (book.isLocal) "không có nội dung" else "Không có nguồn"
             contentLoadFinish(
-                book, chapter, "加载正文失败\n$msg", resetPageOffset = resetPageOffset
+                book, chapter, "Không thể tải nội dung\n$msg", resetPageOffset = resetPageOffset
             ) {
                 success?.invoke()
             }
