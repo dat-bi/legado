@@ -57,7 +57,7 @@ class SearchModel(private val scope: CoroutineScope, private val callBack: CallB
             callBack.onSearchSuccess(searchBooks)
             bookSourceList.addAll(callBack.getSearchScope().getBookSources())
             if (bookSourceList.isEmpty()) {
-                callBack.onSearchCancel(NoStackTraceException("启用书源为空"))
+                callBack.onSearchCancel(NoStackTraceException("Kích hoạt nguồn sách trống"))
                 return
             }
         } else {

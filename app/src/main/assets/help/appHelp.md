@@ -1,222 +1,307 @@
-# 帮助文档
+## Người mới tất đọc
 
-【温馨提醒】 *本帮助可以在“**我的**”——右上角帮助按钮再次打开，更新前一定要做好备份，以免数据丢失！*
+### 1. Vì cái gì lần thứ nhất lắp đặt hảo sau đó đồ vật gì cũng không có?
 
-## 新人必读 
+Đọc chỉ là một cái chuyển mã công cụ, không cung cấp nội dung, lần thứ nhất lắp đặt APP, cần tay mình động dẫn vào sách nguyên, có thể từ tài khoản công chúng **【 Khai nguyên đọc 】**, QQ nhóm hoặc khốc sao trong bình luận thu hoạch từ thư hữu chế tác chia sẻ sách nguyên.
 
-### 1. 为什么第一次安装好之后什么东西都没有？
-阅读只是一个转码工具，不提供内容，第一次安装 APP，需要自己手动导入书源，可以从公众号 **【开源阅读】**、QQ 群或酷安评论里获取由书友制作分享的书源。
+### 2. Xuất hiện thiếu chữ lỗ hổng chữ, nội dung thiếu hụt hoặc sắp chữ rối loạn các loại tình huống, xử lý như thế nào?
 
-### 2. 正文出现缺字漏字、内容缺失或排版错乱等情况，如何处理？
-有可能是净化规则出现问题，先关闭替换净化并刷新，再观察是否正常。如果正常说明净化规则存在误杀，如果关闭后仍然出现相关问题，请点击源链接查看原文与正文是否相同，如果不同，再进行反馈。
+Có thể là tịnh hóa quy tắc xảy ra vấn đề, trước tiên đóng lại thay thế tịnh hóa đồng thời đổi mới, lại quan sát phải chăng bình thường. Nếu như bình thường chứng minh tịnh hóa quy tắc tồn tại ngộ sát, nếu như đóng lại sau vẫn xuất hiện vấn đề tương quan, xin điểm kích nguyên kết nối xem xét nguyên văn cùng phải chăng giống nhau, nếu như khác biệt, lại tiến hành phản hồi.
 
-### 3. 漫画源看书显示乱码，如何解决？
-【异次元】和【阅读】是两个不同的软件，**两个软件的源并不通用**，请导入【阅读】的支持的漫画源！
+### 3. Manga nguyên đọc sách biểu hiện loạn mã, như thế nào giải quyết?
 
-## 书源相关
+【 Dị thứ nguyên 】 cùng 【 Đọc 】 là hai cái khác biệt phần mềm, ** Hai cái phần mềm nguyên cũng không thông dụng **, thỉnh dẫn vào 【 Đọc 】 ủng hộ manga nguyên!
 
-### 1. 如何导入本地书源文件？
-以导入 QQ 接收到的书源文件为例：
-* 下载群文件里的书源文件；
-* 打开【阅读】软件；
-* 点击“**我的**”——“**书源管理**”；
-* 点击右上角选择“**本地导入**”；
-* 左下角选择书源文件所在的路径；
-* 点击书源文件导入；
-* 导入后返回书源管理界面；
+## Sách nguyên liên quan
 
-**【注】** 
-1. *新版 QQ 文件下载路径：`Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/`。*
-2. *书源格式后缀有 .txt 和 .json，其中 .json 文件在某些情况下可能无法导入，需要修改后缀为 .txt 才可导入。*
+### 1. Như thế nào dẫn vào bản địa sách nguyên văn kiện?
 
-![QQ 导入书源](https://cdn.jsdelivr.net/gh/gedoor/gedoor.github.io@master/images/importSource.jpg)
+Lấy dẫn vào QQ tiếp thu được sách nguyên văn kiện làm thí dụ:
 
-### 2. 如何新建大佬发的单独书源？
-* 复制书源代码；
-* 打开阅读软件；
-* 点击“**我的**”——“**书源管理**”；
-* 右上角“**⁝**”——“**+ 新建书源**”；
-* 进入后点击右上角“**⁝**”——“**粘贴源**”；
-* 粘贴完成后点击上方保存“**🖫**”按钮；
-* 本次新建单独书源操作完成。
+* Download trong tài liệu group sách nguyên văn kiện;
 
-**【注】** *如果书源有错误或者复制不全会显示格式错误，请重新复制。*
+* Mở ra 【 Đọc 】 phần mềm;
 
-### 3. 为什么导入 2.0 书源后无法阅读？
-部分 2.0 书源并不适用于 3.0 版本的阅读，建议导入后进行筛选。
+* Click “** Ta **” —— “** Sách nguyên quản lý **” ;
 
-### 4. 【阅读】2.0 数据如何导入【阅读】3.0？
-先对【阅读】2.0 的数据进行备份，然后进入【阅读】3.0，点击“**我的**”，选择“**备份与恢复**”，再点击“**导入旧版本数据**”。
+* Click góc trên bên phải lựa chọn “** Bản địa dẫn vào **” ;
 
-### 5. 如何给朋友分享我的书源？
-* 打开【阅读】软件；
-* 点击备份；
-* 打开手机系统自带的文件管理；
-* 在手机内置存储根目录找到 `YueDu3.0` 文件夹；
-* 找到 `myBookSource.json`，长按选择分享；
-* 选择微信分享或者 QQ 分享；
-* 选择你要分享的好友点击发送；
-* 好友接收后在手机内置存储根目录找到 `myBookSource.json` 文件；
-* 复制该文件到手机内置存储根目录找到 `YueDu3.0` 文件夹（如已有该文件请先删除该文件或者备份到其他地方再复制到文件夹）；
-* 打开【阅读】软件点击恢复。
+* Góc dưới bên trái lựa chọn sách nguyên văn kiện chỗ con đường;
 
-**【注】**
-1. *备份路径如已修改过请在修改后的路径下查找书源文件。*
-2. *Android 10 及以下版本系统，新版 QQ 文件接收路径在 `Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/`，旧版 QQ 文件接收路径则在 `Tencent/QQfile_recv/`；新版微信文件接收路径在 `Android/data/com.tencent.mobileqq/Tencent/MicroMsg/Download`，旧版微信文件接收路径则在 `Tencent/MicroMsg/Download`。*
-3. *Android 11 及以上系统版本用户，由于系统限制，无法访问 `Android/data` 目录。*
+* Click sách nguyên văn kiện dẫn vào;
 
-### 6. 效验书源显示失效就说明书源不能用了吗？
-效验书源只是测试书源，可以做为参考，但失效了不代表书源不能用了。
+* Dẫn vào sau trở về sách nguyên quản lý giới diện;
 
-### 7. “发现”和正版书源能不能使用？
-发现和正版书源只能用来找书或看排行榜，不能用来看书，如需看书请切换书源。
+**【 Chú 】**
 
-### 8. 为什么书源这么多，“发现”里却只有一点点？
-书源想要在发现界面里显示需要在书源里添加发现规则，并不是所有书源都有发现规则。
+1. * Bản mới QQ dưới văn kiện tái đường đi: `Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/`.*
 
-## 本地/WebDav远程书籍相关
+2. * Sách nguyên cách thức hậu tố có .txt cùng .json, trong đó .json văn kiện tại dưới một ít tình huống có thể không cách nào dẫn vào, cần sửa chữa hậu tố vì .txt mới có thể dẫn vào.*
 
-### 1. 目前阅读支持哪些格式的本地书籍？
-目前支持 TXT 和 EPUB 格式。
+![QQ dẫn vào sách nguyên ](https://cdn.jsdelivr.net/gh/gedoor/gedoor.github.io@master/images/importSource.jpg)
 
-### 2. 如何导入本地/WebDav远程书籍？
-本地：在书架页面点击右上角“**⁝**”，选择“**添加本地**”，授予相关权限后即可导入本地书籍。也可在文件管理器中使用【阅读】打开相关书籍。
+### 2. Như thế nào mới xây đại lão phát đơn độc sách nguyên?
 
-远程：在主页面点击右上角 “**⁝**”，选择 **WebDav书籍**，正确配置好后即可看到上传的远程书籍，点击 **加入书架** 按钮导入即可。
+* Phục chế sách mật mã gốc;
 
-### 3. 如何上传本地书籍到 WebDav 远程？
-长按本地书籍，进入书籍详情页，点击右上角 “**⁝**”，选择 **上传WebDav**，等待几秒后即可上传到远程。
+* Mở ra đọc phần mềm;
 
-或进入书籍缓存页面，点击右上角 “**⁝**”，选择 **导出到 WebDav**，在书籍导出时便可同时上传到远程。
+* Click “** Ta **” —— “** Sách nguyên quản lý **” ;
 
-### 4. 导入 TXT 文件提示“LoadTocError”或“List is empty”是怎么回事？
-* 请先去应用详情中确认是否授予了【阅读】“读写手机存储”的权限。
-* 自动识别目录失败，可能是相关目录规则未开启，请点击右上角的换源按钮手动更换目录规则。
+* Góc trên bên phải “**⁝**” —— “**+ Mới xây sách nguyên **” ;
 
-如果尝试所有规则均无法识别，请在 GitHub 上提交 Issue 并附上相关 TXT 文件，也可以发送邮件至 i@qnmlgb.trade（标题：legado 本地文件章节无法识别；内容对其具体情况进行简要说明，附件上传相关 TXT 文件）。
+* Tiến vào sau click góc trên bên phải “**⁝**” —— “** Dán nguyên **” ;
 
-### 5. 如何下载书籍到本地？
-把在线书籍加入到书架后，在书架页面点击右上角，选择“**离线缓存**”即可。
+* Dán sau khi hoàn thành click phía trên bảo tồn “**🖫**” Cái nút;
 
-### 6. 如何自定义导出的 TXT 或 EPUB 文件名称？
-* 点击“**离线缓存**“——”**导出文件名**“
-* 使用方法:
-  - 导出文件名支持 js 语法
-  - 可用变量: name（书名）和 author（作者）
-  - 示例:
-  > name + "作者:" + author
-  - 导出文件名:
-  >  Legado 是最好的在线阅读软件 作者: kunfei
+* Lần này mới xây đơn độc sách nguyên thao tác hoàn thành.
 
-**【注】** *name、author 等变量与字符串的拼接都需要在 JSON 上下文环境中进行，即必须使用 `{}` 将变量与字符串包裹起来。*
+**【 Chú 】** * Nếu như sách nguyên có sai lầm hoặc phục chế không được đầy đủ sẽ biểu hiện cách thức sai lầm, thỉnh một lần nữa phục chế.*
 
-### 7. 为什么我打开本地的 TXT 文件，显示内容却是乱码？
-部分编码在阅读上会识别错误，建议先用文本编辑器转换为常用的 UTF-8 格式。
+### 3. Vì cái gì dẫn vào 2.0 sách nguyên sau không cách nào đọc?
 
-### 8. 阅读对部分把正文（如所有含引号的句子）识别成标题，如何解决？
-点击右上角更换目录规则即可。
+Bộ phận 2.0 sách nguyên cũng không thích hợp tại 3.0 phiên bản đọc, đề nghị dẫn vào sau tiến hành sàng lọc.
 
-## 书籍界面相关
+### 4. 【 Đọc 】2.0 số liệu như thế nào dẫn vào 【 Đọc 】3.0?
 
-### 1. 如何刷新书架？
-在书架界面下拉即可刷新。
+Trước tiên đối với 【 Đọc 】2.0 số liệu tiến hành dành trước, sau đó tiến vào 【 Đọc 】3.0, click “** Ta **” , lựa chọn “** Dành trước cùng khôi phục **” , lại nhấp “** Dẫn vào bản cũ bản số liệu **” .
 
-### 2. 书架界面书籍右上角的红色或者灰色背景小数字代表什么？
-红色代表书籍有更新，灰色代表无更新，数字代表未读章节。
+### 5. Như thế nào cho bằng hữu chia sẻ sách của ta nguyên?
 
-### 3. 如何查看书籍详情？
-长按书籍即可查看。
+* Mở ra 【 Đọc 】 phần mềm;
 
-### 4. 如何对书架上的书进行删除、切换书架的操作？
-书籍详情页操作即可。
+* Click dành trước;
 
-### 5. 如何禁止或允许某本书更新？
-书籍详情页，点击右上角——“**允许更新**”。
+* Mở điện thoại di động lên hệ thống kèm theo văn kiện quản lý;
 
-### 6. 如何更换小说封面、名字、作者或简介？
-书籍详情页，点击右上角修改按钮。
+* Tại điện thoại nội trí tồn trữ căn mục lục tìm được `YueDu3.0` Cặp văn kiện;
 
-### 7. 怎么使用自定义字体？
-阅读界面——“**字体**”——点击右上角选择字体文件路径。
+* Tìm được `myBookSource.json`, dài theo lựa chọn chia sẻ;
 
-### 8. 目前支持哪些格式的字体文件？
-目前支持 TTF 和 OTF 格式。
+* Lựa chọn WeChat chia sẻ hoặc QQ chia sẻ;
 
-### 9. 书籍经常“正在加载中”怎么办？
-在线书籍出现这个问题通常是由于源质量不好或不兼容引起的，可以换其它源多试试；本地书籍出现这个问题大概率是目录规则问题，手动切换规则可以解决。
+* Lựa chọn ngươi muốn chia sẻ hảo hữu click gửi đi;
 
-### 10. 书籍内容只有标题，正文内容是路径怎么办？
-通常是缓存路径引起的，更换缓存路径即可。
+* Hảo hữu tiếp thu sau tại điện thoại nội trí tồn trữ căn mục lục tìm được `myBookSource.json` Văn kiện;
 
-### 11. 看书时如遇到“目录为空”、“加载失败”或长串英文等情况怎么办？
-在线书籍一般是书源问题，切换或更新书源即可。本地书籍请尝试手动更换目录规则。
+* Phục chế nên văn kiện tới điện thoại di động nội trí tồn trữ căn mục lục tìm được `YueDu3.0` Cặp văn kiện ( Như đã có nên văn kiện thỉnh trước tiên xóa bỏ nên văn kiện hoặc dành trước đến địa phương khác lại phục chế đến cặp văn kiện );
 
-### 12. 为什么每一章的最后一页，阅读的文字和横线背景总是对不齐？
-请在“**设置**”——“**文字底部对齐**”选项中关闭底部对齐，再调整排版。
+* Mở ra 【 Đọc 】 phần mềm click khôi phục.
 
-### 13. 漫画源或图片章节只能看到第一页，如何解决？
-请先查看原网页是否正常，若正常，请在书籍阅读界面点击右上角的“**⁝**”按钮，在弹出的菜单中，选择“**翻页动画(本书)**”，将翻页动画更改为“**滚动**”。
+**【 Chú 】**
 
-### 14. 阅读图片章节、漫画或 EPUB 插图时，图片被缩放到一页中，以至无法看清，如何处理？
-* 临时处理方案：长按图片可以进行双指缩放。图片章节请先参考 Q13 中的方案将翻页动画更改为“**滚动**”。
-* 3.0 旧版可以点击书籍界面的章节标题进入“**编辑书源**”界面，在“**正文**”——“**图片样式**”中填入 *`full`*，保存更改，刷新当前章节即可。
-* 3.0 新版可以直接在书籍阅读界面点击右上角的“**⁝**”按钮，选择“**图片样式**”——***`full`***。
+1. * Dành trước đường đi như đã sửa chữa qua thỉnh tại sửa chữa sau đường đi phía dưới tra tìm sách nguyên văn kiện.*
 
+2. *Android 10 trở xuống phiên bản hệ thống, bản mới QQ văn kiện tiếp thu đường đi tại `Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/`, bản cũ QQ văn kiện tiếp thu đường đi thì tại `Tencent/QQfile_recv/`; Bản mới WeChat văn kiện tiếp thu đường đi tại `Android/data/com.tencent.mobileqq/Tencent/MicroMsg/Download`, bản cũ WeChat văn kiện tiếp thu đường đi thì tại `Tencent/MicroMsg/Download`.*
 
-## 替换净化相关
+3. *Android 11 trở lên hệ thống phiên bản người sử dụng, bởi vì hệ thống hạn chế, không cách nào phỏng vấn `Android/data` Mục lục.*
 
-### 1. 替换净化是什么？
-替换净化可以去除书籍内容里的广告、错别字、屏蔽词等。
+### 6. Hiệu nghiệm sách nguyên biểu hiện mất đi hiệu lực liền nói rõ sách nguyên không thể dùng sao?
 
-### 2. 如何自己填写净化替换规则？
-* 第一行：替换规则名称。请根据自己需求对替换净化规则进行命名；
-* 第二行：分组。净化规则的分组组别；
-* 第三行：替换规则。填写需要被替换的内容；
-* 第四行：替换为。填写想替换成的内容（如不填则默认表示删除第三行里填写的内容）；
-* 第五行：替换范围，选填书名或者源名。填写此替换净化规则需要对哪本书籍或者哪个书源生效（如不填则对所有书籍和书源生效）。
+Hiệu nghiệm sách nguyên chỉ là khảo thí sách nguyên, có thể làm tham khảo, nhưng mất hiệu lực không có nghĩa là sách nguyên không thể dùng.
 
-**【注】** *如常规去除方法去除不掉，则需要勾选“使用正则表达式”，同时第三行里的替换规则也需要按照正则表达式来填写（正则表达式填写方法可自行网上搜索学习）。*
+### 7. “Phát hiện ” Cùng chính bản sách nguyên năng không thể sử dụng?
 
+Phát hiện cùng chính bản sách nguyên chỉ có thể dùng để tìm sách hoặc nhìn bảng xếp hạng, không thể dùng để đọc sách, như cần đọc sách thỉnh hoán đổi sách nguyên.
 
-## 备份相关
+### 8. Vì cái gì sách nguyên nhiều như vậy, “Phát hiện ” Bên trong cũng chỉ có một chút?
 
-### 1. 云备份在哪？
-“**我的**”——“**备份与恢复**”——“**WebDav 设置**”。
+Sách nguyên muốn tại phát hiện trong giao diện biểu hiện cần tại sách nguyên bên trong tăng thêm phát hiện quy tắc, cũng không phải tất cả sách nguyên đều có phát hiện quy tắc.
 
-### 2. 如何操作进行云备份？
-* 侧栏设置，WebDav 设置；
-* 正确填写 WebDAV 服务器地址、账号和密码；
-* 无需操作，APP 默认每天自动云备份一次。
+## Bản địa /WebDav viễn trình sách liên quan
 
-作者在此诚挚推荐使用【坚果云】进行 WebDav 备份。
+### 1. Trước mắt đọc ủng hộ cái nào cách thức bản địa sách?
 
-如果直接在手机上注册，须下载【坚果云】APP，步骤较为繁琐。推荐在电脑上进行操作：
-1. 打开注册链接：https://www.jianguoyun.com/d/signup ；
-2. 注册后，进入坚果云；
-3. 点击右上角账户名处选择“**账户信息**”，然后选择“**安全选项**”；
-4. 在“**安全选项**”中找到“**第三方应用管理**”，并选择“**添加应用**”，输入名称（如“阅读”）后，会生成密码，选择完成；
-5. 其中 `https://dav.jianguoyun.com/dav/` 就是填入“**WebDAV 服务器地址**”的内容，“**使用情况**”后面的邮箱地址就是你的“**WebDAV 账号**”，点击“**显示密码**“后得到的密码就是你的“**WebDAV 密码**”。
+Trước mắt ủng hộ TXT cùng EPUB cách thức.
 
-### 3. 关于云备份的相关说明
+### 2. Như thế nào dẫn vào bản địa /WebDav viễn trình sách?
 
-在正确设置好云备份的情况下，APP 默认每天自动云备份一次，当日多次手动云备份会对当日的旧云备份文件进行覆盖，并不会覆盖之前及之后不同日期的备份文件，每天所自动云备份的文件会按照日期进行命名。
+Bản địa: Tại giá sách giao diện click góc trên bên phải “**⁝**” , lựa chọn “** Tăng thêm bản địa **” , trao tặng liên quan quyền hạn sau liền có thể dẫn vào bản địa sách. Cũng có thể tại văn kiện quản lý khí bên trong sử dụng 【 Đọc 】 mở ra liên quan sách.
 
-### 4. 本地备份和云备份都能备份哪些东西？
-书架、看书进度、搜索记录、书源、替换和 APP 设置等都会备份，基本涵盖所有内容。
+Viễn trình: Tại giao diện chính click góc trên bên phải “**⁝**” , lựa chọn **WebDav sách **, chính xác phối trí hảo sau liền có thể vừa ý truyền viễn trình sách, click ** Thêm vào kho truyện ** Cái nút dẫn vào liền có thể.
 
-### 5. 出现某些未知 Bug 怎么办？
-清除软件数据试试看，不行再进行反馈。
+### 3. Như thế nào upload bản địa sách đến WebDav viễn trình?
 
+Dài theo bản địa sách, tiến vào sách tường tình trang, click góc trên bên phải “**⁝**” , lựa chọn ** Upload WebDav**, chờ đợi mấy giây sau liền có thể upload đến viễn trình.
 
-## 其他
+Hoặc tiến vào sách cache giao diện, click góc trên bên phải “**⁝**” , lựa chọn ** Dẫn xuất đến WebDav**, tại sách dẫn xuất lúc liền có thể lên một lượt truyền đến viễn trình.
 
-### 1. 如何听书？
-可以使用手机自带的朗读引擎，也可使用第三方如 Google（谷歌）或小米等朗读引擎。
+### 4. Dẫn vào TXT văn kiện nhắc nhở “LoadTocError” Hoặc “List is empty” Là chuyện gì xảy ra?
 
-【具体操作】*安装——系统设置——其他高级设置——辅助功能——TTS 输出——选择安装的朗读引擎（不同品牌手机的操作方法及步骤也不同，视情况而定）。*
+* Thỉnh đi trước ứng dụng tường tình bên trong xác nhận phải chăng trao tặng 【 Đọc 】 “Đọc viết điện thoại tồn trữ ” quyền hạn.
 
-### 2. 如何设置屏幕方向、屏幕显示时长、显示/隐藏状态栏、显示/隐藏导航栏、音量键翻页、长按选择文本、点击总是翻下一页或自定义翻页按键？
-阅读界面——“**设置**”（可上划，下面还有其他设置）。
+* Tự động phân biệt mục lục thất bại, có thể là liên quan mục lục quy tắc không mở ra, xin điểm kích góc trên bên phải đổi nguyên cái nút thủ động thay đổi mục lục quy tắc.
 
-### 3. 搜索的时候感觉手机卡顿，如何解决？
-“**我的**”——“**其他设置**”——调低“**更新和搜索线程数**”。
+Nếu như nếm thử tất cả quy tắc đều không pháp phân biệt, thỉnh tại GitHub nâng lên giao Issue đồng thời bổ sung liên quan TXT văn kiện, cũng có thể gửi đi bưu kiện đến i@qnmlgb.trade( Tiêu đề: legado bản địa văn kiện chương tiết không cách nào phân biệt; Nội dung đối nó tình huống cụ thể tiến hành giản yếu chứng minh, trên phụ tùng truyền liên quan TXT văn kiện ).
+
+### 5. Như thế nào download sách đến bản địa?
+
+Đem tại tuyến sách gia nhập vào giá sách sau, tại giá sách giao diện click góc trên bên phải, lựa chọn “** Offline cache **” Liền có thể.
+
+### 6. Như thế nào tự định nghĩa dẫn xuất TXT hoặc EPUB văn kiện tên?
+
+* Click “** Offline cache ** “——” ** Dẫn xuất văn kiện tên ** “
+
+* Phương pháp sử dụng:
+
+- Dẫn xuất văn kiện tên ủng hộ js ngữ pháp
+
+- Có thể dùng lượng biến đổi: name( Tên sách ) cùng author( Tác giả )
+
+- Thí dụ mẫu:
+
+> name + " Tác giả:" + author
+
+- Dẫn xuất văn kiện tên:
+
+> Legado là tốt nhất đọc online phần mềm Tác giả: kunfei
+
+**【 Chú 】** *name, author chờ lượng biến đổi cùng ký tự chuỗi ghép lại đều cần tại JSON trên dưới văn trong hoàn cảnh tiến hành, tức nhất thiết phải sử dụng `{}` Đem lượng biến đổi cùng ký tự xuyên bao vây lại.*
+
+### 7. Vì cái gì ta mở ra bản địa TXT văn kiện, biểu hiện nội dung lại là loạn mã?
+
+Bộ phận mã hóa đang đọc bên trên sẽ phân biệt sai lầm, đề nghị trước tiên dùng văn bản Editor chuyển đổi thành thường dùng UTF-8 cách thức.
+
+### 8. Đọc đối với bộ phận đem ( Như tất cả chứa dấu ngoặc kép câu ) phân biệt thành tiêu đề, như thế nào giải quyết?
+
+Click góc trên bên phải thay đổi mục lục quy tắc liền có thể.
+
+## Sách giới diện liên quan
+
+### 1. Như thế nào đổi mới giá sách?
+
+Tại giá sách giới diện phía dưới kéo liền có thể đổi mới.
+
+### 2. Giá sách giới diện sách góc trên bên phải màu đỏ hoặc màu xám bối cảnh con số nhỏ đại biểu cái gì?
+
+Màu đỏ đại biểu sách có đổi mới, màu xám đại biểu không đổi mới, con số đại biểu không đọc chương tiết.
+
+### 3. Tra như thế nào đọc sách tịch tường tình?
+
+Dài theo sách liền có thể xem xét.
+
+### 4. Như thế nào đối với trên giá sách sách tiến hành xóa bỏ, hoán đổi giá sách thao tác?
+
+Sách tường tình trang thao tác liền có thể.
+
+### 5. Như thế nào cấm hoặc cho phép mỗ vốn sách đổi mới?
+
+Sách tường tình trang, click góc trên bên phải —— “** Cho phép đổi mới **” .
+
+### 6. Như thế nào thay đổi tiểu thuyết trang bìa, tên, tác giả hoặc giới thiệu vắn tắt?
+
+Sách tường tình trang, click góc trên bên phải sửa chữa cái nút.
+
+### 7. Sử dụng như thế nào tự định nghĩa kiểu chữ?
+
+Đọc giới diện —— “** Kiểu chữ **” —— Click góc trên bên phải lựa chọn kiểu chữ văn kiện đường đi.
+
+### 8. Trước mắt ủng hộ cái nào cách thức kiểu chữ văn kiện?
+
+Trước mắt ủng hộ TTF cùng OTF cách thức.
+
+### 9. Sách thường xuyên “Đang tăng thêm bên trong ” Làm sao bây giờ?
+
+Tại tuyến sách xuất hiện vấn đề này bình thường là bởi vì nguyên chất lượng không tốt hoặc không kiêm dung đưa tới, có thể đổi cái khác nguyên thử nghiệm thêm; Bản địa sách xuất hiện vấn đề này khả năng cao là mục lục quy tắc vấn đề, thủ động hoán đổi quy tắc có thể giải quyết.
+
+### 10. Sách nội dung chỉ có tiêu đề, nội dung là đường đi làm sao bây giờ?
+
+Bình thường là cache đường đi đưa tới, thay đổi cache đường đi liền có thể.
+
+### 11. Đọc sách lúc như gặp đến “Mục lục vì khoảng không ” , “Tăng thêm thất bại ” Hoặc chuỗi dài tiếng Anh các loại tình huống làm sao bây giờ?
+
+Tại tuyến sách bình thường là sách nguyên vấn đề, hoán đổi hoặc càng sách mới nguyên liền có thể. Bản địa sách thỉnh nếm thử thủ động thay đổi mục lục quy tắc.
+
+### 12. Vì cái gì mỗi một chương một trang cuối cùng, đọc văn tự cùng lằn ngang bối cảnh lúc nào cũng đúng không cùng?
+
+Thỉnh tại “** Thiết trí **” —— “** Văn tự dưới đáy xếp hợp lý **” Tuyển hạng trung quan bế dưới đáy xếp hợp lý, lại điều chỉnh sắp chữ.
+
+### 13. Manga nguyên hoặc hình ảnh chương tiết chỉ có thể nhìn thấy tờ thứ nhất, như thế nào giải quyết?
+
+Thỉnh trước tiên xem xét nguyên website phải chăng bình thường, như bình thường, thỉnh tại sách đọc giới diện click góc trên bên phải “**⁝**” Cái nút, tại bắn ra trong thực đơn, lựa chọn “** Lật giấy hoạt hình ( Quyển sách )**” , đem lật giấy hoạt hình sửa đổi vì “** Nhấp nhô **” .
+
+### 14. Đọc hình ảnh chương tiết, manga hoặc EPUB tranh minh hoạ lúc, hình ảnh bị thu phóng đến một tờ bên trong, cứ thế không cách nào thấy rõ, xử lý như thế nào?
+
+* Tạm thời xử lý phương án: Dài theo hình ảnh có thể tiến hành hai ngón thu phóng. Hình ảnh chương tiết thỉnh trước tiên tham khảo Q13 bên trong phương án đem lật giấy hoạt hình sửa đổi vì “** Nhấp nhô **” .
+
+* 3.0 bản cũ có thể click sách giới diện chương tiết tiêu đề tiến vào “** Biên tập sách nguyên **” Giới diện, tại “** **” —— “** Hình ảnh kiểu dáng **” Bên trong lấp vào *`full`*, bảo tồn sửa đổi, đổi mới trước mắt chương tiết liền có thể.
+
+* 3.0 bản mới có thể trực tiếp tại sách đọc giới diện click góc trên bên phải “**⁝**” Cái nút, lựa chọn “** Hình ảnh kiểu dáng **” ——***`full`***.
+
+## Thay thế tịnh hóa liên quan
+
+### 1. Thay thế tịnh hóa là cái gì?
+
+Thay thế tịnh hóa có thể đi trừ sách trong nội dung quảng cáo, lỗi chính tả, che đậy từ chờ.
+
+### 2. Như thế nào chính mình điền tịnh hóa thay thế quy tắc?
+
+* Hàng ngũ nhứ nhất: Thay thế quy tắc tên. Thỉnh căn cứ chính mình nhu cầu đối với thay thế tịnh hóa quy tắc tiến hành mệnh danh;
+
+* Hàng thứ hai: Phân tổ. Tịnh hóa quy tắc phân tổ tổ biệt;
+
+* Hàng thứ ba: Thay thế quy tắc. Điền cần bị thay thế nội dung;
+
+* Đệ tứ đi: Thay thế vì. Điền nghĩ thay thế thành nội dung ( Như không lấp im lặng nhận biểu thị xóa bỏ hàng thứ ba bên trong điền nội dung );
+
+* Thứ ngũ hành: Thay thế phạm vi, tuyển lấp tên sách hoặc nguyên tên. Điền này thay thế tịnh hóa quy tắc cần đối với quyển sách kia tịch hoặc cái nào sách nguyên có hiệu lực ( Như không lấp thì đối với tất cả sách cùng sách nguyên có hiệu lực ).
+
+**【 Chú 】** * Như thường quy khứ trừ phương pháp khứ trừ không xong, thì cần muốn chọn lựa “Sử dụng đang thì biểu đạt thức ” , đồng thời hàng thứ ba bên trong thay thế quy tắc cũng cần dựa theo đang thì biểu đạt thức tới điền ( Đang thì biểu đạt thức điền phương pháp có thể tự động trên mạng lùng tìm học tập ).*
+
+## Dành trước liên quan
+
+### 1. Mây dành trước ở đâu?
+
+“** Ta **” —— “** Dành trước cùng khôi phục **” —— “**WebDav thiết trí **” .
+
+### 2. Như thế nào thao tác tiến Hành Vân dành trước?
+
+* Bên cạnh cột thiết trí, WebDav thiết trí;
+
+* Chính xác điền WebDAV server địa chỉ, trương mục cùng mật mã;
+
+* Không cần thao tác, APP ngầm thừa nhận mỗi ngày tự động mây dành trước một lần.
+
+Tác giả ở đây chân thành đề cử sử dụng 【 Quả hạch mây 】 tiến hành WebDav dành trước.
+
+Nếu như trực tiếp trên điện thoại di động đăng ký, cần download 【 Quả hạch mây 】APP, trình tự tương đối rườm rà. Đề cử tại trên máy tính tiến hành thao tác:
+
+1. Mở ra đăng ký kết nối: https://www.jianguoyun.com/d/signup ;
+
+2. Đăng ký sau, tiến vào quả hạch mây;
+
+3. Click góc trên bên phải tài khoản tên chỗ lựa chọn “** Tài khoản tin tức **” , tiếp đó lựa chọn “** An toàn tuyển hạng **” ;
+
+4. Tại “** An toàn tuyển hạng **” Bên trong tìm được “** Phe thứ ba ứng dụng quản lý **” , đồng thời lựa chọn “** Tăng thêm ứng dụng **” , đưa vào tên ( Như “Đọc ” ) sau, sẽ sinh ra mật mã, lựa chọn hoàn thành;
+
+5. Trong đó `https://dav.jianguoyun.com/dav/` Chính là lấp vào “**WebDAV server địa chỉ **” nội dung, “** Sử dụng tình huống **” Phía sau hòm thư địa chỉ chính là của ngươi “**WebDAV trương mục **” , click “** Biểu hiện mật mã ** “Sau lấy được mật mã chính là của ngươi “**WebDAV mật mã **” .
+
+### 3. Liên quan tới mây dành trước liên quan chứng minh
+
+Tại chính xác thiết trí hảo mây dành trước tình huống phía dưới, APP ngầm thừa nhận mỗi ngày tự động mây dành trước một lần, ngày đó nhiều lần thủ động mây dành trước sẽ đối với ngày đó cũ mây dành trước văn kiện tiến hành bao trùm, cũng sẽ không bao trùm phía trước cùng sau đó không đồng nhất kỳ dành trước văn kiện, mỗi ngày chỗ tự động mây dành trước văn kiện sẽ dựa theo ngày tiến hành mệnh danh.
+
+### 4. Bản địa dành trước cùng mây dành trước đều có thể dành trước những thứ đó?
+
+Giá sách, đọc sách tiến độ, lùng tìm ghi chép, sách nguyên, thay thế cùng APP thiết trí chờ đều biết dành trước, cơ bản bao dung tất cả nội dung.
+
+### 5. Xuất hiện một ít không biết Bug làm sao bây giờ?
+
+Thanh trừ phần mềm số liệu thử thử xem, không được lại tiến hành phản hồi.
+
+## Khác
+
+### 1. Như thế nào nghe sách?
+
+Có thể sử dụng điện thoại di động kèm theo đọc chậm động cơ, cũng có thể sử dụng phe thứ ba như Google( Google ) hoặc Tiểu Mễ chờ đọc chậm động cơ.
+
+【 Thao tác cụ thể 】* Lắp đặt —— Hệ thống thiết trí —— Khác cao cấp thiết trí —— Phụ trợ công năng ——TTS thu phát —— Lựa chọn lắp đặt đọc chậm động cơ ( Khác biệt nhãn hiệu điện thoại di động thao tác phương pháp cùng trình tự cũng khác biệt, xem tình huống mà định ra ).*
+
+### 2. Như thế nào thiết trí màn hình phương hướng, màn hình biểu hiện thời gian, biểu hiện / ẩn tàng thanh trạng thái, biểu hiện / ẩn tàng hướng dẫn cột, âm lượng khóa lật giấy, dài theo lựa chọn văn bản, click lúc nào cũng lật trang kế tiếp hoặc tự định nghĩa lật giấy ấn phím?
+
+Đọc giới diện —— “** Thiết trí **” ( Có thể lên hoạch, phía dưới còn có khác thiết trí ).
+
+### 3. Lùng tìm thời điểm cảm giác thẻ điện thoại ngừng lại, như thế nào giải quyết?
+
+“** Ta **” —— “** Khác thiết trí **” —— Điều thấp “** Đổi mới cùng lùng tìm tuyến trình đếm **” .
+
+1

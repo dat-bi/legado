@@ -76,8 +76,8 @@ class ChangeBookSourceDialog() : BaseDialogFragment(R.layout.dialog_book_change_
             val searchGroup = AppConfig.searchGroup
             if (searchGroup.isNotEmpty()) {
                 launch {
-                    alert("搜索结果为空") {
-                        setMessage("${searchGroup}分组搜索结果为空,是否切换到全部分组")
+                    alert("kết quả tìm kiếm trống") {
+                        setMessage("${searchGroup}Kết quả tìm kiếm nhóm trống, có chuyển sang tất cả các nhóm không")
                         cancelButton()
                         okButton {
                             AppConfig.searchGroup = ""

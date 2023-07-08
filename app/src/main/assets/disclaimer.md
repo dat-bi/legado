@@ -1,16 +1,25 @@
-# 免责声明（Disclaimer）
+# Miễn trách tuyên bố (Disclaimer)
+* Duyệt Độc là một cái phân tích chỉ định quy tắc đồng thời thu hoạch nội dung công cụ, vì rộng lớn văn học mạng kẻ yêu thích cung cấp một loại thuận tiện, mau lẹ thoải mái dễ chịu thử đọc thể nghiệm.
+* Khi ngài lùng tìm một quyển sách lúc, Duyệt Độc sẽ ngài sử dụng quy tắc đem nên sách tên sách lấy từ mấu chốt hình thức đưa ra đến mỗi phe thứ ba văn học mạng website.
 
-* 阅读是一款解析指定规则并获取内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
-* 当您搜索一本书的时，阅读会您所使用的规则将该书的书名以关键词的形式提交到各个第三方网络文学网站。
-各第三方网站返回的内容与阅读无关，阅读对其概不负责，亦不承担任何法律责任。
-任何通过使用阅读而链接到的第三方网页均系他人制作或提供，您可能从第三方网页上获得其他服务，阅读对其合法性概不负责，亦不承担任何法律责任。
-第三方搜索引擎结果根据您提交的书名自动搜索获得并提供试读，不代表阅读赞成或被搜索链接到的第三方网页上的内容或立场。
-您应该对使用搜索引擎的结果自行承担风险。
-* 阅读不做任何形式的保证：不保证第三方搜索引擎的搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。
-因网络状况、通讯线路、第三方网站等任何原因而导致您不能正常使用阅读，阅读不承担任何法律责任。
-阅读尊重并保护所有使用阅读用户的个人隐私权，您注册的用户名、电子邮件地址等个人资料，非经您亲自许可或根据相关法律、法规的强制性规定，阅读不会主动地泄露给第三方。
-* 阅读致力于最大程度地减少网络文学阅读者在自行搜寻过程中的无意义的时间浪费，通过专业搜索展示不同网站中网络文学的最新章节。
-阅读在为广大小说爱好者提供方便、快捷舒适的试读体验的同时，也使优秀网络文学得以迅速、更广泛的传播，从而达到了在一定程度促进网络文学充分繁荣发展之目的。
-阅读鼓励广大小说爱好者通过阅读发现优秀网络小说及其提供商，并建议阅读正版图书。
-任何单位或个人认为通过阅读搜索链接到的第三方网页内容可能涉嫌侵犯其信息网络传播权，应该及时向阅读提出书面权力通知，并提供身份证明、权属证明及详细侵权情况证明。
-阅读在收到上述法律文件后，将会依法尽快断开相关链接内容。
+Tất cả phe thứ ba website trở về nội dung cùng Duyệt Độc không quan hệ, Duyệt Độc đối nó tổng thể không phụ trách, cũng không gánh chịu bất kỳ pháp luật nào trách nhiệm.
+
+Bất luận cái gì thông qua sử dụng Duyệt Độc mà kết nối đến phe thứ ba website đều hệ người khác chế tác hoặc cung cấp, ngài có thể từ phe thứ ba võng hiệt thượng thu được những phục vụ khác, Duyệt Độc đối nó tính hợp pháp tổng thể không phụ trách, cũng không gánh chịu bất kỳ pháp luật nào trách nhiệm.
+
+Phe thứ ba công cụ tìm kiếm kết quả căn cứ vào ngài đề giao tên sách tự động lùng tìm thu được đồng thời cung cấp thử đọc, không có nghĩa là Duyệt Độc tán thành hoặc bị lùng tìm kết nối đến phe thứ ba võng hiệt thượng nội dung hoặc đứng tràng.
+
+Ngài hẳn là đối với sử dụng công cụ tìm kiếm kết quả tự gánh vác phong hiểm.
+* Duyệt Độc không làm bất luận cái gì hình thức cam đoan: Không bảo đảm phe thứ ba công cụ tìm kiếm kết quả tìm kiếm thỏa mãn yêu cầu của ngài, không bảo đảm lùng tìm phục vụ không gián đoạn, không bảo đảm kết quả tìm kiếm tính an toàn, tính chính xác, kịp thời tính chất, tính hợp pháp.
+
+Bởi vì dạng mạng lưới huống hồ, thông tin tuyến đường, phe thứ ba website chờ bất luận cái gì nguyên nhân mà dẫn đến ngài không thể sử dụng bình thường Duyệt Độc, Duyệt Độc không gánh chịu bất kỳ pháp luật nào trách nhiệm.
+
+Duyệt Độc tôn trọng đồng thời bảo hộ tất cả sử dụng Duyệt Độc người sử dụng cá nhân tư ẩn quyền, ngài đăng ký người sử dụng tên, email địa chỉ chờ tài liệu cá nhân, không phải trải qua ngài tự mình cho phép hoặc căn cứ vào pháp luật tương quan, pháp quy cưỡng chế tính chất quy định, Duyệt Độc sẽ không chủ động tiết lộ cho phe thứ ba.
+* Duyệt Độc tận sức tại trình độ lớn nhất mà giảm bớt văn học mạng đọc giả tại tự động tìm kiếm quá trình bên trong không có ý nghĩa thời gian lãng phí, thông qua chuyên nghiệp lùng tìm bày ra khác biệt trong trang web văn học mạng chương mới nhất.
+
+Duyệt Độc đang vì rộng lớn tiểu thuyết kẻ yêu thích cung cấp thuận tiện, mau lẹ thoải mái dễ chịu thử đọc thể nghiệm đồng thời, cũng làm cho ưu tú văn học mạng có thể cấp tốc, càng rộng khắp hơn truyền bá, từ đó đạt đến tại trình độ nhất định xúc tiến văn học mạng đầy đủ phồn vinh phát triển con mắt .
+
+Duyệt Độc cổ vũ rộng lớn tiểu thuyết kẻ yêu thích thông qua Duyệt Độc phát hiện ưu tú tiểu thuyết mạng cực kỳ cung cấp thương, đồng thời đề nghị Duyệt Độc chính bản sách báo.
+
+Bất luận cái gì đơn vị hoặc cá nhân cho rằng thông qua Duyệt Độc lùng tìm kết nối đến phe thứ ba website nội dung có thể dính líu xâm phạm hắn mạng tin tức lạc truyền bá quyền, hẳn là kịp thời hướng Duyệt Độc đưa ra văn bản quyền hạn thông tri, đồng thời cung cấp chứng minh thân phận, quyền thuộc chứng minh cùng kỹ càng xâm phạm bản quyền tình huống chứng minh.
+
+Duyệt Độc tại thu đến kể trên pháp luật văn kiện sau, sẽ y pháp mau chóng cắt ra liên quan kết nối nội dung.
