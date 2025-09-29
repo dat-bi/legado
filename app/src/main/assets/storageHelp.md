@@ -1,2 +1,2 @@
-* 由于安卓的存储访问限制，阅读需要设置**公共目录下的子目录**来实现书籍拷贝、下载，例如Documents/Books、Download/Books
-* 如不设置，将无法正常使用本地书籍、webDav书籍的相关功能
+- Do hạn chế truy cập bộ nhớ của Android, Legado cần thiết lập **thư mục con trong thư mục công cộng** để thực hiện sao chép, tải xuống sách, ví dụ Documents/Books, Download/Books
+- Nếu không thiết lập, sẽ không thể sờ dụng bình thường các chức năng liên quan đến sách cục bộ, sách webDav

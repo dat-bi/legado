@@ -1,30 +1,30 @@
-# 阅读[API](/app/src/main/java/io/legado/app/api/controller)
+# API của [Legado](/app/src/main/java/io/legado/app/api/controller)
 
-## 对于[Web](/app/src/main/java/io/legado/app/web/)的配置
+## Cấu hình cho [Web](/app/src/main/java/io/legado/app/web/)
 
-您需要先在设置中启用"Web 服务"。
+Bạn cần kích hoạt "Dịch vụ Web" trong cài đặt trước.
 
-## 使用
+## Sử dụng
 
 ### Web
 
-以下说明假设您的操作在本机进行，且开放端口为1234。  
-如果您要从远程计算机访问[阅读]()，请将`127.0.0.1`替换成手机IP。
+Các hướng dẫn dưới đây giả sử bạn thực hiện trên máy cục bộ và cổng mở là 1234.  
+Nếu bạn muốn truy cập [Legado]() từ máy tính từ xa, hãy thay thế `127.0.0.1` bằng IP điện thoại.
 
-#### 插入单个书源
+#### Thêm một nguồn sách
 
-请求BODY内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)
+Nội dung BODY yêu cầu là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)
 
 ```
 URL = http://127.0.0.1:1234/saveBookSource
 Method = POST
 ```
 
-#### 插入多个书源or订阅源
+#### Thêm nhiều nguồn sách hoặc nguồn đăng ký
 
-请求BODY内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)，**为数组格式**。
+Nội dung BODY yêu cầu là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/BookSource.kt), **là định dạng mảng**.
 
 ```
 URL = http://127.0.0.1:1234/saveBookSources
@@ -32,15 +32,15 @@ URL = http://127.0.0.1:1234/saveRssSources
 Method = POST
 ```
 
-#### 获取书源
+#### Lấy nguồn sách
 
 ```
 URL = http://127.0.0.1:1234/getBookSource?url=xxx
 URL = http://127.0.0.1:1234/getRssSource?url=xxx
 Method = GET
-``` 
+```
 
-#### 获取所有书源or订阅源
+#### Lấy tất cả nguồn sách hoặc nguồn đăng ký
 
 ```
 URL = http://127.0.0.1:1234/getBookSources
@@ -48,10 +48,10 @@ URL = http://127.0.0.1:1234/getRssSources
 Method = GET
 ```
 
-#### 删除多个书源or订阅源
+#### Xóa nhiều nguồn sách hoặc nguồn đăng ký
 
-请求BODY内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)，**为数组格式**。
+Nội dung BODY yêu cầu là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/BookSource.kt), **là định dạng mảng**.
 
 ```
 URL = http://127.0.0.1:1234/deleteBookSources
@@ -59,9 +59,9 @@ URL = http://127.0.0.1:1234/deleteRssSources
 Method = POST
 ```
 
-#### 调试源
+#### Gỡ lỗi nguồn
 
-key为书源搜索关键词，tag为源链接
+key là từ khóa tìm kiếm nguồn sách, tag là liên kết nguồn
 
 ```
 URL = ws://127.0.0.1:1235/bookSourceDebug
@@ -69,26 +69,27 @@ URL = ws://127.0.0.1:1235/rssSourceDebug
 Message = { key: [String], tag: [String] }
 ```
 
-#### 获取替换规则
+#### Lấy quy tắc thay thế
 
 ```
 URL = http://127.0.0.1:1234/getReplaceRules
 Method = GET
 ```
 
-#### 替换规则管理
+#### Quản lý quy tắc thay thế
 
-请求BODY内容为`JSON`字符串，  
-替换规则参考[这个文件](/app/src/main/java/io/legado/app/data/entities/ReplaceRule.kt)。
+Nội dung BODY yêu cầu là chuỗi `JSON`,  
+Quy tắc thay thế tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/ReplaceRule.kt)。
 
-##### 删除
+##### Xóa
 
 ```
 URL = http://127.0.0.1:1234/deleteReplaceRule
 Method = POST
 Body = [ReplaceRule]
 ```
-##### 插入
+
+##### Thêm
 
 ```
 URL = http://127.0.0.1:1234/saveReplaceRule
@@ -96,9 +97,9 @@ Method = POST
 Body = [ReplaceRule]
 ```
 
-##### 测试
+##### Kiểm tra
 
-返回测试文本text替换结果
+Trả về kết quả thay thế văn bản test
 
 ```
 URL = http://127.0.0.1:1234/testReplaceRule
@@ -106,77 +107,77 @@ Method = POST
 Body = { rule: [ReplaceRule], text: [String] }
 ```
 
-#### 搜索在线书籍
+#### Tìm kiếm sách trực tuyến
 
-若想获取对应的书籍的目录正文 请先**插入书籍**以启用缓存，如果试读后决定不添加到书籍，请**删除书籍**
+Nếu muốn lấy mục lục nội dung của sách tương ứng, vui lòng **thêm sách** trước để kích hoạt bộ nhớ đệm, nếu sau khi đọc thử quyết định không thêm vào sách, vui lòng **xóa sách**
 
 ```
 URL = ws://127.0.0.1:1235/searchBook
 Message = { key: [String] }
 ```
 
-#### 插入书籍
+#### Thêm sách
 
-请求BODY内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/Book.kt)。
+Nội dung BODY yêu cầu là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/Book.kt)。
 
 ```
 URL = http://127.0.0.1:1234/saveBook
 Method = POST
 ```
 
-#### 删除书籍
+#### Xóa sách
 
 ```
 URL = http://127.0.0.1:1234/deleteBook
 Method = POST
 ```
 
-#### 获取所有书籍
+#### Lấy tất cả sách
 
 ```
 URL = http://127.0.0.1:1234/getBookshelf
 Method = GET
 ```
 
-获取APP内的所有书籍。
+Lấy tất cả sách trong APP。
 
-#### 获取书籍章节列表
+#### Lấy danh sách chương sách
 
 ```
 URL = http://127.0.0.1:1234/getChapterList?url=xxx
 Method = GET
 ```
 
-获取指定图书的章节列表。
+Lấy danh sách chương của sách được chỉ định。
 
-#### 获取书籍内容
+#### Lấy nội dung sách
 
 ```
 URL = http://127.0.0.1:1234/getBookContent?url=xxx&index=1
 Method = GET
 ```
 
-获取指定图书的第`index`章节的文本内容。
+Lấy nội dung văn bản chương `index` của sách được chỉ định。
 
-#### 获取封面
+#### Lấy ảnh bìa
 
 ```
 URL = http://127.0.0.1:1234/cover?path=xxxxx
 Method = GET
 ```
 
-#### 获取正文图片
+#### Lấy hình ảnh nội dung
 
 ```
 URL = http://127.0.0.1:1234/image?url=${bookUrl}&path=${picUrl}&width=${width}
 Method = GET
 ```
 
-#### 保存书籍进度
+#### Lưu tiến độ sách
 
-请求BODY内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/BookProgress.kt)。
+Nội dung BODY yêu cầu là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/BookProgress.kt)。
 
 ```
 URL = http://127.0.0.1:1234/saveBookProgress
@@ -185,15 +186,14 @@ Method = POST
 
 ### [Content Provider](/app/src/main/java/io/legado/app/api/ReaderProvider.kt)
 
+- Cần khai báo quyền `io.legado.READ_WRITE`
+- `providerHost` là `đói gói.readerProvider`, ví dụ `io.legado.app.release.readerProvider`, địa chỉ các gói khác nhau khác nhau, để tránh xung đột cài đặt thất bại
+- Các `providerHost` xuất hiện dưới đây vui lòng tự thay thế
 
-* 需声明`io.legado.READ_WRITE`权限
-* `providerHost`为`包名.readerProvider`, 如`io.legado.app.release.readerProvider`,不同包的地址不同,防止冲突安装失败
-* 以下出现的`providerHost`请自行替换
+#### Thêm một nguồn sách hoặc nguồn đăng ký
 
-#### 插入单个书源or订阅源
-
-创建`Key="json"`的`ContentValues`，内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)
+Tạo `ContentValues` với `Key="json"`, nội dung là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)
 
 ```
 URL = content://providerHost/bookSource/insert
@@ -201,10 +201,10 @@ URL = content://providerHost/rssSource/insert
 Method = insert
 ```
 
-#### 插入多个书源or订阅源
+#### Thêm nhiều nguồn sách hoặc nguồn đăng ký
 
-创建`Key="json"`的`ContentValues`，内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)，**为数组格式**。
+Tạo `ContentValues` với `Key="json"`, nội dung là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/BookSource.kt), **là định dạng mảng**。
 
 ```
 URL = content://providerHost/bookSources/insert
@@ -212,10 +212,10 @@ URL = content://providerHost/rssSources/insert
 Method = insert
 ```
 
-#### 获取书源or订阅源
+#### Lấy nguồn sách hoặc nguồn đăng ký
 
-获取指定URL对应的书源信息。  
-用`Cursor.getString(0)`取出返回结果。
+Lấy thông tin nguồn sách tương ứng với URL được chỉ định。  
+Dùng `Cursor.getString(0)` để lấy kết quả trả về。
 
 ```
 URL = content://providerHost/bookSource/query?url=xxx
@@ -223,10 +223,10 @@ URL = content://providerHost/rssSource/query?url=xxx
 Method = query
 ```
 
-#### 获取所有书源or订阅源
+#### Lấy tất cả nguồn sách hoặc nguồn đăng ký
 
-获取APP内的所有订阅源。  
-用`Cursor.getString(0)`取出返回结果。
+Lấy tất cả nguồn đăng ký trong APP。  
+Dùng `Cursor.getString(0)` để lấy kết quả trả về。
 
 ```
 URL = content://providerHost/bookSources/query
@@ -234,10 +234,10 @@ URL = content://providerHost/rssSources/query
 Method = query
 ```
 
-#### 删除多个书源or订阅源
+#### Xóa nhiều nguồn sách hoặc nguồn đăng ký
 
-创建`Key="json"`的`ContentValues`，内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/BookSource.kt)，**为数组格式**。
+Tạo `ContentValues` với `Key="json"`, nội dung là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/BookSource.kt), **là định dạng mảng**。
 
 ```
 URL = content://providerHost/bookSources/delete
@@ -245,47 +245,47 @@ URL = content://providerHost/rssSources/delete
 Method = delete
 ```
 
-#### 插入书籍
+#### Thêm sách
 
-创建`Key="json"`的`ContentValues`，内容为`JSON`字符串，  
-格式参考[这个文件](/app/src/main/java/io/legado/app/data/entities/Book.kt)。
+Tạo `ContentValues` với `Key="json"`, nội dung là chuỗi `JSON`,  
+Định dạng tham khảo [file này](/app/src/main/java/io/legado/app/data/entities/Book.kt)。
 
 ```
 URL = content://providerHost/book/insert
 Method = insert
 ```
 
-#### 获取所有书籍
+#### Lấy tất cả sách
 
-获取APP内的所有书籍。  
-用`Cursor.getString(0)`取出返回结果。
+Lấy tất cả sách trong APP。  
+Dùng `Cursor.getString(0)` để lấy kết quả trả về。
 
 ```
 URL = content://providerHost/books/query
 Method = query
 ```
 
-#### 获取书籍章节列表
+#### Lấy danh sách chương sách
 
-获取指定图书的章节列表。   
-用`Cursor.getString(0)`取出返回结果。
+Lấy danh sách chương của sách được chỉ định。  
+Dùng `Cursor.getString(0)` để lấy kết quả trả về。
 
 ```
 URL = content://providerHost/book/chapter/query?url=xxx
 Method = query
 ```
 
-#### 获取书籍内容
+#### Lấy nội dung sách
 
-获取指定图书的第`index`章节的文本内容。     
-用`Cursor.getString(0)`取出返回结果。
+Lấy nội dung văn bản chương `index` của sách được chỉ định。  
+Dùng `Cursor.getString(0)` để lấy kết quả trả về。
 
 ```
 URL = content://providerHost/book/content/query?url=xxx&index=1
 Method = query
 ```
 
-#### 获取封面
+#### Lấy ảnh bìa
 
 ```
 URL = content://providerHost/book/cover/query?path=xxxx

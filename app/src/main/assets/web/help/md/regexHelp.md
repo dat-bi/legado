@@ -1,204 +1,204 @@
-# 正则表达式学习
+# Học biểu thức chính quy
 
-- [基本匹配]
-- [元字符]
-  - [英文句号]
-  - [字符集]
-    - [否定字符集]
-  - [重复]
-    - [星号]
-    - [加号]
-    - [问号]
-  - [花括号]
-  - [字符组]
-  - [分支结构]
-  - [转义特殊字符]
-  - [定位符]
-    - [插入符号]
-    - [美元符号]
-- [简写字符集]
-- [断言]
-  - [正向先行断言]
-  - [负向先行断言]
-  - [正向后行断言]
-  - [负向后行断言]
-- [标记]
-  - [不区分大小写]
-  - [全局搜索]
-  - [多行匹配]
-- [常用正则表达式]
+- [Khớp cơ bản]
+- [Ký tự meta]
+  - [Dấu chấm tiếng Anh]
+  - [Tập ký tự]
+    - [Tập ký tự phủ định]
+  - [Lặp lại]
+    - [Dấu sao]
+    - [Dấu cộng]
+    - [Dấu hỏi]
+  - [Ngoặc nhọn]
+  - [Nhóm ký tự]
+  - [Cấu trúc phân nhánh]
+  - [Escape ký tự đặc biệt]
+  - [Ký tự định vị]
+    - [Ký hiệu chèn]
+    - [Ký hiệu đô la]
+- [Tập ký tự viết tắt]
+- [Assertion]
+  - [Positive lookahead assertion]
+  - [Negative lookahead assertion]
+  - [Positive lookbehind assertion]
+  - [Negative lookbehind assertion]
+- [Cờ đánh dấu]
+  - [Không phân biệt hoa thường]
+  - [Tìm kiếm toàn cục]
+  - [Khớp đa dòng]
+- [Biểu thức chính quy thường dùng]
 
-## 1. 基本匹配
+## 1. Khớp cơ bản
 
-正则表达式只是我们用于在文本中检索字母和数字的模式。例如正则表达式 `cat`，表示: 字母 `c` 后面跟着一个字母 `a`，再后面跟着一个字母 `t`。<pre>"cat" => The <a href="#learn-regex"><strong>cat</strong></a> sat on the mat</pre>
+Biểu thức chính quy chỉ là mẫu mà chúng ta sử dụng để kiểm tra chữ cái và số trong văn bản. Ví dụ biểu thức chính quy `cat`, biểu thị: chữ cái `c` theo sau là một chữ cái `a`, rồi theo sau là một chữ cái `t`.<pre>"cat" => The <a href="#learn-regex"><strong>cat</strong></a> sat on the mat</pre>
 
-正则表达式 `123` 会匹配字符串 "123"。通过将正则表达式中的每个字符逐个与要匹配的字符串中的每个字符进行比较，来完成正则匹配。
-正则表达式通常区分大小写，因此正则表达式 `Cat` 与字符串 "cat" 不匹配。<pre>"Cat" => The cat sat on the <a href="#learn-regex"><strong>Cat</strong></a></pre>
+Biểu thức chính quy `123` sẽ khớp với chuỗi "123". Việc khớp biểu thức chính quy được thực hiện bằng cách so sánh từng ký tự trong biểu thức chính quy với từng ký tự trong chuỗi cần khớp.
+Biểu thức chính quy thường phân biệt hoa thường, do đó biểu thức chính quy `Cat` không khớp với chuỗi "cat".<pre>"Cat" => The cat sat on the <a href="#learn-regex"><strong>Cat</strong></a></pre>
 
-## 2. 元字符
+## 2. Ký tự meta
 
-元字符是正则表达式的基本组成元素。元字符在这里跟它通常表达的意思不一样，而是以某种特殊的含义去解释。有些元字符写在方括号内的时候有特殊含义。
-元字符如下:
+Ký tự meta là các thành phần cơ bản của biểu thức chính quy. Ký tự meta ở đây không có nghĩa thông thường mà được hiểu theo một nghĩa đặc biệt nào đó. Một số ký tự meta có nghĩa đặc biệt khi được viết trong dấu ngoặc vuông.
+Các ký tự meta như sau:
 
-|元字符|描述|
-|:----:|----|
-|.|匹配除换行符以外的任意字符。|
-|[ ]|字符类，匹配方括号中包含的任意字符。|
-|[^ ]|否定字符类。匹配方括号中不包含的任意字符|
-|*|匹配前面的子表达式零次或多次|
-|+|匹配前面的子表达式一次或多次|
-|?|匹配前面的子表达式零次或一次，或指明一个非贪婪限定符。|
-|{n,m}|花括号，匹配前面字符至少 n 次，但是不超过 m 次。|
-|(xyz)|字符组，按照确切的顺序匹配字符xyz。|
-|&#124;|分支结构，匹配符号之前的字符或后面的字符。|
-|&#92;|转义符，它可以还原元字符原来的含义，允许你匹配保留字符 <code>[ ] ( ) { } . * + ? ^ $ \ &#124;</code>|
-|^|匹配行的开始|
-|$|匹配行的结束|
+| Ký tự meta | Mô tả                                                                                                                                                  |
+| :--------: | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|     .      | Khớp bất kỳ ký tự nào ngoại trừ ký tự xuống dòng.                                                                                                      |
+|    [ ]     | Lớp ký tự, khớp bất kỳ ký tự nào chứa trong dấu ngoặc vuông.                                                                                           |
+|    [^ ]    | Lớp ký tự phủ định. Khớp bất kỳ ký tự nào không chứa trong dấu ngoặc vuông                                                                             |
+|     \*     | Khớp biểu thức con trước đó không lần hoặc nhiều lần                                                                                                   |
+|     +      | Khớp biểu thức con trước đó một lần hoặc nhiều lần                                                                                                     |
+|     ?      | Khớp biểu thức con trước đó không lần hoặc một lần, hoặc chỉ định một bộ giới hạn không tham lam.                                                      |
+|   {n,m}    | Ngoặc nhọn, khớp ký tự trước ít nhất n lần, nhưng không quá m lần.                                                                                     |
+|   (xyz)    | Nhóm ký tự, khớp ký tự xyz theo thứ tự chính xác.                                                                                                      |
+|   &#124;   | Cấu trúc phân nhánh, khớp ký tự trước hoặc sau ký hiệu.                                                                                                |
+|   &#92;    | Ký tự escape, nó có thể khôi phục ý nghĩa gốc của ký tự meta, cho phép bạn khớp ký tự đã được đặt trước <code>[ ] ( ) { } . \* + ? ^ $ \ &#124;</code> |
+|     ^      | Khớp đầu dòng                                                                                                                                          |
+|     $      | Khớp cuối dòng                                                                                                                                         |
 
-## 2.1 英文句号
+## 2.1 Dấu chấm tiếng Anh
 
-英文句号 `.` 是元字符的最简单的例子。元字符 `.` 可以匹配任意单个字符。它不会匹配换行符和新行的字符。例如正则表达式 `.ar`，表示: 任意字符后面跟着一个字母 `a`，
-再后面跟着一个字母 `r`。<pre>".ar" => The <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.</pre>
+Dấu chấm tiếng Anh `.` là ví dụ đơn giản nhất của ký tự meta. Ký tự meta `.` có thể khớp với bất kỳ ký tự đơn nào. Nó không khớp với ký tự xuống dòng và ký tự dòng mới. Ví dụ biểu thức chính quy `.ar`, biểu thị: bất kỳ ký tự nào theo sau là một chữ cái `a`,
+rồi theo sau là một chữ cái `r`.<pre>".ar" => The <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.</pre>
 
-## 2.2 字符集
+## 2.2 Tập ký tự
 
-字符集也称为字符类。方括号被用于指定字符集。使用字符集内的连字符来指定字符范围。方括号内的字符范围的顺序并不重要。
-例如正则表达式 `[Tt]he`，表示: 大写 `T` 或小写 `t` ，后跟字母 `h`，再后跟字母 `e`。<pre>"[Tt]he" => <a href="#learn-regex"><strong>The</strong></a> car parked in <a href="#learn-regex"><strong>the</strong></a> garage.</pre>
+Tập ký tự còn được gọi là lớp ký tự. Dấu ngoặc vuông được sử dụng để chỉ định tập ký tự. Sử dụng dấu gạch ngang trong tập ký tự để chỉ định phạm vi ký tự. Thứ tự của phạm vi ký tự trong dấu ngoặc vuông không quan trọng.
+Ví dụ biểu thức chính quy `[Tt]he`, biểu thị: chữ cái `T` hoa hoặc chữ cái `t` thường, theo sau là chữ cái `h`, rồi theo sau là chữ cái `e`.<pre>"[Tt]he" => <a href="#learn-regex"><strong>The</strong></a> car parked in <a href="#learn-regex"><strong>the</strong></a> garage.</pre>
 
-然而，字符集中的英文句号表示它字面的含义。正则表达式 `ar[.]`，表示小写字母 `a`，后面跟着一个字母 `r`，再后面跟着一个英文句号 `.` 字符。<pre>"ar[.]" => A garage is a good place to park a c<a href="#learn-regex"><strong>ar.</strong></a></pre>
+Tuy nhiên, dấu chấm tiếng Anh trong tập ký tự biểu thị nghĩa đen của nó. Biểu thức chính quy `ar[.]`, biểu thị chữ cái thường `a`, theo sau là một chữ cái `r`, rồi theo sau là một ký tự dấu chấm tiếng Anh `.`.<pre>"ar[.]" => A garage is a good place to park a c<a href="#learn-regex"><strong>ar.</strong></a></pre>
 
-### 2.2.1 否定字符集
+### 2.2.1 Tập ký tự phủ định
 
-一般来说插入字符 `^` 表示一个字符串的开始，但是当它在方括号内出现时，它会取消字符集。例如正则表达式 `[^c]ar`，表示: 除了字母 `c` 以外的任意字符，后面跟着字符 `a`，
-再后面跟着一个字母 `r`。<pre>"[^c]ar" => The car <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.</pre>
+Nói chung ký tự chèn `^` biểu thị sự bắt đầu của một chuỗi, nhưng khi nó xuất hiện trong dấu ngoặc vuông, nó sẽ phủ định tập ký tự. Ví dụ biểu thức chính quy `[^c]ar`, biểu thị: bất kỳ ký tự nào ngoại trừ chữ cái `c`, theo sau là ký tự `a`,
+rồi theo sau là một chữ cái `r`.<pre>"[^c]ar" => The car <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.</pre>
 
-## 2.3 重复
+## 2.3 Lặp lại
 
-以下元字符 `+`，`*` 或 `?` 用于指定子模式可以出现多少次。这些元字符在不同情况下的作用不同。
+Các ký tự meta sau `+`, `*` hoặc `?` được sử dụng để chỉ định một mẫu con có thể xuất hiện bao nhiêu lần. Các ký tự meta này có tác dụng khác nhau trong các tình huống khác nhau.
 
-### 2.3.1 星号
+### 2.3.1 Dấu sao
 
-该符号 `*` 表示匹配上一个匹配规则的零次或多次。正则表达式 `a*` 表示小写字母 `a` 可以重复零次或者多次。但是它如果出现在字符集或者字符类之后，它表示整个字符集的重复。
-例如正则表达式 `[a-z]*`，表示: 一行中可以包含任意数量的小写字母。<pre>"[a-z]*" => T<a href="#learn-regex"><strong>he</strong></a> <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>parked</strong></a> <a href="#learn-regex"><strong>in</strong></a> <a href="#learn-regex"><strong>the</strong></a> <a href="#learn-regex"><strong>garage</strong></a> #21.</pre>
+Ký hiệu `*` biểu thị khớp với quy tắc khớp trước đó không lần hoặc nhiều lần. Biểu thức chính quy `a*` biểu thị chữ cái thường `a` có thể lặp lại không lần hoặc nhiều lần. Nhưng nếu nó xuất hiện sau tập ký tự hoặc lớp ký tự, nó biểu thị sự lặp lại của toàn bộ tập ký tự.
+Ví dụ biểu thức chính quy `[a-z]*`, biểu thị: một dòng có thể chứa bất kỳ số lượng chữ cái thường nào.<pre>"[a-z]\*" => T<a href="#learn-regex"><strong>he</strong></a> <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>parked</strong></a> <a href="#learn-regex"><strong>in</strong></a> <a href="#learn-regex"><strong>the</strong></a> <a href="#learn-regex"><strong>garage</strong></a> #21.</pre>
 
-该 `*` 符号可以与元符号 `.` 用在一起，用来匹配任意字符串 `.*`。该 `*` 符号可以与空格符 `\s` 一起使用，用来匹配一串空格字符。
-例如正则表达式 `\s*cat\s*`，表示: 零个或多个空格，后面跟小写字母 `c`，再后面跟小写字母 `a`，再再后面跟小写字母 `t`，后面再跟零个或多个空格。<pre>"\s*cat\s*" => The fat<a href="#learn-regex"><strong> cat </strong></a>sat on the <a href="#learn-regex"><strong>cat</strong></a>.</pre>
+Ký hiệu `*` có thể được sử dụng với ký hiệu meta `.` để khớp với bất kỳ chuỗi ký tự nào `.*`. Ký hiệu `*` có thể được sử dụng với ký tự khoảng trắng `\s` để khớp với một chuỗi các ký tự khoảng trắng.
+Ví dụ biểu thức chính quy `\s*cat\s*`, biểu thị: không hoặc nhiều ký tự khoảng trắng, theo sau là chữ cái thường `c`, rồi theo sau là chữ cái thường `a`, rồi rồi theo sau là chữ cái thường `t`, theo sau là không hoặc nhiều ký tự khoảng trắng.<pre>"\s*cat\s*" => The fat<a href="#learn-regex"><strong> cat </strong></a>sat on the <a href="#learn-regex"><strong>cat</strong></a>.</pre>
 
-### 2.3.2 加号
+### 2.3.2 Dấu cộng
 
-该符号 `+` 匹配上一个字符的一次或多次。例如正则表达式 `c.+t`，表示: 一个小写字母 `c`，后跟任意数量的字符，后跟小写字母 `t`。<pre>"c.+t" => The fat <a href="#learn-regex"><strong>cat sat on the mat</strong></a>.</pre>
+Ký hiệu `+` khớp với ký tự trước đó một lần hoặc nhiều lần. Ví dụ biểu thức chính quy `c.+t`, biểu thị: một chữ cái thường `c`, theo sau là bất kỳ số lượng ký tự nào, theo sau là chữ cái thường `t`.<pre>"c.+t" => The fat <a href="#learn-regex"><strong>cat sat on the mat</strong></a>.</pre>
 
-### 2.3.3 问号
+### 2.3.3 Dấu hỏi
 
-在正则表达式中，元字符 `?` 用来表示前一个字符是可选的。该符号匹配前一个字符的零次或一次。
-例如正则表达式 `[T]?he`，表示: 可选的大写字母 `T`，后面跟小写字母 `h`，后跟小写字母 `e`。<pre>"[T]he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in the garage.</pre><pre>"[T]?he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in t<a href="#learn-regex"><strong>he</strong></a> garage.</pre>
+Trong biểu thức chính quy, ký tự meta `?` được sử dụng để biểu thị ký tự trước đó là tùy chọn. Ký hiệu này khớp với ký tự trước đó không lần hoặc một lần.
+Ví dụ biểu thức chính quy `[T]?he`, biểu thị: chữ cái hoa `T` tùy chọn, theo sau là chữ cái thường `h`, theo sau là chữ cái thường `e`.<pre>"[T]he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in the garage.</pre><pre>"[T]?he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in t<a href="#learn-regex"><strong>he</strong></a> garage.</pre>
 
-## 2.4 花括号
+## 2.4 Ngoặc nhọn
 
-在正则表达式中花括号(也被称为量词 ?)用于指定字符或一组字符可以重复的次数。例如正则表达式 `[0-9]{2,3}`，表示: 匹配至少2位数字但不超过3位(0到9范围内的字符)。<pre>"[0-9]{2,3}" => The number was 9.<a href="#learn-regex"><strong>999</strong></a>7 but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.</pre>
+Trong biểu thức chính quy, ngoặc nhọn (còn được gọi là bộ định lượng ?) được sử dụng để chỉ định số lần một ký tự hoặc một nhóm ký tự có thể lặp lại. Ví dụ biểu thức chính quy `[0-9]{2,3}`, biểu thị: khớp ít nhất 2 chữ số nhưng không quá 3 chữ số (ký tự trong khoảng 0 đến 9).<pre>"[0-9]{2,3}" => The number was 9.<a href="#learn-regex"><strong>999</strong></a>7 but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.</pre>
 
-我们可以省略第二个数字。例如正则表达式 `[0-9]{2,}`，表示: 匹配2个或更多个数字。如果我们也删除逗号，则正则表达式 `[0-9]{2}`，表示: 匹配正好为2位数的数字。<pre>"[0-9]{2,}" => The number was 9.<a href="#learn-regex"><strong>9997</strong></a> but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.</pre><pre>"[0-9]{2}" => The number was 9.<a href="#learn-regex"><strong>99</strong></a><a href="#learn-regex"><strong>97</strong></a> but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.</pre>
+Chúng ta có thể bỏ qua số thứ hai. Ví dụ biểu thức chính quy `[0-9]{2,}`, biểu thị: khớp 2 hoặc nhiều chữ số hơn. Nếu chúng ta cũng xóa dấu phẩy, biểu thức chính quy `[0-9]{2}`, biểu thị: khớp chính xác 2 chữ số.<pre>"[0-9]{2,}" => The number was 9.<a href="#learn-regex"><strong>9997</strong></a> but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.</pre><pre>"[0-9]{2}" => The number was 9.<a href="#learn-regex"><strong>99</strong></a><a href="#learn-regex"><strong>97</strong></a> but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.</pre>
 
-## 2.5 字符组
+## 2.5 Nhóm ký tự
 
-字符组是一组写在圆括号内的子模式 `(...)`。正如我们在正则表达式中讨论的那样，如果我们把一个量词放在一个字符之后，它会重复前一个字符。
-但是，如果我们把量词放在一个字符组之后，它会重复整个字符组。
-例如正则表达式 `(ab)*` 表示匹配零个或多个的字符串 "ab"。我们还可以在字符组中使用元字符 `|`。例如正则表达式 `(c|g|p)ar`，表示: 小写字母 `c`、`g` 或 `p` 后面跟字母 `a`，后跟字母 `r`。<pre>"(c|g|p)ar" => The <a href="#learn-regex"><strong>car</strong></a> is <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.</pre>
+Nhóm ký tự là một nhóm các mẫu con được viết trong dấu ngoặc tròn `(...)`. Như chúng ta đã thảo luận trong biểu thức chính quy, nếu chúng ta đặt một bộ định lượng sau một ký tự, nó sẽ lặp lại ký tự trước đó.
+Tuy nhiên, nếu chúng ta đặt bộ định lượng sau một nhóm ký tự, nó sẽ lặp lại toàn bộ nhóm ký tự.
+Ví dụ biểu thức chính quy `(ab)*` biểu thị khớp với không hoặc nhiều chuỗi "ab". Chúng ta cũng có thể sử dụng ký tự meta `|` trong nhóm ký tự. Ví dụ biểu thức chính quy `(c|g|p)ar`, biểu thị: chữ cái thường `c`, `g` hoặc `p` theo sau là chữ cái `a`, theo sau là chữ cái `r`.<pre>"(c|g|p)ar" => The <a href="#learn-regex"><strong>car</strong></a> is <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.</pre>
 
-## 2.6 分支结构
+## 2.6 Cấu trúc phân nhánh
 
-在正则表达式中垂直条 `|` 用来定义分支结构，分支结构就像多个表达式之间的条件。现在你可能认为这个字符集和分支机构的工作方式一样。
-但是字符集和分支结构巨大的区别是字符集只在字符级别上有作用，然而分支结构在表达式级别上依然可以使用。
-例如正则表达式 `(T|t)he|car`，表示: 大写字母 `T` 或小写字母 `t`，后面跟小写字母 `h`，后跟小写字母 `e` 或小写字母 `c`，后跟小写字母 `a`，后跟小写字母 `r`。<pre>"(T|t)he|car" => <a href="#learn-regex"><strong>The</strong></a> <a href="#learn-regex"><strong>car</strong></a> is parked in <a href="#learn-regex"><strong>the</strong></a> garage.</pre>
+Trong biểu thức chính quy, thanh dọc `|` được sử dụng để định nghĩa cấu trúc phân nhánh, cấu trúc phân nhánh giống như điều kiện giữa nhiều biểu thức. Bây giờ bạn có thể nghĩ rằng tập ký tự và cấu trúc phân nhánh hoạt động theo cách giống nhau.
+Nhưng sự khác biệt lớn giữa tập ký tự và cấu trúc phân nhánh là tập ký tự chỉ hoạt động ở cấp độ ký tự, trong khi cấu trúc phân nhánh vẫn có thể được sử dụng ở cấp độ biểu thức.
+Ví dụ biểu thức chính quy `(T|t)he|car`, biểu thị: chữ cái hoa `T` hoặc chữ cái thường `t`, theo sau là chữ cái thường `h`, theo sau là chữ cái thường `e` hoặc chữ cái thường `c`, theo sau là chữ cái thường `a`, theo sau là chữ cái thường `r`.<pre>"(T|t)he|car" => <a href="#learn-regex"><strong>The</strong></a> <a href="#learn-regex"><strong>car</strong></a> is parked in <a href="#learn-regex"><strong>the</strong></a> garage.</pre>
 
-## 2.7 转义特殊字符
+## 2.7 Escape ký tự đặc biệt
 
-正则表达式中使用反斜杠 `\` 来转义下一个字符。这将允许你使用保留字符来作为匹配字符 `{ } [ ] / \ + * . $ ^ | ?`。在特殊字符前面加 `\`，就可以使用它来做匹配字符。
-例如正则表达式 `.` 是用来匹配除了换行符以外的任意字符。现在要在输入字符串中匹配 `.` 字符，正则表达式 `(f|c|m)at\.?`，表示: 小写字母 `f`、`c` 或者 `m` 后跟小写字母 `a`，后跟小写字母 `t`，后跟可选的 `.` 字符。<pre>"(f|c|m)at\.?" => The <a href="#learn-regex"><strong>fat</strong></a> <a href="#learn-regex"><strong>cat</strong></a> sat on the <a href="#learn-regex"><strong>mat.</strong></a></pre>
+Biểu thức chính quy sử dụng dấu gạch chéo ngược `\` để escape ký tự tiếp theo. Điều này sẽ cho phép bạn sử dụng các ký tự được bảo lưu làm ký tự khớp `{ } [ ] / \ + * . $ ^ | ?`. Thêm `\` trước ký tự đặc biệt, bạn có thể sử dụng nó làm ký tự khớp.
+Ví dụ biểu thức chính quy `.` được sử dụng để khớp với bất kỳ ký tự nào ngoại trừ ký tự xuống dòng. Bây giờ để khớp ký tự `.` trong chuỗi đầu vào, biểu thức chính quy `(f|c|m)at\.?`, biểu thị: chữ cái thường `f`, `c` hoặc `m` theo sau là chữ cái thường `a`, theo sau là chữ cái thường `t`, theo sau là ký tự `.` tùy chọn.<pre>"(f|c|m)at\.?" => The <a href="#learn-regex"><strong>fat</strong></a> <a href="#learn-regex"><strong>cat</strong></a> sat on the <a href="#learn-regex"><strong>mat.</strong></a></pre>
 
-## 2.8 定位符
+## 2.8 Ký tự định vị
 
-在正则表达式中，为了检查匹配符号是否是起始符号或结尾符号，我们使用定位符。
-定位符有两种类型: 第一种类型是 `^` 检查匹配字符是否是起始字符，第二种类型是 `$`，它检查匹配字符是否是输入字符串的最后一个字符。
+Trong biểu thức chính quy, để kiểm tra ký hiệu khớp có phải là ký hiệu bắt đầu hay ký hiệu kết thúc không, chúng ta sử dụng ký tự định vị.
+Ký tự định vị có hai loại: loại thứ nhất là `^` kiểm tra ký tự khớp có phải là ký tự đầu tiên của chuỗi đầu vào không, loại thứ hai là `$`, nó kiểm tra ký tự khớp có phải là ký tự cuối cùng của chuỗi đầu vào không.
 
-### 2.8.1 插入符号
+### 2.8.1 Ký hiệu chèn
 
-插入符号 `^` 符号用于检查匹配字符是否是输入字符串的第一个字符。如果我们使用正则表达式 `^a` (如果a是起始符号)匹配字符串 `abc`，它会匹配到 `a`。
-但是如果我们使用正则表达式 `^b`，它是匹配不到任何东西的，因为在字符串 `abc` 中 "b" 不是起始字符。
-让我们来看看另一个正则表达式 `^(T|t)he`，这表示: 大写字母 `T` 或小写字母 `t` 是输入字符串的起始符号，后面跟着小写字母 `h`，后跟小写字母 `e`。<pre>"(T|t)he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in <a href="#learn-regex"><strong>the</strong></a> garage.</pre><pre>"^(T|t)he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in the garage.</pre>
+Ký hiệu chèn `^` được sử dụng để kiểm tra ký tự khớp có phải là ký tự đầu tiên của chuỗi đầu vào không. Nếu chúng ta sử dụng biểu thức chính quy `^a` (để kiểm tra a là ký hiệu bắt đầu) khớp với chuỗi `abc`, nó sẽ khớp với `a`.
+Nhưng nếu chúng ta sử dụng biểu thức chính quy `^b`, nó sẽ không khớp với bất cứ thứ gì, vì trong chuỗi `abc`, "b" không phải là ký tự bắt đầu.
+Hãy xem một biểu thức chính quy khác `^(T|t)he`, điều này biểu thị: chữ cái hoa `T` hoặc chữ cái thường `t` là ký hiệu bắt đầu của chuỗi đầu vào, theo sau là chữ cái thường `h`, theo sau là chữ cái thường `e`.<pre>"(T|t)he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in <a href="#learn-regex"><strong>the</strong></a> garage.</pre><pre>"^(T|t)he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in the garage.</pre>
 
-### 2.8.2 美元符号
+### 2.8.2 Ký hiệu đô la
 
-美元 `$` 符号用于检查匹配字符是否是输入字符串的最后一个字符。例如正则表达式 `(at\.)$`，表示: 小写字母 `a`，后跟小写字母 `t`，后跟一个 `.` 字符，且这个匹配器必须是字符串的结尾。<pre>"(at\.)" => The fat c<a href="#learn-regex"><strong>at.</strong></a> s<a href="#learn-regex"><strong>at.</strong></a> on the m<a href="#learn-regex"><strong>at.</strong></a></pre><pre>"(at\.)$" => The fat cat sat on the m<a href="#learn-regex"><strong>at.</strong></a></pre>
+Ký hiệu đô la `$` được sử dụng để kiểm tra ký tự khớp có phải là ký tự cuối cùng của chuỗi đầu vào không. Ví dụ biểu thức chính quy `(at\.)$`, biểu thị: chữ cái thường `a`, theo sau là chữ cái thường `t`, theo sau là một ký tự `.`, và bộ khớp này phải ở cuối chuỗi.<pre>"(at\.)" => The fat c<a href="#learn-regex"><strong>at.</strong></a> s<a href="#learn-regex"><strong>at.</strong></a> on the m<a href="#learn-regex"><strong>at.</strong></a></pre><pre>"(at\.)$" => The fat cat sat on the m<a href="#learn-regex"><strong>at.</strong></a></pre>
 
-## 3. 简写字符集
+## 3. Tập ký tự viết tắt
 
-正则表达式为常用的字符集和常用的正则表达式提供了简写。简写字符集如下:
+Biểu thức chính quy cung cấp các viết tắt cho các tập ký tự thường dùng và các biểu thức chính quy thường dùng. Các tập ký tự viết tắt như sau:
 
-|简写|描述|
-|:----:|----|
-|.|匹配除换行符以外的任意字符|
-|\w|匹配所有字母和数字的字符: `[a-zA-Z0-9_]`|
-|\W|匹配非字母和数字的字符: `[^\w]`|
-|\d|匹配数字: `[0-9]`|
-|\D|匹配非数字: `[^\d]`|
-|\s|匹配空格符: `[\t\n\f\r\p{Z}]`|
-|\S|匹配非空格符: `[^\s]`|
+| Viết tắt | Mô tả                                                |
+| :------: | ---------------------------------------------------- |
+|    .     | Khớp với bất kỳ ký tự nào ngoại trừ ký tự xuống dòng |
+|    \w    | Khớp với tất cả ký tự chữ cái và số: `[a-zA-Z0-9_]`  |
+|    \W    | Khớp với ký tự không phải chữ cái và số: `[^\w]`     |
+|    \d    | Khớp với chữ số: `[0-9]`                             |
+|    \D    | Khớp với ký tự không phải chữ số: `[^\d]`            |
+|    \s    | Khớp với ký tự khoảng trắng: `[\t\n\f\r\p{Z}]`       |
+|    \S    | Khớp với ký tự không phải khoảng trắng: `[^\s]`      |
 
-## 4. 断言
+## 4. Assertion
 
-后行断言和先行断言有时候被称为断言，它们是特殊类型的 ***非捕获组*** (用于匹配模式，但不包括在匹配列表中)。当我们在一种特定模式之前或者之后有这种模式时，会优先使用断言。
-例如我们想获取输入字符串 `$4.44 and $10.88` 中带有前缀 `$` 的所有数字。我们可以使用这个正则表达式 `(?<=\$)[0-9\.]*`，表示: 获取包含 `.` 字符且前缀为 `$` 的所有数字。
-以下是正则表达式中使用的断言:
+Assertion hướng sau và assertion hướng trước đôi khi được gọi là assertion, chúng là loại đặc biệt của **_nhóm không bắt_** (được sử dụng để khớp mẫu, nhưng không được bao gồm trong danh sách khớp). Khi chúng ta có mẫu này trước hoặc sau một mẫu cụ thể, chúng ta sẽ ưu tiên sử dụng assertion.
+Ví dụ, chúng ta muốn lấy tất cả các số có tiền tố `$` trong chuỗi đầu vào `$4.44 and $10.88`. Chúng ta có thể sử dụng biểu thức chính quy này `(?<=\$)[0-9\.]*`, biểu thị: lấy tất cả các số chứa ký tự `.` và có tiền tố là `$`.
+Sau đây là các assertion được sử dụng trong biểu thức chính quy:
 
-|符号|描述|
-|:----:|----|
-|?=|正向先行断言|
-|?!|负向先行断言|
-|?<=|正向后行断言|
-|?<!|负向后行断言|
+| Ký hiệu | Mô tả                         |
+| :-----: | ----------------------------- |
+|   ?=    | Positive lookahead assertion  |
+|   ?!    | Negative lookahead assertion  |
+|   ?<=   | Positive lookbehind assertion |
+|   ?<!   | Negative lookbehind assertion |
 
-### 4.1 正向先行断言
+### 4.1 Positive lookahead assertion
 
-正向先行断言认为第一部分的表达式必须是先行断言表达式。返回的匹配结果仅包含与第一部分表达式匹配的文本。
-要在一个括号内定义一个正向先行断言，在括号中问号和等号是这样使用的 `(?=...)`。先行断言表达式写在括号中的等号后面。
-例如正则表达式 `(T|t)he(?=\sfat)`，表示: 匹配大写字母 `T` 或小写字母 `t`，后面跟字母 `h`，后跟字母 `e`。
-在括号中，我们定义了正向先行断言，它会引导正则表达式引擎匹配 `The` 或 `the` 后面跟着 `fat`。<pre>"(T|t)he(?=\sfat)" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.</pre>
+Positive lookahead assertion cho rằng phần đầu tiên của biểu thức phải là biểu thức assertion hướng trước. Kết quả khớp trả về chỉ chứa văn bản khớp với biểu thức phần đầu tiên.
+Để định nghĩa một positive lookahead assertion trong một cặp ngoặc, dấu hỏi và dấu bằng được sử dụng như sau `(?=...)`. Biểu thức assertion hướng trước được viết sau dấu bằng trong ngoặc.
+Ví dụ biểu thức chính quy `(T|t)he(?=\sfat)`, biểu thị: khớp chữ cái hoa `T` hoặc chữ cái thường `t`, theo sau là chữ cái `h`, theo sau là chữ cái `e`.
+Trong ngoặc, chúng ta đã định nghĩa positive lookahead assertion, nó sẽ hướng dẫn engine biểu thức chính quy khớp `The` hoặc `the` theo sau là `fat`.<pre>"(T|t)he(?=\sfat)" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.</pre>
 
-### 4.2 负向先行断言
+### 4.2 Negative lookahead assertion
 
-当我们需要从输入字符串中获取不匹配表达式的内容时，使用负向先行断言。负向先行断言的定义跟我们定义的正向先行断言一样，
-唯一的区别是不是等号 `=`，我们使用否定符号 `!`，例如 `(?!...)`。
-我们来看看下面的正则表达式 `(T|t)he(?!\sfat)`，表示: 从输入字符串中获取全部 `The` 或者 `the` 且不匹配 `fat` 前面加上一个空格字符。<pre>"(T|t)he(?!\sfat)" => The fat cat sat on <a href="#learn-regex"><strong>the</strong></a> mat.</pre>
+Khi chúng ta cần lấy nội dung không khớp với biểu thức từ chuỗi đầu vào, chúng ta sử dụng negative lookahead assertion. Định nghĩa negative lookahead assertion giống như định nghĩa positive lookahead assertion,
+chỉ khác là thay vì dấu bằng `=`, chúng ta sử dụng ký hiệu phủ định `!`, ví dụ `(?!...)`.
+Hãy xem biểu thức chính quy sau `(T|t)he(?!\sfat)`, biểu thị: lấy tất cả `The` hoặc `the` từ chuỗi đầu vào và không khớp với `fat` trước đó có thêm một ký tự khoảng trắng.<pre>"(T|t)he(?!\sfat)" => The fat cat sat on <a href="#learn-regex"><strong>the</strong></a> mat.</pre>
 
-### 4.3 正向后行断言
+### 4.3 Positive lookbehind assertion
 
-正向后行断言是用于获取在特定模式之前的所有匹配内容。正向后行断言表示为 `(?<=...)`。例如正则表达式 `(?<=(T|t)he\s)(fat|mat)`，表示: 从输入字符串中获取在单词 `The` 或 `the` 之后的所有 `fat` 和 `mat` 单词。<pre>"(?<=(T|t)he\s)(fat|mat)" => The <a href="#learn-regex"><strong>fat</strong></a> cat sat on the <a href="#learn-regex"><strong>mat</strong></a>.</pre>
+Positive lookbehind assertion được sử dụng để lấy tất cả nội dung khớp trước một mẫu cụ thể. Positive lookbehind assertion được biểu thị bằng `(?<=...)`. Ví dụ biểu thức chính quy `(?<=(T|t)he\s)(fat|mat)`, biểu thị: lấy tất cả các từ `fat` và `mat` sau từ `The` hoặc `the` từ chuỗi đầu vào.<pre>"(?<=(T|t)he\s)(fat|mat)" => The <a href="#learn-regex"><strong>fat</strong></a> cat sat on the <a href="#learn-regex"><strong>mat</strong></a>.</pre>
 
-### 4.4 负向后行断言
+### 4.4 Negative lookbehind assertion
 
-负向后行断言是用于获取不在特定模式之前的所有匹配的内容。负向后行断言表示为 `(?<!...)`。例如正则表达式 `(?<!(T|t)he\s)(cat)`，表示: 在输入字符中获取所有不在 `The` 或 `the` 之后的所有单词 `cat`。<pre>"(?&lt;!(T|t)he\s)(cat)" => The cat sat on <a href="#learn-regex"><strong>cat</strong></a>.</pre>
+Negative lookbehind assertion được sử dụng để lấy tất cả nội dung khớp không ở trước một mẫu cụ thể. Negative lookbehind assertion được biểu thị bằng `(?<!...)`. Ví dụ biểu thức chính quy `(?<!(T|t)he\s)(cat)`, biểu thị: lấy tất cả từ `cat` không ở sau `The` hoặc `the` trong chuỗi đầu vào.<pre>"(?&lt;!(T|t)he\s)(cat)" => The cat sat on <a href="#learn-regex"><strong>cat</strong></a>.</pre>
 
-## 5. 标记
+## 5. Cờ đánh dấu
 
-标记也称为修饰符，因为它会修改正则表达式的输出。这些标志可以以任意顺序或组合使用，并且是正则表达式的一部分。
+Cờ đánh dấu cũng được gọi là bộ sửa đổi, vì nó sửa đổi đầu ra của biểu thức chính quy. Các cờ này có thể được sử dụng theo bất kỳ thứ tự hoặc tổ hợp nào và là một phần của biểu thức chính quy.
 
-|标记|描述|
-|:----:|----|
-|i|不区分大小写: 将匹配设置为不区分大小写。|
-|g|全局搜索: 搜索整个输入字符串中的所有匹配。|
-|m|多行匹配: 会匹配输入字符串每一行。|
+| Cờ đánh dấu | Mô tả                                                                  |
+| :---------: | ---------------------------------------------------------------------- |
+|      i      | Không phân biệt hoa thường: Đặt khớp thành không phân biệt hoa thường. |
+|      g      | Tìm kiếm toàn cục: Tìm kiếm tất cả khớp trong toàn bộ chuỗi đầu vào.   |
+|      m      | Khớp đa dòng: Sẽ khớp mỗi dòng của chuỗi đầu vào.                      |
 
-* **数字**: `\d+$`
-* **用户名**: `^[\w\d_.]{4,16}$`
-* **字母数字字符**: `^[a-zA-Z0-9]*$`
-* **带空格的字母数字字符**: `^[a-zA-Z0-9 ]*$`
-* **小写字母**: `[a-z]+$`
-* **大写字母**: `[A-Z]+$`
-* **网址**: `^(((http|https|ftp):\/\/)?([[a-zA-Z0-9]\-\.])+(\.)([[a-zA-Z0-9]]){2,4}([[a-zA-Z0-9]\/+=%&_\.~?\-]*))*$`
-* **日期 (MM/DD/YYYY)**: `^(0?[1-9]|1[012])[- /.](0?[1-9]|[12][0-9]|3[01])[- /.](19|20)?[0-9]{2}$`
-* **日期 (YYYY/MM/DD)**: `^(19|20)?[0-9]{2}[- /.](0?[1-9]|1[012])[- /.](0?[1-9]|[12][0-9]|3[01])$`
-* **求更求转发致谢**: `[\(（【].*?[求更谢乐发推].*?[】）\)]`
-* **查找最新章节**: `您可以.*?查找最新章节`
-* **ps/PS**: `(?i)ps\b.*`
-* **Html标签**: `<[^>]+?>`
+- **Chữ số**: `\d+$`
+- **Tên người dùng**: `^[\w\d_.]{4,16}$`
+- **Ký tự chữ và số**: `^[a-zA-Z0-9]*$`
+- **Ký tự chữ và số có khoảng trắng**: `^[a-zA-Z0-9 ]*$`
+- **Chữ cái thường**: `[a-z]+$`
+- **Chữ cái hoa**: `[A-Z]+$`
+- **URL**: `^(((http|https|ftp):\/\/)?([[a-zA-Z0-9]\-\.])+(\.)([[a-zA-Z0-9]]){2,4}([[a-zA-Z0-9]\/+=%&_\.~?\-]*))*$`
+- **Ngày (MM/DD/YYYY)**: `^(0?[1-9]|1[012])[- /.](0?[1-9]|[12][0-9]|3[01])[- /.](19|20)?[0-9]{2}$`
+- **Ngày (YYYY/MM/DD)**: `^(19|20)?[0-9]{2}[- /.](0?[1-9]|1[012])[- /.](0?[1-9]|[12][0-9]|3[01])$`
+- **Cầu cập nhật cầu chia sẻ cảm ơn**: `[\(（【].*?[求更谢乐发推].*?[】）\)]`
+- **Tìm chương mới nhất**: `您可以.*?查找最新章节`
+- **ps/PS**: `(?i)ps\b.*`
+- **Thẻ Html**: `<[^>]+?>`

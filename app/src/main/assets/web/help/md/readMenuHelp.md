@@ -1,46 +1,51 @@
-# 阅读界面帮助文档
+# Tài liệu trợ giúp giao diện đọc sách
 
-## 阅读界面主菜单
-* 顶部操作
-  * 章节名称:点击可编辑书源
-  * 章节url:点击可打开浏览器浏览
-  * 菜单:**不同类型的书籍显示的菜单不同**。详情请查看菜单文字,长按菜单图标可显示文字
-* 中间左侧-亮度调节
-  * 亮度调节的顶端有跟随系统亮度的开关,打开后亮度跟随系统,关闭后才可以调节亮度条
-* 底部操作
-  * 4个圆形按钮依次为 全文搜索✧自动翻页✧替换净化✧切换夜间模式
-  * 上一章✧下一章中间的进度条为页数进度,要快速跳转章节点击目录按钮进入目录快速跳转
-  * 目录->目录和书签界面
-  * 朗读->单击开始朗读,长按进入朗读设置界面
-  * 界面->所有排版设置都在里面
-  * 设置->其它一些设置,找不到的设置去这里看看,可滚动
+## Menu chính giao diện đọc sách
 
-## 全文搜索
-搜索本地缓存或者本地文件，不能搜索在线内容  
-书籍字数、净化规则数量、简繁转化、文章分段都会影响到搜索速度，请酌情启用
+- Thao tác ở trên cùng
+  - Tên chương: Nhấp để chỉnh sửa nguồn sách
+  - URL chương: Nhấp để mở trình duyệt
+  - Menu: **Sách các loại khác nhau hiển thị menu khác nhau**. Chi tiết vui lòng xem văn bản menu, nhấn giữ biểu tượng menu có thể hiển thị văn bản
+- Bên trái giữa - điều chỉnh độ sáng
+  - Ở đầu điều chỉnh độ sáng có công tắc theo độ sáng hệ thống, mở lên thì độ sáng theo hệ thống, tắt đi mới có thể điều chỉnh thanh độ sáng
+- Thao tác dưới cùng
+  - 4 nút tròn lần lượt là Tìm kiếm toàn văn✧Tự động lật trang✧Thay thế làm sạch✧Chuyển chế độ ban đêm
+  - Thanh tiến độ giữa Chương trước✧Chương sau là tiến độ số trang, muốn chuyển nhanh chương nhấp nút mục lục vào mục lục chuyển nhanh
+  - Mục lục->Giao diện mục lục và bookmark
+  - Đọc to->Nhấp một lần bắt đầu đọc to, nhấn giữ vào giao diện cài đặt đọc to
+  - Giao diện->Tất cả cài đặt bố cục đều ở trong đó
+  - Cài đặt->Một số cài đặt khác, không tìm thấy cài đặt thì vào đây xem, có thể cuộn
 
-## 朗读设置界面
-* 后台->进入后台朗读,可以做一些其它事
-* 设置->朗读引擎设置,可以切换本地TTS和在线朗读,在线朗读可自定义
+## Tìm kiếm toàn văn
 
-## 排版设置界面
-* 白天模式和夜间模式背景不同布局相同
-* 共用布局->启用共用布局时所有背景使用同一布局,关闭共用布局则每个背景单独布局
-* 长按背景可进入文字颜色和背景设置界面
+Tìm kiếm cache cục bộ hoặc tập tin cục bộ, không thể tìm kiếm nội dung trực tuyến  
+Số từ sách, số lượng quy tắc làm sạch, chuyển đổi giản-phồn, phân đoạn bài viết đều ảnh hưởng đến tốc độ tìm kiếm, vui lòng kích hoạt thích hợp
 
-## 其它设置界面
-* 屏幕方向
-* 屏幕超时
-* 隐藏状态栏
-* 扩展到刘海
-* 隐藏导航栏
-* 文字两端对齐
-* 文字底部对齐
-* 音量键翻页
-* 点击翻页
-* 朗读时音量键翻页
-* 自动换源->书源被删除时自动切换到其它书源
-* 长按选择文本
-* 显示亮度调节控件
-* 点击区域设置
-* 自定义翻页按键
+## Giao diện cài đặt đọc to
+
+- Chạy nền->Vào đọc to nền, có thể làm việc khác
+- Cài đặt->Cài đặt engine đọc to, có thể chuyển TTS cục bộ và đọc to trực tuyến, đọc to trực tuyến có thể tùy chỉnh
+
+## Giao diện cài đặt bố cục
+
+- Chế độ ban ngày và chế độ ban đêm nền khác bố cục giống nhau
+- Bố cục chung->Khi kích hoạt bố cục chung tất cả nền sử dụng cùng bố cục, tắt bố cục chung thì mỗi nền bố cục riêng
+- Nhấn giữ nền có thể vào giao diện cài đặt màu chữ và nền
+
+## Giao diện cài đặt khác
+
+- Hướng màn hình
+- Hết thời gian màn hình
+- Ẩn thanh trạng thái
+- Mở rộng đến tai thỏ
+- Ẩn thanh điều hướng
+- Chữ căn giữa hai đầu
+- Chữ căn dưới
+- Phím âm lượng lật trang
+- Nhấp lật trang
+- Đọc to phím âm lượng lật trang
+- Tự động đổi nguồn->Khi nguồn sách bị xóa tự động chuyển sang nguồn sách khác
+- Nhấn giữ chọn văn bản
+- Hiển thị điều khiển điều chỉnh độ sáng
+- Cài đặt vùng nhấp
+- Tùy chỉnh phím lật trang

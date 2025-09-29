@@ -1,41 +1,45 @@
-# 更新日志
+# Nhật ký cập nhật
 
-* 关注公众号 **[开源阅读]** 菜单•软件下载 提前享受新版本。
-* 关注合作公众号 **[小说拾遗]** 获取好看的小说。
+- Theo dõi tài khoản công cộng **[Đọc sách mã nguồn mở]** menu•tải phần mềm để trải nghiệm phiên bản mới trước.
+- Theo dõi tài khoản công cộng hợp tác **[Tìm lại tiểu thuyết]** để nhận được những cuốn tiểu thuyết hay.
 
-## cronet版本: 128.0.6613.40
+## Phiên bản cronet: 128.0.6613.40
 
-## **必读**
+## **Bắt buộc đọc**
 
-【温馨提醒】 *更新前一定要做好备份，以免数据丢失！*
+【Nhắc nhở ấm áp】 _Nhất định phải sao lưu trước khi cập nhật, để tránh mất dữ liệu!_
 
-* 阅读只是一个转码工具，不提供内容，第一次安装app，需要自己手动导入书源，可以从公众号 **[开源阅读]**
-  、QQ群、酷安评论里获取由书友制作分享的书源。
-* 正文出现缺字漏字、内容缺失、排版错乱等情况，有可能是净化规则或简繁转换出现问题。
-* 漫画源看书显示乱码，**阅读与其他软件的源并不通用**，请导入阅读的支持的漫画源！
+- Legado chỉ là một công cụ chuyển đổi mã, không cung cấp nội dung, lần đầu tiên cài đặt app, cần tự thêm nguồn sách bằng tay, có thể lấy từ tài khoản công cộng **[Đọc sách mã nguồn mở]**
+  , nhóm QQ, bình luận Coolapk để lấy nguồn sách do bạn đọc tạo và chia sẻ.
+- Nội dung xuất hiện thiếu chữ sót chữ, thiếu nội dung, lỗi bố cục, v.v., có thể là quy tắc làm sạch hoặc chuyển đổi giản-phồn xuất hiện vấn đề.
+- Nguồn truyện tranh hiển thị ký tự lỗi khi đọc sách, **nguồn của Legado và các phần mềm khác không tương thích**, vui lòng nhập nguồn truyện tranh mà Legado hỗ trợ!
 
 **2025/03/26**
-* 目前阅读被恶意注册软著，并建立了多个公众号
-* 官方公众号仅有：开源阅读、开源阅读软件，其他公众号与本软件无关
+
+- Hiện tại Legado bị đăng ký bản quyền phần mềm một cách độc hại, và đã thành lập nhiều tài khoản công cộng
+- Tài khoản công cộng chính thức chỉ có: Đọc sách mã nguồn mở, Phần mềm đọc sách mã nguồn mở, các tài khoản công cộng khác không liên quan đến phần mềm này
 
 **2024/10/03**
-* web书架支持加载网络字体、试读非书架书籍后弹窗、自定义后端IP
-* rss收藏添加分组管理
-* 朗读功能添加流式播放音频、来电自动暂停播放功能
-* 其它bug修复
+
+- Kệ sách web hỗ trợ tải font chữ mạng, cửa sổ bật lên sau khi thử đọc sách không có trong kệ, tùy chỉnh IP backend
+- Quản lý nhóm thu thập RSS
+- Tính năng đọc to thêm phát âm thanh luồng, tự động tạm dừng phát khi có cuộc gọi
+- Sửa các lỗi khác
 
 **2024/02/27**
-* 添加备用URL导出
-* 更新书源制作的帮助文档链接
+
+- Thêm xuất URL dự phòng
+- Cập nhật liên kết tài liệu hướng dẫn tạo nguồn sách
 
 **2024/02/20**
-* 更新cronet: 121.0.6167.180
-* 更新 kotlin->1.9.22 ksp->1.0.17
-* 界面绘制优化
-* Bug修复和其他优化
 
-----
+- Cập nhật cronet: 121.0.6167.180
+- Cập nhật kotlin->1.9.22 ksp->1.0.17
+- Tối ưu vẽ giao diện
+- Sửa lỗi và tối ưu khác
 
-* [2023年日志](https://github.com/gedoor/legado/blob/record2023/app/src/main/assets/updateLog.md)
-* [2022年日志](https://github.com/gedoor/legado/blob/record2022/app/src/main/assets/updateLog.md)
-* [2021年日志](https://github.com/gedoor/legado/blob/record2021/app/src/main/assets/updateLog.md)
+---
+
+- [Nhật ký năm 2023](https://github.com/gedoor/legado/blob/record2023/app/src/main/assets/updateLog.md)
+- [Nhật ký năm 2022](https://github.com/gedoor/legado/blob/record2022/app/src/main/assets/updateLog.md)
+- [Nhật ký năm 2021](https://github.com/gedoor/legado/blob/record2021/app/src/main/assets/updateLog.md)
