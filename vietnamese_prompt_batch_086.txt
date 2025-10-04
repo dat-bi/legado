@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4251,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,102,,出错,,"AppLog.put(""读取Uri出错\n$e"", e, true)",Chinese parts: 出错
+4252,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,115,,打开文件失败,,"throw NoStackTraceException(""打开文件失败\n${this}"")",Chinese parts: 打开文件失败
+4253,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,121,,获取文件真实地址失败,,"throw NoStackTraceException(""获取文件真实地址失败\n${this.path}"")",Chinese parts: 获取文件真实地址失败
+4254,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,185,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4255,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,189,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4256,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,194,,文件不存在,,"throw NoStackTraceException(""文件不存在"")",Chinese parts: 文件不存在
+4257,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,199,,读取,,"AppLog.put(""读取inputStream失败：${e.localizedMes",Chinese parts: 读取
+4258,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,199,,失败,,"AppLog.put(""读取inputStream失败：${e.localizedMessage}"", e)",Chinese parts: 失败
+4259,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,211,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4260,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,215,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4261,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,220,,文件不存在,,"throw NoStackTraceException(""文件不存在"")",Chinese parts: 文件不存在
+4262,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,225,,读取,,"AppLog.put(""读取inputStream失败：${e.localizedMes",Chinese parts: 读取
+4263,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,225,,失败,,"AppLog.put(""读取inputStream失败：${e.localizedMessage}"", e)",Chinese parts: 失败
+4264,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,237,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4265,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,241,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4266,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,249,,文件不存在,,"throw NoStackTraceException(""文件不存在"")",Chinese parts: 文件不存在
+4267,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,256,,读取,,"AppLog.put(""读取inputStream失败：${e.localizedMes",Chinese parts: 读取
+4268,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,256,,失败,,"AppLog.put(""读取inputStream失败：${e.localizedMessage}"", e)",Chinese parts: 失败
+4269,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,268,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4270,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,272,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4271,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,280,,文件不存在,,"throw NoStackTraceException(""文件不存在"")",Chinese parts: 文件不存在
+4272,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,287,,读取,,"AppLog.put(""读取inputStream失败：${e.localizedMes",Chinese parts: 读取
+4273,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,287,,失败,,"AppLog.put(""读取inputStream失败：${e.localizedMessage}"", e)",Chinese parts: 失败
+4274,source_code,app\src\main\java\io\legado\app\utils\UrlUtil.kt,45,,阅读定义的,,"/* 阅读定义的url,{urlOption} */",Chinese parts: 阅读定义的
+4275,source_code,app\src\main\java\io\legado\app\utils\UrlUtil.kt,97,,存在三种情况,,/** Content-Disposition 存在三种情况 文件名应该用引号 有些用空格,Chinese parts: 存在三种情况
+4276,source_code,app\src\main\java\io\legado\app\utils\UrlUtil.kt,97,,文件名应该用引号,,** Content-Disposition 存在三种情况 文件名应该用引号 有些用空格,Chinese parts: 文件名应该用引号
+4277,source_code,app\src\main\java\io\legado\app\utils\UrlUtil.kt,97,,有些用空格,,t-Disposition 存在三种情况 文件名应该用引号 有些用空格,Chinese parts: 有些用空格
+4278,source_code,app\src\main\java\io\legado\app\utils\UrlUtil.kt,118,,好像不用这样,,/* 好像不用这样,Chinese parts: 好像不用这样
+4279,source_code,app\src\main\java\io\legado\app\utils\UrlUtil.kt,153,,获取合法的文件后缀,,/* 获取合法的文件后缀 */,Chinese parts: 获取合法的文件后缀
+4280,source_code,app\src\main\java\io\legado\app\web\socket\BookSearchWebSocket.kt,56,,数据必须为,,"send(""数据必须为Json格式"")",Chinese parts: 数据必须为
+4281,source_code,app\src\main\java\io\legado\app\web\socket\BookSearchWebSocket.kt,56,,格式,,"send(""数据必须为Json格式"")",Chinese parts: 格式
+4282,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,50,,数据必须为,,"send(""数据必须为Json格式"")",Chinese parts: 数据必须为
+4283,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,50,,格式,,"send(""数据必须为Json格式"")",Chinese parts: 格式
+4284,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,51,,调试结束,,"ame.CloseCode.NormalClosure, ""调试结束"", false)",Chinese parts: 调试结束
+4285,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,61,,调试结束,,"ame.CloseCode.NormalClosure, ""调试结束"", false)",Chinese parts: 调试结束
+4286,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,69,,数据必须为,,"send(""数据必须为Json格式"")",Chinese parts: 数据必须为
+4287,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,69,,格式,,"send(""数据必须为Json格式"")",Chinese parts: 格式
+4288,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,70,,调试结束,,"ame.CloseCode.NormalClosure, ""调试结束"", false)",Chinese parts: 调试结束
+4289,source_code,app\src\main\java\io\legado\app\web\socket\BookSourceDebugWebSocket.kt,94,,调试结束,,"ame.CloseCode.NormalClosure, ""调试结束"", false)",Chinese parts: 调试结束
+4290,source_code,app\src\main\java\io\legado\app\web\socket\RssSourceDebugWebSocket.kt,50,,数据必须为,,"send(""数据必须为Json格式"")",Chinese parts: 数据必须为
+4291,source_code,app\src\main\java\io\legado\app\web\socket\RssSourceDebugWebSocket.kt,50,,格式,,"send(""数据必须为Json格式"")",Chinese parts: 格式
+4292,source_code,app\src\main\java\io\legado\app\web\socket\RssSourceDebugWebSocket.kt,51,,调试结束,,"ame.CloseCode.NormalClosure, ""调试结束"", false)",Chinese parts: 调试结束
+4293,source_code,app\src\main\java\io\legado\app\web\socket\RssSourceDebugWebSocket.kt,60,,调试结束,,"ame.CloseCode.NormalClosure, ""调试结束"", false)",Chinese parts: 调试结束
+4294,source_code,app\src\main\java\io\legado\app\web\socket\RssSourceDebugWebSocket.kt,89,,调试结束,,"ame.CloseCode.NormalClosure, ""调试结束"", false)",Chinese parts: 调试结束
+4295,source_code,app\src\main\java\io\legado\app\utils\compress\LibArchiveUtils.kt,228,,解压路径不能为空,,": throw NullPointerException(""解压路径不能为空"")",Chinese parts: 解压路径不能为空
+4296,source_code,app\src\main\java\io\legado\app\utils\compress\LibArchiveUtils.kt,241,,压缩文件只能解压到指定路径,,"throw SecurityException(""压缩文件只能解压到指定路径"")",Chinese parts: 压缩文件只能解压到指定路径
+4297,source_code,app\src\main\java\io\legado\app\utils\compress\ZipUtils.kt,242,,压缩文件只能解压到指定路径,,"throw SecurityException(""压缩文件只能解压到指定路径"")",Chinese parts: 压缩文件只能解压到指定路径
+4298,source_code,app\src\main\java\io\legado\app\utils\compress\ZipUtils.kt,267,,遍历目录获取所有文件名,,/* 遍历目录获取所有文件名 */,Chinese parts: 遍历目录获取所有文件名
+4299,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,119,,添加失败,,"toastOnUi(""添加失败,请手动添加"")",Chinese parts: 添加失败
+4300,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,119,,请手动添加,,"toastOnUi(""添加失败,请手动添加"")",Chinese parts: 请手动添加

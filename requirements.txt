@@ -1,0 +1,9 @@
+# Requirements for Chinese Text Extractor
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (no external dependencies needed - uses only Python standard library)
+# The tool is designed to work with Python 3.6+ standard library only
+
+# Optional dependencies for enhanced functionality:
+# lxml>=4.6.0  # For better XML parsing (optional, will fallback to built-in)
+# chardet>=4.0.0  # For better encoding detection (optional)

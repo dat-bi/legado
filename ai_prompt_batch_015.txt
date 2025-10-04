@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+701,xml_string,app\src\main\res\values-zh\strings.xml,729,night_accent,夜间，强调色,,String resource: night_accent,"Chinese parts: 夜间, 强调色"
+702,xml_string,app\src\main\res\values-zh\strings.xml,730,night_background_color,夜间，背景色,,String resource: night_background_color,"Chinese parts: 夜间, 背景色"
+703,xml_string,app\src\main\res\values-zh\strings.xml,731,night_navbar_color,夜间，底栏色,,String resource: night_navbar_color,"Chinese parts: 夜间, 底栏色"
+704,xml_string,app\src\main\res\values-zh\strings.xml,732,auto_change_source,自动换源,,String resource: auto_change_source,Chinese parts: 自动换源
+705,xml_string,app\src\main\res\values-zh\strings.xml,733,text_full_justify,文字两端对齐,,String resource: text_full_justify,Chinese parts: 文字两端对齐
+706,xml_string,app\src\main\res\values-zh\strings.xml,734,text_bottom_justify,文字底部对齐,,String resource: text_bottom_justify,Chinese parts: 文字底部对齐
+707,xml_string,app\src\main\res\values-zh\strings.xml,735,auto_page_speed,自动翻页速度,,String resource: auto_page_speed,Chinese parts: 自动翻页速度
+708,xml_string,app\src\main\res\values-zh\strings.xml,736,sort_by_url,地址排序,,String resource: sort_by_url,Chinese parts: 地址排序
+709,xml_string,app\src\main\res\values-zh\strings.xml,737,backup_summary,本地和 WebDav 一起备份,,String resource: backup_summary,"Chinese parts: 本地和, 一起备份"
+710,xml_string,app\src\main\res\values-zh\strings.xml,738,restore_summary,优先从 WebDav 恢复，长按从本地恢复,,String resource: restore_summary,"Chinese parts: 优先从, 恢复, 长按从本地恢复"
+711,xml_string,app\src\main\res\values-zh\strings.xml,739,import_old_summary,选择旧版备份文件夹,,String resource: import_old_summary,Chinese parts: 选择旧版备份文件夹
+712,xml_string,app\src\main\res\values-zh\strings.xml,740,enabled,已启用,,String resource: enabled,Chinese parts: 已启用
+713,xml_string,app\src\main\res\values-zh\strings.xml,741,disabled,已禁用,,String resource: disabled,Chinese parts: 已禁用
+714,xml_string,app\src\main\res\values-zh\strings.xml,742,enabled_explore,已启用发现,,String resource: enabled_explore,Chinese parts: 已启用发现
+715,xml_string,app\src\main\res\values-zh\strings.xml,743,disabled_explore,已禁用发现,,String resource: disabled_explore,Chinese parts: 已禁用发现
+716,xml_string,app\src\main\res\values-zh\strings.xml,744,starting_download,正在启动下载,,String resource: starting_download,Chinese parts: 正在启动下载
+717,xml_string,app\src\main\res\values-zh\strings.xml,745,already_in_download,该书已在下载列表,,String resource: already_in_download,Chinese parts: 该书已在下载列表
+718,xml_string,app\src\main\res\values-zh\strings.xml,746,click_to_open,点击打开,,String resource: click_to_open,Chinese parts: 点击打开
+719,xml_string,app\src\main\res\values-zh\strings.xml,747,follow_public_account_summary,关注【开源阅读】点击广告支持我,,String resource: follow_public_account_summary,"Chinese parts: 关注, 开源阅读, 点击广告支持我"
+720,xml_string,app\src\main\res\values-zh\strings.xml,748,weChat_appreciation_code,微信赞赏码,,String resource: weChat_appreciation_code,Chinese parts: 微信赞赏码
+721,xml_string,app\src\main\res\values-zh\strings.xml,749,alipay,支付宝,,String resource: alipay,Chinese parts: 支付宝
+722,xml_string,app\src\main\res\values-zh\strings.xml,750,alipay_red_envelope_search_code,支付宝红包搜索码,,String resource: alipay_red_envelope_search_code,Chinese parts: 支付宝红包搜索码
+723,xml_string,app\src\main\res\values-zh\strings.xml,751,alipay_red_envelope_copy,537954522 点击复制,,String resource: alipay_red_envelope_copy,Chinese parts: 点击复制
+724,xml_string,app\src\main\res\values-zh\strings.xml,752,alipay_red_envelope_qr_code,支付宝红包二维码,,String resource: alipay_red_envelope_qr_code,Chinese parts: 支付宝红包二维码
+725,xml_string,app\src\main\res\values-zh\strings.xml,753,alipay_payment_qr_code,支付宝收款二维码,,String resource: alipay_payment_qr_code,Chinese parts: 支付宝收款二维码
+726,xml_string,app\src\main\res\values-zh\strings.xml,754,qq_collection_qr_code,QQ 收款二维码,,String resource: qq_collection_qr_code,Chinese parts: 收款二维码
+727,xml_string,app\src\main\res\values-zh\strings.xml,755,contributors_summary,gedoor、Invinciblelee 和 Xwite 等，详情请在 GitHub 中查看,,String resource: contributors_summary,"Chinese parts: 和, 等, 详情请在, 中查看"
+728,xml_string,app\src\main\res\values-zh\strings.xml,756,clear_cache_summary,清除已下载书籍和字体缓存,,String resource: clear_cache_summary,Chinese parts: 清除已下载书籍和字体缓存
+729,xml_string,app\src\main\res\values-zh\strings.xml,757,default_cover,默认封面,,String resource: default_cover,Chinese parts: 默认封面
+730,xml_string,app\src\main\res\values-zh\strings.xml,758,restore_ignore,恢复忽略列表,,String resource: restore_ignore,Chinese parts: 恢复忽略列表
+731,xml_string,app\src\main\res\values-zh\strings.xml,759,restore_ignore_summary,恢复时忽略一些内容不恢复，方便不同手机配置不同,,String resource: restore_ignore_summary,"Chinese parts: 恢复时忽略一些内容不恢复, 方便不同手机配置不同"
+732,xml_string,app\src\main\res\values-zh\strings.xml,760,read_config,阅读界面设置,,String resource: read_config,Chinese parts: 阅读界面设置
+733,xml_string,app\src\main\res\values-zh\strings.xml,761,group_name,分组名称,,String resource: group_name,Chinese parts: 分组名称
+734,xml_string,app\src\main\res\values-zh\strings.xml,762,note_content,备注内容,,String resource: note_content,Chinese parts: 备注内容
+735,xml_string,app\src\main\res\values-zh\strings.xml,763,replace_enable_default_t,默认启用替换净化,,String resource: replace_enable_default_t,Chinese parts: 默认启用替换净化
+736,xml_string,app\src\main\res\values-zh\strings.xml,764,replace_enable_default_s,新加入书架的书是否启用替换净化,,String resource: replace_enable_default_s,Chinese parts: 新加入书架的书是否启用替换净化
+737,xml_string,app\src\main\res\values-zh\strings.xml,765,select_restore_file,选择恢复文件,,String resource: select_restore_file,Chinese parts: 选择恢复文件
+738,xml_string,app\src\main\res\values-zh\strings.xml,766,day_background_too_dark,白天背景不能太暗,,String resource: day_background_too_dark,Chinese parts: 白天背景不能太暗
+739,xml_string,app\src\main\res\values-zh\strings.xml,767,day_bottom_bar_too_dark,白天底栏不能太暗,,String resource: day_bottom_bar_too_dark,Chinese parts: 白天底栏不能太暗
+740,xml_string,app\src\main\res\values-zh\strings.xml,768,night_background_too_light,夜间背景不能太亮,,String resource: night_background_too_light,Chinese parts: 夜间背景不能太亮
+741,xml_string,app\src\main\res\values-zh\strings.xml,769,night_bottom_bar_too_light,夜间底栏不能太亮,,String resource: night_bottom_bar_too_light,Chinese parts: 夜间底栏不能太亮
+742,xml_string,app\src\main\res\values-zh\strings.xml,770,accent_background_diff,强调色不能和背景颜色相似,,String resource: accent_background_diff,Chinese parts: 强调色不能和背景颜色相似
+743,xml_string,app\src\main\res\values-zh\strings.xml,771,accent_text_diff,强调色不能和文字颜色相似,,String resource: accent_text_diff,Chinese parts: 强调色不能和文字颜色相似
+744,xml_string,app\src\main\res\values-zh\strings.xml,772,wrong_format,格式不对,,String resource: wrong_format,Chinese parts: 格式不对
+745,xml_string,app\src\main\res\values-zh\strings.xml,773,error,错误,,String resource: error,Chinese parts: 错误
+746,xml_string,app\src\main\res\values-zh\strings.xml,774,show_brightness_view,显示亮度调节控件,,String resource: show_brightness_view,Chinese parts: 显示亮度调节控件
+747,xml_string,app\src\main\res\values-zh\strings.xml,775,language,语言,,String resource: language,Chinese parts: 语言
+748,xml_string,app\src\main\res\values-zh\strings.xml,776,import_rss_source,导入订阅源,,String resource: import_rss_source,Chinese parts: 导入订阅源
+749,xml_string,app\src\main\res\values-zh\strings.xml,777,donate_summary,您的支持是我更新的动力,,String resource: donate_summary,Chinese parts: 您的支持是我更新的动力
+750,xml_string,app\src\main\res\values-zh\strings.xml,778,about_summary,公众号【开源阅读软件】,,String resource: about_summary,"Chinese parts: 公众号, 开源阅读软件"

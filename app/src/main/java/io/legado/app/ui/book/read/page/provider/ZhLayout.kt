@@ -9,11 +9,11 @@ import java.util.WeakHashMap
 import kotlin.math.max
 
 /**
- * 针对中文的断行排版处理-by hoodie13
- * 因为StaticLayout对标点处理不符合国人习惯，继承Layout
+ * Xử lý ngắt dòng và sắp xếp cho tiếng Việt-by hoodie13
+ * Do StaticLayout xử lý dấu câu không phù hợp với thói quen Việt Nam, kế thừa Layout
  * */
 @Suppress("MemberVisibilityCanBePrivate", "unused")
-class ZhLayout(
+class ViLayout(
     text: CharSequence,
     textPaint: TextPaint,
     width: Int,
@@ -23,11 +23,11 @@ class ZhLayout(
 ) : Layout(text, textPaint, width, Alignment.ALIGN_NORMAL, 0f, 0f) {
     companion object {
         private val postPanc = hashSetOf(
-            "，", "。", "：", "？", "！", "、", "”", "’", "）", "》", "}",
-            "】", ")", ">", "]", "}", ",", ".", "?", "!", ":", "」", "；", ";"
+            ",", ".", ":", "?", "!", ";", "”", "'", ")", "»", "}",
+            "]", ")", ">", "]", "}", ",", ".", "?", "!", ":", "”", ";", ";"
         )
-        private val prePanc = hashSetOf("“", "（", "《", "【", "‘", "‘", "(", "<", "[", "{", "「")
-        private val cnCharWidthCache = WeakHashMap<Paint, Float>()
+        private val prePanc = hashSetOf("“", "(", "«", "[", "'", "'", "(", "<", "[", "{", "“")
+        private val viCharWidthCache = WeakHashMap<Paint, Float>()
     }
 
     private val defaultCapacity = 10
@@ -35,9 +35,9 @@ class ZhLayout(
     var lineWidth = FloatArray(defaultCapacity)
     private var lineCount = 0
     private val curPaint = textPaint
-    private val cnCharWidth = cnCharWidthCache[textPaint]
-        ?: getDesiredWidth("我", textPaint).also {
-            cnCharWidthCache[textPaint] = it
+    private val viCharWidth = viCharWidthCache[textPaint]
+        ?: getDesiredWidth("a", textPaint).also {
+            viCharWidthCache[textPaint] = it
         }
 
     enum class BreakMod { NORMAL, BREAK_ONE_CHAR, BREAK_MORE_CHAR, CPS_1, CPS_2, CPS_3, }
@@ -202,10 +202,10 @@ class ZhLayout(
     }
 
     private fun inCompressible(width: Float): Boolean {
-        return width < cnCharWidth
+        return width < viCharWidth
     }
 
-    private val gap = (cnCharWidth / 12.75).toFloat()
+    private val gap = (viCharWidth / 12.75).toFloat()
     private fun getPostPancOffset(string: String): Float {
         val textRect = Rect()
         curPaint.getTextBounds(string, 0, 1, textRect)
@@ -215,8 +215,8 @@ class ZhLayout(
     private fun getPrePancOffset(string: String): Float {
         val textRect = Rect()
         curPaint.getTextBounds(string, 0, 1, textRect)
-        val d = max(cnCharWidth - textRect.right.toFloat() - gap, 0f)
-        return cnCharWidth / 2 - d
+        val d = max(viCharWidth - textRect.right.toFloat() - gap, 0f)
+        return viCharWidth / 2 - d
     }
 
     fun getDesiredWidth(string: String, paint: TextPaint): Float {

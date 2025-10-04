@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3801,source_code,app\src\main\java\io\legado\app\help\JsEncodeUtils.kt,303,,过于繁琐弃用,Đã bỏ vì quá phức tạp,"""过于繁琐弃用""",",Chinese parts: 过于繁琐弃用
+3802,source_code,app\src\main\java\io\legado\app\help\JsEncodeUtils.kt,313,,过于繁琐弃用,Đã bỏ vì quá phức tạp,"""过于繁琐弃用""",",Chinese parts: 过于繁琐弃用
+3803,source_code,app\src\main\java\io\legado\app\help\JsEncodeUtils.kt,334,,过于繁琐弃用,Đã bỏ vì quá phức tạp,"""过于繁琐弃用""",",Chinese parts: 过于繁琐弃用
+3804,source_code,app\src\main\java\io\legado\app\help\JsEncodeUtils.kt,358,,过于繁琐弃用,Đã bỏ vì quá phức tạp,"""过于繁琐弃用""",",Chinese parts: 过于繁琐弃用
+3805,source_code,app\src\main\java\io\legado\app\help\JsEncodeUtils.kt,387,,过于繁琐弃用,Đã bỏ vì quá phức tạp,"""过于繁琐弃用""",",Chinese parts: 过于繁琐弃用
+3806,source_code,app\src\main\java\io\legado\app\help\JsEncodeUtils.kt,412,,过于繁琐弃用,Đã bỏ vì quá phức tạp,"""过于繁琐弃用""",",Chinese parts: 过于繁琐弃用
+3807,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,269,,内容获取失败或者为空,Không lấy được nội dung hoặc nội dung trống,"NoStackTraceException(""$path 内容获取失败或者为空"")",Chinese parts: 内容获取失败或者为空
+3808,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,294,,首次下载,Tải lần đầu,"log(""首次下载 $urlStr >> $path"")",Chinese parts: 首次下载
+3809,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,439,,转,Chuyển,"/* Str转ByteArray */",Chinese parts: 转
+3810,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,448,,转,Chuyển,"/* ByteArray转Str */",Chinese parts: 转
+3811,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,494,,解码为字节数组,Giải mã thành mảng byte,"/* HexString 解码为字节数组 */",Chinese parts: 解码为字节数组
+3812,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,499,,解码为,Giải mã thành,"/* hexString 解码为utf8String*/",Chinese parts: 解码为
+3813,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,504,,编码为,Mã hóa thành,"/* utf8 编码为hexString */",Chinese parts: 编码为
+3814,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,576,,非法路径,Đường dẫn không hợp lệ,"throw SecurityException(""非法路径"")",Chinese parts: 非法路径
+3815,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,752,,未发现内容,Không tìm thấy nội dung,"log(""getZipContent 未发现内容"")",Chinese parts: 未发现内容
+3816,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,方法已过时,Phương thức đã lỗi thời,"log(""queryBase64TTF(String)方法已过时,并将在未来删除；请无脑使用queryTTF(Any)替代，",Chinese parts: 方法已过时
+3817,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,并将在未来删除,và sẽ bị xóa trong tương lai,"(""queryBase64TTF(String)方法已过时,并将在未来删除；请无脑使用queryTTF(Any)替代，新方法支持传入",Chinese parts: 并将在未来删除
+3818,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,请无脑使用,Vui lòng sử dụng,"ase64TTF(String)方法已过时,并将在未来删除；请无脑使用queryTTF(Any)替代，新方法支持传入 url、本地",Chinese parts: 请无脑使用
+3819,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,替代,thay thế,"已过时,并将在未来删除；请无脑使用queryTTF(Any)替代，新方法支持传入 url、本地文件、base64、ByteA",Chinese parts: 替代
+3820,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,新方法支持传入,Phương thức mới hỗ trợ truyền vào,",并将在未来删除；请无脑使用queryTTF(Any)替代，新方法支持传入 url、本地文件、base64、ByteArray 自动判",Chinese parts: 新方法支持传入
+3821,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,本地文件,tệp cục bộ,"使用queryTTF(Any)替代，新方法支持传入 url、本地文件、base64、ByteArray 自动判断&自动缓存，特殊",Chinese parts: 本地文件
+3822,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,自动判断,tự động nhận diện,"持传入 url、本地文件、base64、ByteArray 自动判断&自动缓存，特殊情况需禁用缓存请传入第二可选参数false:",Chinese parts: 自动判断
+3823,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,自动缓存,tự động lưu vào bộ nhớ đệm,"rl、本地文件、base64、ByteArray 自动判断&自动缓存，特殊情况需禁用缓存请传入第二可选参数false:Boole",Chinese parts: 自动缓存
+3824,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,803,,特殊情况需禁用缓存请传入第二可选参数,Trong trường hợp đặc biệt cần tắt bộ nhớ đệm, vui lòng truyền tham số tùy chọn thứ hai,"文件、base64、ByteArray 自动判断&自动缓存，特殊情况需禁用缓存请传入第二可选参数false:Boolean"")",Chinese parts: 特殊情况需禁用缓存请传入第二可选参数
+3825,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,852,,获取字体处理类出错,Lỗi khi lấy lớp xử lý phông chữ,"AppLog.put(""[queryTTF] 获取字体处理类出错"", e)",Chinese parts: 获取字体处理类出错
+3826,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,874,,这里不能用,Không thể dùng ở đây,"rray = text.toStringArray() //这里不能用toCharArray,因为有些文字占多个字节",Chinese parts: 这里不能用
+3827,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,874,,因为有些文字占多个字节,vì một số ký tự chiếm nhiều byte,"ingArray() //这里不能用toCharArray,因为有些文字占多个字节",Chinese parts: 因为有些文字占多个字节
+3828,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,883,,轮廓数据不存在,Dữ liệu đường viền không tồn tại,getGlyfByUnicode(oldCode)  // 轮廓数据不存在,Chinese parts: 轮廓数据不存在
+3829,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,884,,轮廓数据指向保留索引,Dữ liệu đường viền trỏ đến chỉ mục dự trữ,oldCode) == 0) glyf = null // 轮廓数据指向保留索引0,Chinese parts: 轮廓数据指向保留索引
+3830,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,959,,源,Nguồn,"(""${getSource()?.getTag() ?: ""源""}调试输出: $msg"")",Chinese parts: 源
+3831,source_code,app\src\main\java\io\legado\app\help\JsExtensions.kt,959,,调试输出,Gỡ lỗi,"{getSource()?.getTag() ?: ""源""}调试输出: $msg"")",Chinese parts: 调试输出
+3832,source_code,app\src\main\java\io\legado\app\help\ReplaceAnalyzer.kt,34,,格式不对,Định dạng không đúng,"throw NoStackTraceException(""格式不对"")",Chinese parts: 格式不对
+3833,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,41,,尾部,Phần cuối,"/** 尾部##分割的正则或由,分割的参数 */",Chinese parts: 尾部
+3834,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,41,,分割的正则或由,biểu thức chính quy được phân tách bằng ## hoặc bằng,"/** 尾部##分割的正则或由,分割的参数 */",Chinese parts: 分割的正则或由
+3835,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,41,,分割的参数,tham số được phân tách,"/** 尾部##分割的正则或由,分割的参数 */",Chinese parts: 分割的参数
+3836,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,44,,分割字符,Ký tự phân tách,"/** 分割字符 */",Chinese parts: 分割字符
+3837,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,47,,用于获取文字时添加的规则,Quy tắc thêm vào khi lấy văn bản,"/**  用于获取文字时添加的规则 */",Chinese parts: 用于获取文字时添加的规则
+3838,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,50,,用于获取链接时添加的规则,Quy tắc thêm vào khi lấy liên kết,"/**  用于获取链接时添加的规则 */",Chinese parts: 用于获取链接时添加的规则
+3839,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,53,,用于获取图片时添加的规则,Quy tắc thêm vào khi lấy hình ảnh,"/**  用于获取图片时添加的规则 */",Chinese parts: 用于获取图片时添加的规则
+3840,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,56,,用于获取图片,Dùng để lấy hình ảnh,"/**  用于获取图片alt属性时添加的规则 */",Chinese parts: 用于获取图片
+3841,source_code,app\src\main\java\io\legado\app\help\RuleComplete.kt,56,,属性时添加的规则,quy tắc thêm vào khi lấy thuộc tính,"/**  用于获取图片alt属性时添加的规则 */",Chinese parts: 属性时添加的规则
+3842,source_code,app\src\main\java\io\legado\app\help\TTS.kt,91,,朗读出错,Lỗi đọc to,"AppLog.put(""tts朗读出错:$text"")",Chinese parts: 朗读出错
+3843,source_code,app\src\main\java\io\legado\app\help\TTS.kt,95,,朗读出错,Lỗi đọc to,"AppLog.put(""tts朗读出错"", it)",Chinese parts: 朗读出错
+3844,source_code,app\src\main\java\io\legado\app\model\AudioPlay.kt,153,,未获取到资源链接,Không lấy được liên kết tài nguyên,"appCtx.toastOnUi(""未获取到资源链接"")",Chinese parts: 未获取到资源链接
+3845,source_code,app\src\main\java\io\legado\app\model\AudioPlay.kt,158,,获取资源链接出错,Lỗi khi lấy liên kết tài nguyên,"AppLog.put(""获取资源链接出错\n$it"", it, true)",Chinese parts: 获取资源链接出错
+3846,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,109,,正在下载,Đang tải về,"return ""正在下载:${onDownloadCount}|等待中:${wait",Chinese parts: 正在下载
+3847,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,109,,等待中,Đang chờ,"turn ""正在下载:${onDownloadCount}|等待中:${waitCount}|失败:${errorDownlo",Chinese parts: 等待中
+3848,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,109,,失败,Thất bại,"wnloadCount}|等待中:${waitCount}|失败:${errorDownloadMap.count()}|成,Chinese parts: 失败
+3849,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,109,,成功,Thành công,"败:${errorDownloadMap.count()}|成功:${successDownloadSet.size}""",Chinese parts: Thành công
+3850,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,211,,下载,Tải về,"""下载${book.name}-${chapter.title}失",Chinese parts: 下载

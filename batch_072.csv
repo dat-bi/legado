@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3551,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1206,manga_check_progress_label,《总进度.》文案,,String resource: manga_check_progress_label,"Chinese parts: 总进度, 文案"
+3552,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1207,manga_check_progress,总进度,,String resource: manga_check_progress,Chinese parts: 总进度
+3553,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1208,manga_header_footer,页脚,,String resource: manga_header_footer,Chinese parts: 页脚
+3554,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1209,manga_radio_left,靠左,,String resource: manga_radio_left,Chinese parts: 靠左
+3555,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1210,manga_radio_center,居中,,String resource: manga_radio_center,Chinese parts: 居中
+3556,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1211,enable_manga_horizontal_scroll,水平滚动,,String resource: enable_manga_horizontal_scroll,Chinese parts: 水平滚动
+3557,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1212,manga_color_filter,滤镜,,String resource: manga_color_filter,Chinese parts: 滤镜
+3558,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1213,hide_manga_title,隐藏漫画列表标题,,String resource: hide_manga_title,Chinese parts: 隐藏漫画列表标题
+3559,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1214,refresh_explore,刷新发现,,String resource: refresh_explore,Chinese parts: 刷新发现
+3560,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1215,padding_display_cutouts,填充刘海区域,,String resource: padding_display_cutouts,Chinese parts: 填充刘海区域
+3561,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1216,system_media_control_compatibility_change,系統媒體控件相容性更改,,String resource: system_media_control_compatibility_change,Chinese parts: 系統媒體控件相容性更改
+3562,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1217,system_media_control_compatibility_change_summary,當鎖屏不顯示系統媒體控件時可以嘗試開啟，比如 OneUI7.0 或 vivo 等,,String resource: system_media_control_compatibility_change_summary,"Chinese parts: 當鎖屏不顯示系統媒體控件時可以嘗試開啟, 比如, 或, 等"
+3563,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1218,read_aloud_pause_resume,朗讀暫停/繼續,,String resource: read_aloud_pause_resume,"Chinese parts: 朗讀暫停, 繼續"
+3564,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1219,manga_epaper,墨水屏,,String resource: manga_epaper,Chinese parts: 墨水屏
+3565,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1220,manga_epaper_value,阈值,,String resource: manga_epaper_value,Chinese parts: 阈值
+3566,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1221,disable_horizontal_animation,禁用水平滚动动画,,String resource: disable_horizontal_animation,Chinese parts: 禁用水平滚动动画
+3567,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1222,enable_manga_gray,开启图片灰色,,String resource: enable_manga_gray,Chinese parts: 开启图片灰色
+3568,xml_array_item,app\src\main\res\values-zh\arrays.xml,3,book_type[0],文本,,Array item: book_type[0],Chinese parts: 文本
+3569,xml_array_item,app\src\main\res\values-zh\arrays.xml,3,book_type[1],音频,,Array item: book_type[1],Chinese parts: 音频
+3570,xml_array_item,app\src\main\res\values-zh\arrays.xml,3,book_type[2],图片,,Array item: book_type[2],Chinese parts: 图片
+3571,xml_array_item,app\src\main\res\values-zh\arrays.xml,3,book_type[3],文件,,Array item: book_type[3],Chinese parts: 文件
+3572,xml_array_item,app\src\main\res\values-zh\arrays.xml,10,group_style[0],标签,,Array item: group_style[0],Chinese parts: 标签
+3573,xml_array_item,app\src\main\res\values-zh\arrays.xml,10,group_style[1],文件夹,,Array item: group_style[1],Chinese parts: 文件夹
+3574,xml_array_item,app\src\main\res\values-zh\arrays.xml,21,theme_mode[0],跟随系统,,Array item: theme_mode[0],Chinese parts: 跟随系统
+3575,xml_array_item,app\src\main\res\values-zh\arrays.xml,21,theme_mode[1],亮色主题,,Array item: theme_mode[1],Chinese parts: 亮色主题
+3576,xml_array_item,app\src\main\res\values-zh\arrays.xml,21,theme_mode[2],暗色主题,,Array item: theme_mode[2],Chinese parts: 暗色主题
+3577,xml_array_item,app\src\main\res\values-zh\arrays.xml,21,theme_mode[3],E-Ink(墨水屏),,Array item: theme_mode[3],Chinese parts: 墨水屏
+3578,xml_array_item,app\src\main\res\values-zh\arrays.xml,28,double_page_title[0],全局单页,,Array item: double_page_title[0],Chinese parts: 全局单页
+3579,xml_array_item,app\src\main\res\values-zh\arrays.xml,28,double_page_title[1],全局双页,,Array item: double_page_title[1],Chinese parts: 全局双页
+3580,xml_array_item,app\src\main\res\values-zh\arrays.xml,28,double_page_title[2],横屏双页,,Array item: double_page_title[2],Chinese parts: 横屏双页
+3581,xml_array_item,app\src\main\res\values-zh\arrays.xml,28,double_page_title[3],平板/横屏双页,,Array item: double_page_title[3],"Chinese parts: 平板, 横屏双页"
+3582,xml_array_item,app\src\main\res\values-zh\arrays.xml,35,NavBarColors[0],自动,,Array item: NavBarColors[0],Chinese parts: 自动
+3583,xml_array_item,app\src\main\res\values-zh\arrays.xml,35,NavBarColors[1],黑色,,Array item: NavBarColors[1],Chinese parts: 黑色
+3584,xml_array_item,app\src\main\res\values-zh\arrays.xml,35,NavBarColors[2],白色,,Array item: NavBarColors[2],Chinese parts: 白色
+3585,xml_array_item,app\src\main\res\values-zh\arrays.xml,35,NavBarColors[3],跟随背景,,Array item: NavBarColors[3],Chinese parts: 跟随背景
+3586,xml_array_item,app\src\main\res\values-zh\arrays.xml,42,screen_time_out[0],默认,,Array item: screen_time_out[0],Chinese parts: 默认
+3587,xml_array_item,app\src\main\res\values-zh\arrays.xml,42,screen_time_out[1],1分钟,,Array item: screen_time_out[1],Chinese parts: 分钟
+3588,xml_array_item,app\src\main\res\values-zh\arrays.xml,42,screen_time_out[2],5分钟,,Array item: screen_time_out[2],Chinese parts: 分钟
+3589,xml_array_item,app\src\main\res\values-zh\arrays.xml,42,screen_time_out[3],10分钟,,Array item: screen_time_out[3],Chinese parts: 分钟
+3590,xml_array_item,app\src\main\res\values-zh\arrays.xml,42,screen_time_out[4],常亮,,Array item: screen_time_out[4],Chinese parts: 常亮
+3591,xml_array_item,app\src\main\res\values-zh\arrays.xml,60,chinese_mode[0],关闭,,Array item: chinese_mode[0],Chinese parts: 关闭
+3592,xml_array_item,app\src\main\res\values-zh\arrays.xml,60,chinese_mode[1],繁体转简体,,Array item: chinese_mode[1],Chinese parts: 繁体转简体
+3593,xml_array_item,app\src\main\res\values-zh\arrays.xml,60,chinese_mode[2],简体转繁体,,Array item: chinese_mode[2],Chinese parts: 简体转繁体
+3594,xml_array_item,app\src\main\res\values-zh\arrays.xml,66,system_typefaces[0],系统默认字体,,Array item: system_typefaces[0],Chinese parts: 系统默认字体
+3595,xml_array_item,app\src\main\res\values-zh\arrays.xml,66,system_typefaces[1],系统衬线字体,,Array item: system_typefaces[1],Chinese parts: 系统衬线字体
+3596,xml_array_item,app\src\main\res\values-zh\arrays.xml,66,system_typefaces[2],系统等宽字体,,Array item: system_typefaces[2],Chinese parts: 系统等宽字体
+3597,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[0],无,,Array item: read_tip[0],Chinese parts: 无
+3598,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[1],书名,,Array item: read_tip[1],Chinese parts: 书名
+3599,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[2],标题,,Array item: read_tip[2],Chinese parts: 标题
+3600,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[3],时间,,Array item: read_tip[3],Chinese parts: 时间

@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3051,xml_string,app\src\main\res\values-zh-rTW\strings.xml,700,thanks,您的支援是我更新的動力,Sự ủng hộ của bạn là động lực để tôi cập nhật.,String resource: thanks,Chinese parts: 您的支援是我更新的動力
+3052,xml_string,app\src\main\res\values-zh-rTW\strings.xml,701,about_official_account,公眾號[开源阅读],Tài khoản công khai [开源阅读],String resource: about_official_account,"Chinese parts: 公眾號, 开源阅读"
+3053,xml_string,app\src\main\res\values-zh-rTW\strings.xml,702,source_auto_changing,正在自動換源,Đang tự động đổi nguồn.,String resource: source_auto_changing,Chinese parts: 正在自動換源
+3054,xml_string,app\src\main\res\values-zh-rTW\strings.xml,703,click_to_apply,點擊加入,Nhấn để tham gia.,String resource: click_to_apply,Chinese parts: 點擊加入
+3055,xml_string,app\src\main\res\values-zh-rTW\strings.xml,704,middle,中,Trung bình,String resource: middle,Chinese parts: 中
+3056,xml_string,app\src\main\res\values-zh-rTW\strings.xml,705,information,訊息,Thông tin,String resource: information,Chinese parts: 訊息
+3057,xml_string,app\src\main\res\values-zh-rTW\strings.xml,706,switchLayout,切換布局,Chuyển đổi bố cục,String resource: switchLayout,Chinese parts: 切換布局
+3058,xml_string,app\src\main\res\values-zh-rTW\strings.xml,707,text_font_weight_converter,文章字重轉換,Chuyển đổi độ đậm phông chữ,String resource: text_font_weight_converter,Chinese parts: 文章字重轉換
+3059,xml_string,app\src\main\res\values-zh-rTW\strings.xml,708,full_screen_gestures_support,全面屏手勢最佳化,Tối ưu cử chỉ toàn màn hình,String resource: full_screen_gestures_support,Chinese parts: 全面屏手勢最佳化
+3060,xml_string,app\src\main\res\values-zh-rTW\strings.xml,709,disable_return_key,禁用返回鍵,Tắt phím quay lại,String resource: disable_return_key,Chinese parts: 禁用返回鍵
+3061,xml_string,app\src\main\res\values-zh-rTW\strings.xml,712,primary,主色調,Màu chính,String resource: primary,Chinese parts: 主色調
+3062,xml_string,app\src\main\res\values-zh-rTW\strings.xml,713,accent,強調色,Màu nhấn,String resource: accent,Chinese parts: 強調色
+3063,xml_string,app\src\main\res\values-zh-rTW\strings.xml,714,background_color,背景色,Màu nền,String resource: background_color,Chinese parts: 背景色
+3064,xml_string,app\src\main\res\values-zh-rTW\strings.xml,715,navbar_color,底部操作欄顏色,Màu thanh điều hướng dưới,String resource: navbar_color,Chinese parts: 底部操作欄顏色
+3065,xml_string,app\src\main\res\values-zh-rTW\strings.xml,716,day,白天,Ban ngày,String resource: day,Chinese parts: 白天
+3066,xml_string,app\src\main\res\values-zh-rTW\strings.xml,717,day_color_primary,白天，主色調,Ban ngày, màu chính,String resource: day_color_primary,"Chinese parts: 白天, 主色調"
+3067,xml_string,app\src\main\res\values-zh-rTW\strings.xml,718,day_color_accent,白天，強調色,Ban ngày, màu nhấn,String resource: day_color_accent,"Chinese parts: 白天, 強調色"
+3068,xml_string,app\src\main\res\values-zh-rTW\strings.xml,719,day_background_color,白天，背景色,Ban ngày, màu nền,String resource: day_background_color,"Chinese parts: 白天, 背景色"
+3069,xml_string,app\src\main\res\values-zh-rTW\strings.xml,720,day_navbar_color,白天，底欄色,Ban ngày, màu thanh dưới,String resource: day_navbar_color,"Chinese parts: 白天, 底欄色"
+3070,xml_string,app\src\main\res\values-zh-rTW\strings.xml,721,night,夜間,Ban đêm,String resource: night,Chinese parts: 夜間
+3071,xml_string,app\src\main\res\values-zh-rTW\strings.xml,722,night_primary,夜間，主色調,Ban đêm, màu chính,String resource: night_primary,"Chinese parts: 夜間, 主色調"
+3072,xml_string,app\src\main\res\values-zh-rTW\strings.xml,723,night_accent,夜間，強調色,Ban đêm, màu nhấn,String resource: night_accent,"Chinese parts: 夜間, 強調色"
+3073,xml_string,app\src\main\res\values-zh-rTW\strings.xml,724,night_background_color,夜間，背景色,Ban đêm, màu nền,String resource: night_background_color,"Chinese parts: 夜間, 背景色"
+3074,xml_string,app\src\main\res\values-zh-rTW\strings.xml,725,night_navbar_color,夜間，底欄色,Ban đêm, màu thanh dưới,String resource: night_navbar_color,"Chinese parts: 夜間, 底欄色"
+3075,xml_string,app\src\main\res\values-zh-rTW\strings.xml,726,auto_change_source,自動換源,Tự động đổi nguồn,String resource: auto_change_source,Chinese parts: 自動換源
+3076,xml_string,app\src\main\res\values-zh-rTW\strings.xml,727,text_full_justify,文字兩端對齊,Căn đều hai bên,String resource: text_full_justify,Chinese parts: 文字兩端對齊
+3077,xml_string,app\src\main\res\values-zh-rTW\strings.xml,728,text_bottom_justify,文字底部對齊,Căn lề dưới,String resource: text_bottom_justify,Chinese parts: 文字底部對齊
+3078,xml_string,app\src\main\res\values-zh-rTW\strings.xml,729,auto_page_speed,自動翻頁速度,Tốc độ lật trang tự động,String resource: auto_page_speed,Chinese parts: 自動翻頁速度
+3079,xml_string,app\src\main\res\values-zh-rTW\strings.xml,730,sort_by_url,地址排序,Sắp xếp theo địa chỉ,String resource: sort_by_url,Chinese parts: 地址排序
+3080,xml_string,app\src\main\res\values-zh-rTW\strings.xml,731,backup_summary,本機和 WebDav 一起備份,Sao lưu cục bộ và WebDav,String resource: backup_summary,"Chinese parts: 本機和, 一起備份"
+3081,xml_string,app\src\main\res\values-zh-rTW\strings.xml,732,restore_summary,優先從 WebDav 復原，長按從本機復原,Ưu tiên khôi phục từ WebDav, nhấn giữ để khôi phục từ cục bộ,String resource: restore_summary,"Chinese parts: 優先從, 復原, 長按從本機復原"
+3082,xml_string,app\src\main\res\values-zh-rTW\strings.xml,733,import_old_summary,選擇舊版備份資料夾,Chọn thư mục sao lưu phiên bản cũ,String resource: import_old_summary,Chinese parts: 選擇舊版備份資料夾
+3083,xml_string,app\src\main\res\values-zh-rTW\strings.xml,734,enabled,已啟用,Đã bật,String resource: enabled,Chinese parts: 已啟用
+3084,xml_string,app\src\main\res\values-zh-rTW\strings.xml,735,disabled,已禁用,Đã tắt,String resource: disabled,Chinese parts: 已禁用
+3085,xml_string,app\src\main\res\values-zh-rTW\strings.xml,736,enabled_explore,已啟用發現,Đã bật tính năng khám phá,String resource: enabled_explore,Chinese parts: 已啟用發現
+3086,xml_string,app\src\main\res\values-zh-rTW\strings.xml,737,disabled_explore,已禁用發現,Đã tắt tính năng khám phá,String resource: disabled_explore,Chinese parts: 已禁用發現
+3087,xml_string,app\src\main\res\values-zh-rTW\strings.xml,738,starting_download,正在啟動下載,Đang bắt đầu tải về,String resource: starting_download,Chinese parts: 正在啟動下載
+3088,xml_string,app\src\main\res\values-zh-rTW\strings.xml,739,already_in_download,該書已在下載列表,Sách này đã có trong danh sách tải về,String resource: already_in_download,Chinese parts: 該書已在下載列表
+3089,xml_string,app\src\main\res\values-zh-rTW\strings.xml,740,click_to_open,點擊打開,Nhấn để mở,String resource: click_to_open,Chinese parts: 點擊打開
+3090,xml_string,app\src\main\res\values-zh-rTW\strings.xml,741,follow_public_account_summary,關注[legado-top]點擊廣告支持我,Theo dõi [legado-top] và nhấn vào quảng cáo để ủng hộ tôi.,String resource: follow_public_account_summary,"Chinese parts: 關注, 點擊廣告支持我"
+3091,xml_string,app\src\main\res\values-zh-rTW\strings.xml,742,weChat_appreciation_code,微信讚賞碼,Mã ủng hộ WeChat,String resource: weChat_appreciation_code,Chinese parts: 微信讚賞碼
+3092,xml_string,app\src\main\res\values-zh-rTW\strings.xml,743,alipay,支付寶,Alipay,String resource: alipay,Chinese parts: 支付寶
+3093,xml_string,app\src\main\res\values-zh-rTW\strings.xml,744,alipay_red_envelope_search_code,支付寶紅包搜尋碼,Mã tìm kiếm lì xì Alipay,String resource: alipay_red_envelope_search_code,Chinese parts: 支付寶紅包搜尋碼
+3094,xml_string,app\src\main\res\values-zh-rTW\strings.xml,745,alipay_red_envelope_copy,537954522 點擊複製,537954522 Nhấn để sao chép,String resource: alipay_red_envelope_copy,Chinese parts: 點擊複製
+3095,xml_string,app\src\main\res\values-zh-rTW\strings.xml,746,alipay_red_envelope_qr_code,支付寶紅包二維碼,Mã QR lì xì Alipay,String resource: alipay_red_envelope_qr_code,Chinese parts: 支付寶紅包二維碼
+3096,xml_string,app\src\main\res\values-zh-rTW\strings.xml,747,alipay_payment_qr_code,支付寶收款二維碼,Mã QR thanh toán Alipay,String resource: alipay_payment_qr_code,Chinese parts: 支付寶收款二維碼
+3097,xml_string,app\src\main\res\values-zh-rTW\strings.xml,748,qq_collection_qr_code,QQ收款二維碼,Mã QR thanh toán QQ,String resource: qq_collection_qr_code,Chinese parts: 收款二維碼
+3098,xml_string,app\src\main\res\values-zh-rTW\strings.xml,749,contributors_summary,gedoor、Invinciblelee、Xwite等，詳情請在github中查看,gedoor, Invinciblelee, Xwite, v.v. Xem chi tiết trên GitHub.,String resource: contributors_summary,"Chinese parts: 等, 詳情請在, 中查看"
+3099,xml_string,app\src\main\res\values-zh-rTW\strings.xml,750,clear_cache_summary,清除已下載書籍和字體快取,Xóa bộ nhớ đệm sách đã tải và phông chữ,String resource: clear_cache_summary,Chinese parts: 清除已下載書籍和字體快取
+3100,xml_string,app\src\main\res\values-zh-rTW\strings.xml,751,default_cover,預設封面,Bìa mặc định,String resource: default_cover,Chinese parts: 預設封面

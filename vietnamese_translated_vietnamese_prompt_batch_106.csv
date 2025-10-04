@@ -1,0 +1,35 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5251,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,241,,目录,Mục lục,"""⇒目录${index}未获取到url,使用baseUrl替代""",Chinese parts: 目录
+5252,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,241,,未获取到,Không lấy được,"""⇒目录${index}未获取到url,使用baseUrl替代""",Chinese parts: 未获取到
+5253,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,241,,使用,Dùng,"""⇒目录${index}未获取到url,使用baseUrl替代""",Chinese parts: 使用
+5254,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,241,,替代,Thay thế,"""⇒目录${index}未获取到url,使用baseUrl替代""",Chinese parts: 替代
+5255,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,257,,目录列表解析完成,Phân tích danh sách mục lục hoàn tất,"g(bookSource.bookSourceUrl, ""└目录列表解析完成"", log)",Chinese parts: 目录列表解析完成
+5256,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,259,,章节列表为空,Danh sách chương trống,"g(bookSource.bookSourceUrl, ""◇章节列表为空"", log)",Chinese parts: 章节列表为空
+5257,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,261,,首章信息,Thông tin chương đầu,"g(bookSource.bookSourceUrl, ""≡首章信息"", log)",Chinese parts: 首章信息
+5258,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,262,,章节名称,Tên chương,"g(bookSource.bookSourceUrl, ""◇章节名称:${chapterList[0].title}"", log",Chinese parts: 章节名称
+5259,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,263,,章节链接,Liên kết chương,"g(bookSource.bookSourceUrl, ""◇章节链接:${chapterList[0].url}"", log)",Chinese parts: 章节链接
+5260,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,264,,章节信息,Thông tin chương,"g(bookSource.bookSourceUrl, ""◇章节信息:${chapterList[0].tag}"", log)",Chinese parts: 章节信息
+5261,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,265,,是否,Có phải,"g(bookSource.bookSourceUrl, ""◇是否VIP:${chapterList[0].isVip}"",",Chinese parts: 是否
+5262,source_code,app\src\main\java\io\legado\app\model\webBook\BookChapterList.kt,266,,是否购买,Đã mua chưa,"g(bookSource.bookSourceUrl, ""◇是否购买:${chapterList[0].isPay}"", log",Chinese parts: 是否购买
+5263,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,48,,获取成功,Lấy thành công,"g(bookSource.bookSourceUrl, ""≡获取成功:${baseUrl}"")",Chinese parts: 获取成功
+5264,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,71,,获取标题出错,Lỗi khi lấy tiêu đề,"og(bookSource.bookSourceUrl, ""获取标题出错, ${it.localizedMessage}"")",Chinese parts: 获取标题出错
+5265,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,98,,控制并发访问,Kiểm soát truy cập đồng thời,zeUrl.getStrResponseAwait() //控制并发访问,Chinese parts: 控制并发访问
+5266,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,108,,第,Trang thứ,"og(bookSource.bookSourceUrl, ""第${contentList.size}页完成"")",Chinese parts: 第
+5267,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,108,,页完成,trang hoàn thành,"urceUrl, ""第${contentList.size}页完成"")",Chinese parts: 页完成
+5268,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,111,,本章总页数,Tổng số trang của chương này,"g(bookSource.bookSourceUrl, ""◇本章总页数:${nextUrlList.size}"")",Chinese parts: 本章总页数
+5269,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,113,,并发解析正文,Phân tích nội dung chính đồng thời,"g(bookSource.bookSourceUrl, ""◇并发解析正文,总页数:${contentData.second.size",Chinese parts: 并发解析正文
+5270,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,113,,总页数,Tổng số trang,"ource.bookSourceUrl, ""◇并发解析正文,总页数:${contentData.second.size}"")",Chinese parts: 总页数
+5271,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,125,,控制并发访问,Kiểm soát truy cập đồng thời,zeUrl.getStrResponseAwait() //控制并发访问,Chinese parts: 控制并发访问
+5272,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,145,,获取章节名称,Lấy tên chương,"g(bookSource.bookSourceUrl, ""┌获取章节名称"")",Chinese parts: 获取章节名称
+5273,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,147,,获取正文内容,Lấy nội dung chính,"g(bookSource.bookSourceUrl, ""┌获取正文内容"")",Chinese parts: 获取正文内容
+5274,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,150,,内容为空,Nội dung trống,"throw ContentEmptyException(""内容为空"")",Chinese parts: 内容为空
+5275,source_code,app\src\main\java\io\legado\app\model\webBook\BookContent.kt,188,,获取正文下一页链接,Lấy liên kết trang kế tiếp của nội dung chính,"g(bookSource.bookSourceUrl, ""┌获取正文下一页链接"", printLog)",Chinese parts: 获取正文下一页链接
+5276,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,39,,获取成功,Lấy thành công,"g(bookSource.bookSourceUrl, ""≡获取成功:${baseUrl}"")",Chinese parts: 获取成功
+5277,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,61,,执行详情页初始化规则,Thực thi quy tắc khởi tạo trang chi tiết,"g(bookSource.bookSourceUrl, ""≡执行详情页初始化规则"")",Chinese parts: 执行详情页初始化规则
+5278,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,67,,获取书名,Lấy tên sách,"g(bookSource.bookSourceUrl, ""┌获取书名"")",Chinese parts: 获取书名
+5279,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,75,,获取作者,Lấy tác giả,"g(bookSource.bookSourceUrl, ""┌获取作者"")",Chinese parts: 获取作者
+5280,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,83,,获取分类,Lấy thể loại,"g(bookSource.bookSourceUrl, ""┌获取分类"")",Chinese parts: 获取分类
+5281,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,94,,获取分类出错,Lỗi khi lấy thể loại,"DebugLog.e(""获取分类出错"", e)",Chinese parts: 获取分类出错
+5282,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,97,,获取字数,Lấy số chữ,"g(bookSource.bookSourceUrl, ""┌获取字数"")",Chinese parts: 获取字数
+5283,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,106,,获取字数出错,Lỗi khi lấy số chữ,"DebugLog.e(""获取字数出错"", e)",Chinese parts: 获取字数出错
+5284,source_code,app\src\main\java\io\legado\app\model\webBook\BookInfo.kt,109,,获取最新章节,Lấy chương mới nhất,"g(bookSource.bookSourceUrl, ""┌获取最新章节"")",Chinese parts: 获取最新章节

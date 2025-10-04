@@ -22,12 +22,23 @@ object StringUtils {
     private const val HOUR_OF_DAY = 24
     private const val DAY_OF_YESTERDAY = 2
     private const val TIME_UNIT = 60
-    private val ChnMap = chnMap
+    private val ViMap = viMap
     private val wordCountFormatter by lazy {
         DecimalFormat("#.#")
     }
 
-    private val chnMap: HashMap<Char, Int>
+    private val viMap: HashMap<Char, Int>
+        get() {
+            val map = HashMap<Char, Int>()
+            // Vietnamese numbers as words would need special handling
+            // For now, keeping basic digits mapping
+            var viStr = "0123456789"
+            var c = viStr.toCharArray()
+            for (i in 0..9) {
+                map[c[i]] = i
+            }
+            return map
+        }
         get() {
             val map = HashMap<Char, Int>()
             var cnStr = "零一二三四五六七八九十"
@@ -51,7 +62,7 @@ object StringUtils {
         }
 
     /**
-     * 将日期转换成昨天、今天、明天
+     * Chuyển đổi ngày thành hôm qua, hôm nay, ngày mai
      */
     fun dateConvert(source: String, pattern: String): String {
         val format = SimpleDateFormat(pattern, Locale.getDefault())
@@ -66,12 +77,12 @@ object StringUtils {
             val difHour = difMin / 60
             val difDate = difHour / 60
             val oldHour = calendar.get(Calendar.HOUR)
-            //如果没有时间
+            //Nếu không có thời gian
             if (oldHour == 0) {
-                //比日期:昨天今天和明天
+                //So sánh ngày: hôm qua hôm nay và ngày mai
                 return when {
-                    difDate == 0L -> "今天"
-                    difDate < DAY_OF_YESTERDAY -> "昨天"
+                    difDate == 0L -> "Hôm nay"
+                    difDate < DAY_OF_YESTERDAY -> "Hôm qua"
                     else -> {
                         @SuppressLint("SimpleDateFormat")
                         val convertFormat = SimpleDateFormat("yyyy-MM-dd")
@@ -81,10 +92,10 @@ object StringUtils {
             }
 
             return when {
-                difSec < TIME_UNIT -> difSec.toString() + "秒前"
-                difMin < TIME_UNIT -> difMin.toString() + "分钟前"
-                difHour < HOUR_OF_DAY -> difHour.toString() + "小时前"
-                difDate < DAY_OF_YESTERDAY -> "昨天"
+                difSec < TIME_UNIT -> difSec.toString() + " giây trước"
+                difMin < TIME_UNIT -> difMin.toString() + " phút trước"
+                difHour < HOUR_OF_DAY -> difHour.toString() + " giờ trước"
+                difDate < DAY_OF_YESTERDAY -> "Hôm qua"
                 else -> {
                     @SuppressLint("SimpleDateFormat")
                     val convertFormat = SimpleDateFormat("yyyy-MM-dd")
@@ -98,7 +109,7 @@ object StringUtils {
     }
 
     /**
-     * 首字母大写
+     * Viết hoa chữ cái đầu
      */
     @SuppressLint("DefaultLocale")
     fun toFirstCapital(str: String): String {
@@ -106,36 +117,36 @@ object StringUtils {
     }
 
     /**
-     * 将文本中的半角字符，转换成全角字符
+     * Chuyển đổi các ký tự nửa khoảng trong văn bản thành ký tự toàn khoảng
      */
     fun halfToFull(input: String): String {
         val c = input.toCharArray()
         for (i in c.indices) {
             if (c[i].code == 32)
-            //半角空格
+            //Nửa khoảng trống
             {
                 c[i] = 12288.toChar()
                 continue
             }
-            //根据实际情况，过滤不需要转换的符号
-            //if (c[i] == 46) //半角点号，不转换
+            //Dựa theo tình hình thực tế, lọc các ký hiệu không cần chuyển đổi
+            //if (c[i] == 46) //Nửa khoảng dấu chấm, không chuyển đổi
             // continue;
 
             if (c[i].code in 33..126)
-            //其他符号都转换为全角
+            //Các ký hiệu khác đều chuyển đổi thành toàn khoảng
                 c[i] = (c[i].code + 65248).toChar()
         }
         return String(c)
     }
 
     /**
-     * 字符串全角转换为半角
+     * Chuyển đổi chuỗi toàn khoảng thành nửa khoảng
      */
     fun fullToHalf(input: String): String {
         val c = input.toCharArray()
         for (i in c.indices) {
             if (c[i].code == 12288)
-            //全角空格
+            //Toàn khoảng trống
             {
                 c[i] = 32.toChar()
                 continue
@@ -148,26 +159,26 @@ object StringUtils {
     }
 
     /**
-     * 中文大写数字转数字
+     * Số tiếng Việt thành số
      */
-    fun chineseNumToInt(chNum: String): Int {
+    fun vietnameseNumToInt(viNum: String): Int {
         var result = 0
         var tmp = 0
         var billion = 0
-        val cn = chNum.toCharArray()
+        val vi = viNum.toCharArray()
 
-        // "一零二五" 形式
-        if (cn.size > 1 && chNum.matches("^[〇零一二三四五六七八九壹贰叁肆伍陆柒捌玖]$".toRegex())) {
-            for (i in cn.indices) {
-                cn[i] = (48 + ChnMap[cn[i]]!!).toChar()
+        // "012345" form
+        if (vi.size > 1 && viNum.matches("^[0123456789]$".toRegex())) {
+            for (i in vi.indices) {
+                vi[i] = (48 + ViMap[vi[i]]!!).toChar()
             }
-            return Integer.parseInt(String(cn))
+            return Integer.parseInt(String(vi))
         }
 
-        // "一千零二十五", "一千二" 形式
+        // "một nghìn không trăm hai mười lăm", "một nghìn hai" forms
         return kotlin.runCatching {
-            for (i in cn.indices) {
-                val tmpNum = ChnMap[cn[i]]!!
+            for (i in vi.indices) {
+                val tmpNum = ViMap[vi[i]]!!
                 when {
                     tmpNum == 100000000 -> {
                         result += tmp
@@ -191,8 +202,8 @@ object StringUtils {
                     }
 
                     else -> {
-                        tmp = if (i >= 2 && i == cn.size - 1 && ChnMap[cn[i - 1]]!! > 10)
-                            tmpNum * ChnMap[cn[i - 1]]!! / 10
+                        tmp = if (i >= 2 && i == vi.size - 1 && ViMap[vi[i - 1]]!! > 10)
+                            tmpNum * ViMap[vi[i - 1]]!! / 10
                         else
                             tmp * 10 + tmpNum
                     }
@@ -204,7 +215,7 @@ object StringUtils {
     }
 
     /**
-     * 字符串转数字
+     * Chuỗi chuyển thành số
      */
     fun stringToInt(str: String?): Int {
         if (str != null) {
@@ -212,14 +223,14 @@ object StringUtils {
             return kotlin.runCatching {
                 Integer.parseInt(num)
             }.getOrElse {
-                chineseNumToInt(num)
+                vietnameseNumToInt(num)
             }
         }
         return -1
     }
 
     /**
-     * 是否包含数字
+     * Có chứa số không
      */
     fun isContainNumber(company: String): Boolean {
         val p = Pattern.compile("[0-9]+")

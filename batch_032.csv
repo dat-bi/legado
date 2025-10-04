@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1551,xml_string,app\src\main\res\values-zh-rHK\strings.xml,368,status_bar_immersion,狀態欄顏色透明,,String resource: status_bar_immersion,Chinese parts: 狀態欄顏色透明
+1552,xml_string,app\src\main\res\values-zh-rHK\strings.xml,369,imm_navigation_bar,沉浸式导航栏,,String resource: imm_navigation_bar,Chinese parts: 沉浸式导航栏
+1553,xml_string,app\src\main\res\values-zh-rHK\strings.xml,370,imm_navigation_bar_s,导航栏颜色透明,,String resource: imm_navigation_bar_s,Chinese parts: 导航栏颜色透明
+1554,xml_string,app\src\main\res\values-zh-rHK\strings.xml,371,add_to_bookshelf,放入書架,,String resource: add_to_bookshelf,Chinese parts: 放入書架
+1555,xml_string,app\src\main\res\values-zh-rHK\strings.xml,372,continue_read,繼續閲讀,,String resource: continue_read,Chinese parts: 繼續閲讀
+1556,xml_string,app\src\main\res\values-zh-rHK\strings.xml,373,cover_path,封面地址,,String resource: cover_path,Chinese parts: 封面地址
+1557,xml_string,app\src\main\res\values-zh-rHK\strings.xml,374,page_anim_cover,覆蓋,,String resource: page_anim_cover,Chinese parts: 覆蓋
+1558,xml_string,app\src\main\res\values-zh-rHK\strings.xml,375,page_anim_slide,滑動,,String resource: page_anim_slide,Chinese parts: 滑動
+1559,xml_string,app\src\main\res\values-zh-rHK\strings.xml,376,page_anim_simulation,仿真,,String resource: page_anim_simulation,Chinese parts: 仿真
+1560,xml_string,app\src\main\res\values-zh-rHK\strings.xml,377,page_anim_scroll,滾動,,String resource: page_anim_scroll,Chinese parts: 滾動
+1561,xml_string,app\src\main\res\values-zh-rHK\strings.xml,378,page_anim_none,無動畫,,String resource: page_anim_none,Chinese parts: 無動畫
+1562,xml_string,app\src\main\res\values-zh-rHK\strings.xml,379,up_change_source_last_chapter_t,後台更新換源最新章節,,String resource: up_change_source_last_chapter_t,Chinese parts: 後台更新換源最新章節
+1563,xml_string,app\src\main\res\values-zh-rHK\strings.xml,380,up_change_source_last_chapter_s,開啟則會在軟件打開 1 分鐘後開始更新,,String resource: up_change_source_last_chapter_s,"Chinese parts: 開啟則會在軟件打開, 分鐘後開始更新"
+1564,xml_string,app\src\main\res\values-zh-rHK\strings.xml,381,behavior_main_t,書架 ToolBar 自動隱藏,,String resource: behavior_main_t,"Chinese parts: 書架, 自動隱藏"
+1565,xml_string,app\src\main\res\values-zh-rHK\strings.xml,382,behavior_main_s,滾動書架時 ToolBar 自動隱藏與顯示,,String resource: behavior_main_s,"Chinese parts: 滾動書架時, 自動隱藏與顯示"
+1566,xml_string,app\src\main\res\values-zh-rHK\strings.xml,383,login,登錄,,String resource: login,Chinese parts: 登錄
+1567,xml_string,app\src\main\res\values-zh-rHK\strings.xml,384,login_source,登錄 %s,,String resource: login_source,Chinese parts: 登錄
+1568,xml_string,app\src\main\res\values-zh-rHK\strings.xml,385,success,成功,,String resource: success,Chinese parts: 成功
+1569,xml_string,app\src\main\res\values-zh-rHK\strings.xml,386,source_no_login,當前源沒有配置登陸地址,,String resource: source_no_login,Chinese parts: 當前源沒有配置登陸地址
+1570,xml_string,app\src\main\res\values-zh-rHK\strings.xml,387,no_prev_page,沒有上一頁,,String resource: no_prev_page,Chinese parts: 沒有上一頁
+1571,xml_string,app\src\main\res\values-zh-rHK\strings.xml,388,no_next_page,沒有下一頁,,String resource: no_next_page,Chinese parts: 沒有下一頁
+1572,xml_string,app\src\main\res\values-zh-rHK\strings.xml,391,source_name,源名稱 (sourceName),,String resource: source_name,Chinese parts: 源名稱
+1573,xml_string,app\src\main\res\values-zh-rHK\strings.xml,392,source_url,源URL (sourceUrl),,String resource: source_url,Chinese parts: 源
+1574,xml_string,app\src\main\res\values-zh-rHK\strings.xml,393,source_group,源分組 (sourceGroup),,String resource: source_group,Chinese parts: 源分組
+1575,xml_string,app\src\main\res\values-zh-rHK\strings.xml,394,sort_url,分類 Url(sortUrl),,String resource: sort_url,Chinese parts: 分類
+1576,xml_string,app\src\main\res\values-zh-rHK\strings.xml,395,concurrent_rate,並發率(concurrentRate),,String resource: concurrent_rate,Chinese parts: 並發率
+1577,xml_string,app\src\main\res\values-zh-rHK\strings.xml,396,login_url,登錄 URL(loginUrl),,String resource: login_url,Chinese parts: 登錄
+1578,xml_string,app\src\main\res\values-zh-rHK\strings.xml,397,login_ui,登錄UI(loginUi),,String resource: login_ui,Chinese parts: 登錄
+1579,xml_string,app\src\main\res\values-zh-rHK\strings.xml,398,login_check_js,登錄檢查JS(loginCheckJs),,String resource: login_check_js,Chinese parts: 登錄檢查
+1580,xml_string,app\src\main\res\values-zh-rHK\strings.xml,399,comment,源注釋(sourceComment),,String resource: comment,Chinese parts: 源注釋
+1581,xml_string,app\src\main\res\values-zh-rHK\strings.xml,400,r_search_url,搜索地址 (url),,String resource: r_search_url,Chinese parts: 搜索地址
+1582,xml_string,app\src\main\res\values-zh-rHK\strings.xml,401,r_find_url,發現地址規則 (url),,String resource: r_find_url,Chinese parts: 發現地址規則
+1583,xml_string,app\src\main\res\values-zh-rHK\strings.xml,402,r_book_list,書籍列表規則 (bookList),,String resource: r_book_list,Chinese parts: 書籍列表規則
+1584,xml_string,app\src\main\res\values-zh-rHK\strings.xml,403,r_book_name,書名規則 (name),,String resource: r_book_name,Chinese parts: 書名規則
+1585,xml_string,app\src\main\res\values-zh-rHK\strings.xml,404,r_book_url,詳情頁 url 規則 (bookUrl),,String resource: r_book_url,"Chinese parts: 詳情頁, 規則"
+1586,xml_string,app\src\main\res\values-zh-rHK\strings.xml,405,r_author,作者規則 (author),,String resource: r_author,Chinese parts: 作者規則
+1587,xml_string,app\src\main\res\values-zh-rHK\strings.xml,406,rule_book_kind,分類規則 (kind),,String resource: rule_book_kind,Chinese parts: 分類規則
+1588,xml_string,app\src\main\res\values-zh-rHK\strings.xml,407,rule_book_intro,簡介規則 (intro),,String resource: rule_book_intro,Chinese parts: 簡介規則
+1589,xml_string,app\src\main\res\values-zh-rHK\strings.xml,408,rule_cover_url,封面規則 (coverUrl),,String resource: rule_cover_url,Chinese parts: 封面規則
+1590,xml_string,app\src\main\res\values-zh-rHK\strings.xml,409,rule_last_chapter,最新章節規則 (lastChapter),,String resource: rule_last_chapter,Chinese parts: 最新章節規則
+1591,xml_string,app\src\main\res\values-zh-rHK\strings.xml,410,rule_word_count,字數規則 (wordCount),,String resource: rule_word_count,Chinese parts: 字數規則
+1592,xml_string,app\src\main\res\values-zh-rHK\strings.xml,411,book_url_pattern,書籍 URL 正則 (bookUrlPattern),,String resource: book_url_pattern,"Chinese parts: 書籍, 正則"
+1593,xml_string,app\src\main\res\values-zh-rHK\strings.xml,412,rule_book_info_init,預處理規則 (bookInfoInit),,String resource: rule_book_info_init,Chinese parts: 預處理規則
+1594,xml_string,app\src\main\res\values-zh-rHK\strings.xml,413,rule_toc_url,目錄 URL 規則 (tocUrl),,String resource: rule_toc_url,"Chinese parts: 目錄, 規則"
+1595,xml_string,app\src\main\res\values-zh-rHK\strings.xml,414,rule_can_re_name,允許修改書名作者 (canReName),,String resource: rule_can_re_name,Chinese parts: 允許修改書名作者
+1596,xml_string,app\src\main\res\values-zh-rHK\strings.xml,415,rule_next_toc_url,目錄下一頁規則 (nextTocUrl),,String resource: rule_next_toc_url,Chinese parts: 目錄下一頁規則
+1597,xml_string,app\src\main\res\values-zh-rHK\strings.xml,416,rule_chapter_list,目錄列表規則 (chapterList),,String resource: rule_chapter_list,Chinese parts: 目錄列表規則
+1598,xml_string,app\src\main\res\values-zh-rHK\strings.xml,417,rule_chapter_name,章節名稱規則 (ChapterName),,String resource: rule_chapter_name,Chinese parts: 章節名稱規則
+1599,xml_string,app\src\main\res\values-zh-rHK\strings.xml,418,rule_chapter_url,章節 URL 規則 (chapterUrl),,String resource: rule_chapter_url,"Chinese parts: 章節, 規則"
+1600,xml_string,app\src\main\res\values-zh-rHK\strings.xml,419,rule_is_volume,Volume標識(isVolume),,String resource: rule_is_volume,Chinese parts: 標識

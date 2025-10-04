@@ -1,0 +1,55 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+51,xml_string,app\src\main\res\values-zh\strings.xml,59,layout_list,列表,,String resource: layout_list,Chinese parts: 列表
+52,xml_string,app\src\main\res\values-zh\strings.xml,60,layout_grid3,网格三列,,String resource: layout_grid3,Chinese parts: 网格三列
+53,xml_string,app\src\main\res\values-zh\strings.xml,61,layout_grid4,网格四列,,String resource: layout_grid4,Chinese parts: 网格四列
+54,xml_string,app\src\main\res\values-zh\strings.xml,62,layout_grid5,网格五列,,String resource: layout_grid5,Chinese parts: 网格五列
+55,xml_string,app\src\main\res\values-zh\strings.xml,63,layout_grid6,网格六列,,String resource: layout_grid6,Chinese parts: 网格六列
+56,xml_string,app\src\main\res\values-zh\strings.xml,64,bookshelf_layout,书架布局,,String resource: bookshelf_layout,Chinese parts: 书架布局
+57,xml_string,app\src\main\res\values-zh\strings.xml,65,view,视图,,String resource: view,Chinese parts: 视图
+58,xml_string,app\src\main\res\values-zh\strings.xml,66,book_library,书城,,String resource: book_library,Chinese parts: 书城
+59,xml_string,app\src\main\res\values-zh\strings.xml,67,book_local,添加本地,,String resource: book_local,Chinese parts: 添加本地
+60,xml_string,app\src\main\res\values-zh\strings.xml,68,book_source,书源,,String resource: book_source,Chinese parts: 书源
+61,xml_string,app\src\main\res\values-zh\strings.xml,69,book_source_manage,书源管理,,String resource: book_source_manage,Chinese parts: 书源管理
+62,xml_string,app\src\main\res\values-zh\strings.xml,70,book_source_manage_desc,新建、导入、编辑或管理书源,,String resource: book_source_manage_desc,"Chinese parts: 新建, 导入, 编辑或管理书源"
+63,xml_string,app\src\main\res\values-zh\strings.xml,71,setting,设置,,String resource: setting,Chinese parts: 设置
+64,xml_string,app\src\main\res\values-zh\strings.xml,72,theme_setting,主题设置,,String resource: theme_setting,Chinese parts: 主题设置
+65,xml_string,app\src\main\res\values-zh\strings.xml,73,theme_setting_s,与界面/颜色相关的一些设置,,String resource: theme_setting_s,"Chinese parts: 与界面, 颜色相关的一些设置"
+66,xml_string,app\src\main\res\values-zh\strings.xml,74,other_setting,其它设置,,String resource: other_setting,Chinese parts: 其它设置
+67,xml_string,app\src\main\res\values-zh\strings.xml,75,other_setting_s,与功能相关的一些设置,,String resource: other_setting_s,Chinese parts: 与功能相关的一些设置
+68,xml_string,app\src\main\res\values-zh\strings.xml,76,about,关于,,String resource: about,Chinese parts: 关于
+69,xml_string,app\src\main\res\values-zh\strings.xml,77,donate,捐赠,,String resource: donate,Chinese parts: 捐赠
+70,xml_string,app\src\main\res\values-zh\strings.xml,78,exit,退出,,String resource: exit,Chinese parts: 退出
+71,xml_string,app\src\main\res\values-zh\strings.xml,79,exit_no_save,尚未保存，是否继续编辑,,String resource: exit_no_save,"Chinese parts: 尚未保存, 是否继续编辑"
+72,xml_string,app\src\main\res\values-zh\strings.xml,80,read_style,阅读样式设置,,String resource: read_style,Chinese parts: 阅读样式设置
+73,xml_string,app\src\main\res\values-zh\strings.xml,81,version,版本,,String resource: version,Chinese parts: 版本
+74,xml_string,app\src\main\res\values-zh\strings.xml,82,local,本地,,String resource: local,Chinese parts: 本地
+75,xml_string,app\src\main\res\values-zh\strings.xml,83,search,搜索,,String resource: search,Chinese parts: 搜索
+76,xml_string,app\src\main\res\values-zh\strings.xml,84,origin_format,来源：%s,,String resource: origin_format,Chinese parts: 来源
+77,xml_string,app\src\main\res\values-zh\strings.xml,85,read_dur_progress,最近：%s,,String resource: read_dur_progress,Chinese parts: 最近
+78,xml_string,app\src\main\res\values-zh\strings.xml,86,book_name,书名,,String resource: book_name,Chinese parts: 书名
+79,xml_string,app\src\main\res\values-zh\strings.xml,87,lasted_show,最新：%s,,String resource: lasted_show,Chinese parts: 最新
+80,xml_string,app\src\main\res\values-zh\strings.xml,88,check_add_bookshelf,是否将《%s》放入书架？,,String resource: check_add_bookshelf,"Chinese parts: 是否将, 放入书架"
+81,xml_string,app\src\main\res\values-zh\strings.xml,89,import_books_count,共 %s 个文本文件,,String resource: import_books_count,"Chinese parts: 共, 个文本文件"
+82,xml_string,app\src\main\res\values-zh\strings.xml,90,is_loading,加载中…,,String resource: is_loading,Chinese parts: 加载中
+83,xml_string,app\src\main\res\values-zh\strings.xml,91,retry,重试,,String resource: retry,Chinese parts: 重试
+84,xml_string,app\src\main\res\values-zh\strings.xml,92,web_service,Web 服务,,String resource: web_service,Chinese parts: 服务
+85,xml_string,app\src\main\res\values-zh\strings.xml,93,web_service_desc,用浏览器写源或看书,,String resource: web_service_desc,Chinese parts: 用浏览器写源或看书
+86,xml_string,app\src\main\res\values-zh\strings.xml,94,web_edit_source,Web 编辑书源,,String resource: web_edit_source,Chinese parts: 编辑书源
+87,xml_string,app\src\main\res\values-zh\strings.xml,95,offline_cache,离线缓存,,String resource: offline_cache,Chinese parts: 离线缓存
+88,xml_string,app\src\main\res\values-zh\strings.xml,96,offline_cache_t,离线缓存,,String resource: offline_cache_t,Chinese parts: 离线缓存
+89,xml_string,app\src\main\res\values-zh\strings.xml,97,offline_cache_s,缓存选择的章节到本地,,String resource: offline_cache_s,Chinese parts: 缓存选择的章节到本地
+90,xml_string,app\src\main\res\values-zh\strings.xml,98,change_origin,换源,,String resource: change_origin,Chinese parts: 换源
+91,xml_string,app\src\main\res\values-zh\strings.xml,99,about_description,"
+        \u3000\u3000这是一款使用 Kotlin 全新开发的开源的阅读软件，欢迎您的加入。
+    ",,String resource: about_description,"Chinese parts: 这是一款使用, 全新开发的开源的阅读软件, 欢迎您的加入"
+92,xml_string,app\src\main\res\values-zh\strings.xml,102,app_share_description,"
+        阅读 3.0 下载地址：\nhttps://github.com/gedoor/legado/releases
+    ",,String resource: app_share_description,"Chinese parts: 阅读, 下载地址"
+93,xml_string,app\src\main\res\values-zh\strings.xml,105,version_name,版本 %s,,String resource: version_name,Chinese parts: 版本
+94,xml_string,app\src\main\res\values-zh\strings.xml,106,pt_background_verification,后台校验书源,,String resource: pt_background_verification,Chinese parts: 后台校验书源
+95,xml_string,app\src\main\res\values-zh\strings.xml,107,ps_background_verification,打开后可以在校验书源时自由操作,,String resource: ps_background_verification,Chinese parts: 打开后可以在校验书源时自由操作
+96,xml_string,app\src\main\res\values-zh\strings.xml,108,pt_auto_refresh,自动刷新,,String resource: pt_auto_refresh,Chinese parts: 自动刷新
+97,xml_string,app\src\main\res\values-zh\strings.xml,109,ps_auto_refresh,打开软件时自动更新书籍,,String resource: ps_auto_refresh,Chinese parts: 打开软件时自动更新书籍
+98,xml_string,app\src\main\res\values-zh\strings.xml,110,pt_auto_download,自动下载最新章节,,String resource: pt_auto_download,Chinese parts: 自动下载最新章节
+99,xml_string,app\src\main\res\values-zh\strings.xml,111,ps_auto_download,更新书籍时自动下载最新章节,,String resource: ps_auto_download,Chinese parts: 更新书籍时自动下载最新章节
+100,xml_string,app\src\main\res\values-zh\strings.xml,112,backup_restore,备份与恢复,,String resource: backup_restore,Chinese parts: 备份与恢复

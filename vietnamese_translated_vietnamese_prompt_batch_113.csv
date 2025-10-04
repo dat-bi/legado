@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5601,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,134,,替换内容,Nội dung thay thế,"AppLog.put(""${item.name}替换出错\n替换内容\n${displayTitle}"", e)",Chinese parts: 替换内容
+5602,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,135,,替换出错,Lỗi thay thế,"appCtx.toastOnUi(""${item.name}替换出错"")",Chinese parts: 替换出错
+5603,source_code,app\src\main\java\io\legado\app\data\entities\BookSource.kt,219,,失效,Không hợp lệ,"""失效"" in it || it == ""校验超时""",Chinese parts: 失效
+5604,source_code,app\src\main\java\io\legado\app\data\entities\BookSource.kt,219,,校验超时,Hết thời gian kiểm tra,"""失效"" in it || it == ""校验超时""",Chinese parts: 校验超时
+5605,source_code,app\src\main\java\io\legado\app\data\entities\ReplaceRule.kt,97,,正则语法错误或不支持,Lỗi cú pháp biểu thức chính quy hoặc không hỗ trợ,"AppLog.put(""正则语法错误或不支持：${ex.localizedMessage}"", ex)",Chinese parts: 正则语法错误或不支持
+5606,source_code,app\src\main\java\io\legado\app\data\entities\RssArticle.kt,24,,默认分组,Nhóm mặc định,"@ColumnInfo(defaultValue = ""默认分组"")",Chinese parts: 默认分组
+5607,source_code,app\src\main\java\io\legado\app\data\entities\RssArticle.kt,25,,默认分组,Nhóm mặc định,"var group: String = ""默认分组"","",Chinese parts: 默认分组
+5608,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,35,,并发率,Tỷ lệ đồng thời,/**并发率**/,Chinese parts: 并发率
+5609,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,37,,请求头,Tiêu đề yêu cầu,/**请求头**/,Chinese parts: 请求头
+5610,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,39,,登录地址,Địa chỉ đăng nhập,/**登录地址**/,Chinese parts: 登录地址
+5611,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,41,,登录,Đăng nhập,/**登录Ui**/,Chinese parts: 登录
+5612,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,43,,登录检测,Phát hiện đăng nhập,/**登录检测js**/,Chinese parts: 登录检测
+5613,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,45,,封面解密,Giải mã ảnh bìa,/**封面解密js**/,Chinese parts: 封面解密
+5614,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,47,,分类,Phân loại,/**分类Url**/,Chinese parts: 分类
+5615,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,49,,是否单,Đơn lẻ,/**是否单url源**/,Chinese parts: 是否单
+5616,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,49,,源,Nguồn,/**是否单url源**/,Chinese parts: 源
+5617,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,51,,列表规则,Quy tắc danh sách,/*列表规则*/,Chinese parts: 列表规则
+5618,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,52,,列表样式,Kiểu danh sách,/**列表样式,0,1,2**/,Chinese parts: 列表样式
+5619,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,55,,列表规则,Quy tắc danh sách,/**列表规则**/,Chinese parts: 列表规则
+5620,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,57,,下一页规则,Quy tắc trang kế tiếp,/**下一页规则**/,Chinese parts: 下一页规则
+5621,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,59,,标题规则,Quy tắc tiêu đề,/**标题规则**/,Chinese parts: 标题规则
+5622,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,61,,发布日期规则,Quy tắc ngày xuất bản,/**发布日期规则**/,Chinese parts: 发布日期规则
+5623,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,63,,规则,Quy tắc,/*webView规则*/,Chinese parts: 规则
+5624,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,64,,描述规则,Quy tắc mô tả,/**描述规则**/,Chinese parts: 描述规则
+5625,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,66,,图片规则,Quy tắc hình ảnh,/**图片规则**/,Chinese parts: 图片规则
+5626,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,68,,链接规则,Quy tắc liên kết,/**链接规则**/,Chinese parts: 链接规则
+5627,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,70,,正文规则,Quy tắc nội dung chính,/**正文规则**/,Chinese parts: 正文规则
+5628,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,72,,正文,Nội dung chính,/**正文url白名单**/,Chinese parts: 正文
+5629,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,72,,白名单,Danh sách trắng,/**正文url白名单**/,Chinese parts: 白名单
+5630,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,74,,正文,Nội dung chính,/**正文url黑名单**/,Chinese parts: 正文
+5631,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,74,,黑名单,Danh sách đen,/**正文url黑名单**/,Chinese parts: 黑名单
+5632,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,81,,样式,Kiểu,/**webView样式**/,Chinese parts: 样式
+5633,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,87,,注入,Chèn,/**注入js**/,Chinese parts: 注入
+5634,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,89,,其它规则,Quy tắc khác,/*其它规则*/,Chinese parts: 其它规则
+5635,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,90,,最后更新时间,Thời gian cập nhật cuối,/**最后更新时间，用于排序**/,Chinese parts: 最后更新时间
+5636,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,90,,用于排序,Dùng để sắp xếp,/**最后更新时间，用于排序**/,Chinese parts: 用于排序
+5637,source_code,app\src\main\java\io\legado\app\data\entities\RssStar.kt,25,,默认分组,Nhóm mặc định,"@ColumnInfo(defaultValue = ""默认分组"")",Chinese parts: 默认分组
+5638,source_code,app\src\main\java\io\legado\app\data\entities\RssStar.kt,26,,默认分组,Nhóm mặc định,"var group: String = ""默认分组"","",Chinese parts: 默认分组
+5639,source_code,app\src\main\java\io\legado\app\data\entities\SearchBook.kt,33,,书源,Nguồn sách,/** 书源 */,Chinese parts: 书源
+5640,source_code,app\src\main\java\io\legado\app\data\entities\SearchBook.kt,45,,目录页,Trang mục lục,/** 目录页Url (toc=table of Contents) */,Chinese parts: 目录页
+5641,source_code,app\src\main\java\io\legado\app\data\entities\SearchBook.kt,95,,无最新章节,Không có chương mới nhất,"return ""无最新章节""",Chinese parts: 无最新章节
+5642,source_code,app\src\main\java\io\legado\app\data\entities\SearchKeyword.kt,13,,搜索关键词,Từ khóa tìm kiếm,/** 搜索关键词 */,Chinese parts: 搜索关键词
+5643,source_code,app\src\main\java\io\legado\app\data\entities\SearchKeyword.kt,16,,使用次数,Số lần sử dụng,/** 使用次数 */,Chinese parts: 使用次数
+5644,source_code,app\src\main\java\io\legado\app\data\entities\SearchKeyword.kt,18,,最后一次使用时间,Thời gian sử dụng cuối,/** 最后一次使用时间 */,Chinese parts: 最后一次使用时间
+5645,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,14,,有些网站只能在正文中获取标题,Một số trang web chỉ có thể lấy tiêu đề từ nội dung chính,"var title: String? = null, //有些网站只能在正文中获取标题",Chinese parts: 有些网站只能在正文中获取标题
+5646,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,18,,替换规则,Quy tắc thay thế,"placeRegex: String? = null, //替换规则",Chinese parts: 替换规则
+5647,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,19,,默认大小居中,Kích thước mặc định căn giữa,"ageStyle: String? = null,   //默认大小居中,FULL最大宽度",Chinese parts: 默认大小居中
+5648,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,19,,最大宽度,Chiều rộng tối đa,"tring? = null,   //默认大小居中,FULL最大宽度",Chinese parts: 最大宽度
+5649,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,20,,图片,Hình ảnh,"mageDecode: String? = null, //图片bytes二次解密js, 返回解密后的bytes",Chinese parts: 图片
+5650,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,20,,二次解密,Giải mã lần hai,"ode: String? = null, //图片bytes二次解密js, 返回解密后的bytes",Chinese parts: 二次解密

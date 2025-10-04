@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4201,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,107,,元素,,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: 元素
+4202,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,107,,可能是,,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: 可能是
+4203,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,107,,格式错误,,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: 格式错误
+4204,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,107,,通常为列表存在多余的逗号所致,,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: 通常为列表存在多余的逗号所致
+4205,source_code,app\src\main\java\io\legado\app\utils\HtmlFormatter.kt,13,,注释,,"= ""<!--[^>]*-->"".toRegex() //注释",Chinese parts: 注释
+4206,source_code,app\src\main\java\io\legado\app\utils\ImageUtils.kt,34,,解密错误,,"AppLog.putDebug(""${src}解密错误"", it)",Chinese parts: 解密错误
+4207,source_code,app\src\main\java\io\legado\app\utils\ImageUtils.kt,53,,解密错误,,"AppLog.putDebug(""${src}解密错误"", it)",Chinese parts: 解密错误
+4208,source_code,app\src\main\java\io\legado\app\utils\LogUtils.kt,86,,创建,,"AppLog.putNotSave(""创建fileHandler出错\n$e"", e)",Chinese parts: 创建
+4209,source_code,app\src\main\java\io\legado\app\utils\LogUtils.kt,86,,出错,,"pLog.putNotSave(""创建fileHandler出错\n$e"", e)",Chinese parts: 出错
+4210,source_code,app\src\main\java\io\legado\app\utils\NetworkUtils.kt,186,,网址拼接出错,,"AppLog.put(""网址拼接出错\n${e.localizedMessage}"", e)",Chinese parts: 网址拼接出错
+4211,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,328,,都大于进行判断是否压缩,,dth > 0 && reqHeight > 0) { //都大于进行判断是否压缩,Chinese parts: 都大于进行判断是否压缩
+4212,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,331,,获取原始图片大小,,s.inJustDecodeBounds = true //获取原始图片大小,Chinese parts: 获取原始图片大小
+4213,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,332,,此时返回,,".decodeFile(path, newOpts) // 此时返回bm为空",Chinese parts: 此时返回
+4214,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,332,,为空,,"eFile(path, newOpts) // 此时返回bm为空",Chinese parts: 为空
+4215,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,336,,表示不缩放,,var wSize = 1 // wSize=1表示不缩放,Chinese parts: 表示不缩放
+4216,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,337,,如果宽度大的话根据宽度固定大小缩放,,if (width > reqWidth) { // 如果宽度大的话根据宽度固定大小缩放,Chinese parts: 如果宽度大的话根据宽度固定大小缩放
+4217,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,340,,表示不缩放,,var hSize = 1 // wSize=1表示不缩放,Chinese parts: 表示不缩放
+4218,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,341,,如果高度高的话根据宽度固定大小缩放,,if (height > reqHeight) { // 如果高度高的话根据宽度固定大小缩放,Chinese parts: 如果高度高的话根据宽度固定大小缩放
+4219,source_code,app\src\main\java\io\legado\app\utils\QRCodeUtils.kt,346,,设置缩放比例,,ewOpts.inSampleSize = size // 设置缩放比例,Chinese parts: 设置缩放比例
+4220,source_code,app\src\main\java\io\legado\app\utils\RegexExtensions.kt,55,,替换超时,,"""替换超时,3秒后还未结束将重启应用\n替换规则$regex\n替换内",Chinese parts: 替换超时
+4221,source_code,app\src\main\java\io\legado\app\utils\RegexExtensions.kt,55,,秒后还未结束将重启应用,,"""替换超时,3秒后还未结束将重启应用\n替换规则$regex\n替换内容:$charSequen",Chinese parts: 秒后还未结束将重启应用
+4222,source_code,app\src\main\java\io\legado\app\utils\RegexExtensions.kt,55,,替换规则,,"""替换超时,3秒后还未结束将重启应用\n替换规则$regex\n替换内容:$charSequence""",Chinese parts: 替换规则
+4223,source_code,app\src\main\java\io\legado\app\utils\RegexExtensions.kt,55,,替换内容,,"换超时,3秒后还未结束将重启应用\n替换规则$regex\n替换内容:$charSequence""",Chinese parts: 替换内容
+4224,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,44,,零一二三四五六七八九十,,"var cnStr = ""零一二三四五六七八九十""",Chinese parts: 零一二三四五六七八九十
+4225,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,49,,壹贰叁肆伍陆柒捌玖拾,,"cnStr = ""〇壹贰叁肆伍陆柒捌玖拾""",Chinese parts: 壹贰叁肆伍陆柒捌玖拾
+4226,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,54,,两,,map['两'] = 2,Chinese parts: 两
+4227,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,55,,百,,map['百'] = 100,Chinese parts: 百
+4228,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,56,,佰,,map['佰'] = 100,Chinese parts: 佰
+4229,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,57,,千,,map['千'] = 1000,Chinese parts: 千
+4230,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,58,,仟,,map['仟'] = 1000,Chinese parts: 仟
+4231,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,59,,万,,map['万'] = 10000,Chinese parts: 万
+4232,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,60,,亿,,map['亿'] = 100000000,Chinese parts: 亿
+4233,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,255,,万字,,"1.0f / 10000f.toDouble()) + ""万字""",Chinese parts: 万字
+4234,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,257,,字,,"wordsS = words.toString() + ""字""",Chinese parts: 字
+4235,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,271,,万字,,"1.0f / 10000f.toDouble()) + ""万字""",Chinese parts: 万字
+4236,source_code,app\src\main\java\io\legado\app\utils\StringUtils.kt,273,,字,,"wordsS = words.toString() + ""字""",Chinese parts: 字
+4237,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,9,,前,,"al end = if (time < curTime) ""前"" else ""后""",Chinese parts: 前
+4238,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,9,,后,,"if (time < curTime) ""前"" else ""后""",Chinese parts: 后
+4239,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,12,,秒,,"ds < 60 -> ""${seconds.toInt()}秒""",Chinese parts: 秒
+4240,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,15,,分钟,,"""${minutes.toInt()}分钟""",Chinese parts: 分钟
+4241,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,19,,小时,,"""${hours.toInt()}小时""",Chinese parts: 小时
+4242,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,23,,天,,"""${days.toInt()}天""",Chinese parts: 天
+4243,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,27,,周,,"""${weeks.toInt()}周""",Chinese parts: 周
+4244,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,31,,月,,"""${months.toInt()}月""",Chinese parts: 月
+4245,source_code,app\src\main\java\io\legado\app\utils\TimeUtils.kt,35,,年,,"""${years.toInt()}年""",Chinese parts: 年
+4246,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,43,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4247,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,65,,读取,,"AppLog.put(""读取Uri出错\n$e"", e, true)",Chinese parts: 读取
+4248,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,65,,出错,,"AppLog.put(""读取Uri出错\n$e"", e, true)",Chinese parts: 出错
+4249,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,80,,未获取到文件,,"throw NoStackTraceException(""未获取到文件"")",Chinese parts: 未获取到文件
+4250,source_code,app\src\main\java\io\legado\app\utils\UriExtensions.kt,102,,读取,,"AppLog.put(""读取Uri出错\n$e"", e, true)",Chinese parts: 读取

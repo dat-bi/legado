@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1451,xml_string,app\src\main\res\values-zh-rHK\strings.xml,268,group_yf,養肥區,,String resource: group_yf,Chinese parts: 養肥區
+1452,xml_string,app\src\main\res\values-zh-rHK\strings.xml,269,bookmark,書籤,,String resource: bookmark,Chinese parts: 書籤
+1453,xml_string,app\src\main\res\values-zh-rHK\strings.xml,270,bookmark_add,添加書籤,,String resource: bookmark_add,Chinese parts: 添加書籤
+1454,xml_string,app\src\main\res\values-zh-rHK\strings.xml,271,action_del,刪除,,String resource: action_del,Chinese parts: 刪除
+1455,xml_string,app\src\main\res\values-zh-rHK\strings.xml,272,load_over_time,加載超時,,String resource: load_over_time,Chinese parts: 加載超時
+1456,xml_string,app\src\main\res\values-zh-rHK\strings.xml,273,join_group,關注: %s,,String resource: join_group,Chinese parts: 關注
+1457,xml_string,app\src\main\res\values-zh-rHK\strings.xml,274,copy_complete,拷貝咗,,String resource: copy_complete,Chinese parts: 拷貝咗
+1458,xml_string,app\src\main\res\values-zh-rHK\strings.xml,275,bookshelf_management,書架管理,,String resource: bookshelf_management,Chinese parts: 書架管理
+1459,xml_string,app\src\main\res\values-zh-rHK\strings.xml,276,clear_bookshelf_s,這將會刪除所有書籍，請謹慎操作。,,String resource: clear_bookshelf_s,"Chinese parts: 這將會刪除所有書籍, 請謹慎操作"
+1460,xml_string,app\src\main\res\values-zh-rHK\strings.xml,277,search_book_source,搜索書源,,String resource: search_book_source,Chinese parts: 搜索書源
+1461,xml_string,app\src\main\res\values-zh-rHK\strings.xml,278,search_rss_source,搜索訂閲源,,String resource: search_rss_source,Chinese parts: 搜索訂閲源
+1462,xml_string,app\src\main\res\values-zh-rHK\strings.xml,279,search_book_source_num,搜索(共 %d 個書源),,String resource: search_book_source_num,"Chinese parts: 搜索, 共, 個書源"
+1463,xml_string,app\src\main\res\values-zh-rHK\strings.xml,280,chapter_list_size,目錄(%d),,String resource: chapter_list_size,Chinese parts: 目錄
+1464,xml_string,app\src\main\res\values-zh-rHK\strings.xml,281,text_bold,加粗,,String resource: text_bold,Chinese parts: 加粗
+1465,xml_string,app\src\main\res\values-zh-rHK\strings.xml,282,text_font,字體,,String resource: text_font,Chinese parts: 字體
+1466,xml_string,app\src\main\res\values-zh-rHK\strings.xml,283,text,文字,,String resource: text,Chinese parts: 文字
+1467,xml_string,app\src\main\res\values-zh-rHK\strings.xml,284,home_page,軟件主頁,,String resource: home_page,Chinese parts: 軟件主頁
+1468,xml_string,app\src\main\res\values-zh-rHK\strings.xml,285,right,右,,String resource: right,Chinese parts: 右
+1469,xml_string,app\src\main\res\values-zh-rHK\strings.xml,286,left,左,,String resource: left,Chinese parts: 左
+1470,xml_string,app\src\main\res\values-zh-rHK\strings.xml,287,bottom,下,,String resource: bottom,Chinese parts: 下
+1471,xml_string,app\src\main\res\values-zh-rHK\strings.xml,288,top,上,,String resource: top,Chinese parts: 上
+1472,xml_string,app\src\main\res\values-zh-rHK\strings.xml,289,padding,邊距,,String resource: padding,Chinese parts: 邊距
+1473,xml_string,app\src\main\res\values-zh-rHK\strings.xml,290,padding_top,上邊距,,String resource: padding_top,Chinese parts: 上邊距
+1474,xml_string,app\src\main\res\values-zh-rHK\strings.xml,291,padding_bottom,下邊距,,String resource: padding_bottom,Chinese parts: 下邊距
+1475,xml_string,app\src\main\res\values-zh-rHK\strings.xml,292,padding_left,左邊距,,String resource: padding_left,Chinese parts: 左邊距
+1476,xml_string,app\src\main\res\values-zh-rHK\strings.xml,293,padding_right,右邊距,,String resource: padding_right,Chinese parts: 右邊距
+1477,xml_string,app\src\main\res\values-zh-rHK\strings.xml,294,check_book_source,校驗書源,,String resource: check_book_source,Chinese parts: 校驗書源
+1478,xml_string,app\src\main\res\values-zh-rHK\strings.xml,295,check_select_source,校驗所選,,String resource: check_select_source,Chinese parts: 校驗所選
+1479,xml_string,app\src\main\res\values-zh-rHK\strings.xml,296,progress_show,%1$s      進度 %2$d/%3$d,,String resource: progress_show,Chinese parts: 進度
+1480,xml_string,app\src\main\res\values-zh-rHK\strings.xml,297,tts_fix,請安裝並選擇中文 TTS!,,String resource: tts_fix,Chinese parts: 請安裝並選擇中文
+1481,xml_string,app\src\main\res\values-zh-rHK\strings.xml,298,tts_init_failed,TTS 初始化失敗!,,String resource: tts_init_failed,Chinese parts: 初始化失敗
+1482,xml_string,app\src\main\res\values-zh-rHK\strings.xml,299,jf_convert,簡繁轉換,,String resource: jf_convert,Chinese parts: 簡繁轉換
+1483,xml_string,app\src\main\res\values-zh-rHK\strings.xml,300,jf_convert_o,關閉,,String resource: jf_convert_o,Chinese parts: 關閉
+1484,xml_string,app\src\main\res\values-zh-rHK\strings.xml,301,jf_convert_f,簡轉繁,,String resource: jf_convert_f,Chinese parts: 簡轉繁
+1485,xml_string,app\src\main\res\values-zh-rHK\strings.xml,302,jf_convert_j,繁轉簡,,String resource: jf_convert_j,Chinese parts: 繁轉簡
+1486,xml_string,app\src\main\res\values-zh-rHK\strings.xml,303,page_mode,翻頁模式,,String resource: page_mode,Chinese parts: 翻頁模式
+1487,xml_string,app\src\main\res\values-zh-rHK\strings.xml,304,nb_file_sub_count,%1$d 項,,String resource: nb_file_sub_count,Chinese parts: 項
+1488,xml_string,app\src\main\res\values-zh-rHK\strings.xml,305,nb_file_path,存儲咭:,,String resource: nb_file_path,Chinese parts: 存儲咭
+1489,xml_string,app\src\main\res\values-zh-rHK\strings.xml,306,nb_file_add_shelf,加入書架,,String resource: nb_file_add_shelf,Chinese parts: 加入書架
+1490,xml_string,app\src\main\res\values-zh-rHK\strings.xml,307,nb_file_add_shelves,加入書架 (%1$d),,String resource: nb_file_add_shelves,Chinese parts: 加入書架
+1491,xml_string,app\src\main\res\values-zh-rHK\strings.xml,308,nb_file_add_succeed,成功添加 %1$d 本書,,String resource: nb_file_add_succeed,"Chinese parts: 成功添加, 本書"
+1492,xml_string,app\src\main\res\values-zh-rHK\strings.xml,309,fonts_folder,請將字體文件放到 SD 根目錄 Fonts 文件夾下重新選擇,,String resource: fonts_folder,"Chinese parts: 請將字體文件放到, 根目錄, 文件夾下重新選擇"
+1493,xml_string,app\src\main\res\values-zh-rHK\strings.xml,310,default_font,默認字體,,String resource: default_font,Chinese parts: 默認字體
+1494,xml_string,app\src\main\res\values-zh-rHK\strings.xml,311,select_font,選擇字體,,String resource: select_font,Chinese parts: 選擇字體
+1495,xml_string,app\src\main\res\values-zh-rHK\strings.xml,312,text_size,字號,,String resource: text_size,Chinese parts: 字號
+1496,xml_string,app\src\main\res\values-zh-rHK\strings.xml,313,line_size,行距,,String resource: line_size,Chinese parts: 行距
+1497,xml_string,app\src\main\res\values-zh-rHK\strings.xml,314,paragraph_size,段距,,String resource: paragraph_size,Chinese parts: 段距
+1498,xml_string,app\src\main\res\values-zh-rHK\strings.xml,315,to_top,置頂,,String resource: to_top,Chinese parts: 置頂
+1499,xml_string,app\src\main\res\values-zh-rHK\strings.xml,316,selection_to_top,置頂所選,,String resource: selection_to_top,Chinese parts: 置頂所選
+1500,xml_string,app\src\main\res\values-zh-rHK\strings.xml,317,to_bottom,置底,,String resource: to_bottom,Chinese parts: 置底

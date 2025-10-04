@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1651,xml_string,app\src\main\res\values-zh-rHK\strings.xml,476,intelligent_import,智能導入,Nhập thông minh,String resource: intelligent_import,Chinese parts: 智能導入
+1652,xml_string,app\src\main\res\values-zh-rHK\strings.xml,477,discovery,發現,Khám phá,String resource: discovery,Chinese parts: 發現
+1653,xml_string,app\src\main\res\values-zh-rHK\strings.xml,478,switch_display_style,切換顯示樣式,Chuyển kiểu hiển thị,String resource: switch_display_style,Chinese parts: 切換顯示樣式
+1654,xml_string,app\src\main\res\values-zh-rHK\strings.xml,479,import_per,導入本地書籍需存儲權限,Cần quyền truy cập bộ nhớ để nhập sách,String resource: import_per,Chinese parts: 導入本地書籍需存儲權限
+1655,xml_string,app\src\main\res\values-zh-rHK\strings.xml,480,night_theme,夜間模式,Chế độ ban đêm,String resource: night_theme,Chinese parts: 夜間模式
+1656,xml_string,app\src\main\res\values-zh-rHK\strings.xml,481,eink_theme,E-Ink 模式,Chế độ E-Ink,String resource: eink_theme,Chinese parts: 模式
+1657,xml_string,app\src\main\res\values-zh-rHK\strings.xml,482,eink_theme_desc,電子墨水屏模式,Chế độ màn hình E-Ink,String resource: eink_theme_desc,Chinese parts: 電子墨水屏模式
+1658,xml_string,app\src\main\res\values-zh-rHK\strings.xml,483,get_storage_per,需要存儲權限,Cần quyền truy cập bộ nhớ,String resource: get_storage_per,Chinese parts: 需要存儲權限
+1659,xml_string,app\src\main\res\values-zh-rHK\strings.xml,484,double_click_exit,再按一次退出程式,Nhấn lần nữa để thoát ứng dụng,String resource: double_click_exit,Chinese parts: 再按一次退出程式
+1660,xml_string,app\src\main\res\values-zh-rHK\strings.xml,485,import_book_per,導入本地書籍需存儲權限,Cần quyền truy cập bộ nhớ để nhập sách,String resource: import_book_per,Chinese parts: 導入本地書籍需存儲權限
+1661,xml_string,app\src\main\res\values-zh-rHK\strings.xml,486,network_connection_unavailable,網絡連接不可用,Không có kết nối mạng,String resource: network_connection_unavailable,Chinese parts: 網絡連接不可用
+1662,xml_string,app\src\main\res\values-zh-rHK\strings.xml,487,yes,係,Có,String resource: yes,Chinese parts: 係
+1663,xml_string,app\src\main\res\values-zh-rHK\strings.xml,488,no,唔係,Không,String resource: no,Chinese parts: 唔係
+1664,xml_string,app\src\main\res\values-zh-rHK\strings.xml,489,sure,確認,Xác nhận,String resource: sure,Chinese parts: 確認
+1665,xml_string,app\src\main\res\values-zh-rHK\strings.xml,490,sure_del,是否確認刪除？,Xác nhận xóa?,String resource: sure_del,Chinese parts: 是否確認刪除
+1666,xml_string,app\src\main\res\values-zh-rHK\strings.xml,491,sure_del_any,是否確認刪除 %s？,Xác nhận xóa %s?,String resource: sure_del_any,Chinese parts: 是否確認刪除
+1667,xml_string,app\src\main\res\values-zh-rHK\strings.xml,492,sure_del_all_book,是否刪除全部書籍？,Xóa tất cả sách?,String resource: sure_del_all_book,Chinese parts: 是否刪除全部書籍
+1668,xml_string,app\src\main\res\values-zh-rHK\strings.xml,493,sure_del_download_book,是否同時刪除已下載的書籍目錄？,Xóa luôn các chương đã tải về?,String resource: sure_del_download_book,Chinese parts: 是否同時刪除已下載的書籍目錄
+1669,xml_string,app\src\main\res\values-zh-rHK\strings.xml,494,qr_per,掃描二維碼需相機權限,Cần quyền truy cập camera để quét mã QR,String resource: qr_per,Chinese parts: 掃描二維碼需相機權限
+1670,xml_string,app\src\main\res\values-zh-rHK\strings.xml,495,aloud_can_not_auto_page,"朗讀正在運行,不能自動翻頁",Đọc to đang chạy, không thể tự động lật trang,String resource: aloud_can_not_auto_page,"Chinese parts: 朗讀正在運行, 不能自動翻頁"
+1671,xml_string,app\src\main\res\values-zh-rHK\strings.xml,496,input_charset,輸入編碼,Mã hóa ký tự,String resource: input_charset,Chinese parts: 輸入編碼
+1672,xml_string,app\src\main\res\values-zh-rHK\strings.xml,497,text_chapter_list_rule,TXT 目錄規則,Quy tắc mục lục TXT,String resource: text_chapter_list_rule,Chinese parts: 目錄規則
+1673,xml_string,app\src\main\res\values-zh-rHK\strings.xml,498,open_local_book_per,打開外部書籍需獲取存儲權限,Cần quyền truy cập bộ nhớ để mở sách bên ngoài,String resource: open_local_book_per,Chinese parts: 打開外部書籍需獲取存儲權限
+1674,xml_string,app\src\main\res\values-zh-rHK\strings.xml,499,no_book_name,未獲取到書名,Không lấy được tên sách,String resource: no_book_name,Chinese parts: 未獲取到書名
+1675,xml_string,app\src\main\res\values-zh-rHK\strings.xml,500,input_replace_url,輸入替換規則網址,Nhập URL quy tắc thay thế,String resource: input_replace_url,Chinese parts: 輸入替換規則網址
+1676,xml_string,app\src\main\res\values-zh-rHK\strings.xml,501,get_book_list_success,搜索列表獲取成功%d,Tìm kiếm thành công %d kết quả,String resource: get_book_list_success,Chinese parts: 搜索列表獲取成功
+1677,xml_string,app\src\main\res\values-zh-rHK\strings.xml,502,non_null_name_url,名稱和 URL 不能為空,Tên và URL không được để trống,String resource: non_null_name_url,"Chinese parts: 名稱和, 不能為空"
+1678,xml_string,app\src\main\res\values-zh-rHK\strings.xml,503,gallery,圖庫,Thư viện ảnh,String resource: gallery,Chinese parts: 圖庫
+1679,xml_string,app\src\main\res\values-zh-rHK\strings.xml,504,get_ali_pay_hb,領支付寶紅包,Nhận lì xì Alipay,String resource: get_ali_pay_hb,Chinese parts: 領支付寶紅包
+1680,xml_string,app\src\main\res\values-zh-rHK\strings.xml,505,non_update_url,沒有獲取到更新地址,Không lấy được địa chỉ cập nhật,String resource: non_update_url,Chinese parts: 沒有獲取到更新地址
+1681,xml_string,app\src\main\res\values-zh-rHK\strings.xml,506,check_host_cookie,正在打開首頁，成功自動返回主界面,Đang mở trang chủ, sẽ tự động quay lại sau khi thành công,String resource: check_host_cookie,"Chinese parts: 正在打開首頁, 成功自動返回主界面"
+1682,xml_string,app\src\main\res\values-zh-rHK\strings.xml,507,click_check_after_success,登錄成功後請點擊右上角圖標進行首頁訪問測試,Sau khi đăng nhập thành công, vui lòng nhấn biểu tượng góc trên bên phải để kiểm tra truy cập trang chủ,String resource: click_check_after_success,Chinese parts: 登錄成功後請點擊右上角圖標進行首頁訪問測試
+1683,xml_string,app\src\main\res\values-zh-rHK\strings.xml,508,chapter,章,Chương,String resource: chapter,Chinese parts: 章
+1684,xml_string,app\src\main\res\values-zh-rHK\strings.xml,509,to,至,Đến,String resource: to,Chinese parts: 至
+1685,xml_string,app\src\main\res\values-zh-rHK\strings.xml,510,use_regex,使用正則表達式,Sử dụng biểu thức chính quy,String resource: use_regex,Chinese parts: 使用正則表達式
+1686,xml_string,app\src\main\res\values-zh-rHK\strings.xml,511,text_indent,縮進,Thụt lề,String resource: text_indent,Chinese parts: 縮進
+1687,xml_string,app\src\main\res\values-zh-rHK\strings.xml,512,indent_0,無縮進,Không thụt lề,String resource: indent_0,Chinese parts: 無縮進
+1688,xml_string,app\src\main\res\values-zh-rHK\strings.xml,513,indent_1,一字符縮進,Thụt lề 1 ký tự,String resource: indent_1,Chinese parts: 一字符縮進
+1689,xml_string,app\src\main\res\values-zh-rHK\strings.xml,514,indent_2,二字符縮進,Thụt lề 2 ký tự,String resource: indent_2,Chinese parts: 二字符縮進
+1690,xml_string,app\src\main\res\values-zh-rHK\strings.xml,515,indent_3,三字符縮進,Thụt lề 3 ký tự,String resource: indent_3,Chinese parts: 三字符縮進
+1691,xml_string,app\src\main\res\values-zh-rHK\strings.xml,516,indent_4,四字符縮進,Thụt lề 4 ký tự,String resource: indent_4,Chinese parts: 四字符縮進
+1692,xml_string,app\src\main\res\values-zh-rHK\strings.xml,517,select_folder,選擇文件夾,Chọn thư mục,String resource: select_folder,Chinese parts: 選擇文件夾
+1693,xml_string,app\src\main\res\values-zh-rHK\strings.xml,518,select_file,選擇文件,Chọn tệp,String resource: select_file,Chinese parts: 選擇文件
+1694,xml_string,app\src\main\res\values-zh-rHK\strings.xml,519,no_find,沒有發現，可以在書源裏添加。,Không tìm thấy, bạn có thể thêm trong Nguồn sách.,String resource: no_find,"Chinese parts: 沒有發現, 可以在書源裏添加"
+1695,xml_string,app\src\main\res\values-zh-rHK\strings.xml,520,restore_default,恢復默認,Khôi phục mặc định,String resource: restore_default,Chinese parts: 恢復默認
+1696,xml_string,app\src\main\res\values-zh-rHK\strings.xml,521,set_download_per,自定義緩存路徑需要存儲權限,Cần quyền truy cập bộ nhớ để tùy chỉnh đường dẫn bộ nhớ đệm,String resource: set_download_per,Chinese parts: 自定義緩存路徑需要存儲權限
+1697,xml_string,app\src\main\res\values-zh-rHK\strings.xml,522,black,黑色,Đen,String resource: black,Chinese parts: 黑色
+1698,xml_string,app\src\main\res\values-zh-rHK\strings.xml,523,content_empty,文章內容為空,Nội dung chương trống,String resource: content_empty,Chinese parts: 文章內容為空
+1699,xml_string,app\src\main\res\values-zh-rHK\strings.xml,524,on_change_source,正在換源請等待…,Đang đổi nguồn, vui lòng chờ...,String resource: on_change_source,Chinese parts: 正在換源請等待
+1700,xml_string,app\src\main\res\values-zh-rHK\strings.xml,525,chapter_list_empty,目錄列表為空,Mục lục trống,String resource: chapter_list_empty,Chinese parts: 目錄列表為空

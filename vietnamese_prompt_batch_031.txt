@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1501,xml_string,app\src\main\res\values-zh-rHK\strings.xml,318,selection_to_bottom,置底所選,,String resource: selection_to_bottom,Chinese parts: 置底所選
+1502,xml_string,app\src\main\res\values-zh-rHK\strings.xml,319,auto_expand_find,自動展開發現,,String resource: auto_expand_find,Chinese parts: 自動展開發現
+1503,xml_string,app\src\main\res\values-zh-rHK\strings.xml,320,default_expand_first,默認展開第一組發現,,String resource: default_expand_first,Chinese parts: 默認展開第一組發現
+1504,xml_string,app\src\main\res\values-zh-rHK\strings.xml,321,threads_num,當前線程數 %s,,String resource: threads_num,Chinese parts: 當前線程數
+1505,xml_string,app\src\main\res\values-zh-rHK\strings.xml,322,read_aloud_speed,朗讀語速,,String resource: read_aloud_speed,Chinese parts: 朗讀語速
+1506,xml_string,app\src\main\res\values-zh-rHK\strings.xml,323,auto_next_page,自動翻頁,,String resource: auto_next_page,Chinese parts: 自動翻頁
+1507,xml_string,app\src\main\res\values-zh-rHK\strings.xml,324,auto_next_page_stop,停止自動翻頁,,String resource: auto_next_page_stop,Chinese parts: 停止自動翻頁
+1508,xml_string,app\src\main\res\values-zh-rHK\strings.xml,325,auto_next_page_speed,自動翻頁間隔,,String resource: auto_next_page_speed,Chinese parts: 自動翻頁間隔
+1509,xml_string,app\src\main\res\values-zh-rHK\strings.xml,326,book_info,書籍信息,,String resource: book_info,Chinese parts: 書籍信息
+1510,xml_string,app\src\main\res\values-zh-rHK\strings.xml,327,book_info_edit,書籍信息編輯,,String resource: book_info_edit,Chinese parts: 書籍信息編輯
+1511,xml_string,app\src\main\res\values-zh-rHK\strings.xml,328,ps_default_read,默認打開書架,,String resource: ps_default_read,Chinese parts: 默認打開書架
+1512,xml_string,app\src\main\res\values-zh-rHK\strings.xml,329,pt_default_read,自動跳轉最近閲讀,,String resource: pt_default_read,Chinese parts: 自動跳轉最近閲讀
+1513,xml_string,app\src\main\res\values-zh-rHK\strings.xml,330,replace_scope,替換範圍，選填書名或者書源url,,String resource: replace_scope,"Chinese parts: 替換範圍, 選填書名或者書源"
+1514,xml_string,app\src\main\res\values-zh-rHK\strings.xml,331,menu_action_group,分組,,String resource: menu_action_group,Chinese parts: 分組
+1515,xml_string,app\src\main\res\values-zh-rHK\strings.xml,332,download_path,內容緩存路徑,,String resource: download_path,Chinese parts: 內容緩存路徑
+1516,xml_string,app\src\main\res\values-zh-rHK\strings.xml,333,sys_file_picker,系統文件選擇器,,String resource: sys_file_picker,Chinese parts: 系統文件選擇器
+1517,xml_string,app\src\main\res\values-zh-rHK\strings.xml,334,new_version,新版本,,String resource: new_version,Chinese parts: 新版本
+1518,xml_string,app\src\main\res\values-zh-rHK\strings.xml,335,download_update,下載更新,,String resource: download_update,Chinese parts: 下載更新
+1519,xml_string,app\src\main\res\values-zh-rHK\strings.xml,336,volume_key_page_on_play,朗讀時音量鍵翻頁,,String resource: volume_key_page_on_play,Chinese parts: 朗讀時音量鍵翻頁
+1520,xml_string,app\src\main\res\values-zh-rHK\strings.xml,337,tip_margin_change,Tip 邊距跟隨邊距調整,,String resource: tip_margin_change,Chinese parts: 邊距跟隨邊距調整
+1521,xml_string,app\src\main\res\values-zh-rHK\strings.xml,338,allow_update,允許更新,,String resource: allow_update,Chinese parts: 允許更新
+1522,xml_string,app\src\main\res\values-zh-rHK\strings.xml,339,disable_update,禁止更新,,String resource: disable_update,Chinese parts: 禁止更新
+1523,xml_string,app\src\main\res\values-zh-rHK\strings.xml,340,split_long_chapter,拆分超长章节,,String resource: split_long_chapter,Chinese parts: 拆分超长章节
+1524,xml_string,app\src\main\res\values-zh-rHK\strings.xml,341,need_more_time_load_content,正文长度过长时，加载正文可能会花费更多时间,,String resource: need_more_time_load_content,"Chinese parts: 正文长度过长时, 加载正文可能会花费更多时间"
+1525,xml_string,app\src\main\res\values-zh-rHK\strings.xml,342,revert_selection,反選,,String resource: revert_selection,Chinese parts: 反選
+1526,xml_string,app\src\main\res\values-zh-rHK\strings.xml,343,search_book_key,搜索書名、作者,,String resource: search_book_key,"Chinese parts: 搜索書名, 作者"
+1527,xml_string,app\src\main\res\values-zh-rHK\strings.xml,344,debug_hint,書名、作者、URL,,String resource: debug_hint,"Chinese parts: 書名, 作者"
+1528,xml_string,app\src\main\res\values-zh-rHK\strings.xml,345,faq,常見問題,,String resource: faq,Chinese parts: 常見問題
+1529,xml_string,app\src\main\res\values-zh-rHK\strings.xml,346,pt_show_all_find,顯示所有發現,,String resource: pt_show_all_find,Chinese parts: 顯示所有發現
+1530,xml_string,app\src\main\res\values-zh-rHK\strings.xml,347,ps_show_all_find,關閉則只顯示勾選源的發現,,String resource: ps_show_all_find,Chinese parts: 關閉則只顯示勾選源的發現
+1531,xml_string,app\src\main\res\values-zh-rHK\strings.xml,348,update_toc,更新目錄,,String resource: update_toc,Chinese parts: 更新目錄
+1532,xml_string,app\src\main\res\values-zh-rHK\strings.xml,349,txt_toc_rule,TXT 目錄規則,,String resource: txt_toc_rule,Chinese parts: 目錄規則
+1533,xml_string,app\src\main\res\values-zh-rHK\strings.xml,350,set_charset,設置編碼,,String resource: set_charset,Chinese parts: 設置編碼
+1534,xml_string,app\src\main\res\values-zh-rHK\strings.xml,351,swap_sort,倒序-順序,,String resource: swap_sort,"Chinese parts: 倒序, 順序"
+1535,xml_string,app\src\main\res\values-zh-rHK\strings.xml,352,sort,排序,,String resource: sort,Chinese parts: 排序
+1536,xml_string,app\src\main\res\values-zh-rHK\strings.xml,353,sort_auto,智能排序,,String resource: sort_auto,Chinese parts: 智能排序
+1537,xml_string,app\src\main\res\values-zh-rHK\strings.xml,354,sort_default,默認排序,,String resource: sort_default,Chinese parts: 默認排序
+1538,xml_string,app\src\main\res\values-zh-rHK\strings.xml,355,sort_manual,手動排序,,String resource: sort_manual,Chinese parts: 手動排序
+1539,xml_string,app\src\main\res\values-zh-rHK\strings.xml,356,sort_by_name,名稱排序,,String resource: sort_by_name,Chinese parts: 名稱排序
+1540,xml_string,app\src\main\res\values-zh-rHK\strings.xml,357,go_to_top,滾動到頂部,,String resource: go_to_top,Chinese parts: 滾動到頂部
+1541,xml_string,app\src\main\res\values-zh-rHK\strings.xml,358,go_to_bottom,滾動到底部,,String resource: go_to_bottom,Chinese parts: 滾動到底部
+1542,xml_string,app\src\main\res\values-zh-rHK\strings.xml,359,read_y,已讀: %s,,String resource: read_y,Chinese parts: 已讀
+1543,xml_string,app\src\main\res\values-zh-rHK\strings.xml,360,pursue_more,追更,,String resource: pursue_more,Chinese parts: 追更
+1544,xml_string,app\src\main\res\values-zh-rHK\strings.xml,361,fattening,養肥,,String resource: fattening,Chinese parts: 養肥
+1545,xml_string,app\src\main\res\values-zh-rHK\strings.xml,362,finish,完結,,String resource: finish,Chinese parts: 完結
+1546,xml_string,app\src\main\res\values-zh-rHK\strings.xml,363,all_book,所有書籍,,String resource: all_book,Chinese parts: 所有書籍
+1547,xml_string,app\src\main\res\values-zh-rHK\strings.xml,364,pursue_more_book,追更書籍,,String resource: pursue_more_book,Chinese parts: 追更書籍
+1548,xml_string,app\src\main\res\values-zh-rHK\strings.xml,365,fattening_book,養肥書籍,,String resource: fattening_book,Chinese parts: 養肥書籍
+1549,xml_string,app\src\main\res\values-zh-rHK\strings.xml,366,finish_book,完結書籍,,String resource: finish_book,Chinese parts: 完結書籍
+1550,xml_string,app\src\main\res\values-zh-rHK\strings.xml,367,local_book,本地書籍,,String resource: local_book,Chinese parts: 本地書籍

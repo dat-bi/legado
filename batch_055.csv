@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2701,xml_string,app\src\main\res\values-zh-rTW\strings.xml,336,new_version,新版本,,String resource: new_version,Chinese parts: 新版本
+2702,xml_string,app\src\main\res\values-zh-rTW\strings.xml,337,download_update,下載更新,,String resource: download_update,Chinese parts: 下載更新
+2703,xml_string,app\src\main\res\values-zh-rTW\strings.xml,338,volume_key_page_on_play,朗讀時音量鍵翻頁,,String resource: volume_key_page_on_play,Chinese parts: 朗讀時音量鍵翻頁
+2704,xml_string,app\src\main\res\values-zh-rTW\strings.xml,339,tip_margin_change,Tip邊距跟隨邊距調整,,String resource: tip_margin_change,Chinese parts: 邊距跟隨邊距調整
+2705,xml_string,app\src\main\res\values-zh-rTW\strings.xml,340,allow_update,允許更新,,String resource: allow_update,Chinese parts: 允許更新
+2706,xml_string,app\src\main\res\values-zh-rTW\strings.xml,341,disable_update,禁止更新,,String resource: disable_update,Chinese parts: 禁止更新
+2707,xml_string,app\src\main\res\values-zh-rTW\strings.xml,342,split_long_chapter,分割超長章節,,String resource: split_long_chapter,Chinese parts: 分割超長章節
+2708,xml_string,app\src\main\res\values-zh-rTW\strings.xml,343,need_more_time_load_content,正文長度過長時，載入正文可能會花費更多時間,,String resource: need_more_time_load_content,"Chinese parts: 正文長度過長時, 載入正文可能會花費更多時間"
+2709,xml_string,app\src\main\res\values-zh-rTW\strings.xml,344,revert_selection,反選,,String resource: revert_selection,Chinese parts: 反選
+2710,xml_string,app\src\main\res\values-zh-rTW\strings.xml,345,search_book_key,搜尋書名、作者,,String resource: search_book_key,"Chinese parts: 搜尋書名, 作者"
+2711,xml_string,app\src\main\res\values-zh-rTW\strings.xml,346,debug_hint,書名、作者、URL,,String resource: debug_hint,"Chinese parts: 書名, 作者"
+2712,xml_string,app\src\main\res\values-zh-rTW\strings.xml,347,faq,常見問題,,String resource: faq,Chinese parts: 常見問題
+2713,xml_string,app\src\main\res\values-zh-rTW\strings.xml,348,pt_show_all_find,顯示所有發現,,String resource: pt_show_all_find,Chinese parts: 顯示所有發現
+2714,xml_string,app\src\main\res\values-zh-rTW\strings.xml,349,ps_show_all_find,關閉則只顯示勾選源的發現,,String resource: ps_show_all_find,Chinese parts: 關閉則只顯示勾選源的發現
+2715,xml_string,app\src\main\res\values-zh-rTW\strings.xml,350,update_toc,更新目錄,,String resource: update_toc,Chinese parts: 更新目錄
+2716,xml_string,app\src\main\res\values-zh-rTW\strings.xml,351,txt_toc_rule,TXT 目錄規則,,String resource: txt_toc_rule,Chinese parts: 目錄規則
+2717,xml_string,app\src\main\res\values-zh-rTW\strings.xml,352,set_charset,設定編碼,,String resource: set_charset,Chinese parts: 設定編碼
+2718,xml_string,app\src\main\res\values-zh-rTW\strings.xml,353,swap_sort,倒序-順序,,String resource: swap_sort,"Chinese parts: 倒序, 順序"
+2719,xml_string,app\src\main\res\values-zh-rTW\strings.xml,354,sort,排序,,String resource: sort,Chinese parts: 排序
+2720,xml_string,app\src\main\res\values-zh-rTW\strings.xml,355,sort_auto,智慧排序,,String resource: sort_auto,Chinese parts: 智慧排序
+2721,xml_string,app\src\main\res\values-zh-rTW\strings.xml,356,sort_default,默認排序,,String resource: sort_default,Chinese parts: 默認排序
+2722,xml_string,app\src\main\res\values-zh-rTW\strings.xml,357,sort_manual,手動排序,,String resource: sort_manual,Chinese parts: 手動排序
+2723,xml_string,app\src\main\res\values-zh-rTW\strings.xml,358,sort_by_name,名稱排序,,String resource: sort_by_name,Chinese parts: 名稱排序
+2724,xml_string,app\src\main\res\values-zh-rTW\strings.xml,359,go_to_top,滾動到頂部,,String resource: go_to_top,Chinese parts: 滾動到頂部
+2725,xml_string,app\src\main\res\values-zh-rTW\strings.xml,360,go_to_bottom,滾動到底部,,String resource: go_to_bottom,Chinese parts: 滾動到底部
+2726,xml_string,app\src\main\res\values-zh-rTW\strings.xml,361,read_y,已讀：%s,,String resource: read_y,Chinese parts: 已讀
+2727,xml_string,app\src\main\res\values-zh-rTW\strings.xml,362,pursue_more,追更,,String resource: pursue_more,Chinese parts: 追更
+2728,xml_string,app\src\main\res\values-zh-rTW\strings.xml,363,fattening,養肥,,String resource: fattening,Chinese parts: 養肥
+2729,xml_string,app\src\main\res\values-zh-rTW\strings.xml,364,finish,完結,,String resource: finish,Chinese parts: 完結
+2730,xml_string,app\src\main\res\values-zh-rTW\strings.xml,365,all_book,所有書籍,,String resource: all_book,Chinese parts: 所有書籍
+2731,xml_string,app\src\main\res\values-zh-rTW\strings.xml,366,pursue_more_book,追更書籍,,String resource: pursue_more_book,Chinese parts: 追更書籍
+2732,xml_string,app\src\main\res\values-zh-rTW\strings.xml,367,fattening_book,養肥書籍,,String resource: fattening_book,Chinese parts: 養肥書籍
+2733,xml_string,app\src\main\res\values-zh-rTW\strings.xml,368,finish_book,完結書籍,,String resource: finish_book,Chinese parts: 完結書籍
+2734,xml_string,app\src\main\res\values-zh-rTW\strings.xml,369,local_book,本機書籍,,String resource: local_book,Chinese parts: 本機書籍
+2735,xml_string,app\src\main\res\values-zh-rTW\strings.xml,370,status_bar_immersion,狀態欄顏色透明,,String resource: status_bar_immersion,Chinese parts: 狀態欄顏色透明
+2736,xml_string,app\src\main\res\values-zh-rTW\strings.xml,371,imm_navigation_bar,沉浸式導航欄,,String resource: imm_navigation_bar,Chinese parts: 沉浸式導航欄
+2737,xml_string,app\src\main\res\values-zh-rTW\strings.xml,372,imm_navigation_bar_s,導航欄顏色透明,,String resource: imm_navigation_bar_s,Chinese parts: 導航欄顏色透明
+2738,xml_string,app\src\main\res\values-zh-rTW\strings.xml,373,add_to_bookshelf,放入書架,,String resource: add_to_bookshelf,Chinese parts: 放入書架
+2739,xml_string,app\src\main\res\values-zh-rTW\strings.xml,374,continue_read,繼續閱讀,,String resource: continue_read,Chinese parts: 繼續閱讀
+2740,xml_string,app\src\main\res\values-zh-rTW\strings.xml,375,cover_path,封面地址,,String resource: cover_path,Chinese parts: 封面地址
+2741,xml_string,app\src\main\res\values-zh-rTW\strings.xml,376,page_anim_cover,覆蓋,,String resource: page_anim_cover,Chinese parts: 覆蓋
+2742,xml_string,app\src\main\res\values-zh-rTW\strings.xml,377,page_anim_slide,滑動,,String resource: page_anim_slide,Chinese parts: 滑動
+2743,xml_string,app\src\main\res\values-zh-rTW\strings.xml,378,page_anim_simulation,模擬,,String resource: page_anim_simulation,Chinese parts: 模擬
+2744,xml_string,app\src\main\res\values-zh-rTW\strings.xml,379,page_anim_scroll,滾動,,String resource: page_anim_scroll,Chinese parts: 滾動
+2745,xml_string,app\src\main\res\values-zh-rTW\strings.xml,380,page_anim_none,無動畫,,String resource: page_anim_none,Chinese parts: 無動畫
+2746,xml_string,app\src\main\res\values-zh-rTW\strings.xml,381,up_change_source_last_chapter_t,後台更新換源最新章節,,String resource: up_change_source_last_chapter_t,Chinese parts: 後台更新換源最新章節
+2747,xml_string,app\src\main\res\values-zh-rTW\strings.xml,382,up_change_source_last_chapter_s,開啟則會在軟體打開1分鐘後開始更新,,String resource: up_change_source_last_chapter_s,"Chinese parts: 開啟則會在軟體打開, 分鐘後開始更新"
+2748,xml_string,app\src\main\res\values-zh-rTW\strings.xml,383,behavior_main_t,書架ToolBar自動隱藏,,String resource: behavior_main_t,"Chinese parts: 書架, 自動隱藏"
+2749,xml_string,app\src\main\res\values-zh-rTW\strings.xml,384,behavior_main_s,滾動書架時ToolBar自動隱藏與顯示,,String resource: behavior_main_s,"Chinese parts: 滾動書架時, 自動隱藏與顯示"
+2750,xml_string,app\src\main\res\values-zh-rTW\strings.xml,385,login,登入,,String resource: login,Chinese parts: 登入

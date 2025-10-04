@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3851,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,211,,失败,,"载${book.name}-${chapter.title}失败\n${error.localizedMessage}"",",Chinese parts: 失败
+3852,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,260,,修正下载计数,,/** 修正下载计数 */,Chinese parts: 修正下载计数
+3853,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,308,,获取正文失败,,"downloadFinish(chapter, ""获取正文失败\n${it.localizedMessage}"")",Chinese parts: 获取正文失败
+3854,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,337,,获取正文失败,,"return ""获取正文失败\n${e.localizedMessage}""",Chinese parts: 获取正文失败
+3855,source_code,app\src\main\java\io\legado\app\model\CacheBook.kt,373,,获取正文失败,,"downloadFinish(chapter, ""获取正文失败\n${it.localizedMessage}"", res",Chinese parts: 获取正文失败
+3856,source_code,app\src\main\java\io\legado\app\model\CheckSource.kt,14,,我的,,"var keyword = ""我的""",Chinese parts: 我的
+3857,source_code,app\src\main\java\io\legado\app\model\Debug.kt,89,,开始校验,,"ugTimeFormat.format(Date(0))} 开始校验""",Chinese parts: 开始校验
+3858,source_code,app\src\main\java\io\legado\app\model\Debug.kt,104,,校验成功,,"if (state == ""校验成功"") spendingTime else CheckSour",Chinese parts: 校验成功
+3859,source_code,app\src\main\java\io\legado\app\model\Debug.kt,113,,开始解析,,"log(debugSource, ""︾开始解析"")",Chinese parts: 开始解析
+3860,source_code,app\src\main\java\io\legado\app\model\Debug.kt,118,,列表页解析成功,,"log(debugSource, ""⇒列表页解析成功，为空"")",Chinese parts: 列表页解析成功
+3861,source_code,app\src\main\java\io\legado\app\model\Debug.kt,118,,为空,,"log(debugSource, ""⇒列表页解析成功，为空"")",Chinese parts: 为空
+3862,source_code,app\src\main\java\io\legado\app\model\Debug.kt,119,,解析完成,,"log(debugSource, ""︽解析完成"", state = 1000)",Chinese parts: 解析完成
+3863,source_code,app\src\main\java\io\legado\app\model\Debug.kt,123,,列表页解析完成,,"log(debugSource, ""︽列表页解析完成"")",Chinese parts: 列表页解析完成
+3864,source_code,app\src\main\java\io\legado\app\model\Debug.kt,126,,内容规则为空,,"log(debugSource, ""⇒内容规则为空，默认获取整个网页"", state = 1000)",Chinese parts: 内容规则为空
+3865,source_code,app\src\main\java\io\legado\app\model\Debug.kt,126,,默认获取整个网页,,"log(debugSource, ""⇒内容规则为空，默认获取整个网页"", state = 1000)",Chinese parts: 默认获取整个网页
+3866,source_code,app\src\main\java\io\legado\app\model\Debug.kt,131,,存在描述规则,,"log(debugSource, ""⇒存在描述规则，不解析内容页"")",Chinese parts: 存在描述规则
+3867,source_code,app\src\main\java\io\legado\app\model\Debug.kt,131,,不解析内容页,,"log(debugSource, ""⇒存在描述规则，不解析内容页"")",Chinese parts: 不解析内容页
+3868,source_code,app\src\main\java\io\legado\app\model\Debug.kt,132,,解析完成,,"log(debugSource, ""︽解析完成"", state = 1000)",Chinese parts: 解析完成
+3869,source_code,app\src\main\java\io\legado\app\model\Debug.kt,147,,开始解析内容页,,"log(debugSource, ""︾开始解析内容页"")",Chinese parts: 开始解析内容页
+3870,source_code,app\src\main\java\io\legado\app\model\Debug.kt,151,,内容页解析完成,,"log(debugSource, ""︽内容页解析完成"", state = 1000)",Chinese parts: 内容页解析完成
+3871,source_code,app\src\main\java\io\legado\app\model\Debug.kt,167,,开始访问详情页,,"g(bookSource.bookSourceUrl, ""⇒开始访问详情页:$key"")",Chinese parts: 开始访问详情页
+3872,source_code,app\src\main\java\io\legado\app\model\Debug.kt,173,,开始访问发现页,,"g(bookSource.bookSourceUrl, ""⇒开始访问发现页:$url"")",Chinese parts: 开始访问发现页
+3873,source_code,app\src\main\java\io\legado\app\model\Debug.kt,182,,开始访目录页,,"g(bookSource.bookSourceUrl, ""⇒开始访目录页:$url"")",Chinese parts: 开始访目录页
+3874,source_code,app\src\main\java\io\legado\app\model\Debug.kt,190,,开始访正文页,,"g(bookSource.bookSourceUrl, ""⇒开始访正文页:$url"")",Chinese parts: 开始访正文页
+3875,source_code,app\src\main\java\io\legado\app\model\Debug.kt,192,,调试,,"chapter.title = ""调试""",Chinese parts: 调试
+3876,source_code,app\src\main\java\io\legado\app\model\Debug.kt,198,,开始搜索关键字,,"g(bookSource.bookSourceUrl, ""⇒开始搜索关键字:$key"")",Chinese parts: 开始搜索关键字
+3877,source_code,app\src\main\java\io\legado\app\model\Debug.kt,205,,开始解析发现页,,"log(debugSource, ""︾开始解析发现页"")",Chinese parts: 开始解析发现页
+3878,source_code,app\src\main\java\io\legado\app\model\Debug.kt,209,,发现页解析完成,,"log(debugSource, ""︽发现页解析完成"")",Chinese parts: 发现页解析完成
+3879,source_code,app\src\main\java\io\legado\app\model\Debug.kt,213,,未获取到书籍,,"log(debugSource, ""︽未获取到书籍"", state = -1)",Chinese parts: 未获取到书籍
+3880,source_code,app\src\main\java\io\legado\app\model\Debug.kt,223,,开始解析搜索页,,"log(debugSource, ""︾开始解析搜索页"")",Chinese parts: 开始解析搜索页
+3881,source_code,app\src\main\java\io\legado\app\model\Debug.kt,227,,搜索页解析完成,,"log(debugSource, ""︽搜索页解析完成"")",Chinese parts: 搜索页解析完成
+3882,source_code,app\src\main\java\io\legado\app\model\Debug.kt,231,,未获取到书籍,,"log(debugSource, ""︽未获取到书籍"", state = -1)",Chinese parts: 未获取到书籍
+3883,source_code,app\src\main\java\io\legado\app\model\Debug.kt,242,,已获取目录链接,,"log(debugSource, ""≡已获取目录链接,跳过详情页"")",Chinese parts: 已获取目录链接
+3884,source_code,app\src\main\java\io\legado\app\model\Debug.kt,242,,跳过详情页,,"log(debugSource, ""≡已获取目录链接,跳过详情页"")",Chinese parts: 跳过详情页
+3885,source_code,app\src\main\java\io\legado\app\model\Debug.kt,247,,开始解析详情页,,"log(debugSource, ""︾开始解析详情页"")",Chinese parts: 开始解析详情页
+3886,source_code,app\src\main\java\io\legado\app\model\Debug.kt,250,,详情页解析完成,,"log(debugSource, ""︽详情页解析完成"")",Chinese parts: 详情页解析完成
+3887,source_code,app\src\main\java\io\legado\app\model\Debug.kt,255,,文件类书源跳过解析目录,,"log(debugSource, ""≡文件类书源跳过解析目录"", state = 1000)",Chinese parts: 文件类书源跳过解析目录
+3888,source_code,app\src\main\java\io\legado\app\model\Debug.kt,265,,开始解析目录页,,"log(debugSource, ""︾开始解析目录页"")",Chinese parts: 开始解析目录页
+3889,source_code,app\src\main\java\io\legado\app\model\Debug.kt,268,,目录页解析完成,,"log(debugSource, ""︽目录页解析完成"")",Chinese parts: 目录页解析完成
+3890,source_code,app\src\main\java\io\legado\app\model\Debug.kt,272,,没有正文章节,,"log(debugSource, ""≡没有正文章节"")",Chinese parts: 没有正文章节
+3891,source_code,app\src\main\java\io\legado\app\model\Debug.kt,291,,开始解析正文页,,"log(debugSource, ""︾开始解析正文页"")",Chinese parts: 开始解析正文页
+3892,source_code,app\src\main\java\io\legado\app\model\Debug.kt,300,,正文页解析完成,,"log(debugSource, ""︽正文页解析完成"", state = 1000)",Chinese parts: 正文页解析完成
+3893,source_code,app\src\main\java\io\legado\app\model\ReadAloud.kt,61,,启动朗读服务出错,,"val msg = ""启动朗读服务出错\n${e.localizedMessage}""",Chinese parts: 启动朗读服务出错
+3894,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,74,,跳转进度前进度记录,,/* 跳转进度前进度记录 */,Chinese parts: 跳转进度前进度记录
+3895,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,77,,端阅读进度记录,,/* web端阅读进度记录 */,Chinese parts: 端阅读进度记录
+3896,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,200,,避免进度条连续跳转不能覆盖最初的进度记录,,ookProgress != null) return //避免进度条连续跳转不能覆盖最初的进度记录,Chinese parts: 避免进度条连续跳转不能覆盖最初的进度记录
+3897,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,252,,拉取阅读进度失败,,"AppLog.put(""拉取阅读进度失败"", it)",Chinese parts: 拉取阅读进度失败
+3898,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,332,,章节未加载,,"g.putDebug(""moveToNextChapter-章节未加载,开始加载"")",Chinese parts: 章节未加载
+3899,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,332,,开始加载,,"ebug(""moveToNextChapter-章节未加载,开始加载"")",Chinese parts: 开始加载
+3900,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,336,,章节已加载,,"g.putDebug(""moveToNextChapter-章节已加载,刷新视图"")",Chinese parts: 章节已加载

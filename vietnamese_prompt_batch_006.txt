@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+251,xml_string,app\src\main\res\values-zh\strings.xml,263,showLine,显示分隔线,,String resource: showLine,Chinese parts: 显示分隔线
+252,xml_string,app\src\main\res\values-zh\strings.xml,264,dark_status_icon,深色状态栏图标,,String resource: dark_status_icon,Chinese parts: 深色状态栏图标
+253,xml_string,app\src\main\res\values-zh\strings.xml,265,content,内容,,String resource: content,Chinese parts: 内容
+254,xml_string,app\src\main\res\values-zh\strings.xml,266,copy_text,拷贝内容,,String resource: copy_text,Chinese parts: 拷贝内容
+255,xml_string,app\src\main\res\values-zh\strings.xml,267,download_all,一键缓存,,String resource: download_all,Chinese parts: 一键缓存
+256,xml_string,app\src\main\res\values-zh\strings.xml,268,content_sl,这是一段测试文字\n\u3000\u3000只是让你看看效果的,,String resource: content_sl,"Chinese parts: 这是一段测试文字, 只是让你看看效果的"
+257,xml_string,app\src\main\res\values-zh\strings.xml,269,text_bg_style,文字颜色和背景（长按自定义）,,String resource: text_bg_style,"Chinese parts: 文字颜色和背景, 长按自定义"
+258,xml_string,app\src\main\res\values-zh\strings.xml,270,immersion_status_bar,沉浸式状态栏,,String resource: immersion_status_bar,Chinese parts: 沉浸式状态栏
+259,xml_string,app\src\main\res\values-zh\strings.xml,271,un_download,还剩 %d 章未下载,,String resource: un_download,"Chinese parts: 还剩, 章未下载"
+260,xml_string,app\src\main\res\values-zh\strings.xml,272,long_click_input_color,长按输入颜色值,,String resource: long_click_input_color,Chinese parts: 长按输入颜色值
+261,xml_string,app\src\main\res\values-zh\strings.xml,273,loading,加载中…,,String resource: loading,Chinese parts: 加载中
+262,xml_string,app\src\main\res\values-zh\strings.xml,274,group_zg,追更区,,String resource: group_zg,Chinese parts: 追更区
+263,xml_string,app\src\main\res\values-zh\strings.xml,275,group_yf,养肥区,,String resource: group_yf,Chinese parts: 养肥区
+264,xml_string,app\src\main\res\values-zh\strings.xml,276,bookmark,书签,,String resource: bookmark,Chinese parts: 书签
+265,xml_string,app\src\main\res\values-zh\strings.xml,277,bookmark_add,添加书签,,String resource: bookmark_add,Chinese parts: 添加书签
+266,xml_string,app\src\main\res\values-zh\strings.xml,278,action_del,删除,,String resource: action_del,Chinese parts: 删除
+267,xml_string,app\src\main\res\values-zh\strings.xml,279,load_over_time,加载超时,,String resource: load_over_time,Chinese parts: 加载超时
+268,xml_string,app\src\main\res\values-zh\strings.xml,280,join_group,关注：%s,,String resource: join_group,Chinese parts: 关注
+269,xml_string,app\src\main\res\values-zh\strings.xml,281,copy_complete,已拷贝,,String resource: copy_complete,Chinese parts: 已拷贝
+270,xml_string,app\src\main\res\values-zh\strings.xml,282,bookshelf_management,书架管理,,String resource: bookshelf_management,Chinese parts: 书架管理
+271,xml_string,app\src\main\res\values-zh\strings.xml,283,clear_bookshelf_s,这将会删除所有书籍，请谨慎操作。,,String resource: clear_bookshelf_s,"Chinese parts: 这将会删除所有书籍, 请谨慎操作"
+272,xml_string,app\src\main\res\values-zh\strings.xml,284,search_book_source,搜索书源,,String resource: search_book_source,Chinese parts: 搜索书源
+273,xml_string,app\src\main\res\values-zh\strings.xml,285,search_rss_source,搜索订阅源,,String resource: search_rss_source,Chinese parts: 搜索订阅源
+274,xml_string,app\src\main\res\values-zh\strings.xml,286,search_book_source_num,搜索（共 %d 个书源）,,String resource: search_book_source_num,"Chinese parts: 搜索, 共, 个书源"
+275,xml_string,app\src\main\res\values-zh\strings.xml,287,chapter_list_size,目录（%d）,,String resource: chapter_list_size,Chinese parts: 目录
+276,xml_string,app\src\main\res\values-zh\strings.xml,288,text_bold,加粗,,String resource: text_bold,Chinese parts: 加粗
+277,xml_string,app\src\main\res\values-zh\strings.xml,289,text_font,字体,,String resource: text_font,Chinese parts: 字体
+278,xml_string,app\src\main\res\values-zh\strings.xml,290,text,文字,,String resource: text,Chinese parts: 文字
+279,xml_string,app\src\main\res\values-zh\strings.xml,291,home_page,软件主页,,String resource: home_page,Chinese parts: 软件主页
+280,xml_string,app\src\main\res\values-zh\strings.xml,292,right,右,,String resource: right,Chinese parts: 右
+281,xml_string,app\src\main\res\values-zh\strings.xml,293,left,左,,String resource: left,Chinese parts: 左
+282,xml_string,app\src\main\res\values-zh\strings.xml,294,bottom,下,,String resource: bottom,Chinese parts: 下
+283,xml_string,app\src\main\res\values-zh\strings.xml,295,top,上,,String resource: top,Chinese parts: 上
+284,xml_string,app\src\main\res\values-zh\strings.xml,296,padding,边距,,String resource: padding,Chinese parts: 边距
+285,xml_string,app\src\main\res\values-zh\strings.xml,297,padding_top,上边距,,String resource: padding_top,Chinese parts: 上边距
+286,xml_string,app\src\main\res\values-zh\strings.xml,298,padding_bottom,下边距,,String resource: padding_bottom,Chinese parts: 下边距
+287,xml_string,app\src\main\res\values-zh\strings.xml,299,padding_left,左边距,,String resource: padding_left,Chinese parts: 左边距
+288,xml_string,app\src\main\res\values-zh\strings.xml,300,padding_right,右边距,,String resource: padding_right,Chinese parts: 右边距
+289,xml_string,app\src\main\res\values-zh\strings.xml,301,check_book_source,校验书源,,String resource: check_book_source,Chinese parts: 校验书源
+290,xml_string,app\src\main\res\values-zh\strings.xml,302,check_select_source,校验所选,,String resource: check_select_source,Chinese parts: 校验所选
+291,xml_string,app\src\main\res\values-zh\strings.xml,303,progress_show,%1$s      进度 %2$d/%3$d,,String resource: progress_show,Chinese parts: 进度
+292,xml_string,app\src\main\res\values-zh\strings.xml,304,tts_fix,请安装并选择中文 TTS！,,String resource: tts_fix,Chinese parts: 请安装并选择中文
+293,xml_string,app\src\main\res\values-zh\strings.xml,305,tts_init_failed,TTS 初始化失败！,,String resource: tts_init_failed,Chinese parts: 初始化失败
+294,xml_string,app\src\main\res\values-zh\strings.xml,306,jf_convert,简繁转换,,String resource: jf_convert,Chinese parts: 简繁转换
+295,xml_string,app\src\main\res\values-zh\strings.xml,307,jf_convert_o,关闭,,String resource: jf_convert_o,Chinese parts: 关闭
+296,xml_string,app\src\main\res\values-zh\strings.xml,308,jf_convert_f,简转繁,,String resource: jf_convert_f,Chinese parts: 简转繁
+297,xml_string,app\src\main\res\values-zh\strings.xml,309,jf_convert_j,繁转简,,String resource: jf_convert_j,Chinese parts: 繁转简
+298,xml_string,app\src\main\res\values-zh\strings.xml,310,page_mode,翻页模式,,String resource: page_mode,Chinese parts: 翻页模式
+299,xml_string,app\src\main\res\values-zh\strings.xml,311,nb_file_sub_count,%1$d 项,,String resource: nb_file_sub_count,Chinese parts: 项
+300,xml_string,app\src\main\res\values-zh\strings.xml,312,nb_file_path,存储卡：,,String resource: nb_file_path,Chinese parts: 存储卡

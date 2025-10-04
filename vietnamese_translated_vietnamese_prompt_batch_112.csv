@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5551,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,194,,恢复服务器配置出错,Lỗi khi khôi phục cấu hình máy chủ,"AppLog.put(""恢复服务器配置出错\n${it.localizedMessage}"", it)",Chinese parts: 恢复服务器配置出错
+5552,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,202,,恢复直链上传出错,Lỗi khi khôi phục tải lên trực tiếp,"AppLog.put(""恢复直链上传出错\n${it.localizedMessage}"", it)",Chinese parts: 恢复直链上传出错
+5553,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,212,,恢复主题出错,Lỗi khi khôi phục giao diện,"AppLog.put(""恢复主题出错\n${it.localizedMessage}"", it)",Chinese parts: 恢复主题出错
+5554,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,223,,恢复阅读界面出错,Lỗi khi khôi phục giao diện đọc sách,"AppLog.put(""恢复阅读界面出错\n${it.localizedMessage}"", it)",Chinese parts: 恢复阅读界面出错
+5555,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,232,,恢复阅读界面出错,Lỗi khi khôi phục giao diện đọc sách,"AppLog.put(""恢复阅读界面出错\n${it.localizedMessage}"", it)",Chinese parts: 恢复阅读界面出错
+5556,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,290,,阅读恢复备份,Khôi phục sao lưu đọc sách,"LogUtils.d(TAG, ""阅读恢复备份 $fileName 文件大小 ${file.length("",Chinese parts: 阅读恢复备份
+5557,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,290,,文件大小,Kích thước tệp,"tils.d(TAG, ""阅读恢复备份 $fileName 文件大小 ${file.length()}"")",Chinese parts: 文件大小
+5558,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,293,,阅读恢复备份,Khôi phục sao lưu đọc sách,"LogUtils.d(TAG, ""阅读恢复备份 $fileName 列表大小 ${list.size}"")",Chinese parts: 阅读恢复备份
+5559,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,293,,列表大小,Kích thước danh sách,"tils.d(TAG, ""阅读恢复备份 $fileName 列表大小 ${list.size}"")",Chinese parts: 列表大小
+5560,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,297,,阅读恢复备份,Khôi phục sao lưu đọc sách,"LogUtils.d(TAG, ""阅读恢复备份 $fileName 文件不存在"")",Chinese parts: 阅读恢复备份
+5561,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,297,,文件不存在,Tệp không tồn tại,"tils.d(TAG, ""阅读恢复备份 $fileName 文件不存在"")",Chinese parts: 文件不存在
+5562,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,300,,读取解析出错,Lỗi đọc và phân tích,"AppLog.put(""$fileName\n读取解析出错\n${e.localizedMessage}"", e)",Chinese parts: 读取解析出错
+5563,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,301,,读取文件出错,Lỗi đọc tệp,"appCtx.toastOnUi(""$fileName\n读取文件出错\n${e.localizedMessage}"")",Chinese parts: 读取文件出错
+5564,source_code,app\src\main\java\io\legado\app\help\update\AppReleaseInfo.kt,39,,获取新版本出错,Lỗi khi tải phiên bản mới,"throw NoStackTraceException(""获取新版本出错"")",Chinese parts: 获取新版本出错
+5565,source_code,app\src\main\java\io\legado\app\help\update\AppUpdateGitHub.kt,37,,获取新版本出错,Lỗi khi tải phiên bản mới,"throw NoStackTraceException(""获取新版本出错(${res.code})"")",Chinese parts: 获取新版本出错
+5566,source_code,app\src\main\java\io\legado\app\help\update\AppUpdateGitHub.kt,41,,获取新版本出错,Lỗi khi tải phiên bản mới,"throw NoStackTraceException(""获取新版本出错"")",Chinese parts: 获取新版本出错
+5567,source_code,app\src\main\java\io\legado\app\help\update\AppUpdateGitHub.kt,45,,获取新版本出错,Lỗi khi tải phiên bản mới,"throw NoStackTraceException(""获取新版本出错 "" + it.localizedMessage)",Chinese parts: 获取新版本出错
+5568,source_code,app\src\main\java\io\legado\app\help\update\AppUpdateGitHub.kt,66,,已是最新版本,Đã là phiên bản mới nhất,"throw NoStackTraceException(""已是最新版本"")",Chinese parts: 已是最新版本
+5569,source_code,app\src\main\java\io\legado\app\data\dao\BookSourceDao.kt,96,,未分组,Chưa phân nhóm,'' or bookSourceGroup like '%未分组%',Chinese parts: 未分组
+5570,source_code,app\src\main\java\io\legado\app\data\dao\BookSourceDao.kt,214,,未分组,Chưa phân nhóm,"'' or bookSourceGroup like '%未分组%'""""""",Chinese parts: 未分组
+5571,source_code,app\src\main\java\io\legado\app\data\dao\ReplaceRuleDao.kt,34,,未分组,Chưa phân nhóm,"= '' or trim(`group`) like '%未分组%'"")",Chinese parts: 未分组
+5572,source_code,app\src\main\java\io\legado\app\data\dao\RssSourceDao.kt,65,,未分组,Chưa phân nhóm,"up = '' or sourceGroup like '%未分组%'"")",Chinese parts: 未分组
+5573,source_code,app\src\main\java\io\legado\app\data\entities\BaseSource.kt,118,,请求头规则,Quy tắc tiêu đề yêu cầu,"log(""请求头规则 JSON 格式不规范，请改为规范格式"")",Chinese parts: 请求头规则
+5574,source_code,app\src\main\java\io\legado\app\data\entities\BaseSource.kt,118,,格式不规范,Định dạng không chuẩn,"log(""请求头规则 JSON 格式不规范，请改为规范格式"")",Chinese parts: 格式不规范
+5575,source_code,app\src\main\java\io\legado\app\data\entities\BaseSource.kt,118,,请改为规范格式,Vui lòng đổi sang định dạng chuẩn,"log(""请求头规则 JSON 格式不规范，请改为规范格式"")",Chinese parts: 请改为规范格式
+5576,source_code,app\src\main\java\io\legado\app\data\entities\BaseSource.kt,122,,执行请求头规则出错,Lỗi khi thực thi quy tắc tiêu đề yêu cầu,"AppLog.put(""执行请求头规则出错\n$e"", e)",Chinese parts: 执行请求头规则出错
+5577,source_code,app\src\main\java\io\legado\app\data\entities\BaseSource.kt,174,,获取登陆信息出错,Lỗi khi lấy thông tin đăng nhập,"AppLog.put(""获取登陆信息出错"", e)",Chinese parts: 获取登陆信息出错
+5578,source_code,app\src\main\java\io\legado\app\data\entities\BaseSource.kt,193,,保存登陆信息出错,Lỗi khi lưu thông tin đăng nhập,"AppLog.put(""保存登陆信息出错"", e)",Chinese parts: 保存登陆信息出错
+5579,source_code,app\src\main\java\io\legado\app\data\entities\Book.kt,398,,正文使用净化替换规则,Nội dung sử dụng quy tắc lọc và thay thế,"placeRule: Boolean? = null,// 正文使用净化替换规则",Chinese parts: 正文使用净化替换规则
+5580,source_code,app\src\main\java\io\legado\app\data\entities\Book.kt,399,,去除标签,Xóa thẻ,"var delTag: Long = 0L,//去除标签",Chinese parts: 去除标签
+5581,source_code,app\src\main\java\io\legado\app\data\entities\Book.kt,404,,用户设置的起始章节,Chương bắt đầu do người dùng đặt,"tChapter: Int? = null,     // 用户设置的起始章节",Chinese parts: 用户设置的起始章节
+5582,source_code,app\src\main\java\io\legado\app\data\entities\Book.kt,405,,用户设置的每日更新章节数,Số chương cập nhật hàng ngày do người dùng đặt,dailyChapters: Int = 3    // 用户设置的每日更新章节数,Chinese parts: 用户设置的每日更新章节数
+5583,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,41,,删除书籍时自动删除章节,Tự động xóa chương khi xóa sách,)    // 删除书籍时自动删除章节,Chinese parts: 删除书籍时自动删除章节
+5584,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,43,,章节地址,Địa chỉ chương,String = """",               // 章节地址,Chinese parts: 章节地址
+5585,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,44,,章节标题,Tiêu đề chương,": String = """",             // 章节标题",Chinese parts: 章节标题
+5586,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,45,,是否是卷名,Là tên tập/quyển?,ume: Boolean = false,      // 是否是卷名,Chinese parts: 是否是卷名
+5587,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,46,,用来拼接相对,Dùng để nối tương đối,rl: String = """",           // 用来拼接相对url,Chinese parts: 用来拼接相对
+5588,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,47,,书籍地址,Địa chỉ sách,rl: String = """",           // 书籍地址,Chinese parts: 书籍地址
+5589,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,48,,章节序号,Số thứ tự chương,": Int = 0,                 // 章节序号",Chinese parts: 章节序号
+5590,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,49,,是否,Là VIP?,": Boolean = false,         // 是否VIP",Chinese parts: 是否
+5591,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,50,,是否已购买,Đã mua?,": Boolean = false,         // 是否已购买",Chinese parts: 是否已购买
+5592,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,51,,音频真实,URL âm thanh gốc,rceUrl: String? = null,    // 音频真实URL,Chinese parts: 音频真实
+5593,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,52,,更新时间或其他章节附加信息,Thời gian cập nhật hoặc thông tin bổ sung chương,String? = null,            // 更新时间或其他章节附加信息,Chinese parts: 更新时间或其他章节附加信息
+5594,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,53,,本章节字数,Số chữ của chương này,ount: String? = null,      // 本章节字数,Chinese parts: 本章节字数
+5595,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,54,,章节起始位置,Vị trí bắt đầu chương,": Long? = null,            // 章节起始位置",Chinese parts: 章节起始位置
+5596,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,55,,章节终止位置,Vị trí kết thúc chương,Long? = null,              // 章节终止位置,Chinese parts: 章节终止位置
+5597,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,56,,书籍当前章节的,Của chương hiện tại trong sách,entId: String? = null,  //EPUB书籍当前章节的fragmentId,Chinese parts: 书籍当前章节的
+5598,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,57,,书籍下一章节的,Của chương tiếp theo trong sách,tId: String? = null,    //EPUB书籍下一章节的fragmentId,Chinese parts: 书籍下一章节的
+5599,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,58,,变量,Biến,able: String? = null        //变量,Chinese parts: 变量
+5600,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,134,,替换出错,Lỗi thay thế,"AppLog.put(""${item.name}替换出错\n替换内容\n${displayTitle}"", e)",Chinese parts: 替换出错

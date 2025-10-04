@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2901,xml_string,app\src\main\res\values-zh-rTW\strings.xml,547,web_port_summary,目前埠 %s,,String resource: web_port_summary,Chinese parts: 目前埠
+2902,xml_string,app\src\main\res\values-zh-rTW\strings.xml,548,qr_share,二維碼分享,,String resource: qr_share,Chinese parts: 二維碼分享
+2903,xml_string,app\src\main\res\values-zh-rTW\strings.xml,549,str_share,字串分享,,String resource: str_share,Chinese parts: 字串分享
+2904,xml_string,app\src\main\res\values-zh-rTW\strings.xml,550,wifi_share,wifi分享,,String resource: wifi_share,Chinese parts: 分享
+2905,xml_string,app\src\main\res\values-zh-rTW\strings.xml,551,please_grant_storage_permission,請給於儲存權限,,String resource: please_grant_storage_permission,Chinese parts: 請給於儲存權限
+2906,xml_string,app\src\main\res\values-zh-rTW\strings.xml,552,fast_rewind,減速,,String resource: fast_rewind,Chinese parts: 減速
+2907,xml_string,app\src\main\res\values-zh-rTW\strings.xml,553,fast_forward,加速,,String resource: fast_forward,Chinese parts: 加速
+2908,xml_string,app\src\main\res\values-zh-rTW\strings.xml,554,skip_previous,上一個,,String resource: skip_previous,Chinese parts: 上一個
+2909,xml_string,app\src\main\res\values-zh-rTW\strings.xml,555,skip_next,下一個,,String resource: skip_next,Chinese parts: 下一個
+2910,xml_string,app\src\main\res\values-zh-rTW\strings.xml,556,music,音樂,,String resource: music,Chinese parts: 音樂
+2911,xml_string,app\src\main\res\values-zh-rTW\strings.xml,557,audio,音訊,,String resource: audio,Chinese parts: 音訊
+2912,xml_string,app\src\main\res\values-zh-rTW\strings.xml,558,is_enable,啟用,,String resource: is_enable,Chinese parts: 啟用
+2913,xml_string,app\src\main\res\values-zh-rTW\strings.xml,559,enable_js,啟用JS,,String resource: enable_js,Chinese parts: 啟用
+2914,xml_string,app\src\main\res\values-zh-rTW\strings.xml,560,load_with_base_url,載入BaseUrl,,String resource: load_with_base_url,Chinese parts: 載入
+2915,xml_string,app\src\main\res\values-zh-rTW\strings.xml,561,all_source,全部書源,,String resource: all_source,Chinese parts: 全部書源
+2916,xml_string,app\src\main\res\values-zh-rTW\strings.xml,562,cannot_empty,輸入不能為空,,String resource: cannot_empty,Chinese parts: 輸入不能為空
+2917,xml_string,app\src\main\res\values-zh-rTW\strings.xml,563,clear_find_cache,清空發現快取,,String resource: clear_find_cache,Chinese parts: 清空發現快取
+2918,xml_string,app\src\main\res\values-zh-rTW\strings.xml,564,edit_find,編輯發現,,String resource: edit_find,Chinese parts: 編輯發現
+2919,xml_string,app\src\main\res\values-zh-rTW\strings.xml,565,change_icon_summary,切換軟體顯示在桌面的圖示,,String resource: change_icon_summary,Chinese parts: 切換軟體顯示在桌面的圖示
+2920,xml_string,app\src\main\res\values-zh-rTW\strings.xml,566,help,幫助,,String resource: help,Chinese parts: 幫助
+2921,xml_string,app\src\main\res\values-zh-rTW\strings.xml,567,my,我的,,String resource: my,Chinese parts: 我的
+2922,xml_string,app\src\main\res\values-zh-rTW\strings.xml,568,reading,閱讀,,String resource: reading,Chinese parts: 閱讀
+2923,xml_string,app\src\main\res\values-zh-rTW\strings.xml,570,timer_m,%d分鐘,,String resource: timer_m,Chinese parts: 分鐘
+2924,xml_string,app\src\main\res\values-zh-rTW\strings.xml,571,brightness_auto,自動亮度%s,,String resource: brightness_auto,Chinese parts: 自動亮度
+2925,xml_string,app\src\main\res\values-zh-rTW\strings.xml,572,read_aloud_by_page,按頁朗讀,,String resource: read_aloud_by_page,Chinese parts: 按頁朗讀
+2926,xml_string,app\src\main\res\values-zh-rTW\strings.xml,573,speak_engine,朗讀引擎,,String resource: speak_engine,Chinese parts: 朗讀引擎
+2927,xml_string,app\src\main\res\values-zh-rTW\strings.xml,574,bg_image,背景圖片,,String resource: bg_image,Chinese parts: 背景圖片
+2928,xml_string,app\src\main\res\values-zh-rTW\strings.xml,575,bg_color,背景顏色,,String resource: bg_color,Chinese parts: 背景顏色
+2929,xml_string,app\src\main\res\values-zh-rTW\strings.xml,576,text_color,文字顏色,,String resource: text_color,Chinese parts: 文字顏色
+2930,xml_string,app\src\main\res\values-zh-rTW\strings.xml,577,select_image,選擇圖片,,String resource: select_image,Chinese parts: 選擇圖片
+2931,xml_string,app\src\main\res\values-zh-rTW\strings.xml,578,group_manage,分組管理,,String resource: group_manage,Chinese parts: 分組管理
+2932,xml_string,app\src\main\res\values-zh-rTW\strings.xml,579,group_select,分組選擇,,String resource: group_select,Chinese parts: 分組選擇
+2933,xml_string,app\src\main\res\values-zh-rTW\strings.xml,580,group_edit,編輯分組,,String resource: group_edit,Chinese parts: 編輯分組
+2934,xml_string,app\src\main\res\values-zh-rTW\strings.xml,581,move_to_group,移入分組,,String resource: move_to_group,Chinese parts: 移入分組
+2935,xml_string,app\src\main\res\values-zh-rTW\strings.xml,582,add_group,新增分組,,String resource: add_group,Chinese parts: 新增分組
+2936,xml_string,app\src\main\res\values-zh-rTW\strings.xml,583,remove_group,移除分組,,String resource: remove_group,Chinese parts: 移除分組
+2937,xml_string,app\src\main\res\values-zh-rTW\strings.xml,584,add_replace_rule,建立取代,,String resource: add_replace_rule,Chinese parts: 建立取代
+2938,xml_string,app\src\main\res\values-zh-rTW\strings.xml,585,group,分組,,String resource: group,Chinese parts: 分組
+2939,xml_string,app\src\main\res\values-zh-rTW\strings.xml,586,group_s,分組：%s,,String resource: group_s,Chinese parts: 分組
+2940,xml_string,app\src\main\res\values-zh-rTW\strings.xml,587,toc_s,目錄：%s,,String resource: toc_s,Chinese parts: 目錄
+2941,xml_string,app\src\main\res\values-zh-rTW\strings.xml,588,enable_explore,啟用發現,,String resource: enable_explore,Chinese parts: 啟用發現
+2942,xml_string,app\src\main\res\values-zh-rTW\strings.xml,589,disable_explore,禁用發現,,String resource: disable_explore,Chinese parts: 禁用發現
+2943,xml_string,app\src\main\res\values-zh-rTW\strings.xml,590,enable_selection,啟用所選,,String resource: enable_selection,Chinese parts: 啟用所選
+2944,xml_string,app\src\main\res\values-zh-rTW\strings.xml,591,disable_selection,禁用所選,,String resource: disable_selection,Chinese parts: 禁用所選
+2945,xml_string,app\src\main\res\values-zh-rTW\strings.xml,592,export_selection,匯出所選,,String resource: export_selection,Chinese parts: 匯出所選
+2946,xml_string,app\src\main\res\values-zh-rTW\strings.xml,593,export,匯出,,String resource: export,Chinese parts: 匯出
+2947,xml_string,app\src\main\res\values-zh-rTW\strings.xml,594,load_toc,載入目錄,,String resource: load_toc,Chinese parts: 載入目錄
+2948,xml_string,app\src\main\res\values-zh-rTW\strings.xml,595,load_info,載入詳情頁,,String resource: load_info,Chinese parts: 載入詳情頁
+2949,xml_string,app\src\main\res\values-zh-rTW\strings.xml,596,tts,文字轉語音,,String resource: tts,Chinese parts: 文字轉語音
+2950,xml_string,app\src\main\res\values-zh-rTW\strings.xml,597,web_dav_pw,WebDav 密碼,,String resource: web_dav_pw,Chinese parts: 密碼

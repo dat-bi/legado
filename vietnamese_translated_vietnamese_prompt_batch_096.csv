@@ -1,0 +1,36 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4751,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,1024,,请重新设置,Vui lòng đặt lại,"AppLog.put(""边距设置过大，请重新设置"", toast = true)",Chinese parts: 请重新设置
+4752,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,129,,调用布局进度监听回调出错,Lỗi khi xử lý bố cục,"AppLog.put(""调用布局进度监听回调出错\n${e.localizedMessage}"", e)",Chinese parts: 调用布局进度监听回调出错
+4753,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,156,,调用布局进度监听回调出错,Lỗi khi xử lý bố cục,"AppLog.put(""调用布局进度监听回调出错\n${e.localizedMessage}"", e)",Chinese parts: 调用布局进度监听回调出错
+4754,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,166,,调用布局进度监听回调出错,Lỗi khi xử lý bố cục,"AppLog.put(""调用布局进度监听回调出错\n${e.localizedMessage}"", e)",Chinese parts: 调用布局进度监听回调出错
+4755,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,182,,调用布局进度监听回调出错,Lỗi khi xử lý bố cục,"AppLog.put(""调用布局进度监听回调出错\n${e.localizedMessage}"", e)",Chinese parts: 调用布局进度监听回调出错
+4756,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,356,,将,Đặt,,durY = adjustHeight // 将 Y 坐标设置为居中位置,Chinese parts: 将
+4757,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,356,,坐标设置为居中位置,tọa độ về vị trí trung tâm,,durY = adjustHeight // 将 Y 坐标设置为居中位置,Chinese parts: 坐标设置为居中位置
+4758,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,387,,确保翻页时索引计算正确,Đảm bảo tính toán chỉ mục chính xác khi lật trang,"stringBuilder.append("" "") // 确保翻页时索引计算正确",Chinese parts: 确保翻页时索引计算正确
+4759,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,556,,自然排版长度,Độ dài bố cục tự nhiên,,/**自然排版长度**/,Chinese parts: 自然排版长度
+4760,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,602,,自然排版长度,Độ dài bố cục tự nhiên,,/**自然排版长度**/,Chinese parts: 自然排版长度
+4761,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,604,,起始,Bắt đầu,,/**起始x坐标**/,Chinese parts: 起始
+4762,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextChapterLayout.kt,604,,坐标,tọa độ,,/**起始x坐标**/,Chinese parts: 坐标
+4763,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextMeasure.kt,10,,一,Một,"monWidth = paint.measureText(""一"")",Chinese parts: 一
+4764,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\TextMeasure.kt,138,,一,Một,"monWidth = paint.measureText(""一"")",Chinese parts: 一
+4765,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,68,,禁止在行尾的标点处理,Không xử lý dấu câu ở cuối dòng,,/*禁止在行尾的标点处理*/,Chinese parts: 禁止在行尾的标点处理
+4766,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,70,,如果后面还有一个禁首标点则异常,Ngoại lệ nếu có thêm dấu câu cấm ở đầu,,[index - 2])) BreakMod.CPS_2//如果后面还有一个禁首标点则异常,Chinese parts: 如果后面还有一个禁首标点则异常
+4767,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,71,,无异常场景,Không có trường hợp ngoại lệ,,lse BreakMod.BREAK_ONE_CHAR //无异常场景,Chinese parts: 无异常场景
+4768,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,73,,禁止在行首的标点处理,Không xử lý dấu câu ở đầu dòng,,/*禁止在行首的标点处理*/,Chinese parts: 禁止在行首的标点处理
+4769,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,75,,如果后面还有一个禁首标点则异常,Ngoại lệ nếu có thêm dấu câu cấm ở đầu,,[index - 1])) BreakMod.CPS_1//如果后面还有一个禁首标点则异常，不过三个连续行尾标点的用法不通用,Chinese parts: 如果后面还有一个禁首标点则异常
+4770,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,75,,不过三个连续行尾标点的用法不通用,Tuy nhiên, việc sử dụng ba dấu câu liên tiếp ở cuối dòng không phổ biến,,eakMod.CPS_1//如果后面还有一个禁首标点则异常，不过三个连续行尾标点的用法不通用,Chinese parts: 不过三个连续行尾标点的用法不通用
+4771,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,76,,如果后面还有一个禁首标点则异常,Ngoại lệ nếu có thêm dấu câu cấm ở đầu,,[index - 2])) BreakMod.CPS_3//如果后面还有一个禁首标点则异常,Chinese parts: 如果后面还有一个禁首标点则异常
+4772,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,77,,无异常场景,Không có trường hợp ngoại lệ,,lse BreakMod.BREAK_ONE_CHAR //无异常场景,Chinese parts: 无异常场景
+4773,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,79,,无异常场景,Không có trường hợp ngoại lệ,,BreakMod.NORMAL //无异常场景,Chinese parts: 无异常场景
+4774,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,82,,判断上述逻辑解决不了的特殊情况,Xử lý các trường hợp đặc biệt mà logic trên không giải quyết được,,/*判断上述逻辑解决不了的特殊情况*/,Chinese parts: 判断上述逻辑解决不了的特殊情况
+4775,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,98,,特殊标点使用难保证显示效果,Dấu câu đặc biệt khó đảm bảo hiệu ứng hiển thị,,/*特殊标点使用难保证显示效果，所以不考虑间隔，直接查找到能满足条件的分割字*/,Chinese parts: 特殊标点使用难保证显示效果
+4776,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,98,,所以不考虑间隔,nên không xét khoảng cách,,/*特殊标点使用难保证显示效果，所以不考虑间隔，直接查找到能满足条件的分割字*/,Chinese parts: 所以不考虑间隔
+4777,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,98,,直接查找到能满足条件的分割字,tìm trực tiếp ký tự phân tách phù hợp,,/*特殊标点使用难保证显示效果，所以不考虑间隔，直接查找到能满足条件的分割字*/,Chinese parts: 直接查找到能满足条件的分割字
+4778,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,120,,模式,Chế độ,,BreakMod.NORMAL -> {//模式0 正常断行,Chinese parts: 模式
+4779,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,120,,正常断行,Ngắt dòng bình thường,,BreakMod.NORMAL -> {//模式0 正常断行,Chinese parts: 正常断行
+4780,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,126,,模式,Chế độ,,BreakMod.BREAK_ONE_CHAR -> {//模式1 当前行下移一个字,Chinese parts: 模式
+4781,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,126,,当前行下移一个字,Dòng hiện tại xuống một ký tự,,kMod.BREAK_ONE_CHAR -> {//模式1 当前行下移一个字,Chinese parts: 当前行下移一个字
+4782,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,132,,模式,Chế độ,,reakMod.BREAK_MORE_CHAR -> {//模式2 当前行下移多个字,Chinese parts: 模式
+4783,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,132,,当前行下移多个字,Dòng hiện tại xuống nhiều ký tự,,Mod.BREAK_MORE_CHAR -> {//模式2 当前行下移多个字,Chinese parts: 当前行下移多个字
+4784,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,138,,模式,Chế độ,,BreakMod.CPS_1 -> {//模式3 两个后置标点压缩,Chinese parts: 模式
+4785,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ZhLayout.kt,138,,两个后置标点压缩,Nén hai dấu câu phía sau,,BreakMod.CPS_1 -> {//模式3 两个后置标点压缩,Chinese parts: 两个后置标点压缩

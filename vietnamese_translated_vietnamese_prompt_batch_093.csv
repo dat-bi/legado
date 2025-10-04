@@ -1,0 +1,15 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4601,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,212,,拉取阅读进度失败,Tải tiến độ đọc sách thất bại,"AppLog.put(""拉取阅读进度失败《${book.name}》\n${it.localized",Chinese parts: 拉取阅读进度失败
+4602,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,222,,自动同步阅读进度成功,Tự động đồng bộ tiến độ đọc sách thành công,"AppLog.put(""自动同步阅读进度成功《${book.name}》 ${progress.durC",Chinese parts: 自动同步阅读进度成功
+4603,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,242,,换源失败,Đổi nguồn sách thất bại,"AppLog.put(""换源失败\n$it"", it, true)",Chinese parts: 换源失败
+4604,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,77,,找不到文件,Không tìm thấy tệp,"} ?: ReadBook.upMsg(""找不到文件"")",Chinese parts: 找不到文件
+4605,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,79,,没有权限访问,Không có quyền truy cập,"} ?: ReadBook.upMsg(""没有权限访问"")",Chinese parts: 没有权限访问
+4606,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,101,,选择书籍所在文件夹,Chọn thư mục chứa sách,"title = ""选择书籍所在文件夹""",Chinese parts: 选择书籍所在文件夹
+4607,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,298,,设置为,Đặt thành,rtDate.isFocusable = false // 设置为false，不允许获得焦点,Chinese parts: 设置为
+4608,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,298,,不允许获得焦点,Không cho phép lấy tiêu điểm,Focusable = false // 设置为false，不允许获得焦点,Chinese parts: 不允许获得焦点
+4609,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,299,,不显示光标,Không hiển thị con trỏ,te.isCursorVisible = false // 不显示光标,Chinese parts: 不显示光标
+4610,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,308,,的,của,mm + 1, dayOfMonth) // Java 8的LocalDate，月份从1开始,Chinese parts: 的
+4611,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,308,,月份从,Tháng bắt đầu từ,yOfMonth) // Java 8的LocalDate，月份从1开始,Chinese parts: 月份从
+4612,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,308,,开始,bắt đầu,onth) // Java 8的LocalDate，月份从1开始,Chinese parts: 开始
+4613,source_code,app\src\main\java\io\legado\app\ui\book\read\EffectiveReplacesDialog.kt,35,,繁简转换,Chuyển đổi phồn thể/giản thể,ert by lazy { ReplaceRule(0, ""繁简转换"") },Chinese parts: 繁简转换
+4614,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,192,,退出全文搜索恢复此时进度,Thoát tìm kiếm toàn văn, khôi phục tiến độ hiện tại,k.saveCurrentBookProgress() //退出全文搜索恢复此时进度,Chinese parts:

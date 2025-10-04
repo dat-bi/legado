@@ -1,0 +1,41 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1551,xml_string,app\src\main\res\values-zh-rHK\strings.xml,368,status_bar_immersion,狀態欄顏色透明,Màu thanh trạng thái trong suốt,String resource: status_bar_immersion,Chinese parts: 狀態欄顏色透明
+1552,xml_string,app\src\main\res\values-zh-rHK\strings.xml,369,imm_navigation_bar,沉浸式导航栏,Thanh điều hướng toàn màn hình,String resource: imm_navigation_bar,Chinese parts: 沉浸式导航栏
+1553,xml_string,app\src\main\res\values-zh-rHK\strings.xml,370,imm_navigation_bar_s,导航栏颜色透明,Màu thanh điều hướng trong suốt,String resource: imm_navigation_bar_s,Chinese parts: 导航栏颜色透明
+1554,xml_string,app\src\main\res\values-zh-rHK\strings.xml,371,add_to_bookshelf,放入書架,Thêm vào kệ sách,String resource: add_to_bookshelf,Chinese parts: 放入書架
+1555,xml_string,app\src\main\res\values-zh-rHK\strings.xml,372,continue_read,繼續閲讀,Tiếp tục đọc,String resource: continue_read,Chinese parts: 繼續閲讀
+1556,xml_string,app\src\main\res\values-zh-rHK\strings.xml,373,cover_path,封面地址,Đường dẫn ảnh bìa,String resource: cover_path,Chinese parts: 封面地址
+1557,xml_string,app\src\main\res\values-zh-rHK\strings.xml,374,page_anim_cover,覆蓋,Phủ,String resource: page_anim_cover,Chinese parts: 覆蓋
+1558,xml_string,app\src\main\res\values-zh-rHK\strings.xml,375,page_anim_slide,滑動,Trượt,String resource: page_anim_slide,Chinese parts: 滑動
+1559,xml_string,app\src\main\res\values-zh-rHK\strings.xml,376,page_anim_simulation,仿真,Mô phỏng,String resource: page_anim_simulation,Chinese parts: 仿真
+1560,xml_string,app\src\main\res\values-zh-rHK\strings.xml,377,page_anim_scroll,滾動,Cuộn,String resource: page_anim_scroll,Chinese parts: 滾動
+1561,xml_string,app\src\main\res\values-zh-rHK\strings.xml,378,page_anim_none,無動畫,Không hiệu ứng,String resource: page_anim_none,Chinese parts: 無動畫
+1562,xml_string,app\src\main\res\values-zh-rHK\strings.xml,379,up_change_source_last_chapter_t,後台更新換源最新章節,Cập nhật chương mới nhất từ nguồn khác,String resource: up_change_source_last_chapter_t,Chinese parts: 後台更新換源最新章節
+1563,xml_string,app\src\main\res\values-zh-rHK\strings.xml,380,up_change_source_last_chapter_s,開啟則會在軟件打開 1 分鐘後開始更新,Khi bật, ứng dụng sẽ bắt đầu cập nhật sau 1 phút mở.,String resource: up_change_source_last_chapter_s,"Chinese parts: 開啟則會在軟件打開, 分鐘後開始更新"
+1564,xml_string,app\src\main\res\values-zh-rHK\strings.xml,381,behavior_main_t,書架 ToolBar 自動隱藏,Thanh công cụ kệ sách tự động ẩn,String resource: behavior_main_t,"Chinese parts: 書架, 自動隱藏"
+1565,xml_string,app\src\main\res\values-zh-rHK\strings.xml,382,behavior_main_s,滾動書架時 ToolBar 自動隱藏與顯示,Thanh công cụ tự động ẩn/hiện khi cuộn kệ sách.,String resource: behavior_main_s,"Chinese parts: 滾動書架時, 自動隱藏與顯示"
+1566,xml_string,app\src\main\res\values-zh-rHK\strings.xml,383,login,登錄,Đăng nhập,String resource: login,Chinese parts: 登錄
+1567,xml_string,app\src\main\res\values-zh-rHK\strings.xml,384,login_source,登錄 %s,Đăng nhập %s,String resource: login_source,Chinese parts: 登錄
+1568,xml_string,app\src\main\res\values-zh-rHK\strings.xml,385,success,成功,Thành công,String resource: success,Chinese parts: 成功
+1569,xml_string,app\src\main\res\values-zh-rHK\strings.xml,386,source_no_login,當前源沒有配置登陸地址,Nguồn hiện tại chưa cấu hình địa chỉ đăng nhập.,String resource: source_no_login,Chinese parts: 當前源沒有配置登陸地址
+1570,xml_string,app\src\main\res\values-zh-rHK\strings.xml,387,no_prev_page,沒有上一頁,Không có trang trước.,String resource: no_prev_page,Chinese parts: 沒有上一頁
+1571,xml_string,app\src\main\res\values-zh-rHK\strings.xml,388,no_next_page,沒有下一頁,Không có trang tiếp theo.,String resource: no_next_page,Chinese parts: 沒有下一頁
+1572,xml_string,app\src\main\res\values-zh-rHK\strings.xml,391,source_name,源名稱 (sourceName),Tên nguồn (sourceName),String resource: source_name,Chinese parts: 源名稱
+1573,xml_string,app\src\main\res\values-zh-rHK\strings.xml,392,source_url,源URL (sourceUrl),URL nguồn (sourceUrl),String resource: source_url,Chinese parts: 源
+1574,xml_string,app\src\main\res\values-zh-rHK\strings.xml,393,source_group,源分組 (sourceGroup),Nhóm nguồn (sourceGroup),String resource: source_group,Chinese parts: 源分組
+1575,xml_string,app\src\main\res\values-zh-rHK\strings.xml,394,sort_url,分類 Url(sortUrl),URL phân loại (sortUrl),String resource: sort_url,Chinese parts: 分類
+1576,xml_string,app\src\main\res\values-zh-rHK\strings.xml,395,concurrent_rate,並發率(concurrentRate),Tốc độ đồng thời (concurrentRate),String resource: concurrent_rate,Chinese parts: 並發率
+1577,xml_string,app\src\main\res\values-zh-rHK\strings.xml,396,login_url,登錄 URL(loginUrl),URL đăng nhập (loginUrl),String resource: login_url,Chinese parts: 登錄
+1578,xml_string,app\src\main\res\values-zh-rHK\strings.xml,397,login_ui,登錄UI(loginUi),Giao diện đăng nhập (loginUi),String resource: login_ui,Chinese parts: 登錄
+1579,xml_string,app\src\main\res\values-zh-rHK\strings.xml,398,login_check_js,登錄檢查JS(loginCheckJs),JS kiểm tra đăng nhập (loginCheckJs),String resource: login_check_js,Chinese parts: 登錄檢查
+1580,xml_string,app\src\main\res\values-zh-rHK\strings.xml,399,comment,源注釋(sourceComment),Ghi chú nguồn (sourceComment),String resource: comment,Chinese parts: 源注釋
+1581,xml_string,app\src\main\res\values-zh-rHK\strings.xml,400,r_search_url,搜索地址 (url),Địa chỉ tìm kiếm (url),String resource: r_search_url,Chinese parts: 搜索地址
+1582,xml_string,app\src\main\res\values-zh-rHK\strings.xml,401,r_find_url,發現地址規則 (url),Quy tắc URL khám phá (url),String resource: r_find_url,Chinese parts: 發現地址規則
+1583,xml_string,app\src\main\res\values-zh-rHK\strings.xml,402,r_book_list,書籍列表規則 (bookList),Quy tắc danh sách sách (bookList),String resource: r_book_list,Chinese parts: 書籍列表規則
+1584,xml_string,app\src\main\res\values-zh-rHK\strings.xml,403,r_book_name,書名規則 (name),Quy tắc tên sách (name),String resource: r_book_name,Chinese parts: 書名規則
+1585,xml_string,app\src\main\res\values-zh-rHK\strings.xml,404,r_book_url,詳情頁 url 規則 (bookUrl),Quy tắc URL trang chi tiết (bookUrl),String resource: r_book_url,"Chinese parts: 詳情頁, 規則"
+1586,xml_string,app\src\main\res\values-zh-rHK\strings.xml,405,r_author,作者規則 (author),Quy tắc tác giả (author),String resource: r_author,Chinese parts: 作者規則
+1587,xml_string,app\src\main\res\values-zh-rHK\strings.xml,406,rule_book_kind,分類規則 (kind),Quy tắc phân loại (kind),String resource: rule_book_kind,Chinese parts: 分類規則
+1588,xml_string,app\src\main\res\values-zh-rHK\strings.xml,407,rule_book_intro,簡介規則 (intro),Quy tắc giới thiệu (intro),String resource: rule_book_intro,Chinese parts: 簡介規則
+1589,xml_string,app\src\main\res\values-zh-rHK\strings.xml,408,rule_cover_url,封面規則 (coverUrl),Quy tắc ảnh bìa (coverUrl),String resource: rule_cover_url,Chinese parts: 封面規則
+1590,xml_string,app\src\main\res\values-zh-rHK\strings.xml,409,rule_last_chapter,最新章節規則 (lastChapter),Quy tắc chương mới nhất (lastChapter),String resource: rule_last_chapter,Chinese parts: 最新章節規則

@@ -1,0 +1,33 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5201,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,380,,在,Trong,"gth > maxLengthWithNoToc) { //在buffer中一章的终止点",Chinese parts: 在
+5202,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,380,,中一章的终止点,điểm kết thúc của một chương,"axLengthWithNoToc) { //在buffer中一章的终止点",Chinese parts: 中一章的终止点
+5203,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,393,,第,Chương,"chapter.title = ""第${blockPos}章($chapterPos)""",Chinese parts: 第
+5204,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,393,,章,chương,"chapter.title = ""第${blockPos}章($chapterPos)""",Chinese parts: 章
+5205,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,417,,第,Chương,"chapter.title = ""第${blockPos}章(${chapterPos})""",Chinese parts: 第
+5206,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,417,,章,chương,"chapter.title = ""第${blockPos}章(${chapterPos})""",Chinese parts: 章
+5207,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,444,,目录规则正则语法错误,Lỗi cú pháp regex quy tắc mục lục,"AppLog.put(""TXT目录规则正则语法错误:${tocRule.name}\n$e"", e)",Chinese parts: 目录规则正则语法错误
+5208,source_code,app\src\main\java\io\legado\app\model\localBook\UmdFile.kt,90,,书籍导入异常,Lỗi nhập sách,"book.intro = ""书籍导入异常""",Chinese parts: 书籍导入异常
+5209,source_code,app\src\main\java\io\legado\app\model\remote\RemoteBookWebDav.kt,35,,网络不可用,Mạng không khả dụng,"throw NoStackTraceException(""网络不可用"")",Chinese parts: 网络不可用
+5210,source_code,app\src\main\java\io\legado\app\model\remote\RemoteBookWebDav.kt,53,,网络不可用,Mạng không khả dụng,"throw NoStackTraceException(""网络不可用"")",Chinese parts: 网络不可用
+5211,source_code,app\src\main\java\io\legado\app\model\remote\RemoteBookWebDav.kt,61,,没有设置书籍保存位置,Chưa thiết lập vị trí lưu sách,"throw NoStackTraceException(""没有设置书籍保存位置!"")",Chinese parts: 没有设置书籍保存位置
+5212,source_code,app\src\main\java\io\legado\app\model\remote\RemoteBookWebDav.kt,62,,网络不可用,Mạng không khả dụng,"throw NoStackTraceException(""网络不可用"")",Chinese parts: 网络不可用
+5213,source_code,app\src\main\java\io\legado\app\model\remote\RemoteBookWebDav.kt,70,,网络不可用,Mạng không khả dụng,"throw NoStackTraceException(""网络不可用"")",Chinese parts: 网络不可用
+5214,source_code,app\src\main\java\io\legado\app\model\remote\RemoteBookWebDav.kt,86,,网络不可用,Mạng không khả dụng,"throw NoStackTraceException(""网络不可用"")",Chinese parts: 网络不可用
+5215,source_code,app\src\main\java\io\legado\app\model\rss\Rss.kt,81,,获取成功,Lấy thành công,"ug.log(rssSource.sourceUrl, ""≡获取成功:${rssSource.sourceUrl}"")",Chinese parts: 获取成功
+5216,source_code,app\src\main\java\io\legado\app\model\rss\Rss.kt,97,,检测到重定向,Đã phát hiện chuyển hướng,"ug.log(rssSource.sourceUrl, ""≡检测到重定向(${it.code})"")",Chinese parts: 检测到重定向
+5217,source_code,app\src\main\java\io\legado\app\model\rss\Rss.kt,98,,重定向后地址,Địa chỉ sau chuyển hướng,"ug.log(rssSource.sourceUrl, ""┌重定向后地址"")",Chinese parts: 重定向后地址
+5218,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,37,,获取成功,Lấy thành công,"Debug.log(sourceUrl, ""≡获取成功:$sourceUrl"")",Chinese parts: 获取成功
+5219,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,41,,列表规则为空,Quy tắc danh sách trống,"Debug.log(sourceUrl, ""⇒列表规则为空, 使用默认规则解析"")",Chinese parts: 列表规则为空
+5220,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,41,,使用默认规则解析,Sử dụng quy tắc mặc định để phân tích,"ebug.log(sourceUrl, ""⇒列表规则为空, 使用默认规则解析"")",Chinese parts: 使用默认规则解析
+5221,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,54,,获取列表,Lấy danh sách,"Debug.log(sourceUrl, ""┌获取列表"")",Chinese parts: 获取列表
+5222,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,56,,列表大小,Kích thước danh sách,"Debug.log(sourceUrl, ""└列表大小:${collections.size}"")",Chinese parts: 列表大小
+5223,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,58,,获取下一页链接,Lấy liên kết trang kế tiếp,"Debug.log(sourceUrl, ""┌获取下一页链接"")",Chinese parts: 获取下一页链接
+5224,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,107,,获取标题,Lấy tiêu đề,"Debug.log(sourceUrl, ""┌获取标题"", log)",Chinese parts: 获取标题
+5225,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,110,,获取时间,Lấy thời gian,"Debug.log(sourceUrl, ""┌获取时间"", log)",Chinese parts: 获取时间
+5226,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,113,,获取描述,Lấy mô tả,"Debug.log(sourceUrl, ""┌获取描述"", log)",Chinese parts: 获取描述
+5227,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,116,,描述规则为空,Quy tắc mô tả trống,"Debug.log(sourceUrl, ""└描述规则为空，将会解析内容页"", log)",Chinese parts: 描述规则为空
+5228,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,116,,将会解析内容页,Sẽ phân tích trang nội dung,"Debug.log(sourceUrl, ""└描述规则为空，将会解析内容页"", log)",Chinese parts: 将会解析内容页
+5229,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,121,,获取图片,Lấy hình ảnh,"Debug.log(sourceUrl, ""┌获取图片url"", log)",Chinese parts: 获取图片
+5230,source_code,app\src\main\java\io\legado\app\model\rss\RssParserByRule.kt,124,,获取文章链接,Lấy liên kết bài viết,"Debug.log(sourceUrl, ""┌获取文章链接"", log)",Chinese parts: 获取文章链接
+5231,source_code,app\src\main\java\io\legado\app\model\rss\RssParserDefault.kt,102,,获取标题,Lấy tiêu đề,"Debug.log(sourceUrl, ""┌获取标题"")",Chinese parts: 获取标题
+5232,source_code,app\src\main\java\io\legado\app\model\rss\RssParserDefault.kt,104,,获取时间,Lấy thời gian,"Debug.log(sourceUrl, ""┌获取时间"")",Chinese parts: 获取时间

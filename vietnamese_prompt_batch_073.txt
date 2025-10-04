@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3601,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[4],电量,,Array item: read_tip[4],Chinese parts: 电量
+3602,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[5],电量%,,Array item: read_tip[5],Chinese parts: 电量
+3603,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[6],页数,,Array item: read_tip[6],Chinese parts: 页数
+3604,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[7],进度(%),,Array item: read_tip[7],Chinese parts: 进度
+3605,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[8],进度(xx/yyy),,Array item: read_tip[8],Chinese parts: 进度
+3606,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[9],页数及进度,,Array item: read_tip[9],Chinese parts: 页数及进度
+3607,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[10],时间及电量,,Array item: read_tip[10],Chinese parts: 时间及电量
+3608,xml_array_item,app\src\main\res\values-zh\arrays.xml,72,read_tip[11],时间及电量%,,Array item: read_tip[11],Chinese parts: 时间及电量
+3609,xml_array_item,app\src\main\res\values-zh\arrays.xml,87,text_font_weight[0],正常,,Array item: text_font_weight[0],Chinese parts: 正常
+3610,xml_array_item,app\src\main\res\values-zh\arrays.xml,87,text_font_weight[1],粗体,,Array item: text_font_weight[1],Chinese parts: 粗体
+3611,xml_array_item,app\src\main\res\values-zh\arrays.xml,87,text_font_weight[2],细体,,Array item: text_font_weight[2],Chinese parts: 细体
+3612,xml_array_item,app\src\main\res\values-zh\arrays.xml,93,language[0],跟随系统,,Array item: language[0],Chinese parts: 跟随系统
+3613,xml_array_item,app\src\main\res\values-zh\arrays.xml,93,language[1],简体中文,,Array item: language[1],Chinese parts: 简体中文
+3614,xml_array_item,app\src\main\res\values-zh\arrays.xml,93,language[2],繁体中文,,Array item: language[2],Chinese parts: 繁体中文
+3615,xml_array_item,app\src\main\res\values-zh\arrays.xml,93,language[3],英文,,Array item: language[3],Chinese parts: 英文
+3616,xml_array_item,app\src\main\res\values-zh\arrays.xml,100,rule_type[0],书源,,Array item: rule_type[0],Chinese parts: 书源
+3617,xml_array_item,app\src\main\res\values-zh\arrays.xml,100,rule_type[1],订阅源,,Array item: rule_type[1],Chinese parts: 订阅源
+3618,xml_array_item,app\src\main\res\values-zh\arrays.xml,100,rule_type[2],替换规则,,Array item: rule_type[2],Chinese parts: 替换规则
+3619,xml_array_item,app\src\main\res\values-zh\arrays.xml,106,tip_color[0],跟随内容,,Array item: tip_color[0],Chinese parts: 跟随内容
+3620,xml_array_item,app\src\main\res\values-zh\arrays.xml,106,tip_color[1],自定义,,Array item: tip_color[1],Chinese parts: 自定义
+3621,xml_array_item,app\src\main\res\values-zh\arrays.xml,111,tip_divider_color[0],默认,,Array item: tip_divider_color[0],Chinese parts: 默认
+3622,xml_array_item,app\src\main\res\values-zh\arrays.xml,111,tip_divider_color[1],跟随内容,,Array item: tip_divider_color[1],Chinese parts: 跟随内容
+3623,xml_array_item,app\src\main\res\values-zh\arrays.xml,111,tip_divider_color[2],自定义,,Array item: tip_divider_color[2],Chinese parts: 自定义
+3624,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,4,book_type[0],文本,,Array item: book_type[0],Chinese parts: 文本
+3625,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,4,book_type[1],音頻,,Array item: book_type[1],Chinese parts: 音頻
+3626,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,4,book_type[2],图片,,Array item: book_type[2],Chinese parts: 图片
+3627,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,4,book_type[3],文件,,Array item: book_type[3],Chinese parts: 文件
+3628,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,11,group_style[0],標籤,,Array item: group_style[0],Chinese parts: 標籤
+3629,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,11,group_style[1],文件夾,,Array item: group_style[1],Chinese parts: 文件夾
+3630,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,16,theme_mode[0],跟隨系統,,Array item: theme_mode[0],Chinese parts: 跟隨系統
+3631,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,16,theme_mode[1],亮色主題,,Array item: theme_mode[1],Chinese parts: 亮色主題
+3632,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,16,theme_mode[2],暗色主題,,Array item: theme_mode[2],Chinese parts: 暗色主題
+3633,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,16,theme_mode[3],E-Ink(墨水螢幕),,Array item: theme_mode[3],Chinese parts: 墨水螢幕
+3634,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,23,NavBarColors[0],自動,,Array item: NavBarColors[0],Chinese parts: 自動
+3635,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,23,NavBarColors[1],黑色,,Array item: NavBarColors[1],Chinese parts: 黑色
+3636,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,23,NavBarColors[2],白色,,Array item: NavBarColors[2],Chinese parts: 白色
+3637,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,23,NavBarColors[3],跟隨背景,,Array item: NavBarColors[3],Chinese parts: 跟隨背景
+3638,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,30,screen_time_out[0],默認,,Array item: screen_time_out[0],Chinese parts: 默認
+3639,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,30,screen_time_out[1],1分鐘,,Array item: screen_time_out[1],Chinese parts: 分鐘
+3640,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,30,screen_time_out[2],5分鐘,,Array item: screen_time_out[2],Chinese parts: 分鐘
+3641,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,30,screen_time_out[3],10分鐘,,Array item: screen_time_out[3],Chinese parts: 分鐘
+3642,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,30,screen_time_out[4],常亮,,Array item: screen_time_out[4],Chinese parts: 常亮
+3643,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,38,chinese_mode[0],關閉,,Array item: chinese_mode[0],Chinese parts: 關閉
+3644,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,38,chinese_mode[1],繁體轉簡體,,Array item: chinese_mode[1],Chinese parts: 繁體轉簡體
+3645,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,38,chinese_mode[2],簡體轉繁體,,Array item: chinese_mode[2],Chinese parts: 簡體轉繁體
+3646,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,44,system_typefaces[0],系統默認字體,,Array item: system_typefaces[0],Chinese parts: 系統默認字體
+3647,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,44,system_typefaces[1],系統襯線字體,,Array item: system_typefaces[1],Chinese parts: 系統襯線字體
+3648,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,44,system_typefaces[2],系統等寬字體,,Array item: system_typefaces[2],Chinese parts: 系統等寬字體
+3649,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,50,read_tip[0],無,,Array item: read_tip[0],Chinese parts: 無
+3650,xml_array_item,app\src\main\res\values-zh-rHK\arrays.xml,50,read_tip[1],書名,,Array item: read_tip[1],Chinese parts: 書名

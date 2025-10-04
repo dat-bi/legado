@@ -1,0 +1,22 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4451,source_code,app\src\main\java\io\legado\app\ui\rss\article\RssSortActivity.kt,124,,中通过,thông qua,"isplayVariableComment(""源变量可在js中通过source.getVariable()获取"")",Chinese parts: 中通过
+4452,source_code,app\src\main\java\io\legado\app\ui\rss\article\RssSortActivity.kt,124,,获取,lấy,"源变量可在js中通过source.getVariable()获取"")",Chinese parts: 获取
+4453,source_code,app\src\main\java\io\legado\app\ui\rss\favorites\RssFavoritesActivity.kt,116,,订阅分组数据获取失败,Không thể tải dữ liệu nhóm đăng ký,"AppLog.put(""订阅分组数据获取失败\n${it.localizedMessage}"", it)",Chinese parts: 订阅分组数据获取失败
+4454,source_code,app\src\main\java\io\legado\app\ui\rss\favorites\RssFavoritesFragment.kt,61,,默认分组,Nhóm mặc định,"ments?.getString(""group"") ?: ""默认分组""",Chinese parts: 默认分组
+4455,source_code,app\src\main\java\io\legado\app\ui\rss\favorites\RssFavoritesFragment.kt,63,,订阅文章界面获取数据失败,Không thể tải dữ liệu giao diện bài viết đăng ký,"AppLog.put(""订阅文章界面获取数据失败\n${it.localizedMessage}"", it)",Chinese parts: 订阅文章界面获取数据失败
+4456,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,297,,不想用,Không muốn dùng,"", ""text/html"", ""utf-8"", url)//不想用baseUrl进else",Chinese parts: 不想用
+4457,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,297,,进,vào,"ml"", ""utf-8"", url)//不想用baseUrl进else",Chinese parts: 进
+4458,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,427,,黑名单规则正则语法错误,Lỗi cú pháp regex quy tắc danh sách đen,"AppLog.put(""黑名单规则正则语法错误 源名称:${source.sourceName} 正则:$",Chinese parts: 黑名单规则正则语法错误
+4459,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,427,,源名称,Tên nguồn,"AppLog.put(""黑名单规则正则语法错误 源名称:${source.sourceName} 正则:$it"",",Chinese parts: 源名称
+4460,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,427,,正则,Regex,"语法错误 源名称:${source.sourceName} 正则:$it"", e)",Chinese parts: 正则
+4461,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,439,,白名单规则正则语法错误,Lỗi cú pháp regex quy tắc danh sách trắng,"val msg = ""白名单规则正则语法错误 源名称:${source.sourceName} 正则:$",Chinese parts: 白名单规则正则语法错误
+4462,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,439,,源名称,Tên nguồn,"val msg = ""白名单规则正则语法错误 源名称:${source.sourceName} 正则:$it""",Chinese parts: 源名称
+4463,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,439,,正则,Regex,"语法错误 源名称:${source.sourceName} 正则:$it""",Chinese parts: 正则
+4464,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,486,,跳转拦截,Chặn chuyển hướng,"g.put(""${source.getTag()}: url跳转拦截js出错"", it)",Chinese parts: 跳转拦截
+4465,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,486,,出错,Lỗi,"""${source.getTag()}: url跳转拦截js出错"", it)",Chinese parts: 出错
+4466,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,489,,跳转拦截,Chặn chuyển hướng,"g.put(""${source.getTag()}: url跳转拦截js执行耗时过长"")",Chinese parts: 跳转拦截
+4467,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssActivity.kt,489,,执行耗时过长,thực thi quá lâu,"""${source.getTag()}: url跳转拦截js执行耗时过长"")",Chinese parts: 执行耗时过长
+4468,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssViewModel.kt,108,,加载正文失败,Không thể tải nội dung chính,"contentLiveData.postValue(""加载正文失败\n${it.stackTraceToString()}"")",Chinese parts: 加载正文失败
+4469,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssViewModel.kt,122,,订阅源不存在,Nguồn đăng ký không tồn tại,"appCtx.toastOnUi(""订阅源不存在"")",Chinese parts: 订阅源不存在
+4470,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssViewModel.kt,183,,保存图片失败,Không thể lưu ảnh,"context.toastOnUi(""保存图片失败:${it.localizedMessage}"")",Chinese parts: 保存图片失败
+4471,source_code,app\src\main\java\io\legado\app\ui\rss\read\ReadRssViewModel.kt,185,,保存成功,Lưu thành công,"context.toastOnUi(""保存成功"")",Chinese parts: 保存成功

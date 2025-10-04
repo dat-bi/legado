@@ -1,0 +1,25 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4551,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,95,,分组搜索结果为空,Kết quả tìm kiếm nhóm trống,"setMessage(""${searchGroup}分组搜索结果为空,是否切换到全部分组"")",Chinese parts: 分组搜索结果为空
+4552,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,95,,是否切换到全部分组,Chuyển sang tất cả nhóm?,"ssage(""${searchGroup}分组搜索结果为空,是否切换到全部分组"")",Chinese parts: 是否切换到全部分组
+4553,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,322,,单章换源获取目录出错,Lỗi khi lấy mục lục khi đổi nguồn chương đơn,"AppLog.put(""单章换源获取目录出错\n$it"", it, true)",Chinese parts: 单章换源获取目录出错
+4554,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceViewModel.kt,37,,书源不存在,Nguồn sách không tồn tại,"throw NoStackTraceException(""书源不存在"")",Chinese parts: 书源不存在
+4555,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceViewModel.kt,42,,获取正文出错,Lỗi khi lấy nội dung,"nvoke(it.localizedMessage ?: ""获取正文出错"")",Chinese parts: 获取正文出错
+4556,source_code,app\src\main\java\io\legado\app\ui\book\explore\ExploreShowViewModel.kt,46,,发现列表界面获取书籍数据失败,Lấy dữ liệu sách ở giao diện khám phá thất bại,"AppLog.put(""发现列表界面获取书籍数据失败\n${it.localizedMessage}"", it)",Chinese parts: 列表界面获取书籍数据失败
+4557,source_code,app\src\main\java\io\legado\app\ui\book\explore\ExploreShowViewModel.kt,53,,加载书架数据失败,Tải dữ liệu kệ sách thất bại,"AppLog.put(""加载书架数据失败"", it)",Chinese parts: 加载书架数据失败
+4558,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupEditDialog.kt,90,,分组名称不能为空,Tên nhóm không được để trống,"toastOnUi(""分组名称不能为空"")",Chinese parts: 分组名称不能为空
+4559,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupManageDialog.kt,80,,书籍分组管理界面获取分组数据失败,Lấy dữ liệu nhóm sách ở giao diện quản lý thất bại,"AppLog.put(""书籍分组管理界面获取分组数据失败\n${it.localizedMessage}"", it)",Chinese parts: 书籍分组管理界面获取分组数据失败
+4560,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupManageDialog.kt,99,,分组已达上限,Đã đạt giới hạn nhóm,"toastOnUi(""分组已达上限(64个)"")",Chinese parts: 分组已达上限
+4561,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupManageDialog.kt,99,,个,cái,"toastOnUi(""分组已达上限(64个)"")",Chinese parts: 个
+4562,source_code,app\src\main\java\io\legado\app\ui\book\import\BaseImportBookActivity.kt,135,,添加压缩包内指定文件到书架,Thêm tệp đã chọn trong tệp nén vào kệ sách,/* 添加压缩包内指定文件到书架 */,Chinese parts: 添加压缩包内指定文件到书架
+4563,source_code,app\src\main\java\io\legado\app\ui\book\import\BaseImportBookActivity.kt,148,,提示是否重新导入所点击的压缩文件,Hỏi có muốn nhập lại tệp nén đã chọn không,/* 提示是否重新导入所点击的压缩文件 */,Chinese parts: 提示是否重新导入所点击的压缩文件
+4564,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,318,,上传中,Đang tải lên,"waitDialog.setText(""上传中....."")",Chinese parts: 上传中
+4565,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,323,,未配置,Chưa cấu hình,"throw NoStackTraceException(""未配置webDav"")",Chinese parts: 未配置
+4566,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,528,,书源不存在,Nguồn sách không tồn tại,"toastOnUi(""书源不存在"")",Chinese parts: 书源不存在
+4567,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,532,,源变量可在,Biến nguồn có thể ở,"ce.getDisplayVariableComment(""源变量可在js中通过source.getVariable()获取"")",Chinese parts: 源变量可在
+4568,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,532,,中通过,thông qua,"isplayVariableComment(""源变量可在js中通过source.getVariable()获取"")",Chinese parts: 中通过
+4569,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,532,,获取,lấy,"源变量可在js中通过source.getVariable()获取"")",Chinese parts: 获取
+4570,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,549,,书源不存在,Nguồn sách không tồn tại,"toastOnUi(""书源不存在"")",Chinese parts: 书源不存在
+4571,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,555,,书籍变量可在,Biến sách có thể ở,"""""""书籍变量可在js中通过book.getVariable(""custom""",Chinese parts: 书籍变量可在
+4572,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,555,,中通过,thông qua,"""""""书籍变量可在js中通过book.getVariable(""custom"")获取""""",Chinese parts: 中通过
+4573,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,555,,获取,lấy,"s中通过book.getVariable(""custom"")获取""""""",Chinese parts: 获取
+4574,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,642,,解压筛选后再选择导入项,Giải nén, lọc rồi chọn mục nhập,/* 解压筛选后再选择导入项 */,Chinese parts: 解压筛选后再选择导入项

@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3301,xml_string,app\src\main\res\values-zh-rTW\strings.xml,954,scope_content,作用於正文,,String resource: scope_content,Chinese parts: 作用於正文
+3302,xml_string,app\src\main\res\values-zh-rTW\strings.xml,955,join_qq_channel,加入QQ頻道,,String resource: join_qq_channel,"Chinese parts: 加入, 頻道"
+3303,xml_string,app\src\main\res\values-zh-rTW\strings.xml,956,qq_channel_summary,點擊加入閱讀QQ頻道,,String resource: qq_channel_summary,"Chinese parts: 點擊加入閱讀, 頻道"
+3304,xml_string,app\src\main\res\values-zh-rTW\strings.xml,957,menu_refresh_dur,重新整理目前章節,,String resource: menu_refresh_dur,Chinese parts: 重新整理目前章節
+3305,xml_string,app\src\main\res\values-zh-rTW\strings.xml,958,menu_refresh_after,重新整理之後章節,,String resource: menu_refresh_after,Chinese parts: 重新整理之後章節
+3306,xml_string,app\src\main\res\values-zh-rTW\strings.xml,959,menu_refresh_all,重新整理全部章節,,String resource: menu_refresh_all,Chinese parts: 重新整理全部章節
+3307,xml_string,app\src\main\res\values-zh-rTW\strings.xml,960,edit_content,編輯內容,,String resource: edit_content,Chinese parts: 編輯內容
+3308,xml_string,app\src\main\res\values-zh-rTW\strings.xml,961,chapter_change_source,單章換源,,String resource: chapter_change_source,Chinese parts: 單章換源
+3309,xml_string,app\src\main\res\values-zh-rTW\strings.xml,962,book_change_source,整書換源,,String resource: book_change_source,Chinese parts: 整書換源
+3310,xml_string,app\src\main\res\values-zh-rTW\strings.xml,963,sort_by_time,時間排序,,String resource: sort_by_time,Chinese parts: 時間排序
+3311,xml_string,app\src\main\res\values-zh-rTW\strings.xml,964,enable_record,開啟記錄,,String resource: enable_record,Chinese parts: 開啟記錄
+3312,xml_string,app\src\main\res\values-zh-rTW\strings.xml,965,copy_all,複製所有,,String resource: copy_all,Chinese parts: 複製所有
+3313,xml_string,app\src\main\res\values-zh-rTW\strings.xml,966,auto_complete,自動補全,,String resource: auto_complete,Chinese parts: 自動補全
+3314,xml_string,app\src\main\res\values-zh-rTW\strings.xml,967,sort_by_size,大小排序,,String resource: sort_by_size,Chinese parts: 大小排序
+3315,xml_string,app\src\main\res\values-zh-rTW\strings.xml,968,welcome_style,啟動介面樣式,,String resource: welcome_style,Chinese parts: 啟動介面樣式
+3316,xml_string,app\src\main\res\values-zh-rTW\strings.xml,969,welcome_style_summary,啟動介面圖片和是否顯示文字等,,String resource: welcome_style_summary,Chinese parts: 啟動介面圖片和是否顯示文字等
+3317,xml_string,app\src\main\res\values-zh-rTW\strings.xml,970,show_welcome_text,顯示文字,,String resource: show_welcome_text,Chinese parts: 顯示文字
+3318,xml_string,app\src\main\res\values-zh-rTW\strings.xml,971,welcome_text,閱讀|享受美好時光,,String resource: welcome_text,"Chinese parts: 閱讀, 享受美好時光"
+3319,xml_string,app\src\main\res\values-zh-rTW\strings.xml,972,custom_welcome,自訂歡迎頁,,String resource: custom_welcome,Chinese parts: 自訂歡迎頁
+3320,xml_string,app\src\main\res\values-zh-rTW\strings.xml,973,custom_welcome_summary,是否使用自訂歡迎頁,,String resource: custom_welcome_summary,Chinese parts: 是否使用自訂歡迎頁
+3321,xml_string,app\src\main\res\values-zh-rTW\strings.xml,974,show_icon,顯示圖示,,String resource: show_icon,Chinese parts: 顯示圖示
+3322,xml_string,app\src\main\res\values-zh-rTW\strings.xml,975,show_default_book_icon,顯示預設書籍圖示,,String resource: show_default_book_icon,Chinese parts: 顯示預設書籍圖示
+3323,xml_string,app\src\main\res\values-zh-rTW\strings.xml,976,cache_export,快取/匯出,,String resource: cache_export,"Chinese parts: 快取, 匯出"
+3324,xml_string,app\src\main\res\values-zh-rTW\strings.xml,977,assists_key_config,輔助按鍵配置,,String resource: assists_key_config,Chinese parts: 輔助按鍵配置
+3325,xml_string,app\src\main\res\values-zh-rTW\strings.xml,978,url_option,Url參數,,String resource: url_option,Chinese parts: 參數
+3326,xml_string,app\src\main\res\values-zh-rTW\strings.xml,979,only_wifi,僅WIFI,,String resource: only_wifi,Chinese parts: 僅
+3327,xml_string,app\src\main\res\values-zh-rTW\strings.xml,980,only_wifi_summary,僅在wifi下載入網路封面,,String resource: only_wifi_summary,"Chinese parts: 僅在, 下載入網路封面"
+3328,xml_string,app\src\main\res\values-zh-rTW\strings.xml,981,cover_rule,封面規則,,String resource: cover_rule,Chinese parts: 封面規則
+3329,xml_string,app\src\main\res\values-zh-rTW\strings.xml,982,cover_rule_summary,進入詳情頁時使用封面規則重新獲取封面,,String resource: cover_rule_summary,Chinese parts: 進入詳情頁時使用封面規則重新獲取封面
+3330,xml_string,app\src\main\res\values-zh-rTW\strings.xml,983,scroll_to_dur_source,定位到目前書源,,String resource: scroll_to_dur_source,Chinese parts: 定位到目前書源
+3331,xml_string,app\src\main\res\values-zh-rTW\strings.xml,984,sys_tts_config,系統tts設定,,String resource: sys_tts_config,"Chinese parts: 系統, 設定"
+3332,xml_string,app\src\main\res\values-zh-rTW\strings.xml,985,sys_tts_config_summary,打開系統tts設定介面,,String resource: sys_tts_config_summary,"Chinese parts: 打開系統, 設定介面"
+3333,xml_string,app\src\main\res\values-zh-rTW\strings.xml,986,cannot_timed_non_playback,非播放狀態無法定時,,String resource: cannot_timed_non_playback,Chinese parts: 非播放狀態無法定時
+3334,xml_string,app\src\main\res\values-zh-rTW\strings.xml,987,all_bookmark,所有書籤,,String resource: all_bookmark,Chinese parts: 所有書籤
+3335,xml_string,app\src\main\res\values-zh-rTW\strings.xml,988,change_source_batch,批次換源,,String resource: change_source_batch,Chinese parts: 批次換源
+3336,xml_string,app\src\main\res\values-zh-rTW\strings.xml,989,book_type_different,書籍類型不一樣,,String resource: book_type_different,Chinese parts: 書籍類型不一樣
+3337,xml_string,app\src\main\res\values-zh-rTW\strings.xml,990,soure_change_source,是否確認換源,,String resource: soure_change_source,Chinese parts: 是否確認換源
+3338,xml_string,app\src\main\res\values-zh-rTW\strings.xml,991,input_verification_code,輸入驗證碼,,String resource: input_verification_code,Chinese parts: 輸入驗證碼
+3339,xml_string,app\src\main\res\values-zh-rTW\strings.xml,992,verification_code,驗證碼,,String resource: verification_code,Chinese parts: 驗證碼
+3340,xml_string,app\src\main\res\values-zh-rTW\strings.xml,993,timeout_millisecond,超時毫秒數,,String resource: timeout_millisecond,Chinese parts: 超時毫秒數
+3341,xml_string,app\src\main\res\values-zh-rTW\strings.xml,994,file_not_supported,文件%1$s 不受支援，是否繼續打開？,,String resource: file_not_supported,"Chinese parts: 文件, 不受支援, 是否繼續打開"
+3342,xml_string,app\src\main\res\values-zh-rTW\strings.xml,995,import_tts,匯入TTS,,String resource: import_tts,Chinese parts: 匯入
+3343,xml_string,app\src\main\res\values-zh-rTW\strings.xml,996,import_theme,匯入主題,,String resource: import_theme,Chinese parts: 匯入主題
+3344,xml_string,app\src\main\res\values-zh-rTW\strings.xml,997,import_txt_toc_rule,匯入txt目錄規則,,String resource: import_txt_toc_rule,"Chinese parts: 匯入, 目錄規則"
+3345,xml_string,app\src\main\res\values-zh-rTW\strings.xml,999,cookie,清除cookie,,String resource: cookie,Chinese parts: 清除
+3346,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1000,download_and_import_file,匯入線上書籍文件,,String resource: download_and_import_file,Chinese parts: 匯入線上書籍文件
+3347,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1001,upload_book_success,上傳成功,,String resource: upload_book_success,Chinese parts: 上傳成功
+3348,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1002,upload_book_fail,上傳失敗,,String resource: upload_book_fail,Chinese parts: 上傳失敗
+3349,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1003,download_book_success,下載成功,,String resource: download_book_success,Chinese parts: 下載成功
+3350,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1004,download_book_fail,下載失敗,,String resource: download_book_fail,Chinese parts: 下載失敗

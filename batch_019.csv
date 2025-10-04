@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+901,xml_string,app\src\main\res\values-zh\strings.xml,929,see,查看,,String resource: see,Chinese parts: 查看
+902,xml_string,app\src\main\res\values-zh\strings.xml,930,open,打开,,String resource: open,Chinese parts: 打开
+903,xml_string,app\src\main\res\values-zh\strings.xml,931,del_login_header,删除登录头,,String resource: del_login_header,Chinese parts: 删除登录头
+904,xml_string,app\src\main\res\values-zh\strings.xml,932,show_login_header,查看登录头,,String resource: show_login_header,Chinese parts: 查看登录头
+905,xml_string,app\src\main\res\values-zh\strings.xml,933,login_header,登录头,,String resource: login_header,Chinese parts: 登录头
+906,xml_string,app\src\main\res\values-zh\strings.xml,934,font_scale,字体大小,,String resource: font_scale,Chinese parts: 字体大小
+907,xml_string,app\src\main\res\values-zh\strings.xml,935,font_scale_summary,当前字体大小：%.1f,,String resource: font_scale_summary,Chinese parts: 当前字体大小
+908,xml_string,app\src\main\res\values-zh\strings.xml,936,tts_speech_reduce,语速减,,String resource: tts_speech_reduce,Chinese parts: 语速减
+909,xml_string,app\src\main\res\values-zh\strings.xml,937,tts_speech_add,语速加,,String resource: tts_speech_add,Chinese parts: 语速加
+910,xml_string,app\src\main\res\values-zh\strings.xml,938,open_sys_dir_picker_error,打开系统文件夹选择器出错，将自动打开应用文件夹选择器,,String resource: open_sys_dir_picker_error,"Chinese parts: 打开系统文件夹选择器出错, 将自动打开应用文件夹选择器"
+911,xml_string,app\src\main\res\values-zh\strings.xml,939,open_sys_doc_picker_error,打开系统文件选择器出错，将自动打开应用文件选择器,,String resource: open_sys_doc_picker_error,"Chinese parts: 打开系统文件选择器出错, 将自动打开应用文件选择器"
+912,xml_string,app\src\main\res\values-zh\strings.xml,940,expand_text_menu,展开文本选择菜单,,String resource: expand_text_menu,Chinese parts: 展开文本选择菜单
+913,xml_string,app\src\main\res\values-zh\strings.xml,941,book_tree_uri_t,书籍保存位置,,String resource: book_tree_uri_t,Chinese parts: 书籍保存位置
+914,xml_string,app\src\main\res\values-zh\strings.xml,942,book_tree_uri_s,从其它应用打开的书籍保存位置,,String resource: book_tree_uri_s,Chinese parts: 从其它应用打开的书籍保存位置
+915,xml_string,app\src\main\res\values-zh\strings.xml,943,select_book_folder,选择保存书籍的文件夹,,String resource: select_book_folder,Chinese parts: 选择保存书籍的文件夹
+916,xml_string,app\src\main\res\values-zh\strings.xml,944,user_agent,用户代理,,String resource: user_agent,Chinese parts: 用户代理
+917,xml_string,app\src\main\res\values-zh\strings.xml,945,bg_alpha,背景透明度,,String resource: bg_alpha,Chinese parts: 背景透明度
+918,xml_string,app\src\main\res\values-zh\strings.xml,948,check_source_config,校验设置,,String resource: check_source_config,Chinese parts: 校验设置
+919,xml_string,app\src\main\res\values-zh\strings.xml,949,check_source_item,校验项目,,String resource: check_source_item,Chinese parts: 校验项目
+920,xml_string,app\src\main\res\values-zh\strings.xml,950,check_source_timeout,单个书源校验超时（秒）,,String resource: check_source_timeout,"Chinese parts: 单个书源校验超时, 秒"
+921,xml_string,app\src\main\res\values-zh\strings.xml,951,timeout,超时,,String resource: timeout,Chinese parts: 超时
+922,xml_string,app\src\main\res\values-zh\strings.xml,952,seconds,秒,,String resource: seconds,Chinese parts: 秒
+923,xml_string,app\src\main\res\values-zh\strings.xml,953,less_than,小于,,String resource: less_than,Chinese parts: 小于
+924,xml_string,app\src\main\res\values-zh\strings.xml,954,check_source_config_summary,校验超时：%1$s秒\n校验项目：%2$s,,String resource: check_source_config_summary,"Chinese parts: 校验超时, 秒, 校验项目"
+925,xml_string,app\src\main\res\values-zh\strings.xml,955,record_debug_log,记录调试日志,,String resource: record_debug_log,Chinese parts: 记录调试日志
+926,xml_string,app\src\main\res\values-zh\strings.xml,956,sub_dir,子文件夹,,String resource: sub_dir,Chinese parts: 子文件夹
+927,xml_string,app\src\main\res\values-zh\strings.xml,957,general,全局,,String resource: general,Chinese parts: 全局
+928,xml_string,app\src\main\res\values-zh\strings.xml,958,use_replace,使用替换,,String resource: use_replace,Chinese parts: 使用替换
+929,xml_string,app\src\main\res\values-zh\strings.xml,959,scope_title,作用于标题,,String resource: scope_title,Chinese parts: 作用于标题
+930,xml_string,app\src\main\res\values-zh\strings.xml,960,scope_content,作用于正文,,String resource: scope_content,Chinese parts: 作用于正文
+931,xml_string,app\src\main\res\values-zh\strings.xml,961,join_qq_channel,加入 QQ 频道,,String resource: join_qq_channel,"Chinese parts: 加入, 频道"
+932,xml_string,app\src\main\res\values-zh\strings.xml,962,qq_channel_summary,点击加入阅读 QQ 频道,,String resource: qq_channel_summary,"Chinese parts: 点击加入阅读, 频道"
+933,xml_string,app\src\main\res\values-zh\strings.xml,963,menu_refresh_dur,刷新当前章节,,String resource: menu_refresh_dur,Chinese parts: 刷新当前章节
+934,xml_string,app\src\main\res\values-zh\strings.xml,964,menu_refresh_after,刷新之后章节,,String resource: menu_refresh_after,Chinese parts: 刷新之后章节
+935,xml_string,app\src\main\res\values-zh\strings.xml,965,menu_refresh_all,刷新全部章节,,String resource: menu_refresh_all,Chinese parts: 刷新全部章节
+936,xml_string,app\src\main\res\values-zh\strings.xml,966,edit_content,编辑内容,,String resource: edit_content,Chinese parts: 编辑内容
+937,xml_string,app\src\main\res\values-zh\strings.xml,967,chapter_change_source,单章换源,,String resource: chapter_change_source,Chinese parts: 单章换源
+938,xml_string,app\src\main\res\values-zh\strings.xml,968,book_change_source,整书换源,,String resource: book_change_source,Chinese parts: 整书换源
+939,xml_string,app\src\main\res\values-zh\strings.xml,969,sort_by_time,时间排序,,String resource: sort_by_time,Chinese parts: 时间排序
+940,xml_string,app\src\main\res\values-zh\strings.xml,970,enable_record,开启记录,,String resource: enable_record,Chinese parts: 开启记录
+941,xml_string,app\src\main\res\values-zh\strings.xml,971,copy_all,拷贝所有,,String resource: copy_all,Chinese parts: 拷贝所有
+942,xml_string,app\src\main\res\values-zh\strings.xml,972,auto_complete,自动补全,,String resource: auto_complete,Chinese parts: 自动补全
+943,xml_string,app\src\main\res\values-zh\strings.xml,973,sort_by_size,大小排序,,String resource: sort_by_size,Chinese parts: 大小排序
+944,xml_string,app\src\main\res\values-zh\strings.xml,974,welcome_style,启动界面样式,,String resource: welcome_style,Chinese parts: 启动界面样式
+945,xml_string,app\src\main\res\values-zh\strings.xml,975,welcome_style_summary,启动界面图片和是否显示文字等,,String resource: welcome_style_summary,Chinese parts: 启动界面图片和是否显示文字等
+946,xml_string,app\src\main\res\values-zh\strings.xml,976,show_welcome_text,显示文字,,String resource: show_welcome_text,Chinese parts: 显示文字
+947,xml_string,app\src\main\res\values-zh\strings.xml,977,welcome_text,阅读|享受美好时光,,String resource: welcome_text,"Chinese parts: 阅读, 享受美好时光"
+948,xml_string,app\src\main\res\values-zh\strings.xml,978,custom_welcome,自定义欢迎页,,String resource: custom_welcome,Chinese parts: 自定义欢迎页
+949,xml_string,app\src\main\res\values-zh\strings.xml,979,custom_welcome_summary,是否使用自定义欢迎页,,String resource: custom_welcome_summary,Chinese parts: 是否使用自定义欢迎页
+950,xml_string,app\src\main\res\values-zh\strings.xml,980,show_icon,显示图标,,String resource: show_icon,Chinese parts: 显示图标

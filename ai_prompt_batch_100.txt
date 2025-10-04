@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4951,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,424,,请改为规范格式,,"ebug.log(""≡@put 规则 JSON 格式不规范，请改为规范格式"")",Chinese parts: 请改为规范格式
+4952,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,442,,获取第一个匹配到的结果并进行替换,,/* ##match##replace### 获取第一个匹配到的结果并进行替换 */,Chinese parts: 获取第一个匹配到的结果并进行替换
+4953,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,454,,替换,,/* ##match##replace 替换*/,Chinese parts: 替换
+4954,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,573,,特征很明显,,"tr.startsWith(""/"") -> {//XPath特征很明显,无需配置单独的识别标头",Chinese parts: 特征很明显
+4955,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,573,,无需配置单独的识别标头,,"rtsWith(""/"") -> {//XPath特征很明显,无需配置单独的识别标头",Chinese parts: 无需配置单独的识别标头
+4956,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,722,,首个字符不可能是,,n ruleStr.startsWith('@') //js首个字符不可能是@，除非是装饰器，所以@开头规定为规则,Chinese parts: 首个字符不可能是
+4957,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,722,,除非是装饰器,,startsWith('@') //js首个字符不可能是@，除非是装饰器，所以@开头规定为规则,Chinese parts: 除非是装饰器
+4958,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,722,,所以,,ith('@') //js首个字符不可能是@，除非是装饰器，所以@开头规定为规则,Chinese parts: 所以
+4959,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,722,,开头规定为规则,,('@') //js首个字符不可能是@，除非是装饰器，所以@开头规定为规则,Chinese parts: 开头规定为规则
+4960,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,843,,只能在,,"throw NoStackTraceException(""只能在 preUpdateJs 中调用"")",Chinese parts: 只能在
+4961,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,843,,中调用,,"aceException(""只能在 preUpdateJs 中调用"")",Chinese parts: 中调用
+4962,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,865,,只能在,,"throw NoStackTraceException(""只能在 preUpdateJs 中调用"")",Chinese parts: 只能在
+4963,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeRule.kt,865,,中调用,,"aceException(""只能在 preUpdateJs 中调用"")",Chinese parts: 中调用
+4964,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,180,,先替换内嵌规则再替换页数规则,,te fun replaceKeyPageJs() { //先替换内嵌规则再替换页数规则，避免内嵌规则中存在大于小于号时，规则被切错,Chinese parts: 先替换内嵌规则再替换页数规则
+4965,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,180,,避免内嵌规则中存在大于小于号时,,eyPageJs() { //先替换内嵌规则再替换页数规则，避免内嵌规则中存在大于小于号时，规则被切错,Chinese parts: 避免内嵌规则中存在大于小于号时
+4966,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,180,,规则被切错,,替换内嵌规则再替换页数规则，避免内嵌规则中存在大于小于号时，规则被切错,Chinese parts: 规则被切错
+4967,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,183,,创建解析,,yze = RuleAnalyzer(ruleUrl) //创建解析,Chinese parts: 创建解析
+4968,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,200,,等同于,,ize) { //pages[pages.size - 1]等同于pages.last(),Chinese parts: 等同于
+4969,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,227,,链接参数,,"log(""链接参数 JSON 格式不规范，请改为规范格式"")",Chinese parts: 链接参数
+4970,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,227,,格式不规范,,"log(""链接参数 JSON 格式不规范，请改为规范格式"")",Chinese parts: 格式不规范
+4971,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,227,,请改为规范格式,,"log(""链接参数 JSON 格式不规范，请改为规范格式"")",Chinese parts: 请改为规范格式
+4972,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,606,,每次调用,,/* 每次调用getXX cookieJar已经保存过了,Chinese parts: 每次调用
+4973,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeUrl.kt,606,,已经保存过了,,/* 每次调用getXX cookieJar已经保存过了,Chinese parts: 已经保存过了
+4974,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,6,,被处理字符串,,te var queue: String = data //被处理字符串,Chinese parts: 被处理字符串
+4975,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,7,,当前处理到的位置,,private var pos = 0 //当前处理到的位置,Chinese parts: 当前处理到的位置
+4976,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,8,,当前处理字段的开始,,private var start = 0 //当前处理字段的开始,Chinese parts: 当前处理字段的开始
+4977,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,9,,当前规则的开始,,private var startX = 0 //当前规则的开始,Chinese parts: 当前规则的开始
+4978,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,11,,分割出的规则列表,,rule = ArrayList<String>()  //分割出的规则列表,Chinese parts: 分割出的规则列表
+4979,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,12,,分割字符的长度,,private var step: Int = 0 //分割字符的长度,Chinese parts: 分割字符的长度
+4980,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,13,,当前分割字符串,,"var elementsType = """" //当前分割字符串",Chinese parts: 当前分割字符串
+4981,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,15,,修剪当前规则之前的,,"fun trim() { // 修剪当前规则之前的""@""或者空白符",Chinese parts: 修剪当前规则之前的
+4982,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,15,,或者空白符,,"fun trim() { // 修剪当前规则之前的""@""或者空白符",Chinese parts: 或者空白符
+4983,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,16,,在,,'@' || queue[pos] < '!') { //在while里重复设置start和startX会拖慢执行速度，,Chinese parts: 在
+4984,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,16,,里重复设置,,| queue[pos] < '!') { //在while里重复设置start和startX会拖慢执行速度，所以先来个判断是否存,Chinese parts: 里重复设置
+4985,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,16,,和,,s] < '!') { //在while里重复设置start和startX会拖慢执行速度，所以先来个判断是否存在需要修剪的,Chinese parts: 和
+4986,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,16,,会拖慢执行速度,,') { //在while里重复设置start和startX会拖慢执行速度，所以先来个判断是否存在需要修剪的字段，最后再一次性设置st,Chinese parts: 会拖慢执行速度
+4987,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,16,,所以先来个判断是否存在需要修剪的字段,,while里重复设置start和startX会拖慢执行速度，所以先来个判断是否存在需要修剪的字段，最后再一次性设置start和startX,Chinese parts: 所以先来个判断是否存在需要修剪的字段
+4988,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,16,,最后再一次性设置,,rtX会拖慢执行速度，所以先来个判断是否存在需要修剪的字段，最后再一次性设置start和startX,Chinese parts: 最后再一次性设置
+4989,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,16,,和,,先来个判断是否存在需要修剪的字段，最后再一次性设置start和startX,Chinese parts: 和
+4990,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,19,,开始点推移,,start = pos //开始点推移,Chinese parts: 开始点推移
+4991,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,20,,规则起始点推移,,startX = pos //规则起始点推移,Chinese parts: 规则起始点推移
+4992,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,36,,将处理到的位置设置为规则起点,,start = pos //将处理到的位置设置为规则起点,Chinese parts: 将处理到的位置设置为规则起点
+4993,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,51,,声明新变量记录匹配位置,,var pos = pos //声明新变量记录匹配位置，不更改类本身的位置,Chinese parts: 声明新变量记录匹配位置
+4994,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,51,,不更改类本身的位置,,var pos = pos //声明新变量记录匹配位置，不更改类本身的位置,Chinese parts: 不更改类本身的位置
+4995,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,57,,间隔数,,step = s.length //间隔数,Chinese parts: 间隔数
+4996,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,58,,匹配成功,,"this.pos = pos //匹配成功, 同步处理位置到类",Chinese parts: 匹配成功
+4997,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,58,,同步处理位置到类,,"this.pos = pos //匹配成功, 同步处理位置到类",Chinese parts: 同步处理位置到类
+4998,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,59,,匹配就返回,,return true //匹配就返回 true,Chinese parts: 匹配就返回
+4999,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,63,,逐个试探,,pos++ //逐个试探,Chinese parts: 逐个试探
+5000,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,75,,声明新变量记录匹配位置,,var pos = pos //声明新变量记录匹配位置，不更改类本身的位置,Chinese parts: 声明新变量记录匹配位置

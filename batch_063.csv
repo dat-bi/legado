@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3101,xml_string,app\src\main\res\values-zh-rTW\strings.xml,752,restore_ignore,復原忽略列表,,String resource: restore_ignore,Chinese parts: 復原忽略列表
+3102,xml_string,app\src\main\res\values-zh-rTW\strings.xml,753,restore_ignore_summary,復原時忽略一些內容不復原，方便不同手機配置不同,,String resource: restore_ignore_summary,"Chinese parts: 復原時忽略一些內容不復原, 方便不同手機配置不同"
+3103,xml_string,app\src\main\res\values-zh-rTW\strings.xml,754,read_config,閱讀介面設定,,String resource: read_config,Chinese parts: 閱讀介面設定
+3104,xml_string,app\src\main\res\values-zh-rTW\strings.xml,755,group_name,分組名稱,,String resource: group_name,Chinese parts: 分組名稱
+3105,xml_string,app\src\main\res\values-zh-rTW\strings.xml,756,note_content,備註內容,,String resource: note_content,Chinese parts: 備註內容
+3106,xml_string,app\src\main\res\values-zh-rTW\strings.xml,757,replace_enable_default_t,預設啟用取代淨化,,String resource: replace_enable_default_t,Chinese parts: 預設啟用取代淨化
+3107,xml_string,app\src\main\res\values-zh-rTW\strings.xml,758,replace_enable_default_s,新加入書架的書是否啟用取代淨化,,String resource: replace_enable_default_s,Chinese parts: 新加入書架的書是否啟用取代淨化
+3108,xml_string,app\src\main\res\values-zh-rTW\strings.xml,759,select_restore_file,選擇復原文件,,String resource: select_restore_file,Chinese parts: 選擇復原文件
+3109,xml_string,app\src\main\res\values-zh-rTW\strings.xml,760,day_background_too_dark,白天背景不能太暗,,String resource: day_background_too_dark,Chinese parts: 白天背景不能太暗
+3110,xml_string,app\src\main\res\values-zh-rTW\strings.xml,761,day_bottom_bar_too_dark,白天底欄不能太暗,,String resource: day_bottom_bar_too_dark,Chinese parts: 白天底欄不能太暗
+3111,xml_string,app\src\main\res\values-zh-rTW\strings.xml,762,night_background_too_light,夜間背景不能太亮,,String resource: night_background_too_light,Chinese parts: 夜間背景不能太亮
+3112,xml_string,app\src\main\res\values-zh-rTW\strings.xml,763,night_bottom_bar_too_light,夜間底欄不能太亮,,String resource: night_bottom_bar_too_light,Chinese parts: 夜間底欄不能太亮
+3113,xml_string,app\src\main\res\values-zh-rTW\strings.xml,764,accent_background_diff,強調色不能和背景顏色相似,,String resource: accent_background_diff,Chinese parts: 強調色不能和背景顏色相似
+3114,xml_string,app\src\main\res\values-zh-rTW\strings.xml,765,accent_text_diff,強調色不能和文字顏色相似,,String resource: accent_text_diff,Chinese parts: 強調色不能和文字顏色相似
+3115,xml_string,app\src\main\res\values-zh-rTW\strings.xml,766,wrong_format,格式不對,,String resource: wrong_format,Chinese parts: 格式不對
+3116,xml_string,app\src\main\res\values-zh-rTW\strings.xml,767,error,錯誤,,String resource: error,Chinese parts: 錯誤
+3117,xml_string,app\src\main\res\values-zh-rTW\strings.xml,768,show_brightness_view,顯示亮度調節控制項,,String resource: show_brightness_view,Chinese parts: 顯示亮度調節控制項
+3118,xml_string,app\src\main\res\values-zh-rTW\strings.xml,769,language,語言,,String resource: language,Chinese parts: 語言
+3119,xml_string,app\src\main\res\values-zh-rTW\strings.xml,770,import_rss_source,匯入訂閱源,,String resource: import_rss_source,Chinese parts: 匯入訂閱源
+3120,xml_string,app\src\main\res\values-zh-rTW\strings.xml,771,donate_summary,您的支援是我更新的動力,,String resource: donate_summary,Chinese parts: 您的支援是我更新的動力
+3121,xml_string,app\src\main\res\values-zh-rTW\strings.xml,772,about_summary,公眾號[开源阅读软件],,String resource: about_summary,"Chinese parts: 公眾號, 开源阅读软件"
+3122,xml_string,app\src\main\res\values-zh-rTW\strings.xml,773,read_record,閱讀記錄,,String resource: read_record,Chinese parts: 閱讀記錄
+3123,xml_string,app\src\main\res\values-zh-rTW\strings.xml,774,del_read_record,刪除閲讀記錄,,String resource: del_read_record,Chinese parts: 刪除閲讀記錄
+3124,xml_string,app\src\main\res\values-zh-rTW\strings.xml,775,read_record_summary,閱讀時間記錄,,String resource: read_record_summary,Chinese parts: 閱讀時間記錄
+3125,xml_string,app\src\main\res\values-zh-rTW\strings.xml,776,local_tts,本機TTS,,String resource: local_tts,Chinese parts: 本機
+3126,xml_string,app\src\main\res\values-zh-rTW\strings.xml,777,thread_count,執行緒數,,String resource: thread_count,Chinese parts: 執行緒數
+3127,xml_string,app\src\main\res\values-zh-rTW\strings.xml,778,all_read_time,總閱讀時間,,String resource: all_read_time,Chinese parts: 總閱讀時間
+3128,xml_string,app\src\main\res\values-zh-rTW\strings.xml,779,un_select_all,全不選,,String resource: un_select_all,Chinese parts: 全不選
+3129,xml_string,app\src\main\res\values-zh-rTW\strings.xml,780,import_str,匯入,,String resource: import_str,Chinese parts: 匯入
+3130,xml_string,app\src\main\res\values-zh-rTW\strings.xml,781,export_str,匯出,,String resource: export_str,Chinese parts: 匯出
+3131,xml_string,app\src\main\res\values-zh-rTW\strings.xml,782,save_theme_config,儲存主題配置,,String resource: save_theme_config,Chinese parts: 儲存主題配置
+3132,xml_string,app\src\main\res\values-zh-rTW\strings.xml,783,save_day_theme_summary,儲存白天主題配置以供呼叫和分享,,String resource: save_day_theme_summary,Chinese parts: 儲存白天主題配置以供呼叫和分享
+3133,xml_string,app\src\main\res\values-zh-rTW\strings.xml,784,save_night_theme_summary,儲存夜間主題配置以供呼叫和分享,,String resource: save_night_theme_summary,Chinese parts: 儲存夜間主題配置以供呼叫和分享
+3134,xml_string,app\src\main\res\values-zh-rTW\strings.xml,785,theme_list,主題列表,,String resource: theme_list,Chinese parts: 主題列表
+3135,xml_string,app\src\main\res\values-zh-rTW\strings.xml,786,theme_list_summary,使用儲存主題，匯入、分享主題,,String resource: theme_list_summary,"Chinese parts: 使用儲存主題, 匯入, 分享主題"
+3136,xml_string,app\src\main\res\values-zh-rTW\strings.xml,787,select_theme,切換預設主題,,String resource: select_theme,Chinese parts: 切換預設主題
+3137,xml_string,app\src\main\res\values-zh-rTW\strings.xml,788,sort_by_lastUpdateTime,更新時間排序,,String resource: sort_by_lastUpdateTime,Chinese parts: 更新時間排序
+3138,xml_string,app\src\main\res\values-zh-rTW\strings.xml,789,search_content,全文搜尋,,String resource: search_content,Chinese parts: 全文搜尋
+3139,xml_string,app\src\main\res\values-zh-rTW\strings.xml,790,rss_source_empty,這裡目前什麼都沒有！,,String resource: rss_source_empty,Chinese parts: 這裡目前什麼都沒有
+3140,xml_string,app\src\main\res\values-zh-rTW\strings.xml,791,explore_empty,目前沒有發現源！,,String resource: explore_empty,Chinese parts: 目前沒有發現源
+3141,xml_string,app\src\main\res\values-zh-rTW\strings.xml,792,page_key_set_help,將焦點放到輸入框按下物理按鍵會自動輸入鍵值，多個按鍵會自動用英文逗號隔開。,,String resource: page_key_set_help,"Chinese parts: 將焦點放到輸入框按下物理按鍵會自動輸入鍵值, 多個按鍵會自動用英文逗號隔開"
+3142,xml_string,app\src\main\res\values-zh-rTW\strings.xml,793,theme_name,主題名稱,,String resource: theme_name,Chinese parts: 主題名稱
+3143,xml_string,app\src\main\res\values-zh-rTW\strings.xml,794,auto_clear_expired,自動清除過期搜尋資料,,String resource: auto_clear_expired,Chinese parts: 自動清除過期搜尋資料
+3144,xml_string,app\src\main\res\values-zh-rTW\strings.xml,795,auto_clear_expired_summary,超過一天的搜尋資料,,String resource: auto_clear_expired_summary,Chinese parts: 超過一天的搜尋資料
+3145,xml_string,app\src\main\res\values-zh-rTW\strings.xml,796,re_segment,重新分段,,String resource: re_segment,Chinese parts: 重新分段
+3146,xml_string,app\src\main\res\values-zh-rTW\strings.xml,797,style_name,樣式名稱：,,String resource: style_name,Chinese parts: 樣式名稱
+3147,xml_string,app\src\main\res\values-zh-rTW\strings.xml,798,empty_msg_import_book,點擊右上角資料夾圖示，選擇資料夾,,String resource: empty_msg_import_book,"Chinese parts: 點擊右上角資料夾圖示, 選擇資料夾"
+3148,xml_string,app\src\main\res\values-zh-rTW\strings.xml,799,scan_folder,智慧掃描,,String resource: scan_folder,Chinese parts: 智慧掃描
+3149,xml_string,app\src\main\res\values-zh-rTW\strings.xml,800,import_file_name,匯入檔案名,,String resource: import_file_name,Chinese parts: 匯入檔案名
+3150,xml_string,app\src\main\res\values-zh-rTW\strings.xml,801,copy_book_url,複製書籍URL,,String resource: copy_book_url,Chinese parts: 複製書籍

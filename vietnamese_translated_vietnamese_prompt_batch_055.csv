@@ -1,0 +1,25 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2701,xml_string,app\src\main\res\values-zh-rTW\strings.xml,336,new_version,新版本,Phiên bản mới,String resource: new_version,Chinese parts: 新版本
+2702,xml_string,app\src\main\res\values-zh-rTW\strings.xml,337,download_update,下載更新,Tải cập nhật,String resource: download_update,Chinese parts: 下載更新
+2703,xml_string,app\src\main\res\values-zh-rTW\strings.xml,338,volume_key_page_on_play,朗讀時音量鍵翻頁,Dùng phím âm lượng lật trang khi đọc to,String resource: volume_key_page_on_play,Chinese parts: 朗讀時音量鍵翻頁
+2704,xml_string,app\src\main\res\values-zh-rTW\strings.xml,339,tip_margin_change,Tip邊距跟隨邊距調整,Lề gợi ý theo lề chung,String resource: tip_margin_change,Chinese parts: 邊距跟隨邊距調整
+2705,xml_string,app\src\main\res\values-zh-rTW\strings.xml,340,allow_update,允許更新,Cho phép cập nhật,String resource: allow_update,Chinese parts: 允許更新
+2706,xml_string,app\src\main\res\values-zh-rTW\strings.xml,341,disable_update,禁止更新,Tắt cập nhật,String resource: disable_update,Chinese parts: 禁止更新
+2707,xml_string,app\src\main\res\values-zh-rTW\strings.xml,342,split_long_chapter,分割超長章節,Chia chương quá dài,String resource: split_long_chapter,Chinese parts: 分割超長章節
+2708,xml_string,app\src\main\res\values-zh-rTW\strings.xml,343,need_more_time_load_content,正文長度過長時，載入正文可能會花費更多時間,Khi nội dung quá dài, việc tải có thể mất nhiều thời gian hơn,String resource: need_more_time_load_content,"Chinese parts: 正文長度過長時, 載入正文可能會花費更多時間"
+2709,xml_string,app\src\main\res\values-zh-rTW\strings.xml,344,revert_selection,反選,Đảo ngược lựa chọn,String resource: revert_selection,Chinese parts: 反選
+2710,xml_string,app\src\main\res\values-zh-rTW\strings.xml,345,search_book_key,搜尋書名、作者,Tìm kiếm tên sách, tác giả,String resource: search_book_key,"Chinese parts: 搜尋書名, 作者"
+2711,xml_string,app\src\main\res\values-zh-rTW\strings.xml,346,debug_hint,書名、作者、URL,Tên sách, tác giả, URL,String resource: debug_hint,"Chinese parts: 書名, 作者"
+2712,xml_string,app\src\main\res\values-zh-rTW\strings.xml,347,faq,常見問題,Câu hỏi thường gặp,String resource: faq,Chinese parts: 常見問題
+2713,xml_string,app\src\main\res\values-zh-rTW\strings.xml,348,pt_show_all_find,顯示所有發現,Hiển thị tất cả kết quả,String resource: pt_show_all_find,Chinese parts: 顯示所有發現
+2714,xml_string,app\src\main\res\values-zh-rTW\strings.xml,349,ps_show_all_find,關閉則只顯示勾選源的發現,Tắt để chỉ hiển thị kết quả từ nguồn đã chọn,String resource: ps_show_all_find,Chinese parts: 關閉則只顯示勾選源的發現
+2715,xml_string,app\src\main\res\values-zh-rTW\strings.xml,350,update_toc,更新目錄,Cập nhật mục lục,String resource: update_toc,Chinese parts: 更新目錄
+2716,xml_string,app\src\main\res\values-zh-rTW\strings.xml,351,txt_toc_rule,TXT 目錄規則,Quy tắc mục lục TXT,String resource: txt_toc_rule,Chinese parts: 目錄規則
+2717,xml_string,app\src\main\res\values-zh-rTW\strings.xml,352,set_charset,設定編碼,Thiết lập mã hóa,String resource: set_charset,Chinese parts: 設定編碼
+2718,xml_string,app\src\main\res\values-zh-rTW\strings.xml,353,swap_sort,倒序-順序,Đảo ngược - Xuôi,String resource: swap_sort,"Chinese parts: 倒序, 順序"
+2719,xml_string,app\src\main\res\values-zh-rTW\strings.xml,354,sort,排序,Sắp xếp,String resource: sort,Chinese parts: 排序
+2720,xml_string,app\src\main\res\values-zh-rTW\strings.xml,355,sort_auto,智慧排序,Sắp xếp thông minh,String resource: sort_auto,Chinese parts: 智慧排序
+2721,xml_string,app\src\main\res\values-zh-rTW\strings.xml,356,sort_default,默認排序,Sắp xếp mặc định,String resource: sort_default,Chinese parts: 默認排序
+2722,xml_string,app\src\main\res\values-zh-rTW\strings.xml,357,sort_manual,手動排序,Sắp xếp thủ công,String resource: sort_manual,Chinese parts: 手動排序
+2723,xml_string,app\src\main\res\values-zh-rTW\strings.xml,358,sort_by_name,名稱排序,Sắp xếp theo tên,String resource: sort_by_name,Chinese parts: 名稱排序
+2724,xml_string,app\src\main\res\values-zh-rTW\strings.xml,359,go_to_top,滾動到頂部,Cuộn lên đầu,String resource: go_to_top,Chinese parts: 滾動到頂部

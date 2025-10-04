@@ -1,0 +1,14 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2451,xml_string,app\src\main\res\values-zh-rTW\strings.xml,81,book_name,書名,Tên sách,String resource: book_name,Chinese parts: 書名
+2452,xml_string,app\src\main\res\values-zh-rTW\strings.xml,82,lasted_show,最新：%s,Mới nhất: %s,String resource: lasted_show,Chinese parts: 最新
+2453,xml_string,app\src\main\res\values-zh-rTW\strings.xml,83,check_add_bookshelf,是否將《%s》放入書架？,Thêm "%s" vào Kệ sách?,String resource: check_add_bookshelf,"Chinese parts: 是否將, 放入書架"
+2454,xml_string,app\src\main\res\values-zh-rTW\strings.xml,84,import_books_count,共%s個Text文件,Tổng %s tệp văn bản,String resource: import_books_count,"Chinese parts: 共, 個, 文件"
+2455,xml_string,app\src\main\res\values-zh-rTW\strings.xml,85,is_loading,載入中…,Đang tải...,String resource: is_loading,Chinese parts: 載入中
+2456,xml_string,app\src\main\res\values-zh-rTW\strings.xml,86,retry,重試,Thử lại,String resource: retry,Chinese parts: 重試
+2457,xml_string,app\src\main\res\values-zh-rTW\strings.xml,87,web_service,Web 服務,Dịch vụ Web,String resource: web_service,Chinese parts: 服務
+2458,xml_string,app\src\main\res\values-zh-rTW\strings.xml,88,web_service_desc,瀏覽器寫源、看書,Viết nguồn sách, đọc sách qua trình duyệt,String resource: web_service_desc,"Chinese parts: 瀏覽器寫源, 看書"
+2459,xml_string,app\src\main\res\values-zh-rTW\strings.xml,89,web_edit_source,web編輯書源,Chỉnh sửa nguồn sách qua web,String resource: web_edit_source,Chinese parts: 編輯書源
+2460,xml_string,app\src\main\res\values-zh-rTW\strings.xml,90,offline_cache,離線快取,Bộ nhớ đệm ngoại tuyến,String resource: offline_cache,Chinese parts: 離線快取
+2461,xml_string,app\src\main\res\values-zh-rTW\strings.xml,91,offline_cache_t,離線快取,Bộ nhớ đệm ngoại tuyến,String resource: offline_cache_t,Chinese parts: 離線快取
+2462,xml_string,app\src\main\res\values-zh-rTW\strings.xml,92,offline_cache_s,快取選擇的章節到本機,Lưu các chương đã chọn vào bộ nhớ đệm cục bộ,String resource: offline_cache_s,Chinese parts: 快取選擇的章節到本機
+2463,xml_string,app\src\main\res\values-zh-rTW\strings.xml,93,change_origin,換源,Đổi nguồn,String resource: change_origin,Chinese parts: 換源

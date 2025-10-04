@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5701,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,42,,数据为空,,"urn ReturnData().setErrorMsg(""数据为空"")",Chinese parts: 数据为空
+5702,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,46,,转换源失败,,"urn ReturnData().setErrorMsg(""转换源失败"")",Chinese parts: 转换源失败
+5703,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,63,,参数,,"eturn returnData.setErrorMsg(""参数url不能为空，请指定源地址"")",Chinese parts: 参数
+5704,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,63,,不能为空,,"returnData.setErrorMsg(""参数url不能为空，请指定源地址"")",Chinese parts: 不能为空
+5705,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,63,,请指定源地址,,"rnData.setErrorMsg(""参数url不能为空，请指定源地址"")",Chinese parts: 请指定源地址
+5706,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,66,,未找到源,,"eturn returnData.setErrorMsg(""未找到源，请检查书源地址"")",Chinese parts: 未找到源
+5707,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,66,,请检查书源地址,,"returnData.setErrorMsg(""未找到源，请检查书源地址"")",Chinese parts: 请检查书源地址
+5708,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,76,,数据格式错误,,"orMsg(it.localizedMessage ?: ""数据格式错误"")",Chinese parts: 数据格式错误
+5709,source_code,app\src\main\java\io\legado\app\api\controller\BookSourceController.kt,78,,已执行,,"return ReturnData().setData(""已执行""/*okSources*/)",Chinese parts: 已执行
+5710,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,24,,数据不能为空,,"eturn returnData.setErrorMsg(""数据不能为空"")",Chinese parts: 数据不能为空
+5711,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,27,,格式不对,,"returnData.setErrorMsg(""格式不对"")",Chinese parts: 格式不对
+5712,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,40,,数据不能为空,,"eturn returnData.setErrorMsg(""数据不能为空"")",Chinese parts: 数据不能为空
+5713,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,43,,格式不对,,"returnData.setErrorMsg(""格式不对"")",Chinese parts: 格式不对
+5714,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,59,,数据不能为空,,"eturn returnData.setErrorMsg(""数据不能为空"")",Chinese parts: 数据不能为空
+5715,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,62,,格式不对,,"returnData.setErrorMsg(""格式不对"")",Chinese parts: 格式不对
+5716,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,72,,格式不对,,"returnData.setErrorMsg(""格式不对"")",Chinese parts: 格式不对
+5717,source_code,app\src\main\java\io\legado\app\api\controller\ReplaceRuleController.kt,76,,替换规则不能为空,,"returnData.setErrorMsg(""替换规则不能为空"")",Chinese parts: 替换规则不能为空
+5718,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,20,,源列表为空,,"returnData.setErrorMsg(""源列表为空"")",Chinese parts: 源列表为空
+5719,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,26,,数据不能为空,,"eturn returnData.setErrorMsg(""数据不能为空"")",Chinese parts: 数据不能为空
+5720,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,28,,转换源失败,,"returnData.setErrorMsg(""转换源失败${it.localizedMessage}"")",Chinese parts: 转换源失败
+5721,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,31,,源名称和,,"returnData.setErrorMsg(""源名称和URL不能为空"")",Chinese parts: 源名称和
+5722,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,31,,不能为空,,"eturnData.setErrorMsg(""源名称和URL不能为空"")",Chinese parts: 不能为空
+5723,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,41,,数据不能为空,,"urn ReturnData().setErrorMsg(""数据不能为空"")",Chinese parts: 数据不能为空
+5724,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,45,,转换源失败,,"urn ReturnData().setErrorMsg(""转换源失败"")",Chinese parts: 转换源失败
+5725,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,61,,参数,,"eturn returnData.setErrorMsg(""参数url不能为空，请指定书源地址"")",Chinese parts: 参数
+5726,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,61,,不能为空,,"returnData.setErrorMsg(""参数url不能为空，请指定书源地址"")",Chinese parts: 不能为空
+5727,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,61,,请指定书源地址,,"rnData.setErrorMsg(""参数url不能为空，请指定书源地址"")",Chinese parts: 请指定书源地址
+5728,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,64,,未找到源,,"eturn returnData.setErrorMsg(""未找到源，请检查源地址"")",Chinese parts: 未找到源
+5729,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,64,,请检查源地址,,"returnData.setErrorMsg(""未找到源，请检查源地址"")",Chinese parts: 请检查源地址
+5730,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,69,,没有传递数据,,"urn ReturnData().setErrorMsg(""没有传递数据"")",Chinese parts: 没有传递数据
+5731,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,71,,格式不对,,"urn ReturnData().setErrorMsg(""格式不对"")",Chinese parts: 格式不对
+5732,source_code,app\src\main\java\io\legado\app\api\controller\RssSourceController.kt,75,,已执行,,"return ReturnData().setData(""已执行""/*okSources*/)",Chinese parts: 已执行
+5733,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,72,,平台标识符,,"int platformID;           // 平台标识符<0:Unicode, 1:Mac, 2:ISO, 3:Wi",Chinese parts: 平台标识符
+5734,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,73,,编码标识符,,int encodingID;           // 编码标识符,Chinese parts: 编码标识符
+5735,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,74,,语言标识符,,int languageID;           // 语言标识符,Chinese parts: 语言标识符
+5736,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,75,,名称标识符,,int nameID;               // 名称标识符,Chinese parts: 名称标识符
+5737,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,76,,名称字符串的长度,,int length;               // 名称字符串的长度,Chinese parts: 名称字符串的长度
+5738,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,77,,名称字符串相对于,,int offset;               // 名称字符串相对于stringOffset的字节偏移量,Chinese parts: 名称字符串相对于
+5739,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,77,,的字节偏移量,,// 名称字符串相对于stringOffset的字节偏移量,Chinese parts: 的字节偏移量
+5740,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,514,,设置为大端模式,,der(ByteOrder.BIG_ENDIAN); // 设置为大端模式,Chinese parts: 设置为大端模式
+5741,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,515,,设置起始索引,,yteBuffer.position(index); // 设置起始索引,Chinese parts: 设置起始索引
+5742,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,519,,设置起始索引,,yteBuffer.position(index); // 设置起始索引,Chinese parts: 设置起始索引
+5743,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,691,,排除轮廓索引为,,Inclusive] == 0) continue; // 排除轮廓索引为0的Unicode,Chinese parts: 排除轮廓索引为
+5744,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,691,,的,,e] == 0) continue; // 排除轮廓索引为0的Unicode,Chinese parts: 的
+5745,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,725,,排除轮廓索引为,,f (glyphId == 0) continue; // 排除轮廓索引为0的Unicode,Chinese parts: 排除轮廓索引为
+5746,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,725,,的,,Id == 0) continue; // 排除轮廓索引为0的Unicode,Chinese parts: 的
+5747,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,783,,创建字形容器,,ew GlyfLayout[glyfCount];  // 创建字形容器,Chinese parts: 创建字形容器
+5748,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,787,,当前,,ca[index + 1]) continue;   // 当前loca与下一个loca相同，表示这个字形不存在,Chinese parts: 当前
+5749,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,787,,与下一个,,ex + 1]) continue;   // 当前loca与下一个loca相同，表示这个字形不存在,Chinese parts: 与下一个
+5750,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,787,,相同,,continue;   // 当前loca与下一个loca相同，表示这个字形不存在,Chinese parts: 相同

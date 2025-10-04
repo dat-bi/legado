@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+401,xml_string,app\src\main\res\values-zh\strings.xml,415,r_author,作者规则（author）,Quy tắc tác giả (author),String resource: r_author,Chinese parts: 作者规则
+402,xml_string,app\src\main\res\values-zh\strings.xml,416,rule_book_kind,分类规则（kind）,Quy tắc phân loại (kind),String resource: rule_book_kind,Chinese parts: 分类规则
+403,xml_string,app\src\main\res\values-zh\strings.xml,417,rule_book_intro,简介规则（intro）,Quy tắc giới thiệu (intro),String resource: rule_book_intro,Chinese parts: 简介规则
+404,xml_string,app\src\main\res\values-zh\strings.xml,418,rule_cover_url,封面规则（coverUrl）,Quy tắc bìa sách (coverUrl),String resource: rule_cover_url,Chinese parts: 封面规则
+405,xml_string,app\src\main\res\values-zh\strings.xml,419,rule_last_chapter,最新章节规则（lastChapter）,Quy tắc chương mới nhất (lastChapter),String resource: rule_last_chapter,Chinese parts: 最新章节规则
+406,xml_string,app\src\main\res\values-zh\strings.xml,420,rule_word_count,字数规则（wordCount）,Quy tắc số chữ (wordCount),String resource: rule_word_count,Chinese parts: 字数规则
+407,xml_string,app\src\main\res\values-zh\strings.xml,421,book_url_pattern,书籍 URL 正则（bookUrlPattern）,Regex URL sách (bookUrlPattern),String resource: book_url_pattern,"Chinese parts: 书籍, 正则"
+408,xml_string,app\src\main\res\values-zh\strings.xml,422,rule_book_info_init,预处理规则（bookInfoInit）,Quy tắc tiền xử lý (bookInfoInit),String resource: rule_book_info_init,Chinese parts: 预处理规则
+409,xml_string,app\src\main\res\values-zh\strings.xml,423,rule_toc_url,目录 URL 规则（tocUrl）,Quy tắc URL mục lục (tocUrl),String resource: rule_toc_url,"Chinese parts: 目录, 规则"
+410,xml_string,app\src\main\res\values-zh\strings.xml,424,rule_can_re_name,允许修改书名作者（canReName）,Cho phép sửa tên sách/tác giả (canReName),String resource: rule_can_re_name,Chinese parts: 允许修改书名作者
+411,xml_string,app\src\main\res\values-zh\strings.xml,425,rule_next_toc_url,目录下一页规则（nextTocUrl）,Quy tắc URL mục lục trang kế (nextTocUrl),String resource: rule_next_toc_url,Chinese parts: 目录下一页规则
+412,xml_string,app\src\main\res\values-zh\strings.xml,426,rule_chapter_list,目录列表规则（chapterList）,Quy tắc danh sách mục lục (chapterList),String resource: rule_chapter_list,Chinese parts: 目录列表规则
+413,xml_string,app\src\main\res\values-zh\strings.xml,427,rule_chapter_name,章节名称规则（ChapterName）,Quy tắc tên chương (ChapterName),String resource: rule_chapter_name,Chinese parts: 章节名称规则
+414,xml_string,app\src\main\res\values-zh\strings.xml,428,rule_chapter_url,章节 URL 规则（chapterUrl）,Quy tắc URL chương (chapterUrl),String resource: rule_chapter_url,"Chinese parts: 章节, 规则"
+415,xml_string,app\src\main\res\values-zh\strings.xml,429,rule_is_volume,Volume 标识（isVolume）,Nhận diện Volume (isVolume),String resource: rule_is_volume,Chinese parts: 标识
+416,xml_string,app\src\main\res\values-zh\strings.xml,430,rule_is_vip,VIP 标识（isVip）,Nhận diện VIP (isVip),String resource: rule_is_vip,Chinese parts: 标识
+417,xml_string,app\src\main\res\values-zh\strings.xml,431,rule_update_time,更新时间（ChapterInfo）,Thời gian cập nhật (ChapterInfo),String resource: rule_update_time,Chinese parts: 更新时间
+418,xml_string,app\src\main\res\values-zh\strings.xml,432,pre_update_js,更新之前 JS（preUpdateJs）,JS trước cập nhật (preUpdateJs),String resource: pre_update_js,Chinese parts: 更新之前
+419,xml_string,app\src\main\res\values-zh\strings.xml,433,rule_book_content,正文规则（content）,Quy tắc nội dung chính (content),String resource: rule_book_content,Chinese parts: 正文规则
+420,xml_string,app\src\main\res\values-zh\strings.xml,434,rule_next_content,正文下一页 URL 规则（nextContentUrl）,Quy tắc URL nội dung trang kế (nextContentUrl),String resource: rule_next_content,"Chinese parts: 正文下一页, 规则"
+421,xml_string,app\src\main\res\values-zh\strings.xml,436,rule_image_style,图片样式（imageStyle）,Kiểu hình ảnh (imageStyle),String resource: rule_image_style,Chinese parts: 图片样式
+422,xml_string,app\src\main\res\values-zh\strings.xml,437,rule_replace_regex,替换规则（replaceRegex）,Quy tắc thay thế (replaceRegex),String resource: rule_replace_regex,Chinese parts: 替换规则
+423,xml_string,app\src\main\res\values-zh\strings.xml,438,rule_source_regex,资源正则（sourceRegex）,Regex tài nguyên (sourceRegex),String resource: rule_source_regex,Chinese parts: 资源正则
+424,xml_string,app\src\main\res\values-zh\strings.xml,439,rule_pay_action,购买操作（payAction）,Thao tác mua (payAction),String resource: rule_pay_action,Chinese parts: 购买操作
+425,xml_string,app\src\main\res\values-zh\strings.xml,441,source_icon,图标（sourceIcon）,Biểu tượng (sourceIcon),String resource: source_icon,Chinese parts: 图标
+426,xml_string,app\src\main\res\values-zh\strings.xml,442,r_articles,列表规则（ruleArticles）,Quy tắc danh sách (ruleArticles),String resource: r_articles,Chinese parts: 列表规则
+427,xml_string,app\src\main\res\values-zh\strings.xml,443,r_next,列表下一页规则（ruleNextArticles）,Quy tắc danh sách trang kế (ruleNextArticles),String resource: r_next,Chinese parts: 列表下一页规则
+428,xml_string,app\src\main\res\values-zh\strings.xml,444,r_title,标题规则（ruleTitle）,Quy tắc tiêu đề (ruleTitle),String resource: r_title,Chinese parts: 标题规则
+429,xml_string,app\src\main\res\values-zh\strings.xml,445,r_guid,GUID 规则（ruleGuid）,Quy tắc GUID (ruleGuid),String resource: r_guid,Chinese parts: 规则
+430,xml_string,app\src\main\res\values-zh\strings.xml,446,r_date,时间规则（rulePubDate）,Quy tắc thời gian (rulePubDate),String resource: r_date,Chinese parts: 时间规则
+431,xml_string,app\src\main\res\values-zh\strings.xml,447,r_categories,类别规则（ruleCategories）,Quy tắc thể loại (ruleCategories),String resource: r_categories,Chinese parts: 类别规则
+432,xml_string,app\src\main\res\values-zh\strings.xml,448,r_description,描述规则（ruleDescription）,Quy tắc mô tả (ruleDescription),String resource: r_description,Chinese parts: 描述规则
+433,xml_string,app\src\main\res\values-zh\strings.xml,449,r_image,图片 URL 规则（ruleImage）,Quy tắc URL hình ảnh (ruleImage),String resource: r_image,"Chinese parts: 图片, 规则"
+434,xml_string,app\src\main\res\values-zh\strings.xml,450,r_content,内容规则（ruleContent）,Quy tắc nội dung (ruleContent),String resource: r_content,Chinese parts: 内容规则
+435,xml_string,app\src\main\res\values-zh\strings.xml,451,r_style,样式（style）,Kiểu (style),String resource: r_style,Chinese parts: 样式
+436,xml_string,app\src\main\res\values-zh\strings.xml,452,r_inject_js,注入Js(injectJs),Chèn Js (injectJs),String resource: r_inject_js,Chinese parts: 注入
+437,xml_string,app\src\main\res\values-zh\strings.xml,453,r_link,链接规则（ruleLink）,Quy tắc liên kết (ruleLink),String resource: r_link,Chinese parts: 链接规则
+438,xml_string,app\src\main\res\values-zh\strings.xml,454,check_key_word,校验关键字（checkKeyWord）,Kiểm tra từ khóa (checkKeyWord),String resource: check_key_word,Chinese parts: 校验关键字
+439,xml_string,app\src\main\res\values-zh\strings.xml,455,rule_actions,操作（actions）,Thao tác (actions),String resource: rule_actions,Chinese parts: 操作
+440,xml_string,app\src\main\res\values-zh\strings.xml,456,rule_is_pay,购买标识（isPay）,Nhận diện mua (isPay),String resource: rule_is_pay,Chinese parts: 购买标识
+441,xml_string,app\src\main\res\values-zh\strings.xml,460,error_no_source,没有源,Không có nguồn,String resource: error_no_source,Chinese parts: 没有源
+442,xml_string,app\src\main\res\values-zh\strings.xml,461,error_get_book_info,书籍信息获取失败,Lấy thông tin sách thất bại,String resource: error_get_book_info,Chinese parts: 书籍信息获取失败
+443,xml_string,app\src\main\res\values-zh\strings.xml,462,error_get_content,内容获取失败,Lấy nội dung thất bại,String resource: error_get_content,Chinese parts: 内容获取失败
+444,xml_string,app\src\main\res\values-zh\strings.xml,463,error_get_chapter_list,目录获取失败,Lấy mục lục thất bại,String resource: error_get_chapter_list,Chinese parts: 目录获取失败
+445,xml_string,app\src\main\res\values-zh\strings.xml,464,error_get_web_content,访问网站失败：%s,Truy cập trang web thất bại: %s,String resource: error_get_web_content,Chinese parts: 访问网站失败
+446,xml_string,app\src\main\res\values-zh\strings.xml,465,error_read_file,文件读取失败,Đọc tập tin thất bại,String resource: error_read_file,Chinese parts: 文件读取失败
+447,xml_string,app\src\main\res\values-zh\strings.xml,466,error_load_toc,加载目录失败,Tải mục lục thất bại,String resource: error_load_toc,Chinese parts: 加载目录失败
+448,xml_string,app\src\main\res\values-zh\strings.xml,467,error_get_data,获取数据失败！,Lấy dữ liệu thất bại!,String resource: error_get_data,Chinese parts: 获取数据失败
+449,xml_string,app\src\main\res\values-zh\strings.xml,468,error_load_msg,加载失败\n%s,Tải thất bại\n%s,String resource: error_load_msg,Chinese parts: 加载失败
+450,xml_string,app\src\main\res\values-zh\strings.xml,469,net_error_10001,没有网络,Không có mạng,String resource: net_error_10001,Chinese parts: 没有网络

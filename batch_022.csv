@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1051,xml_string,app\src\main\res\values-zh\strings.xml,1083,same_title_removed,移除重复标题,,String resource: same_title_removed,Chinese parts: 移除重复标题
+1052,xml_string,app\src\main\res\values-zh\strings.xml,1084,update_book_fail,更新失败,,String resource: update_book_fail,Chinese parts: 更新失败
+1053,xml_string,app\src\main\res\values-zh\strings.xml,1085,notification_permission_rationale,阅读需要发送通知来显示朗读控制和下载进度,,String resource: notification_permission_rationale,Chinese parts: 阅读需要发送通知来显示朗读控制和下载进度
+1054,xml_string,app\src\main\res\values-zh\strings.xml,1086,webdav_after_local_restore_confirm,"webDav书源比本地新,是否恢复",,String resource: webdav_after_local_restore_confirm,"Chinese parts: 书源比本地新, 是否恢复"
+1055,xml_string,app\src\main\res\values-zh\strings.xml,1087,c_whitelist,白名单(contentWhitelist),,String resource: c_whitelist,Chinese parts: 白名单
+1056,xml_string,app\src\main\res\values-zh\strings.xml,1088,c_blacklist,黑名单(contentBlacklist),,String resource: c_blacklist,Chinese parts: 黑名单
+1057,xml_string,app\src\main\res\values-zh\strings.xml,1089,confirm,确认,,String resource: confirm,Chinese parts: 确认
+1058,xml_string,app\src\main\res\values-zh\strings.xml,1090,jump_to_another_app,跳转其它应用,,String resource: jump_to_another_app,Chinese parts: 跳转其它应用
+1059,xml_string,app\src\main\res\values-zh\strings.xml,1091,clear_webview_data,清除 WebView 数据,,String resource: clear_webview_data,"Chinese parts: 清除, 数据"
+1060,xml_string,app\src\main\res\values-zh\strings.xml,1092,clear_webview_data_summary,清除内置浏览器所有数据,,String resource: clear_webview_data_summary,Chinese parts: 清除内置浏览器所有数据
+1061,xml_string,app\src\main\res\values-zh\strings.xml,1093,source_tab_list,列表,,String resource: source_tab_list,Chinese parts: 列表
+1062,xml_string,app\src\main\res\values-zh\strings.xml,1094,dict_rule,字典规则,,String resource: dict_rule,Chinese parts: 字典规则
+1063,xml_string,app\src\main\res\values-zh\strings.xml,1095,config_dict_rule,配置字典规则,,String resource: config_dict_rule,Chinese parts: 配置字典规则
+1064,xml_string,app\src\main\res\values-zh\strings.xml,1096,create,新建,,String resource: create,Chinese parts: 新建
+1065,xml_string,app\src\main\res\values-zh\strings.xml,1097,url_rule,url规则(urlRule),,String resource: url_rule,Chinese parts: 规则
+1066,xml_string,app\src\main\res\values-zh\strings.xml,1098,show_rule,显示规则(showRule),,String resource: show_rule,Chinese parts: 显示规则
+1067,xml_string,app\src\main\res\values-zh\strings.xml,1099,config_txt_toc_rule,配置 TXT 目录规则,,String resource: config_txt_toc_rule,"Chinese parts: 配置, 目录规则"
+1068,xml_string,app\src\main\res\values-zh\strings.xml,1100,import_dict_rule,导入字典规则,,String resource: import_dict_rule,Chinese parts: 导入字典规则
+1069,xml_string,app\src\main\res\values-zh\strings.xml,1101,keep_group,保留分组,,String resource: keep_group,Chinese parts: 保留分组
+1070,xml_string,app\src\main\res\values-zh\strings.xml,1102,server_config,服务器配置,,String resource: server_config,Chinese parts: 服务器配置
+1071,xml_string,app\src\main\res\values-zh\strings.xml,1103,sure_upload,远程webDav链接已存在，是否继续,,String resource: sure_upload,"Chinese parts: 远程, 链接已存在, 是否继续"
+1072,xml_string,app\src\main\res\values-zh\strings.xml,1104,unsupport_archivefile_entry,压缩文件内没有支持的文件,,String resource: unsupport_archivefile_entry,Chinese parts: 压缩文件内没有支持的文件
+1073,xml_string,app\src\main\res\values-zh\strings.xml,1105,no_books_dir,没有设置书籍保存位置!,,String resource: no_books_dir,Chinese parts: 没有设置书籍保存位置
+1074,xml_string,app\src\main\res\values-zh\strings.xml,1106,delete_alert,删除提醒,,String resource: delete_alert,Chinese parts: 删除提醒
+1075,xml_string,app\src\main\res\values-zh\strings.xml,1107,no_book_found_bookshelf,"未在书架上找到所选书籍, 是否重新导入？",,String resource: no_book_found_bookshelf,"Chinese parts: 未在书架上找到所选书籍, 是否重新导入"
+1076,xml_string,app\src\main\res\values-zh\strings.xml,1108,archive_not_found,未能在书籍保存目录找到压缩文件，是否重新导入？,,String resource: archive_not_found,"Chinese parts: 未能在书籍保存目录找到压缩文件, 是否重新导入"
+1077,xml_string,app\src\main\res\values-zh\strings.xml,1109,privacy_policy,用户隐私与协议,,String resource: privacy_policy,Chinese parts: 用户隐私与协议
+1078,xml_string,app\src\main\res\values-zh\strings.xml,1110,agree,同意,,String resource: agree,Chinese parts: 同意
+1079,xml_string,app\src\main\res\values-zh\strings.xml,1111,refuse,拒绝,,String resource: refuse,Chinese parts: 拒绝
+1080,xml_string,app\src\main\res\values-zh\strings.xml,1112,file_manage,文件管理,,String resource: file_manage,Chinese parts: 文件管理
+1081,xml_string,app\src\main\res\values-zh\strings.xml,1113,file_manage_summary,管理私有文件夹的文件,,String resource: file_manage_summary,Chinese parts: 管理私有文件夹的文件
+1082,xml_string,app\src\main\res\values-zh\strings.xml,1114,create_folder,创建文件夹,,String resource: create_folder,Chinese parts: 创建文件夹
+1083,xml_string,app\src\main\res\values-zh\strings.xml,1115,allow_drop_down_refresh,允许下拉刷新,,String resource: allow_drop_down_refresh,Chinese parts: 允许下拉刷新
+1084,xml_string,app\src\main\res\values-zh\strings.xml,1116,text_underline,文字下划线,,String resource: text_underline,Chinese parts: 文字下划线
+1085,xml_string,app\src\main\res\values-zh\strings.xml,1117,select_new_source,选中新增源,,String resource: select_new_source,Chinese parts: 选中新增源
+1086,xml_string,app\src\main\res\values-zh\strings.xml,1118,select_update_source,选中更新源,,String resource: select_update_source,Chinese parts: 选中更新源
+1087,xml_string,app\src\main\res\values-zh\strings.xml,1119,set_local_password,设置本地密码,,String resource: set_local_password,Chinese parts: 设置本地密码
+1088,xml_string,app\src\main\res\values-zh\strings.xml,1120,set_local_password_summary,"本地密码用来对备份的敏感信息加密和解密,如需在不同设备之间同步,本地密码需一致.",,String resource: set_local_password_summary,"Chinese parts: 本地密码用来对备份的敏感信息加密和解密, 如需在不同设备之间同步, 本地密码需一致"
+1089,xml_string,app\src\main\res\values-zh\strings.xml,1121,only_latest_backup_t,仅保留最新备份,,String resource: only_latest_backup_t,Chinese parts: 仅保留最新备份
+1090,xml_string,app\src\main\res\values-zh\strings.xml,1122,only_latest_backup_s,本地备份仅保留最新备份文件,,String resource: only_latest_backup_s,Chinese parts: 本地备份仅保留最新备份文件
+1091,xml_string,app\src\main\res\values-zh\strings.xml,1123,webdav_application_authorization_error,webDav应用验证失败,,String resource: webdav_application_authorization_error,Chinese parts: 应用验证失败
+1092,xml_string,app\src\main\res\values-zh\strings.xml,1124,load_word_count,加载字数,,String resource: load_word_count,Chinese parts: 加载字数
+1093,xml_string,app\src\main\res\values-zh\strings.xml,1125,replace_exclude_scope,排除范围，选填书名或者书源 URL,,String resource: replace_exclude_scope,"Chinese parts: 排除范围, 选填书名或者书源"
+1094,xml_string,app\src\main\res\values-zh\strings.xml,1126,format_js_rule,格式化规则(formatJs),,String resource: format_js_rule,Chinese parts: 格式化规则
+1095,xml_string,app\src\main\res\values-zh\strings.xml,1127,adjust_pos,调整位置,,String resource: adjust_pos,Chinese parts: 调整位置
+1096,xml_string,app\src\main\res\values-zh\strings.xml,1128,error_scope_input,请输入正确的范围,,String resource: error_scope_input,Chinese parts: 请输入正确的范围
+1097,xml_string,app\src\main\res\values-zh\strings.xml,1129,custom_export,自定义导出,,String resource: custom_export,Chinese parts: 自定义导出
+1098,xml_string,app\src\main\res\values-zh\strings.xml,1130,file_contains_number,每个文件包含的章节数量,,String resource: file_contains_number,Chinese parts: 每个文件包含的章节数量
+1099,xml_string,app\src\main\res\values-zh\strings.xml,1131,export_chapter_index,需要输出的章节,,String resource: export_chapter_index,Chinese parts: 需要输出的章节
+1100,xml_string,app\src\main\res\values-zh\strings.xml,1132,shrink_database,压缩数据库,,String resource: shrink_database,Chinese parts: 压缩数据库

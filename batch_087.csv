@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4301,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,127,,未设置备份目录,,"appCtx.toastOnUi(""未设置备份目录"")",Chinese parts: 未设置备份目录
+4302,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,131,,未开启日志记录,,"appCtx.toastOnUi(""未开启日志记录，请去其他设置里打开记录日志"")",Chinese parts: 未开启日志记录
+4303,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,131,,请去其他设置里打开记录日志,,"appCtx.toastOnUi(""未开启日志记录，请去其他设置里打开记录日志"")",Chinese parts: 请去其他设置里打开记录日志
+4304,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,137,,已保存至备份目录,,"appCtx.toastOnUi(""已保存至备份目录"")",Chinese parts: 已保存至备份目录
+4305,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,139,,保存日志出错,,"AppLog.put(""保存日志出错\n${it.localizedMessage}"", it,",Chinese parts: 保存日志出错
+4306,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,146,,未设置备份目录,,"appCtx.toastOnUi(""未设置备份目录"")",Chinese parts: 未设置备份目录
+4307,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,150,,未开启堆转储记录,,"appCtx.toastOnUi(""未开启堆转储记录，请去其他设置里打开记录堆转储"")",Chinese parts: 未开启堆转储记录
+4308,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,150,,请去其他设置里打开记录堆转储,,"appCtx.toastOnUi(""未开启堆转储记录，请去其他设置里打开记录堆转储"")",Chinese parts: 请去其他设置里打开记录堆转储
+4309,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,153,,开始创建堆转储,,"appCtx.toastOnUi(""开始创建堆转储"")",Chinese parts: 开始创建堆转储
+4310,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,158,,未找到堆转储文件,,"appCtx.toastOnUi(""未找到堆转储文件"")",Chinese parts: 未找到堆转储文件
+4311,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,160,,已保存至备份目录,,"appCtx.toastOnUi(""已保存至备份目录"")",Chinese parts: 已保存至备份目录
+4312,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,163,,保存堆转储失败,,"AppLog.put(""保存堆转储失败\n${it.localizedMessage}"", it)",Chinese parts: 保存堆转储失败
+4313,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,210,,保存,,"AppLog.put(""保存Logcat失败\n$e"", e)",Chinese parts: 保存
+4314,source_code,app\src\main\java\io\legado\app\ui\about\AboutFragment.kt,210,,失败,,"AppLog.put(""保存Logcat失败\n$e"", e)",Chinese parts: 失败
+4315,source_code,app\src\main\java\io\legado\app\ui\about\ReadRecordActivity.kt,224,,天,,"val d = if (days > 0) ""${days}天"" else """"",Chinese parts: 天
+4316,source_code,app\src\main\java\io\legado\app\ui\about\ReadRecordActivity.kt,225,,小时,,"l h = if (hours > 0) ""${hours}小时"" else """"",Chinese parts: 小时
+4317,source_code,app\src\main\java\io\legado\app\ui\about\ReadRecordActivity.kt,226,,分钟,,"= if (minutes > 0) ""${minutes}分钟"" else """"",Chinese parts: 分钟
+4318,source_code,app\src\main\java\io\legado\app\ui\about\ReadRecordActivity.kt,227,,秒,,"= if (seconds > 0) ""${seconds}秒"" else """"",Chinese parts: 秒
+4319,source_code,app\src\main\java\io\legado\app\ui\about\ReadRecordActivity.kt,230,,秒,,"time = ""0秒""",Chinese parts: 秒
+4320,source_code,app\src\main\java\io\legado\app\ui\about\UpdateDialog.kt,43,,没有数据,,"toastOnUi(""没有数据"")",Chinese parts: 没有数据
+4321,source_code,app\src\main\java\io\legado\app\ui\association\AddToBookshelfDialog.kt,67,,不能为空,,"toastOnUi(""url不能为空"")",Chinese parts: 不能为空
+4322,source_code,app\src\main\java\io\legado\app\ui\association\AddToBookshelfDialog.kt,106,,已在书架,,"ackTraceException(""${it.name} 已在书架"")",Chinese parts: 已在书架
+4323,source_code,app\src\main\java\io\legado\app\ui\association\AddToBookshelfDialog.kt,109,,书籍地址格式不对,,"throw NoStackTraceException(""书籍地址格式不对"")",Chinese parts: 书籍地址格式不对
+4324,source_code,app\src\main\java\io\legado\app\ui\association\AddToBookshelfDialog.kt,140,,未找到匹配书源,,"throw NoStackTraceException(""未找到匹配书源"")",Chinese parts: 未找到匹配书源
+4325,source_code,app\src\main\java\io\legado\app\ui\association\AddToBookshelfDialog.kt,142,,添加书籍,,"AppLog.put(""添加书籍 $bookUrl 出错"", it)",Chinese parts: 添加书籍
+4326,source_code,app\src\main\java\io\legado\app\ui\association\AddToBookshelfDialog.kt,142,,出错,,"AppLog.put(""添加书籍 $bookUrl 出错"", it)",Chinese parts: 出错
+4327,source_code,app\src\main\java\io\legado\app\ui\association\BaseAssociationViewModel.kt,39,,格式不对,,"else -> errorLive.postValue(""格式不对"")",Chinese parts: 格式不对
+4328,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationActivity.kt,123,,请求存储权限失败,,"toastOnUi(""请求存储权限失败。"")",Chinese parts: 请求存储权限失败
+4329,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationActivity.kt,159,,请重新设置书籍保存位置,,"""请重新设置书籍保存位置\nPermission Denial""",Chinese parts: 请重新设置书籍保存位置
+4330,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationActivity.kt,169,,请重新设置书籍保存位置,,"""请重新设置书籍保存位置\nPermission Denial""",Chinese parts: 请重新设置书籍保存位置
+4331,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationActivity.kt,183,,请重新设置书籍保存位置,,"""请重新设置书籍保存位置\nPermission Denial""",Chinese parts: 请重新设置书籍保存位置
+4332,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationActivity.kt,207,,导入书籍失败,,"val msg = ""导入书籍失败\n${it.localizedMessage}""",Chinese parts: 导入书籍失败
+4333,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationViewModel.kt,39,,无法打开文件,,"val msg = ""无法打开文件\n${it.localizedMessage}""",Chinese parts: 无法打开文件
+4334,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationViewModel.kt,53,,尝试导入为,,"AppLog.put(""尝试导入为JSON文件失败\n${it.localizedMessag",Chinese parts: 尝试导入为
+4335,source_code,app\src\main\java\io\legado\app\ui\association\FileAssociationViewModel.kt,53,,文件失败,,"AppLog.put(""尝试导入为JSON文件失败\n${it.localizedMessage}"", it)",Chinese parts: 文件失败
+4336,source_code,app\src\main\java\io\legado\app\ui\association\ImportBookSourceDialog.kt,249,,新增,,"localSource == null -> ""新增""",Chinese parts: 新增
+4337,source_code,app\src\main\java\io\legado\app\ui\association\ImportBookSourceDialog.kt,250,,更新,,"ocalSource.lastUpdateTime -> ""更新""",Chinese parts: 更新
+4338,source_code,app\src\main\java\io\legado\app\ui\association\ImportBookSourceDialog.kt,251,,已有,,"else -> ""已有""",Chinese parts: 已有
+4339,source_code,app\src\main\java\io\legado\app\ui\association\ImportBookSourceViewModel.kt,146,,不是书源,,"throw NoStackTraceException(""不是书源"")",Chinese parts: 不是书源
+4340,source_code,app\src\main\java\io\legado\app\ui\association\ImportBookSourceViewModel.kt,157,,不是书源,,"throw NoStackTraceException(""不是书源"")",Chinese parts: 不是书源
+4341,source_code,app\src\main\java\io\legado\app\ui\association\ImportBookSourceViewModel.kt,172,,不是书源,,"throw NoStackTraceException(""不是书源"")",Chinese parts: 不是书源
+4342,source_code,app\src\main\java\io\legado\app\ui\association\ImportBookSourceViewModel.kt,201,,不是书源,,"throw NoStackTraceException(""不是书源"")",Chinese parts: 不是书源
+4343,source_code,app\src\main\java\io\legado\app\ui\association\ImportDictRuleDialog.kt,143,,新增,,"null -> ""新增""",Chinese parts: 新增
+4344,source_code,app\src\main\java\io\legado\app\ui\association\ImportDictRuleDialog.kt,144,,已有,,"else -> ""已有""",Chinese parts: 已有
+4345,source_code,app\src\main\java\io\legado\app\ui\association\ImportHttpTtsDialog.kt,146,,新增,,"localSource == null -> ""新增""",Chinese parts: 新增
+4346,source_code,app\src\main\java\io\legado\app\ui\association\ImportHttpTtsDialog.kt,147,,更新,,"ocalSource.lastUpdateTime -> ""更新""",Chinese parts: 更新
+4347,source_code,app\src\main\java\io\legado\app\ui\association\ImportHttpTtsDialog.kt,148,,已有,,"else -> ""已有""",Chinese parts: 已有
+4348,source_code,app\src\main\java\io\legado\app\ui\association\ImportReplaceRuleDialog.kt,210,,新增,,"localRule == null -> ""新增""",Chinese parts: 新增
+4349,source_code,app\src\main\java\io\legado\app\ui\association\ImportReplaceRuleDialog.kt,214,,更新,,".scope != localRule.scope -> ""更新""",Chinese parts: 更新
+4350,source_code,app\src\main\java\io\legado\app\ui\association\ImportReplaceRuleDialog.kt,215,,已有,,"else -> ""已有""",Chinese parts: 已有

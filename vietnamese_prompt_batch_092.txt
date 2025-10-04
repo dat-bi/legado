@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4551,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,95,,分组搜索结果为空,,"setMessage(""${searchGroup}分组搜索结果为空,是否切换到全部分组"")",Chinese parts: 分组搜索结果为空
+4552,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,95,,是否切换到全部分组,,"ssage(""${searchGroup}分组搜索结果为空,是否切换到全部分组"")",Chinese parts: 是否切换到全部分组
+4553,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,322,,单章换源获取目录出错,,"AppLog.put(""单章换源获取目录出错\n$it"", it, true)",Chinese parts: 单章换源获取目录出错
+4554,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceViewModel.kt,37,,书源不存在,,"throw NoStackTraceException(""书源不存在"")",Chinese parts: 书源不存在
+4555,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceViewModel.kt,42,,获取正文出错,,"nvoke(it.localizedMessage ?: ""获取正文出错"")",Chinese parts: 获取正文出错
+4556,source_code,app\src\main\java\io\legado\app\ui\book\explore\ExploreShowViewModel.kt,46,,发现列表界面获取书籍数据失败,,"AppLog.put(""发现列表界面获取书籍数据失败\n${it.localizedMessage}"", it)",Chinese parts: 发现列表界面获取书籍数据失败
+4557,source_code,app\src\main\java\io\legado\app\ui\book\explore\ExploreShowViewModel.kt,53,,加载书架数据失败,,"AppLog.put(""加载书架数据失败"", it)",Chinese parts: 加载书架数据失败
+4558,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupEditDialog.kt,90,,分组名称不能为空,,"toastOnUi(""分组名称不能为空"")",Chinese parts: 分组名称不能为空
+4559,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupManageDialog.kt,80,,书籍分组管理界面获取分组数据失败,,"AppLog.put(""书籍分组管理界面获取分组数据失败\n${it.localizedMessage}"", it)",Chinese parts: 书籍分组管理界面获取分组数据失败
+4560,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupManageDialog.kt,99,,分组已达上限,,"toastOnUi(""分组已达上限(64个)"")",Chinese parts: 分组已达上限
+4561,source_code,app\src\main\java\io\legado\app\ui\book\group\GroupManageDialog.kt,99,,个,,"toastOnUi(""分组已达上限(64个)"")",Chinese parts: 个
+4562,source_code,app\src\main\java\io\legado\app\ui\book\import\BaseImportBookActivity.kt,135,,添加压缩包内指定文件到书架,,/* 添加压缩包内指定文件到书架 */,Chinese parts: 添加压缩包内指定文件到书架
+4563,source_code,app\src\main\java\io\legado\app\ui\book\import\BaseImportBookActivity.kt,148,,提示是否重新导入所点击的压缩文件,,/* 提示是否重新导入所点击的压缩文件 */,Chinese parts: 提示是否重新导入所点击的压缩文件
+4564,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,318,,上传中,,"waitDialog.setText(""上传中....."")",Chinese parts: 上传中
+4565,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,323,,未配置,,"throw NoStackTraceException(""未配置webDav"")",Chinese parts: 未配置
+4566,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,528,,书源不存在,,"toastOnUi(""书源不存在"")",Chinese parts: 书源不存在
+4567,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,532,,源变量可在,,"ce.getDisplayVariableComment(""源变量可在js中通过source.getVariable()获取"")",Chinese parts: 源变量可在
+4568,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,532,,中通过,,"isplayVariableComment(""源变量可在js中通过source.getVariable()获取"")",Chinese parts: 中通过
+4569,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,532,,获取,,"源变量可在js中通过source.getVariable()获取"")",Chinese parts: 获取
+4570,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,549,,书源不存在,,"toastOnUi(""书源不存在"")",Chinese parts: 书源不存在
+4571,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,555,,书籍变量可在,,"""""""书籍变量可在js中通过book.getVariable(""custom""",Chinese parts: 书籍变量可在
+4572,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,555,,中通过,,"""""""书籍变量可在js中通过book.getVariable(""custom"")获取""""",Chinese parts: 中通过
+4573,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,555,,获取,,"s中通过book.getVariable(""custom"")获取""""""",Chinese parts: 获取
+4574,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoActivity.kt,642,,解压筛选后再选择导入项,,/* 解压筛选后再选择导入项 */,Chinese parts: 解压筛选后再选择导入项
+4575,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,77,,未找到书籍,,"throw NoStackTraceException(""未找到书籍"")",Chinese parts: 未找到书籍
+4576,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,135,,没有配置,,"NoStackTraceException(""webDav没有配置"")",Chinese parts: 没有配置
+4577,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,158,,下载远程书籍,,"AppLog.put(""下载远程书籍<${book.name}>失败"", it)",Chinese parts: 下载远程书籍
+4578,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,158,,失败,,"pLog.put(""下载远程书籍<${book.name}>失败"", it)",Chinese parts: 失败
+4579,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,204,,获取书籍信息失败,,"AppLog.put(""获取书籍信息失败\n${it.localizedMessage}"", it)",Chinese parts: 获取书籍信息失败
+4580,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,253,,获取目录失败,,"AppLog.put(""获取目录失败\n${it.localizedMessage}"", it)",Chinese parts: 获取目录失败
+4581,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,272,,作者,,"else ""${book.name} 作者：${book.author}""",Chinese parts: 作者
+4582,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,289,,导入或者下载在线文件,,/* 导入或者下载在线文件 */,Chinese parts: 导入或者下载在线文件
+4583,source_code,app\src\main\java\io\legado\app\ui\book\info\BookInfoViewModel.kt,483,,清理缓存出错,,"context.toastOnUi(""清理缓存出错\n${it.localizedMessage}"")",Chinese parts: 清理缓存出错
+4584,source_code,app\src\main\java\io\legado\app\ui\book\manage\BookshelfManageActivity.kt,224,,书架管理界面获取分组数据失败,,"AppLog.put(""书架管理界面获取分组数据失败\n${it.localizedMessage}"", it)",Chinese parts: 书架管理界面获取分组数据失败
+4585,source_code,app\src\main\java\io\legado\app\ui\book\manage\BookshelfManageActivity.kt,261,,书架管理界面获取书籍列表失败,,"AppLog.put(""书架管理界面获取书籍列表失败\n${it.localizedMessage}"", it)",Chinese parts: 书架管理界面获取书籍列表失败
+4586,source_code,app\src\main\java\io\legado\app\ui\book\manage\BookshelfManageViewModel.kt,93,,搜索书籍出错,,"AppLog.put(""搜索书籍出错\n${it.localizedMessage}"", it,",Chinese parts: 搜索书籍出错
+4587,source_code,app\src\main\java\io\legado\app\ui\book\manage\BookshelfManageViewModel.kt,100,,获取书籍详情出错,,"AppLog.put(""获取书籍详情出错\n${it.localizedMessage}"", it,",Chinese parts: 获取书籍详情出错
+4588,source_code,app\src\main\java\io\legado\app\ui\book\manage\BookshelfManageViewModel.kt,105,,获取目录出错,,"AppLog.put(""获取目录出错\n${it.localizedMessage}"", it,",Chinese parts: 获取目录出错
+4589,source_code,app\src\main\java\io\legado\app\ui\book\manage\SourcePickerDialog.kt,69,,选择书源,,"binding.toolBar.title = ""选择书源""",Chinese parts: 选择书源
+4590,source_code,app\src\main\java\io\legado\app\ui\book\manage\SourcePickerDialog.kt,94,,书源选择界面获取书源数据失败,,"AppLog.put(""书源选择界面获取书源数据失败\n${it.localizedMessage}"", it)",Chinese parts: 书源选择界面获取书源数据失败
+4591,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaActivity.kt,279,,暂无章节了,,"loadMoreView.noMore(""暂无章节了！"")",Chinese parts: 暂无章节了
+4592,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaActivity.kt,392,,加载失败,,"loadMoreView.error(null, ""加载失败，点击重试"")",Chinese parts: 加载失败
+4593,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaActivity.kt,392,,点击重试,,"oadMoreView.error(null, ""加载失败，点击重试"")",Chinese parts: 点击重试
+4594,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaActivity.kt,450,,所选择的源不是漫画源,,"toastOnUi(""所选择的源不是漫画源"")",Chinese parts: 所选择的源不是漫画源
+4595,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,57,,没有找到书,,.getString(R.string.no_book)//没有找到书,Chinese parts: 没有找到书
+4596,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,62,,初始化数据失败,,"val msg = ""初始化数据失败\n${it.localizedMessage}""",Chinese parts: 初始化数据失败
+4597,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,148,,详情页出错,,"eadManga.mCallback?.loadFail(""详情页出错: ${e.localizedMessage}"")",Chinese parts: 详情页出错
+4598,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,191,,没有合适书源,,"throw NoStackTraceException(""没有合适书源"")",Chinese parts: 没有合适书源
+4599,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,195,,自动换源失败,,"AppLog.put(""自动换源失败\n${it.localizedMessage}"", it)",Chinese parts: 自动换源失败
+4600,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,196,,自动换源失败,,"context.toastOnUi(""自动换源失败\n${it.localizedMessage}"")",Chinese parts: 自动换源失败

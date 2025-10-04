@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3501,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1156,adjust_chapter_index,调整章节位置,,String resource: adjust_chapter_index,Chinese parts: 调整章节位置
+3502,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1157,clear_webview_data_success,清除成功，3秒后自动重启应用,,String resource: clear_webview_data_success,"Chinese parts: 清除成功, 秒后自动重启应用"
+3503,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1158,key_page_on_long_press,按键长按翻页,,String resource: key_page_on_long_press,Chinese parts: 按键长按翻页
+3504,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1159,save_log,保存日志,,String resource: save_log,Chinese parts: 保存日志
+3505,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1160,create_heap_dump,创建堆转储,,String resource: create_heap_dump,Chinese parts: 创建堆转储
+3506,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1161,record_heap_dump_s,当应用发生OOM崩溃时保存堆转储,,String resource: record_heap_dump_s,"Chinese parts: 当应用发生, 崩溃时保存堆转储"
+3507,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1162,record_heap_dump_t,记录堆转储,,String resource: record_heap_dump_t,Chinese parts: 记录堆转储
+3508,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1163,font_weight_text,中/粗/细,,String resource: font_weight_text,"Chinese parts: 中, 粗, 细"
+3509,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1164,keep_swipe_tip,继续滑动以加载下一章…,,String resource: keep_swipe_tip,Chinese parts: 继续滑动以加载下一章
+3510,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1165,enable_optimize_render,启用绘制优化,,String resource: enable_optimize_render,Chinese parts: 启用绘制优化
+3511,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1166,ignore_battery_permission_rationale,阅读需要请求后台权限以保持服务正常运行,,String resource: ignore_battery_permission_rationale,Chinese parts: 阅读需要请求后台权限以保持服务正常运行
+3512,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1167,simulated_reading,模擬追讀,,String resource: simulated_reading,Chinese parts: 模擬追讀
+3513,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1168,switch_on,開關,,String resource: switch_on,Chinese parts: 開關
+3514,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1169,start_from,起始日期,,String resource: start_from,Chinese parts: 起始日期
+3515,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1170,daily_chapters,日更章數,,String resource: daily_chapters,Chinese parts: 日更章數
+3516,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1171,start_chapter,開始篇章,,String resource: start_chapter,Chinese parts: 開始篇章
+3517,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1172,update_to_variant_title,检查更新查找版本,,String resource: update_to_variant_title,Chinese parts: 检查更新查找版本
+3518,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1173,update_to_variant_summary,检查更新时查找其他签名版本,,String resource: update_to_variant_summary,Chinese parts: 检查更新时查找其他签名版本
+3519,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1174,default_version,当前,,String resource: default_version,Chinese parts: 当前
+3520,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1175,official_version,正式版,,String resource: official_version,Chinese parts: 正式版
+3521,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1176,beta_release_version,测试版,,String resource: beta_release_version,Chinese parts: 测试版
+3522,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1177,beta_releaseA_version,共存版,,String resource: beta_releaseA_version,Chinese parts: 共存版
+3523,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1178,stream_read_aloud_audio,流式播放音频,,String resource: stream_read_aloud_audio,Chinese parts: 流式播放音频
+3524,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1179,stream_read_aloud_audio_summary,即边下边播，网络不好时播放会断断续续，仅TTS源有效,,String resource: stream_read_aloud_audio_summary,"Chinese parts: 即边下边播, 网络不好时播放会断断续续, 仅, 源有效"
+3525,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1180,pause_read_aloud_while_phone_calls_title,来电期间暂停朗读,,String resource: pause_read_aloud_while_phone_calls_title,Chinese parts: 来电期间暂停朗读
+3526,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1181,pause_read_aloud_while_phone_calls_summary,在通话期间暂停朗读，需要读取手机状态权限,,String resource: pause_read_aloud_while_phone_calls_summary,"Chinese parts: 在通话期间暂停朗读, 需要读取手机状态权限"
+3527,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1182,read_aloud_read_phone_state_permission_rationale,阅读需要读取手机状态实现来电期间暂停朗读功能,,String resource: read_aloud_read_phone_state_permission_rationale,Chinese parts: 阅读需要读取手机状态实现来电期间暂停朗读功能
+3528,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1183,read_aloud_by_media_button_title,耳机按键启动朗读,,String resource: read_aloud_by_media_button_title,Chinese parts: 耳机按键启动朗读
+3529,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1184,read_aloud_by_media_button_summary,通过耳机按键来启动朗读,,String resource: read_aloud_by_media_button_summary,Chinese parts: 通过耳机按键来启动朗读
+3530,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1185,show_same_source,显示重复书源,,String resource: show_same_source,Chinese parts: 显示重复书源
+3531,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1186,theme_config,主题配置,,String resource: theme_config,Chinese parts: 主题配置
+3532,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1187,show_manga_ui,漫画浏览,,String resource: show_manga_ui,Chinese parts: 漫画浏览
+3533,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1188,disable_manga_scale,禁用漫画缩放,,String resource: disable_manga_scale,Chinese parts: 禁用漫画缩放
+3534,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1189,disable_manga_click_scroll,禁用点击翻页,,String resource: disable_manga_click_scroll,Chinese parts: 禁用点击翻页
+3535,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1190,enable_auto_page_scroll,开启自动翻页,,String resource: enable_auto_page_scroll,Chinese parts: 开启自动翻页
+3536,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1191,manga_auto_page_speed,翻页速度 %s,,String resource: manga_auto_page_speed,Chinese parts: 翻页速度
+3537,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1192,enable_auto_scroll,开启滚动,,String resource: enable_auto_scroll,Chinese parts: 开启滚动
+3538,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1193,manga_footer_config,页脚配置,,String resource: manga_footer_config,Chinese parts: 页脚配置
+3539,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1194,setting_manga_auto_page_speed,设置自动翻页速度,,String resource: setting_manga_auto_page_speed,Chinese parts: 设置自动翻页速度
+3540,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1195,book_reader_info_bar,页数. %1$d/%2$d  章节. %3$d/%4$d -> %5$s%%,,String resource: book_reader_info_bar,"Chinese parts: 页数, 章节"
+3541,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1196,menu_download_after,下載之後章節,,String resource: menu_download_after,Chinese parts: 下載之後章節
+3542,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1197,menu_download_all,下載全部章節,,String resource: menu_download_all,Chinese parts: 下載全部章節
+3543,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1198,manga_header_chapter,《章节和文案》隐藏,,String resource: manga_header_chapter,"Chinese parts: 章节和文案, 隐藏"
+3544,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1199,manga_check_chapter_label,《章节.》文案,,String resource: manga_check_chapter_label,"Chinese parts: 章节, 文案"
+3545,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1200,manga_check_chapter,章节,,String resource: manga_check_chapter,Chinese parts: 章节
+3546,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1201,manga_check_chapter_name,章节名称,,String resource: manga_check_chapter_name,Chinese parts: 章节名称
+3547,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1202,manga_header_page,《页数和文案》隐藏,,String resource: manga_header_page,"Chinese parts: 页数和文案, 隐藏"
+3548,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1203,manga_check_page_label,《页数.》文案,,String resource: manga_check_page_label,"Chinese parts: 页数, 文案"
+3549,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1204,manga_check_page_number,页数,,String resource: manga_check_page_number,Chinese parts: 页数
+3550,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1205,manga_header_progress,《总进度和文案》隐藏,,String resource: manga_header_progress,"Chinese parts: 总进度和文案, 隐藏"

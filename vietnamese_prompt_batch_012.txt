@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+551,xml_string,app\src\main\res\values-zh\strings.xml,574,reading,阅读,,String resource: reading,Chinese parts: 阅读
+552,xml_string,app\src\main\res\values-zh\strings.xml,576,timer_m,%d 分钟,,String resource: timer_m,Chinese parts: 分钟
+553,xml_string,app\src\main\res\values-zh\strings.xml,577,brightness_auto,自动亮度 %s,,String resource: brightness_auto,Chinese parts: 自动亮度
+554,xml_string,app\src\main\res\values-zh\strings.xml,578,read_aloud_by_page,按页朗读,,String resource: read_aloud_by_page,Chinese parts: 按页朗读
+555,xml_string,app\src\main\res\values-zh\strings.xml,579,speak_engine,朗读引擎,,String resource: speak_engine,Chinese parts: 朗读引擎
+556,xml_string,app\src\main\res\values-zh\strings.xml,580,bg_image,背景图片,,String resource: bg_image,Chinese parts: 背景图片
+557,xml_string,app\src\main\res\values-zh\strings.xml,581,bg_color,背景颜色,,String resource: bg_color,Chinese parts: 背景颜色
+558,xml_string,app\src\main\res\values-zh\strings.xml,582,text_color,文字颜色,,String resource: text_color,Chinese parts: 文字颜色
+559,xml_string,app\src\main\res\values-zh\strings.xml,583,select_image,选择图片,,String resource: select_image,Chinese parts: 选择图片
+560,xml_string,app\src\main\res\values-zh\strings.xml,584,group_manage,分组管理,,String resource: group_manage,Chinese parts: 分组管理
+561,xml_string,app\src\main\res\values-zh\strings.xml,585,group_select,分组选择,,String resource: group_select,Chinese parts: 分组选择
+562,xml_string,app\src\main\res\values-zh\strings.xml,586,group_edit,编辑分组,,String resource: group_edit,Chinese parts: 编辑分组
+563,xml_string,app\src\main\res\values-zh\strings.xml,587,move_to_group,移入分组,,String resource: move_to_group,Chinese parts: 移入分组
+564,xml_string,app\src\main\res\values-zh\strings.xml,588,add_group,添加分组,,String resource: add_group,Chinese parts: 添加分组
+565,xml_string,app\src\main\res\values-zh\strings.xml,589,remove_group,移除分组,,String resource: remove_group,Chinese parts: 移除分组
+566,xml_string,app\src\main\res\values-zh\strings.xml,590,add_replace_rule,新建替换,,String resource: add_replace_rule,Chinese parts: 新建替换
+567,xml_string,app\src\main\res\values-zh\strings.xml,591,group,分组,,String resource: group,Chinese parts: 分组
+568,xml_string,app\src\main\res\values-zh\strings.xml,592,group_s,分组：%s,,String resource: group_s,Chinese parts: 分组
+569,xml_string,app\src\main\res\values-zh\strings.xml,593,toc_s,目录：%s,,String resource: toc_s,Chinese parts: 目录
+570,xml_string,app\src\main\res\values-zh\strings.xml,594,enable_explore,启用发现,,String resource: enable_explore,Chinese parts: 启用发现
+571,xml_string,app\src\main\res\values-zh\strings.xml,595,disable_explore,禁用发现,,String resource: disable_explore,Chinese parts: 禁用发现
+572,xml_string,app\src\main\res\values-zh\strings.xml,596,enable_selection,启用所选,,String resource: enable_selection,Chinese parts: 启用所选
+573,xml_string,app\src\main\res\values-zh\strings.xml,597,disable_selection,禁用所选,,String resource: disable_selection,Chinese parts: 禁用所选
+574,xml_string,app\src\main\res\values-zh\strings.xml,598,export_selection,导出所选,,String resource: export_selection,Chinese parts: 导出所选
+575,xml_string,app\src\main\res\values-zh\strings.xml,599,export,导出,,String resource: export,Chinese parts: 导出
+576,xml_string,app\src\main\res\values-zh\strings.xml,600,load_toc,加载目录,,String resource: load_toc,Chinese parts: 加载目录
+577,xml_string,app\src\main\res\values-zh\strings.xml,601,load_info,加载详情页,,String resource: load_info,Chinese parts: 加载详情页
+578,xml_string,app\src\main\res\values-zh\strings.xml,603,web_dav_pw,WebDav 密码,,String resource: web_dav_pw,Chinese parts: 密码
+579,xml_string,app\src\main\res\values-zh\strings.xml,604,web_dav_pw_s,输入你的 WebDav 授权密码,,String resource: web_dav_pw_s,"Chinese parts: 输入你的, 授权密码"
+580,xml_string,app\src\main\res\values-zh\strings.xml,605,web_dav_url_s,输入你的服务器地址,,String resource: web_dav_url_s,Chinese parts: 输入你的服务器地址
+581,xml_string,app\src\main\res\values-zh\strings.xml,606,web_dav_url,WebDav 服务器地址,,String resource: web_dav_url,Chinese parts: 服务器地址
+582,xml_string,app\src\main\res\values-zh\strings.xml,607,web_dav_account,WebDav 账号,,String resource: web_dav_account,Chinese parts: 账号
+583,xml_string,app\src\main\res\values-zh\strings.xml,608,web_dav_account_s,输入你的 WebDav 账号,,String resource: web_dav_account_s,"Chinese parts: 输入你的, 账号"
+584,xml_string,app\src\main\res\values-zh\strings.xml,609,rss_source,订阅源,,String resource: rss_source,Chinese parts: 订阅源
+585,xml_string,app\src\main\res\values-zh\strings.xml,610,rss_source_edit,编辑订阅源,,String resource: rss_source_edit,Chinese parts: 编辑订阅源
+586,xml_string,app\src\main\res\values-zh\strings.xml,611,screen,筛选,,String resource: screen,Chinese parts: 筛选
+587,xml_string,app\src\main\res\values-zh\strings.xml,612,screen_find,筛选发现,,String resource: screen_find,Chinese parts: 筛选发现
+588,xml_string,app\src\main\res\values-zh\strings.xml,613,dur_pos,当前位置：,,String resource: dur_pos,Chinese parts: 当前位置
+589,xml_string,app\src\main\res\values-zh\strings.xml,614,precision_search,精准搜索,,String resource: precision_search,Chinese parts: 精准搜索
+590,xml_string,app\src\main\res\values-zh\strings.xml,615,service_starting,正在启动服务,,String resource: service_starting,Chinese parts: 正在启动服务
+591,xml_string,app\src\main\res\values-zh\strings.xml,616,empty,空,,String resource: empty,Chinese parts: 空
+592,xml_string,app\src\main\res\values-zh\strings.xml,617,file_chooser,文件选择,,String resource: file_chooser,Chinese parts: 文件选择
+593,xml_string,app\src\main\res\values-zh\strings.xml,618,folder_chooser,文件夹选择,,String resource: folder_chooser,Chinese parts: 文件夹选择
+594,xml_string,app\src\main\res\values-zh\strings.xml,619,bottom_line,我是有底线的,,String resource: bottom_line,Chinese parts: 我是有底线的
+595,xml_string,app\src\main\res\values-zh\strings.xml,620,uri_to_path_fail,URI 转 Path 失败,,String resource: uri_to_path_fail,"Chinese parts: 转, 失败"
+596,xml_string,app\src\main\res\values-zh\strings.xml,621,refresh_cover,刷新封面,,String resource: refresh_cover,Chinese parts: 刷新封面
+597,xml_string,app\src\main\res\values-zh\strings.xml,622,change_cover_source,封面换源,,String resource: change_cover_source,Chinese parts: 封面换源
+598,xml_string,app\src\main\res\values-zh\strings.xml,623,select_local_image,选择本地图片,,String resource: select_local_image,Chinese parts: 选择本地图片
+599,xml_string,app\src\main\res\values-zh\strings.xml,624,book_type,类型：,,String resource: book_type,Chinese parts: 类型
+600,xml_string,app\src\main\res\values-zh\strings.xml,625,to_backstage,后台,,String resource: to_backstage,Chinese parts: 后台

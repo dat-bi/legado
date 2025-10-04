@@ -1,0 +1,94 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5801,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,152,,出版商,,case 8://出版商,Chinese parts: 出版商
+5802,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,154,,出版商,,"System.out.println(""出版商:"" + header.getBookMan());",Chinese parts: 出版商
+5803,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,156,,零售商,,case 9:// 零售商,Chinese parts: 零售商
+5804,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,158,,零售商,,"System.out.println(""零售商:"" + header.getShopKeeper());",Chinese parts: 零售商
+5805,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,167,,内容长度,,"System.out.println(""内容长度:"" + _TotalContentLen);",Chinese parts: 内容长度
+5806,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,169,,文件结束,,case 12://UMD文件结束,Chinese parts: 文件结束
+5807,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,172,,整个文件长度,,"System.out.println(""整个文件长度"" + num2);",Chinese parts: 整个文件长度
+5808,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,182,,正文,,case 129://正文,Chinese parts: 正文
+5809,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,183,,章节偏移,,case 131://章节偏移,Chinese parts: 章节偏移
+5810,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,185,,章节偏移,,"System.out.println(""章节偏移:"" + _AdditionalCheckNumber);",Chinese parts: 章节偏移
+5811,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,187,,章节标题,,case 132://章节标题，正文,Chinese parts: 章节标题
+5812,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,187,,正文,,case 132://章节标题，正文,Chinese parts: 正文
+5813,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,189,,章节标题,,"System.out.println(""章节标题，正文:"" + _AdditionalCheckNumber",Chinese parts: 章节标题
+5814,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,189,,正文,,"System.out.println(""章节标题，正文:"" + _AdditionalCheckNumber);",Chinese parts: 正文
+5815,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,191,,封面,,case 130://封面（jpg）,Chinese parts: 封面
+5816,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,195,,页面偏移,,case 135://页面偏移（Page Offset）,Chinese parts: 页面偏移
+5817,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,196,,一字节,,reader.readUint8();//fontSize 一字节 字体大小,Chinese parts: 一字节
+5818,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,196,,字体大小,,er.readUint8();//fontSize 一字节 字体大小,Chinese parts: 字体大小
+5819,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,197,,屏幕宽度,,der.readUint8();//screenWidth 屏幕宽度,Chinese parts: 屏幕宽度
+5820,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,198,,指向一个页面偏移数据块,,er.readBytes(4);//BlockRandom 指向一个页面偏移数据块,Chinese parts: 指向一个页面偏移数据块
+5821,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,202,,许可证,,case 241://许可证(LICENCE KEY),Chinese parts: 许可证
+5822,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,204,,许可证,,"System.out.println(""许可证(LICENCE KEY):"" + reader.readH",Chinese parts: 许可证
+5823,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,72,,的必须属性,,"epub_type = ""epub:type"";//nav的必须属性",Chinese parts: 的必须属性
+5824,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,112,,该,,"Log.v(TAG, ""该epub文件不标准，使用了epub2的目录文件"");",Chinese parts: 该
+5825,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,112,,文件不标准,,"Log.v(TAG, ""该epub文件不标准，使用了epub2的目录文件"");",Chinese parts: 文件不标准
+5826,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,112,,使用了,,"Log.v(TAG, ""该epub文件不标准，使用了epub2的目录文件"");",Chinese parts: 使用了
+5827,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,112,,的目录文件,,"og.v(TAG, ""该epub文件不标准，使用了epub2的目录文件"");",Chinese parts: 的目录文件
+5828,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,122,,目录文件未发现,,"Log.d(TAG, ""epub3目录文件未发现nav节点，尝试使用epub2的规则解析"");",Chinese parts: 目录文件未发现
+5829,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,122,,节点,,"Log.d(TAG, ""epub3目录文件未发现nav节点，尝试使用epub2的规则解析"");",Chinese parts: 节点
+5830,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,122,,尝试使用,,"Log.d(TAG, ""epub3目录文件未发现nav节点，尝试使用epub2的规则解析"");",Chinese parts: 尝试使用
+5831,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,122,,的规则解析,,", ""epub3目录文件未发现nav节点，尝试使用epub2的规则解析"");",Chinese parts: 的规则解析
+5832,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\NCXDocumentV3.java,342,,目录,,"serializer.text(""目录"");",Chinese parts: 目录
+5833,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\PackageDocumentReader.java,57,,掌上书苑有很多自制书,,/*掌上书苑有很多自制书OPF的nameSpace格式不标准，强制修复成正确的格式*,Chinese parts: 掌上书苑有很多自制书
+5834,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\PackageDocumentReader.java,57,,的,,/*掌上书苑有很多自制书OPF的nameSpace格式不标准，强制修复成正确的格式*/,Chinese parts: 的
+5835,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\PackageDocumentReader.java,57,,格式不标准,,/*掌上书苑有很多自制书OPF的nameSpace格式不标准，强制修复成正确的格式*/,Chinese parts: 格式不标准
+5836,source_code,modules\book\src\main\java\me\ag2s\epublib\epub\PackageDocumentReader.java,57,,强制修复成正确的格式,,*掌上书苑有很多自制书OPF的nameSpace格式不标准，强制修复成正确的格式*/,Chinese parts: 强制修复成正确的格式
+5837,source_code,modules\book\src\main\java\me\ag2s\epublib\util\zip\ZipEntryWrapper.java,15,,使用了不支持的类,,"throw new RuntimeException(""使用了不支持的类"");",Chinese parts: 使用了不支持的类
+5838,source_code,modules\book\src\main\java\me\ag2s\epublib\util\zip\ZipFileWrapper.java,23,,使用了不支持的类,,"throw new RuntimeException(""使用了不支持的类"");",Chinese parts: 使用了不支持的类

@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5301,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,224,,获取作者,,"g(bookSource.bookSourceUrl, ""┌获取作者"", log)",Chinese parts: 获取作者
+5302,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,231,,获取分类,,"g(bookSource.bookSourceUrl, ""┌获取分类"", log)",Chinese parts: 获取分类
+5303,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,240,,获取字数,,"g(bookSource.bookSourceUrl, ""┌获取字数"", log)",Chinese parts: 获取字数
+5304,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,249,,获取最新章节,,"g(bookSource.bookSourceUrl, ""┌获取最新章节"", log)",Chinese parts: 获取最新章节
+5305,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,258,,获取简介,,"g(bookSource.bookSourceUrl, ""┌获取简介"", log)",Chinese parts: 获取简介
+5306,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,267,,获取封面链接,,"g(bookSource.bookSourceUrl, ""┌获取封面链接"", log)",Chinese parts: 获取封面链接
+5307,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,280,,获取详情页链接,,"g(bookSource.bookSourceUrl, ""┌获取详情页链接"", log)",Chinese parts: 获取详情页链接
+5308,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,304,,发现地址规则,,"Debug.log(""≡发现地址规则 JSON 格式不规范，请改为规范格式"")",Chinese parts: 发现地址规则
+5309,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,304,,格式不规范,,"Debug.log(""≡发现地址规则 JSON 格式不规范，请改为规范格式"")",Chinese parts: 格式不规范
+5310,source_code,app\src\main\java\io\legado\app\model\webBook\BookList.kt,304,,请改为规范格式,,"Debug.log(""≡发现地址规则 JSON 格式不规范，请改为规范格式"")",Chinese parts: 请改为规范格式
+5311,source_code,app\src\main\java\io\legado\app\model\webBook\SearchModel.kt,65,,启用书源为空,,"Cancel(NoStackTraceException(""启用书源为空""))",Chinese parts: 启用书源为空
+5312,source_code,app\src\main\java\io\legado\app\model\webBook\SearchModel.kt,111,,书源搜索出错,,"AppLog.put(""书源搜索出错\n${it.localizedMessage}"", it)",Chinese parts: 书源搜索出错
+5313,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,57,,搜索,,"throw NoStackTraceException(""搜索url不能为空"")",Chinese parts: 搜索
+5314,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,57,,不能为空,,"w NoStackTraceException(""搜索url不能为空"")",Chinese parts: 不能为空
+5315,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,221,,执行,,"AppLog.put(""执行preUpdateJs规则失败 书源:${bookSourc",Chinese parts: 执行
+5316,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,221,,规则失败,,"AppLog.put(""执行preUpdateJs规则失败 书源:${bookSource.bookSourceNam",Chinese parts: 规则失败
+5317,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,221,,书源,,"AppLog.put(""执行preUpdateJs规则失败 书源:${bookSource.bookSourceName}""",Chinese parts: 书源
+5318,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,307,,正文规则为空,,"g(bookSource.bookSourceUrl, ""⇒正文规则为空,使用章节链接:${bookChapter.url}"")",Chinese parts: 正文规则为空
+5319,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,307,,使用章节链接,,"ource.bookSourceUrl, ""⇒正文规则为空,使用章节链接:${bookChapter.url}"")",Chinese parts: 使用章节链接
+5320,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,311,,一级目录正文不解析规则,,"g(bookSource.bookSourceUrl, ""⇒一级目录正文不解析规则"")",Chinese parts: 一级目录正文不解析规则
+5321,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,377,,没有搜索到,,"throw NoStackTraceException(""没有搜索到<$name>$author"")",Chinese parts: 没有搜索到
+5322,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,396,,未搜索到,,"throw NoStackTraceException(""未搜索到 $name($author) 书籍"")",Chinese parts: 未搜索到
+5323,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,396,,书籍,,"xception(""未搜索到 $name($author) 书籍"")",Chinese parts: 书籍
+5324,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,408,,检测到重定向,,"g(bookSource.bookSourceUrl, ""≡检测到重定向(${it.code})"")",Chinese parts: 检测到重定向
+5325,source_code,app\src\main\java\io\legado\app\model\webBook\WebBook.kt,409,,重定向后地址,,"g(bookSource.bookSourceUrl, ""┌重定向后地址"")",Chinese parts: 重定向后地址
+5326,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,31,,设置自定义,,tLibraryLoader(CronetLoader)//设置自定义so库加载,Chinese parts: 设置自定义
+5327,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,31,,库加载,,yLoader(CronetLoader)//设置自定义so库加载,Chinese parts: 库加载
+5328,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,33,,设置缓存路径,,.externalCache.absolutePath)//设置缓存路径,Chinese parts: 设置缓存路径
+5329,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,34,,设置,,(1024 * 1024 * 50).toLong())//设置50M的磁盘缓存,Chinese parts: 设置
+5330,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,34,,的磁盘缓存,,* 1024 * 50).toLong())//设置50M的磁盘缓存,Chinese parts: 的磁盘缓存
+5331,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,35,,设置支持,,enableQuic(true)//设置支持http/3,Chinese parts: 设置支持
+5332,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,36,,设置支持,,enableHttp2(true)  //设置支持http/2,Chinese parts: 设置支持
+5333,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,38,,压缩,,enableBrotli(true)//Brotli压缩,Chinese parts: 压缩
+5334,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,46,,初始化,,"AppLog.put(""初始化cronetEngine出错"", e)",Chinese parts: 初始化
+5335,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,46,,出错,,"AppLog.put(""初始化cronetEngine出错"", e)",Chinese parts: 出错
+5336,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetHelper.kt,82,,设置,,etHttpMethod(request.method)//设置,Chinese parts: 设置
+5337,source_code,app\src\main\java\io\legado\app\lib\cronet\CronetLoader.kt,88,,库已存在,,"g.d(javaClass.simpleName, ""So 库已存在"")",Chinese parts: 库已存在
+5338,source_code,app\src\main\java\io\legado\app\lib\permission\PermissionActivity.kt,55,,请求权限出错,,"AppLog.put(""请求权限出错\n$e"", e, true)",Chinese parts: 请求权限出错
+5339,source_code,app\src\main\java\io\legado\app\lib\permission\PermissionActivity.kt,79,,请求所有文件的管理权限出错,,"AppLog.put(""请求所有文件的管理权限出错\n$e"", e, true)",Chinese parts: 请求所有文件的管理权限出错
+5340,source_code,app\src\main\java\io\legado\app\lib\permission\PermissionActivity.kt,103,,请求通知权限出错,,"AppLog.put(""请求通知权限出错\n$e"", e, true)",Chinese parts: 请求通知权限出错
+5341,source_code,app\src\main\java\io\legado\app\lib\permission\PermissionActivity.kt,133,,请求后台权限出错,,"AppLog.put(""请求后台权限出错\n$e"", e, true)",Chinese parts: 请求后台权限出错
+5342,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,49,,没有,,"rID ?: throw WebDavException(""没有serverID"")",Chinese parts: 没有
+5343,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,293,,创建目录失败,,"AppLog.put(""WebDav创建目录失败\n${it.localizedMessage}"", it)",Chinese parts: 创建目录失败
+5344,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,337,,文件不存在,,"sts()) throw WebDavException(""文件不存在"")",Chinese parts: 文件不存在
+5345,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,340,,不能为空,,"?: throw WebDavException(""url不能为空"")",Chinese parts: 不能为空
+5346,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,350,,上传失败,,"AppLog.put(""WebDav上传失败\n${it.localizedMessage}"", it)",Chinese parts: 上传失败
+5347,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,351,,上传失败,,"throw WebDavException(""WebDav上传失败\n${it.localizedMessage}"")",Chinese parts: 上传失败
+5348,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,361,,不能为空,,"row NoStackTraceException(""url不能为空"")",Chinese parts: 不能为空
+5349,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,371,,上传失败,,"AppLog.put(""WebDav上传失败\n${it.localizedMessage}"", it)",Chinese parts: 上传失败
+5350,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,372,,上传失败,,"throw WebDavException(""WebDav上传失败\n${it.localizedMessage}"")",Chinese parts: 上传失败

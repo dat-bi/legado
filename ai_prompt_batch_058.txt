@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2851,xml_string,app\src\main\res\values-zh-rTW\strings.xml,495,yes,是,,String resource: yes,Chinese parts: 是
+2852,xml_string,app\src\main\res\values-zh-rTW\strings.xml,496,no,否,,String resource: no,Chinese parts: 否
+2853,xml_string,app\src\main\res\values-zh-rTW\strings.xml,497,sure,確認,,String resource: sure,Chinese parts: 確認
+2854,xml_string,app\src\main\res\values-zh-rTW\strings.xml,498,sure_del,是否確認刪除？,,String resource: sure_del,Chinese parts: 是否確認刪除
+2855,xml_string,app\src\main\res\values-zh-rTW\strings.xml,499,sure_del_any,是否確認刪除 %s？,,String resource: sure_del_any,Chinese parts: 是否確認刪除
+2856,xml_string,app\src\main\res\values-zh-rTW\strings.xml,500,sure_del_all_book,是否刪除全部書籍？,,String resource: sure_del_all_book,Chinese parts: 是否刪除全部書籍
+2857,xml_string,app\src\main\res\values-zh-rTW\strings.xml,501,sure_del_download_book,是否同時刪除已下載的書籍目錄？,,String resource: sure_del_download_book,Chinese parts: 是否同時刪除已下載的書籍目錄
+2858,xml_string,app\src\main\res\values-zh-rTW\strings.xml,502,qr_per,掃描二維碼需相機權限,,String resource: qr_per,Chinese parts: 掃描二維碼需相機權限
+2859,xml_string,app\src\main\res\values-zh-rTW\strings.xml,503,aloud_can_not_auto_page,朗讀正在執行，不能自動翻頁,,String resource: aloud_can_not_auto_page,"Chinese parts: 朗讀正在執行, 不能自動翻頁"
+2860,xml_string,app\src\main\res\values-zh-rTW\strings.xml,504,input_charset,輸入編碼,,String resource: input_charset,Chinese parts: 輸入編碼
+2861,xml_string,app\src\main\res\values-zh-rTW\strings.xml,505,text_chapter_list_rule,TXT目錄規則,,String resource: text_chapter_list_rule,Chinese parts: 目錄規則
+2862,xml_string,app\src\main\res\values-zh-rTW\strings.xml,506,open_local_book_per,打開外部書籍需獲取儲存權限,,String resource: open_local_book_per,Chinese parts: 打開外部書籍需獲取儲存權限
+2863,xml_string,app\src\main\res\values-zh-rTW\strings.xml,507,no_book_name,未獲取到書名,,String resource: no_book_name,Chinese parts: 未獲取到書名
+2864,xml_string,app\src\main\res\values-zh-rTW\strings.xml,508,input_replace_url,輸入取代規則網址,,String resource: input_replace_url,Chinese parts: 輸入取代規則網址
+2865,xml_string,app\src\main\res\values-zh-rTW\strings.xml,509,get_book_list_success,搜尋列表獲取成功%d,,String resource: get_book_list_success,Chinese parts: 搜尋列表獲取成功
+2866,xml_string,app\src\main\res\values-zh-rTW\strings.xml,510,non_null_name_url,名稱和URL不能為空,,String resource: non_null_name_url,"Chinese parts: 名稱和, 不能為空"
+2867,xml_string,app\src\main\res\values-zh-rTW\strings.xml,511,gallery,圖庫,,String resource: gallery,Chinese parts: 圖庫
+2868,xml_string,app\src\main\res\values-zh-rTW\strings.xml,512,get_ali_pay_hb,領支付寶紅包,,String resource: get_ali_pay_hb,Chinese parts: 領支付寶紅包
+2869,xml_string,app\src\main\res\values-zh-rTW\strings.xml,513,non_update_url,沒有獲取到更新地址,,String resource: non_update_url,Chinese parts: 沒有獲取到更新地址
+2870,xml_string,app\src\main\res\values-zh-rTW\strings.xml,514,check_host_cookie,正在打開首頁，成功自動返回主介面,,String resource: check_host_cookie,"Chinese parts: 正在打開首頁, 成功自動返回主介面"
+2871,xml_string,app\src\main\res\values-zh-rTW\strings.xml,515,click_check_after_success,登入成功後請點擊右上角圖示進行首頁訪問測試,,String resource: click_check_after_success,Chinese parts: 登入成功後請點擊右上角圖示進行首頁訪問測試
+2872,xml_string,app\src\main\res\values-zh-rTW\strings.xml,516,chapter,章,,String resource: chapter,Chinese parts: 章
+2873,xml_string,app\src\main\res\values-zh-rTW\strings.xml,517,to,至,,String resource: to,Chinese parts: 至
+2874,xml_string,app\src\main\res\values-zh-rTW\strings.xml,518,use_regex,使用正規表示式,,String resource: use_regex,Chinese parts: 使用正規表示式
+2875,xml_string,app\src\main\res\values-zh-rTW\strings.xml,519,text_indent,縮排,,String resource: text_indent,Chinese parts: 縮排
+2876,xml_string,app\src\main\res\values-zh-rTW\strings.xml,520,indent_0,無縮排,,String resource: indent_0,Chinese parts: 無縮排
+2877,xml_string,app\src\main\res\values-zh-rTW\strings.xml,521,indent_1,一字元縮排,,String resource: indent_1,Chinese parts: 一字元縮排
+2878,xml_string,app\src\main\res\values-zh-rTW\strings.xml,522,indent_2,二字元縮排,,String resource: indent_2,Chinese parts: 二字元縮排
+2879,xml_string,app\src\main\res\values-zh-rTW\strings.xml,523,indent_3,三字元縮排,,String resource: indent_3,Chinese parts: 三字元縮排
+2880,xml_string,app\src\main\res\values-zh-rTW\strings.xml,524,indent_4,四字元縮排,,String resource: indent_4,Chinese parts: 四字元縮排
+2881,xml_string,app\src\main\res\values-zh-rTW\strings.xml,525,select_folder,選擇資料夾,,String resource: select_folder,Chinese parts: 選擇資料夾
+2882,xml_string,app\src\main\res\values-zh-rTW\strings.xml,526,select_file,選擇文件,,String resource: select_file,Chinese parts: 選擇文件
+2883,xml_string,app\src\main\res\values-zh-rTW\strings.xml,527,no_find,沒有發現，可以在書源裡新增。,,String resource: no_find,"Chinese parts: 沒有發現, 可以在書源裡新增"
+2884,xml_string,app\src\main\res\values-zh-rTW\strings.xml,528,restore_default,復原預設,,String resource: restore_default,Chinese parts: 復原預設
+2885,xml_string,app\src\main\res\values-zh-rTW\strings.xml,529,set_download_per,自訂快取路徑需要儲存權限,,String resource: set_download_per,Chinese parts: 自訂快取路徑需要儲存權限
+2886,xml_string,app\src\main\res\values-zh-rTW\strings.xml,530,black,黑色,,String resource: black,Chinese parts: 黑色
+2887,xml_string,app\src\main\res\values-zh-rTW\strings.xml,531,content_empty,文章內容為空,,String resource: content_empty,Chinese parts: 文章內容為空
+2888,xml_string,app\src\main\res\values-zh-rTW\strings.xml,532,on_change_source,正在換源請等待…,,String resource: on_change_source,Chinese parts: 正在換源請等待
+2889,xml_string,app\src\main\res\values-zh-rTW\strings.xml,533,chapter_list_empty,目錄列表為空,,String resource: chapter_list_empty,Chinese parts: 目錄列表為空
+2890,xml_string,app\src\main\res\values-zh-rTW\strings.xml,534,text_letter_spacing,字距,,String resource: text_letter_spacing,Chinese parts: 字距
+2891,xml_string,app\src\main\res\values-zh-rTW\strings.xml,536,source_tab_base,基本,,String resource: source_tab_base,Chinese parts: 基本
+2892,xml_string,app\src\main\res\values-zh-rTW\strings.xml,537,source_tab_search,搜尋,,String resource: source_tab_search,Chinese parts: 搜尋
+2893,xml_string,app\src\main\res\values-zh-rTW\strings.xml,538,source_tab_find,發現,,String resource: source_tab_find,Chinese parts: 發現
+2894,xml_string,app\src\main\res\values-zh-rTW\strings.xml,539,source_tab_info,詳情,,String resource: source_tab_info,Chinese parts: 詳情
+2895,xml_string,app\src\main\res\values-zh-rTW\strings.xml,540,source_tab_toc,目錄,,String resource: source_tab_toc,Chinese parts: 目錄
+2896,xml_string,app\src\main\res\values-zh-rTW\strings.xml,541,source_tab_content,正文,,String resource: source_tab_content,Chinese parts: 正文
+2897,xml_string,app\src\main\res\values-zh-rTW\strings.xml,543,e_ink_mode,E-Ink 模式,,String resource: e_ink_mode,Chinese parts: 模式
+2898,xml_string,app\src\main\res\values-zh-rTW\strings.xml,544,e_ink_mode_detail,去除動畫，最佳化電紙書使用體驗,,String resource: e_ink_mode_detail,"Chinese parts: 去除動畫, 最佳化電紙書使用體驗"
+2899,xml_string,app\src\main\res\values-zh-rTW\strings.xml,545,web_menu,Web服務,,String resource: web_menu,Chinese parts: 服務
+2900,xml_string,app\src\main\res\values-zh-rTW\strings.xml,546,web_port_title,web埠,,String resource: web_port_title,Chinese parts: 埠

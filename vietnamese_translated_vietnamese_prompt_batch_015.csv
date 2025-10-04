@@ -1,0 +1,2 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+701,xml_string,app\src\main\res\values-zh\strings.xml,729,night_accent,夜间，强调色,Màu nhấn ban đêm,String resource: night_accent,"Chinese parts: 夜间, 强调色"

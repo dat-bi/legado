@@ -1,0 +1,32 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5351,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,382,,不能为空,Không được để trống,"row NoStackTraceException(""url不能为空"")",Chinese parts: 不能为空
+5352,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,392,,上传失败,Tải lên thất bại,"AppLog.put(""WebDav上传失败\n${it.localizedMessage}"", it)",Chinese parts: 上传失败
+5353,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,393,,上传失败,Tải lên thất bại,"throw WebDavException(""WebDav上传失败\n${it.localizedMessage}"")",Chinese parts: 上传失败
+5354,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,399,,下载出错,Lỗi tải xuống,"throw WebDavException(""WebDav下载出错\nurl为空"")",Chinese parts: 下载出错
+5355,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,399,,为空,trống,"bDavException(""WebDav下载出错\nurl为空"")",Chinese parts: 为空
+5356,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,405,,下载出错,Lỗi tải xuống,"throw WebDavException(""WebDav下载出错\nNull Exception"")",Chinese parts: 下载出错
+5357,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,423,,删除失败,Xóa thất bại,"AppLog.put(""WebDav删除失败\n${it.localizedMessage}"", it)",Chinese parts: 删除失败
+5358,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,439,,服务器不支持,Máy chủ không hỗ trợ,"AppLog.put(""服务器不支持BasicAuth认证"")",Chinese parts: 服务器不支持
+5359,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,439,,认证,xác thực,"AppLog.put(""服务器不支持BasicAuth认证"")",Chinese parts: 认证
+5360,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,454,,未知错误,Lỗi không xác định,"w WebDavException(message ?: ""未知错误 code:${response.code}"")",Chinese parts: 未知错误
+5361,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,109,,不是本地书籍,Không phải sách cục bộ,"throw NoStackTraceException(""不是本地书籍"")",Chinese parts: 不是本地书籍
+5362,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,135,,书籍保存目录失效,Thư mục lưu sách không hợp lệ,"appCtx.toastOnUi(""书籍保存目录失效，请重新设置！"")",Chinese parts: 书籍保存目录失效
+5363,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,135,,请重新设置,Vui lòng cài đặt lại,"appCtx.toastOnUi(""书籍保存目录失效，请重新设置！"")",Chinese parts: 请重新设置
+5364,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,313,,作者,Tác giả,"return ""$name 作者：${getRealAuthor()}.$suffix""",Chinese parts: 作者
+5365,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,316,,兼容老版本,Tương thích với phiên bản cũ,"bindings[""epubIndex""] = """"// 兼容老版本,修复可能存在的错误",Chinese parts: 兼容老版本
+5366,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,316,,修复可能存在的错误,Khắc phục lỗi có thể xảy ra,"ngs[""epubIndex""] = """"// 兼容老版本,修复可能存在的错误",Chinese parts: 修复可能存在的错误
+5367,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,323,,导出书名规则错误,Lỗi quy tắc tên sách xuất,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage",Chinese parts: 导出书名规则错误
+5368,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,323,,使用默认规则,Sử dụng quy tắc mặc định,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage}"", it)",Chinese parts: 使用默认规则
+5369,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,324,,作者,Tác giả,"}.getOrDefault(""$name 作者：${getRealAuthor()}.$suffix"")",Chinese parts: 作者
+5370,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,336,,作者,Tác giả,"val default = ""$name 作者：${getRealAuthor()} [${epubInd",Chinese parts: 作者
+5371,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,348,,导出书名规则错误,Lỗi quy tắc tên sách xuất,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage",Chinese parts: 导出书名规则错误
+5372,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,348,,使用默认规则,Sử dụng quy tắc mặc định,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage}"", it)",Chinese parts: 使用默认规则
+5373,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,172,,保存正文失败,Lưu nội dung thất bại,"AppLog.put(""保存正文失败 ${book.name} ${bookChapter.ti",Chinese parts: 保存正文失败
+5374,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,250,,图片,Ảnh,"{book.name} ${chapter?.title} 图片 $src 下载错误 数据异常"")",Chinese parts: 图片
+5375,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,250,,下载错误,Lỗi tải xuống,"me} ${chapter?.title} 图片 $src 下载错误 数据异常"")",Chinese parts: 下载错误
+5376,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,250,,数据异常,Dữ liệu bất thường,"{chapter?.title} 图片 $src 下载错误 数据异常"")",Chinese parts: 数据异常
+5377,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,256,,图片,Ảnh,"{book.name} ${chapter?.title} 图片 $src 下载失败\n${e.localizedMessa",Chinese parts: 图片
+5378,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,256,,下载失败,Tải xuống thất bại,"me} ${chapter?.title} 图片 $src 下载失败\n${e.localizedMessage}""",Chinese parts: 下载失败
+5379,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,295,,文件不存在,Tệp không tồn tại,"?: throw IOException(""文件不存在"")",Chinese parts: 文件不存在
+5380,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,559,,第,Thứ,""".*?第([\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖",Chinese parts: 第
+5381,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,559,,零,Không,""".*?第([\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)",Chinese parts: 零

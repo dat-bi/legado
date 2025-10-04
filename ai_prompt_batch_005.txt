@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+201,xml_string,app\src\main\res\values-zh\strings.xml,213,adjust,调节,,String resource: adjust,Chinese parts: 调节
+202,xml_string,app\src\main\res\values-zh\strings.xml,214,scroll_bar,滚动条,,String resource: scroll_bar,Chinese parts: 滚动条
+203,xml_string,app\src\main\res\values-zh\strings.xml,215,clear_all_content,清除缓存会删除所有已保存章节，是否确认删除？,,String resource: clear_all_content,"Chinese parts: 清除缓存会删除所有已保存章节, 是否确认删除"
+204,xml_string,app\src\main\res\values-zh\strings.xml,216,book_source_share_url,书源共享,,String resource: book_source_share_url,Chinese parts: 书源共享
+205,xml_string,app\src\main\res\values-zh\strings.xml,217,replace_rule_summary,替换规则名称,,String resource: replace_rule_summary,Chinese parts: 替换规则名称
+206,xml_string,app\src\main\res\values-zh\strings.xml,218,replace_rule_invalid,替换规则为空或者不满足正则表达式要求,,String resource: replace_rule_invalid,Chinese parts: 替换规则为空或者不满足正则表达式要求
+207,xml_string,app\src\main\res\values-zh\strings.xml,219,select_action,选择操作,,String resource: select_action,Chinese parts: 选择操作
+208,xml_string,app\src\main\res\values-zh\strings.xml,220,select_all,全选,,String resource: select_all,Chinese parts: 全选
+209,xml_string,app\src\main\res\values-zh\strings.xml,221,select_all_count,全选（%1$d/%2$d）,,String resource: select_all_count,Chinese parts: 全选
+210,xml_string,app\src\main\res\values-zh\strings.xml,222,select_cancel_count,取消全选（%1$d/%2$d）,,String resource: select_cancel_count,Chinese parts: 取消全选
+211,xml_string,app\src\main\res\values-zh\strings.xml,223,dark_theme,深色模式,,String resource: dark_theme,Chinese parts: 深色模式
+212,xml_string,app\src\main\res\values-zh\strings.xml,224,welcome,启动页,,String resource: welcome,Chinese parts: 启动页
+213,xml_string,app\src\main\res\values-zh\strings.xml,225,download_start,开始下载,,String resource: download_start,Chinese parts: 开始下载
+214,xml_string,app\src\main\res\values-zh\strings.xml,226,download_cancel,取消下载,,String resource: download_cancel,Chinese parts: 取消下载
+215,xml_string,app\src\main\res\values-zh\strings.xml,227,no_download,暂无任务,,String resource: no_download,Chinese parts: 暂无任务
+216,xml_string,app\src\main\res\values-zh\strings.xml,228,download_count,已下载 %1$d/%2$d,,String resource: download_count,Chinese parts: 已下载
+217,xml_string,app\src\main\res\values-zh\strings.xml,229,import_select_book,导入选择书籍,,String resource: import_select_book,Chinese parts: 导入选择书籍
+218,xml_string,app\src\main\res\values-zh\strings.xml,230,threads_num_title,更新和搜索线程数（太多会卡顿）,,String resource: threads_num_title,"Chinese parts: 更新和搜索线程数, 太多会卡顿"
+219,xml_string,app\src\main\res\values-zh\strings.xml,231,change_icon,切换图标,,String resource: change_icon,Chinese parts: 切换图标
+220,xml_string,app\src\main\res\values-zh\strings.xml,232,remove_from_bookshelf,删除书籍,,String resource: remove_from_bookshelf,Chinese parts: 删除书籍
+221,xml_string,app\src\main\res\values-zh\strings.xml,233,start_read,开始阅读,,String resource: start_read,Chinese parts: 开始阅读
+222,xml_string,app\src\main\res\values-zh\strings.xml,234,data_loading,加载数据中…,,String resource: data_loading,Chinese parts: 加载数据中
+223,xml_string,app\src\main\res\values-zh\strings.xml,235,load_error_retry,加载失败，点击重试,,String resource: load_error_retry,"Chinese parts: 加载失败, 点击重试"
+224,xml_string,app\src\main\res\values-zh\strings.xml,236,book_intro,内容简介,,String resource: book_intro,Chinese parts: 内容简介
+225,xml_string,app\src\main\res\values-zh\strings.xml,237,intro_show,简介：%s,,String resource: intro_show,Chinese parts: 简介
+226,xml_string,app\src\main\res\values-zh\strings.xml,238,intro_show_null,简介：暂无简介,,String resource: intro_show_null,"Chinese parts: 简介, 暂无简介"
+227,xml_string,app\src\main\res\values-zh\strings.xml,239,open_from_other,打开外部书籍,,String resource: open_from_other,Chinese parts: 打开外部书籍
+228,xml_string,app\src\main\res\values-zh\strings.xml,240,origin_show,来源：%s,,String resource: origin_show,Chinese parts: 来源
+229,xml_string,app\src\main\res\values-zh\strings.xml,241,import_replace_rule,导入替换规则,,String resource: import_replace_rule,Chinese parts: 导入替换规则
+230,xml_string,app\src\main\res\values-zh\strings.xml,242,import_replace_rule_on_line,导入在线规则,,String resource: import_replace_rule_on_line,Chinese parts: 导入在线规则
+231,xml_string,app\src\main\res\values-zh\strings.xml,243,check_update_interval,检查更新间隔,,String resource: check_update_interval,Chinese parts: 检查更新间隔
+232,xml_string,app\src\main\res\values-zh\strings.xml,244,bookshelf_px_0,按阅读时间,,String resource: bookshelf_px_0,Chinese parts: 按阅读时间
+233,xml_string,app\src\main\res\values-zh\strings.xml,245,bookshelf_px_1,按更新时间,,String resource: bookshelf_px_1,Chinese parts: 按更新时间
+234,xml_string,app\src\main\res\values-zh\strings.xml,246,bookshelf_px_2,按书名,,String resource: bookshelf_px_2,Chinese parts: 按书名
+235,xml_string,app\src\main\res\values-zh\strings.xml,247,bookshelf_px_3,手动排序,,String resource: bookshelf_px_3,Chinese parts: 手动排序
+236,xml_string,app\src\main\res\values-zh\strings.xml,248,read_type,阅读方式,,String resource: read_type,Chinese parts: 阅读方式
+237,xml_string,app\src\main\res\values-zh\strings.xml,249,compose_type,排版,,String resource: compose_type,Chinese parts: 排版
+238,xml_string,app\src\main\res\values-zh\strings.xml,250,del_select,删除所选,,String resource: del_select,Chinese parts: 删除所选
+239,xml_string,app\src\main\res\values-zh\strings.xml,251,del_msg,是否确认删除？,,String resource: del_msg,Chinese parts: 是否确认删除
+240,xml_string,app\src\main\res\values-zh\strings.xml,252,clear_font,默认字体,,String resource: clear_font,Chinese parts: 默认字体
+241,xml_string,app\src\main\res\values-zh\strings.xml,253,find_on_www,发现,,String resource: find_on_www,Chinese parts: 发现
+242,xml_string,app\src\main\res\values-zh\strings.xml,254,find_source_manage,发现管理,,String resource: find_source_manage,Chinese parts: 发现管理
+243,xml_string,app\src\main\res\values-zh\strings.xml,255,find_empty,还没有内容，去书源里自定义吧！,,String resource: find_empty,"Chinese parts: 还没有内容, 去书源里自定义吧"
+244,xml_string,app\src\main\res\values-zh\strings.xml,256,del_all,删除所有,,String resource: del_all,Chinese parts: 删除所有
+245,xml_string,app\src\main\res\values-zh\strings.xml,257,searchHistory,搜索历史,,String resource: searchHistory,Chinese parts: 搜索历史
+246,xml_string,app\src\main\res\values-zh\strings.xml,258,clear,清除,,String resource: clear,Chinese parts: 清除
+247,xml_string,app\src\main\res\values-zh\strings.xml,259,showTitle,正文显示标题,,String resource: showTitle,Chinese parts: 正文显示标题
+248,xml_string,app\src\main\res\values-zh\strings.xml,260,refresh_default,书源同步,,String resource: refresh_default,Chinese parts: 书源同步
+249,xml_string,app\src\main\res\values-zh\strings.xml,261,no_last_chapter,无最新章节信息,,String resource: no_last_chapter,Chinese parts: 无最新章节信息
+250,xml_string,app\src\main\res\values-zh\strings.xml,262,showTimeBattery,显示时间和电量,,String resource: showTimeBattery,Chinese parts: 显示时间和电量

@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2051,xml_string,app\src\main\res\values-zh-rHK\strings.xml,887,respondTime,響應時間：%1$d ms,,String resource: respondTime,Chinese parts: 響應時間
+2052,xml_string,app\src\main\res\values-zh-rHK\strings.xml,888,export_success,導出成功,,String resource: export_success,Chinese parts: 導出成功
+2053,xml_string,app\src\main\res\values-zh-rHK\strings.xml,889,path,路徑,,String resource: path,Chinese parts: 路徑
+2054,xml_string,app\src\main\res\values-zh-rHK\strings.xml,890,direct_link_upload_rule,直鏈上傳規則,,String resource: direct_link_upload_rule,Chinese parts: 直鏈上傳規則
+2055,xml_string,app\src\main\res\values-zh-rHK\strings.xml,891,direct_link_upload_rule_summary,用於導出書源書單時生成直鏈url,,String resource: direct_link_upload_rule_summary,Chinese parts: 用於導出書源書單時生成直鏈
+2056,xml_string,app\src\main\res\values-zh-rHK\strings.xml,892,direct_link_upload_config,直链上传配置,,String resource: direct_link_upload_config,Chinese parts: 直链上传配置
+2057,xml_string,app\src\main\res\values-zh-rHK\strings.xml,893,copy_play_url,複製播放Url,,String resource: copy_play_url,Chinese parts: 複製播放
+2058,xml_string,app\src\main\res\values-zh-rHK\strings.xml,894,set_source_variable,設置源變量,,String resource: set_source_variable,Chinese parts: 設置源變量
+2059,xml_string,app\src\main\res\values-zh-rHK\strings.xml,895,set_book_variable,設置書籍變量,,String resource: set_book_variable,Chinese parts: 設置書籍變量
+2060,xml_string,app\src\main\res\values-zh-rHK\strings.xml,896,summary,注釋,,String resource: summary,Chinese parts: 注釋
+2061,xml_string,app\src\main\res\values-zh-rHK\strings.xml,897,cover_config,封面設置,,String resource: cover_config,Chinese parts: 封面設置
+2062,xml_string,app\src\main\res\values-zh-rHK\strings.xml,898,cover_config_summary,通用封面规则及默认封面样式,,String resource: cover_config_summary,Chinese parts: 通用封面规则及默认封面样式
+2063,xml_string,app\src\main\res\values-zh-rHK\strings.xml,899,cover_show_name,顯示書名,,String resource: cover_show_name,Chinese parts: 顯示書名
+2064,xml_string,app\src\main\res\values-zh-rHK\strings.xml,900,cover_show_name_summary,封面上顯示書名,,String resource: cover_show_name_summary,Chinese parts: 封面上顯示書名
+2065,xml_string,app\src\main\res\values-zh-rHK\strings.xml,901,cover_show_author,顯示作者,,String resource: cover_show_author,Chinese parts: 顯示作者
+2066,xml_string,app\src\main\res\values-zh-rHK\strings.xml,902,cover_show_author_summary,封面上顯示作者,,String resource: cover_show_author_summary,Chinese parts: 封面上顯示作者
+2067,xml_string,app\src\main\res\values-zh-rHK\strings.xml,903,read_aloud_prev_paragraph,朗讀上一段,,String resource: read_aloud_prev_paragraph,Chinese parts: 朗讀上一段
+2068,xml_string,app\src\main\res\values-zh-rHK\strings.xml,904,read_aloud_next_paragraph,朗讀下一段,,String resource: read_aloud_next_paragraph,Chinese parts: 朗讀下一段
+2069,xml_string,app\src\main\res\values-zh-rHK\strings.xml,905,wait_download,待下載,,String resource: wait_download,Chinese parts: 待下載
+2070,xml_string,app\src\main\res\values-zh-rHK\strings.xml,906,download_success,下載完成,,String resource: download_success,Chinese parts: 下載完成
+2071,xml_string,app\src\main\res\values-zh-rHK\strings.xml,907,download_error,下載失敗,,String resource: download_error,Chinese parts: 下載失敗
+2072,xml_string,app\src\main\res\values-zh-rHK\strings.xml,908,downloading,下載中,,String resource: downloading,Chinese parts: 下載中
+2073,xml_string,app\src\main\res\values-zh-rHK\strings.xml,909,unknown_state,未知狀態,,String resource: unknown_state,Chinese parts: 未知狀態
+2074,xml_string,app\src\main\res\values-zh-rHK\strings.xml,910,disable_source,禁用源,,String resource: disable_source,Chinese parts: 禁用源
+2075,xml_string,app\src\main\res\values-zh-rHK\strings.xml,911,delete_source,刪除源,,String resource: delete_source,Chinese parts: 刪除源
+2076,xml_string,app\src\main\res\values-zh-rHK\strings.xml,912,chapter_pay,購買,,String resource: chapter_pay,Chinese parts: 購買
+2077,xml_string,app\src\main\res\values-zh-rHK\strings.xml,913,double_page_horizontal,平板/橫屏雙頁,,String resource: double_page_horizontal,"Chinese parts: 平板, 橫屏雙頁"
+2078,xml_string,app\src\main\res\values-zh-rHK\strings.xml,914,open_in_browser,瀏覽器打開,,String resource: open_in_browser,Chinese parts: 瀏覽器打開
+2079,xml_string,app\src\main\res\values-zh-rHK\strings.xml,915,copy_url,複製url,,String resource: copy_url,Chinese parts: 複製
+2080,xml_string,app\src\main\res\values-zh-rHK\strings.xml,916,full_screen,全屏,,String resource: full_screen,Chinese parts: 全屏
+2081,xml_string,app\src\main\res\values-zh-rHK\strings.xml,917,open_fun,打開方式,,String resource: open_fun,Chinese parts: 打開方式
+2082,xml_string,app\src\main\res\values-zh-rHK\strings.xml,918,use_browser_open,是否使用外部瀏覽器打開?,,String resource: use_browser_open,Chinese parts: 是否使用外部瀏覽器打開
+2083,xml_string,app\src\main\res\values-zh-rHK\strings.xml,919,see,查看,,String resource: see,Chinese parts: 查看
+2084,xml_string,app\src\main\res\values-zh-rHK\strings.xml,920,search_content_size,搜索結果,,String resource: search_content_size,Chinese parts: 搜索結果
+2085,xml_string,app\src\main\res\values-zh-rHK\strings.xml,921,search_content_empty,搜索内容为空，检查净化/简繁设置,,String resource: search_content_empty,"Chinese parts: 搜索内容为空, 检查净化, 简繁设置"
+2086,xml_string,app\src\main\res\values-zh-rHK\strings.xml,922,open,打開,,String resource: open,Chinese parts: 打開
+2087,xml_string,app\src\main\res\values-zh-rHK\strings.xml,923,del_login_header,刪除登錄頭,,String resource: del_login_header,Chinese parts: 刪除登錄頭
+2088,xml_string,app\src\main\res\values-zh-rHK\strings.xml,924,show_login_header,查看登錄頭,,String resource: show_login_header,Chinese parts: 查看登錄頭
+2089,xml_string,app\src\main\res\values-zh-rHK\strings.xml,925,login_header,登錄頭,,String resource: login_header,Chinese parts: 登錄頭
+2090,xml_string,app\src\main\res\values-zh-rHK\strings.xml,926,font_scale,字體大小,,String resource: font_scale,Chinese parts: 字體大小
+2091,xml_string,app\src\main\res\values-zh-rHK\strings.xml,927,font_scale_summary,當前字亂大小:%.1f,,String resource: font_scale_summary,Chinese parts: 當前字亂大小
+2092,xml_string,app\src\main\res\values-zh-rHK\strings.xml,928,tts_speech_reduce,語速减,,String resource: tts_speech_reduce,Chinese parts: 語速减
+2093,xml_string,app\src\main\res\values-zh-rHK\strings.xml,929,tts_speech_add,語速加,,String resource: tts_speech_add,Chinese parts: 語速加
+2094,xml_string,app\src\main\res\values-zh-rHK\strings.xml,930,open_sys_dir_picker_error,"打开系统文件夹选择器出错,自动打开应用文件夹选择器",,String resource: open_sys_dir_picker_error,"Chinese parts: 打开系统文件夹选择器出错, 自动打开应用文件夹选择器"
+2095,xml_string,app\src\main\res\values-zh-rHK\strings.xml,931,open_sys_doc_picker_error,"打开系统文件选择器出错,自动打开应用文件选择器",,String resource: open_sys_doc_picker_error,"Chinese parts: 打开系统文件选择器出错, 自动打开应用文件选择器"
+2096,xml_string,app\src\main\res\values-zh-rHK\strings.xml,932,expand_text_menu,展开文本选择菜单,,String resource: expand_text_menu,Chinese parts: 展开文本选择菜单
+2097,xml_string,app\src\main\res\values-zh-rHK\strings.xml,933,book_tree_uri_t,书籍保存位置,,String resource: book_tree_uri_t,Chinese parts: 书籍保存位置
+2098,xml_string,app\src\main\res\values-zh-rHK\strings.xml,934,book_tree_uri_s,从其它应用打开的书籍保存位置,,String resource: book_tree_uri_s,Chinese parts: 从其它应用打开的书籍保存位置
+2099,xml_string,app\src\main\res\values-zh-rHK\strings.xml,935,select_book_folder,选择保存书籍的文件夹,,String resource: select_book_folder,Chinese parts: 选择保存书籍的文件夹
+2100,xml_string,app\src\main\res\values-zh-rHK\strings.xml,936,user_agent,用户代理,,String resource: user_agent,Chinese parts: 用户代理

@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2801,xml_string,app\src\main\res\values-zh-rTW\strings.xml,440,r_date,時間規則(rulePubDate),,String resource: r_date,Chinese parts: 時間規則
+2802,xml_string,app\src\main\res\values-zh-rTW\strings.xml,441,r_categories,類別規則(ruleCategories),,String resource: r_categories,Chinese parts: 類別規則
+2803,xml_string,app\src\main\res\values-zh-rTW\strings.xml,442,r_description,描述規則(ruleDescription),,String resource: r_description,Chinese parts: 描述規則
+2804,xml_string,app\src\main\res\values-zh-rTW\strings.xml,443,r_image,圖片url規則(ruleImage),,String resource: r_image,"Chinese parts: 圖片, 規則"
+2805,xml_string,app\src\main\res\values-zh-rTW\strings.xml,444,r_content,內容規則(ruleContent),,String resource: r_content,Chinese parts: 內容規則
+2806,xml_string,app\src\main\res\values-zh-rTW\strings.xml,445,r_style,樣式(style),,String resource: r_style,Chinese parts: 樣式
+2807,xml_string,app\src\main\res\values-zh-rTW\strings.xml,446,r_inject_js,注入Js(injectJs),,String resource: r_inject_js,Chinese parts: 注入
+2808,xml_string,app\src\main\res\values-zh-rTW\strings.xml,447,r_link,連結規則(ruleLink),,String resource: r_link,Chinese parts: 連結規則
+2809,xml_string,app\src\main\res\values-zh-rTW\strings.xml,448,check_key_word,校驗關鍵字(checkKeyWord),,String resource: check_key_word,Chinese parts: 校驗關鍵字
+2810,xml_string,app\src\main\res\values-zh-rTW\strings.xml,449,rule_actions,操作(actions),,String resource: rule_actions,Chinese parts: 操作
+2811,xml_string,app\src\main\res\values-zh-rTW\strings.xml,450,rule_is_pay,購買標誌(isPay),,String resource: rule_is_pay,Chinese parts: 購買標誌
+2812,xml_string,app\src\main\res\values-zh-rTW\strings.xml,454,error_no_source,沒有源,,String resource: error_no_source,Chinese parts: 沒有源
+2813,xml_string,app\src\main\res\values-zh-rTW\strings.xml,455,error_get_book_info,書籍訊息獲取失敗,,String resource: error_get_book_info,Chinese parts: 書籍訊息獲取失敗
+2814,xml_string,app\src\main\res\values-zh-rTW\strings.xml,456,error_get_content,內容獲取失敗,,String resource: error_get_content,Chinese parts: 內容獲取失敗
+2815,xml_string,app\src\main\res\values-zh-rTW\strings.xml,457,error_get_chapter_list,目錄獲取失敗,,String resource: error_get_chapter_list,Chinese parts: 目錄獲取失敗
+2816,xml_string,app\src\main\res\values-zh-rTW\strings.xml,458,error_get_web_content,瀏覽網站失敗：%s,,String resource: error_get_web_content,Chinese parts: 瀏覽網站失敗
+2817,xml_string,app\src\main\res\values-zh-rTW\strings.xml,459,error_read_file,文件讀取失敗,,String resource: error_read_file,Chinese parts: 文件讀取失敗
+2818,xml_string,app\src\main\res\values-zh-rTW\strings.xml,460,error_load_toc,載入目錄失敗,,String resource: error_load_toc,Chinese parts: 載入目錄失敗
+2819,xml_string,app\src\main\res\values-zh-rTW\strings.xml,461,error_get_data,獲取資料失敗！,,String resource: error_get_data,Chinese parts: 獲取資料失敗
+2820,xml_string,app\src\main\res\values-zh-rTW\strings.xml,462,error_load_msg,載入失敗\n%s,,String resource: error_load_msg,Chinese parts: 載入失敗
+2821,xml_string,app\src\main\res\values-zh-rTW\strings.xml,463,net_error_10001,沒有網路,,String resource: net_error_10001,Chinese parts: 沒有網路
+2822,xml_string,app\src\main\res\values-zh-rTW\strings.xml,464,net_error_10002,網路連接超時,,String resource: net_error_10002,Chinese parts: 網路連接超時
+2823,xml_string,app\src\main\res\values-zh-rTW\strings.xml,465,net_error_10003,資料解析失敗,,String resource: net_error_10003,Chinese parts: 資料解析失敗
+2824,xml_string,app\src\main\res\values-zh-rTW\strings.xml,468,source_http_header,請求頭(header),,String resource: source_http_header,Chinese parts: 請求頭
+2825,xml_string,app\src\main\res\values-zh-rTW\strings.xml,469,debug_source,除錯源,,String resource: debug_source,Chinese parts: 除錯源
+2826,xml_string,app\src\main\res\values-zh-rTW\strings.xml,470,import_by_qr_code,二維碼匯入,,String resource: import_by_qr_code,Chinese parts: 二維碼匯入
+2827,xml_string,app\src\main\res\values-zh-rTW\strings.xml,471,share_selected_source,分享選取源,,String resource: share_selected_source,Chinese parts: 分享選取源
+2828,xml_string,app\src\main\res\values-zh-rTW\strings.xml,472,scan_qr_code,掃描二維碼,,String resource: scan_qr_code,Chinese parts: 掃描二維碼
+2829,xml_string,app\src\main\res\values-zh-rTW\strings.xml,473,click_on_selected_show_menu,選中時點擊可彈出選單,,String resource: click_on_selected_show_menu,Chinese parts: 選中時點擊可彈出選單
+2830,xml_string,app\src\main\res\values-zh-rTW\strings.xml,474,theme,主題,,String resource: theme,Chinese parts: 主題
+2831,xml_string,app\src\main\res\values-zh-rTW\strings.xml,475,theme_mode,主題模式,,String resource: theme_mode,Chinese parts: 主題模式
+2832,xml_string,app\src\main\res\values-zh-rTW\strings.xml,476,theme_mode_desc,選擇主題模式,,String resource: theme_mode_desc,Chinese parts: 選擇主題模式
+2833,xml_string,app\src\main\res\values-zh-rTW\strings.xml,477,join_qq_group,加入QQ群,,String resource: join_qq_group,"Chinese parts: 加入, 群"
+2834,xml_string,app\src\main\res\values-zh-rTW\strings.xml,478,bg_image_per,獲取背景圖片需儲存權限,,String resource: bg_image_per,Chinese parts: 獲取背景圖片需儲存權限
+2835,xml_string,app\src\main\res\values-zh-rTW\strings.xml,479,input_book_source_url,輸入書源網址,,String resource: input_book_source_url,Chinese parts: 輸入書源網址
+2836,xml_string,app\src\main\res\values-zh-rTW\strings.xml,480,del_file,刪除文件,,String resource: del_file,Chinese parts: 刪除文件
+2837,xml_string,app\src\main\res\values-zh-rTW\strings.xml,481,del_file_success,刪除文件成功,,String resource: del_file_success,Chinese parts: 刪除文件成功
+2838,xml_string,app\src\main\res\values-zh-rTW\strings.xml,482,sure_del_file,確定刪除文件嗎？,,String resource: sure_del_file,Chinese parts: 確定刪除文件嗎
+2839,xml_string,app\src\main\res\values-zh-rTW\strings.xml,483,files_tree,手機目錄,,String resource: files_tree,Chinese parts: 手機目錄
+2840,xml_string,app\src\main\res\values-zh-rTW\strings.xml,484,intelligent_import,智慧匯入,,String resource: intelligent_import,Chinese parts: 智慧匯入
+2841,xml_string,app\src\main\res\values-zh-rTW\strings.xml,485,discovery,發現,,String resource: discovery,Chinese parts: 發現
+2842,xml_string,app\src\main\res\values-zh-rTW\strings.xml,486,switch_display_style,切換顯示樣式,,String resource: switch_display_style,Chinese parts: 切換顯示樣式
+2843,xml_string,app\src\main\res\values-zh-rTW\strings.xml,487,import_per,匯入本機書籍需儲存權限,,String resource: import_per,Chinese parts: 匯入本機書籍需儲存權限
+2844,xml_string,app\src\main\res\values-zh-rTW\strings.xml,488,night_theme,夜間模式,,String resource: night_theme,Chinese parts: 夜間模式
+2845,xml_string,app\src\main\res\values-zh-rTW\strings.xml,489,eink_theme,E-Ink 模式,,String resource: eink_theme,Chinese parts: 模式
+2846,xml_string,app\src\main\res\values-zh-rTW\strings.xml,490,eink_theme_desc,電子墨水屏模式,,String resource: eink_theme_desc,Chinese parts: 電子墨水屏模式
+2847,xml_string,app\src\main\res\values-zh-rTW\strings.xml,491,get_storage_per,需要儲存權限,,String resource: get_storage_per,Chinese parts: 需要儲存權限
+2848,xml_string,app\src\main\res\values-zh-rTW\strings.xml,492,double_click_exit,再按一次退出程式,,String resource: double_click_exit,Chinese parts: 再按一次退出程式
+2849,xml_string,app\src\main\res\values-zh-rTW\strings.xml,493,import_book_per,匯入本機書籍需儲存權限,,String resource: import_book_per,Chinese parts: 匯入本機書籍需儲存權限
+2850,xml_string,app\src\main\res\values-zh-rTW\strings.xml,494,network_connection_unavailable,網路連接不可用,,String resource: network_connection_unavailable,Chinese parts: 網路連接不可用

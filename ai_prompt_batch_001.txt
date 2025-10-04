@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1,xml_string,app\src\main\res\values-zh\strings.xml,3,app_name,阅读,,String resource: app_name,Chinese parts: 阅读
+2,xml_string,app\src\main\res\values-zh\strings.xml,4,app_name_a,阅读·A,,String resource: app_name_a,Chinese parts: 阅读
+3,xml_string,app\src\main\res\values-zh\strings.xml,5,receiving_shared_label,阅读·搜索,,String resource: receiving_shared_label,"Chinese parts: 阅读, 搜索"
+4,xml_string,app\src\main\res\values-zh\strings.xml,6,tip_perm_request_storage,阅读需要访问存储卡权限，请前往“设置”—“应用权限”，打开所需权限,,String resource: tip_perm_request_storage,"Chinese parts: 阅读需要访问存储卡权限, 请前往, 设置, 应用权限, 打开所需权限"
+5,xml_string,app\src\main\res\values-zh\strings.xml,10,menu_restore,恢复,,String resource: menu_restore,Chinese parts: 恢复
+6,xml_string,app\src\main\res\values-zh\strings.xml,11,menu_import_old,导入阅读数据,,String resource: menu_import_old,Chinese parts: 导入阅读数据
+7,xml_string,app\src\main\res\values-zh\strings.xml,12,webdav_cache_backup,离线缓存书籍备份,,String resource: webdav_cache_backup,Chinese parts: 离线缓存书籍备份
+8,xml_string,app\src\main\res\values-zh\strings.xml,13,webdav_cache_backup_s,导出本地同时备份到 legado 文件夹下的 exports 目录,,String resource: webdav_cache_backup_s,"Chinese parts: 导出本地同时备份到, 文件夹下的, 目录"
+9,xml_string,app\src\main\res\values-zh\strings.xml,14,backup_path,备份路径,,String resource: backup_path,Chinese parts: 备份路径
+10,xml_string,app\src\main\res\values-zh\strings.xml,15,select_backup_path,请选择备份路径,,String resource: select_backup_path,Chinese parts: 请选择备份路径
+11,xml_string,app\src\main\res\values-zh\strings.xml,16,menu_import_old_version,导入旧版数据,,String resource: menu_import_old_version,Chinese parts: 导入旧版数据
+12,xml_string,app\src\main\res\values-zh\strings.xml,17,menu_import_github,导入 Github 数据,,String resource: menu_import_github,"Chinese parts: 导入, 数据"
+13,xml_string,app\src\main\res\values-zh\strings.xml,18,menu_replace_rule,净化替换,,String resource: menu_replace_rule,Chinese parts: 净化替换
+14,xml_string,app\src\main\res\values-zh\strings.xml,19,menu_send,发送,,String resource: menu_send,Chinese parts: 发送
+15,xml_string,app\src\main\res\values-zh\strings.xml,21,dialog_title,提示,,String resource: dialog_title,Chinese parts: 提示
+16,xml_string,app\src\main\res\values-zh\strings.xml,22,dialog_cancel,取消,,String resource: dialog_cancel,Chinese parts: 取消
+17,xml_string,app\src\main\res\values-zh\strings.xml,23,dialog_confirm,确定,,String resource: dialog_confirm,Chinese parts: 确定
+18,xml_string,app\src\main\res\values-zh\strings.xml,24,dialog_setting,去设置,,String resource: dialog_setting,Chinese parts: 去设置
+19,xml_string,app\src\main\res\values-zh\strings.xml,25,tip_cannot_jump_setting_page,无法跳转至设置界面,,String resource: tip_cannot_jump_setting_page,Chinese parts: 无法跳转至设置界面
+20,xml_string,app\src\main\res\values-zh\strings.xml,27,manual_input,手动输入,,String resource: manual_input,Chinese parts: 手动输入
+21,xml_string,app\src\main\res\values-zh\strings.xml,28,enter_directory_path,请输入目录路径,,String resource: enter_directory_path,Chinese parts: 请输入目录路径
+22,xml_string,app\src\main\res\values-zh\strings.xml,29,invalid_directory,目录路径无效,,String resource: invalid_directory,Chinese parts: 目录路径无效
+23,xml_string,app\src\main\res\values-zh\strings.xml,30,empty_directory_input,目录路径不能为空,,String resource: empty_directory_input,Chinese parts: 目录路径不能为空
+24,xml_string,app\src\main\res\values-zh\strings.xml,32,dynamic_click_retry,点击重试,,String resource: dynamic_click_retry,Chinese parts: 点击重试
+25,xml_string,app\src\main\res\values-zh\strings.xml,33,dynamic_loading,正在加载,,String resource: dynamic_loading,Chinese parts: 正在加载
+26,xml_string,app\src\main\res\values-zh\strings.xml,34,draw,提醒,,String resource: draw,Chinese parts: 提醒
+27,xml_string,app\src\main\res\values-zh\strings.xml,35,edit,编辑,,String resource: edit,Chinese parts: 编辑
+28,xml_string,app\src\main\res\values-zh\strings.xml,36,delete,删除,,String resource: delete,Chinese parts: 删除
+29,xml_string,app\src\main\res\values-zh\strings.xml,37,delete_select_group,删除当前分组,,String resource: delete_select_group,Chinese parts: 删除当前分组
+30,xml_string,app\src\main\res\values-zh\strings.xml,38,delete_all,删除所有,,String resource: delete_all,Chinese parts: 删除所有
+31,xml_string,app\src\main\res\values-zh\strings.xml,39,replace,替换,,String resource: replace,Chinese parts: 替换
+32,xml_string,app\src\main\res\values-zh\strings.xml,40,replace_purify,替换净化,,String resource: replace_purify,Chinese parts: 替换净化
+33,xml_string,app\src\main\res\values-zh\strings.xml,41,custom_export_section,自定义Epub导出章节,,String resource: custom_export_section,"Chinese parts: 自定义, 导出章节"
+34,xml_string,app\src\main\res\values-zh\strings.xml,42,replace_purify_desc,配置替换净化规则,,String resource: replace_purify_desc,Chinese parts: 配置替换净化规则
+35,xml_string,app\src\main\res\values-zh\strings.xml,43,not_available,暂无,,String resource: not_available,Chinese parts: 暂无
+36,xml_string,app\src\main\res\values-zh\strings.xml,44,enable,启用,,String resource: enable,Chinese parts: 启用
+37,xml_string,app\src\main\res\values-zh\strings.xml,45,replace_purify_search,替换净化-搜索,,String resource: replace_purify_search,"Chinese parts: 替换净化, 搜索"
+38,xml_string,app\src\main\res\values-zh\strings.xml,46,bookshelf,书架,,String resource: bookshelf,Chinese parts: 书架
+39,xml_string,app\src\main\res\values-zh\strings.xml,47,favorites,收藏夹,,String resource: favorites,Chinese parts: 收藏夹
+40,xml_string,app\src\main\res\values-zh\strings.xml,48,favorite,收藏,,String resource: favorite,Chinese parts: 收藏
+41,xml_string,app\src\main\res\values-zh\strings.xml,49,in_favorites,已收藏,,String resource: in_favorites,Chinese parts: 已收藏
+42,xml_string,app\src\main\res\values-zh\strings.xml,50,out_favorites,未收藏,,String resource: out_favorites,Chinese parts: 未收藏
+43,xml_string,app\src\main\res\values-zh\strings.xml,51,rss,订阅,,String resource: rss,Chinese parts: 订阅
+44,xml_string,app\src\main\res\values-zh\strings.xml,52,all,全部,,String resource: all,Chinese parts: 全部
+45,xml_string,app\src\main\res\values-zh\strings.xml,53,recent_reading,最近阅读,,String resource: recent_reading,Chinese parts: 最近阅读
+46,xml_string,app\src\main\res\values-zh\strings.xml,54,last_read,最后阅读,,String resource: last_read,Chinese parts: 最后阅读
+47,xml_string,app\src\main\res\values-zh\strings.xml,55,update_log,更新日志,,String resource: update_log,Chinese parts: 更新日志
+48,xml_string,app\src\main\res\values-zh\strings.xml,56,bookshelf_empty,书架还空着，先去搜索书籍或从发现里添加吧！,,String resource: bookshelf_empty,"Chinese parts: 书架还空着, 先去搜索书籍或从发现里添加吧"
+49,xml_string,app\src\main\res\values-zh\strings.xml,57,action_search,搜索,,String resource: action_search,Chinese parts: 搜索
+50,xml_string,app\src\main\res\values-zh\strings.xml,58,action_download,下载,,String resource: action_download,Chinese parts: 下载

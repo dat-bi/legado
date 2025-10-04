@@ -1,0 +1,17 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4101,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,35,,電漿,Plasma,,"碟片"", ""模組"", ""桌球"", ""案頭"", ""機車"", ""電漿"",",Chinese parts: 電漿
+4102,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,鳳梨,Dứa,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數",Chinese parts: 鳳梨
+4103,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,魔戒,Chúa tể những chiếc nhẫn,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼",Chinese parts: 魔戒
+4104,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,載入,Tải,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱",Chinese parts: 載入
+4105,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,菲林,Phim,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水",Chinese parts: 菲林
+4106,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,整合,Tích hợp,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 整合
+4107,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,變數,Biến số,,"鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 變數
+4108,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,解碼,Giải mã,,"魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 解碼
+4109,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,散钱,Tiền lẻ,,"載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 散钱
+4110,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,插水,Lặn,,"菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 插水
+4111,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,房屋,Nhà ở,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式",Chinese parts: 房屋
+4112,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,房价,Giá nhà,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹",Chinese parts: 房价
+4113,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,快取,Bộ nhớ đệm,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊",Chinese parts: 快取
+4114,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,德士,Taxi,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希",Chinese parts: 德士
+4115,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,建立,Tạo,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希"",",Chinese parts: 建立
+4116,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,常式,Thường trình,,"房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希"",",Chinese parts: 常式

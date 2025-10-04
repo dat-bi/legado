@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3401,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1056,source_edit_max_line_summary,%s，設定行數小於螢幕可顯示的最大行數可以更方便的滑動到其他的欄位進行編輯,,String resource: source_edit_max_line_summary,Chinese parts: 設定行數小於螢幕可顯示的最大行數可以更方便的滑動到其他的欄位進行編輯
+3402,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1057,restore_last_book_process,是否復原到跳轉前的閱讀進度？,,String resource: restore_last_book_process,Chinese parts: 是否復原到跳轉前的閱讀進度
+3403,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1058,search_scope,搜尋範圍,,String resource: search_scope,Chinese parts: 搜尋範圍
+3404,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1059,toggle_search_scope,切換,,String resource: toggle_search_scope,Chinese parts: 切換
+3405,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1060,sure_clear_search_history,是否確認清除所有搜尋歷史記錄,,String resource: sure_clear_search_history,Chinese parts: 是否確認清除所有搜尋歷史記錄
+3406,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1061,no_anim_scroll_page,禁用滾動點擊動畫,,String resource: no_anim_scroll_page,Chinese parts: 禁用滾動點擊動畫
+3407,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1062,webdav_device_name,裝置名稱,,String resource: webdav_device_name,Chinese parts: 裝置名稱
+3408,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1063,web_service_wake_lock,WebService喚醒鎖,,String resource: web_service_wake_lock,Chinese parts: 喚醒鎖
+3409,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1064,web_service_wake_lock_summary,開啟web服務的時候啟用喚醒鎖，有些手機開啟喚醒鎖會被殺後台,,String resource: web_service_wake_lock_summary,"Chinese parts: 開啟, 服務的時候啟用喚醒鎖, 有些手機開啟喚醒鎖會被殺後台"
+3410,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1065,read_aloud_wake_lock,朗讀服務喚醒鎖,,String resource: read_aloud_wake_lock,Chinese parts: 朗讀服務喚醒鎖
+3411,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1066,read_aloud_wake_lock_summary,開啟朗讀的時候啟用喚醒鎖，有些手機開啟喚醒鎖會被殺後台,,String resource: read_aloud_wake_lock_summary,"Chinese parts: 開啟朗讀的時候啟用喚醒鎖, 有些手機開啟喚醒鎖會被殺後台"
+3412,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1067,audio_play_wake_lock,音訊服務喚醒鎖,,String resource: audio_play_wake_lock,Chinese parts: 音訊服務喚醒鎖
+3413,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1068,audio_play_wake_lock_summary,播放音訊的時候啟用喚醒鎖，有些手機開啟喚醒鎖會被殺後台,,String resource: audio_play_wake_lock_summary,"Chinese parts: 播放音訊的時候啟用喚醒鎖, 有些手機開啟喚醒鎖會被殺後台"
+3414,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1069,change_search_scope,切換搜尋範圍,,String resource: change_search_scope,Chinese parts: 切換搜尋範圍
+3415,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1070,copy_rule,複製規則,,String resource: copy_rule,Chinese parts: 複製規則
+3416,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1071,paste_rule,貼上規則,,String resource: paste_rule,Chinese parts: 貼上規則
+3417,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1072,groups_or_source,多分組/書源,,String resource: groups_or_source,"Chinese parts: 多分組, 書源"
+3418,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1073,replace_state_change,取代(啟用/禁用),,String resource: replace_state_change,"Chinese parts: 取代, 啟用, 禁用"
+3419,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1074,show_last_update_time,顯示上次更新時間,,String resource: show_last_update_time,Chinese parts: 顯示上次更新時間
+3420,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1075,refresh_list,刷新列表,,String resource: refresh_list,Chinese parts: 刷新列表
+3421,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1076,tip_divider_color,分隔线颜色,,String resource: tip_divider_color,Chinese parts: 分隔线颜色
+3422,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1077,same_title_removed,移除重复标题,,String resource: same_title_removed,Chinese parts: 移除重复标题
+3423,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1078,update_book_fail,更新失败,,String resource: update_book_fail,Chinese parts: 更新失败
+3424,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1079,notification_permission_rationale,阅读需要发送通知来显示朗读控制和下载进度,,String resource: notification_permission_rationale,Chinese parts: 阅读需要发送通知来显示朗读控制和下载进度
+3425,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1080,webdav_after_local_restore_confirm,"webDav书源比本地新,是否恢复",,String resource: webdav_after_local_restore_confirm,"Chinese parts: 书源比本地新, 是否恢复"
+3426,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1081,c_whitelist,白名单(contentWhitelist),,String resource: c_whitelist,Chinese parts: 白名单
+3427,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1082,c_blacklist,黑名单(contentBlacklist),,String resource: c_blacklist,Chinese parts: 黑名单
+3428,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1083,confirm,确认,,String resource: confirm,Chinese parts: 确认
+3429,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1084,jump_to_another_app,跳转其它应用,,String resource: jump_to_another_app,Chinese parts: 跳转其它应用
+3430,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1085,clear_webview_data,清除 WebView 数据,,String resource: clear_webview_data,"Chinese parts: 清除, 数据"
+3431,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1086,clear_webview_data_summary,清除内置浏览器所有数据,,String resource: clear_webview_data_summary,Chinese parts: 清除内置浏览器所有数据
+3432,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1087,source_tab_list,列表,,String resource: source_tab_list,Chinese parts: 列表
+3433,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1088,dict_rule,字典规则,,String resource: dict_rule,Chinese parts: 字典规则
+3434,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1089,config_dict_rule,配置字典规则,,String resource: config_dict_rule,Chinese parts: 配置字典规则
+3435,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1090,create,新建,,String resource: create,Chinese parts: 新建
+3436,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1091,url_rule,url规则(urlRule),,String resource: url_rule,Chinese parts: 规则
+3437,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1092,show_rule,显示规则(showRule),,String resource: show_rule,Chinese parts: 显示规则
+3438,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1093,config_txt_toc_rule,配置 TXT 目录规则,,String resource: config_txt_toc_rule,"Chinese parts: 配置, 目录规则"
+3439,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1094,import_dict_rule,导入字典规则,,String resource: import_dict_rule,Chinese parts: 导入字典规则
+3440,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1095,keep_group,保留分组,,String resource: keep_group,Chinese parts: 保留分组
+3441,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1096,server_config,服务器配置,,String resource: server_config,Chinese parts: 服务器配置
+3442,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1097,sure_upload,远程webDav链接已存在，是否继续,,String resource: sure_upload,"Chinese parts: 远程, 链接已存在, 是否继续"
+3443,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1098,unsupport_archivefile_entry,压缩文件内没有支持的文件,,String resource: unsupport_archivefile_entry,Chinese parts: 压缩文件内没有支持的文件
+3444,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1099,no_books_dir,没有设置书籍保存位置!,,String resource: no_books_dir,Chinese parts: 没有设置书籍保存位置
+3445,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1100,delete_alert,删除提醒,,String resource: delete_alert,Chinese parts: 删除提醒
+3446,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1101,no_book_found_bookshelf,"未在书架上找到所选书籍, 是否重新导入？",,String resource: no_book_found_bookshelf,"Chinese parts: 未在书架上找到所选书籍, 是否重新导入"
+3447,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1102,archive_not_found,未能在书籍保存目录找到压缩文件，是否重新导入？,,String resource: archive_not_found,"Chinese parts: 未能在书籍保存目录找到压缩文件, 是否重新导入"
+3448,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1103,privacy_policy,用户隐私与协议,,String resource: privacy_policy,Chinese parts: 用户隐私与协议
+3449,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1104,agree,同意,,String resource: agree,Chinese parts: 同意
+3450,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1105,refuse,拒绝,,String resource: refuse,Chinese parts: 拒绝

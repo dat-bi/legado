@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3901,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,336,,刷新视图,,"ebug(""moveToNextChapter-章节已加载,刷新视图"")",Chinese parts: 刷新视图
+3902,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,346,,跳转下一章失败,,"AppLog.putDebug(""跳转下一章失败,没有下一章"")",Chinese parts: 跳转下一章失败
+3903,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,346,,没有下一章,,"AppLog.putDebug(""跳转下一章失败,没有下一章"")",Chinese parts: 没有下一章
+3904,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,363,,章节未加载,,"g.putDebug(""moveToNextChapter-章节未加载,开始加载"")",Chinese parts: 章节未加载
+3905,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,363,,开始加载,,"ebug(""moveToNextChapter-章节未加载,开始加载"")",Chinese parts: 开始加载
+3906,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,367,,章节已加载,,"g.putDebug(""moveToNextChapter-章节已加载,刷新视图"")",Chinese parts: 章节已加载
+3907,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,367,,刷新视图,,"ebug(""moveToNextChapter-章节已加载,刷新视图"")",Chinese parts: 刷新视图
+3908,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,377,,跳转下一章失败,,"AppLog.putDebug(""跳转下一章失败,没有下一章"")",Chinese parts: 跳转下一章失败
+3909,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,377,,没有下一章,,"AppLog.putDebug(""跳转下一章失败,没有下一章"")",Chinese parts: 没有下一章
+3910,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,576,,加载正文出错,,"AppLog.put(""加载正文出错\n${it.localizedMessage}"")",Chinese parts: 加载正文出错
+3911,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,594,,加载正文出错,,"AppLog.put(""加载正文出错\n${e.localizedMessage}"")",Chinese parts: 加载正文出错
+3912,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,637,,无内容,,"val msg = if (book.isLocal) ""无内容"" else ""没有书源""",Chinese parts: 无内容
+3913,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,637,,没有书源,,"if (book.isLocal) ""无内容"" else ""没有书源""",Chinese parts: 没有书源
+3914,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,641,,加载正文失败,,"""加载正文失败\n$msg"",",Chinese parts: 加载正文失败
+3915,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,654,,无内容,,"val msg = if (book.isLocal) ""无内容"" else ""没有书源""",Chinese parts: 无内容
+3916,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,654,,没有书源,,"if (book.isLocal) ""无内容"" else ""没有书源""",Chinese parts: 没有书源
+3917,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,655,,加载正文失败,,"return ""加载正文失败\n$msg""",Chinese parts: 加载正文失败
+3918,source_code,app\src\main\java\io\legado\app\model\ReadBook.kt,878,,保存书籍阅读进度信息出错,,"AppLog.put(""保存书籍阅读进度信息出错\n$it"", it)",Chinese parts: 保存书籍阅读进度信息出错
+3919,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,49,,章节位置,,var durChapterIndex = 0 //章节位置,Chinese parts: 章节位置
+3920,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,50,,总章节,,var chapterSize = 0//总章节,Chinese parts: 总章节
+3921,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,187,,加载正文出错,,"AppLog.put(""加载正文出错\n${it.localizedMessage}"")",Chinese parts: 加载正文出错
+3922,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,197,,加载内容失败,,"errorMsg: String = ""加载内容失败"",",Chinese parts: 加载内容失败
+3923,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,211,,正文内容为空,,"mCallback?.loadFail(""正文内容为空"")",Chinese parts: 正文内容为空
+3924,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,216,,正文没有图片,,"mCallback?.loadFail(""正文没有图片"")",Chinese parts: 正文没有图片
+3925,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,296,,跳转下一章失败,,"AppLog.putDebug(""跳转下一章失败,没有下一章"")",Chinese parts: 跳转下一章失败
+3926,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,296,,没有下一章,,"AppLog.putDebug(""跳转下一章失败,没有下一章"")",Chinese parts: 没有下一章
+3927,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,347,,保存漫画阅读进度信息出错,,"AppLog.put(""保存漫画阅读进度信息出错\n$it"", it)",Chinese parts: 保存漫画阅读进度信息出错
+3928,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,457,,加载内容失败,,"entLoadFinish(chapter, null, ""加载内容失败 没有书源"")",Chinese parts: 加载内容失败
+3929,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,457,,没有书源,,"Finish(chapter, null, ""加载内容失败 没有书源"")",Chinese parts: 没有书源
+3930,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,507,,拉取阅读进度失败,,"AppLog.put(""拉取阅读进度失败"", it)",Chinese parts: 拉取阅读进度失败
+3931,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,614,,阅读,,"erLoading(chapter.index, -1, ""阅读 ${chapter.title}""))",Chinese parts: 阅读
+3932,source_code,app\src\main\java\io\legado\app\model\ReadManga.kt,616,,已读完,,"g(chapter.index, imageCount, ""已读完 ${chapter.title}""))",Chinese parts: 已读完
+3933,source_code,app\src\main\java\io\legado\app\model\SharedJsScope.kt,62,,下载,,"throw NoStackTraceException(""下载jsLib-${value}失败"")",Chinese parts: 下载
+3934,source_code,app\src\main\java\io\legado\app\model\SharedJsScope.kt,62,,失败,,"aceException(""下载jsLib-${value}失败"")",Chinese parts: 失败
+3935,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,237,,播放出错,,"AppLog.put(""播放出错\n${it.localizedMessage}"", it)",Chinese parts: 播放出错
+3936,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,379,,音频播放出错,,"val errorMsg = ""音频播放出错\n${error.errorCodeName} ${err",Chinese parts: 音频播放出错
+3937,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,521,,忽略音频焦点处理,,"AppLog.put(""忽略音频焦点处理(有声)"")",Chinese parts: 忽略音频焦点处理
+3938,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,521,,有声,,"AppLog.put(""忽略音频焦点处理(有声)"")",Chinese parts: 有声
+3939,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,527,,音频焦点获得,,"AppLog.put(""音频焦点获得,继续播放"")",Chinese parts: 音频焦点获得
+3940,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,527,,继续播放,,"AppLog.put(""音频焦点获得,继续播放"")",Chinese parts: 继续播放
+3941,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,530,,音频焦点获得,,"AppLog.put(""音频焦点获得"")",Chinese parts: 音频焦点获得
+3942,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,535,,音频焦点丢失,,"AppLog.put(""音频焦点丢失,暂停播放"")",Chinese parts: 音频焦点丢失
+3943,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,535,,暂停播放,,"AppLog.put(""音频焦点丢失,暂停播放"")",Chinese parts: 暂停播放
+3944,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,540,,音频焦点暂时丢失并会很快再次获得,,"AppLog.put(""音频焦点暂时丢失并会很快再次获得,暂停播放"")",Chinese parts: 音频焦点暂时丢失并会很快再次获得
+3945,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,540,,暂停播放,,"AppLog.put(""音频焦点暂时丢失并会很快再次获得,暂停播放"")",Chinese parts: 暂停播放
+3946,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,549,,音频焦点短暂丢失,,"AppLog.put(""音频焦点短暂丢失,不做处理"")",Chinese parts: 音频焦点短暂丢失
+3947,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,549,,不做处理,,"AppLog.put(""音频焦点短暂丢失,不做处理"")",Chinese parts: 不做处理
+3948,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,619,,创建音频播放通知出错,,"AppLog.put(""创建音频播放通知出错,${e.localizedMessage}"", e, tr",Chinese parts: 创建音频播放通知出错
+3949,source_code,app\src\main\java\io\legado\app\service\AudioPlayService.kt,633,,创建音频播放通知出错,,"AppLog.put(""创建音频播放通知出错,${e.localizedMessage}"", e, tr",Chinese parts: 创建音频播放通知出错
+3950,source_code,app\src\main\java\io\legado\app\service\BaseReadAloudService.kt,156,,朗读定时,,"toastOnUi(""朗读定时 ${AppConfig.ttsTimer} 分钟"")",Chinese parts: 朗读定时

@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3151,xml_string,app\src\main\res\values-zh-rTW\strings.xml,802,copy_toc_url,複製目錄URL,,String resource: copy_toc_url,Chinese parts: 複製目錄
+3152,xml_string,app\src\main\res\values-zh-rTW\strings.xml,803,no_book,沒有書籍,,String resource: no_book,Chinese parts: 沒有書籍
+3153,xml_string,app\src\main\res\values-zh-rTW\strings.xml,804,keep_original_name,保留原名,,String resource: keep_original_name,Chinese parts: 保留原名
+3154,xml_string,app\src\main\res\values-zh-rTW\strings.xml,805,click_regional_config,點擊區域設定,,String resource: click_regional_config,Chinese parts: 點擊區域設定
+3155,xml_string,app\src\main\res\values-zh-rTW\strings.xml,806,close,關閉,,String resource: close,Chinese parts: 關閉
+3156,xml_string,app\src\main\res\values-zh-rTW\strings.xml,807,next_page,下一頁,,String resource: next_page,Chinese parts: 下一頁
+3157,xml_string,app\src\main\res\values-zh-rTW\strings.xml,808,prev_page,上一頁,,String resource: prev_page,Chinese parts: 上一頁
+3158,xml_string,app\src\main\res\values-zh-rTW\strings.xml,809,non_action,無操作,,String resource: non_action,Chinese parts: 無操作
+3159,xml_string,app\src\main\res\values-zh-rTW\strings.xml,810,body_title,正文標題,,String resource: body_title,Chinese parts: 正文標題
+3160,xml_string,app\src\main\res\values-zh-rTW\strings.xml,811,show_hide,顯示/隱藏,,String resource: show_hide,"Chinese parts: 顯示, 隱藏"
+3161,xml_string,app\src\main\res\values-zh-rTW\strings.xml,812,header_footer,頁首&頁尾,,String resource: header_footer,"Chinese parts: 頁首, 頁尾"
+3162,xml_string,app\src\main\res\values-zh-rTW\strings.xml,813,rule_subscription,規則訂閱,,String resource: rule_subscription,Chinese parts: 規則訂閱
+3163,xml_string,app\src\main\res\values-zh-rTW\strings.xml,814,rule_sub_empty_msg,新增大佬們提供的規則匯入地址\n新增後點擊可匯入規則,,String resource: rule_sub_empty_msg,"Chinese parts: 新增大佬們提供的規則匯入地址, 新增後點擊可匯入規則"
+3164,xml_string,app\src\main\res\values-zh-rTW\strings.xml,815,get_book_progress,拉取雲端進度,,String resource: get_book_progress,Chinese parts: 拉取雲端進度
+3165,xml_string,app\src\main\res\values-zh-rTW\strings.xml,816,cover_book_progress,覆蓋雲端進度,,String resource: cover_book_progress,Chinese parts: 覆蓋雲端進度
+3166,xml_string,app\src\main\res\values-zh-rTW\strings.xml,817,current_progress_exceeds_cloud,目前進度超過雲端進度，是否同步？,,String resource: current_progress_exceeds_cloud,"Chinese parts: 目前進度超過雲端進度, 是否同步"
+3167,xml_string,app\src\main\res\values-zh-rTW\strings.xml,818,sync_book_progress_t,同步閱讀進度,,String resource: sync_book_progress_t,Chinese parts: 同步閱讀進度
+3168,xml_string,app\src\main\res\values-zh-rTW\strings.xml,819,sync_book_progress_s,進入退出閱讀介面時同步閱讀進度,,String resource: sync_book_progress_s,Chinese parts: 進入退出閱讀介面時同步閱讀進度
+3169,xml_string,app\src\main\res\values-zh-rTW\strings.xml,820,sync_book_progress_plus_t,同步增強,,String resource: sync_book_progress_plus_t,Chinese parts: 同步增強
+3170,xml_string,app\src\main\res\values-zh-rTW\strings.xml,821,sync_book_progress_plus_s,重新進入頁面（熄屏、背景返回等）或網路變為可用時同步雲端進度,,String resource: sync_book_progress_plus_s,"Chinese parts: 重新進入頁面, 熄屏, 背景返回等, 或網路變為可用時同步雲端進度"
+3171,xml_string,app\src\main\res\values-zh-rTW\strings.xml,822,create_bookmark_error,建立書籤失敗,,String resource: create_bookmark_error,Chinese parts: 建立書籤失敗
+3172,xml_string,app\src\main\res\values-zh-rTW\strings.xml,823,single_url,單URL,,String resource: single_url,Chinese parts: 單
+3173,xml_string,app\src\main\res\values-zh-rTW\strings.xml,824,export_bookshelf,匯出書單,,String resource: export_bookshelf,Chinese parts: 匯出書單
+3174,xml_string,app\src\main\res\values-zh-rTW\strings.xml,825,import_bookshelf,匯入書單,,String resource: import_bookshelf,Chinese parts: 匯入書單
+3175,xml_string,app\src\main\res\values-zh-rTW\strings.xml,826,pre_download,預下載,,String resource: pre_download,Chinese parts: 預下載
+3176,xml_string,app\src\main\res\values-zh-rTW\strings.xml,827,pre_download_m,预下载%s页,,String resource: pre_download_m,"Chinese parts: 预下载, 页"
+3177,xml_string,app\src\main\res\values-zh-rTW\strings.xml,828,pre_download_s,預先下載%s章正文,,String resource: pre_download_s,"Chinese parts: 預先下載, 章正文"
+3178,xml_string,app\src\main\res\values-zh-rTW\strings.xml,829,is_enabled,是否啟用,,String resource: is_enabled,Chinese parts: 是否啟用
+3179,xml_string,app\src\main\res\values-zh-rTW\strings.xml,830,background_image,背景圖片,,String resource: background_image,Chinese parts: 背景圖片
+3180,xml_string,app\src\main\res\values-zh-rTW\strings.xml,831,background_image_blurring,背景圖片虛化,,String resource: background_image_blurring,Chinese parts: 背景圖片虛化
+3181,xml_string,app\src\main\res\values-zh-rTW\strings.xml,832,background_image_blurring_radius,虛化半徑,,String resource: background_image_blurring_radius,Chinese parts: 虛化半徑
+3182,xml_string,app\src\main\res\values-zh-rTW\strings.xml,833,background_image_hint,0為停用，啟用範圍1~25\n半徑數值越大，虛化效果越高,,String resource: background_image_hint,"Chinese parts: 為停用, 啟用範圍, 半徑數值越大, 虛化效果越高"
+3183,xml_string,app\src\main\res\values-zh-rTW\strings.xml,834,export_folder,匯出資料夾,,String resource: export_folder,Chinese parts: 匯出資料夾
+3184,xml_string,app\src\main\res\values-zh-rTW\strings.xml,835,export_charset,匯出編碼,,String resource: export_charset,Chinese parts: 匯出編碼
+3185,xml_string,app\src\main\res\values-zh-rTW\strings.xml,836,export_no_chapter_name,TXT不匯出章節名,,String resource: export_no_chapter_name,Chinese parts: 不匯出章節名
+3186,xml_string,app\src\main\res\values-zh-rTW\strings.xml,837,export_to_web_dav,匯出到WebDav,,String resource: export_to_web_dav,Chinese parts: 匯出到
+3187,xml_string,app\src\main\res\values-zh-rTW\strings.xml,838,reverse_content,反轉內容,,String resource: reverse_content,Chinese parts: 反轉內容
+3188,xml_string,app\src\main\res\values-zh-rTW\strings.xml,839,debug,除錯,,String resource: debug,Chinese parts: 除錯
+3189,xml_string,app\src\main\res\values-zh-rTW\strings.xml,840,crash_log,當機日誌,,String resource: crash_log,Chinese parts: 當機日誌
+3190,xml_string,app\src\main\res\values-zh-rTW\strings.xml,841,use_zh_layout,使用自訂中文分行,,String resource: use_zh_layout,Chinese parts: 使用自訂中文分行
+3191,xml_string,app\src\main\res\values-zh-rTW\strings.xml,842,image_style,圖片樣式,,String resource: image_style,Chinese parts: 圖片樣式
+3192,xml_string,app\src\main\res\values-zh-rTW\strings.xml,843,system_tts,系統TTS,,String resource: system_tts,Chinese parts: 系統
+3193,xml_string,app\src\main\res\values-zh-rTW\strings.xml,844,export_type,匯出格式,,String resource: export_type,Chinese parts: 匯出格式
+3194,xml_string,app\src\main\res\values-zh-rTW\strings.xml,845,checkAuthor,校驗作者,,String resource: checkAuthor,Chinese parts: 校驗作者
+3195,xml_string,app\src\main\res\values-zh-rTW\strings.xml,846,search_src,搜尋原始碼,,String resource: search_src,Chinese parts: 搜尋原始碼
+3196,xml_string,app\src\main\res\values-zh-rTW\strings.xml,847,boo_src,書籍原始碼,,String resource: boo_src,Chinese parts: 書籍原始碼
+3197,xml_string,app\src\main\res\values-zh-rTW\strings.xml,848,toc_src,目錄原始碼,,String resource: toc_src,Chinese parts: 目錄原始碼
+3198,xml_string,app\src\main\res\values-zh-rTW\strings.xml,849,content_src,正文原始碼,,String resource: content_src,Chinese parts: 正文原始碼
+3199,xml_string,app\src\main\res\values-zh-rTW\strings.xml,850,list_src,列表原始碼,,String resource: list_src,Chinese parts: 列表原始碼
+3200,xml_string,app\src\main\res\values-zh-rTW\strings.xml,851,url_already,此url已訂閱,,String resource: url_already,"Chinese parts: 此, 已訂閱"

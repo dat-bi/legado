@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5501,source_code,app\src\main\java\io\legado\app\help\glide\OkHttpStreamFetcher.kt,154,,封面二次解密失败,,"Failed(NoStackTraceException(""封面二次解密失败""))",Chinese parts: 封面二次解密失败
+5502,source_code,app\src\main\java\io\legado\app\help\http\BackstageWebView.kt,212,,执行超时,,"rror(NoStackTraceException(""js执行超时""))",Chinese parts: 执行超时
+5503,source_code,app\src\main\java\io\legado\app\help\http\CookieManager.kt,70,,设置,,"val msg = ""设置cookie出错，已清除cookie $domain coo",Chinese parts: 设置
+5504,source_code,app\src\main\java\io\legado\app\help\http\CookieManager.kt,70,,出错,,"val msg = ""设置cookie出错，已清除cookie $domain cookie:$new",Chinese parts: 出错
+5505,source_code,app\src\main\java\io\legado\app\help\http\CookieManager.kt,70,,已清除,,"val msg = ""设置cookie出错，已清除cookie $domain cookie:$newCook",Chinese parts: 已清除
+5506,source_code,app\src\main\java\io\legado\app\help\http\CookieStore.kt,32,,保存,,"AppLog.put(""保存Cookie失败\n$e"", e)",Chinese parts: 保存
+5507,source_code,app\src\main\java\io\legado\app\help\http\CookieStore.kt,32,,失败,,"AppLog.put(""保存Cookie失败\n$e"", e)",Chinese parts: 失败
+5508,source_code,app\src\main\java\io\legado\app\help\http\HttpHelper.kt,155,,代理服务器验证用户名,,"var username = """"       //代理服务器验证用户名",Chinese parts: 代理服务器验证用户名
+5509,source_code,app\src\main\java\io\legado\app\help\http\HttpHelper.kt,156,,代理服务器验证密码,,"var password = """"       //代理服务器验证密码",Chinese parts: 代理服务器验证密码
+5510,source_code,app\src\main\java\io\legado\app\help\http\HttpHelper.kt,172,,设置代理服务器账号密码,,"henticator { _, response -> //设置代理服务器账号密码",Chinese parts: 设置代理服务器账号密码
+5511,source_code,app\src\main\java\io\legado\app\help\http\OkhttpUncaughtExceptionHandler.kt,8,,中的线程执行出错,,"AppLog.put(""Okhttp Dispatcher中的线程执行出错\n${e.localizedMessage}"", e)",Chinese parts: 中的线程执行出错
+5512,source_code,app\src\main\java\io\legado\app\help\source\SourceHelp.kt,124,,是,,"tx.toastOnUi(""${it.sourceName}是18+网址,禁止导入."")",Chinese parts: 是
+5513,source_code,app\src\main\java\io\legado\app\help\source\SourceHelp.kt,124,,网址,,"oastOnUi(""${it.sourceName}是18+网址,禁止导入."")",Chinese parts: 网址
+5514,source_code,app\src\main\java\io\legado\app\help\source\SourceHelp.kt,124,,禁止导入,,"tOnUi(""${it.sourceName}是18+网址,禁止导入."")",Chinese parts: 禁止导入
+5515,source_code,app\src\main\java\io\legado\app\help\source\SourceHelp.kt,136,,是,,"oastOnUi(""${it.bookSourceName}是18+网址,禁止导入."")",Chinese parts: 是
+5516,source_code,app\src\main\java\io\legado\app\help\source\SourceHelp.kt,136,,网址,,"OnUi(""${it.bookSourceName}是18+网址,禁止导入."")",Chinese parts: 网址
+5517,source_code,app\src\main\java\io\legado\app\help\source\SourceHelp.kt,136,,禁止导入,,"i(""${it.bookSourceName}是18+网址,禁止导入."")",Chinese parts: 禁止导入
+5518,source_code,app\src\main\java\io\legado\app\help\source\SourceVerificationHelp.kt,62,,等待返回验证结果,,"AppLog.putDebug(""等待返回验证结果..."")",Chinese parts: 等待返回验证结果
+5519,source_code,app\src\main\java\io\legado\app\help\source\SourceVerificationHelp.kt,70,,验证结果为空,,"throw NoStackTraceException(""验证结果为空"")",Chinese parts: 验证结果为空
+5520,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,102,,自动备份失败,,"AppLog.put(""自动备份失败\n${it.localizedMessage}"")",Chinese parts: 自动备份失败
+5521,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,116,,开始备份,,"LogUtils.d(TAG, ""开始备份 path:$path"")",Chinese parts: 开始备份
+5522,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,213,,上传备份至,,"AppLog.put(""上传备份至webdav失败\n$e"", e)",Chinese parts: 上传备份至
+5523,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,213,,失败,,"AppLog.put(""上传备份至webdav失败\n$e"", e)",Chinese parts: 失败
+5524,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,234,,阅读备份,,"LogUtils.d(TAG, ""阅读备份 $fileName 列表大小 ${list.size}"")",Chinese parts: 阅读备份
+5525,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,234,,列表大小,,"gUtils.d(TAG, ""阅读备份 $fileName 列表大小 ${list.size}"")",Chinese parts: 列表大小
+5526,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,239,,阅读备份,,"LogUtils.d(TAG, ""阅读备份 $fileName 写入大小 ${file.length(",Chinese parts: 阅读备份
+5527,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,239,,写入大小,,"gUtils.d(TAG, ""阅读备份 $fileName 写入大小 ${file.length()}"")",Chinese parts: 写入大小
+5528,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,241,,阅读备份,,"LogUtils.d(TAG, ""阅读备份 $fileName 列表为空"")",Chinese parts: 阅读备份
+5529,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,241,,列表为空,,"gUtils.d(TAG, ""阅读备份 $fileName 列表为空"")",Chinese parts: 列表为空
+5530,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,252,,创建文件失败,,"throw NoStackTraceException(""创建文件失败"")",Chinese parts: 创建文件失败
+5531,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,254,,打开,,"throw NoStackTraceException(""打开OutputStream失败"")",Chinese parts: 打开
+5532,source_code,app\src\main\java\io\legado\app\help\storage\Backup.kt,254,,失败,,"TraceException(""打开OutputStream失败"")",Chinese parts: 失败
+5533,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,37,,成功导入书架,,"context.toastOnUi(""成功导入书架${importCount}"")",Chinese parts: 成功导入书架
+5534,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,40,,导入书架失败,,"context.toastOnUi(""导入书架失败\n${it.localizedMessage}"")",Chinese parts: 导入书架失败
+5535,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,46,,成功导入书源,,"context.toastOnUi(""成功导入书源${importCount}"")",Chinese parts: 成功导入书源
+5536,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,49,,导入源失败,,"context.toastOnUi(""导入源失败\n${it.localizedMessage}"")",Chinese parts: 导入源失败
+5537,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,55,,成功导入替换规则,,"context.toastOnUi(""成功导入替换规则${importCount}"")",Chinese parts: 成功导入替换规则
+5538,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,58,,导入替换规则失败,,"context.toastOnUi(""导入替换规则失败\n${it.localizedMessage}"")",Chinese parts: 导入替换规则失败
+5539,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,65,,导入书架,,kotlin.runCatching {// 导入书架,Chinese parts: 导入书架
+5540,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,70,,成功导入书架,,"context.toastOnUi(""成功导入书架${importCount}"")",Chinese parts: 成功导入书架
+5541,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,72,,导入书架失败,,"context.toastOnUi(""导入书架失败\n${it.localizedMessage}"")",Chinese parts: 导入书架失败
+5542,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,80,,成功导入书源,,"context.toastOnUi(""成功导入书源${importCount}"")",Chinese parts: 成功导入书源
+5543,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,82,,导入源失败,,"context.toastOnUi(""导入源失败\n${it.localizedMessage}"")",Chinese parts: 导入源失败
+5544,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,90,,成功导入替换规则,,"context.toastOnUi(""成功导入替换规则${importCount}"")",Chinese parts: 成功导入替换规则
+5545,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,92,,未找到替换规则,,"context.toastOnUi(""未找到替换规则"")",Chinese parts: 未找到替换规则
+5546,source_code,app\src\main\java\io\legado\app\help\storage\ImportOldData.kt,95,,导入替换规则失败,,"context.toastOnUi(""导入替换规则失败\n${it.localizedMessage}"")",Chinese parts: 导入替换规则失败
+5547,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,70,,开始恢复备份,,"LogUtils.d(TAG, ""开始恢复备份 uri:$uri"")",Chinese parts: 开始恢复备份
+5548,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,81,,复制解压文件出错,,"AppLog.put(""复制解压文件出错\n${it.localizedMessage}"", it)",Chinese parts: 复制解压文件出错
+5549,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,88,,恢复备份出错,,"appCtx.toastOnUi(""恢复备份出错\n${it.localizedMessage}"")",Chinese parts: 恢复备份出错
+5550,source_code,app\src\main\java\io\legado\app\help\storage\Restore.kt,89,,恢复备份出错,,"AppLog.put(""恢复备份出错\n${it.localizedMessage}"", it)",Chinese parts: 恢复备份出错

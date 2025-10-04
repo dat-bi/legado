@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4351,source_code,app\src\main\java\io\legado\app\ui\association\ImportReplaceRuleViewModel.kt,105,,格式不对,Sai định dạng,"throw NoStackTraceException(""格式不对"")",Chinese parts: 格式不对
+4352,source_code,app\src\main\java\io\legado\app\ui\association\ImportRssSourceDialog.kt,227,,已有,Đã có,"""已有""",Chinese parts: 已有
+4353,source_code,app\src\main\java\io\legado\app\ui\association\ImportRssSourceDialog.kt,229,,新增,Thêm mới,"""新增""",Chinese parts: 新增
+4354,source_code,app\src\main\java\io\legado\app\ui\association\ImportRssSourceViewModel.kt,118,,不是订阅源,Không phải nguồn RSS,"throw NoStackTraceException(""不是订阅源"")",Chinese parts: 不是订阅源
+4355,source_code,app\src\main\java\io\legado\app\ui\association\ImportRssSourceViewModel.kt,128,,不是订阅源,Không phải nguồn RSS,"throw NoStackTraceException(""不是订阅源"")",Chinese parts: 不是订阅源
+4356,source_code,app\src\main\java\io\legado\app\ui\association\ImportRssSourceViewModel.kt,160,,不是订阅源,Không phải nguồn RSS,"throw NoStackTraceException(""不是订阅源"")",Chinese parts: 不是订阅源
+4357,source_code,app\src\main\java\io\legado\app\ui\association\ImportThemeDialog.kt,145,,新增,Thêm mới,"localSource == null -> ""新增""",Chinese parts: 新增
+4358,source_code,app\src\main\java\io\legado\app\ui\association\ImportThemeDialog.kt,146,,更新,Cập nhật,"localSource != item -> ""更新""",Chinese parts: 更新
+4359,source_code,app\src\main\java\io\legado\app\ui\association\ImportThemeDialog.kt,147,,已有,Đã có,"else -> ""已有""",Chinese parts: 已有
+4360,source_code,app\src\main\java\io\legado\app\ui\association\ImportTxtTocRuleDialog.kt,145,,新增,Thêm mới,"localSource == null -> ""新增""",Chinese parts: 新增
+4361,source_code,app\src\main\java\io\legado\app\ui\association\ImportTxtTocRuleDialog.kt,146,,更新,Cập nhật,"item != localSource -> ""更新""",Chinese parts: 更新
+4362,source_code,app\src\main\java\io\legado\app\ui\association\ImportTxtTocRuleDialog.kt,147,,已有,Đã có,"else -> ""已有""",Chinese parts: 已有
+4363,source_code,app\src\main\java\io\legado\app\ui\association\OnLineImportViewModel.kt,69,,导入排版成功,Nhập bố cục thành công,"getString(R.string.success), ""导入排版成功"")",Chinese parts: 导入排版成功
+4364,source_code,app\src\main\java\io\legado\app\ui\association\OpenUrlConfirmDialog.kt,70,,正在请求跳转链接,đang yêu cầu chuyển đến liên kết,"xt = ""${viewModel.sourceName} 正在请求跳转链接/应用，是否跳转？""",Chinese parts: 正在请求跳转链接
+4365,source_code,app\src\main\java\io\legado\app\ui\association\OpenUrlConfirmDialog.kt,70,,应用,ứng dụng,"iewModel.sourceName} 正在请求跳转链接/应用，是否跳转？""",Chinese parts: 应用
+4366,source_code,app\src\main\java\io\legado\app\ui\association\OpenUrlConfirmDialog.kt,70,,是否跳转,Có chuyển không?,"Model.sourceName} 正在请求跳转链接/应用，是否跳转？""",Chinese parts: 是否跳转
+4367,source_code,app\src\main\java\io\legado\app\ui\association\OpenUrlConfirmDialog.kt,100,,打开链接失败,Mở liên kết thất bại,"AppLog.put(""打开链接失败"", e, true)",Chinese parts: 打开链接失败
+4368,source_code,app\src\main\java\io\legado\app\ui\association\VerificationCodeDialog.kt,113,,传给,Chuyển đến,"eProvider.put(url, bitmap) // 传给 PhotoDialog",Chinese parts: 传给
+4369,source_code,app\src\main\java\io\legado\app\ui\browser\WebViewModel.kt,46,,不能为空,Không được để trống,"row NoStackTraceException(""url不能为空"")",Chinese parts: 不能为空
+4370,source_code,app\src\main\java\io\legado\app\ui\browser\WebViewModel.kt,80,,保存图片失败,Lưu ảnh thất bại,"context.toastOnUi(""保存图片失败:${it.localizedMessage}"")",Chinese parts: 保存图片失败
+4371,source_code,app\src\main\java\io\legado\app\ui\browser\WebViewModel.kt,82,,保存成功,Lưu thành công,"context.toastOnUi(""保存成功"")",Chinese parts: 保存成功
+4372,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,91,,恢复中,Đang khôi phục...,"waitDialog.setText(""恢复中…"")",Chinese parts: 恢复中
+4373,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,281,,备份中,Đang sao lưu...,"waitDialog.setText(""备份中…"")",Chinese parts: 备份中
+4374,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,293,,备份出错,Lỗi sao lưu,"AppLog.put(""备份出错\n${e.localizedMessage}"", e)",Chinese parts: 备份出错
+4375,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,327,,恢复备份出错,Lỗi khôi phục sao lưu,"AppLog.put(""恢复备份出错WebDavError\n${it.localizedMes",Chinese parts: 恢复备份出错
+4376,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,333,,将从本地备份恢复,Sẽ khôi phục từ bản sao lưu cục bộ,"rror\n${it.localizedMessage}\n将从本地备份恢复。"")",Chinese parts: 将从本地备份恢复
+4377,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,347,,由于坚果云限制列出文件数量,Do Nutstore giới hạn số lượng tệp được liệt kê,"context.toastOnUi(""由于坚果云限制列出文件数量，部分备份可能未显示，请及时清理旧备份"")",Chinese parts: 由于坚果云限制列出文件数量
+4378,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,347,,部分备份可能未显示,một số bản sao lưu có thể không hiển thị,"text.toastOnUi(""由于坚果云限制列出文件数量，部分备份可能未显示，请及时清理旧备份"")",Chinese parts: 部分备份可能未显示
+4379,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,347,,请及时清理旧备份,vui lòng dọn dẹp các bản sao lưu cũ kịp thời,"OnUi(""由于坚果云限制列出文件数量，部分备份可能未显示，请及时清理旧备份"")",Chinese parts: 请及时清理旧备份
+4380,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,369,,恢复中,Đang khôi phục...,"waitDialog.setText(""恢复中…"")",Chinese parts: 恢复中
+4381,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,374,,恢复出错,Lỗi khôi phục,"AppLog.put(""WebDav恢复出错\n${it.localizedMessage}"", it)",Chinese parts: 恢复出错
+4382,source_code,app\src\main\java\io\legado\app\ui\config\BackupConfigFragment.kt,375,,恢复出错,Lỗi khôi phục,"appCtx.toastOnUi(""WebDav恢复出错\n${it.localizedMessage}"")",Chinese parts: 恢复出错
+4383,source_code,app\src\main\java\io\legado\app\ui\config\CoverRuleConfigDialog.kt,42,,搜索,Tìm kiếm,"toastOnUi(""搜索url和cover规则不能为空"")",Chinese parts: 搜索
+4384,source_code,app\src\main\java\io\legado\app\ui\config\CoverRuleConfigDialog.kt,42,,和,và,"toastOnUi(""搜索url和cover规则不能为空"")",Chinese parts: 和
+4385,source_code,app\src\main\java\io\legado\app\ui\config\CoverRuleConfigDialog.kt,42,,规则不能为空,quy tắc không được để trống,"toastOnUi(""搜索url和cover规则不能为空"")",Chinese parts: 规则不能为空
+4386,source_code,app\src\main\java\io\legado\app\ui\config\DirectLinkUploadConfig.kt,69,,剪贴板为空或格式不对,Bảng tạm trống hoặc sai định dạng,"toastOnUi(""剪贴板为空或格式不对"")",Chinese parts: 剪贴板为空或格式不对
+4387,source_code,app\src\main\java\io\legado\app\ui\config\DirectLinkUploadConfig.kt,88,,上传,Tải lên,"toastOnUi(""上传Url不能为空"")",Chinese parts: 上传
+4388,source_code,app\src\main\java\io\legado\app\ui\config\DirectLinkUploadConfig.kt,88,,不能为空,không được để trống,"toastOnUi(""上传Url不能为空"")",Chinese parts: 不能为空
+4389,source_code,app\src\main\java\io\legado\app\ui\config\DirectLinkUploadConfig.kt,92,,下载,Tải về,"toastOnUi(""下载Url规则不能为空"")",Chinese parts: 下载
+4390,source_code,app\src\main\java\io\legado\app\ui\config\DirectLinkUploadConfig.kt,92,,规则不能为空,quy tắc không được để trống,"toastOnUi(""下载Url规则不能为空"")",Chinese parts: 规则不能为空
+4391,source_code,app\src\main\java\io\legado\app\ui\config\DirectLinkUploadConfig.kt,96,,注释不能为空,Chú thích không được để trống,"toastOnUi(""注释不能为空"")",Chinese parts: 注释不能为空
+4392,source_code,app\src\main\java\io\legado\app\ui\config\ThemeListDialog.kt,65,,格式不对,Sai định dạng,"toastOnUi(""格式不对,添加失败"")",Chinese parts: 格式不对
+4393,source_code,app\src\main\java\io\legado\app\ui\config\ThemeListDialog.kt,65,,添加失败,Thêm thất bại,"toastOnUi(""格式不对,添加失败"")",Chinese parts: 添加失败
+4394,source_code,app\src\main\java\io\legado\app\ui\config\ThemeListDialog.kt,85,,主题分享,Chia sẻ giao diện,"requireContext().share(json, ""主题分享"")",Chinese parts: 主题分享
+4395,source_code,app\src\main\java\io\legado\app\ui\file\FilePickerDialog.kt,123,,请选择文件,Vui lòng chọn tệp,"toastOnUi(""请选择文件"")",Chinese parts: 请选择文件
+4396,source_code,app\src\main\java\io\legado\app\ui\file\FilePickerDialog.kt,136,,文件夹名,Tên thư mục,"editView.hint = ""文件夹名""",Chinese parts: 文件夹名
+4397,source_code,app\src\main\java\io\legado\app\ui\file\FilePickerDialog.kt,142,,文件夹名不能为空,Tên thư mục không được để trống,"toastOnUi(""文件夹名不能为空"")",Chinese parts: 文件夹名不能为空
+4398,source_code,app\src\main\java\io\legado\app\ui\file\FilePickerViewModel.kt,63,,父文件夹不存在,Thư mục cha không tồn tại,"throw NoStackTraceException(""父文件夹不存在"")",Chinese parts: 父文件夹不存在
+4399,source_code,app\src\main\java\io\legado\app\ui\file\FilePickerViewModel.kt,66,,非法文件名,Tên tệp không hợp lệ,"throw NoStackTraceException(""非法文件名"")",Chinese parts: 非法文件名
+4400,source_code,app\src\main\java\io\legado\app\ui\file\HandleFileActivity.kt,148,,手动输入目录路径,Nhập thủ công đường dẫn thư mục,"112 -> checkPermissions { // 手动输入目录路径",Chinese parts: 手动输入目录路径

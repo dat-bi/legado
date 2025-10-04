@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+501,xml_string,app\src\main\res\values-zh\strings.xml,522,chapter,章,,String resource: chapter,Chinese parts: 章
+502,xml_string,app\src\main\res\values-zh\strings.xml,523,to,至,,String resource: to,Chinese parts: 至
+503,xml_string,app\src\main\res\values-zh\strings.xml,524,use_regex,使用正则表达式,,String resource: use_regex,Chinese parts: 使用正则表达式
+504,xml_string,app\src\main\res\values-zh\strings.xml,525,text_indent,缩进,,String resource: text_indent,Chinese parts: 缩进
+505,xml_string,app\src\main\res\values-zh\strings.xml,526,indent_0,无缩进,,String resource: indent_0,Chinese parts: 无缩进
+506,xml_string,app\src\main\res\values-zh\strings.xml,527,indent_1,一字符缩进,,String resource: indent_1,Chinese parts: 一字符缩进
+507,xml_string,app\src\main\res\values-zh\strings.xml,528,indent_2,二字符缩进,,String resource: indent_2,Chinese parts: 二字符缩进
+508,xml_string,app\src\main\res\values-zh\strings.xml,529,indent_3,三字符缩进,,String resource: indent_3,Chinese parts: 三字符缩进
+509,xml_string,app\src\main\res\values-zh\strings.xml,530,indent_4,四字符缩进,,String resource: indent_4,Chinese parts: 四字符缩进
+510,xml_string,app\src\main\res\values-zh\strings.xml,531,select_folder,选择文件夹,,String resource: select_folder,Chinese parts: 选择文件夹
+511,xml_string,app\src\main\res\values-zh\strings.xml,532,select_file,选择文件,,String resource: select_file,Chinese parts: 选择文件
+512,xml_string,app\src\main\res\values-zh\strings.xml,533,no_find,没有发现，可以在书源里添加。,,String resource: no_find,"Chinese parts: 没有发现, 可以在书源里添加"
+513,xml_string,app\src\main\res\values-zh\strings.xml,534,restore_default,恢复默认,,String resource: restore_default,Chinese parts: 恢复默认
+514,xml_string,app\src\main\res\values-zh\strings.xml,535,set_download_per,自定义缓存路径需要存储权限,,String resource: set_download_per,Chinese parts: 自定义缓存路径需要存储权限
+515,xml_string,app\src\main\res\values-zh\strings.xml,536,black,黑色,,String resource: black,Chinese parts: 黑色
+516,xml_string,app\src\main\res\values-zh\strings.xml,537,content_empty,文章内容为空,,String resource: content_empty,Chinese parts: 文章内容为空
+517,xml_string,app\src\main\res\values-zh\strings.xml,538,on_change_source,正在换源请等待…,,String resource: on_change_source,Chinese parts: 正在换源请等待
+518,xml_string,app\src\main\res\values-zh\strings.xml,539,chapter_list_empty,目录列表为空,,String resource: chapter_list_empty,Chinese parts: 目录列表为空
+519,xml_string,app\src\main\res\values-zh\strings.xml,540,text_letter_spacing,字距,,String resource: text_letter_spacing,Chinese parts: 字距
+520,xml_string,app\src\main\res\values-zh\strings.xml,542,source_tab_base,基本,,String resource: source_tab_base,Chinese parts: 基本
+521,xml_string,app\src\main\res\values-zh\strings.xml,543,source_tab_search,搜索,,String resource: source_tab_search,Chinese parts: 搜索
+522,xml_string,app\src\main\res\values-zh\strings.xml,544,source_tab_find,发现,,String resource: source_tab_find,Chinese parts: 发现
+523,xml_string,app\src\main\res\values-zh\strings.xml,545,source_tab_info,详情,,String resource: source_tab_info,Chinese parts: 详情
+524,xml_string,app\src\main\res\values-zh\strings.xml,546,source_tab_toc,目录,,String resource: source_tab_toc,Chinese parts: 目录
+525,xml_string,app\src\main\res\values-zh\strings.xml,547,source_tab_content,正文,,String resource: source_tab_content,Chinese parts: 正文
+526,xml_string,app\src\main\res\values-zh\strings.xml,549,e_ink_mode,E-Ink 模式,,String resource: e_ink_mode,Chinese parts: 模式
+527,xml_string,app\src\main\res\values-zh\strings.xml,550,e_ink_mode_detail,去除动画，优化电纸书使用体验,,String resource: e_ink_mode_detail,"Chinese parts: 去除动画, 优化电纸书使用体验"
+528,xml_string,app\src\main\res\values-zh\strings.xml,551,web_menu,Web 服务,,String resource: web_menu,Chinese parts: 服务
+529,xml_string,app\src\main\res\values-zh\strings.xml,552,web_port_title,Web 端口,,String resource: web_port_title,Chinese parts: 端口
+530,xml_string,app\src\main\res\values-zh\strings.xml,553,web_port_summary,当前端口 %s,,String resource: web_port_summary,Chinese parts: 当前端口
+531,xml_string,app\src\main\res\values-zh\strings.xml,554,qr_share,二维码分享,,String resource: qr_share,Chinese parts: 二维码分享
+532,xml_string,app\src\main\res\values-zh\strings.xml,555,str_share,字符串分享,,String resource: str_share,Chinese parts: 字符串分享
+533,xml_string,app\src\main\res\values-zh\strings.xml,556,wifi_share,WiFi 分享,,String resource: wifi_share,Chinese parts: 分享
+534,xml_string,app\src\main\res\values-zh\strings.xml,557,please_grant_storage_permission,请给予存储权限,,String resource: please_grant_storage_permission,Chinese parts: 请给予存储权限
+535,xml_string,app\src\main\res\values-zh\strings.xml,558,fast_rewind,减速,,String resource: fast_rewind,Chinese parts: 减速
+536,xml_string,app\src\main\res\values-zh\strings.xml,559,fast_forward,加速,,String resource: fast_forward,Chinese parts: 加速
+537,xml_string,app\src\main\res\values-zh\strings.xml,560,skip_previous,上一个,,String resource: skip_previous,Chinese parts: 上一个
+538,xml_string,app\src\main\res\values-zh\strings.xml,561,skip_next,下一个,,String resource: skip_next,Chinese parts: 下一个
+539,xml_string,app\src\main\res\values-zh\strings.xml,562,music,音乐,,String resource: music,Chinese parts: 音乐
+540,xml_string,app\src\main\res\values-zh\strings.xml,563,audio,音频,,String resource: audio,Chinese parts: 音频
+541,xml_string,app\src\main\res\values-zh\strings.xml,564,is_enable,启用,,String resource: is_enable,Chinese parts: 启用
+542,xml_string,app\src\main\res\values-zh\strings.xml,565,enable_js,启用 JavaScript,,String resource: enable_js,Chinese parts: 启用
+543,xml_string,app\src\main\res\values-zh\strings.xml,566,load_with_base_url,加载 BaseUrl,,String resource: load_with_base_url,Chinese parts: 加载
+544,xml_string,app\src\main\res\values-zh\strings.xml,567,all_source,全部书源,,String resource: all_source,Chinese parts: 全部书源
+545,xml_string,app\src\main\res\values-zh\strings.xml,568,cannot_empty,输入不能为空,,String resource: cannot_empty,Chinese parts: 输入不能为空
+546,xml_string,app\src\main\res\values-zh\strings.xml,569,clear_find_cache,清空发现缓存,,String resource: clear_find_cache,Chinese parts: 清空发现缓存
+547,xml_string,app\src\main\res\values-zh\strings.xml,570,edit_find,编辑发现,,String resource: edit_find,Chinese parts: 编辑发现
+548,xml_string,app\src\main\res\values-zh\strings.xml,571,change_icon_summary,切换软件显示在桌面的图标,,String resource: change_icon_summary,Chinese parts: 切换软件显示在桌面的图标
+549,xml_string,app\src\main\res\values-zh\strings.xml,572,help,帮助,,String resource: help,Chinese parts: 帮助
+550,xml_string,app\src\main\res\values-zh\strings.xml,573,my,我的,,String resource: my,Chinese parts: 我的

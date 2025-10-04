@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3701,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,79,system_typefaces[1],系統襯線字體,,Array item: system_typefaces[1],Chinese parts: 系統襯線字體
+3702,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,79,system_typefaces[2],系統等寬字體,,Array item: system_typefaces[2],Chinese parts: 系統等寬字體
+3703,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[0],無,,Array item: read_tip[0],Chinese parts: 無
+3704,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[1],書名,,Array item: read_tip[1],Chinese parts: 書名
+3705,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[2],標題,,Array item: read_tip[2],Chinese parts: 標題
+3706,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[3],時間,,Array item: read_tip[3],Chinese parts: 時間
+3707,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[4],電量,,Array item: read_tip[4],Chinese parts: 電量
+3708,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[5],電量%,,Array item: read_tip[5],Chinese parts: 電量
+3709,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[6],頁數,,Array item: read_tip[6],Chinese parts: 頁數
+3710,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[7],進度(%),,Array item: read_tip[7],Chinese parts: 進度
+3711,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[8],進度(xx/yyy),,Array item: read_tip[8],Chinese parts: 進度
+3712,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[9],頁數及進度,,Array item: read_tip[9],Chinese parts: 頁數及進度
+3713,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[10],時間及電量,,Array item: read_tip[10],Chinese parts: 時間及電量
+3714,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,85,read_tip[11],時間及電量%,,Array item: read_tip[11],Chinese parts: 時間及電量
+3715,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,100,text_font_weight[0],正常,,Array item: text_font_weight[0],Chinese parts: 正常
+3716,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,100,text_font_weight[1],粗體,,Array item: text_font_weight[1],Chinese parts: 粗體
+3717,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,100,text_font_weight[2],細體,,Array item: text_font_weight[2],Chinese parts: 細體
+3718,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,106,language[0],跟隨系統,,Array item: language[0],Chinese parts: 跟隨系統
+3719,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,106,language[1],簡體中文,,Array item: language[1],Chinese parts: 簡體中文
+3720,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,106,language[2],繁體中文,,Array item: language[2],Chinese parts: 繁體中文
+3721,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,106,language[3],英文,,Array item: language[3],Chinese parts: 英文
+3722,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,113,rule_type[0],書源,,Array item: rule_type[0],Chinese parts: 書源
+3723,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,113,rule_type[1],訂閱源,,Array item: rule_type[1],Chinese parts: 訂閱源
+3724,xml_array_item,app\src\main\res\values-zh-rTW\arrays.xml,113,rule_type[2],取代規則,,Array item: rule_type[2],Chinese parts: 取代規則
+3725,xml_string,app\src\debug\res\values-zh\strings.xml,2,app_name,阅读·D,,String resource: app_name,Chinese parts: 阅读
+3726,xml_string,app\src\debug\res\values-zh\strings.xml,3,receiving_shared_label,阅读·D·搜索,,String resource: receiving_shared_label,"Chinese parts: 阅读, 搜索"
+3727,source_code,app\src\main\java\io\legado\app\api\ReturnData.kt,11,,未知错误,,"var errorMsg: String = ""未知错误,请联系开发者!""",Chinese parts: 未知错误
+3728,source_code,app\src\main\java\io\legado\app\api\ReturnData.kt,11,,请联系开发者,,"var errorMsg: String = ""未知错误,请联系开发者!""",Chinese parts: 请联系开发者
+3729,source_code,app\src\main\java\io\legado\app\base\AppContextWrapper.kt,49,,有多语言设置获取顶部的语言,,Build.VERSION_CODES.N) { //7.0有多语言设置获取顶部的语言,Chinese parts: 有多语言设置获取顶部的语言
+3730,source_code,app\src\main\java\io\legado\app\base\BaseActivity.kt,169,,背景图片太大,,"toastOnUi(""背景图片太大,内存溢出"")",Chinese parts: 背景图片太大
+3731,source_code,app\src\main\java\io\legado\app\base\BaseActivity.kt,169,,内存溢出,,"toastOnUi(""背景图片太大,内存溢出"")",Chinese parts: 内存溢出
+3732,source_code,app\src\main\java\io\legado\app\base\BaseActivity.kt,171,,加载背景出错,,"AppLog.put(""加载背景出错\n${e.localizedMessage}"", e)",Chinese parts: 加载背景出错
+3733,source_code,app\src\main\java\io\legado\app\base\BaseDialogFragment.kt,97,,显示对话框失败,,"AppLog.put(""显示对话框失败 tag:$tag"", it)",Chinese parts: 显示对话框失败
+3734,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,17,,作,,"val nameRegex = Regex(""\\s+作\\s*者.*|\\s+\\S+\\s+著"")",Chinese parts: 作
+3735,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,17,,者,,"l nameRegex = Regex(""\\s+作\\s*者.*|\\s+\\S+\\s+著"")",Chinese parts: 者
+3736,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,17,,著,,"gex(""\\s+作\\s*者.*|\\s+\\S+\\s+著"")",Chinese parts: 著
+3737,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,18,,作,,"val authorRegex = Regex(""^\\s*作\\s*者[:：\\s]+|\\s+著"")",Chinese parts: 作
+3738,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,18,,者,,"uthorRegex = Regex(""^\\s*作\\s*者[:：\\s]+|\\s+著"")",Chinese parts: 者
+3739,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,18,,著,,"egex(""^\\s*作\\s*者[:：\\s]+|\\s+著"")",Chinese parts: 著
+3740,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,21,,第,,": Pattern = Pattern.compile(""(第)(.+?)(章)"")",Chinese parts: 第
+3741,source_code,app\src\main\java\io\legado\app\constant\AppPattern.kt,21,,章,,"n = Pattern.compile(""(第)(.+?)(章)"")",Chinese parts: 章
+3742,source_code,app\src\main\java\io\legado\app\constant\BookSourceType.kt,8,,文本,,al default = 0           // 0 文本,Chinese parts: 文本
+3743,source_code,app\src\main\java\io\legado\app\constant\BookSourceType.kt,9,,音频,,al audio = 1             // 1 音频,Chinese parts: 音频
+3744,source_code,app\src\main\java\io\legado\app\constant\BookSourceType.kt,10,,图片,,val image = 2            // 2 图片,Chinese parts: 图片
+3745,source_code,app\src\main\java\io\legado\app\constant\BookSourceType.kt,11,,只提供下载服务的网站,,l file = 3               // 3 只提供下载服务的网站,Chinese parts: 只提供下载服务的网站
+3746,source_code,app\src\main\java\io\legado\app\data\AppDatabase.kt,151,,准备,,"Log.d(""AppDatabaseCallback"", ""准备 设置 locale for API ${Build.VER",Chinese parts: 准备
+3747,source_code,app\src\main\java\io\legado\app\data\AppDatabase.kt,151,,设置,,".d(""AppDatabaseCallback"", ""准备 设置 locale for API ${Build.VERSIO",Chinese parts: 设置
+3748,source_code,app\src\main\java\io\legado\app\data\AppDatabase.kt,154,,成功,,"Log.d(""AppDatabaseCallback"", ""成功 设置 locale for API ${Build.VER",Chinese parts: 成功
+3749,source_code,app\src\main\java\io\legado\app\data\AppDatabase.kt,154,,设置,,".d(""AppDatabaseCallback"", ""成功 设置 locale for API ${Build.VERSIO",Chinese parts: 设置
+3750,source_code,app\src\main\java\io\legado\app\data\AppDatabase.kt,156,,错误,,"Log.e(""AppDatabaseCallback"", ""错误 设置 locale in onCreate for API",Chinese parts: 错误

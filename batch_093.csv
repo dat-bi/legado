@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4601,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,212,,拉取阅读进度失败,,"AppLog.put(""拉取阅读进度失败《${book.name}》\n${it.localized",Chinese parts: 拉取阅读进度失败
+4602,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,222,,自动同步阅读进度成功,,"AppLog.put(""自动同步阅读进度成功《${book.name}》 ${progress.durC",Chinese parts: 自动同步阅读进度成功
+4603,source_code,app\src\main\java\io\legado\app\ui\book\manga\ReadMangaViewModel.kt,242,,换源失败,,"AppLog.put(""换源失败\n$it"", it, true)",Chinese parts: 换源失败
+4604,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,77,,找不到文件,,"} ?: ReadBook.upMsg(""找不到文件"")",Chinese parts: 找不到文件
+4605,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,79,,没有权限访问,,"} ?: ReadBook.upMsg(""没有权限访问"")",Chinese parts: 没有权限访问
+4606,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,101,,选择书籍所在文件夹,,"title = ""选择书籍所在文件夹""",Chinese parts: 选择书籍所在文件夹
+4607,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,298,,设置为,,rtDate.isFocusable = false // 设置为false，不允许获得焦点,Chinese parts: 设置为
+4608,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,298,,不允许获得焦点,,Focusable = false // 设置为false，不允许获得焦点,Chinese parts: 不允许获得焦点
+4609,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,299,,不显示光标,,te.isCursorVisible = false // 不显示光标,Chinese parts: 不显示光标
+4610,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,308,,的,,"mm + 1, dayOfMonth) // Java 8的LocalDate，月份从1开始",Chinese parts: 的
+4611,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,308,,月份从,,yOfMonth) // Java 8的LocalDate，月份从1开始,Chinese parts: 月份从
+4612,source_code,app\src\main\java\io\legado\app\ui\book\read\BaseReadBookActivity.kt,308,,开始,,onth) // Java 8的LocalDate，月份从1开始,Chinese parts: 开始
+4613,source_code,app\src\main\java\io\legado\app\ui\book\read\EffectiveReplacesDialog.kt,35,,繁简转换,,"ert by lazy { ReplaceRule(0, ""繁简转换"") }",Chinese parts: 繁简转换
+4614,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,192,,退出全文搜索恢复此时进度,,k.saveCurrentBookProgress() //退出全文搜索恢复此时进度,Chinese parts: 退出全文搜索恢复此时进度
+4615,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,587,,切换图片样式,,Book.book?.setPageAnim(0)  // 切换图片样式single后，自动切换为覆盖,Chinese parts: 切换图片样式
+4616,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,587,,后,,etPageAnim(0)  // 切换图片样式single后，自动切换为覆盖,Chinese parts: 后
+4617,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,587,,自动切换为覆盖,,PageAnim(0)  // 切换图片样式single后，自动切换为覆盖,Chinese parts: 自动切换为覆盖
+4618,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,614,,未找到可移除的重复标题,,"toastOnUi(""未找到可移除的重复标题"")",Chinese parts: 未找到可移除的重复标题
+4619,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,667,,滚轮向下滚,,if (axisValue < 0.0f) { // 滚轮向下滚,Chinese parts: 滚轮向下滚
+4620,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,669,,滚轮向上滚,,} else { // 滚轮向上滚,Chinese parts: 滚轮向上滚
+4621,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1241,,恢复到,,/* 恢复到 全文搜索/进度条跳转前的位置 */,Chinese parts: 恢复到
+4622,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1241,,全文搜索,,/* 恢复到 全文搜索/进度条跳转前的位置 */,Chinese parts: 全文搜索
+4623,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1241,,进度条跳转前的位置,,/* 恢复到 全文搜索/进度条跳转前的位置 */,Chinese parts: 进度条跳转前的位置
+4624,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1250,,恢复启动全文搜索前的进度,,k.restoreLastBookProgress() //恢复启动全文搜索前的进度,Chinese parts: 恢复启动全文搜索前的进度
+4625,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1315,,执行购买操作出错,,"AppLog.put(""执行购买操作出错\n${it.localizedMessage}"", it,",Chinese parts: 执行购买操作出错
+4626,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1458,,进度条跳转到指定章节,,/* 进度条跳转到指定章节 */,Chinese parts: 进度条跳转到指定章节
+4627,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1460,,退出章节跳转恢复此时进度,,k.saveCurrentBookProgress() //退出章节跳转恢复此时进度,Chinese parts: 退出章节跳转恢复此时进度
+4628,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1464,,全文搜索跳转,,/* 全文搜索跳转 */,Chinese parts: 全文搜索跳转
+4629,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookActivity.kt,1483,,全文搜索跳转,,/* 全文搜索跳转 */,Chinese parts: 全文搜索跳转
+4630,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,100,,初始化数据失败,,"val msg = ""初始化数据失败\n${it.localizedMessage}""",Chinese parts: 初始化数据失败
+4631,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,152,,打开本地书籍出错,,"ReadBook.upMsg(""打开本地书籍出错: ${e.localizedMessage}"")",Chinese parts: 打开本地书籍出错
+4632,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,170,,详情页出错,,"ReadBook.upMsg(""详情页出错: ${e.localizedMessage}"")",Chinese parts: 详情页出错
+4633,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,245,,拉取阅读进度失败,,"AppLog.put(""拉取阅读进度失败《${book.name}》\n${it.localized",Chinese parts: 拉取阅读进度失败
+4634,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,255,,自动同步阅读进度成功,,"AppLog.put(""自动同步阅读进度成功《${book.name}》 ${progress.durC",Chinese parts: 自动同步阅读进度成功
+4635,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,276,,换源失败,,"AppLog.put(""换源失败\n$it"", it, true)",Chinese parts: 换源失败
+4636,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,320,,没有合适书源,,"throw NoStackTraceException(""没有合适书源"")",Chinese parts: 没有合适书源
+4637,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,324,,自动换源失败,,"AppLog.put(""自动换源失败\n${it.localizedMessage}"", it)",Chinese parts: 自动换源失败
+4638,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,325,,自动换源失败,,"context.toastOnUi(""自动换源失败\n${it.localizedMessage}"")",Chinese parts: 自动换源失败
+4639,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,529,,保存图片出错,,"AppLog.put(""保存图片出错\n${it.localizedMessage}"", it)",Chinese parts: 保存图片出错
+4640,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadBookViewModel.kt,530,,保存图片出错,,"context.toastOnUi(""保存图片出错\n${it.localizedMessage}"")",Chinese parts: 保存图片出错
+4641,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadMenu.kt,416,,章节跳转确认,,"context.alert(""章节跳转确认"", ""确定要跳转章节吗？"") {",Chinese parts: 章节跳转确认
+4642,source_code,app\src\main\java\io\legado\app\ui\book\read\ReadMenu.kt,416,,确定要跳转章节吗,,"context.alert(""章节跳转确认"", ""确定要跳转章节吗？"") {",Chinese parts: 确定要跳转章节吗
+4643,source_code,app\src\main\java\io\legado\app\ui\book\read\SearchMenu.kt,112,,当前章节,,"}: ${searchResultList.size} / 当前章节: ${it.title}""""""",Chinese parts: 当前章节
+4644,source_code,app\src\main\java\io\legado\app\ui\book\read\TextActionMenu.kt,203,,切换为从选择的地方开始一直朗读,,"context.toastOnUi(""切换为从选择的地方开始一直朗读"")",Chinese parts: 切换为从选择的地方开始一直朗读
+4645,source_code,app\src\main\java\io\legado\app\ui\book\read\TextActionMenu.kt,206,,切换为朗读选择内容,,"context.toastOnUi(""切换为朗读选择内容"")",Chinese parts: 切换为朗读选择内容
+4646,source_code,app\src\main\java\io\legado\app\ui\book\read\TextActionMenu.kt,241,,执行文本菜单操作出错,,"AppLog.put(""执行文本菜单操作出错\n$e"", e, true)",Chinese parts: 执行文本菜单操作出错
+4647,source_code,app\src\main\java\io\legado\app\ui\book\read\TextActionMenu.kt,284,,获取文字操作菜单出错,,"context.toastOnUi(""获取文字操作菜单出错:${it.localizedMessage}"")",Chinese parts: 获取文字操作菜单出错
+4648,source_code,app\src\main\java\io\legado\app\ui\book\search\SearchActivity.kt,394,,搜索界面获取搜索历史数据失败,,"AppLog.put(""搜索界面获取搜索历史数据失败\n${it.localizedMessage}"", it)",Chinese parts: 搜索界面获取搜索历史数据失败
+4649,source_code,app\src\main\java\io\legado\app\ui\book\search\SearchActivity.kt,435,,搜索结果为空,,"alert(""搜索结果为空"") {",Chinese parts: 搜索结果为空
+4650,source_code,app\src\main\java\io\legado\app\ui\book\search\SearchActivity.kt,439,,分组搜索结果为空,,"setMessage(""${displayScope}分组搜索结果为空，是否关闭精准搜索？"")",Chinese parts: 分组搜索结果为空

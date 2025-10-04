@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2951,xml_string,app\src\main\res\values-zh-rTW\strings.xml,598,web_dav_pw_s,輸入你的WebDav授權密碼,,String resource: web_dav_pw_s,"Chinese parts: 輸入你的, 授權密碼"
+2952,xml_string,app\src\main\res\values-zh-rTW\strings.xml,599,web_dav_url_s,輸入你的伺服器地址,,String resource: web_dav_url_s,Chinese parts: 輸入你的伺服器地址
+2953,xml_string,app\src\main\res\values-zh-rTW\strings.xml,600,web_dav_url,WebDav 伺服器地址,,String resource: web_dav_url,Chinese parts: 伺服器地址
+2954,xml_string,app\src\main\res\values-zh-rTW\strings.xml,601,web_dav_account,WebDav 帳號,,String resource: web_dav_account,Chinese parts: 帳號
+2955,xml_string,app\src\main\res\values-zh-rTW\strings.xml,602,web_dav_account_s,輸入你的WebDav帳號,,String resource: web_dav_account_s,"Chinese parts: 輸入你的, 帳號"
+2956,xml_string,app\src\main\res\values-zh-rTW\strings.xml,603,rss_source,訂閱源,,String resource: rss_source,Chinese parts: 訂閱源
+2957,xml_string,app\src\main\res\values-zh-rTW\strings.xml,604,rss_source_edit,編輯訂閱源,,String resource: rss_source_edit,Chinese parts: 編輯訂閱源
+2958,xml_string,app\src\main\res\values-zh-rTW\strings.xml,605,screen,篩選,,String resource: screen,Chinese parts: 篩選
+2959,xml_string,app\src\main\res\values-zh-rTW\strings.xml,606,screen_find,篩選發現,,String resource: screen_find,Chinese parts: 篩選發現
+2960,xml_string,app\src\main\res\values-zh-rTW\strings.xml,607,dur_pos,目前位置：,,String resource: dur_pos,Chinese parts: 目前位置
+2961,xml_string,app\src\main\res\values-zh-rTW\strings.xml,608,precision_search,精準搜尋,,String resource: precision_search,Chinese parts: 精準搜尋
+2962,xml_string,app\src\main\res\values-zh-rTW\strings.xml,609,service_starting,正在啟動服務,,String resource: service_starting,Chinese parts: 正在啟動服務
+2963,xml_string,app\src\main\res\values-zh-rTW\strings.xml,610,empty,空,,String resource: empty,Chinese parts: 空
+2964,xml_string,app\src\main\res\values-zh-rTW\strings.xml,611,file_chooser,文件選擇,,String resource: file_chooser,Chinese parts: 文件選擇
+2965,xml_string,app\src\main\res\values-zh-rTW\strings.xml,612,folder_chooser,資料夾選擇,,String resource: folder_chooser,Chinese parts: 資料夾選擇
+2966,xml_string,app\src\main\res\values-zh-rTW\strings.xml,613,bottom_line,我是有底線的,,String resource: bottom_line,Chinese parts: 我是有底線的
+2967,xml_string,app\src\main\res\values-zh-rTW\strings.xml,614,uri_to_path_fail,Uri轉Path失敗,,String resource: uri_to_path_fail,"Chinese parts: 轉, 失敗"
+2968,xml_string,app\src\main\res\values-zh-rTW\strings.xml,615,refresh_cover,重新整理封面,,String resource: refresh_cover,Chinese parts: 重新整理封面
+2969,xml_string,app\src\main\res\values-zh-rTW\strings.xml,616,change_cover_source,封面換源,,String resource: change_cover_source,Chinese parts: 封面換源
+2970,xml_string,app\src\main\res\values-zh-rTW\strings.xml,617,select_local_image,選擇本機圖片,,String resource: select_local_image,Chinese parts: 選擇本機圖片
+2971,xml_string,app\src\main\res\values-zh-rTW\strings.xml,618,book_type,類型：,,String resource: book_type,Chinese parts: 類型
+2972,xml_string,app\src\main\res\values-zh-rTW\strings.xml,619,to_backstage,後台,,String resource: to_backstage,Chinese parts: 後台
+2973,xml_string,app\src\main\res\values-zh-rTW\strings.xml,620,importing,正在匯入,,String resource: importing,Chinese parts: 正在匯入
+2974,xml_string,app\src\main\res\values-zh-rTW\strings.xml,621,exporting,正在匯出,,String resource: exporting,Chinese parts: 正在匯出
+2975,xml_string,app\src\main\res\values-zh-rTW\strings.xml,622,custom_page_key,自訂翻頁按鍵,,String resource: custom_page_key,Chinese parts: 自訂翻頁按鍵
+2976,xml_string,app\src\main\res\values-zh-rTW\strings.xml,623,prev_page_key,上一頁按鍵,,String resource: prev_page_key,Chinese parts: 上一頁按鍵
+2977,xml_string,app\src\main\res\values-zh-rTW\strings.xml,624,next_page_key,下一頁按鍵,,String resource: next_page_key,Chinese parts: 下一頁按鍵
+2978,xml_string,app\src\main\res\values-zh-rTW\strings.xml,625,no_group,未分組,,String resource: no_group,Chinese parts: 未分組
+2979,xml_string,app\src\main\res\values-zh-rTW\strings.xml,626,prev_sentence,上一句,,String resource: prev_sentence,Chinese parts: 上一句
+2980,xml_string,app\src\main\res\values-zh-rTW\strings.xml,627,next_sentence,下一句,,String resource: next_sentence,Chinese parts: 下一句
+2981,xml_string,app\src\main\res\values-zh-rTW\strings.xml,628,other_folder,其它目錄,,String resource: other_folder,Chinese parts: 其它目錄
+2982,xml_string,app\src\main\res\values-zh-rTW\strings.xml,629,text_too_long_qr_error,文字太多，生成二維碼失敗,,String resource: text_too_long_qr_error,"Chinese parts: 文字太多, 生成二維碼失敗"
+2983,xml_string,app\src\main\res\values-zh-rTW\strings.xml,630,share_rss_source,分享RSS源,,String resource: share_rss_source,"Chinese parts: 分享, 源"
+2984,xml_string,app\src\main\res\values-zh-rTW\strings.xml,631,share_book_source,分享書源,,String resource: share_book_source,Chinese parts: 分享書源
+2985,xml_string,app\src\main\res\values-zh-rTW\strings.xml,632,auto_dark_mode,自動切換夜間模式,,String resource: auto_dark_mode,Chinese parts: 自動切換夜間模式
+2986,xml_string,app\src\main\res\values-zh-rTW\strings.xml,633,auto_dark_mode_s,夜間模式跟隨系統,,String resource: auto_dark_mode_s,Chinese parts: 夜間模式跟隨系統
+2987,xml_string,app\src\main\res\values-zh-rTW\strings.xml,634,go_back,上級,,String resource: go_back,Chinese parts: 上級
+2988,xml_string,app\src\main\res\values-zh-rTW\strings.xml,635,tone_colour,線上朗讀音色,,String resource: tone_colour,Chinese parts: 線上朗讀音色
+2989,xml_string,app\src\main\res\values-zh-rTW\strings.xml,637,show_rss,顯示訂閱,,String resource: show_rss,Chinese parts: 顯示訂閱
+2990,xml_string,app\src\main\res\values-zh-rTW\strings.xml,638,service_stop,服務已停止,,String resource: service_stop,Chinese parts: 服務已停止
+2991,xml_string,app\src\main\res\values-zh-rTW\strings.xml,639,service_start,正在啟動服務\n具體訊息查看通知欄,,String resource: service_start,"Chinese parts: 正在啟動服務, 具體訊息查看通知欄"
+2992,xml_string,app\src\main\res\values-zh-rTW\strings.xml,640,default_path,預設路徑,,String resource: default_path,Chinese parts: 預設路徑
+2993,xml_string,app\src\main\res\values-zh-rTW\strings.xml,641,sys_folder_picker,系統資料夾選擇器,,String resource: sys_folder_picker,Chinese parts: 系統資料夾選擇器
+2994,xml_string,app\src\main\res\values-zh-rTW\strings.xml,642,app_folder_picker,內建資料夾選擇器,,String resource: app_folder_picker,Chinese parts: 內建資料夾選擇器
+2995,xml_string,app\src\main\res\values-zh-rTW\strings.xml,643,app_file_picker,內建資料夾選擇器,,String resource: app_file_picker,Chinese parts: 內建資料夾選擇器
+2996,xml_string,app\src\main\res\values-zh-rTW\strings.xml,644,a10_permission_toast,Android10以上因權限限制可能無法讀寫文件,,String resource: a10_permission_toast,Chinese parts: 以上因權限限制可能無法讀寫文件
+2997,xml_string,app\src\main\res\values-zh-rTW\strings.xml,645,add_to_text_context_menu_s,長按文字在操作選單中顯示閱讀·搜尋,,String resource: add_to_text_context_menu_s,"Chinese parts: 長按文字在操作選單中顯示閱讀, 搜尋"
+2998,xml_string,app\src\main\res\values-zh-rTW\strings.xml,646,add_to_text_context_menu_t,文字操作顯示搜尋,,String resource: add_to_text_context_menu_t,Chinese parts: 文字操作顯示搜尋
+2999,xml_string,app\src\main\res\values-zh-rTW\strings.xml,647,record_log,記錄日誌,,String resource: record_log,Chinese parts: 記錄日誌
+3000,xml_string,app\src\main\res\values-zh-rTW\strings.xml,648,log,日誌,,String resource: log,Chinese parts: 日誌

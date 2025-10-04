@@ -1,0 +1,46 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5101,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,287,,拉出一个筛选器,Trích xuất bộ lọc,") //拉出一个筛选器,不平衡则报错",Chinese parts: 拉出一个筛选器
+5102,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,287,,不平衡则报错,Báo lỗi nếu không cân bằng,") //拉出一个筛选器,不平衡则报错",Chinese parts: 不平衡则报错
+5103,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,291,,设置开始查找筛选器位置的起始位置,Đặt vị trí bắt đầu tìm bộ lọc,start = pos //设置开始查找筛选器位置的起始位置,Chinese parts: 设置开始查找筛选器位置的起始位置
+5104,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,296,,递归匹配,Khớp đệ quy,} else splitRule() //递归匹配,Chinese parts: 递归匹配
+5105,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,316,,拉取成功返回,Trả về khi lấy thành công,while (consumeTo(inner)) { //拉取成功返回true，ruleAnalyzes里的字符序列索引变量pos,Chinese parts: 拉取成功返回
+5106,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,316,,里的字符序列索引变量,biến chỉ mục chuỗi ký tự trong,")) { //拉取成功返回true，ruleAnalyzes里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为t",Chinese parts: 里的字符序列索引变量
+5107,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,316,,后移相应位置,di chuyển đến vị trí tương ứng,"true，ruleAnalyzes里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 后移相应位置
+5108,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,316,,否则返回,nếu không thì trả về,"leAnalyzes里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 否则返回
+5109,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,316,,且,và,"里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 且
+5110,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,316,,为,là,"变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 为
+5111,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,317,,记录,Ghi lại,val posPre = pos //记录consumeTo匹配位置,Chinese parts: 记录
+5112,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,317,,匹配位置,vị trí khớp,val posPre = pos //记录consumeTo匹配位置,Chinese parts: 匹配位置
+5113,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,321,,压入内嵌规则前的内容,Đẩy nội dung trước quy tắc nhúng,ring(startX, posPre) + frv) //压入内嵌规则前的内容，及内嵌规则解析得到的字符串",Chinese parts: 压入内嵌规则前的内容
+5114,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,321,,及内嵌规则解析得到的字符串,và chuỗi kết quả từ quy tắc nhúng,", posPre) + frv) //压入内嵌规则前的内容，及内嵌规则解析得到的字符串",Chinese parts: 及内嵌规则解析得到的字符串
+5115,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,322,,记录下次规则起点,Ghi lại điểm bắt đầu quy tắc tiếp theo,startX = pos //记录下次规则起点,Chinese parts: 记录下次规则起点
+5116,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,323,,获取内容成功,Lấy nội dung thành công,continue //获取内容成功，继续选择下个内嵌规则,Chinese parts: 获取内容成功
+5117,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,323,,继续选择下个内嵌规则,Tiếp tục chọn quy tắc nhúng tiếp theo,continue //获取内容成功，继续选择下个内嵌规则,Chinese parts: 继续选择下个内嵌规则
+5118,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,326,,拉出字段不平衡,Trường trích xuất không cân bằng,pos += inner.length //拉出字段不平衡，inner只是个普通字串，跳到此inner后继续匹配,Chinese parts: 拉出字段不平衡
+5119,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,326,,只是个普通字串,chỉ là một chuỗi ký tự thông thường,= inner.length //拉出字段不平衡，inner只是个普通字串，跳到此inner后继续匹配,Chinese parts: 只是个普通字串
+5120,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,326,,跳到此,nhảy đến đây,length //拉出字段不平衡，inner只是个普通字串，跳到此inner后继续匹配,Chinese parts: 跳到此
+5121,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,326,,后继续匹配,sau đó tiếp tục khớp,/拉出字段不平衡，inner只是个普通字串，跳到此inner后继续匹配,Chinese parts: 后继续匹配
+5122,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,346,,拉取成功返回,Trả về khi lấy thành công,ile (consumeTo(startStr)) { //拉取成功返回true，ruleAnalyzes里的字符序列索引变量pos,Chinese parts: 拉取成功返回
+5123,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,346,,里的字符序列索引变量,biến chỉ mục chuỗi ký tự trong,")) { //拉取成功返回true，ruleAnalyzes里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为t",Chinese parts: 里的字符序列索引变量
+5124,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,346,,后移相应位置,di chuyển đến vị trí tương ứng,"true，ruleAnalyzes里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 后移相应位置
+5125,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,346,,否则返回,nếu không thì trả về,"leAnalyzes里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 否则返回
+5126,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,346,,且,và,"里的字符序列索引变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 且
+5127,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,346,,为,là,"变量pos后移相应位置，否则返回false,且isEmpty为true",Chinese parts: 为
+5128,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,347,,跳过开始字符串,Bỏ qua chuỗi bắt đầu,pos += startStr.length //跳过开始字符串,Chinese parts: 跳过开始字符串
+5129,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,348,,记录,Ghi lại,val posPre = pos //记录consumeTo匹配位置,Chinese parts: 记录
+5130,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,348,,匹配位置,vị trí khớp,val posPre = pos //记录consumeTo匹配位置,Chinese parts: 匹配位置
+5131,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,356,,压入内嵌规则前的内容,Đẩy nội dung trước quy tắc nhúng,) //压入内嵌规则前的内容，及内嵌规则解析得到的字符串,Chinese parts: 压入内嵌规则前的内容
+5132,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,356,,及内嵌规则解析得到的字符串,và chuỗi kết quả từ quy tắc nhúng,) //压入内嵌规则前的内容，及内嵌规则解析得到的字符串,Chinese parts: 及内嵌规则解析得到的字符串
+5133,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,357,,跳过结束字符串,Bỏ qua chuỗi kết thúc,pos += endStr.length //跳过结束字符串,Chinese parts: 跳过结束字符串
+5134,source_code,app\src\main\java\io\legado\app\model\analyzeRule\RuleAnalyzer.kt,358,,记录下次规则起点,Ghi lại điểm bắt đầu quy tắc tiếp theo,startX = pos //记录下次规则起点,Chinese parts: 记录下次规则起点
+5135,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,118,,读取,Đọc,"AppLog.put(""读取Epub文件失败\n${it.localizedMessag",Chinese parts: 读取
+5136,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,118,,文件失败,tệp thất bại,"AppLog.put(""读取Epub文件失败\n${it.localizedMessage}"", it)",Chinese parts: 文件失败
+5137,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,124,,获取当前章节文本,Lấy văn bản chương hiện tại,/*获取当前章节文本*/,Chinese parts: 获取当前章节文本
+5138,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,134,,一些书籍依靠,Một số sách dựa vào,/*一些书籍依靠href索引的resource会包含多个章节，需要依靠fra,Chinese parts: 一些书籍依靠
+5139,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,134,,索引的,được lập chỉ mục,/*一些书籍依靠href索引的resource会包含多个章节，需要依靠fragmentId,Chinese parts: 索引的
+5140,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,134,,会包含多个章节,sẽ chứa nhiều chương,/*一些书籍依靠href索引的resource会包含多个章节，需要依靠fragmentId来截取到当前章节的内容*/,Chinese parts: 会包含多个章节
+5141,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,134,,需要依靠,cần dựa vào,*一些书籍依靠href索引的resource会包含多个章节，需要依靠fragmentId来截取到当前章节的内容*/,Chinese parts: 需要依靠
+5142,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,134,,来截取到当前章节的内容,để trích xuất nội dung chương hiện tại,resource会包含多个章节，需要依靠fragmentId来截取到当前章节的内容*/,Chinese parts: 来截取到当前章节的内容
+5143,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,135,,注,Lưu ý,/*注:这里较大增加了内容加载的时间，所以首次获取内容后可存储到本,Chinese parts: 注
+5144,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,135,,这里较大增加了内容加载的时间,Điều này làm tăng đáng kể thời gian tải nội dung,/*注:这里较大增加了内容加载的时间，所以首次获取内容后可存储到本地cache，减少重复加载*/,Chinese parts: 这里较大增加了内容加载的时间
+5145,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,135,,所以首次获取内容后可存储到本地,vì vậy sau khi lấy nội dung lần đầu, có thể lưu trữ cục bộ,/*注:这里较大增加了内容加载的时间，所以首次获取内容后可存储到本地cache，减少重复加载*/,Chinese parts: 所以首次获取内容后可存储到本地

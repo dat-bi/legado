@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1401,xml_string,app\src\main\res\values-zh-rHK\strings.xml,218,download_start,開始下載,Bắt đầu tải về,String resource: download_start,Chinese parts: 開始下載
+1402,xml_string,app\src\main\res\values-zh-rHK\strings.xml,219,download_cancel,取消下載,Hủy tải về,String resource: download_cancel,Chinese parts: 取消下載
+1403,xml_string,app\src\main\res\values-zh-rHK\strings.xml,220,no_download,暫無任務,Chưa có tác vụ nào,String resource: no_download,Chinese parts: 暫無任務
+1404,xml_string,app\src\main\res\values-zh-rHK\strings.xml,221,download_count,已下載 %1$d/%2$d,Đã tải %1$d/%2$d,String resource: download_count,Chinese parts: 已下載
+1405,xml_string,app\src\main\res\values-zh-rHK\strings.xml,222,import_select_book,導入選擇書輯,Nhập sách đã chọn,String resource: import_select_book,Chinese parts: 導入選擇書輯
+1406,xml_string,app\src\main\res\values-zh-rHK\strings.xml,223,threads_num_title,更新/搜尋線程數，太多會卡頓,Số luồng cập nhật/tìm kiếm, quá nhiều có thể gây giật lag,String resource: threads_num_title,"Chinese parts: 更新, 搜尋線程數, 太多會卡頓"
+1407,xml_string,app\src\main\res\values-zh-rHK\strings.xml,224,change_icon,切換圖標,Đổi biểu tượng,String resource: change_icon,Chinese parts: 切換圖標
+1408,xml_string,app\src\main\res\values-zh-rHK\strings.xml,225,remove_from_bookshelf,刪除書輯,Xóa sách,String resource: remove_from_bookshelf,Chinese parts: 刪除書輯
+1409,xml_string,app\src\main\res\values-zh-rHK\strings.xml,226,start_read,開始閲讀,Bắt đầu đọc,String resource: start_read,Chinese parts: 開始閲讀
+1410,xml_string,app\src\main\res\values-zh-rHK\strings.xml,227,data_loading,數據載入中…,Đang tải dữ liệu...,String resource: data_loading,Chinese parts: 數據載入中
+1411,xml_string,app\src\main\res\values-zh-rHK\strings.xml,228,load_error_retry,載入失敗，點擊重試,Tải thất bại, nhấn để thử lại,String resource: load_error_retry,"Chinese parts: 載入失敗, 點擊重試"
+1412,xml_string,app\src\main\res\values-zh-rHK\strings.xml,229,book_intro,內容簡介,Giới thiệu sách,String resource: book_intro,Chinese parts: 內容簡介
+1413,xml_string,app\src\main\res\values-zh-rHK\strings.xml,230,intro_show,簡介: %s,Giới thiệu: %s,String resource: intro_show,Chinese parts: 簡介
+1414,xml_string,app\src\main\res\values-zh-rHK\strings.xml,231,intro_show_null,簡介: 暫無簡介,Giới thiệu: Chưa có giới thiệu,String resource: intro_show_null,"Chinese parts: 簡介, 暫無簡介"
+1415,xml_string,app\src\main\res\values-zh-rHK\strings.xml,232,open_from_other,打開外部書籍,Mở sách từ bên ngoài,String resource: open_from_other,Chinese parts: 打開外部書籍
+1416,xml_string,app\src\main\res\values-zh-rHK\strings.xml,233,origin_show,來源: %s,Nguồn: %s,String resource: origin_show,Chinese parts: 來源
+1417,xml_string,app\src\main\res\values-zh-rHK\strings.xml,234,import_replace_rule,導入替換規則,Nhập quy tắc thay thế,String resource: import_replace_rule,Chinese parts: 導入替換規則
+1418,xml_string,app\src\main\res\values-zh-rHK\strings.xml,235,import_replace_rule_on_line,導入在線規則,Nhập quy tắc trực tuyến,String resource: import_replace_rule_on_line,Chinese parts: 導入在線規則
+1419,xml_string,app\src\main\res\values-zh-rHK\strings.xml,236,check_update_interval,檢查更新間隔,Khoảng thời gian kiểm tra cập nhật,String resource: check_update_interval,Chinese parts: 檢查更新間隔
+1420,xml_string,app\src\main\res\values-zh-rHK\strings.xml,237,bookshelf_px_0,按閲讀時間,Theo thời gian đọc,String resource: bookshelf_px_0,Chinese parts: 按閲讀時間
+1421,xml_string,app\src\main\res\values-zh-rHK\strings.xml,238,bookshelf_px_1,按更新時間,Theo thời gian cập nhật,String resource: bookshelf_px_1,Chinese parts: 按更新時間
+1422,xml_string,app\src\main\res\values-zh-rHK\strings.xml,239,bookshelf_px_2,按書名,Theo tên sách,String resource: bookshelf_px_2,Chinese parts: 按書名
+1423,xml_string,app\src\main\res\values-zh-rHK\strings.xml,240,bookshelf_px_3,手動排序,Sắp xếp thủ công,String resource: bookshelf_px_3,Chinese parts: 手動排序
+1424,xml_string,app\src\main\res\values-zh-rHK\strings.xml,241,read_type,閲讀方式,Kiểu đọc,String resource: read_type,Chinese parts: 閲讀方式
+1425,xml_string,app\src\main\res\values-zh-rHK\strings.xml,242,compose_type,排版,Bố cục,String resource: compose_type,Chinese parts: 排版
+1426,xml_string,app\src\main\res\values-zh-rHK\strings.xml,243,del_select,刪除所選,Xóa mục đã chọn,String resource: del_select,Chinese parts: 刪除所選
+1427,xml_string,app\src\main\res\values-zh-rHK\strings.xml,244,del_msg,是否確認刪除?,Xác nhận xóa?,String resource: del_msg,Chinese parts: 是否確認刪除
+1428,xml_string,app\src\main\res\values-zh-rHK\strings.xml,245,clear_font,默認字體,Phông chữ mặc định,String resource: clear_font,Chinese parts: 默認字體
+1429,xml_string,app\src\main\res\values-zh-rHK\strings.xml,246,find_on_www,發現,Khám phá,String resource: find_on_www,Chinese parts: 發現
+1430,xml_string,app\src\main\res\values-zh-rHK\strings.xml,247,find_source_manage,發現管理,Quản lý mục Khám phá,String resource: find_source_manage,Chinese parts: 發現管理
+1431,xml_string,app\src\main\res\values-zh-rHK\strings.xml,248,find_empty,"沒有內容,去書源裏自定義吧!","Không có nội dung, hãy tùy chỉnh trong nguồn sách!",String resource: find_empty,"Chinese parts: 沒有內容, 去書源裏自定義吧"
+1432,xml_string,app\src\main\res\values-zh-rHK\strings.xml,249,del_all,刪除所有,Xóa tất cả,String resource: del_all,Chinese parts: 刪除所有
+1433,xml_string,app\src\main\res\values-zh-rHK\strings.xml,250,searchHistory,搜索歷史,Lịch sử tìm kiếm,String resource: searchHistory,Chinese parts: 搜索歷史
+1434,xml_string,app\src\main\res\values-zh-rHK\strings.xml,251,clear,清除,Xóa,String resource: clear,Chinese parts: 清除
+1435,xml_string,app\src\main\res\values-zh-rHK\strings.xml,252,showTitle,正文顯示標題,Hiển thị tiêu đề trong nội dung,String resource: showTitle,Chinese parts: 正文顯示標題
+1436,xml_string,app\src\main\res\values-zh-rHK\strings.xml,253,refresh_default,書源同步,Đồng bộ nguồn sách,String resource: refresh_default,Chinese parts: 書源同步
+1437,xml_string,app\src\main\res\values-zh-rHK\strings.xml,254,no_last_chapter,無最新章節信息,Không có thông tin chương mới nhất,String resource: no_last_chapter,Chinese parts: 無最新章節信息
+1438,xml_string,app\src\main\res\values-zh-rHK\strings.xml,255,showTimeBattery,顯示時間和電量,Hiển thị thời gian và pin,String resource: showTimeBattery,Chinese parts: 顯示時間和電量
+1439,xml_string,app\src\main\res\values-zh-rHK\strings.xml,256,showLine,顯示分隔線,Hiển thị đường phân cách,String resource: showLine,Chinese parts: 顯示分隔線
+1440,xml_string,app\src\main\res\values-zh-rHK\strings.xml,257,dark_status_icon,深色狀態欄圖標,Biểu tượng thanh trạng thái màu tối,String resource: dark_status_icon,Chinese parts: 深色狀態欄圖標
+1441,xml_string,app\src\main\res\values-zh-rHK\strings.xml,258,content,內容,Nội dung,String resource: content,Chinese parts: 內容
+1442,xml_string,app\src\main\res\values-zh-rHK\strings.xml,259,copy_text,拷貝內容,Sao chép nội dung,String resource: copy_text,Chinese parts: 拷貝內容
+1443,xml_string,app\src\main\res\values-zh-rHK\strings.xml,260,download_all,一鍵緩存,Tải tất cả,String resource: download_all,Chinese parts: 一鍵緩存
+1444,xml_string,app\src\main\res\values-zh-rHK\strings.xml,261,content_sl,這是一段測試文字\n\u3000\u3000只是讓你看看效果的,Đây là một đoạn văn bản thử nghiệm\n\u3000\u3000Chỉ để bạn xem hiệu ứng.,String resource: content_sl,"Chinese parts: 這是一段測試文字, 只是讓你看看效果的"
+1445,xml_string,app\src\main\res\values-zh-rHK\strings.xml,262,text_bg_style,文字顏色和背景(長按自定義),Màu chữ và nền (nhấn giữ để tùy chỉnh),String resource: text_bg_style,"Chinese parts: 文字顏色和背景, 長按自定義"
+1446,xml_string,app\src\main\res\values-zh-rHK\strings.xml,263,immersion_status_bar,沉浸式狀態欄,Thanh trạng thái chìm,String resource: immersion_status_bar,Chinese parts: 沉浸式狀態欄
+1447,xml_string,app\src\main\res\values-zh-rHK\strings.xml,264,un_download,還剩 %d 章未下載,Còn %d chương chưa tải về,String resource: un_download,"Chinese parts: 還剩, 章未下載"
+1448,xml_string,app\src\main\res\values-zh-rHK\strings.xml,265,long_click_input_color,長按輸入顏色值,Nhấn giữ để nhập mã màu,String resource: long_click_input_color,Chinese parts: 長按輸入顏色值
+1449,xml_string,app\src\main\res\values-zh-rHK\strings.xml,266,loading,加載中…,Đang tải...,String resource: loading,Chinese parts: 加載中
+1450,xml_string,app\src\main\res\values-zh-rHK\strings.xml,267,group_zg,追更區,Khu vực theo dõi,String resource: group_zg,Chinese parts: 追更區

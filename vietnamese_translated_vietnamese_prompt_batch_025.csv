@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1201,xml_string,app\src\main\res\values-zh-rHK\strings.xml,10,menu_restore,還原,Khôi phục,String resource: menu_restore,Chinese parts: 還原
+1202,xml_string,app\src\main\res\values-zh-rHK\strings.xml,11,menu_import_old,導入閲讀數據,Nhập dữ liệu đọc sách,String resource: menu_import_old,Chinese parts: 導入閲讀數據
+1203,xml_string,app\src\main\res\values-zh-rHK\strings.xml,12,webdav_cache_backup,離線緩存書籍備份,Sao lưu sách ngoại tuyến,String resource: webdav_cache_backup,Chinese parts: 離線緩存書籍備份
+1204,xml_string,app\src\main\res\values-zh-rHK\strings.xml,13,webdav_cache_backup_s,導出本地同時備份到legado文件夾下exports目錄,Xuất dữ liệu cục bộ và sao lưu vào thư mục exports của Legado,String resource: webdav_cache_backup_s,"Chinese parts: 導出本地同時備份到, 文件夾下, 目錄"
+1205,xml_string,app\src\main\res\values-zh-rHK\strings.xml,14,backup_path,備份路徑,Đường dẫn sao lưu,String resource: backup_path,Chinese parts: 備份路徑
+1206,xml_string,app\src\main\res\values-zh-rHK\strings.xml,15,menu_import_old_version,導入舊版數據,Nhập dữ liệu phiên bản cũ,String resource: menu_import_old_version,Chinese parts: 導入舊版數據
+1207,xml_string,app\src\main\res\values-zh-rHK\strings.xml,16,menu_import_github,導入 Github 數據,Nhập dữ liệu từ Github,String resource: menu_import_github,"Chinese parts: 導入, 數據"
+1208,xml_string,app\src\main\res\values-zh-rHK\strings.xml,17,menu_replace_rule,淨化替換,Quy tắc thay thế và lọc,String resource: menu_replace_rule,Chinese parts: 淨化替換
+1209,xml_string,app\src\main\res\values-zh-rHK\strings.xml,20,dialog_title,提示,Thông báo,String resource: dialog_title,Chinese parts: 提示
+1210,xml_string,app\src\main\res\values-zh-rHK\strings.xml,21,dialog_cancel,取消,Hủy,String resource: dialog_cancel,Chinese parts: 取消
+1211,xml_string,app\src\main\res\values-zh-rHK\strings.xml,22,dialog_confirm,確認,Xác nhận,String resource: dialog_confirm,Chinese parts: 確認
+1212,xml_string,app\src\main\res\values-zh-rHK\strings.xml,23,dialog_setting,去設定,Đi đến Cài đặt,String resource: dialog_setting,Chinese parts: 去設定
+1213,xml_string,app\src\main\res\values-zh-rHK\strings.xml,24,tip_cannot_jump_setting_page,無法轉跳至設定介面,Không thể chuyển đến trang cài đặt,String resource: tip_cannot_jump_setting_page,Chinese parts: 無法轉跳至設定介面
+1214,xml_string,app\src\main\res\values-zh-rHK\strings.xml,26,dynamic_click_retry,點擊重試,Chạm để thử lại,String resource: dynamic_click_retry,Chinese parts: 點擊重試
+1215,xml_string,app\src\main\res\values-zh-rHK\strings.xml,27,dynamic_loading,正在加載,Đang tải...,String resource: dynamic_loading,Chinese parts: 正在加載
+1216,xml_string,app\src\main\res\values-zh-rHK\strings.xml,28,draw,提醒,Nhắc nhở,String resource: draw,Chinese parts: 提醒
+1217,xml_string,app\src\main\res\values-zh-rHK\strings.xml,29,edit,編輯,Chỉnh sửa,String resource: edit,Chinese parts: 編輯
+1218,xml_string,app\src\main\res\values-zh-rHK\strings.xml,30,delete,刪除,Xóa,String resource: delete,Chinese parts: 刪除
+1219,xml_string,app\src\main\res\values-zh-rHK\strings.xml,31,delete_select_group,刪除當前分組,Xóa nhóm hiện tại,String resource: delete_select_group,Chinese parts: 刪除當前分組
+1220,xml_string,app\src\main\res\values-zh-rHK\strings.xml,32,replace,替換,Thay thế,String resource: replace,Chinese parts: 替換
+1221,xml_string,app\src\main\res\values-zh-rHK\strings.xml,33,replace_purify,替換淨化,Thay thế và lọc,String resource: replace_purify,Chinese parts: 替換淨化
+1222,xml_string,app\src\main\res\values-zh-rHK\strings.xml,34,replace_purify_desc,配置替換淨化規則,Cấu hình quy tắc thay thế và lọc,String resource: replace_purify_desc,Chinese parts: 配置替換淨化規則
+1223,xml_string,app\src\main\res\values-zh-rHK\strings.xml,35,not_available,暫無,Hiện không có,String resource: not_available,Chinese parts: 暫無
+1224,xml_string,app\src\main\res\values-zh-rHK\strings.xml,36,enable,啟用,Bật,String resource: enable,Chinese parts: 啟用
+1225,xml_string,app\src\main\res\values-zh-rHK\strings.xml,37,replace_purify_search,替換淨化-搜尋,Thay thế và lọc - Tìm kiếm,String resource: replace_purify_search,"Chinese parts: 替換淨化, 搜尋"
+1226,xml_string,app\src\main\res\values-zh-rHK\strings.xml,38,custom_export_section,自定義Epub導出章節,Tùy chỉnh chương xuất Epub,String resource: custom_export_section,"Chinese parts: 自定義, 導出章節"
+1227,xml_string,app\src\main\res\values-zh-rHK\strings.xml,39,bookshelf,書架,Kệ sách,String resource: bookshelf,Chinese parts: 書架
+1228,xml_string,app\src\main\res\values-zh-rHK\strings.xml,40,favorites,收藏夾,Mục yêu thích,String resource: favorites,Chinese parts: 收藏夾
+1229,xml_string,app\src\main\res\values-zh-rHK\strings.xml,41,favorite,收藏,Yêu thích,String resource: favorite,Chinese parts: 收藏
+1230,xml_string,app\src\main\res\values-zh-rHK\strings.xml,42,in_favorites,已收藏,Đã yêu thích,String resource: in_favorites,Chinese parts: 已收藏
+1231,xml_string,app\src\main\res\values-zh-rHK\strings.xml,43,out_favorites,未收藏,Chưa yêu thích,String resource: out_favorites,Chinese parts: 未收藏
+1232,xml_string,app\src\main\res\values-zh-rHK\strings.xml,44,rss,訂閲,RSS,String resource: rss,Chinese parts: 訂閲
+1233,xml_string,app\src\main\res\values-zh-rHK\strings.xml,45,all,全部,Tất cả,String resource: all,Chinese parts: 全部
+1234,xml_string,app\src\main\res\values-zh-rHK\strings.xml,46,recent_reading,最近閲讀,Đọc gần đây,String resource: recent_reading,Chinese parts: 最近閲讀
+1235,xml_string,app\src\main\res\values-zh-rHK\strings.xml,47,last_read,最後閲讀,Đọc lần cuối,String resource: last_read,Chinese parts: 最後閲讀
+1236,xml_string,app\src\main\res\values-zh-rHK\strings.xml,48,update_log,更新日誌,Nhật ký cập nhật,String resource: update_log,Chinese parts: 更新日誌
+1237,xml_string,app\src\main\res\values-zh-rHK\strings.xml,49,bookshelf_empty,書架還空著，先去搜索書籍或從發現裏添加吧！,Kệ sách trống rỗng. Hãy tìm kiếm sách hoặc thêm từ mục Khám phá!,String resource: bookshelf_empty,"Chinese parts: 書架還空著, 先去搜索書籍或從發現裏添加吧"
+1238,xml_string,app\src\main\res\values-zh-rHK\strings.xml,50,action_search,搜尋,Tìm kiếm,String resource: action_search,Chinese parts: 搜尋
+1239,xml_string,app\src\main\res\values-zh-rHK\strings.xml,51,action_download,下載,Tải về,String resource: action_download,Chinese parts: 下載
+1240,xml_string,app\src\main\res\values-zh-rHK\strings.xml,52,layout_list,列表,Danh sách,String resource: layout_list,Chinese parts: 列表
+1241,xml_string,app\src\main\res\values-zh-rHK\strings.xml,53,layout_grid3,網格三列,Lưới 3 cột,String resource: layout_grid3,Chinese parts: 網格三列
+1242,xml_string,app\src\main\res\values-zh-rHK\strings.xml,54,layout_grid4,網格四列,Lưới 4 cột,String resource: layout_grid4,Chinese parts: 網格四列
+1243,xml_string,app\src\main\res\values-zh-rHK\strings.xml,55,layout_grid5,網格五列,Lưới 5 cột,String resource: layout_grid5,Chinese parts: 網格五列
+1244,xml_string,app\src\main\res\values-zh-rHK\strings.xml,56,layout_grid6,網格六列,Lưới 6 cột,String resource: layout_grid6,Chinese parts: 網格六列
+1245,xml_string,app\src\main\res\values-zh-rHK\strings.xml,57,bookshelf_layout,書架佈局,Bố cục kệ sách,String resource: bookshelf_layout,Chinese parts: 書架佈局
+1246,xml_string,app\src\main\res\values-zh-rHK\strings.xml,58,view,視圖,Chế độ xem,String resource: view,Chinese parts: 視圖
+1247,xml_string,app\src\main\res\values-zh-rHK\strings.xml,59,book_library,書城,Thư viện sách,String resource: book_library,Chinese parts: 書城
+1248,xml_string,app\src\main\res\values-zh-rHK\strings.xml,60,book_local,添加本地,Thêm từ thiết bị,String resource: book_local,Chinese parts: 添加本地
+1249,xml_string,app\src\main\res\values-zh-rHK\strings.xml,61,book_source,書源,Nguồn sách,String resource: book_source,Chinese parts: 書源
+1250,xml_string,app\src\main\res\values-zh-rHK\strings.xml,62,book_source_manage,書源管理,Quản lý nguồn sách,String resource: book_source_manage,Chinese parts: 書源管理

@@ -1,0 +1,44 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4051,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,562,,朗读连续,Đọc to liên tục,"AppLog.put(""朗读连续5次错误, 最后一次错误代码(${error.localiz",Chinese parts: 朗读连续
+4052,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,562,,次错误,lỗi,"AppLog.put(""朗读连续5次错误, 最后一次错误代码(${error.localizedMe",Chinese parts: 次错误
+4053,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,562,,最后一次错误代码,Mã lỗi cuối cùng,"AppLog.put(""朗读连续5次错误, 最后一次错误代码(${error.localizedMessage})"",",Chinese parts: 最后一次错误代码
+4054,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,86,,朗读列表为空,Danh sách đọc to trống,"AppLog.putDebug(""朗读列表为空"")",Chinese parts: 朗读列表为空
+4055,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,94,,朗读列表大小,Kích thước danh sách đọc to,"LogUtils.d(TAG, ""朗读列表大小 ${contentList.size}"")",Chinese parts: 朗读列表大小
+4056,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,95,,朗读页数,Số trang đọc to,"LogUtils.d(TAG, ""朗读页数 ${textChapter?.pageSize}"")",Chinese parts: 朗读页数
+4057,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,112,,出错,Có lỗi,"AppLog.put(""tts出错\n${it.localizedMessage}"", it,",Chinese parts: 出错
+4058,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,116,,出错,Có lỗi,"AppLog.put(""tts出错 尝试重新初始化"")",Chinese parts: 出错
+4059,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,116,,尝试重新初始化,Thử khởi tạo lại,"AppLog.put(""tts出错 尝试重新初始化"")",Chinese parts: 尝试重新初始化
+4060,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,125,,出错,Có lỗi,"AppLog.put(""tts出错\n${it.localizedMessage}"", it,",Chinese parts: 出错
+4061,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,129,,朗读出错,Lỗi đọc to,"AppLog.put(""tts朗读出错:$text"")",Chinese parts: 朗读出错
+4062,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,134,,朗读内容添加完成,Đã thêm nội dung đọc to,"LogUtils.d(TAG, ""朗读内容添加完成"")",Chinese parts: 朗读内容添加完成
+4063,source_code,app\src\main\java\io\legado\app\service\TTSReadAloudService.kt,141,,朗读出错,Lỗi đọc to,"AppLog.put(""tts朗读出错\n${it.localizedMessage}"", it,",Chinese parts: 朗读出错
+4064,source_code,app\src\main\java\io\legado\app\service\WebService.kt,161,,通信超时设置,Cài đặt thời gian chờ kết nối,etServer?.start(1000 * 30) // 通信超时设置,Chinese parts: 通信超时设置
+4065,source_code,app\src\main\java\io\legado\app\utils\ACache.kt,30,,不限制存放数据的数量,Không giới hạn số lượng dữ liệu,_COUNT = Integer.MAX_VALUE // 不限制存放数据的数量,Chinese parts: 不限制存放数据的数量
+4066,source_code,app\src\main\java\io\legado\app\utils\ArchiveUtils.kt,10,,自动判断压缩文件后缀,Tự động nhận diện đuôi tệp nén,/* 自动判断压缩文件后缀 然后再调用具体的实现 */,Chinese parts: 自动判断压缩文件后缀
+4067,source_code,app\src\main\java\io\legado\app\utils\ArchiveUtils.kt,10,,然后再调用具体的实现,Sau đó gọi phương thức thực thi,/* 自动判断压缩文件后缀 然后再调用具体的实现 */,Chinese parts: 然后再调用具体的实现
+4068,source_code,app\src\main\java\io\legado\app\utils\ArchiveUtils.kt,70,,遍历目录获取文件名,Duyệt thư mục để lấy tên tệp,/* 遍历目录获取文件名 */,Chinese parts: 遍历目录获取文件名
+4069,source_code,app\src\main\java\io\legado\app\utils\BitmapUtils.kt,65,,从,Từ,/** 从path中获取Bitmap图片,Chinese parts: 从
+4070,source_code,app\src\main\java\io\legado\app\utils\BitmapUtils.kt,65,,中获取,lấy từ,/** 从path中获取Bitmap图片,Chinese parts: 中获取
+4071,source_code,app\src\main\java\io\legado\app\utils\BitmapUtils.kt,65,,图片,hình ảnh,/** 从path中获取Bitmap图片,Chinese parts: 图片
+4072,source_code,app\src\main\java\io\legado\app\utils\BitmapUtils.kt,106,,获取尺寸信息,Lấy thông tin kích thước,ntext.resources, resId, op) //获取尺寸信息,Chinese parts: 获取尺寸信息
+4073,source_code,app\src\main\java\io\legado\app\utils\BitmapUtils.kt,132,,获取尺寸信息,Lấy thông tin kích thước,ream(inputStream, null, op) //获取尺寸信息,Chinese parts: 获取尺寸信息
+4074,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,32,,槃,Bàn,"""槃"",",Chinese parts: 槃
+4075,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,划槳,Chèo thuyền,"""划槳"", ""列根"", ""雪梨"", ""雪糕"", ""多士"", ""起司",Chinese parts: 划槳
+4076,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,列根,Reagan,"""划槳"", ""列根"", ""雪梨"", ""雪糕"", ""多士"", ""起司"", ""芝士",Chinese parts: 列根
+4077,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,雪梨,Sydney,"""划槳"", ""列根"", ""雪梨"", ""雪糕"", ""多士"", ""起司"", ""芝士"", ""沙芬",Chinese parts: 雪梨
+4078,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,雪糕,Kem,"""划槳"", ""列根"", ""雪梨"", ""雪糕"", ""多士"", ""起司"", ""芝士"", ""沙芬"", ""母音",Chinese parts: 雪糕
+4079,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,多士,Bánh mì nướng,"""划槳"", ""列根"", ""雪梨"", ""雪糕"", ""多士"", ""起司"", ""芝士"", ""沙芬"", ""母音"",",Chinese parts: 多士
+4080,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,起司,Phô mai,划槳"", ""列根"", ""雪梨"", ""雪糕"", ""多士"", ""起司"", ""芝士"", ""沙芬"", ""母音"",",Chinese parts: 起司
+4081,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,芝士,Phô mai,列根"", ""雪梨"", ""雪糕"", ""多士"", ""起司"", ""芝士"", ""沙芬"", ""母音"",",Chinese parts: 芝士
+4082,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,沙芬,Saphin,雪梨"", ""雪糕"", ""多士"", ""起司"", ""芝士"", ""沙芬"", ""母音"",",Chinese parts: 沙芬
+4083,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,33,,母音,Nguyên âm,雪糕"", ""多士"", ""起司"", ""芝士"", ""沙芬"", ""母音"",",Chinese parts: 母音
+4084,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,华乐,Nhạc Hoa,"""华乐"", ""民乐"", ""晶元"", ""晶片"", ""映像"", ""明覆",Chinese parts: 华乐
+4085,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,民乐,Nhạc dân gian,"""华乐"", ""民乐"", ""晶元"", ""晶片"", ""映像"", ""明覆"", ""明瞭",Chinese parts: 民乐
+4086,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,晶元,Wafer,"""华乐"", ""民乐"", ""晶元"", ""晶片"", ""映像"", ""明覆"", ""明瞭"", ""新力",Chinese parts: 晶元
+4087,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,晶片,Chip,"""华乐"", ""民乐"", ""晶元"", ""晶片"", ""映像"", ""明覆"", ""明瞭"", ""新力"", ""新喻",Chinese parts: 晶片
+4088,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,映像,Hình ảnh,"""华乐"", ""民乐"", ""晶元"", ""晶片"", ""映像"", ""明覆"", ""明瞭"", ""新力"", ""新喻"",",Chinese parts: 映像
+4089,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,明覆,Minh Phục,华乐"", ""民乐"", ""晶元"", ""晶片"", ""映像"", ""明覆"", ""明瞭"", ""新力"", ""新喻"",",Chinese parts: 明覆
+4090,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,明瞭,Rõ ràng,民乐"", ""晶元"", ""晶片"", ""映像"", ""明覆"", ""明瞭"", ""新力"", ""新喻"",",Chinese parts: 明瞭
+4091,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,新力,Sony,晶元"", ""晶片"", ""映像"", ""明覆"", ""明瞭"", ""新力"", ""新喻"",",Chinese parts: 新力
+4092,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,34,,新喻,Tân Dụ,晶片"", ""映像"", ""明覆"", ""明瞭"", ""新力"", ""新喻"",",Chinese parts: 新喻
+4093,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,35,,零錢,Tiền lẻ,"""零錢"", ""零钱"", ""離線"", ""碟片"", ""模組"", ""桌球",Chinese parts: 零錢

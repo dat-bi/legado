@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+251,xml_string,app\src\main\res\values-zh\strings.xml,263,showLine,显示分隔线,Hiển thị đường phân cách,String resource: showLine,Chinese parts: 显示分隔线
+252,xml_string,app\src\main\res\values-zh\strings.xml,264,dark_status_icon,深色状态栏图标,Biểu tượng thanh trạng thái tối màu,String resource: dark_status_icon,Chinese parts: 深色状态栏图标
+253,xml_string,app\src\main\res\values-zh\strings.xml,265,content,内容,Nội dung,String resource: content,Chinese parts: 内容
+254,xml_string,app\src\main\res\values-zh\strings.xml,266,copy_text,拷贝内容,Sao chép nội dung,String resource: copy_text,Chinese parts: 拷贝内容
+255,xml_string,app\src\main\res\values-zh\strings.xml,267,download_all,一键缓存,Tải toàn bộ,String resource: download_all,Chinese parts: 一键缓存
+256,xml_string,app\src\main\res\values-zh\strings.xml,268,content_sl,这是一段测试文字\n\u3000\u3000只是让你看看效果的,Đây là một đoạn văn bản thử nghiệm\n\u3000\u3000Chỉ để bạn xem hiệu ứng.,String resource: content_sl,"Chinese parts: 这是一段测试文字, 只是让你看看效果的"
+257,xml_string,app\src\main\res\values-zh\strings.xml,269,text_bg_style,文字颜色和背景（长按自定义）,Màu chữ và nền (nhấn giữ để tùy chỉnh),String resource: text_bg_style,"Chinese parts: 文字颜色和背景, 长按自定义"
+258,xml_string,app\src\main\res\values-zh\strings.xml,270,immersion_status_bar,沉浸式状态栏,Thanh trạng thái chìm,String resource: immersion_status_bar,Chinese parts: 沉浸式状态栏
+259,xml_string,app\src\main\res\values-zh\strings.xml,271,un_download,还剩 %d 章未下载,Còn %d chương chưa tải,String resource: un_download,"Chinese parts: 还剩, 章未下载"
+260,xml_string,app\src\main\res\values-zh\strings.xml,272,long_click_input_color,长按输入颜色值,Nhấn giữ để nhập mã màu,String resource: long_click_input_color,Chinese parts: 长按输入颜色值
+261,xml_string,app\src\main\res\values-zh\strings.xml,273,loading,加载中…,Đang tải...,String resource: loading,Chinese parts: 加载中
+262,xml_string,app\src\main\res\values-zh\strings.xml,274,group_zg,追更区,Đang theo dõi,String resource: group_zg,Chinese parts: 追更区
+263,xml_string,app\src\main\res\values-zh\strings.xml,275,group_yf,养肥区,Sách chờ đọc,String resource: group_yf,Chinese parts: 养肥区
+264,xml_string,app\src\main\res\values-zh\strings.xml,276,bookmark,书签,Đánh dấu trang,String resource: bookmark,Chinese parts: 书签
+265,xml_string,app\src\main\res\values-zh\strings.xml,277,bookmark_add,添加书签,Thêm đánh dấu trang,String resource: bookmark_add,Chinese parts: 添加书签
+266,xml_string,app\src\main\res\values-zh\strings.xml,278,action_del,删除,Xóa,String resource: action_del,Chinese parts: 删除
+267,xml_string,app\src\main\res\values-zh\strings.xml,279,load_over_time,加载超时,Tải quá thời gian,String resource: load_over_time,Chinese parts: 加载超时
+268,xml_string,app\src\main\res\values-zh\strings.xml,280,join_group,关注：%s,Theo dõi: %s,String resource: join_group,Chinese parts: 关注
+269,xml_string,app\src\main\res\values-zh\strings.xml,281,copy_complete,已拷贝,Đã sao chép,String resource: copy_complete,Chinese parts: 已拷贝
+270,xml_string,app\src\main\res\values-zh\strings.xml,282,bookshelf_management,书架管理,Quản lý kệ sách,String resource: bookshelf_management,Chinese parts: 书架管理
+271,xml_string,app\src\main\res\values-zh\strings.xml,283,clear_bookshelf_s,这将会删除所有书籍，请谨慎操作。,Thao tác này sẽ xóa tất cả sách. Vui lòng cẩn thận.,String resource: clear_bookshelf_s,"Chinese parts: 这将会删除所有书籍, 请谨慎操作"
+272,xml_string,app\src\main\res\values-zh\strings.xml,284,search_book_source,搜索书源,Tìm kiếm nguồn sách,String resource: search_book_source,Chinese parts: 搜索书源
+273,xml_string,app\src\main\res\values-zh\strings.xml,285,search_rss_source,搜索订阅源,Tìm kiếm nguồn RSS,String resource: search_rss_source,Chinese parts: 搜索订阅源
+274,xml_string,app\src\main\res\values-zh\strings.xml,286,search_book_source_num,搜索（共 %d 个书源）,Tìm kiếm (tổng %d nguồn sách),String resource: search_book_source_num,"Chinese parts: 搜索, 共, 个书源"
+275,xml_string,app\src\main\res\values-zh\strings.xml,287,chapter_list_size,目录（%d）,Mục lục (%d),String resource: chapter_list_size,Chinese parts: 目录
+276,xml_string,app\src\main\res\values-zh\strings.xml,288,text_bold,加粗,In đậm,String resource: text_bold,Chinese parts: 加粗
+277,xml_string,app\src\main\res\values-zh\strings.xml,289,text_font,字体,Phông chữ,String resource: text_font,Chinese parts: 字体
+278,xml_string,app\src\main\res\values-zh\strings.xml,290,text,文字,Chữ,String resource: text,Chinese parts: 文字
+279,xml_string,app\src\main\res\values-zh\strings.xml,291,home_page,软件主页,Trang chủ ứng dụng,String resource: home_page,Chinese parts: 软件主页
+280,xml_string,app\src\main\res\values-zh\strings.xml,292,right,右,Phải,String resource: right,Chinese parts: 右
+281,xml_string,app\src\main\res\values-zh\strings.xml,293,left,左,Trái,String resource: left,Chinese parts: 左
+282,xml_string,app\src\main\res\values-zh\strings.xml,294,bottom,下,Dưới,String resource: bottom,Chinese parts: 下
+283,xml_string,app\src\main\res\values-zh\strings.xml,295,top,上,Trên,String resource: top,Chinese parts: 上
+284,xml_string,app\src\main\res\values-zh\strings.xml,296,padding,边距,Lề,String resource: padding,Chinese parts: 边距
+285,xml_string,app\src\main\res\values-zh\strings.xml,297,padding_top,上边距,Lề trên,String resource: padding_top,Chinese parts: 上边距
+286,xml_string,app\src\main\res\values-zh\strings.xml,298,padding_bottom,下边距,Lề dưới,String resource: padding_bottom,Chinese parts: 下边距
+287,xml_string,app\src\main\res\values-zh\strings.xml,299,padding_left,左边距,Lề trái,String resource: padding_left,Chinese parts: 左边距
+288,xml_string,app\src\main\res\values-zh\strings.xml,300,padding_right,右边距,Lề phải,String resource: padding_right,Chinese parts: 右边距
+289,xml_string,app\src\main\res\values-zh\strings.xml,301,check_book_source,校验书源,Kiểm tra nguồn sách,String resource: check_book_source,Chinese parts: 校验书源
+290,xml_string,app\src\main\res\values-zh\strings.xml,302,check_select_source,校验所选,Kiểm tra đã chọn,String resource: check_select_source,Chinese parts: 校验所选
+291,xml_string,app\src\main\res\values-zh\strings.xml,303,progress_show,%1$s      进度 %2$d/%3$d,%1$s Tiến độ %2$d/%3$d,String resource: progress_show,Chinese parts: 进度
+292,xml_string,app\src\main\res\values-zh\strings.xml,304,tts_fix,请安装并选择中文 TTS！,Vui lòng cài đặt và chọn TTS tiếng Trung!,String resource: tts_fix,Chinese parts: 请安装并选择中文
+293,xml_string,app\src\main\res\values-zh\strings.xml,305,tts_init_failed,TTS 初始化失败！,Khởi tạo TTS thất bại!,String resource: tts_init_failed,Chinese parts: 初始化失败
+294,xml_string,app\src\main\res\values-zh\strings.xml,306,jf_convert,简繁转换,Chuyển đổi giản/phồn thể,String resource: jf_convert,Chinese parts: 简繁转换
+295,xml_string,app\src\main\res\values-zh\strings.xml,307,jf_convert_o,关闭,Tắt,String resource: jf_convert_o,Chinese parts: 关闭
+296,xml_string,app\src\main\res\values-zh\strings.xml,308,jf_convert_f,简转繁,Giản thể sang phồn thể,String resource: jf_convert_f,Chinese parts: 简转繁
+297,xml_string,app\src\main\res\values-zh\strings.xml,309,jf_convert_j,繁转简,Phồn thể sang giản thể,String resource: jf_convert_j,Chinese parts: 繁转简
+298,xml_string,app\src\main\res\values-zh\strings.xml,310,page_mode,翻页模式,Chế độ lật trang,String resource: page_mode,Chinese parts: 翻页模式
+299,xml_string,app\src\main\res\values-zh\strings.xml,311,nb_file_sub_count,%1$d 项,%1$d mục,String resource: nb_file_sub_count,Chinese parts: 项
+300,xml_string,app\src\main\res\values-zh\strings.xml,312,nb_file_path,存储卡：,Thẻ nhớ:,String resource: nb_file_path,Chinese parts: 存储卡

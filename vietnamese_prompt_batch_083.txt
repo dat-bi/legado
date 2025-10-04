@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4101,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,35,,電漿,,"碟片"", ""模組"", ""桌球"", ""案頭"", ""機車"", ""電漿"",",Chinese parts: 電漿
+4102,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,鳳梨,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數",Chinese parts: 鳳梨
+4103,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,魔戒,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼",Chinese parts: 魔戒
+4104,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,載入,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱",Chinese parts: 載入
+4105,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,菲林,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水",Chinese parts: 菲林
+4106,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,整合,,"""鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 整合
+4107,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,變數,,"鳳梨"", ""魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 變數
+4108,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,解碼,,"魔戒"", ""載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 解碼
+4109,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,散钱,,"載入"", ""菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 散钱
+4110,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,36,,插水,,"菲林"", ""整合"", ""變數"", ""解碼"", ""散钱"", ""插水"",",Chinese parts: 插水
+4111,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,房屋,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式",Chinese parts: 房屋
+4112,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,房价,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹",Chinese parts: 房价
+4113,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,快取,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊",Chinese parts: 快取
+4114,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,德士,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希",Chinese parts: 德士
+4115,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,建立,,"""房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希"",",Chinese parts: 建立
+4116,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,常式,,"房屋"", ""房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希"",",Chinese parts: 常式
+4117,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,席丹,,"房价"", ""快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希"",",Chinese parts: 席丹
+4118,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,布殊,,"快取"", ""德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希"",",Chinese parts: 布殊
+4119,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,37,,布希,,"德士"", ""建立"", ""常式"", ""席丹"", ""布殊"", ""布希"",",Chinese parts: 布希
+4120,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,巴哈,,"""巴哈"", ""巨集"", ""夜学"", ""向量"", ""半形"", ""加彭",Chinese parts: 巴哈
+4121,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,巨集,,"""巴哈"", ""巨集"", ""夜学"", ""向量"", ""半形"", ""加彭"", ""列印",Chinese parts: 巨集
+4122,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,夜学,,"""巴哈"", ""巨集"", ""夜学"", ""向量"", ""半形"", ""加彭"", ""列印"", ""函式",Chinese parts: 夜学
+4123,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,向量,,"""巴哈"", ""巨集"", ""夜学"", ""向量"", ""半形"", ""加彭"", ""列印"", ""函式"", ""全形",Chinese parts: 向量
+4124,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,半形,,"""巴哈"", ""巨集"", ""夜学"", ""向量"", ""半形"", ""加彭"", ""列印"", ""函式"", ""全形"",",Chinese parts: 半形
+4125,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,加彭,,"巴哈"", ""巨集"", ""夜学"", ""向量"", ""半形"", ""加彭"", ""列印"", ""函式"", ""全形"",",Chinese parts: 加彭
+4126,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,列印,,"巨集"", ""夜学"", ""向量"", ""半形"", ""加彭"", ""列印"", ""函式"", ""全形"",",Chinese parts: 列印
+4127,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,函式,,"夜学"", ""向量"", ""半形"", ""加彭"", ""列印"", ""函式"", ""全形"",",Chinese parts: 函式
+4128,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,38,,全形,,"向量"", ""半形"", ""加彭"", ""列印"", ""函式"", ""全形"",",Chinese parts: 全形
+4129,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,光碟,,"""光碟"", ""介面"", ""乳酪"", ""沈船"", ""永珍"", ""演化",Chinese parts: 光碟
+4130,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,介面,,"""光碟"", ""介面"", ""乳酪"", ""沈船"", ""永珍"", ""演化"", ""牛油",Chinese parts: 介面
+4131,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,乳酪,,"""光碟"", ""介面"", ""乳酪"", ""沈船"", ""永珍"", ""演化"", ""牛油"", ""相容",Chinese parts: 乳酪
+4132,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,沈船,,"""光碟"", ""介面"", ""乳酪"", ""沈船"", ""永珍"", ""演化"", ""牛油"", ""相容"", ""磁碟",Chinese parts: 沈船
+4133,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,永珍,,"""光碟"", ""介面"", ""乳酪"", ""沈船"", ""永珍"", ""演化"", ""牛油"", ""相容"", ""磁碟"",",Chinese parts: 永珍
+4134,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,演化,,"光碟"", ""介面"", ""乳酪"", ""沈船"", ""永珍"", ""演化"", ""牛油"", ""相容"", ""磁碟"",",Chinese parts: 演化
+4135,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,牛油,,"介面"", ""乳酪"", ""沈船"", ""永珍"", ""演化"", ""牛油"", ""相容"", ""磁碟"",",Chinese parts: 牛油
+4136,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,相容,,"乳酪"", ""沈船"", ""永珍"", ""演化"", ""牛油"", ""相容"", ""磁碟"",",Chinese parts: 相容
+4137,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,39,,磁碟,,"沈船"", ""永珍"", ""演化"", ""牛油"", ""相容"", ""磁碟"",",Chinese parts: 磁碟
+4138,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,40,,菲林,,"""菲林"", ""規則"", ""酵素"", ""雷根"", ""饭盒"",",Chinese parts: 菲林
+4139,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,40,,規則,,"""菲林"", ""規則"", ""酵素"", ""雷根"", ""饭盒"",",Chinese parts: 規則
+4140,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,40,,酵素,,"""菲林"", ""規則"", ""酵素"", ""雷根"", ""饭盒"",",Chinese parts: 酵素
+4141,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,40,,雷根,,"""菲林"", ""規則"", ""酵素"", ""雷根"", ""饭盒"",",Chinese parts: 雷根
+4142,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,40,,饭盒,,"""菲林"", ""規則"", ""酵素"", ""雷根"", ""饭盒"",",Chinese parts: 饭盒
+4143,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,路易斯,,"""路易斯"", ""非同步"", ""出租车"", ""周杰倫"", ""马铃薯"",",Chinese parts: 路易斯
+4144,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,非同步,,"""路易斯"", ""非同步"", ""出租车"", ""周杰倫"", ""马铃薯"", ""馬鈴薯"",",Chinese parts: 非同步
+4145,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,出租车,,"""路易斯"", ""非同步"", ""出租车"", ""周杰倫"", ""马铃薯"", ""馬鈴薯"", ""機械人"",",Chinese parts: 出租车
+4146,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,周杰倫,,"""路易斯"", ""非同步"", ""出租车"", ""周杰倫"", ""马铃薯"", ""馬鈴薯"", ""機械人"", ""電單車"",",Chinese parts: 周杰倫
+4147,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,马铃薯,,"""路易斯"", ""非同步"", ""出租车"", ""周杰倫"", ""马铃薯"", ""馬鈴薯"", ""機械人"", ""電單車"",",Chinese parts: 马铃薯
+4148,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,馬鈴薯,,"""非同步"", ""出租车"", ""周杰倫"", ""马铃薯"", ""馬鈴薯"", ""機械人"", ""電單車"",",Chinese parts: 馬鈴薯
+4149,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,機械人,,"""出租车"", ""周杰倫"", ""马铃薯"", ""馬鈴薯"", ""機械人"", ""電單車"",",Chinese parts: 機械人
+4150,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,41,,電單車,,"""周杰倫"", ""马铃薯"", ""馬鈴薯"", ""機械人"", ""電單車"",",Chinese parts: 電單車

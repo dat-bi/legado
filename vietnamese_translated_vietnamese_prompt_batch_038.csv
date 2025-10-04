@@ -1,0 +1,33 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1851,xml_string,app\src\main\res\values-zh-rHK\strings.xml,681,read_body_to_lh,擴展到劉海,Mở rộng ra tai thỏ,String resource: read_body_to_lh,Chinese parts: 擴展到劉海
+1852,xml_string,app\src\main\res\values-zh-rHK\strings.xml,682,toc_updateing,更新目錄中,Đang cập nhật mục lục,String resource: toc_updateing,Chinese parts: 更新目錄中
+1853,xml_string,app\src\main\res\values-zh-rHK\strings.xml,683,media_button_on_exit_title,全程響應耳機按鍵,Luôn phản hồi nút tai nghe,String resource: media_button_on_exit_title,Chinese parts: 全程響應耳機按鍵
+1854,xml_string,app\src\main\res\values-zh-rHK\strings.xml,684,media_button_on_exit_summary,即使退出軟件也響應耳機按鍵,Phản hồi nút tai nghe ngay cả khi thoát ứng dụng,String resource: media_button_on_exit_summary,Chinese parts: 即使退出軟件也響應耳機按鍵
+1855,xml_string,app\src\main\res\values-zh-rHK\strings.xml,685,contributors,開發人員,Nhà phát triển,String resource: contributors,Chinese parts: 開發人員
+1856,xml_string,app\src\main\res\values-zh-rHK\strings.xml,686,contact,聯繫我們,Liên hệ chúng tôi,String resource: contact,Chinese parts: 聯繫我們
+1857,xml_string,app\src\main\res\values-zh-rHK\strings.xml,687,license,開源許可,Giấy phép mã nguồn mở,String resource: license,Chinese parts: 開源許可
+1858,xml_string,app\src\main\res\values-zh-rHK\strings.xml,688,follow_official_account,關注公眾號,Theo dõi tài khoản công khai,String resource: follow_official_account,Chinese parts: 關注公眾號
+1859,xml_string,app\src\main\res\values-zh-rHK\strings.xml,690,thanks,你的支持是我更新的動力,Sự ủng hộ của bạn là động lực để tôi cập nhật,String resource: thanks,Chinese parts: 你的支持是我更新的動力
+1860,xml_string,app\src\main\res\values-zh-rHK\strings.xml,691,about_official_account,公眾號[开源阅读],Tài khoản công khai [Đọc sách mã nguồn mở],String resource: about_official_account,"Chinese parts: 公眾號, 开源阅读"
+1861,xml_string,app\src\main\res\values-zh-rHK\strings.xml,692,source_auto_changing,正在自動換源,Đang tự động đổi nguồn,String resource: source_auto_changing,Chinese parts: 正在自動換源
+1862,xml_string,app\src\main\res\values-zh-rHK\strings.xml,693,click_to_apply,點擊加入,Nhấn để tham gia,String resource: click_to_apply,Chinese parts: 點擊加入
+1863,xml_string,app\src\main\res\values-zh-rHK\strings.xml,694,middle,中,Trung bình,String resource: middle,Chinese parts: 中
+1864,xml_string,app\src\main\res\values-zh-rHK\strings.xml,695,information,信息,Thông tin,String resource: information,Chinese parts: 信息
+1865,xml_string,app\src\main\res\values-zh-rHK\strings.xml,696,switchLayout,切換佈局,Chuyển đổi bố cục,String resource: switchLayout,Chinese parts: 切換佈局
+1866,xml_string,app\src\main\res\values-zh-rHK\strings.xml,697,full_screen_gestures_support,全面屏手勢優化,Tối ưu cử chỉ toàn màn hình,String resource: full_screen_gestures_support,Chinese parts: 全面屏手勢優化
+1867,xml_string,app\src\main\res\values-zh-rHK\strings.xml,698,disable_return_key,禁用返回鍵,Tắt phím quay lại,String resource: disable_return_key,Chinese parts: 禁用返回鍵
+1868,xml_string,app\src\main\res\values-zh-rHK\strings.xml,701,primary,主色調,Màu chủ đạo,String resource: primary,Chinese parts: 主色調
+1869,xml_string,app\src\main\res\values-zh-rHK\strings.xml,702,accent,強調色,Màu nhấn,String resource: accent,Chinese parts: 強調色
+1870,xml_string,app\src\main\res\values-zh-rHK\strings.xml,703,background_color,背景色,Màu nền,String resource: background_color,Chinese parts: 背景色
+1871,xml_string,app\src\main\res\values-zh-rHK\strings.xml,704,navbar_color,導航欄顏色,Màu thanh điều hướng,String resource: navbar_color,Chinese parts: 導航欄顏色
+1872,xml_string,app\src\main\res\values-zh-rHK\strings.xml,705,day,白天,Ban ngày,String resource: day,Chinese parts: 白天
+1873,xml_string,app\src\main\res\values-zh-rHK\strings.xml,706,day_color_primary,白天，主色調,Ban ngày, màu chủ đạo,String resource: day_color_primary,"Chinese parts: 白天, 主色調"
+1874,xml_string,app\src\main\res\values-zh-rHK\strings.xml,707,day_color_accent,白天，強調色,Ban ngày, màu nhấn,String resource: day_color_accent,"Chinese parts: 白天, 強調色"
+1875,xml_string,app\src\main\res\values-zh-rHK\strings.xml,708,day_background_color,白天，背景色,Ban ngày, màu nền,String resource: day_background_color,"Chinese parts: 白天, 背景色"
+1876,xml_string,app\src\main\res\values-zh-rHK\strings.xml,709,day_navbar_color,白天，導航欄顏色,Ban ngày, màu thanh điều hướng,String resource: day_navbar_color,"Chinese parts: 白天, 導航欄顏色"
+1877,xml_string,app\src\main\res\values-zh-rHK\strings.xml,710,night,夜間,Ban đêm,String resource: night,Chinese parts: 夜間
+1878,xml_string,app\src\main\res\values-zh-rHK\strings.xml,711,night_primary,夜間，主色調,Ban đêm, màu chủ đạo,String resource: night_primary,"Chinese parts: 夜間, 主色調"
+1879,xml_string,app\src\main\res\values-zh-rHK\strings.xml,712,night_accent,夜間，強調色,Ban đêm, màu nhấn,String resource: night_accent,"Chinese parts: 夜間, 強調色"
+1880,xml_string,app\src\main\res\values-zh-rHK\strings.xml,713,night_background_color,夜間，背景色,Ban đêm, màu nền,String resource: night_background_color,"Chinese parts: 夜間, 背景色"
+1881,xml_string,app\src\main\res\values-zh-rHK\strings.xml,714,night_navbar_color,夜間，導航欄顏色,Ban đêm, màu thanh điều hướng,String resource: night_navbar_color,"Chinese parts: 夜間, 導航欄顏色"
+1882,xml_string,app\src\main\res\values-zh-rHK\strings.xml,715,auto_change_source,自動換源,Tự động đổi nguồn,String resource: auto_change_source,Chinese parts: 自動換源

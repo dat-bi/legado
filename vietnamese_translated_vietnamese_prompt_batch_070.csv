@@ -1,0 +1,49 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3451,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1106,file_manage,文件管理,Quản lý tệp,String resource: file_manage,Chinese parts: 文件管理
+3452,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1107,file_manage_summary,管理私有文件夹的文件,Quản lý tệp trong thư mục riêng tư,String resource: file_manage_summary,Chinese parts: 管理私有文件夹的文件
+3453,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1108,create_folder,创建文件夹,Tạo thư mục,String resource: create_folder,Chinese parts: 创建文件夹
+3454,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1109,allow_drop_down_refresh,允许下拉刷新,Cho phép kéo xuống làm mới,String resource: allow_drop_down_refresh,Chinese parts: 允许下拉刷新
+3455,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1110,text_underline,文字下划线,Gạch chân chữ,String resource: text_underline,Chinese parts: 文字下划线
+3456,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1111,select_new_source,选中新增源,Chọn nguồn mới,String resource: select_new_source,Chinese parts: 选中新增源
+3457,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1112,select_update_source,选中更新源,Chọn nguồn cập nhật,String resource: select_update_source,Chinese parts: 选中更新源
+3458,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1113,set_local_password,设置本地密码,Đặt mật khẩu cục bộ,String resource: set_local_password,Chinese parts: 设置本地密码
+3459,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1114,set_local_password_summary,"本地密码用来对备份的敏感信息加密和解密,如需在不同设备之间同步,本地密码需一致.","Mật khẩu cục bộ dùng để mã hóa và giải mã thông tin nhạy cảm trong bản sao lưu. Để đồng bộ giữa các thiết bị, mật khẩu cục bộ phải giống nhau.",String resource: set_local_password_summary,"Chinese parts: 本地密码用来对备份的敏感信息加密和解密, 如需在不同设备之间同步, 本地密码需一致"
+3460,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1115,only_latest_backup_t,仅保留最新备份,Chỉ giữ bản sao lưu mới nhất,String resource: only_latest_backup_t,Chinese parts: 仅保留最新备份
+3461,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1116,only_latest_backup_s,本地备份仅保留最新备份文件,Bản sao lưu cục bộ chỉ giữ tệp sao lưu mới nhất,String resource: only_latest_backup_s,Chinese parts: 本地备份仅保留最新备份文件
+3462,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1117,webdav_application_authorization_error,webDav应用验证失败,Xác thực ứng dụng WebDAV thất bại,String resource: webdav_application_authorization_error,Chinese parts: 应用验证失败
+3463,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1118,load_word_count,加載字數,Tải số từ,String resource: load_word_count,Chinese parts: 加載字數
+3464,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1119,replace_exclude_scope,排除范围，选填书名或者书源 URL,Phạm vi loại trừ, tùy chọn điền tên sách hoặc URL nguồn sách,String resource: replace_exclude_scope,"Chinese parts: 排除范围, 选填书名或者书源"
+3465,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1120,format_js_rule,格式化规则(formatJs),Quy tắc định dạng (formatJs),String resource: format_js_rule,Chinese parts: 格式化规则
+3466,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1121,adjust_pos,调整位置,Điều chỉnh vị trí,String resource: adjust_pos,Chinese parts: 调整位置
+3467,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1122,select_section_export,選擇待導出章節,Chọn chương để xuất,String resource: select_section_export,Chinese parts: 選擇待導出章節
+3468,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1123,error_scope_input,請輸入正確的範圍,Vui lòng nhập phạm vi chính xác,String resource: error_scope_input,Chinese parts: 請輸入正確的範圍
+3469,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1124,custom_export,自定義導出,Xuất tùy chỉnh,String resource: custom_export,Chinese parts: 自定義導出
+3470,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1125,file_contains_number,每個文件包含的章節數量,Số chương trong mỗi tệp,String resource: file_contains_number,Chinese parts: 每個文件包含的章節數量
+3471,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1126,export_chapter_index,需要輸出的章節,Chương cần xuất,String resource: export_chapter_index,Chinese parts: 需要輸出的章節
+3472,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1127,shrink_database,压缩数据库,Nén cơ sở dữ liệu,String resource: shrink_database,Chinese parts: 压缩数据库
+3473,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1128,shrink_database_summary,减小数据库文件的大小,Giảm kích thước tệp cơ sở dữ liệu,String resource: shrink_database_summary,Chinese parts: 减小数据库文件的大小
+3474,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1129,is_compress,是否压缩,Có nén không?,String resource: is_compress,Chinese parts: 是否压缩
+3475,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1130,sort_desc,反序,Thứ tự ngược,String resource: sort_desc,Chinese parts: 反序
+3476,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1131,test,测试,Kiểm tra,String resource: test,Chinese parts: 测试
+3477,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1132,show_wait_up_count,显示等待更新数量,Hiển thị số lượng chờ cập nhật,String resource: show_wait_up_count,Chinese parts: 显示等待更新数量
+3478,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1133,exit_app,退出软件,Thoát ứng dụng,String resource: exit_app,Chinese parts: 退出软件
+3479,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1134,result_analyzed,解析示例,Ví dụ phân tích,String resource: result_analyzed,Chinese parts: 解析示例
+3480,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1135,bookshelf_px_4,綜合排序,Sắp xếp tổng hợp,String resource: bookshelf_px_4,Chinese parts: 綜合排序
+3481,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1136,bookshelf_px_5,按作者,Theo tác giả,String resource: bookshelf_px_5,Chinese parts: 按作者
+3482,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1137,effective_replaces,起效的替换,Thay thế hiệu lực,String resource: effective_replaces,Chinese parts: 起效的替换
+3483,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1138,export_book,导出书籍,Xuất sách,String resource: export_book,Chinese parts: 导出书籍
+3484,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1139,export_book_notification_content,"正在导出(%1$s),还有%2$d本待导出","Đang xuất (%1$s), còn %2$d sách chờ xuất",String resource: export_book_notification_content,"Chinese parts: 正在导出, 还有, 本待导出"
+3485,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1140,export_md,导出(MD),Xuất (MD),String resource: export_md,Chinese parts: 导出
+3486,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1141,change_source_delay,换源间隔,Khoảng thời gian đổi nguồn,String resource: change_source_delay,Chinese parts: 换源间隔
+3487,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1142,change_source_progress,""" 結果 %1$d, 當前進度 %2$d / %3$d: %4$s""","Kết quả %1$d, tiến độ hiện tại %2$d / %3$d: %4$s",String resource: change_source_progress,"Chinese parts: 結果, 當前進度"
+3488,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1143,open_book_info_by_click_title,点击书名打开详情,Nhấn tên sách để mở chi tiết,String resource: open_book_info_by_click_title,Chinese parts: 点击书名打开详情
+3489,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1144,export_wait,等待导出,Chờ xuất,String resource: export_wait,Chinese parts: 等待导出
+3490,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1145,sync_book_progress_success,進度同步成功,Đồng bộ tiến độ thành công,String resource: sync_book_progress_success,Chinese parts: 進度同步成功
+3491,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1146,default_home_page,默认主页,Trang chủ mặc định,String resource: default_home_page,Chinese parts: 默认主页
+3492,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1147,show_bookshelf_fast_scroller,显示快速滚动条,Hiển thị thanh cuộn nhanh,String resource: show_bookshelf_fast_scroller,Chinese parts: 显示快速滚动条
+3493,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1148,export_all_use_book_source,导出所有书的书源,Xuất nguồn sách của tất cả sách,String resource: export_all_use_book_source,Chinese parts: 导出所有书的书源
+3494,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1149,cloud_progress_exceeds_current,雲端進度超過目前進度，是否同步？,Tiến độ đám mây vượt quá tiến độ hiện tại, có đồng bộ không?,String resource: cloud_progress_exceeds_current,"Chinese parts: 雲端進度超過目前進度, 是否同步"
+3495,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1150,keep_enable,保留启用状态,Giữ trạng thái bật,String resource: keep_enable,Chinese parts: 保留启用状态
+3496,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1151,preview_image_by_click,点击预览图片,Nhấn để xem trước ảnh,String resource: preview_image_by_click,Chinese parts: 点击预览图片
+3497,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1152,screen_portrait_reversed,反向竖屏,Màn hình dọc đảo ngược,String resource: screen_portrait_reversed,Chinese parts: 反向竖屏
+3498,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1153,del_ruby_tag,删除ruby标签,Xóa thẻ ruby,String resource: del_ruby_tag,"Chinese parts: 删除, 标签"

@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4501,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BaseBookshelfFragment.kt,141,,添加中,Đang thêm,,waitDialog.setText(""添加中... ($count)""),Chinese parts: 添加中
+4502,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BaseBookshelfFragment.kt,155,,添加中,Đang thêm,,waitDialog.setText(""添加中...""),Chinese parts: 添加中
+4503,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,93,,添加网址失败,Thêm URL thất bại,,context.toastOnUi(""添加网址失败""),Chinese parts: 添加网址失败
+4504,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,96,,添加网址出错,Lỗi khi thêm URL,,AppLog.put(""添加网址出错\n${it.localizedMessage}"", it,),Chinese parts: 添加网址出错
+4505,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,123,,书籍不能为空,Sách không được để trống,,throw NoStackTraceException(""书籍不能为空""),Chinese parts: 书籍不能为空
+4506,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,127,,导出书籍出错,Lỗi khi xuất sách,,context.toastOnUi(""导出书籍出错\n${it.localizedMessage}""),Chinese parts: 导出书籍出错
+4507,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,148,,格式不对,Định dạng không đúng,,throw NoStackTraceException(""格式不对""),Chinese parts: 格式不对
+4508,source_code,app\src\main\java\io\legado\app\ui\main\explore\ExploreFragment.kt,165,,发现界面更新数据出错,Lỗi khi cập nhật dữ liệu giao diện Khám phá,,AppLog.put(""发现界面更新数据出错"", it),Chinese parts: 发现界面更新数据出错
+4509,source_code,app\src\main\java\io\legado\app\ui\main\my\MyFragment.kt,87,,复制地址,Sao chép địa chỉ,,ontext?.selector(arrayListOf(""复制地址"", ""浏览器打开"")) { _, i ->,Chinese parts: 复制地址
+4510,source_code,app\src\main\java\io\legado\app\ui\main\my\MyFragment.kt,87,,浏览器打开,Mở bằng trình duyệt,,selector(arrayListOf(""复制地址"", ""浏览器打开"")) { _, i ->,Chinese parts: 浏览器打开
+4511,source_code,app\src\main\java\io\legado\app\ui\main\rss\RssFragment.kt,144,,订阅界面获取分组数据失败,Không thể lấy dữ liệu nhóm trên giao diện Đăng ký,,AppLog.put(""订阅界面获取分组数据失败\n${it.localizedMessage}"", it),Chinese parts: 订阅界面获取分组数据失败
+4512,source_code,app\src\main\java\io\legado\app\ui\main\rss\RssFragment.kt,173,,订阅界面更新数据出错,Lỗi khi cập nhật dữ liệu giao diện Đăng ký,,AppLog.put(""订阅界面更新数据出错"", it),Chinese parts: 订阅界面更新数据出错
+4513,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\style2\BookshelfFragment2.kt,173,,书架更新出错,Lỗi khi cập nhật Kệ sách,,AppLog.put(""书架更新出错"", it),Chinese parts: 书架更新出错
+4514,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\style1\books\BooksFragment.kt,191,,书架更新出错,Lỗi khi cập nhật Kệ sách,,AppLog.put(""书架更新出错"", it),Chinese parts: 书架更新出错
+4515,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleActivity.kt,129,,字典规则获取数据失败,Không thể lấy dữ liệu quy tắc từ điển,,AppLog.put(""字典规则获取数据失败\n${it.localizedMessage}"", it),Chinese parts: 字典规则获取数据失败
+4516,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleEditDialog.kt,108,,剪贴板没有内容,Không có nội dung trong bộ nhớ tạm,,context.toastOnUi(""剪贴板没有内容""),Chinese parts: 剪贴板没有内容
+4517,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleEditDialog.kt,116,,格式不对,Định dạng không đúng,,context.toastOnUi(""格式不对""),Chinese parts: 格式不对
+4518,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleViewModel.kt,18,,更新字典规则出错,Lỗi khi cập nhật quy tắc từ điển,,val msg = ""更新字典规则出错\n${it.localizedMessage}"",Chinese parts: 更新字典规则出错
+4519,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleViewModel.kt,28,,删除字典规则出错,Lỗi khi xóa quy tắc từ điển,,val msg = ""删除字典规则出错\n${it.localizedMessage}"",Chinese parts: 删除字典规则出错
+4520,source_code,app\src\main\java\io\legado\app\ui\book\audio\AudioPlayViewModel.kt,61,,详情页出错,Lỗi trang chi tiết,,AppLog.put(""详情页出错: ${e.localizedMessage}"", e, t),Chinese parts: 详情页出错
+4521,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkActivity.kt,47,,所有书签界面获取数据失败,Không thể lấy dữ liệu trên giao diện Tất cả dấu trang,,AppLog.put(""所有书签界面获取数据失败\n${it.localizedMessage}"", it),Chinese parts: 所有书签界面获取数据失败
+4522,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,33,,导出失败,Xuất thất bại,,AppLog.put(""导出失败\n${it.localizedMessage}"", it,),Chinese parts: 导出失败
+4523,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,35,,导出成功,Xuất thành công,,context.toastOnUi(""导出成功""),Chinese parts: 导出成功
+4524,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,56,,原文,Nguyên văn,,outputStream.write(""###### 原文\n ${it.bookText}\n\n"".toByteA),Chinese parts: 原文
+4525,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,57,,摘要,Tóm tắt,,outputStream.write(""###### 摘要\n ${it.content}\n\n"".toByteAr),Chinese parts: 摘要
+4526,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,61,,导出失败,Xuất thất bại,,AppLog.put(""导出失败\n${it.localizedMessage}"", it,),Chinese parts: 导出失败
+4527,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,63,,导出成功,Xuất thành công,,context.toastOnUi(""导出成功""),Chinese parts: 导出成功
+4528,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,106,,启用自定义导出,Bật xuất tùy chỉnh,,if (enableCustomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 启用自定义导出
+4529,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,106,,导出类型为,Loại xuất là,,stomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 导出类型为
+4530,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,262,,缓存管理界面获取书籍列表失败,Không thể lấy danh sách sách trên giao diện quản lý bộ nhớ đệm,,AppLog.put(""缓存管理界面获取书籍列表失败\n${it.localizedMessage}"", it),Chinese parts: 缓存管理界面获取书籍列表失败
+4531,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,274,,缓存管理界面获取分组数据失败,Không thể lấy dữ liệu nhóm trên giao diện quản lý bộ nhớ đệm,,AppLog.put(""缓存管理界面获取分组数据失败\n${it.localizedMessage}"", it),Chinese parts: 缓存管理界面获取分组数据失败
+4532,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,331,,启用自定义导出,Bật xuất tùy chỉnh,,if (enableCustomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 启用自定义导出
+4533,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,331,,导出类型为,Loại xuất là,,stomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 导出类型为
+4534,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,381,,未找到书籍,Không tìm thấy sách,,AppLog.put(""未找到书籍，position is $position""),Chinese parts: 未找到书籍
+4535,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,451,,请输入正确的范围,Vui lòng nhập phạm vi hợp lệ,,R.string.error_scope_input)//""请输入正确的范围""",Chinese parts: 请输入正确的范围
+4536,source_code,app\src\main\java\io\legado\app\ui\book\changecover\ChangeCoverViewModel.kt,45,,默认封面,Bìa mặc định,,originName = ""默认封面"",",Chinese parts: 默认封面
+4537,source_code,app\src\main\java\io\legado\app\ui\book\changecover\ChangeCoverViewModel.kt,131,,封面换源搜索出错,Lỗi khi tìm kiếm nguồn bìa,,AppLog.put(""封面换源搜索出错\n${it.localizedMessage}"", it),Chinese parts: 封面换源搜索出错
+4538,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,84,,搜索结果为空,Không có kết quả tìm kiếm,,context?.alert(""搜索结果为空"") {,Chinese parts: 搜索结果为空
+4539,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,85,,分组搜索结果为空,Không có kết quả tìm kiếm trong nhóm,,setMessage(""${searchGroup}分组搜索结果为空,是否切换到全部分组""),Chinese parts: 分组搜索结果为空
+4540,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,85,,是否切换到全部分组,Bạn có muốn chuyển sang tất cả nhóm không?,,ssage(""${searchGroup}分组搜索结果为空,是否切换到全部分组""),Chinese parts: 是否切换到全部分组
+4541,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,398,,换源获取目录出错,Lỗi khi lấy mục lục từ nguồn khác,,AppLog.put(""换源获取目录出错\n$it"", it, true),Chinese parts: 换源获取目录出错
+4542,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,143,,换源排序出错,Lỗi khi sắp xếp nguồn khác,,AppLog.put(""换源排序出错\n${it.localizedMessage}"", it),Chinese parts: 换源排序出错
+4543,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,255,,换源搜索出错,Lỗi khi tìm kiếm nguồn khác,,AppLog.put(""换源搜索出错\n${it.localizedMessage}"", it),Chinese parts: 换源搜索出错
+4544,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,336,,字数,Số từ,,{chapterIndex + 1}] ${title}\n字数：${len}""",Chinese parts: 字数
+4545,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,339,,获取字数失败,Không thể lấy số từ,,{chapterIndex + 1}] ${title}\n获取字数失败：${t.localizedMessage}""",Chinese parts: 获取字数失败
+4546,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,394,,换源刷新列表出错,Lỗi khi làm mới danh sách nguồn khác,,AppLog.put(""换源刷新列表出错\n${it.localizedMessage}"", it),Chinese parts: 换源刷新列表出错
+4547,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,475,,书源不存在,Nguồn sách không tồn tại,,throw NoStackTraceException(""书源不存在""),Chinese parts: 书源不存在
+4548,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,548,,没有有效源,Không có nguồn hợp lệ,,throw NoStackTraceException(""没有有效源""),Chinese parts: 没有有效源
+4549,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,552,,自动换源失败,Tự động đổi nguồn thất bại,,context.toastOnUi(""自动换源失败\n${it.localizedMessage}""),Chinese parts: 自动换源失败
+4550,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,94,,搜索结果为空,Không có kết quả tìm kiếm,,context?.alert(""搜索结果为空"") {,Chinese parts: 搜索结果为空

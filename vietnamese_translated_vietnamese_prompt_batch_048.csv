@@ -1,0 +1,27 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2351,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1196,manga_header_chapter,《章节和文案》隐藏,Ẩn Chương & Nội dung,String resource: manga_header_chapter,"Chinese parts: 章节和文案, 隐藏"
+2352,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1197,manga_check_chapter_label,《章节.》文案,Nội dung Chương,String resource: manga_check_chapter_label,"Chinese parts: 章节, 文案"
+2353,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1198,manga_check_chapter,章节,Chương,String resource: manga_check_chapter,Chinese parts: 章节
+2354,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1199,manga_check_chapter_name,章节名称,Tên chương,String resource: manga_check_chapter_name,Chinese parts: 章节名称
+2355,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1200,manga_header_page,《页数和文案》隐藏,Ẩn Số trang & Nội dung,String resource: manga_header_page,"Chinese parts: 页数和文案, 隐藏"
+2356,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1201,manga_check_page_label,《页数.》文案,Nội dung Số trang,String resource: manga_check_page_label,"Chinese parts: 页数, 文案"
+2357,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1202,manga_check_page_number,页数,Số trang,String resource: manga_check_page_number,Chinese parts: 页数
+2358,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1203,manga_header_progress,《总进度和文案》隐藏,Ẩn Tổng tiến độ & Nội dung,String resource: manga_header_progress,"Chinese parts: 总进度和文案, 隐藏"
+2359,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1204,manga_check_progress_label,《总进度.》文案,Nội dung Tổng tiến độ,String resource: manga_check_progress_label,"Chinese parts: 总进度, 文案"
+2360,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1205,manga_check_progress,总进度,Tổng tiến độ,String resource: manga_check_progress,Chinese parts: 总进度
+2361,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1206,manga_header_footer,页脚,Chân trang,String resource: manga_header_footer,Chinese parts: 页脚
+2362,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1207,manga_radio_left,靠左,Căn trái,String resource: manga_radio_left,Chinese parts: 靠左
+2363,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1208,manga_radio_center,居中,Căn giữa,String resource: manga_radio_center,Chinese parts: 居中
+2364,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1209,enable_manga_horizontal_scroll,水平滚动,Cuộn ngang,String resource: enable_manga_horizontal_scroll,Chinese parts: 水平滚动
+2365,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1210,manga_color_filter,滤镜,Bộ lọc,String resource: manga_color_filter,Chinese parts: 滤镜
+2366,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1211,hide_manga_title,隐藏漫画列表标题,Ẩn tiêu đề danh sách truyện tranh,String resource: hide_manga_title,Chinese parts: 隐藏漫画列表标题
+2367,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1212,refresh_explore,刷新发现,Làm mới Khám phá,String resource: refresh_explore,Chinese parts: 刷新发现
+2368,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1213,padding_display_cutouts,填充刘海区域,Đệm vùng tai thỏ,String resource: padding_display_cutouts,Chinese parts: 填充刘海区域
+2369,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1214,system_media_control_compatibility_change,系統媒體控件相容性更改,Thay đổi tương thích điều khiển media hệ thống,String resource: system_media_control_compatibility_change,Chinese parts: 系統媒體控件相容性更改
+2370,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1215,system_media_control_compatibility_change_summary,當鎖屏不顯示系統媒體控件時可以嘗試開啟，比如 OneUI7.0 或 vivo 等,Thử bật nếu màn hình khóa không hiển thị điều khiển media hệ thống (ví dụ: OneUI 7.0, Vivo).,String resource: system_media_control_compatibility_change_summary,"Chinese parts: 當鎖屏不顯示系統媒體控件時可以嘗試開啟, 比如, 或, 等"
+2371,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1216,read_aloud_pause_resume,朗讀暫停/繼續,Tạm dừng/Tiếp tục Đọc to,String resource: read_aloud_pause_resume,"Chinese parts: 朗讀暫停, 繼續"
+2372,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1217,manga_epaper,墨水屏,Màn hình e-ink,String resource: manga_epaper,Chinese parts: 墨水屏
+2373,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1218,manga_epaper_stting,墨水屏设置,Cài đặt màn hình e-ink,String resource: manga_epaper_stting,Chinese parts: 墨水屏设置
+2374,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1219,manga_epaper_value,阈值,Ngưỡng,String resource: manga_epaper_value,Chinese parts: 阈值
+2375,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1220,disable_horizontal_animation,禁用水平滚动动画,Tắt hoạt ảnh cuộn ngang,String resource: disable_horizontal_animation,Chinese parts: 禁用水平滚动动画
+2376,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1221,enable_manga_gray,开启图片灰色,Bật ảnh xám,String resource: enable_manga_gray,Chinese parts: 开启图片灰色

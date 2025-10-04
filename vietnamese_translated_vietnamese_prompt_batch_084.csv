@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4151,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,電扶梯,Thang cuốn,"""電扶梯"", ""音效卡"", ""飆車族"", ""點陣圖"", ""個入球"",",Chinese parts: 電扶梯
+4152,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,音效卡,Card âm thanh,"""電扶梯"", ""音效卡"", ""飆車族"", ""點陣圖"", ""個入球"", ""顆進球"",",Chinese parts: 音效卡
+4153,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,飆車族,Quái xế,"""電扶梯"", ""音效卡"", ""飆車族"", ""點陣圖"", ""個入球"", ""顆進球"", ""沃尓沃"",",Chinese parts: 飆車族
+4154,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,點陣圖,Ảnh bitmap,"""電扶梯"", ""音效卡"", ""飆車族"", ""點陣圖"", ""個入球"", ""顆進球"", ""沃尓沃"", ""晶片集"",",Chinese parts: 點陣圖
+4155,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,個入球,Bàn thắng cá nhân,"""電扶梯"", ""音效卡"", ""飆車族"", ""點陣圖"", ""個入球"", ""顆進球"", ""沃尓沃"", ""晶片集"",",Chinese parts: 個入球
+4156,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,顆進球,Bàn thắng,"""音效卡"", ""飆車族"", ""點陣圖"", ""個入球"", ""顆進球"", ""沃尓沃"", ""晶片集"",",Chinese parts: 顆進球
+4157,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,沃尓沃,Volvo,"""飆車族"", ""點陣圖"", ""個入球"", ""顆進球"", ""沃尓沃"", ""晶片集"",",Chinese parts: 沃尓沃
+4158,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,42,,晶片集,Chipset,"""點陣圖"", ""個入球"", ""顆進球"", ""沃尓沃"", ""晶片集"",",Chinese parts: 晶片集
+4159,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,斯瓦巴,Svalbard,"""斯瓦巴"", ""斜角巷"", ""战列舰"", ""快速面"", ""希特拉"",",Chinese parts: 斯瓦巴
+4160,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,斜角巷,Hẻm Xéo,"""斯瓦巴"", ""斜角巷"", ""战列舰"", ""快速面"", ""希特拉"", ""太空梭"",",Chinese parts: 斜角巷
+4161,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,战列舰,Thiết giáp hạm,"""斯瓦巴"", ""斜角巷"", ""战列舰"", ""快速面"", ""希特拉"", ""太空梭"", ""吐瓦魯"",",Chinese parts: 战列舰
+4162,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,快速面,Mì ăn liền,"""斯瓦巴"", ""斜角巷"", ""战列舰"", ""快速面"", ""希特拉"", ""太空梭"", ""吐瓦魯"", ""吉布堤"",",Chinese parts: 快速面
+4163,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,希特拉,Hitler,"""斯瓦巴"", ""斜角巷"", ""战列舰"", ""快速面"", ""希特拉"", ""太空梭"", ""吐瓦魯"", ""吉布堤"",",Chinese parts: 希特拉
+4164,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,太空梭,Tàu con thoi,"""斜角巷"", ""战列舰"", ""快速面"", ""希特拉"", ""太空梭"", ""吐瓦魯"", ""吉布堤"",",Chinese parts: 太空梭
+4165,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,吐瓦魯,Tuvalu,"""战列舰"", ""快速面"", ""希特拉"", ""太空梭"", ""吐瓦魯"", ""吉布堤"",",Chinese parts: 吐瓦魯
+4166,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,43,,吉布堤,Djibouti,"""快速面"", ""希特拉"", ""太空梭"", ""吐瓦魯"", ""吉布堤"",",Chinese parts: 吉布堤
+4167,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,吉布地,Djibouti,"""吉布地"", ""史太林"", ""南冰洋"", ""区域网"", ""波札那"",",Chinese parts: 吉布地
+4168,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,史太林,Stalin,"""吉布地"", ""史太林"", ""南冰洋"", ""区域网"", ""波札那"", ""解析度"",",Chinese parts: 史太林
+4169,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,南冰洋,Nam Băng Dương,"""吉布地"", ""史太林"", ""南冰洋"", ""区域网"", ""波札那"", ""解析度"", ""酷洛米"",",Chinese parts: 南冰洋
+4170,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,区域网,Mạng cục bộ,"""吉布地"", ""史太林"", ""南冰洋"", ""区域网"", ""波札那"", ""解析度"", ""酷洛米"", ""金夏沙"",",Chinese parts: 区域网
+4171,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,波札那,Botswana,"""吉布地"", ""史太林"", ""南冰洋"", ""区域网"", ""波札那"", ""解析度"", ""酷洛米"", ""金夏沙"",",Chinese parts: 波札那
+4172,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,解析度,Độ phân giải,"""史太林"", ""南冰洋"", ""区域网"", ""波札那"", ""解析度"", ""酷洛米"", ""金夏沙"",",Chinese parts: 解析度
+4173,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,酷洛米,Kuromi,"""南冰洋"", ""区域网"", ""波札那"", ""解析度"", ""酷洛米"", ""金夏沙"",",Chinese parts: 酷洛米
+4174,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,44,,金夏沙,Kinshasa,"""区域网"", ""波札那"", ""解析度"", ""酷洛米"", ""金夏沙"",",Chinese parts: 金夏沙
+4175,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,45,,魔獸紀元,Warcraft,"""魔獸紀元"", ""高空彈跳"", ""铁达尼号"", ""太空战士"", ""埃及",Chinese parts: 魔獸紀元
+4176,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,45,,高空彈跳,Nhảy bungee,"""魔獸紀元"", ""高空彈跳"", ""铁达尼号"", ""太空战士"", ""埃及妖后"", ""吉里",Chinese parts: 高空彈跳
+4177,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,45,,铁达尼号,Titanic,"""魔獸紀元"", ""高空彈跳"", ""铁达尼号"", ""太空战士"", ""埃及妖后"", ""吉里巴斯"", ""附加",Chinese parts: 铁达尼号
+4178,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,45,,太空战士,Final Fantasy,"""魔獸紀元"", ""高空彈跳"", ""铁达尼号"", ""太空战士"", ""埃及妖后"", ""吉里巴斯"", ""附加元件"",",Chinese parts: 太空战士
+4179,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,45,,埃及妖后,Nữ hoàng Ai Cập,"紀元"", ""高空彈跳"", ""铁达尼号"", ""太空战士"", ""埃及妖后"", ""吉里巴斯"", ""附加元件"",",Chinese parts: 埃及妖后
+4180,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,45,,吉里巴斯,Kiribati,"彈跳"", ""铁达尼号"", ""太空战士"", ""埃及妖后"", ""吉里巴斯"", ""附加元件"",",Chinese parts: 吉里巴斯
+4181,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,45,,附加元件,Tiện ích bổ sung,"尼号"", ""太空战士"", ""埃及妖后"", ""吉里巴斯"", ""附加元件"",",Chinese parts: 附加元件
+4182,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,46,,魔鬼終結者,Kẻ hủy diệt,"""魔鬼終結者"", ""純文字檔案"", ""奇幻魔法Melody"", ""列支敦",Chinese parts: 魔鬼終結者
+4183,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,46,,純文字檔案,Tệp văn bản thuần túy,"""魔鬼終結者"", ""純文字檔案"", ""奇幻魔法Melody"", ""列支敦斯登""",Chinese parts: 純文字檔案
+4184,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,46,,奇幻魔法,Phép thuật kỳ ảo,"""魔鬼終結者"", ""純文字檔案"", ""奇幻魔法Melody"", ""列支敦斯登""",Chinese parts: 奇幻魔法
+4185,source_code,app\src\main\java\io\legado\app\utils\ChineseUtils.kt,46,,列支敦斯登,Liechtenstein,"終結者"", ""純文字檔案"", ""奇幻魔法Melody"", ""列支敦斯登""",Chinese parts: 列支敦斯登
+4186,source_code,app\src\main\java\io\legado\app\utils\FileDocExtensions.kt,352,,只能检查目录,Chỉ có thể kiểm tra thư mục,"throw NoStackTraceException(""只能检查目录"")",Chinese parts: 只能检查目录
+4187,source_code,app\src\main\java\io\legado\app\utils\FileDocExtensions.kt,400,,打开文件失败,Mở tệp thất bại,"throw NoStackTraceException(""打开文件失败\n${uri}"")",Chinese parts: 打开文件失败
+4188,source_code,app\src\main\java\io\legado\app\utils\FileUtils.kt,616,,年,năm,"String, format: String = ""yyyy年MM月dd日HH:mm""): String {",Chinese parts: 年
+4189,source_code,app\src\main\java\io\legado\app\utils\FileUtils.kt,616,,月,tháng,"ing, format: String = ""yyyy年MM月dd日HH:mm""): String {",Chinese parts: 月
+4190,source_code,app\src\main\java\io\legado\app\utils\FileUtils.kt,616,,日,ngày,", format: String = ""yyyy年MM月dd日HH:mm""): String {",Chinese parts: 日
+4191,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,64,,解析字符串为空,Chuỗi rỗng,"throw JsonSyntaxException(""解析字符串为空"")",Chinese parts: 解析字符串为空
+4192,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,73,,解析字符串为空,Chuỗi rỗng,"throw JsonSyntaxException(""解析字符串为空"")",Chinese parts: 解析字符串为空
+4193,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,79,,列表不能存在,Danh sách không được chứa,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗",Chinese parts: 列表不能存在
+4194,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,79,,元素,phần tử,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: 元素
+4195,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,79,,可能是,có thể do,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: 可能是
+4196,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,79,,格式错误,lỗi định dạng,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: 格式错误
+4197,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,79,,通常为列表存在多余的逗号所致,thường do danh sách có dấu phẩy thừa,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗号所致""",Chinese parts: thường do danh sách có dấu phẩy thừa
+4198,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,90,,解析流为空,Luồng rỗng,"throw JsonSyntaxException(""解析流为空"")",Chinese parts: 解析流为空
+4199,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,100,,解析流为空,Luồng rỗng,"throw JsonSyntaxException(""解析流为空"")",Chinese parts: 解析流为空
+4200,source_code,app\src\main\java\io\legado\app\utils\GsonExtensions.kt,107,,列表不能存在,Danh sách không được chứa,"""列表不能存在null元素，可能是json格式错误，通常为列表存在多余的逗",Chinese parts: 列表不能存在

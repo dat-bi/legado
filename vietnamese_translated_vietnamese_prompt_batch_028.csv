@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1351,xml_string,app\src\main\res\values-zh-rHK\strings.xml,168,clear_cache,清理緩存,Xóa bộ nhớ đệm,String resource: clear_cache,Chinese parts: 清理緩存
+1352,xml_string,app\src\main\res\values-zh-rHK\strings.xml,169,clear_cache_success,成功清理緩存,Xóa bộ nhớ đệm thành công,String resource: clear_cache_success,Chinese parts: 成功清理緩存
+1353,xml_string,app\src\main\res\values-zh-rHK\strings.xml,170,action_save,保存,Lưu,String resource: action_save,Chinese parts: 保存
+1354,xml_string,app\src\main\res\values-zh-rHK\strings.xml,171,edit_source,編輯源,Chỉnh sửa nguồn,String resource: edit_source,Chinese parts: 編輯源
+1355,xml_string,app\src\main\res\values-zh-rHK\strings.xml,172,edit_book_source,編輯書源,Chỉnh sửa nguồn sách,String resource: edit_book_source,Chinese parts: 編輯書源
+1356,xml_string,app\src\main\res\values-zh-rHK\strings.xml,173,disable_book_source,禁用書源,Tắt nguồn sách,String resource: disable_book_source,Chinese parts: 禁用書源
+1357,xml_string,app\src\main\res\values-zh-rHK\strings.xml,174,add_book_source,新建書源,Thêm nguồn sách,String resource: add_book_source,Chinese parts: 新建書源
+1358,xml_string,app\src\main\res\values-zh-rHK\strings.xml,175,add_rss_source,新建訂閲源,Thêm nguồn RSS,String resource: add_rss_source,Chinese parts: 新建訂閲源
+1359,xml_string,app\src\main\res\values-zh-rHK\strings.xml,176,book_file_selector,添加書輯,Thêm sách,String resource: book_file_selector,Chinese parts: 添加書輯
+1360,xml_string,app\src\main\res\values-zh-rHK\strings.xml,177,scan_book_source,掃描,Quét,String resource: scan_book_source,Chinese parts: 掃描
+1361,xml_string,app\src\main\res\values-zh-rHK\strings.xml,178,copy_source,拷貝源,Sao chép nguồn,String resource: copy_source,Chinese parts: 拷貝源
+1362,xml_string,app\src\main\res\values-zh-rHK\strings.xml,179,paste_source,粘帖源,Dán nguồn,String resource: paste_source,Chinese parts: 粘帖源
+1363,xml_string,app\src\main\res\values-zh-rHK\strings.xml,180,source_rule_s,源規則説明,Giải thích quy tắc nguồn,String resource: source_rule_s,Chinese parts: 源規則説明
+1364,xml_string,app\src\main\res\values-zh-rHK\strings.xml,181,check_update,檢查更新,Kiểm tra cập nhật,String resource: check_update,Chinese parts: 檢查更新
+1365,xml_string,app\src\main\res\values-zh-rHK\strings.xml,182,camera_scan,掃描 QR Code,Quét mã QR,String resource: camera_scan,Chinese parts: 掃描
+1366,xml_string,app\src\main\res\values-zh-rHK\strings.xml,183,scan_image,掃描本地圖片,Quét ảnh từ thiết bị,String resource: scan_image,Chinese parts: 掃描本地圖片
+1367,xml_string,app\src\main\res\values-zh-rHK\strings.xml,184,rule_summary,規則説明,Giải thích quy tắc,String resource: rule_summary,Chinese parts: 規則説明
+1368,xml_string,app\src\main\res\values-zh-rHK\strings.xml,185,share,分享,Chia sẻ,String resource: share,Chinese parts: 分享
+1369,xml_string,app\src\main\res\values-zh-rHK\strings.xml,186,share_app,應用程式分享,Chia sẻ ứng dụng,String resource: share_app,Chinese parts: 應用程式分享
+1370,xml_string,app\src\main\res\values-zh-rHK\strings.xml,187,flow_sys,跟隨系統,Theo hệ thống,String resource: flow_sys,Chinese parts: 跟隨系統
+1371,xml_string,app\src\main\res\values-zh-rHK\strings.xml,188,add,添加,Thêm,String resource: add,Chinese parts: 添加
+1372,xml_string,app\src\main\res\values-zh-rHK\strings.xml,189,import_book_source,導入書源,Nhập nguồn sách,String resource: import_book_source,Chinese parts: 導入書源
+1373,xml_string,app\src\main\res\values-zh-rHK\strings.xml,190,import_local,本地導入,Nhập từ thiết bị,String resource: import_local,Chinese parts: 本地導入
+1374,xml_string,app\src\main\res\values-zh-rHK\strings.xml,191,import_on_line,網絡導入,Nhập từ web,String resource: import_on_line,Chinese parts: 網絡導入
+1375,xml_string,app\src\main\res\values-zh-rHK\strings.xml,192,replace_rule_title,替換淨化,Quy tắc thay thế,String resource: replace_rule_title,Chinese parts: 替換淨化
+1376,xml_string,app\src\main\res\values-zh-rHK\strings.xml,193,replace_rule_edit,替換規則編輯,Chỉnh sửa quy tắc thay thế,String resource: replace_rule_edit,Chinese parts: 替換規則編輯
+1377,xml_string,app\src\main\res\values-zh-rHK\strings.xml,194,replace_rule,替換規則,Quy tắc thay thế,String resource: replace_rule,Chinese parts: 替換規則
+1378,xml_string,app\src\main\res\values-zh-rHK\strings.xml,195,replace_to,替換為,Thay thế bằng,String resource: replace_to,Chinese parts: 替換為
+1379,xml_string,app\src\main\res\values-zh-rHK\strings.xml,196,img_cover,封面,Ảnh bìa,String resource: img_cover,Chinese parts: 封面
+1380,xml_string,app\src\main\res\values-zh-rHK\strings.xml,197,book,書,Sách,String resource: book,Chinese parts: 書
+1381,xml_string,app\src\main\res\values-zh-rHK\strings.xml,198,volume_key_page,音量鍵翻頁,Lật trang bằng phím âm lượng,String resource: volume_key_page,Chinese parts: 音量鍵翻頁
+1382,xml_string,app\src\main\res\values-zh-rHK\strings.xml,199,mouse_wheel_page,鼠标滚动翻页,Lật trang bằng con lăn chuột,String resource: mouse_wheel_page,Chinese parts: 鼠标滚动翻页
+1383,xml_string,app\src\main\res\values-zh-rHK\strings.xml,200,click_turn_page,點擊翻頁,Chạm để lật trang,String resource: click_turn_page,Chinese parts: 點擊翻頁
+1384,xml_string,app\src\main\res\values-zh-rHK\strings.xml,201,page_anim,翻頁動畫,Hiệu ứng lật trang,String resource: page_anim,Chinese parts: 翻頁動畫
+1385,xml_string,app\src\main\res\values-zh-rHK\strings.xml,202,book_page_anim,翻頁動畫(本書),Hiệu ứng lật trang (sách này),String resource: book_page_anim,"Chinese parts: 翻頁動畫, 本書"
+1386,xml_string,app\src\main\res\values-zh-rHK\strings.xml,203,keep_light,屏幕超時,Giữ màn hình sáng,String resource: keep_light,Chinese parts: 屏幕超時
+1387,xml_string,app\src\main\res\values-zh-rHK\strings.xml,204,back,返回,Quay lại,String resource: back,Chinese parts: 返回
+1388,xml_string,app\src\main\res\values-zh-rHK\strings.xml,205,menu,菜單,Menu,String resource: menu,Chinese parts: 菜單
+1389,xml_string,app\src\main\res\values-zh-rHK\strings.xml,206,adjust,調節,Điều chỉnh,String resource: adjust,Chinese parts: 調節
+1390,xml_string,app\src\main\res\values-zh-rHK\strings.xml,207,scroll_bar,滾動條,Thanh cuộn,String resource: scroll_bar,Chinese parts: 滾動條
+1391,xml_string,app\src\main\res\values-zh-rHK\strings.xml,208,clear_all_content,清除緩存會刪除所有已保存的章節，確認是否清除？,Xóa bộ nhớ đệm sẽ xóa tất cả các chương đã lưu. Bạn có muốn xóa không?,String resource: clear_all_content,"Chinese parts: 清除緩存會刪除所有已保存的章節, 確認是否清除"
+1392,xml_string,app\src\main\res\values-zh-rHK\strings.xml,209,book_source_share_url,書源共享,Chia sẻ nguồn sách,String resource: book_source_share_url,Chinese parts: 書源共享
+1393,xml_string,app\src\main\res\values-zh-rHK\strings.xml,210,replace_rule_summary,規則替換名稱,Tên quy tắc thay thế,String resource: replace_rule_summary,Chinese parts: 規則替換名稱
+1394,xml_string,app\src\main\res\values-zh-rHK\strings.xml,211,replace_rule_invalid,替換規則為空或不滿足正則表達式要求,Quy tắc thay thế trống hoặc không hợp lệ theo biểu thức chính quy.,String resource: replace_rule_invalid,Chinese parts: 替換規則為空或不滿足正則表達式要求
+1395,xml_string,app\src\main\res\values-zh-rHK\strings.xml,212,select_action,選擇操作,Chọn hành động,String resource: select_action,Chinese parts: 選擇操作
+1396,xml_string,app\src\main\res\values-zh-rHK\strings.xml,213,select_all,全選,Chọn tất cả,String resource: select_all,Chinese parts: 全選
+1397,xml_string,app\src\main\res\values-zh-rHK\strings.xml,214,select_all_count,全選 (%1$d/%2$d),Chọn tất cả (%1$d/%2$d),String resource: select_all_count,Chinese parts: 全選
+1398,xml_string,app\src\main\res\values-zh-rHK\strings.xml,215,select_cancel_count,取消全選 (%1$d/%2$d),Bỏ chọn tất cả (%1$d/%2$d),String resource: select_cancel_count,Chinese parts: 取消全選
+1399,xml_string,app\src\main\res\values-zh-rHK\strings.xml,216,dark_theme,深色模式,Chế độ tối,String resource: dark_theme,Chinese parts: 深色模式
+1400,xml_string,app\src\main\res\values-zh-rHK\strings.xml,217,welcome,啟動頁,Màn hình khởi động,String resource: welcome,Chinese parts: 啟動頁

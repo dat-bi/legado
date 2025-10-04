@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+651,xml_string,app\src\main\res\values-zh\strings.xml,677,default2,预设二,,String resource: default2,Chinese parts: 预设二
+652,xml_string,app\src\main\res\values-zh\strings.xml,678,default3,预设三,,String resource: default3,Chinese parts: 预设三
+653,xml_string,app\src\main\res\values-zh\strings.xml,679,title,标题,,String resource: title,Chinese parts: 标题
+654,xml_string,app\src\main\res\values-zh\strings.xml,680,title_left,靠左,,String resource: title_left,Chinese parts: 靠左
+655,xml_string,app\src\main\res\values-zh\strings.xml,681,title_center,居中,,String resource: title_center,Chinese parts: 居中
+656,xml_string,app\src\main\res\values-zh\strings.xml,682,title_hide,隐藏,,String resource: title_hide,Chinese parts: 隐藏
+657,xml_string,app\src\main\res\values-zh\strings.xml,683,add_to_group,加入分组,,String resource: add_to_group,Chinese parts: 加入分组
+658,xml_string,app\src\main\res\values-zh\strings.xml,684,save_image,保存图片,,String resource: save_image,Chinese parts: 保存图片
+659,xml_string,app\src\main\res\values-zh\strings.xml,685,no_default_path,没有默认路径,,String resource: no_default_path,Chinese parts: 没有默认路径
+660,xml_string,app\src\main\res\values-zh\strings.xml,686,change_group,设置分组,,String resource: change_group,Chinese parts: 设置分组
+661,xml_string,app\src\main\res\values-zh\strings.xml,687,view_toc,查看目录,,String resource: view_toc,Chinese parts: 查看目录
+662,xml_string,app\src\main\res\values-zh\strings.xml,688,bar_elevation,导航栏阴影,,String resource: bar_elevation,Chinese parts: 导航栏阴影
+663,xml_string,app\src\main\res\values-zh\strings.xml,689,bar_elevation_s,当前阴影大小（elevation）：%s,,String resource: bar_elevation_s,Chinese parts: 当前阴影大小
+664,xml_string,app\src\main\res\values-zh\strings.xml,690,btn_default_s,默认,,String resource: btn_default_s,Chinese parts: 默认
+665,xml_string,app\src\main\res\values-zh\strings.xml,691,main_menu,主菜单,,String resource: main_menu,Chinese parts: 主菜单
+666,xml_string,app\src\main\res\values-zh\strings.xml,692,request_permission,点击授予权限,,String resource: request_permission,Chinese parts: 点击授予权限
+667,xml_string,app\src\main\res\values-zh\strings.xml,693,tip_local_perm_request_storage,阅读需要访问存储卡权限，请点击下方的“授予权限”按钮，或前往“设置”—“应用权限”，打开所需权限。如果授予权限后仍然不正常，请点击右上角的“选择文件夹”，使用系统文件夹选择器。,,String resource: tip_local_perm_request_storage,"Chinese parts: 阅读需要访问存储卡权限, 请点击下方的, 授予权限, 按钮, 或前往, 设置, 应用权限, 打开所需权限, 如果授予权限后仍然不正常, 请点击右上角的, 选择文件夹, 使用系统文件夹选择器"
+668,xml_string,app\src\main\res\values-zh\strings.xml,694,alouding_disable,全文朗读中不能朗读选中文字,,String resource: alouding_disable,Chinese parts: 全文朗读中不能朗读选中文字
+669,xml_string,app\src\main\res\values-zh\strings.xml,695,read_body_to_lh,扩展到刘海,,String resource: read_body_to_lh,Chinese parts: 扩展到刘海
+670,xml_string,app\src\main\res\values-zh\strings.xml,696,toc_updateing,更新目录中,,String resource: toc_updateing,Chinese parts: 更新目录中
+671,xml_string,app\src\main\res\values-zh\strings.xml,697,media_button_on_exit_title,全程响应耳机按键,,String resource: media_button_on_exit_title,Chinese parts: 全程响应耳机按键
+672,xml_string,app\src\main\res\values-zh\strings.xml,698,media_button_on_exit_summary,即使退出软件也响应耳机按键,,String resource: media_button_on_exit_summary,Chinese parts: 即使退出软件也响应耳机按键
+673,xml_string,app\src\main\res\values-zh\strings.xml,699,contributors,开发人员,,String resource: contributors,Chinese parts: 开发人员
+674,xml_string,app\src\main\res\values-zh\strings.xml,700,contact,联系我们,,String resource: contact,Chinese parts: 联系我们
+675,xml_string,app\src\main\res\values-zh\strings.xml,701,license,开源许可,,String resource: license,Chinese parts: 开源许可
+676,xml_string,app\src\main\res\values-zh\strings.xml,702,other,其它,,String resource: other,Chinese parts: 其它
+677,xml_string,app\src\main\res\values-zh\strings.xml,703,official_account,开源阅读,,String resource: official_account,Chinese parts: 开源阅读
+678,xml_string,app\src\main\res\values-zh\strings.xml,704,follow_official_account,关注公众号,,String resource: follow_official_account,Chinese parts: 关注公众号
+679,xml_string,app\src\main\res\values-zh\strings.xml,705,wechat,微信,,String resource: wechat,Chinese parts: 微信
+680,xml_string,app\src\main\res\values-zh\strings.xml,706,thanks,您的支持是我更新的动力,,String resource: thanks,Chinese parts: 您的支持是我更新的动力
+681,xml_string,app\src\main\res\values-zh\strings.xml,707,about_official_account,公众号【开源阅读】,,String resource: about_official_account,"Chinese parts: 公众号, 开源阅读"
+682,xml_string,app\src\main\res\values-zh\strings.xml,708,source_auto_changing,正在自动换源,,String resource: source_auto_changing,Chinese parts: 正在自动换源
+683,xml_string,app\src\main\res\values-zh\strings.xml,709,click_to_apply,点击加入,,String resource: click_to_apply,Chinese parts: 点击加入
+684,xml_string,app\src\main\res\values-zh\strings.xml,710,middle,中,,String resource: middle,Chinese parts: 中
+685,xml_string,app\src\main\res\values-zh\strings.xml,711,information,信息,,String resource: information,Chinese parts: 信息
+686,xml_string,app\src\main\res\values-zh\strings.xml,712,switchLayout,切换布局,,String resource: switchLayout,Chinese parts: 切换布局
+687,xml_string,app\src\main\res\values-zh\strings.xml,713,text_font_weight_converter,文章字重切换,,String resource: text_font_weight_converter,Chinese parts: 文章字重切换
+688,xml_string,app\src\main\res\values-zh\strings.xml,714,full_screen_gestures_support,全面屏手势优化,,String resource: full_screen_gestures_support,Chinese parts: 全面屏手势优化
+689,xml_string,app\src\main\res\values-zh\strings.xml,715,disable_return_key,禁用返回键,,String resource: disable_return_key,Chinese parts: 禁用返回键
+690,xml_string,app\src\main\res\values-zh\strings.xml,718,primary,主色调,,String resource: primary,Chinese parts: 主色调
+691,xml_string,app\src\main\res\values-zh\strings.xml,719,accent,强调色,,String resource: accent,Chinese parts: 强调色
+692,xml_string,app\src\main\res\values-zh\strings.xml,720,background_color,背景色,,String resource: background_color,Chinese parts: 背景色
+693,xml_string,app\src\main\res\values-zh\strings.xml,721,navbar_color,底部操作栏颜色,,String resource: navbar_color,Chinese parts: 底部操作栏颜色
+694,xml_string,app\src\main\res\values-zh\strings.xml,722,day,白天,,String resource: day,Chinese parts: 白天
+695,xml_string,app\src\main\res\values-zh\strings.xml,723,day_color_primary,白天，主色调,,String resource: day_color_primary,"Chinese parts: 白天, 主色调"
+696,xml_string,app\src\main\res\values-zh\strings.xml,724,day_color_accent,白天，强调色,,String resource: day_color_accent,"Chinese parts: 白天, 强调色"
+697,xml_string,app\src\main\res\values-zh\strings.xml,725,day_background_color,白天，背景色,,String resource: day_background_color,"Chinese parts: 白天, 背景色"
+698,xml_string,app\src\main\res\values-zh\strings.xml,726,day_navbar_color,白天，底栏色,,String resource: day_navbar_color,"Chinese parts: 白天, 底栏色"
+699,xml_string,app\src\main\res\values-zh\strings.xml,727,night,夜间,,String resource: night,Chinese parts: 夜间
+700,xml_string,app\src\main\res\values-zh\strings.xml,728,night_primary,夜间，主色调,,String resource: night_primary,"Chinese parts: 夜间, 主色调"

@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+601,xml_string,app\src\main\res\values-zh\strings.xml,626,importing,正在导入,,String resource: importing,Chinese parts: 正在导入
+602,xml_string,app\src\main\res\values-zh\strings.xml,627,exporting,正在导出,,String resource: exporting,Chinese parts: 正在导出
+603,xml_string,app\src\main\res\values-zh\strings.xml,628,custom_page_key,自定义翻页按键,,String resource: custom_page_key,Chinese parts: 自定义翻页按键
+604,xml_string,app\src\main\res\values-zh\strings.xml,629,prev_page_key,上一页按键,,String resource: prev_page_key,Chinese parts: 上一页按键
+605,xml_string,app\src\main\res\values-zh\strings.xml,630,next_page_key,下一页按键,,String resource: next_page_key,Chinese parts: 下一页按键
+606,xml_string,app\src\main\res\values-zh\strings.xml,631,no_group,未分组,,String resource: no_group,Chinese parts: 未分组
+607,xml_string,app\src\main\res\values-zh\strings.xml,632,prev_sentence,上一句,,String resource: prev_sentence,Chinese parts: 上一句
+608,xml_string,app\src\main\res\values-zh\strings.xml,633,next_sentence,下一句,,String resource: next_sentence,Chinese parts: 下一句
+609,xml_string,app\src\main\res\values-zh\strings.xml,634,other_folder,其它目录,,String resource: other_folder,Chinese parts: 其它目录
+610,xml_string,app\src\main\res\values-zh\strings.xml,635,text_too_long_qr_error,文字太多，生成二维码失败,,String resource: text_too_long_qr_error,"Chinese parts: 文字太多, 生成二维码失败"
+611,xml_string,app\src\main\res\values-zh\strings.xml,636,share_rss_source,分享 RSS 源,,String resource: share_rss_source,"Chinese parts: 分享, 源"
+612,xml_string,app\src\main\res\values-zh\strings.xml,637,share_book_source,分享书源,,String resource: share_book_source,Chinese parts: 分享书源
+613,xml_string,app\src\main\res\values-zh\strings.xml,638,auto_dark_mode,自动切换夜间模式,,String resource: auto_dark_mode,Chinese parts: 自动切换夜间模式
+614,xml_string,app\src\main\res\values-zh\strings.xml,639,auto_dark_mode_s,夜间模式跟随系统,,String resource: auto_dark_mode_s,Chinese parts: 夜间模式跟随系统
+615,xml_string,app\src\main\res\values-zh\strings.xml,640,go_back,上级,,String resource: go_back,Chinese parts: 上级
+616,xml_string,app\src\main\res\values-zh\strings.xml,641,tone_colour,在线朗读音色,,String resource: tone_colour,Chinese parts: 在线朗读音色
+617,xml_string,app\src\main\res\values-zh\strings.xml,643,show_rss,显示订阅,,String resource: show_rss,Chinese parts: 显示订阅
+618,xml_string,app\src\main\res\values-zh\strings.xml,644,service_stop,服务已停止,,String resource: service_stop,Chinese parts: 服务已停止
+619,xml_string,app\src\main\res\values-zh\strings.xml,645,service_start,正在启动服务\n具体信息请查看通知栏,,String resource: service_start,"Chinese parts: 正在启动服务, 具体信息请查看通知栏"
+620,xml_string,app\src\main\res\values-zh\strings.xml,646,default_path,默认路径,,String resource: default_path,Chinese parts: 默认路径
+621,xml_string,app\src\main\res\values-zh\strings.xml,647,sys_folder_picker,系统文件夹选择器,,String resource: sys_folder_picker,Chinese parts: 系统文件夹选择器
+622,xml_string,app\src\main\res\values-zh\strings.xml,648,app_folder_picker,自带文件夹选择器,,String resource: app_folder_picker,Chinese parts: 自带文件夹选择器
+623,xml_string,app\src\main\res\values-zh\strings.xml,649,app_file_picker,自带文件选择器,,String resource: app_file_picker,Chinese parts: 自带文件选择器
+624,xml_string,app\src\main\res\values-zh\strings.xml,650,a10_permission_toast,Android 10 以上因系统权限限制可能无法读写文件,,String resource: a10_permission_toast,Chinese parts: 以上因系统权限限制可能无法读写文件
+625,xml_string,app\src\main\res\values-zh\strings.xml,651,add_to_text_context_menu_s,长按文字在操作菜单中显示阅读·搜索,,String resource: add_to_text_context_menu_s,"Chinese parts: 长按文字在操作菜单中显示阅读, 搜索"
+626,xml_string,app\src\main\res\values-zh\strings.xml,652,add_to_text_context_menu_t,文字操作显示搜索,,String resource: add_to_text_context_menu_t,Chinese parts: 文字操作显示搜索
+627,xml_string,app\src\main\res\values-zh\strings.xml,653,record_log,记录日志,,String resource: record_log,Chinese parts: 记录日志
+628,xml_string,app\src\main\res\values-zh\strings.xml,654,log,日志,,String resource: log,Chinese parts: 日志
+629,xml_string,app\src\main\res\values-zh\strings.xml,655,chinese_converter,中文简繁体转换,,String resource: chinese_converter,Chinese parts: 中文简繁体转换
+630,xml_string,app\src\main\res\values-zh\strings.xml,656,change_icon_error,图标为矢量图标，Android 8.0 以前不支持,,String resource: change_icon_error,"Chinese parts: 图标为矢量图标, 以前不支持"
+631,xml_string,app\src\main\res\values-zh\strings.xml,657,aloud_config,朗读设置,,String resource: aloud_config,Chinese parts: 朗读设置
+632,xml_string,app\src\main\res\values-zh\strings.xml,658,main_activity,主界面,,String resource: main_activity,Chinese parts: 主界面
+633,xml_string,app\src\main\res\values-zh\strings.xml,659,selectText,长按选择文本,,String resource: selectText,Chinese parts: 长按选择文本
+634,xml_string,app\src\main\res\values-zh\strings.xml,660,header,页眉,,String resource: header,Chinese parts: 页眉
+635,xml_string,app\src\main\res\values-zh\strings.xml,661,main_body,正文,,String resource: main_body,Chinese parts: 正文
+636,xml_string,app\src\main\res\values-zh\strings.xml,662,footer,页脚,,String resource: footer,Chinese parts: 页脚
+637,xml_string,app\src\main\res\values-zh\strings.xml,663,select_end,文本选择结束位置,,String resource: select_end,Chinese parts: 文本选择结束位置
+638,xml_string,app\src\main\res\values-zh\strings.xml,664,select_start,文本选择开始位置,,String resource: select_start,Chinese parts: 文本选择开始位置
+639,xml_string,app\src\main\res\values-zh\strings.xml,665,share_layout,共用布局,,String resource: share_layout,Chinese parts: 共用布局
+640,xml_string,app\src\main\res\values-zh\strings.xml,666,browser,浏览器,,String resource: browser,Chinese parts: 浏览器
+641,xml_string,app\src\main\res\values-zh\strings.xml,667,import_default_rule,导入默认规则,,String resource: import_default_rule,Chinese parts: 导入默认规则
+642,xml_string,app\src\main\res\values-zh\strings.xml,668,name,名称,,String resource: name,Chinese parts: 名称
+643,xml_string,app\src\main\res\values-zh\strings.xml,669,regex,正则,,String resource: regex,Chinese parts: 正则
+644,xml_string,app\src\main\res\values-zh\strings.xml,670,more_menu,更多菜单,,String resource: more_menu,Chinese parts: 更多菜单
+645,xml_string,app\src\main\res\values-zh\strings.xml,671,reduce,减,,String resource: reduce,Chinese parts: 减
+646,xml_string,app\src\main\res\values-zh\strings.xml,672,plus,加,,String resource: plus,Chinese parts: 加
+647,xml_string,app\src\main\res\values-zh\strings.xml,673,system_typeface,系统内置字体样式,,String resource: system_typeface,Chinese parts: 系统内置字体样式
+648,xml_string,app\src\main\res\values-zh\strings.xml,674,delete_book_file,删除源文件,,String resource: delete_book_file,Chinese parts: 删除源文件
+649,xml_string,app\src\main\res\values-zh\strings.xml,675,text_default,默认,,String resource: text_default,Chinese parts: 默认
+650,xml_string,app\src\main\res\values-zh\strings.xml,676,default1,预设一,,String resource: default1,Chinese parts: 预设一

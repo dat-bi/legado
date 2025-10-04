@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3001,xml_string,app\src\main\res\values-zh-rTW\strings.xml,649,chinese_converter,中文簡繁體轉換,,String resource: chinese_converter,Chinese parts: 中文簡繁體轉換
+3002,xml_string,app\src\main\res\values-zh-rTW\strings.xml,650,change_icon_error,圖示為向量圖示，Android8.0以前不支援,,String resource: change_icon_error,"Chinese parts: 圖示為向量圖示, 以前不支援"
+3003,xml_string,app\src\main\res\values-zh-rTW\strings.xml,651,aloud_config,朗讀設定,,String resource: aloud_config,Chinese parts: 朗讀設定
+3004,xml_string,app\src\main\res\values-zh-rTW\strings.xml,652,main_activity,主介面,,String resource: main_activity,Chinese parts: 主介面
+3005,xml_string,app\src\main\res\values-zh-rTW\strings.xml,653,selectText,長按選擇文字,,String resource: selectText,Chinese parts: 長按選擇文字
+3006,xml_string,app\src\main\res\values-zh-rTW\strings.xml,654,header,頁首,,String resource: header,Chinese parts: 頁首
+3007,xml_string,app\src\main\res\values-zh-rTW\strings.xml,655,main_body,正文,,String resource: main_body,Chinese parts: 正文
+3008,xml_string,app\src\main\res\values-zh-rTW\strings.xml,656,footer,頁尾,,String resource: footer,Chinese parts: 頁尾
+3009,xml_string,app\src\main\res\values-zh-rTW\strings.xml,657,select_end,文字選擇結束位置,,String resource: select_end,Chinese parts: 文字選擇結束位置
+3010,xml_string,app\src\main\res\values-zh-rTW\strings.xml,658,select_start,文字選擇開始位置,,String resource: select_start,Chinese parts: 文字選擇開始位置
+3011,xml_string,app\src\main\res\values-zh-rTW\strings.xml,659,share_layout,共用布局,,String resource: share_layout,Chinese parts: 共用布局
+3012,xml_string,app\src\main\res\values-zh-rTW\strings.xml,660,browser,瀏覽器,,String resource: browser,Chinese parts: 瀏覽器
+3013,xml_string,app\src\main\res\values-zh-rTW\strings.xml,661,import_default_rule,匯入預設規則,,String resource: import_default_rule,Chinese parts: 匯入預設規則
+3014,xml_string,app\src\main\res\values-zh-rTW\strings.xml,662,name,名稱,,String resource: name,Chinese parts: 名稱
+3015,xml_string,app\src\main\res\values-zh-rTW\strings.xml,663,regex,正則,,String resource: regex,Chinese parts: 正則
+3016,xml_string,app\src\main\res\values-zh-rTW\strings.xml,664,more_menu,更多選單,,String resource: more_menu,Chinese parts: 更多選單
+3017,xml_string,app\src\main\res\values-zh-rTW\strings.xml,665,reduce,減,,String resource: reduce,Chinese parts: 減
+3018,xml_string,app\src\main\res\values-zh-rTW\strings.xml,666,plus,加,,String resource: plus,Chinese parts: 加
+3019,xml_string,app\src\main\res\values-zh-rTW\strings.xml,667,system_typeface,系統內建字體樣式,,String resource: system_typeface,Chinese parts: 系統內建字體樣式
+3020,xml_string,app\src\main\res\values-zh-rTW\strings.xml,668,delete_book_file,刪除來源文件,,String resource: delete_book_file,Chinese parts: 刪除來源文件
+3021,xml_string,app\src\main\res\values-zh-rTW\strings.xml,669,text_default,默认,,String resource: text_default,Chinese parts: 默认
+3022,xml_string,app\src\main\res\values-zh-rTW\strings.xml,670,default1,預設一,,String resource: default1,Chinese parts: 預設一
+3023,xml_string,app\src\main\res\values-zh-rTW\strings.xml,671,default2,預設二,,String resource: default2,Chinese parts: 預設二
+3024,xml_string,app\src\main\res\values-zh-rTW\strings.xml,672,default3,預設三,,String resource: default3,Chinese parts: 預設三
+3025,xml_string,app\src\main\res\values-zh-rTW\strings.xml,673,title,標題,,String resource: title,Chinese parts: 標題
+3026,xml_string,app\src\main\res\values-zh-rTW\strings.xml,674,title_left,靠左,,String resource: title_left,Chinese parts: 靠左
+3027,xml_string,app\src\main\res\values-zh-rTW\strings.xml,675,title_center,居中,,String resource: title_center,Chinese parts: 居中
+3028,xml_string,app\src\main\res\values-zh-rTW\strings.xml,676,title_hide,隱藏,,String resource: title_hide,Chinese parts: 隱藏
+3029,xml_string,app\src\main\res\values-zh-rTW\strings.xml,677,add_to_group,加入分組,,String resource: add_to_group,Chinese parts: 加入分組
+3030,xml_string,app\src\main\res\values-zh-rTW\strings.xml,678,save_image,儲存圖片,,String resource: save_image,Chinese parts: 儲存圖片
+3031,xml_string,app\src\main\res\values-zh-rTW\strings.xml,679,no_default_path,沒有預設路徑,,String resource: no_default_path,Chinese parts: 沒有預設路徑
+3032,xml_string,app\src\main\res\values-zh-rTW\strings.xml,680,change_group,設定分組,,String resource: change_group,Chinese parts: 設定分組
+3033,xml_string,app\src\main\res\values-zh-rTW\strings.xml,681,view_toc,查看目錄,,String resource: view_toc,Chinese parts: 查看目錄
+3034,xml_string,app\src\main\res\values-zh-rTW\strings.xml,682,bar_elevation,導航欄陰影,,String resource: bar_elevation,Chinese parts: 導航欄陰影
+3035,xml_string,app\src\main\res\values-zh-rTW\strings.xml,683,bar_elevation_s,目前陰影大小(elevation)：%s,,String resource: bar_elevation_s,Chinese parts: 目前陰影大小
+3036,xml_string,app\src\main\res\values-zh-rTW\strings.xml,684,btn_default_s,預設,,String resource: btn_default_s,Chinese parts: 預設
+3037,xml_string,app\src\main\res\values-zh-rTW\strings.xml,685,main_menu,主選單,,String resource: main_menu,Chinese parts: 主選單
+3038,xml_string,app\src\main\res\values-zh-rTW\strings.xml,686,request_permission,點擊授予權限,,String resource: request_permission,Chinese parts: 點擊授予權限
+3039,xml_string,app\src\main\res\values-zh-rTW\strings.xml,687,tip_local_perm_request_storage,"閱讀需要存取記憶卡權限，請點擊下方的""授予權限""按鈕，或前往「設定」—「應用權限」—打開所需權限。如果授予權限後仍然不正常，請點擊右上角的「選擇資料夾」，使用系統資料夾選擇器。",,String resource: tip_local_perm_request_storage,"Chinese parts: 閱讀需要存取記憶卡權限, 請點擊下方的, 授予權限, 按鈕, 或前往, 設定, 應用權限, 打開所需權限, 如果授予權限後仍然不正常, 請點擊右上角的, 選擇資料夾, 使用系統資料夾選擇器"
+3040,xml_string,app\src\main\res\values-zh-rTW\strings.xml,688,alouding_disable,全文朗讀中不能朗讀選中文字,,String resource: alouding_disable,Chinese parts: 全文朗讀中不能朗讀選中文字
+3041,xml_string,app\src\main\res\values-zh-rTW\strings.xml,689,read_body_to_lh,擴展到瀏海,,String resource: read_body_to_lh,Chinese parts: 擴展到瀏海
+3042,xml_string,app\src\main\res\values-zh-rTW\strings.xml,690,toc_updateing,更新目錄中,,String resource: toc_updateing,Chinese parts: 更新目錄中
+3043,xml_string,app\src\main\res\values-zh-rTW\strings.xml,691,media_button_on_exit_title,全程響應耳機按鍵,,String resource: media_button_on_exit_title,Chinese parts: 全程響應耳機按鍵
+3044,xml_string,app\src\main\res\values-zh-rTW\strings.xml,692,media_button_on_exit_summary,即使退出軟體也響應耳機按鍵,,String resource: media_button_on_exit_summary,Chinese parts: 即使退出軟體也響應耳機按鍵
+3045,xml_string,app\src\main\res\values-zh-rTW\strings.xml,693,contributors,開發人員,,String resource: contributors,Chinese parts: 開發人員
+3046,xml_string,app\src\main\res\values-zh-rTW\strings.xml,694,contact,聯繫我們,,String resource: contact,Chinese parts: 聯繫我們
+3047,xml_string,app\src\main\res\values-zh-rTW\strings.xml,695,license,開源許可,,String resource: license,Chinese parts: 開源許可
+3048,xml_string,app\src\main\res\values-zh-rTW\strings.xml,696,other,其它,,String resource: other,Chinese parts: 其它
+3049,xml_string,app\src\main\res\values-zh-rTW\strings.xml,698,follow_official_account,關注公眾號,,String resource: follow_official_account,Chinese parts: 關注公眾號
+3050,xml_string,app\src\main\res\values-zh-rTW\strings.xml,699,wechat,微信,,String resource: wechat,Chinese parts: 微信

@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4401,source_code,app\src\main\java\io\legado\app\ui\file\HandleFileActivity.kt,235,,添加手动输入选项,Thêm tùy chọn nhập thủ công,"string.manual_input), 112) // 添加手动输入选项",Chinese parts: 添加手动输入选项
+4402,source_code,app\src\main\java\io\legado\app\ui\file\HandleFileActivity.kt,241,,添加手动输入选项,Thêm tùy chọn nhập thủ công,"string.manual_input), 112) // 添加手动输入选项",Chinese parts: 添加手动输入选项
+4403,source_code,app\src\main\java\io\legado\app\ui\file\HandleFileViewModel.kt,29,,上传文件失败,Tải lên tệp thất bại,"AppLog.put(""上传文件失败\n${it.localizedMessage}"", it)",Chinese parts: 上传文件失败
+4404,source_code,app\src\main\java\io\legado\app\ui\font\FontAdapter.kt,49,,读取字体,Đọc phông chữ,"AppLog.put(""读取字体 ${item.name} 出错\n${it.localiz",Chinese parts: 读取字体
+4405,source_code,app\src\main\java\io\legado\app\ui\font\FontAdapter.kt,49,,出错,Xảy ra lỗi,"AppLog.put(""读取字体 ${item.name} 出错\n${it.localizedMessage}"", it,",Chinese parts: 出错
+4406,source_code,app\src\main\java\io\legado\app\ui\font\FontSelectDialog.kt,163,,加载字体文件失败,Tải tệp phông chữ thất bại,"AppLog.put(""加载字体文件失败\n${it.localizedMessage}"", it)",Chinese parts: 加载字体文件失败
+4407,source_code,app\src\main\java\io\legado\app\ui\login\SourceLoginDialog.kt,181,,登录出错,Đăng nhập bị lỗi,"AppLog.put(""登录出错\n${e.localizedMessage}"", e)",Chinese parts: 登录出错
+4408,source_code,app\src\main\java\io\legado\app\ui\login\SourceLoginDialog.kt,182,,登录出错,Đăng nhập bị lỗi,"context?.toastOnUi(""登录出错\n${e.localizedMessage}"")",Chinese parts: 登录出错
+4409,source_code,app\src\main\java\io\legado\app\ui\login\SourceLoginViewModel.kt,21,,没有参数,Không có tham số,"throw NoStackTraceException(""没有参数"")",Chinese parts: 没有参数
+4410,source_code,app\src\main\java\io\legado\app\ui\login\SourceLoginViewModel.kt,35,,未找到书源,Không tìm thấy nguồn sách,"context.toastOnUi(""未找到书源"")",Chinese parts: 未找到书源
+4411,source_code,app\src\main\java\io\legado\app\ui\login\SourceLoginViewModel.kt,39,,登录,Đăng nhập,"AppLog.put(""登录 UI 初始化失败\n$it"", it, true)",Chinese parts: 登录
+4412,source_code,app\src\main\java\io\legado\app\ui\login\SourceLoginViewModel.kt,39,,初始化失败,Khởi tạo thất bại,"AppLog.put(""登录 UI 初始化失败\n$it"", it, true)",Chinese parts: 初始化失败
+4413,source_code,app\src\main\java\io\legado\app\ui\main\MainActivity.kt,293,,检测到阅读发生了崩溃,Phát hiện ứng dụng đọc sách bị sự cố,"rt(getString(R.string.draw), ""检测到阅读发生了崩溃，是否打开崩溃日志以便报告问题？"") {",Chinese parts: 检测到阅读发生了崩溃
+4414,source_code,app\src\main\java\io\legado\app\ui\main\MainActivity.kt,293,,是否打开崩溃日志以便报告问题,Mở nhật ký sự cố để báo cáo vấn đề?,"g(R.string.draw), ""检测到阅读发生了崩溃，是否打开崩溃日志以便报告问题？"") {",Chinese parts: 是否打开崩溃日志以便报告问题
+4415,source_code,app\src\main\java\io\legado\app\ui\main\MainViewModel.kt,142,,更新目录出错,Cập nhật mục lục bị lỗi,"AppLog.put(""更新目录出错\n${it.localizedMessage}"", it)",Chinese parts: 更新目录出错
+4416,source_code,app\src\main\java\io\legado\app\ui\main\MainViewModel.kt,178,,更新目录失败,Cập nhật mục lục thất bại,"AppLog.put(""${book.name} 更新目录失败\n${it.localizedMessage}"", it)",Chinese parts: 更新目录失败
+4417,source_code,app\src\main\java\io\legado\app\ui\replace\ReplaceRuleActivity.kt,225,,替换规则管理界面更新数据出错,Cập nhật dữ liệu giao diện quản lý quy tắc thay thế bị lỗi,"AppLog.put(""替换规则管理界面更新数据出错"", it)",Chinese parts: 替换规则管理界面更新数据出错
+4418,source_code,app\src\main\java\io\legado\app\ui\widget\ShadowLayout.kt,60,,关闭硬件加速,Tắt tăng tốc phần cứng,"LAYER_TYPE_SOFTWARE, null) // 关闭硬件加速",Chinese parts: 关闭硬件加速
+4419,source_code,app\src\main\java\io\legado\app\ui\widget\ShadowLayout.kt,61,,调用此方法后,Sau khi gọi phương thức này,,setWillNotDraw(false) // 调用此方法后，才会执行 onDraw(Canvas) 方法,Chinese parts: 调用此方法后
+4420,source_code,app\src\main\java\io\legado\app\ui\widget\ShadowLayout.kt,61,,才会执行,mới thực thi,,tWillNotDraw(false) // 调用此方法后，才会执行 onDraw(Canvas) 方法,Chinese parts: 才会执行
+4421,source_code,app\src\main\java\io\legado\app\ui\widget\ShadowLayout.kt,61,,方法,phương thức,,// 调用此方法后，才会执行 onDraw(Canvas) 方法,Chinese parts: 方法
+4422,source_code,app\src\main\java\io\legado\app\ui\widget\dialog\TextDialog.kt,94,,数据太大,Dữ liệu quá lớn,"ubstring(0, 32 * 1024) + ""\n\n数据太大，无法全部显示…""",Chinese parts: 数据太大
+4423,source_code,app\src\main\java\io\legado\app\ui\widget\dialog\TextDialog.kt,94,,无法全部显示,Không thể hiển thị toàn bộ,"ing(0, 32 * 1024) + ""\n\n数据太大，无法全部显示…""",Chinese parts: 无法全部显示
+4424,source_code,app\src\main\java\io\legado\app\ui\widget\image\CoverImageView.kt,218,,自动识别,Tự động nhận diện,"der.load(context, path)//Glide自动识别http://,content://和file://",Chinese parts: 自动识别
+4425,source_code,app\src\main\java\io\legado\app\ui\widget\image\CoverImageView.kt,218,,和,và,"")//Glide自动识别http://,content://和file://",Chinese parts: 和
+4426,source_code,app\src\main\java\io\legado\app\ui\widget\keyboard\KeyboardAssistsConfig.kt,80,,辅助按键配置获取数据失败,Lấy dữ liệu cấu hình phím hỗ trợ thất bại,"AppLog.put(""辅助按键配置获取数据失败\n${it.localizedMessage}"", it)",Chinese parts: 辅助按键配置获取数据失败
+4427,source_code,app\src\main\java\io\legado\app\ui\widget\keyboard\KeyboardAssistsConfig.kt,96,,辅助按键,Phím hỗ trợ,"setTitle(""辅助按键"")",Chinese parts: 辅助按键
+4428,source_code,app\src\main\java\io\legado\app\ui\widget\keyboard\KeyboardToolPop.kt,58,,解决遮盖输入法,Khắc phục che khuất bàn phím ảo,dMode = INPUT_METHOD_NEEDED //解决遮盖输入法,Chinese parts: 解决遮盖输入法
+4429,source_code,app\src\main\java\io\legado\app\ui\widget\keyboard\KeyboardToolPop.kt,76,,输入法的高度,Chiều cao bàn phím ảo,screenHeight - rect.bottom // 输入法的高度,Chinese parts: 输入法的高度
+4430,source_code,app\src\main\java\io\legado\app\ui\widget\keyboard\KeyboardToolPop.kt,79,,超过屏幕五分之一则表示弹出了输入法,Vượt quá 1/5 màn hình có nghĩa là bàn phím ảo đã bật,SoftKeyBoardShowing = true // 超过屏幕五分之一则表示弹出了输入法,Chinese parts: 超过屏幕五分之一则表示弹出了输入法
+4431,source_code,app\src\main\java\io\legado\app\ui\widget\keyboard\KeyboardToolPop.kt,109,,键盘帮助浮窗获取数据失败,Lấy dữ liệu cửa sổ nổi trợ giúp bàn phím thất bại,"AppLog.put(""键盘帮助浮窗获取数据失败\n${it.localizedMessage}"", it)",Chinese parts: 键盘帮助浮窗获取数据失败
+4432,source_code,app\src\main\java\io\legado\app\ui\widget\recycler\ItemTouchCallback.kt,65,,如果是横向的布局,Nếu là bố cục ngang,LayoutManager.HORIZONTAL) {// 如果是横向的布局,Chinese parts: 如果是横向的布局
+4433,source_code,app\src\main\java\io\legado\app\ui\widget\recycler\ItemTouchCallback.kt,68,,如果是竖向的布局,Nếu là bố cục dọc,arLayoutManager.VERTICAL) {// 如果是竖向的布局，相当于ListView,Chinese parts: 如果是竖向的布局
+4434,source_code,app\src\main\java\io\legado\app\ui\widget\recycler\ItemTouchCallback.kt,68,,相当于,tương đương với,anager.VERTICAL) {// 如果是竖向的布局，相当于ListView,Chinese parts: 相当于
+4435,source_code,app\src\main\java\io\legado\app\ui\widget\recycler\LoadMoreView.kt,80,,点击查看详情,Nhấn để xem chi tiết,"ing(R.string.error_load_msg, ""点击查看详情"") }",Chinese parts: 点击查看详情
+4436,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,47,,因为默认模式是,Vì chế độ mặc định là,private var mRotate = 45 //因为默认模式是1，所以这时是45度,Chinese parts: 因为默认模式是
+4437,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,47,,所以这时是,nên lúc này là,e var mRotate = 45 //因为默认模式是1，所以这时是45度,Chinese parts: 所以这时是
+4438,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,47,,度,độ,Rotate = 45 //因为默认模式是1，所以这时是45度,Chinese parts: 度
+4439,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,57,,默认红色,Mặc định màu đỏ,) //默认红色,Chinese parts: 默认红色
+4440,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,101,,标签,Nhãn,"width must equal to height"" //标签view 是一个正方形，",Chinese parts: 标签
+4441,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,101,,是一个正方形,là một hình vuông,"ust equal to height"" //标签view 是一个正方形，",Chinese parts: 是一个正方形
+4442,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,105,,没有铺满的时候,Khi không lấp đầy,mCorner = 0 //没有铺满的时候mCorner要归零；,Chinese parts: 没有铺满的时候
+4443,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,105,,要归零,cần về 0,mCorner = 0 //没有铺满的时候mCorner要归零；,Chinese parts: 要归零
+4444,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,164,,基线中间点的,của điểm giữa đường cơ sở,aint.ascent())).toInt() / 2 //基线中间点的y轴计算公式,Chinese parts: 基线中间点的
+4445,source_code,app\src\main\java\io\legado\app\ui\widget\text\BevelLabelView.kt,164,,轴计算公式,công thức tính trục,cent())).toInt() / 2 //基线中间点的y轴计算公式,Chinese parts: 轴计算公式
+4446,source_code,app\src\main\java\io\legado\app\ui\rss\article\RssArticlesFragment.kt,115,,订阅文章界面获取数据失败,Lấy dữ liệu giao diện bài viết đã đăng ký thất bại,"AppLog.put(""订阅文章界面获取数据失败\n${it.localizedMessage}"", it)",Chinese parts: 订阅文章界面获取数据失败
+4447,source_code,app\src\main\java\io\legado\app\ui\rss\article\RssArticlesViewModel.kt,53,,获取内容失败,Lấy nội dung thất bại,"AppLog.put(""rss获取内容失败"", it)",Chinese parts: 获取内容失败
+4448,source_code,app\src\main\java\io\legado\app\ui\rss\article\RssArticlesViewModel.kt,72,,获取内容失败,Lấy nội dung thất bại,"AppLog.put(""rss获取内容失败"", it)",Chinese parts: 获取内容失败
+4449,source_code,app\src\main\java\io\legado\app\ui\rss\article\RssSortActivity.kt,120,,源不存在,Nguồn không tồn tại,"toastOnUi(""源不存在"")",Chinese parts: 源不存在
+4450,source_code,app\src\main\java\io\legado\app\ui\rss\article\RssSortActivity.kt,124,,源变量可在,Biến nguồn có thể ở,"ce.getDisplayVariableComment(""源变量可在js中通过source.getVariable()获取"")",Chinese parts: 源变量可在

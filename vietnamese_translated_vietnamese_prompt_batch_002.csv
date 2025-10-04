@@ -1,0 +1,41 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+51,xml_string,app\src\main\res\values-zh\strings.xml,59,layout_list,列表,Danh sách,String resource: layout_list,Chinese parts: 列表
+52,xml_string,app\src\main\res\values-zh\strings.xml,60,layout_grid3,网格三列,Lưới 3 cột,String resource: layout_grid3,Chinese parts: 网格三列
+53,xml_string,app\src\main\res\values-zh\strings.xml,61,layout_grid4,网格四列,Lưới 4 cột,String resource: layout_grid4,Chinese parts: 网格四列
+54,xml_string,app\src\main\res\values-zh\strings.xml,62,layout_grid5,网格五列,Lưới 5 cột,String resource: layout_grid5,Chinese parts: 网格五列
+55,xml_string,app\src\main\res\values-zh\strings.xml,63,layout_grid6,网格六列,Lưới 6 cột,String resource: layout_grid6,Chinese parts: 网格六列
+56,xml_string,app\src\main\res\values-zh\strings.xml,64,bookshelf_layout,书架布局,Bố cục Kệ sách,String resource: bookshelf_layout,Chinese parts: 书架布局
+57,xml_string,app\src\main\res\values-zh\strings.xml,65,view,视图,Chế độ xem,String resource: view,Chinese parts: 视图
+58,xml_string,app\src\main\res\values-zh\strings.xml,66,book_library,书城,Kho sách,String resource: book_library,Chinese parts: 书城
+59,xml_string,app\src\main\res\values-zh\strings.xml,67,book_local,添加本地,Thêm sách local,String resource: book_local,Chinese parts: 添加本地
+60,xml_string,app\src\main\res\values-zh\strings.xml,68,book_source,书源,Nguồn sách,String resource: book_source,Chinese parts: 书源
+61,xml_string,app\src\main\res\values-zh\strings.xml,69,book_source_manage,书源管理,Quản lý Nguồn sách,String resource: book_source_manage,Chinese parts: 书源管理
+62,xml_string,app\src\main\res\values-zh\strings.xml,70,book_source_manage_desc,新建、导入、编辑或管理书源,Tạo mới, nhập, chỉnh sửa hoặc quản lý nguồn sách,String resource: book_source_manage_desc,"Chinese parts: 新建, 导入, 编辑或管理书源"
+63,xml_string,app\src\main\res\values-zh\strings.xml,71,setting,设置,Cài đặt,String resource: setting,Chinese parts: 设置
+64,xml_string,app\src\main\res\values-zh\strings.xml,72,theme_setting,主题设置,Cài đặt Giao diện,String resource: theme_setting,Chinese parts: 主题设置
+65,xml_string,app\src\main\res\values-zh\strings.xml,73,theme_setting_s,与界面/颜色相关的一些设置,Các cài đặt liên quan đến giao diện, màu sắc,String resource: theme_setting_s,"Chinese parts: 与界面, 颜色相关的一些设置"
+66,xml_string,app\src\main\res\values-zh\strings.xml,74,other_setting,其它设置,Cài đặt khác,String resource: other_setting,Chinese parts: 其它设置
+67,xml_string,app\src\main\res\values-zh\strings.xml,75,other_setting_s,与功能相关的一些设置,Các cài đặt liên quan đến tính năng,String resource: other_setting_s,Chinese parts: 与功能相关的一些设置
+68,xml_string,app\src\main\res\values-zh\strings.xml,76,about,关于,Giới thiệu,String resource: about,Chinese parts: 关于
+69,xml_string,app\src\main\res\values-zh\strings.xml,77,donate,捐赠,Ủng hộ,String resource: donate,Chinese parts: 捐赠
+70,xml_string,app\src\main\res\values-zh\strings.xml,78,exit,退出,Thoát,String resource: exit,Chinese parts: 退出
+71,xml_string,app\src\main\res\values-zh\strings.xml,79,exit_no_save,尚未保存，是否继续编辑,Chưa lưu. Tiếp tục chỉnh sửa?,String resource: exit_no_save,"Chinese parts: 尚未保存, 是否继续编辑"
+72,xml_string,app\src\main\res\values-zh\strings.xml,80,read_style,阅读样式设置,Cài đặt giao diện đọc,String resource: read_style,Chinese parts: 阅读样式设置
+73,xml_string,app\src\main\res\values-zh\strings.xml,81,version,版本,Phiên bản,String resource: version,Chinese parts: 版本
+74,xml_string,app\src\main\res\values-zh\strings.xml,82,local,本地,Local,String resource: local,Chinese parts: 本地
+75,xml_string,app\src\main\res\values-zh\strings.xml,83,search,搜索,Tìm kiếm,String resource: search,Chinese parts: 搜索
+76,xml_string,app\src\main\res\values-zh\strings.xml,84,origin_format,来源：%s,Nguồn: %s,String resource: origin_format,Chinese parts: 来源
+77,xml_string,app\src\main\res\values-zh\strings.xml,85,read_dur_progress,最近：%s,Gần đây: %s,String resource: read_dur_progress,Chinese parts: 最近
+78,xml_string,app\src\main\res\values-zh\strings.xml,86,book_name,书名,Tên sách,String resource: book_name,Chinese parts: 书名
+79,xml_string,app\src\main\res\values-zh\strings.xml,87,lasted_show,最新：%s,Mới nhất: %s,String resource: lasted_show,Chinese parts: 最新
+80,xml_string,app\src\main\res\values-zh\strings.xml,88,check_add_bookshelf,是否将《%s》放入书架？,Thêm «%s» vào kệ sách?,String resource: check_add_bookshelf,"Chinese parts: 是否将, 放入书架"
+81,xml_string,app\src\main\res\values-zh\strings.xml,89,import_books_count,共 %s 个文本文件,Tổng cộng %s tệp văn bản,String resource: import_books_count,"Chinese parts: 共, 个文本文件"
+82,xml_string,app\src\main\res\values-zh\strings.xml,90,is_loading,加载中…,Đang tải…,String resource: is_loading,Chinese parts: 加载中
+83,xml_string,app\src\main\res\values-zh\strings.xml,91,retry,重试,Thử lại,String resource: retry,Chinese parts: 重试
+84,xml_string,app\src\main\res\values-zh\strings.xml,92,web_service,Web 服务,Dịch vụ Web,String resource: web_service,Chinese parts: 服务
+85,xml_string,app\src\main\res\values-zh\strings.xml,93,web_service_desc,用浏览器写源或看书,Dùng trình duyệt để sửa nguồn hoặc đọc sách,String resource: web_service_desc,Chinese parts: 用浏览器写源或看书
+86,xml_string,app\src\main\res\values-zh\strings.xml,94,web_edit_source,Web 编辑书源,Chỉnh sửa nguồn sách qua Web,String resource: web_edit_source,Chinese parts: 编辑书源
+87,xml_string,app\src\main\res\values-zh\strings.xml,95,offline_cache,离线缓存,Lưu ngoại tuyến,String resource: offline_cache,Chinese parts: 离线缓存
+88,xml_string,app\src\main\res\values-zh\strings.xml,96,offline_cache_t,离线缓存,Lưu ngoại tuyến,String resource: offline_cache_t,Chinese parts: 离线缓存
+89,xml_string,app\src\main\res\values-zh\strings.xml,97,offline_cache_s,缓存选择的章节到本地,Tải về các chương đã chọn,String resource: offline_cache_s,Chinese parts: 缓存选择的章节到本地
+90,xml_string,app\src\main\res\values-zh\strings.xml,98,change_origin,换源,Đổi nguồn sách,String resource: change_origin,Chinese parts: 换源

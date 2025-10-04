@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5151,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,267,,处理后,Sau khi xử lý,/*部分书籍DRM处理后，封面获取异常，待优化*/,Chinese parts: 处理后
+5152,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,267,,封面获取异常,Lỗi lấy ảnh bìa,/*部分书籍DRM处理后，封面获取异常，待优化*/,Chinese parts: 封面获取异常
+5153,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,267,,待优化,Cần tối ưu,/*部分书籍DRM处理后，封面获取异常，待优化*/,Chinese parts: 待优化
+5154,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,274,,封面获取为空,Không tìm thấy ảnh bìa,"} ?: AppLog.putDebug(""Epub: 封面获取为空. path: ${book.bookUrl}"")",Chinese parts: 封面获取为空
+5155,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,277,,加载书籍封面失败,Tải ảnh bìa sách thất bại,"AppLog.put(""加载书籍封面失败\n${e.localizedMessage}"", e)",Chinese parts: 加载书籍封面失败
+5156,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,285,,书籍导入异常,Lỗi nhập sách,"book.intro = ""书籍导入异常""",Chinese parts: 书籍导入异常
+5157,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,339,,封面,Ảnh bìa,"chapter.title = ""封面""",Chinese parts: 封面
+5158,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,358,,获取书籍起始页内容,Lấy nội dung trang đầu sách,/*获取书籍起始页内容。部分书籍第一章之前存在封面，引言，扉页等内容*/,Chinese parts: 获取书籍起始页内容
+5159,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,358,,部分书籍第一章之前存在封面,Một số sách có ảnh bìa trước chương đầu,/*获取书籍起始页内容。部分书籍第一章之前存在封面，引言，扉页等内容*/,Chinese parts: 部分书籍第一章之前存在封面
+5160,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,358,,引言,Lời giới thiệu,/*获取书籍起始页内容。部分书籍第一章之前存在封面，引言，扉页等内容*/,Chinese parts: 引言
+5161,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,358,,扉页等内容,Trang tựa và các nội dung khác,/*获取书籍起始页内容。部分书籍第一章之前存在封面，引言，扉页等内容*/,Chinese parts: 扉页等内容
+5162,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,359,,获取不同书籍风格杂乱,Định dạng nội dung sách không đồng nhất,/*tile获取不同书籍风格杂乱，格式化处理待优化*/,Chinese parts: 获取不同书籍风格杂乱
+5163,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,359,,格式化处理待优化,Cần tối ưu định dạng,/*tile获取不同书籍风格杂乱，格式化处理待优化*/,Chinese parts: 格式化处理待优化
+5164,source_code,app\src\main\java\io\legado\app\model\localBook\EpubFile.kt,392,,卷首,Lời mở đầu,"""--卷首--""",Chinese parts: 卷首
+5165,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,71,,作者,Tác giả,"rn.compile(""(.*?)《([^《》]+)》.*?作者：(.*)""),",Chinese parts: 作者
+5166,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,73,,作者,Tác giả,"Pattern.compile(""(^)(.+) 作者：(.+)$""),",Chinese parts: 作者
+5167,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,101,,文件不存在,Tệp không tồn tại,"otFoundException(""${uri.path} 文件不存在"")",Chinese parts: 文件不存在
+5168,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,114,,文件不存在,Tệp không tồn tại,"otFoundException(""${uri.path} 文件不存在"")",Chinese parts: 文件不存在
+5169,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,148,,无标题章节,Chương không có tiêu đề,"bookChapter.title = ""无标题章节""",Chinese parts: 无标题章节
+5170,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,187,,获取本地书籍内容失败,Lấy nội dung sách cục bộ thất bại,"AppLog.put(""获取本地书籍内容失败\n${e.localizedMessage}"", e)",Chinese parts: 获取本地书籍内容失败
+5171,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,188,,获取本地书籍内容失败,Lấy nội dung sách cục bộ thất bại,"""获取本地书籍内容失败\n${e.localizedMessage}""",Chinese parts: 获取本地书籍内容失败
+5172,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,273,,导入压缩包内的书籍,Nhập sách từ tệp nén,/* 导入压缩包内的书籍 */,Chinese parts: 导入压缩包内的书籍
+5173,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,296,,批量导入,Nhập hàng loạt,/* 批量导入 支持自动导入压缩包的支持书籍 */,Chinese parts: 批量导入
+5174,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,296,,支持自动导入压缩包的支持书籍,Hỗ trợ tự động nhập sách từ tệp nén,/* 批量导入 支持自动导入压缩包的支持书籍 */,Chinese parts: 支持自动导入压缩包的支持书籍
+5175,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,357,,执行导入文件名规则出错,Lỗi khi thực thi quy tắc tên tệp nhập,"AppLog.put(""执行导入文件名规则出错\n${e.localizedMessage}"", e)",Chinese parts: 执行导入文件名规则出错
+5176,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,417,,在线导入书籍支持,Hỗ trợ nhập sách trực tuyến,"throw NoStackTraceException(""在线导入书籍支持http/https/DataURL"")",Chinese parts: 在线导入书籍支持
+5177,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,436,,请重新设置书籍保存位置,Vui lòng đặt lại vị trí lưu sách,"?: throw SecurityException(""请重新设置书籍保存位置\nPermission Denial"")",Chinese parts: 请重新设置书籍保存位置
+5178,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,451,,请重新设置书籍保存位置,Vui lòng đặt lại vị trí lưu sách,"throw SecurityException(""请重新设置书籍保存位置\nPermission Denial\n$e"").appl",Chinese parts: 请重新设置书籍保存位置
+5179,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,513,,自动下载,Tự động tải về,"AppLog.put(""自动下载webDav书籍失败"", e)",Chinese parts: 自动下载
+5180,source_code,app\src\main\java\io\legado\app\model\localBook\LocalBook.kt,513,,书籍失败,Tải sách thất bại,"AppLog.put(""自动下载webDav书籍失败"", e)",Chinese parts: 书籍失败
+5181,source_code,app\src\main\java\io\legado\app\model\localBook\MobiFile.kt,85,,读取,Đọc,"AppLog.put(""读取Mobi文件失败\n${it.localizedMessag",Chinese parts: 读取
+5182,source_code,app\src\main\java\io\legado\app\model\localBook\MobiFile.kt,85,,文件失败,Đọc tệp thất bại,"AppLog.put(""读取Mobi文件失败\n${it.localizedMessage}"", it)",Chinese parts: 文件失败
+5183,source_code,app\src\main\java\io\legado\app\model\localBook\MobiFile.kt,108,,卷首,Lời mở đầu,"(""title"").first()?.text() ?: ""卷首""",Chinese parts: 卷首
+5184,source_code,app\src\main\java\io\legado\app\model\localBook\MobiFile.kt,149,,卷首,Lời mở đầu,"(""title"").first()?.text() ?: ""卷首""",Chinese parts: 卷首
+5185,source_code,app\src\main\java\io\legado\app\model\localBook\MobiFile.kt,293,,加载书籍封面失败,Tải ảnh bìa sách thất bại,"AppLog.put(""加载书籍封面失败\n${e.localizedMessage}"", e)",Chinese parts: 加载书籍封面失败
+5186,source_code,app\src\main\java\io\legado\app\model\localBook\MobiFile.kt,301,,书籍导入异常,Lỗi nhập sách,"book.intro = ""书籍导入异常""",Chinese parts: 书籍导入异常
+5187,source_code,app\src\main\java\io\legado\app\model\localBook\PdfFile.kt,186,,分段,Phân đoạn,"chapter.title = ""分段_${it}""",Chinese parts: 分段
+5188,source_code,app\src\main\java\io\legado\app\model\localBook\PdfFile.kt,210,,加载书籍封面失败,Tải ảnh bìa sách thất bại,"AppLog.put(""加载书籍封面失败\n${e.localizedMessage}"", e)",Chinese parts: 加载书籍封面失败
+5189,source_code,app\src\main\java\io\legado\app\model\localBook\PdfFile.kt,218,,书籍导入异常,Lỗi nhập sách,"book.intro = ""书籍导入异常""",Chinese parts: 书籍导入异常
+5190,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,123,,章节内容在缓冲区交界处,Nội dung chương tại ranh giới bộ đệm,/** 章节内容在缓冲区交界处 */,Chinese parts: 章节内容在缓冲区交界处
+5191,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,129,,章节内容在缓冲区内,Nội dung chương trong bộ đệm,/** 章节内容在缓冲区内 */,Chinese parts: 章节内容在缓冲区内
+5192,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,190,,获取匹配到的字符在字符串中的起始位置,Lấy vị trí bắt đầu của ký tự khớp trong chuỗi,while (matcher.find()) { //获取匹配到的字符在字符串中的起始位置,Chinese parts: 获取匹配到的字符在字符串中的起始位置
+5193,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,226,,如果当前没有章节,Nếu hiện tại không có chương nào,if (toc.isEmpty()) { //如果当前没有章节，那么就是序章,Chinese parts: 如果当前没有章节
+5194,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,226,,那么就是序章,thì đó là chương mở đầu,(toc.isEmpty()) { //如果当前没有章节，那么就是序章,Chinese parts: 那么就是序章
+5195,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,230,,前言,Lời nói đầu,"qyChapter.title = ""前言""",Chinese parts: 前言
+5196,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,248,,否则就,Nếu không thì,} else { //否则就block分割之后，上一个章节的剩余内容,Chinese parts: 否则就
+5197,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,248,,分割之后,sau khi phân tách,} else { //否则就block分割之后，上一个章节的剩余内容,Chinese parts: 分割之后
+5198,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,248,,上一个章节的剩余内容,nội dung còn lại của chương trước,} else { //否则就block分割之后，上一个章节的剩余内容,Chinese parts: 上一个章节的剩余内容
+5199,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,268,,获取章节内容,Lấy nội dung chương,if (toc.isNotEmpty()) { //获取章节内容,Chinese parts: 获取章节内容
+5200,source_code,app\src\main\java\io\legado\app\model\localBook\TextFile.kt,283,,如果章节不存在则创建章节,Nếu chương không tồn tại thì tạo chương mới,} else { //如果章节不存在则创建章节,Chinese parts: 如果章节不存在则创建章节

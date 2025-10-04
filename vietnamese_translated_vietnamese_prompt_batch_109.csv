@@ -1,0 +1,44 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5401,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,290,,当前引号跟随内容的状态,Trạng thái nội dung theo sau dấu ngoặc kép hiện tại,var loop2Mod2: Int //当前引号跟随内容的状态,Chinese parts: 当前引号跟随内容的状态
+5402,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,292,,当前引号前一字符的序号,Chỉ số của ký tự trước dấu ngoặc kép hiện tại,var j = arrayQuote[0] - 1 //当前引号前一字符的序号,Chinese parts: 当前引号前一字符的序号
+5403,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,331,,的地得,Địa Đích Đắc,"if (match(""的地得"", str[start])) {",Chinese parts: 的地得
+5404,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,584,,搜寻引号并进行分段,Tìm kiếm dấu ngoặc kép và phân đoạn,/* 搜寻引号并进行分段。处理了一、二、五三类常见情况,Chinese parts: 搜寻引号并进行分段
+5405,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,584,,处理了一,Đã xử lý loại một,/* 搜寻引号并进行分段。处理了一、二、五三类常见情况,Chinese parts: 处理了一
+5406,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,584,,二,Loại hai,/* 搜寻引号并进行分段。处理了一、二、五三类常见情况,Chinese parts: 二
+5407,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,584,,五三类常见情况,Ba loại trường hợp phổ biến (loại năm),/* 搜寻引号并进行分段。处理了一、二、五三类常见情况,Chinese parts: 五三类常见情况
+5408,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,585,,参照百科词条,Tham khảo mục từ bách khoa,参照百科词条[引号#应用示例](https://baike.baidu.,Chinese parts: 参照百科词条
+5409,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,585,,引号,Dấu ngoặc kép,参照百科词条[引号#应用示例](https://baike.baidu.com,Chinese parts: 引号
+5410,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,585,,应用示例,Ví dụ ứng dụng,参照百科词条[引号#应用示例](https://baike.baidu.com/item,Chinese parts: 应用示例
+5411,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,585,,对引号内容进行矫正并分句,Hiệu chỉnh nội dung trong dấu ngoặc kép và phân câu,/%E5%BC%95%E5%8F%B7/998963?#5)对引号内容进行矫正并分句。,Chinese parts: 对引号内容进行矫正并分句
+5412,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,586,,一,Một,一、完整引用说话内容，在反引号内侧有断句标点。例如：,Chinese parts: 一
+5413,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,586,,完整引用说话内容,Trích dẫn đầy đủ nội dung lời nói,一、完整引用说话内容，在反引号内侧有断句标点。例如：,Chinese parts: 完整引用说话内容
+5414,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,586,,在反引号内侧有断句标点,Có dấu ngắt câu bên trong dấu ngoặc kép,一、完整引用说话内容，在反引号内侧有断句标点。例如：,Chinese parts: 在反引号内侧有断句标点
+5415,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,586,,例如,Ví dụ,一、完整引用说话内容，在反引号内侧有断句标点。例如：,Chinese parts: 例如
+5416,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,587,,丫姑折断几枝扔下来,Dì bẻ vài cành ném xuống,1) 丫姑折断几枝扔下来，边叫我的小名儿边说：“先喂饱你！”,Chinese parts: 丫姑折断几枝扔下来
+5417,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,587,,边叫我的小名儿边说,Vừa gọi tên thân mật của tôi vừa nói,1) 丫姑折断几枝扔下来，边叫我的小名儿边说：“先喂饱你！”,Chinese parts: 边叫我的小名儿边说
+5418,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,587,,先喂饱你,Cho con ăn no trước đã!,1) 丫姑折断几枝扔下来，边叫我的小名儿边说：“先喂饱你！”,Chinese parts: 先喂饱你
+5419,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,588,,哎呀,Ôi chao,2）“哎呀，真是美极了！”皇帝说，“我十分满意！”,Chinese parts: 哎呀
+5420,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,588,,真是美极了,Thật là đẹp tuyệt vời!,2）“哎呀，真是美极了！”皇帝说，“我十分满意！”,Chinese parts: 真是美极了
+5421,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,588,,皇帝说,Hoàng đế nói,2）“哎呀，真是美极了！”皇帝说，“我十分满意！”,Chinese parts: 皇帝说
+5422,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,588,,我十分满意,Ta rất hài lòng,2）“哎呀，真是美极了！”皇帝说，“我十分满意！”,Chinese parts: 我十分满意
+5423,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,589,,怕什么,Sợ gì chứ!,3）“怕什么！海的美就在这里！”我说道。,Chinese parts: 怕什么
+5424,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,589,,海的美就在这里,Cái đẹp của biển chính là ở đây!,3）“怕什么！海的美就在这里！”我说道。,Chinese parts: 海的美就在这里
+5425,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,589,,我说道,Tôi nói,3）“怕什么！海的美就在这里！”我说道。,Chinese parts: 我说道
+5426,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,590,,二,Hai,二、部分引用，在反引号外侧有断句标点：,Chinese parts: 二
+5427,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,590,,部分引用,Trích dẫn một phần,二、部分引用，在反引号外侧有断句标点：,Chinese parts: 部分引用
+5428,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,590,,在反引号外侧有断句标点,Có dấu ngắt câu bên ngoài dấu ngoặc kép,二、部分引用，在反引号外侧有断句标点：,Chinese parts: 在反引号外侧有断句标点
+5429,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,591,,适当地改善自己的生活,Cải thiện cuộc sống của mình một cách thích đáng,4）适当地改善自己的生活，岂但“你管得着吗”，而且是顺乎天理，合乎人情的。,Chinese parts: 适当地改善自己的生活
+5430,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,591,,岂但,Há chỉ,4）适当地改善自己的生活，岂但“你管得着吗”，而且是顺乎天理，合乎人情的。,Chinese parts: 岂但
+5431,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,591,,你管得着吗,Anh có quyền quản sao?,4）适当地改善自己的生活，岂但“你管得着吗”，而且是顺乎天理，合乎人情的。,Chinese parts: 你管得着吗
+5432,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,591,,而且是顺乎天理,Mà còn thuận theo lẽ trời,4）适当地改善自己的生活，岂但“你管得着吗”，而且是顺乎天理，合乎人情的。,Chinese parts: 而且是顺乎天理
+5433,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,591,,合乎人情的,Hợp tình người,）适当地改善自己的生活，岂但“你管得着吗”，而且是顺乎天理，合乎人情的。,Chinese parts: 合乎人情的
+5434,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,592,,现代画家徐悲鸿笔下的马,Ngựa trong tranh của họa sĩ hiện đại Từ Bi Hồng,5）现代画家徐悲鸿笔下的马，正如有的评论家所说的那样，“形神兼备，充满生机”。,Chinese parts: 现代画家徐悲鸿笔下的马
+5435,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,592,,正如有的评论家所说的那样,Đúng như một số nhà phê bình đã nói,5）现代画家徐悲鸿笔下的马，正如有的评论家所说的那样，“形神兼备，充满生机”。,Chinese parts: 正如有的评论家所说的那样
+5436,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,592,,形神兼备,Hình thần đều vẹn toàn,5）现代画家徐悲鸿笔下的马，正如有的评论家所说的那样，“形神兼备，充满生机”。,Chinese parts: 形神兼备
+5437,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,592,,充满生机,Tràn đầy sức sống,代画家徐悲鸿笔下的马，正如有的评论家所说的那样，“形神兼备，充满生机”。,Chinese parts: 充满生机
+5438,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,593,,唐朝的张嘉贞说它,Trương Gia Trinh đời Đường nói rằng nó,6）唐朝的张嘉贞说它“制造奇特，人不知其所为”。,Chinese parts: 唐朝的张嘉贞说它
+5439,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,593,,制造奇特,Chế tạo kỳ lạ,6）唐朝的张嘉贞说它“制造奇特，人不知其所为”。,Chinese parts: 制造奇特
+5440,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,593,,人不知其所为,Người ta không biết nó làm gì,6）唐朝的张嘉贞说它“制造奇特，人不知其所为”。,Chinese parts: 人不知其所为
+5441,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,594,,三,Ba,三、一段接着一段地直接引用时，中间段落只在段首用起引号，该段段,Chinese parts: 三
+5442,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,594,,一段接着一段地直接引用时,Khi trích dẫn trực tiếp từng đoạn nối tiếp nhau,三、一段接着一段地直接引用时，中间段落只在段首用起引号，该段段尾却不用引回号。但是正统文,Chinese parts: 一段接着一段地直接引用时
+5443,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,594,,中间段落只在段首用起引号,Các đoạn giữa chỉ dùng dấu ngoặc kép mở ở đầu đoạn,三、一段接着一段地直接引用时，中间段落只在段首用起引号，该段段尾却不用引回号。但是正统文学不在考虑范围内。,Chinese parts: 中间段落只在段首用起引号

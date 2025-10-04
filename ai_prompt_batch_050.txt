@@ -1,0 +1,79 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2451,xml_string,app\src\main\res\values-zh-rTW\strings.xml,81,book_name,書名,,String resource: book_name,Chinese parts: 書名
+2452,xml_string,app\src\main\res\values-zh-rTW\strings.xml,82,lasted_show,最新：%s,,String resource: lasted_show,Chinese parts: 最新
+2453,xml_string,app\src\main\res\values-zh-rTW\strings.xml,83,check_add_bookshelf,是否將《%s》放入書架？,,String resource: check_add_bookshelf,"Chinese parts: 是否將, 放入書架"
+2454,xml_string,app\src\main\res\values-zh-rTW\strings.xml,84,import_books_count,共%s個Text文件,,String resource: import_books_count,"Chinese parts: 共, 個, 文件"
+2455,xml_string,app\src\main\res\values-zh-rTW\strings.xml,85,is_loading,載入中…,,String resource: is_loading,Chinese parts: 載入中
+2456,xml_string,app\src\main\res\values-zh-rTW\strings.xml,86,retry,重試,,String resource: retry,Chinese parts: 重試
+2457,xml_string,app\src\main\res\values-zh-rTW\strings.xml,87,web_service,Web 服務,,String resource: web_service,Chinese parts: 服務
+2458,xml_string,app\src\main\res\values-zh-rTW\strings.xml,88,web_service_desc,瀏覽器寫源、看書,,String resource: web_service_desc,"Chinese parts: 瀏覽器寫源, 看書"
+2459,xml_string,app\src\main\res\values-zh-rTW\strings.xml,89,web_edit_source,web編輯書源,,String resource: web_edit_source,Chinese parts: 編輯書源
+2460,xml_string,app\src\main\res\values-zh-rTW\strings.xml,90,offline_cache,離線快取,,String resource: offline_cache,Chinese parts: 離線快取
+2461,xml_string,app\src\main\res\values-zh-rTW\strings.xml,91,offline_cache_t,離線快取,,String resource: offline_cache_t,Chinese parts: 離線快取
+2462,xml_string,app\src\main\res\values-zh-rTW\strings.xml,92,offline_cache_s,快取選擇的章節到本機,,String resource: offline_cache_s,Chinese parts: 快取選擇的章節到本機
+2463,xml_string,app\src\main\res\values-zh-rTW\strings.xml,93,change_origin,換源,,String resource: change_origin,Chinese parts: 換源
+2464,xml_string,app\src\main\res\values-zh-rTW\strings.xml,94,about_description,"
+        \u3000\u3000這是一款使用Kotlin全新開發的開源的閱讀軟體，歡迎您的加入。
+    ",,String resource: about_description,"Chinese parts: 這是一款使用, 全新開發的開源的閱讀軟體, 歡迎您的加入"
+2465,xml_string,app\src\main\res\values-zh-rTW\strings.xml,97,app_share_description,"
+        閱讀3.0下載網址：\nhttps://github.com/gedoor/legado/releases
+    ",,String resource: app_share_description,"Chinese parts: 閱讀, 下載網址"
+2466,xml_string,app\src\main\res\values-zh-rTW\strings.xml,101,pt_background_verification,後臺校驗書源,,String resource: pt_background_verification,Chinese parts: 後臺校驗書源
+2467,xml_string,app\src\main\res\values-zh-rTW\strings.xml,102,ps_background_verification,打開後可以在校驗書源時自由操作,,String resource: ps_background_verification,Chinese parts: 打開後可以在校驗書源時自由操作
+2468,xml_string,app\src\main\res\values-zh-rTW\strings.xml,103,pt_auto_refresh,自動重新整理,,String resource: pt_auto_refresh,Chinese parts: 自動重新整理
+2469,xml_string,app\src\main\res\values-zh-rTW\strings.xml,104,ps_auto_refresh,打開軟體時自動更新書籍,,String resource: ps_auto_refresh,Chinese parts: 打開軟體時自動更新書籍
+2470,xml_string,app\src\main\res\values-zh-rTW\strings.xml,105,pt_auto_download,自動下載最新章節,,String resource: pt_auto_download,Chinese parts: 自動下載最新章節
+2471,xml_string,app\src\main\res\values-zh-rTW\strings.xml,106,ps_auto_download,更新書籍時自動下載最新章節,,String resource: ps_auto_download,Chinese parts: 更新書籍時自動下載最新章節
+2472,xml_string,app\src\main\res\values-zh-rTW\strings.xml,107,backup_restore,備份與復原,,String resource: backup_restore,Chinese parts: 備份與復原
+2473,xml_string,app\src\main\res\values-zh-rTW\strings.xml,108,web_dav_set,WebDav設定,,String resource: web_dav_set,Chinese parts: 設定
+2474,xml_string,app\src\main\res\values-zh-rTW\strings.xml,109,web_dav_set_import_old,WebDav設定/匯入舊版本資料,,String resource: web_dav_set_import_old,"Chinese parts: 設定, 匯入舊版本資料"
+2475,xml_string,app\src\main\res\values-zh-rTW\strings.xml,110,backup,備份,,String resource: backup,Chinese parts: 備份
+2476,xml_string,app\src\main\res\values-zh-rTW\strings.xml,111,restore,復原,,String resource: restore,Chinese parts: 復原
+2477,xml_string,app\src\main\res\values-zh-rTW\strings.xml,112,backup_permission,備份請給予儲存權限,,String resource: backup_permission,Chinese parts: 備份請給予儲存權限
+2478,xml_string,app\src\main\res\values-zh-rTW\strings.xml,113,restore_permission,復原請給予儲存權限,,String resource: restore_permission,Chinese parts: 復原請給予儲存權限
+2479,xml_string,app\src\main\res\values-zh-rTW\strings.xml,114,ok,確認,,String resource: ok,Chinese parts: 確認
+2480,xml_string,app\src\main\res\values-zh-rTW\strings.xml,115,cancel,取消,,String resource: cancel,Chinese parts: 取消
+2481,xml_string,app\src\main\res\values-zh-rTW\strings.xml,116,backup_confirmation,確認備份嗎？,,String resource: backup_confirmation,Chinese parts: 確認備份嗎
+2482,xml_string,app\src\main\res\values-zh-rTW\strings.xml,117,backup_message,新備份會取代原有備份。\n備份資料夾YueDu,,String resource: backup_message,"Chinese parts: 新備份會取代原有備份, 備份資料夾"
+2483,xml_string,app\src\main\res\values-zh-rTW\strings.xml,118,restore_confirmation,確認復原嗎？,,String resource: restore_confirmation,Chinese parts: 確認復原嗎
+2484,xml_string,app\src\main\res\values-zh-rTW\strings.xml,119,restore_message,復原書架會覆蓋現有書架。,,String resource: restore_message,Chinese parts: 復原書架會覆蓋現有書架
+2485,xml_string,app\src\main\res\values-zh-rTW\strings.xml,120,backup_success,備份成功,,String resource: backup_success,Chinese parts: 備份成功
+2486,xml_string,app\src\main\res\values-zh-rTW\strings.xml,121,backup_fail,備份失敗\n%s,,String resource: backup_fail,Chinese parts: 備份失敗
+2487,xml_string,app\src\main\res\values-zh-rTW\strings.xml,122,on_restore,正在復原,,String resource: on_restore,Chinese parts: 正在復原
+2488,xml_string,app\src\main\res\values-zh-rTW\strings.xml,123,restore_success,復原成功,,String resource: restore_success,Chinese parts: 復原成功
+2489,xml_string,app\src\main\res\values-zh-rTW\strings.xml,124,restore_fail,復原失敗,,String resource: restore_fail,Chinese parts: 復原失敗
+2490,xml_string,app\src\main\res\values-zh-rTW\strings.xml,125,screen_direction,螢幕方向,,String resource: screen_direction,Chinese parts: 螢幕方向
+2491,xml_string,app\src\main\res\values-zh-rTW\strings.xml,126,screen_sensor,跟隨感測器,,String resource: screen_sensor,Chinese parts: 跟隨感測器
+2492,xml_string,app\src\main\res\values-zh-rTW\strings.xml,127,screen_landscape,橫向,,String resource: screen_landscape,Chinese parts: 橫向
+2493,xml_string,app\src\main\res\values-zh-rTW\strings.xml,128,screen_portrait,豎向,,String resource: screen_portrait,Chinese parts: 豎向
+2494,xml_string,app\src\main\res\values-zh-rTW\strings.xml,129,screen_unspecified,跟隨系統,,String resource: screen_unspecified,Chinese parts: 跟隨系統
+2495,xml_string,app\src\main\res\values-zh-rTW\strings.xml,130,disclaimer,免責聲明,,String resource: disclaimer,Chinese parts: 免責聲明
+2496,xml_string,app\src\main\res\values-zh-rTW\strings.xml,131,all_chapter_num,共%d章,,String resource: all_chapter_num,"Chinese parts: 共, 章"
+2497,xml_string,app\src\main\res\values-zh-rTW\strings.xml,132,interface_setting,介面,,String resource: interface_setting,Chinese parts: 介面
+2498,xml_string,app\src\main\res\values-zh-rTW\strings.xml,133,brightness,亮度,,String resource: brightness,Chinese parts: 亮度
+2499,xml_string,app\src\main\res\values-zh-rTW\strings.xml,134,chapter_list,目錄,,String resource: chapter_list,Chinese parts: 目錄
+2500,xml_string,app\src\main\res\values-zh-rTW\strings.xml,135,next_chapter,下一章,,String resource: next_chapter,Chinese parts: 下一章

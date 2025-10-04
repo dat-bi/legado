@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+1301,xml_string,app\src\main\res\values-zh-rHK\strings.xml,118,backup_success,備份成功,,String resource: backup_success,Chinese parts: 備份成功
+1302,xml_string,app\src\main\res\values-zh-rHK\strings.xml,119,backup_fail,備份失敗\n%s,,String resource: backup_fail,Chinese parts: 備份失敗
+1303,xml_string,app\src\main\res\values-zh-rHK\strings.xml,120,on_restore,正在還原,,String resource: on_restore,Chinese parts: 正在還原
+1304,xml_string,app\src\main\res\values-zh-rHK\strings.xml,121,restore_success,還原成功,,String resource: restore_success,Chinese parts: 還原成功
+1305,xml_string,app\src\main\res\values-zh-rHK\strings.xml,122,restore_fail,還原失敗,,String resource: restore_fail,Chinese parts: 還原失敗
+1306,xml_string,app\src\main\res\values-zh-rHK\strings.xml,123,screen_direction,屏幕方向,,String resource: screen_direction,Chinese parts: 屏幕方向
+1307,xml_string,app\src\main\res\values-zh-rHK\strings.xml,124,screen_sensor,跟隨傳感器,,String resource: screen_sensor,Chinese parts: 跟隨傳感器
+1308,xml_string,app\src\main\res\values-zh-rHK\strings.xml,125,screen_landscape,橫向,,String resource: screen_landscape,Chinese parts: 橫向
+1309,xml_string,app\src\main\res\values-zh-rHK\strings.xml,126,screen_portrait,豎向,,String resource: screen_portrait,Chinese parts: 豎向
+1310,xml_string,app\src\main\res\values-zh-rHK\strings.xml,127,screen_unspecified,跟隨系統,,String resource: screen_unspecified,Chinese parts: 跟隨系統
+1311,xml_string,app\src\main\res\values-zh-rHK\strings.xml,128,disclaimer,免責聲明,,String resource: disclaimer,Chinese parts: 免責聲明
+1312,xml_string,app\src\main\res\values-zh-rHK\strings.xml,129,all_chapter_num,共%d章,,String resource: all_chapter_num,"Chinese parts: 共, 章"
+1313,xml_string,app\src\main\res\values-zh-rHK\strings.xml,130,interface_setting,介面,,String resource: interface_setting,Chinese parts: 介面
+1314,xml_string,app\src\main\res\values-zh-rHK\strings.xml,131,brightness,亮度,,String resource: brightness,Chinese parts: 亮度
+1315,xml_string,app\src\main\res\values-zh-rHK\strings.xml,132,chapter_list,目錄,,String resource: chapter_list,Chinese parts: 目錄
+1316,xml_string,app\src\main\res\values-zh-rHK\strings.xml,133,next_chapter,下一章,,String resource: next_chapter,Chinese parts: 下一章
+1317,xml_string,app\src\main\res\values-zh-rHK\strings.xml,134,previous_chapter,上一章,,String resource: previous_chapter,Chinese parts: 上一章
+1318,xml_string,app\src\main\res\values-zh-rHK\strings.xml,135,pt_hide_status_bar,隱藏狀態欄,,String resource: pt_hide_status_bar,Chinese parts: 隱藏狀態欄
+1319,xml_string,app\src\main\res\values-zh-rHK\strings.xml,136,ps_hide_status_bar,閲讀介面隱藏狀態欄,,String resource: ps_hide_status_bar,Chinese parts: 閲讀介面隱藏狀態欄
+1320,xml_string,app\src\main\res\values-zh-rHK\strings.xml,137,read_aloud,朗讀,,String resource: read_aloud,Chinese parts: 朗讀
+1321,xml_string,app\src\main\res\values-zh-rHK\strings.xml,138,read_aloud_t,正在朗讀,,String resource: read_aloud_t,Chinese parts: 正在朗讀
+1322,xml_string,app\src\main\res\values-zh-rHK\strings.xml,139,read_aloud_s,點擊打開閲讀介面,,String resource: read_aloud_s,Chinese parts: 點擊打開閲讀介面
+1323,xml_string,app\src\main\res\values-zh-rHK\strings.xml,140,audio_play,播放,,String resource: audio_play,Chinese parts: 播放
+1324,xml_string,app\src\main\res\values-zh-rHK\strings.xml,141,audio_play_t,正在播放,,String resource: audio_play_t,Chinese parts: 正在播放
+1325,xml_string,app\src\main\res\values-zh-rHK\strings.xml,142,audio_play_s,點擊打開播放介面,,String resource: audio_play_s,Chinese parts: 點擊打開播放介面
+1326,xml_string,app\src\main\res\values-zh-rHK\strings.xml,143,audio_pause,播放暫停,,String resource: audio_pause,Chinese parts: 播放暫停
+1327,xml_string,app\src\main\res\values-zh-rHK\strings.xml,144,text_return,返回,,String resource: text_return,Chinese parts: 返回
+1328,xml_string,app\src\main\res\values-zh-rHK\strings.xml,145,refresh,刷新,,String resource: refresh,Chinese parts: 刷新
+1329,xml_string,app\src\main\res\values-zh-rHK\strings.xml,146,start,開始,,String resource: start,Chinese parts: 開始
+1330,xml_string,app\src\main\res\values-zh-rHK\strings.xml,147,stop,停止,,String resource: stop,Chinese parts: 停止
+1331,xml_string,app\src\main\res\values-zh-rHK\strings.xml,148,pause,暫停,,String resource: pause,Chinese parts: 暫停
+1332,xml_string,app\src\main\res\values-zh-rHK\strings.xml,149,resume,繼續,,String resource: resume,Chinese parts: 繼續
+1333,xml_string,app\src\main\res\values-zh-rHK\strings.xml,150,set_timer,定時,,String resource: set_timer,Chinese parts: 定時
+1334,xml_string,app\src\main\res\values-zh-rHK\strings.xml,151,read_aloud_pause,朗讀暫停,,String resource: read_aloud_pause,Chinese parts: 朗讀暫停
+1335,xml_string,app\src\main\res\values-zh-rHK\strings.xml,152,read_aloud_timer,讀緊（剩餘 %d 分鐘）,,String resource: read_aloud_timer,"Chinese parts: 讀緊, 剩餘, 分鐘"
+1336,xml_string,app\src\main\res\values-zh-rHK\strings.xml,153,playing_timer,播緊（剩餘 %d 分鐘）,,String resource: playing_timer,"Chinese parts: 播緊, 剩餘, 分鐘"
+1337,xml_string,app\src\main\res\values-zh-rHK\strings.xml,154,ps_hide_navigation_bar,閲讀介面隱藏導航欄,,String resource: ps_hide_navigation_bar,Chinese parts: 閲讀介面隱藏導航欄
+1338,xml_string,app\src\main\res\values-zh-rHK\strings.xml,155,pt_hide_navigation_bar,隱藏導航欄,,String resource: pt_hide_navigation_bar,Chinese parts: 隱藏導航欄
+1339,xml_string,app\src\main\res\values-zh-rHK\strings.xml,156,re_navigation_bar_color,導航欄顏色,,String resource: re_navigation_bar_color,Chinese parts: 導航欄顏色
+1340,xml_string,app\src\main\res\values-zh-rHK\strings.xml,157,scoring,評分,,String resource: scoring,Chinese parts: 評分
+1341,xml_string,app\src\main\res\values-zh-rHK\strings.xml,158,send_mail,發送電子郵件,,String resource: send_mail,Chinese parts: 發送電子郵件
+1342,xml_string,app\src\main\res\values-zh-rHK\strings.xml,159,can_not_open,無法打開,,String resource: can_not_open,Chinese parts: 無法打開
+1343,xml_string,app\src\main\res\values-zh-rHK\strings.xml,160,can_not_share,分享失敗,,String resource: can_not_share,Chinese parts: 分享失敗
+1344,xml_string,app\src\main\res\values-zh-rHK\strings.xml,161,no_chapter,無章節,,String resource: no_chapter,Chinese parts: 無章節
+1345,xml_string,app\src\main\res\values-zh-rHK\strings.xml,162,add_url,添加網址,,String resource: add_url,Chinese parts: 添加網址
+1346,xml_string,app\src\main\res\values-zh-rHK\strings.xml,163,add_book_url,添加書輯網址,,String resource: add_book_url,Chinese parts: 添加書輯網址
+1347,xml_string,app\src\main\res\values-zh-rHK\strings.xml,164,background,背景,,String resource: background,Chinese parts: 背景
+1348,xml_string,app\src\main\res\values-zh-rHK\strings.xml,165,author,作者,,String resource: author,Chinese parts: 作者
+1349,xml_string,app\src\main\res\values-zh-rHK\strings.xml,166,author_show,作者: %s,,String resource: author_show,Chinese parts: 作者
+1350,xml_string,app\src\main\res\values-zh-rHK\strings.xml,167,aloud_stop,朗讀停止,,String resource: aloud_stop,Chinese parts: 朗讀停止

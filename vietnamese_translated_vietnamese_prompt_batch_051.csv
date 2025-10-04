@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2501,xml_string,app\src\main\res\values-zh-rTW\strings.xml,136,previous_chapter,上一章,Chương trước,String resource: previous_chapter,Chinese parts: 上一章
+2502,xml_string,app\src\main\res\values-zh-rTW\strings.xml,137,pt_hide_status_bar,隱藏狀態欄,Ẩn thanh trạng thái,String resource: pt_hide_status_bar,Chinese parts: 隱藏狀態欄
+2503,xml_string,app\src\main\res\values-zh-rTW\strings.xml,138,ps_hide_status_bar,閱讀介面隱藏狀態欄,Ẩn thanh trạng thái trong giao diện đọc sách,String resource: ps_hide_status_bar,Chinese parts: 閱讀介面隱藏狀態欄
+2504,xml_string,app\src\main\res\values-zh-rTW\strings.xml,139,read_aloud,朗讀,Đọc to,String resource: read_aloud,Chinese parts: 朗讀
+2505,xml_string,app\src\main\res\values-zh-rTW\strings.xml,140,read_aloud_t,正在朗讀,Đang đọc to,String resource: read_aloud_t,Chinese parts: 正在朗讀
+2506,xml_string,app\src\main\res\values-zh-rTW\strings.xml,141,read_aloud_s,點擊打開閱讀介面,Nhấn để mở giao diện đọc sách,String resource: read_aloud_s,Chinese parts: 點擊打開閱讀介面
+2507,xml_string,app\src\main\res\values-zh-rTW\strings.xml,142,audio_play,播放,Phát,String resource: audio_play,Chinese parts: 播放
+2508,xml_string,app\src\main\res\values-zh-rTW\strings.xml,143,audio_play_t,正在播放,Đang phát,String resource: audio_play_t,Chinese parts: 正在播放
+2509,xml_string,app\src\main\res\values-zh-rTW\strings.xml,144,audio_play_s,點擊打開播放介面,Nhấn để mở giao diện phát,String resource: audio_play_s,Chinese parts: 點擊打開播放介面
+2510,xml_string,app\src\main\res\values-zh-rTW\strings.xml,145,audio_pause,播放暫停,Tạm dừng phát,String resource: audio_pause,Chinese parts: 播放暫停
+2511,xml_string,app\src\main\res\values-zh-rTW\strings.xml,146,text_return,返回,Quay lại,String resource: text_return,Chinese parts: 返回
+2512,xml_string,app\src\main\res\values-zh-rTW\strings.xml,147,refresh,重新整理,Làm mới,String resource: refresh,Chinese parts: 重新整理
+2513,xml_string,app\src\main\res\values-zh-rTW\strings.xml,148,start,開始,Bắt đầu,String resource: start,Chinese parts: 開始
+2514,xml_string,app\src\main\res\values-zh-rTW\strings.xml,149,stop,停止,Dừng,String resource: stop,Chinese parts: 停止
+2515,xml_string,app\src\main\res\values-zh-rTW\strings.xml,150,pause,暫停,Tạm dừng,String resource: pause,Chinese parts: 暫停
+2516,xml_string,app\src\main\res\values-zh-rTW\strings.xml,151,resume,繼續,Tiếp tục,String resource: resume,Chinese parts: 繼續
+2517,xml_string,app\src\main\res\values-zh-rTW\strings.xml,152,set_timer,定時,Hẹn giờ,String resource: set_timer,Chinese parts: 定時
+2518,xml_string,app\src\main\res\values-zh-rTW\strings.xml,153,read_aloud_pause,朗讀暫停,Đọc to tạm dừng,String resource: read_aloud_pause,Chinese parts: 朗讀暫停
+2519,xml_string,app\src\main\res\values-zh-rTW\strings.xml,154,read_aloud_timer,正在朗讀(還剩%d分鐘),Đang đọc to (còn %d phút),String resource: read_aloud_timer,"Chinese parts: 正在朗讀, 還剩, 分鐘"
+2520,xml_string,app\src\main\res\values-zh-rTW\strings.xml,155,playing_timer,正在播放(還剩%d分鐘),Đang phát (còn %d phút),String resource: playing_timer,"Chinese parts: 正在播放, 還剩, 分鐘"
+2521,xml_string,app\src\main\res\values-zh-rTW\strings.xml,156,ps_hide_navigation_bar,閱讀介面隱藏虛擬按鍵,Ẩn thanh điều hướng trong giao diện đọc sách,String resource: ps_hide_navigation_bar,Chinese parts: 閱讀介面隱藏虛擬按鍵
+2522,xml_string,app\src\main\res\values-zh-rTW\strings.xml,157,pt_hide_navigation_bar,隱藏導航欄,Ẩn thanh điều hướng,String resource: pt_hide_navigation_bar,Chinese parts: 隱藏導航欄
+2523,xml_string,app\src\main\res\values-zh-rTW\strings.xml,158,re_navigation_bar_color,導航欄顏色,Màu thanh điều hướng,String resource: re_navigation_bar_color,Chinese parts: 導航欄顏色
+2524,xml_string,app\src\main\res\values-zh-rTW\strings.xml,159,scoring,評分,Đánh giá,String resource: scoring,Chinese parts: 評分
+2525,xml_string,app\src\main\res\values-zh-rTW\strings.xml,160,send_mail,發送郵件,Gửi email,String resource: send_mail,Chinese parts: 發送郵件
+2526,xml_string,app\src\main\res\values-zh-rTW\strings.xml,161,can_not_open,無法打開,Không thể mở,String resource: can_not_open,Chinese parts: 無法打開
+2527,xml_string,app\src\main\res\values-zh-rTW\strings.xml,162,can_not_share,分享失敗,Chia sẻ thất bại,String resource: can_not_share,Chinese parts: 分享失敗
+2528,xml_string,app\src\main\res\values-zh-rTW\strings.xml,163,no_chapter,無章節,Không có chương,String resource: no_chapter,Chinese parts: 無章節
+2529,xml_string,app\src\main\res\values-zh-rTW\strings.xml,164,add_url,新增網址,Thêm URL,String resource: add_url,Chinese parts: 新增網址
+2530,xml_string,app\src\main\res\values-zh-rTW\strings.xml,165,add_book_url,新增書籍網址,Thêm URL sách,String resource: add_book_url,Chinese parts: 新增書籍網址
+2531,xml_string,app\src\main\res\values-zh-rTW\strings.xml,166,background,背景,Nền,String resource: background,Chinese parts: 背景
+2532,xml_string,app\src\main\res\values-zh-rTW\strings.xml,167,author,作者,Tác giả,String resource: author,Chinese parts: 作者
+2533,xml_string,app\src\main\res\values-zh-rTW\strings.xml,168,author_show,作者：%s,Tác giả: %s,String resource: author_show,Chinese parts: 作者
+2534,xml_string,app\src\main\res\values-zh-rTW\strings.xml,169,aloud_stop,朗讀停止,Đọc to đã dừng,String resource: aloud_stop,Chinese parts: 朗讀停止
+2535,xml_string,app\src\main\res\values-zh-rTW\strings.xml,170,clear_cache,清理快取,Xóa bộ nhớ đệm,String resource: clear_cache,Chinese parts: 清理快取
+2536,xml_string,app\src\main\res\values-zh-rTW\strings.xml,171,clear_cache_success,成功清理快取,Đã xóa bộ nhớ đệm thành công,String resource: clear_cache_success,Chinese parts: 成功清理快取
+2537,xml_string,app\src\main\res\values-zh-rTW\strings.xml,172,action_save,儲存,Lưu,String resource: action_save,Chinese parts: 儲存
+2538,xml_string,app\src\main\res\values-zh-rTW\strings.xml,173,edit_source,編輯源,Chỉnh sửa nguồn,String resource: edit_source,Chinese parts: 編輯源
+2539,xml_string,app\src\main\res\values-zh-rTW\strings.xml,174,edit_book_source,編輯書源,Chỉnh sửa nguồn sách,String resource: edit_book_source,Chinese parts: 編輯書源
+2540,xml_string,app\src\main\res\values-zh-rTW\strings.xml,175,disable_book_source,禁用書源,Tắt nguồn sách,String resource: disable_book_source,Chinese parts: 禁用書源
+2541,xml_string,app\src\main\res\values-zh-rTW\strings.xml,176,add_book_source,建立書源,Tạo nguồn sách,String resource: add_book_source,Chinese parts: 建立書源
+2542,xml_string,app\src\main\res\values-zh-rTW\strings.xml,177,add_rss_source,建立訂閱源,Tạo nguồn RSS,String resource: add_rss_source,Chinese parts: 建立訂閱源
+2543,xml_string,app\src\main\res\values-zh-rTW\strings.xml,178,book_file_selector,新增書籍,Thêm sách,String resource: book_file_selector,Chinese parts: 新增書籍
+2544,xml_string,app\src\main\res\values-zh-rTW\strings.xml,179,scan_book_source,掃描,Quét,String resource: scan_book_source,Chinese parts: 掃描
+2545,xml_string,app\src\main\res\values-zh-rTW\strings.xml,180,copy_source,複製源,Sao chép nguồn,String resource: copy_source,Chinese parts: 複製源
+2546,xml_string,app\src\main\res\values-zh-rTW\strings.xml,181,paste_source,貼上源,Dán nguồn,String resource: paste_source,Chinese parts: 貼上源
+2547,xml_string,app\src\main\res\values-zh-rTW\strings.xml,182,source_rule_s,源規則說明,Hướng dẫn quy tắc nguồn,String resource: source_rule_s,Chinese parts: 源規則說明
+2548,xml_string,app\src\main\res\values-zh-rTW\strings.xml,183,check_update,檢查更新,Kiểm tra cập nhật,String resource: check_update,Chinese parts: 檢查更新
+2549,xml_string,app\src\main\res\values-zh-rTW\strings.xml,184,camera_scan,掃描二維碼,Quét mã QR,String resource: camera_scan,Chinese parts: 掃描二維碼
+2550,xml_string,app\src\main\res\values-zh-rTW\strings.xml,185,scan_image,掃描本機圖片,Quét ảnh từ thiết bị,String resource: scan_image,Chinese parts: 掃描本機圖片

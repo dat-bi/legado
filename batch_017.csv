@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+801,xml_string,app\src\main\res\values-zh\strings.xml,829,sync_book_progress_plus_s,重新进入页面（息屏、后台返回等）或者网络变为可用时同步云端进度,,String resource: sync_book_progress_plus_s,"Chinese parts: 重新进入页面, 息屏, 后台返回等, 或者网络变为可用时同步云端进度"
+802,xml_string,app\src\main\res\values-zh\strings.xml,830,create_bookmark_error,创建书签失败,,String resource: create_bookmark_error,Chinese parts: 创建书签失败
+803,xml_string,app\src\main\res\values-zh\strings.xml,831,single_url,单 URL,,String resource: single_url,Chinese parts: 单
+804,xml_string,app\src\main\res\values-zh\strings.xml,832,export_bookshelf,导出书单,,String resource: export_bookshelf,Chinese parts: 导出书单
+805,xml_string,app\src\main\res\values-zh\strings.xml,833,import_bookshelf,导入书单,,String resource: import_bookshelf,Chinese parts: 导入书单
+806,xml_string,app\src\main\res\values-zh\strings.xml,834,pre_download,预下载,,String resource: pre_download,Chinese parts: 预下载
+807,xml_string,app\src\main\res\values-zh\strings.xml,835,pre_download_m,预下载%s页,,String resource: pre_download_m,"Chinese parts: 预下载, 页"
+808,xml_string,app\src\main\res\values-zh\strings.xml,836,pre_download_s,预先下载 %s 章正文,,String resource: pre_download_s,"Chinese parts: 预先下载, 章正文"
+809,xml_string,app\src\main\res\values-zh\strings.xml,837,is_enabled,是否启用,,String resource: is_enabled,Chinese parts: 是否启用
+810,xml_string,app\src\main\res\values-zh\strings.xml,838,background_image,背景图片,,String resource: background_image,Chinese parts: 背景图片
+811,xml_string,app\src\main\res\values-zh\strings.xml,839,background_image_blurring,背景图片虚化,,String resource: background_image_blurring,Chinese parts: 背景图片虚化
+812,xml_string,app\src\main\res\values-zh\strings.xml,840,background_image_blurring_radius,虚化半径,,String resource: background_image_blurring_radius,Chinese parts: 虚化半径
+813,xml_string,app\src\main\res\values-zh\strings.xml,841,background_image_hint,0 为停用，启用范围 1~25\n半径数值越大，虚化效果越高,,String resource: background_image_hint,"Chinese parts: 为停用, 启用范围, 半径数值越大, 虚化效果越高"
+814,xml_string,app\src\main\res\values-zh\strings.xml,842,export_folder,导出文件夹,,String resource: export_folder,Chinese parts: 导出文件夹
+815,xml_string,app\src\main\res\values-zh\strings.xml,843,export_charset,导出编码,,String resource: export_charset,Chinese parts: 导出编码
+816,xml_string,app\src\main\res\values-zh\strings.xml,844,export_no_chapter_name,TXT 不导出章节名,,String resource: export_no_chapter_name,Chinese parts: 不导出章节名
+817,xml_string,app\src\main\res\values-zh\strings.xml,845,export_to_web_dav,导出到 WebDav,,String resource: export_to_web_dav,Chinese parts: 导出到
+818,xml_string,app\src\main\res\values-zh\strings.xml,846,reverse_content,反转内容,,String resource: reverse_content,Chinese parts: 反转内容
+819,xml_string,app\src\main\res\values-zh\strings.xml,847,debug,调试,,String resource: debug,Chinese parts: 调试
+820,xml_string,app\src\main\res\values-zh\strings.xml,848,crash_log,崩溃日志,,String resource: crash_log,Chinese parts: 崩溃日志
+821,xml_string,app\src\main\res\values-zh\strings.xml,849,use_zh_layout,使用自定义中文分行,,String resource: use_zh_layout,Chinese parts: 使用自定义中文分行
+822,xml_string,app\src\main\res\values-zh\strings.xml,850,image_style,图片样式,,String resource: image_style,Chinese parts: 图片样式
+823,xml_string,app\src\main\res\values-zh\strings.xml,851,system_tts,系统 TTS,,String resource: system_tts,Chinese parts: 系统
+824,xml_string,app\src\main\res\values-zh\strings.xml,852,export_type,导出格式,,String resource: export_type,Chinese parts: 导出格式
+825,xml_string,app\src\main\res\values-zh\strings.xml,853,checkAuthor,校验作者,,String resource: checkAuthor,Chinese parts: 校验作者
+826,xml_string,app\src\main\res\values-zh\strings.xml,854,search_src,搜索源码,,String resource: search_src,Chinese parts: 搜索源码
+827,xml_string,app\src\main\res\values-zh\strings.xml,855,boo_src,书籍源码,,String resource: boo_src,Chinese parts: 书籍源码
+828,xml_string,app\src\main\res\values-zh\strings.xml,856,toc_src,目录源码,,String resource: toc_src,Chinese parts: 目录源码
+829,xml_string,app\src\main\res\values-zh\strings.xml,857,content_src,正文源码,,String resource: content_src,Chinese parts: 正文源码
+830,xml_string,app\src\main\res\values-zh\strings.xml,858,list_src,列表源码,,String resource: list_src,Chinese parts: 列表源码
+831,xml_string,app\src\main\res\values-zh\strings.xml,859,url_already,此 URL 已订阅,,String resource: url_already,"Chinese parts: 此, 已订阅"
+832,xml_string,app\src\main\res\values-zh\strings.xml,860,high_brush_title,高刷新率,,String resource: high_brush_title,Chinese parts: 高刷新率
+833,xml_string,app\src\main\res\values-zh\strings.xml,861,high_brush_summary,使用屏幕最高刷新率,,String resource: high_brush_summary,Chinese parts: 使用屏幕最高刷新率
+834,xml_string,app\src\main\res\values-zh\strings.xml,862,export_all,导出所有,,String resource: export_all,Chinese parts: 导出所有
+835,xml_string,app\src\main\res\values-zh\strings.xml,863,complete,完成,,String resource: complete,Chinese parts: 完成
+836,xml_string,app\src\main\res\values-zh\strings.xml,864,show_unread,显示未读标志,,String resource: show_unread,Chinese parts: 显示未读标志
+837,xml_string,app\src\main\res\values-zh\strings.xml,865,use_default_cover,总是使用默认封面,,String resource: use_default_cover,Chinese parts: 总是使用默认封面
+838,xml_string,app\src\main\res\values-zh\strings.xml,866,use_default_cover_s,总是显示默认封面（不显示网络封面）,,String resource: use_default_cover_s,"Chinese parts: 总是显示默认封面, 不显示网络封面"
+839,xml_string,app\src\main\res\values-zh\strings.xml,867,title_font_size,字号,,String resource: title_font_size,Chinese parts: 字号
+840,xml_string,app\src\main\res\values-zh\strings.xml,868,title_margin_top,上边距,,String resource: title_margin_top,Chinese parts: 上边距
+841,xml_string,app\src\main\res\values-zh\strings.xml,869,title_margin_bottom,下边距,,String resource: title_margin_bottom,Chinese parts: 下边距
+842,xml_string,app\src\main\res\values-zh\strings.xml,870,show,显示,,String resource: show,Chinese parts: 显示
+843,xml_string,app\src\main\res\values-zh\strings.xml,871,hide,隐藏,,String resource: hide,Chinese parts: 隐藏
+844,xml_string,app\src\main\res\values-zh\strings.xml,872,hide_when_status_bar_show,状态栏显示时隐藏,,String resource: hide_when_status_bar_show,Chinese parts: 状态栏显示时隐藏
+845,xml_string,app\src\main\res\values-zh\strings.xml,873,reverse_toc,反转目录,,String resource: reverse_toc,Chinese parts: 反转目录
+846,xml_string,app\src\main\res\values-zh\strings.xml,874,show_discovery,显示发现,,String resource: show_discovery,Chinese parts: 显示发现
+847,xml_string,app\src\main\res\values-zh\strings.xml,875,style,样式,,String resource: style,Chinese parts: 样式
+848,xml_string,app\src\main\res\values-zh\strings.xml,876,group_style,分组样式,,String resource: group_style,Chinese parts: 分组样式
+849,xml_string,app\src\main\res\values-zh\strings.xml,877,export_file_name,导出文件名,,String resource: export_file_name,Chinese parts: 导出文件名
+850,xml_string,app\src\main\res\values-zh\strings.xml,878,reset,重置,,String resource: reset,Chinese parts: 重置

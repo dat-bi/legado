@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5351,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,382,,不能为空,,"row NoStackTraceException(""url不能为空"")",Chinese parts: 不能为空
+5352,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,392,,上传失败,,"AppLog.put(""WebDav上传失败\n${it.localizedMessage}"", it)",Chinese parts: 上传失败
+5353,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,393,,上传失败,,"throw WebDavException(""WebDav上传失败\n${it.localizedMessage}"")",Chinese parts: 上传失败
+5354,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,399,,下载出错,,"throw WebDavException(""WebDav下载出错\nurl为空"")",Chinese parts: 下载出错
+5355,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,399,,为空,,"bDavException(""WebDav下载出错\nurl为空"")",Chinese parts: 为空
+5356,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,405,,下载出错,,"throw WebDavException(""WebDav下载出错\nNull Exception"")",Chinese parts: 下载出错
+5357,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,423,,删除失败,,"AppLog.put(""WebDav删除失败\n${it.localizedMessage}"", it)",Chinese parts: 删除失败
+5358,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,439,,服务器不支持,,"AppLog.put(""服务器不支持BasicAuth认证"")",Chinese parts: 服务器不支持
+5359,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,439,,认证,,"AppLog.put(""服务器不支持BasicAuth认证"")",Chinese parts: 认证
+5360,source_code,app\src\main\java\io\legado\app\lib\webdav\WebDav.kt,454,,未知错误,,"w WebDavException(message ?: ""未知错误 code:${response.code}"")",Chinese parts: 未知错误
+5361,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,109,,不是本地书籍,,"throw NoStackTraceException(""不是本地书籍"")",Chinese parts: 不是本地书籍
+5362,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,135,,书籍保存目录失效,,"appCtx.toastOnUi(""书籍保存目录失效，请重新设置！"")",Chinese parts: 书籍保存目录失效
+5363,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,135,,请重新设置,,"appCtx.toastOnUi(""书籍保存目录失效，请重新设置！"")",Chinese parts: 请重新设置
+5364,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,313,,作者,,"return ""$name 作者：${getRealAuthor()}.$suffix""",Chinese parts: 作者
+5365,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,316,,兼容老版本,,"bindings[""epubIndex""] = """"// 兼容老版本,修复可能存在的错误",Chinese parts: 兼容老版本
+5366,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,316,,修复可能存在的错误,,"ngs[""epubIndex""] = """"// 兼容老版本,修复可能存在的错误",Chinese parts: 修复可能存在的错误
+5367,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,323,,导出书名规则错误,,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage",Chinese parts: 导出书名规则错误
+5368,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,323,,使用默认规则,,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage}"", it)",Chinese parts: 使用默认规则
+5369,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,324,,作者,,"}.getOrDefault(""$name 作者：${getRealAuthor()}.$suffix"")",Chinese parts: 作者
+5370,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,336,,作者,,"val default = ""$name 作者：${getRealAuthor()} [${epubInd",Chinese parts: 作者
+5371,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,348,,导出书名规则错误,,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage",Chinese parts: 导出书名规则错误
+5372,source_code,app\src\main\java\io\legado\app\help\book\BookExtensions.kt,348,,使用默认规则,,"AppLog.put(""导出书名规则错误,使用默认规则\n${it.localizedMessage}"", it)",Chinese parts: 使用默认规则
+5373,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,172,,保存正文失败,,"AppLog.put(""保存正文失败 ${book.name} ${bookChapter.ti",Chinese parts: 保存正文失败
+5374,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,250,,图片,,"{book.name} ${chapter?.title} 图片 $src 下载错误 数据异常"")",Chinese parts: 图片
+5375,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,250,,下载错误,,"me} ${chapter?.title} 图片 $src 下载错误 数据异常"")",Chinese parts: 下载错误
+5376,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,250,,数据异常,,"{chapter?.title} 图片 $src 下载错误 数据异常"")",Chinese parts: 数据异常
+5377,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,256,,图片,,{book.name} ${chapter?.title} 图片 $src 下载失败\n${e.localizedMessa,Chinese parts: 图片
+5378,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,256,,下载失败,,"me} ${chapter?.title} 图片 $src 下载失败\n${e.localizedMessage}""",Chinese parts: 下载失败
+5379,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,295,,文件不存在,,"?: throw IOException(""文件不存在"")",Chinese parts: 文件不存在
+5380,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,559,,第,,""".*?第([\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖",Chinese parts: 第
+5381,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,559,,零,,""".*?第([\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)",Chinese parts: 零
+5382,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,559,,一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟,,""".*?第([\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)[章节篇回集话]""",Chinese parts: 一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟
+5383,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,559,,章节篇回集话,,"一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)[章节篇回集话]""",Chinese parts: 章节篇回集话
+5384,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,566,,零,,"""^(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+[",Chinese parts: 零
+5385,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,566,,一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟,,"""^(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+[,:、])*([\\d零〇一二两三四五六七八九十百千万",Chinese parts: 一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟
+5386,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,566,,零,,"十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+[,:、])*([\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)",Chinese parts: 零
+5387,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,566,,一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟,,"千万壹贰叁肆伍陆柒捌玖拾佰仟]+[,:、])*([\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)(?:[,:、]|\\.[^\\d])""",Chinese parts: 一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟
+5388,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,第,,"return@lazy ""^.*?第(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒",Chinese parts: 第
+5389,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,零,,"return@lazy ""^.*?第(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)",Chinese parts: 零
+5390,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟,,"return@lazy ""^.*?第(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)[章节篇回集话](?!$)|^(?:[\\d零〇一二两",Chinese parts: 一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟
+5391,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,章节篇回集话,,一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)[章节篇回集话](?!$)|^(?:[\\d零〇一二两三四五六七八九十百千,Chinese parts: 章节篇回集话
+5392,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,零,,捌玖拾佰仟]+)[章节篇回集话](?!$)|^(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+[,Chinese parts: 零
+5393,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟,,"拾佰仟]+)[章节篇回集话](?!$)|^(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+[,:、])*(?:[\\d零〇一二两三四五六七八九十百",Chinese parts: 一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟
+5394,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,零,,"千万壹贰叁肆伍陆柒捌玖拾佰仟]+[,:、])*(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)",Chinese parts: 零
+5395,source_code,app\src\main\java\io\legado\app\help\book\BookHelp.kt,595,,一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟,,"壹贰叁肆伍陆柒捌玖拾佰仟]+[,:、])*(?:[\\d零〇一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟]+)(?:[,:、](?!$)|\\.(?=[^\\d])",Chinese parts: 一二两三四五六七八九十百千万壹贰叁肆伍陆柒捌玖拾佰仟
+5396,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,51,,问说喊唱叫骂道着答,,"""([问说喊唱叫骂道着答])[\\.。]"".toRegex(),",Chinese parts: 问说喊唱叫骂道着答
+5397,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,61,,处理章节头部空格和换行,,(buffer.toString() //         处理章节头部空格和换行,Chinese parts: 处理章节头部空格和换行
+5398,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,195,,和与或,,"} else if (match("",，、/和与或"", str[i - 1])) {",Chinese parts: 和与或
+5399,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,232,,的,,"} else if (!match(""的"", charB2)) {",Chinese parts: 的
+5400,source_code,app\src\main\java\io\legado\app\help\book\ContentHelp.kt,289,,上一个引号跟随内容的状态,,var loop2Mod1 = -1 //上一个引号跟随内容的状态,Chinese parts: 上一个引号跟随内容的状态

@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4701,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,193,,选择预设布局,,"context?.selector(""选择预设布局"", layoutNames) { _, i ->",Chinese parts: 选择预设布局
+4702,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,249,,数量已是最少,,"toastOnUi(""数量已是最少,不能删除."")",Chinese parts: 数量已是最少
+4703,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,249,,不能删除,,"toastOnUi(""数量已是最少,不能删除."")",Chinese parts: 不能删除
+4704,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,341,,导出成功,,"toastOnUi(""导出成功, 文件名为 $exportFileName"")",Chinese parts: 导出成功
+4705,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,341,,文件名为,,"toastOnUi(""导出成功, 文件名为 $exportFileName"")",Chinese parts: 文件名为
+4706,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,344,,导出失败,,"AppLog.put(""导出失败:${it.localizedMessage}"", it)",Chinese parts: 导出失败
+4707,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,345,,导出失败,,"longToast(""导出失败:${it.localizedMessage}"")",Chinese parts: 导出失败
+4708,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,351,,输入地址,,"alert(""输入地址"") {",Chinese parts: 输入地址
+4709,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,380,,导入失败,,"longToast(""导入失败:${it.localizedMessage}"")",Chinese parts: 导入失败
+4710,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,390,,导入成功,,"toastOnUi(""导入成功"")",Chinese parts: 导入成功
+4711,source_code,app\src\main\java\io\legado\app\ui\book\read\config\BgTextConfigDialog.kt,393,,导入失败,,"longToast(""导入失败:${it.localizedMessage}"")",Chinese parts: 导入失败
+4712,source_code,app\src\main\java\io\legado\app\ui\book\read\config\HttpTtsEditDialog.kt,92,,保存成功,,"toastOnUi(""保存成功"")",Chinese parts: 保存成功
+4713,source_code,app\src\main\java\io\legado\app\ui\book\read\config\HttpTtsEditDialog.kt,96,,登录,,"toastOnUi(""登录url不能为空"")",Chinese parts: 登录
+4714,source_code,app\src\main\java\io\legado\app\ui\book\read\config\HttpTtsEditDialog.kt,96,,不能为空,,"toastOnUi(""登录url不能为空"")",Chinese parts: 不能为空
+4715,source_code,app\src\main\java\io\legado\app\ui\book\read\config\HttpTtsEditViewModel.kt,49,,剪贴板为空,,"context.toastOnUi(""剪贴板为空"")",Chinese parts: 剪贴板为空
+4716,source_code,app\src\main\java\io\legado\app\ui\book\read\config\HttpTtsEditViewModel.kt,66,,格式不对,,"throw NoStackTraceException(""格式不对"")",Chinese parts: 格式不对
+4717,source_code,app\src\main\java\io\legado\app\ui\book\read\config\ReadAloudDialog.kt,132,,保存设定时间成功,,"toastOnUi(""保存设定时间成功！"")",Chinese parts: 保存设定时间成功
+4718,source_code,app\src\main\java\io\legado\app\ui\book\read\config\ReadAloudDialog.kt,136,,分钟,,"l timeKeys = times.map { ""$it 分钟"" }",Chinese parts: 分钟
+4719,source_code,app\src\main\java\io\legado\app\ui\book\read\config\ReadAloudDialog.kt,137,,设定时间,,"context?.selector(""设定时间"", timeKeys) { _, index ->",Chinese parts: 设定时间
+4720,source_code,app\src\main\java\io\legado\app\ui\book\read\config\ReadStyleDialog.kt,225,,文字,,".setText(item.name.ifBlank { ""文字"" })",Chinese parts: 文字
+4721,source_code,app\src\main\java\io\legado\app\ui\book\read\config\SpeakEngineDialog.kt,113,,系统默认,,"cbName.text = ""系统默认""",Chinese parts: 系统默认
+4722,source_code,app\src\main\java\io\legado\app\ui\book\read\config\SpeakEngineDialog.kt,119,,系统默认,,"upTts(GSON.toJson(SelectItem(""系统默认"", """")))",Chinese parts: 系统默认
+4723,source_code,app\src\main\java\io\legado\app\ui\book\read\config\SpeakEngineDialog.kt,172,,朗读引擎界面获取数据失败,,"AppLog.put(""朗读引擎界面获取数据失败\n${it.localizedMessage}"", it)",Chinese parts: 朗读引擎界面获取数据失败
+4724,source_code,app\src\main\java\io\legado\app\ui\book\read\config\SpeakEngineViewModel.kt,35,,导入成功,,"context.toastOnUi(""导入成功"")",Chinese parts: 导入成功
+4725,source_code,app\src\main\java\io\legado\app\ui\book\read\config\SpeakEngineViewModel.kt,37,,导入失败,,"context.toastOnUi(""导入失败\n${it.localizedMessage}"")",Chinese parts: 导入失败
+4726,source_code,app\src\main\java\io\legado\app\ui\book\read\config\SpeakEngineViewModel.kt,56,,格式不对,,"throw NoStackTraceException(""格式不对"")",Chinese parts: 格式不对
+4727,source_code,app\src\main\java\io\legado\app\ui\book\read\page\ContentTextView.kt,101,,为空,,"eRect.isEmpty) { ""visibleRect 为空"" }",Chinese parts: 为空
+4728,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\PageDelegate.kt,114,,绘制,,fun onDraw(canvas: Canvas) //绘制,Chinese parts: 绘制
+4729,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,224,,防止,,-touchY // 防止mTouchY最终变为0,Chinese parts: 防止
+4730,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,224,,最终变为,,-touchY // 防止mTouchY最终变为0,Chinese parts: 最终变为
+4731,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,235,,防止,,(1 - touchY) // 防止mTouchY最终变为0,Chinese parts: 防止
+4732,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,235,,最终变为,,(1 - touchY) // 防止mTouchY最终变为0,Chinese parts: 最终变为
+4733,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,459,,左下及右上,,if (mIsRtOrLb) { //左下及右上,Chinese parts: 左下及右上
+4734,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,480,,左上及右下角的,,") //左上及右下角的xy坐标值,构成一个矩形",Chinese parts: 左上及右下角的
+4735,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,480,,坐标值,,") //左上及右下角的xy坐标值,构成一个矩形",Chinese parts: 坐标值
+4736,source_code,app\src\main\java\io\legado\app\ui\book\read\page\delegate\SimulationPageDelegate.kt,480,,构成一个矩形,,") //左上及右下角的xy坐标值,构成一个矩形",Chinese parts: 构成一个矩形
+4737,source_code,app\src\main\java\io\legado\app\ui\book\read\page\entities\TextChapter.kt,270,,已经排版过了,,"throw IllegalStateException(""已经排版过了"")",Chinese parts: 已经排版过了
+4738,source_code,app\src\main\java\io\legado\app\ui\book\read\page\entities\TextLine.kt,260,,一二,,"val text = ""一二 三""",Chinese parts: 一二
+4739,source_code,app\src\main\java\io\legado\app\ui\book\read\page\entities\TextLine.kt,260,,三,,"val text = ""一二 三""",Chinese parts: 三
+4740,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,364,,本页无文字内容,,"Builder.toString().ifEmpty { ""本页无文字内容"" }",Chinese parts: 本页无文字内容
+4741,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,395,,本页无文字内容,,"Builder.toString().ifEmpty { ""本页无文字内容"" }",Chinese parts: 本页无文字内容
+4742,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,409,,将,,durY = adjustHeight // 将 Y 坐标设置为居中位置,Chinese parts: 将
+4743,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,409,,坐标设置为居中位置,,durY = adjustHeight // 将 Y 坐标设置为居中位置,Chinese parts: 坐标设置为居中位置
+4744,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,433,,本页无文字内容,,"Builder.toString().ifEmpty { ""本页无文字内容"" }",Chinese parts: 本页无文字内容
+4745,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,459,,确保翻页时索引计算正确,,"stringBuilder.append("" "") // 确保翻页时索引计算正确",Chinese parts: 确保翻页时索引计算正确
+4746,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,644,,自然排版长度,,/**自然排版长度**/,Chinese parts: 自然排版长度
+4747,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,688,,自然排版长度,,/**自然排版长度**/,Chinese parts: 自然排版长度
+4748,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,690,,起始,,/**起始x坐标**/,Chinese parts: 起始
+4749,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,690,,坐标,,/**起始x坐标**/,Chinese parts: 坐标
+4750,source_code,app\src\main\java\io\legado\app\ui\book\read\page\provider\ChapterProvider.kt,1024,,边距设置过大,,"AppLog.put(""边距设置过大，请重新设置"", toast = true)",Chinese parts: 边距设置过大

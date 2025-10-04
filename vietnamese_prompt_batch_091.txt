@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4501,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BaseBookshelfFragment.kt,141,,添加中,,"waitDialog.setText(""添加中... ($count)"")",Chinese parts: 添加中
+4502,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BaseBookshelfFragment.kt,155,,添加中,,"waitDialog.setText(""添加中..."")",Chinese parts: 添加中
+4503,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,93,,添加网址失败,,"context.toastOnUi(""添加网址失败"")",Chinese parts: 添加网址失败
+4504,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,96,,添加网址出错,,"AppLog.put(""添加网址出错\n${it.localizedMessage}"", it,",Chinese parts: 添加网址出错
+4505,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,123,,书籍不能为空,,"throw NoStackTraceException(""书籍不能为空"")",Chinese parts: 书籍不能为空
+4506,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,127,,导出书籍出错,,"context.toastOnUi(""导出书籍出错\n${it.localizedMessage}"")",Chinese parts: 导出书籍出错
+4507,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\BookshelfViewModel.kt,148,,格式不对,,"throw NoStackTraceException(""格式不对"")",Chinese parts: 格式不对
+4508,source_code,app\src\main\java\io\legado\app\ui\main\explore\ExploreFragment.kt,165,,发现界面更新数据出错,,"AppLog.put(""发现界面更新数据出错"", it)",Chinese parts: 发现界面更新数据出错
+4509,source_code,app\src\main\java\io\legado\app\ui\main\my\MyFragment.kt,87,,复制地址,,"ontext?.selector(arrayListOf(""复制地址"", ""浏览器打开"")) { _, i ->",Chinese parts: 复制地址
+4510,source_code,app\src\main\java\io\legado\app\ui\main\my\MyFragment.kt,87,,浏览器打开,,"selector(arrayListOf(""复制地址"", ""浏览器打开"")) { _, i ->",Chinese parts: 浏览器打开
+4511,source_code,app\src\main\java\io\legado\app\ui\main\rss\RssFragment.kt,144,,订阅界面获取分组数据失败,,"AppLog.put(""订阅界面获取分组数据失败\n${it.localizedMessage}"", it)",Chinese parts: 订阅界面获取分组数据失败
+4512,source_code,app\src\main\java\io\legado\app\ui\main\rss\RssFragment.kt,173,,订阅界面更新数据出错,,"AppLog.put(""订阅界面更新数据出错"", it)",Chinese parts: 订阅界面更新数据出错
+4513,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\style2\BookshelfFragment2.kt,173,,书架更新出错,,"AppLog.put(""书架更新出错"", it)",Chinese parts: 书架更新出错
+4514,source_code,app\src\main\java\io\legado\app\ui\main\bookshelf\style1\books\BooksFragment.kt,191,,书架更新出错,,"AppLog.put(""书架更新出错"", it)",Chinese parts: 书架更新出错
+4515,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleActivity.kt,129,,字典规则获取数据失败,,"AppLog.put(""字典规则获取数据失败\n${it.localizedMessage}"", it)",Chinese parts: 字典规则获取数据失败
+4516,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleEditDialog.kt,108,,剪贴板没有内容,,"context.toastOnUi(""剪贴板没有内容"")",Chinese parts: 剪贴板没有内容
+4517,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleEditDialog.kt,116,,格式不对,,"context.toastOnUi(""格式不对"")",Chinese parts: 格式不对
+4518,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleViewModel.kt,18,,更新字典规则出错,,"val msg = ""更新字典规则出错\n${it.localizedMessage}""",Chinese parts: 更新字典规则出错
+4519,source_code,app\src\main\java\io\legado\app\ui\dict\rule\DictRuleViewModel.kt,28,,删除字典规则出错,,"val msg = ""删除字典规则出错\n${it.localizedMessage}""",Chinese parts: 删除字典规则出错
+4520,source_code,app\src\main\java\io\legado\app\ui\book\audio\AudioPlayViewModel.kt,61,,详情页出错,,"AppLog.put(""详情页出错: ${e.localizedMessage}"", e, t",Chinese parts: 详情页出错
+4521,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkActivity.kt,47,,所有书签界面获取数据失败,,"AppLog.put(""所有书签界面获取数据失败\n${it.localizedMessage}"", it)",Chinese parts: 所有书签界面获取数据失败
+4522,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,33,,导出失败,,"AppLog.put(""导出失败\n${it.localizedMessage}"", it,",Chinese parts: 导出失败
+4523,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,35,,导出成功,,"context.toastOnUi(""导出成功"")",Chinese parts: 导出成功
+4524,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,56,,原文,,"outputStream.write(""###### 原文\n ${it.bookText}\n\n"".toByteA",Chinese parts: 原文
+4525,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,57,,摘要,,"outputStream.write(""###### 摘要\n ${it.content}\n\n"".toByteAr",Chinese parts: 摘要
+4526,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,61,,导出失败,,"AppLog.put(""导出失败\n${it.localizedMessage}"", it,",Chinese parts: 导出失败
+4527,source_code,app\src\main\java\io\legado\app\ui\book\bookmark\AllBookmarkViewModel.kt,63,,导出成功,,"context.toastOnUi(""导出成功"")",Chinese parts: 导出成功
+4528,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,106,,启用自定义导出,,if (enableCustomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 启用自定义导出
+4529,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,106,,导出类型为,,stomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 导出类型为
+4530,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,262,,缓存管理界面获取书籍列表失败,,"AppLog.put(""缓存管理界面获取书籍列表失败\n${it.localizedMessage}"", it)",Chinese parts: 缓存管理界面获取书籍列表失败
+4531,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,274,,缓存管理界面获取分组数据失败,,"AppLog.put(""缓存管理界面获取分组数据失败\n${it.localizedMessage}"", it)",Chinese parts: 缓存管理界面获取分组数据失败
+4532,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,331,,启用自定义导出,,if (enableCustomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 启用自定义导出
+4533,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,331,,导出类型为,,stomExport()) {// 启用自定义导出 and 导出类型为Epub,Chinese parts: 导出类型为
+4534,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,381,,未找到书籍,,"AppLog.put(""未找到书籍，position is $position"")",Chinese parts: 未找到书籍
+4535,source_code,app\src\main\java\io\legado\app\ui\book\cache\CacheActivity.kt,451,,请输入正确的范围,,"R.string.error_scope_input)//""请输入正确的范围""",Chinese parts: 请输入正确的范围
+4536,source_code,app\src\main\java\io\legado\app\ui\book\changecover\ChangeCoverViewModel.kt,45,,默认封面,,"originName = ""默认封面"",",Chinese parts: 默认封面
+4537,source_code,app\src\main\java\io\legado\app\ui\book\changecover\ChangeCoverViewModel.kt,131,,封面换源搜索出错,,"AppLog.put(""封面换源搜索出错\n${it.localizedMessage}"", it)",Chinese parts: 封面换源搜索出错
+4538,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,84,,搜索结果为空,,"context?.alert(""搜索结果为空"") {",Chinese parts: 搜索结果为空
+4539,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,85,,分组搜索结果为空,,"setMessage(""${searchGroup}分组搜索结果为空,是否切换到全部分组"")",Chinese parts: 分组搜索结果为空
+4540,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,85,,是否切换到全部分组,,"ssage(""${searchGroup}分组搜索结果为空,是否切换到全部分组"")",Chinese parts: 是否切换到全部分组
+4541,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceDialog.kt,398,,换源获取目录出错,,"AppLog.put(""换源获取目录出错\n$it"", it, true)",Chinese parts: 换源获取目录出错
+4542,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,143,,换源排序出错,,"AppLog.put(""换源排序出错\n${it.localizedMessage}"", it)",Chinese parts: 换源排序出错
+4543,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,255,,换源搜索出错,,"AppLog.put(""换源搜索出错\n${it.localizedMessage}"", it)",Chinese parts: 换源搜索出错
+4544,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,336,,字数,,"{chapterIndex + 1}] ${title}\n字数：${len}""",Chinese parts: 字数
+4545,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,339,,获取字数失败,,"{chapterIndex + 1}] ${title}\n获取字数失败：${t.localizedMessage}""",Chinese parts: 获取字数失败
+4546,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,394,,换源刷新列表出错,,"AppLog.put(""换源刷新列表出错\n${it.localizedMessage}"", it)",Chinese parts: 换源刷新列表出错
+4547,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,475,,书源不存在,,"throw NoStackTraceException(""书源不存在"")",Chinese parts: 书源不存在
+4548,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,548,,没有有效源,,"throw NoStackTraceException(""没有有效源"")",Chinese parts: 没有有效源
+4549,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeBookSourceViewModel.kt,552,,自动换源失败,,"context.toastOnUi(""自动换源失败\n${it.localizedMessage}"")",Chinese parts: 自动换源失败
+4550,source_code,app\src\main\java\io\legado\app\ui\book\changesource\ChangeChapterSourceDialog.kt,94,,搜索结果为空,,"context?.alert(""搜索结果为空"") {",Chinese parts: 搜索结果为空

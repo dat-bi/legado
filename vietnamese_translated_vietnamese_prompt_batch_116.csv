@@ -1,0 +1,50 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5751,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,787,,表示这个字形不存在,Glyph này không tồn tại,,ntinue;   // 当前loca与下一个loca相同，表示这个字形不存在,Chinese parts: 表示这个字形不存在
+5752,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,793,,如果字形轮廓数大于非复合字形中包含的最大轮廓数,Nếu số đường viền của glyph lớn hơn số đường viền tối đa trong glyph không phức hợp,,axp.maxContours) continue; // 如果字形轮廓数大于非复合字形中包含的最大轮廓数，则说明该字形无效。,Chinese parts: 如果字形轮廓数大于非复合字形中包含的最大轮廓数
+5753,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,793,,则说明该字形无效,thì glyph này không hợp lệ,,e; // 如果字形轮廓数大于非复合字形中包含的最大轮廓数，则说明该字形无效。,Chinese parts: 则说明该字形无效
+5754,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,831,,点位数据重复上一次数据,Dữ liệu điểm trùng lặp với dữ liệu trước đó,,mple.xCoordinates[n] = 0;  // 点位数据重复上一次数据，那么相对数据变化量就是0,Chinese parts: 点位数据重复上一次数据
+5755,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,831,,那么相对数据变化量就是,thì lượng thay đổi dữ liệu tương đối là,,nates[n] = 0;  // 点位数据重复上一次数据，那么相对数据变化量就是0,Chinese parts: 那么相对数据变化量就是
+5756,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,849,,点位数据重复上一次数据,Dữ liệu điểm trùng lặp với dữ liệu trước đó,,mple.yCoordinates[n] = 0;  // 点位数据重复上一次数据，那么相对数据变化量就是0,Chinese parts: 点位数据重复上一次数据
+5757,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,849,,那么相对数据变化量就是,thì lượng thay đổi dữ liệu tương đối là,,nates[n] = 0;  // 点位数据重复上一次数据，那么相对数据变化量就是0,Chinese parts: 那么相对数据变化量就是
+5758,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,915,,过滤不存在的字体轮廓,Lọc các đường viền phông chữ không tồn tại,,h == null) return null;    // 过滤不存在的字体轮廓,Chinese parts: 过滤不存在的字体轮廓
+5759,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,987,,不能用作,Không thể dùng làm,,== null) continue;   // null 不能用作hashmap的key,Chinese parts: 不能用作
+5760,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,987,,的,của,,ontinue;   // null 不能用作hashmap的key,Chinese parts: 的
+5761,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1005,,如果找不到,Nếu không tìm thấy,,(result == null) return 0; // 如果找不到Unicode对应的轮廓索引，就返回默认值0,Chinese parts: 如果找不到
+5762,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1005,,对应的轮廓索引,chỉ mục đường viền tương ứng,,ull) return 0; // 如果找不到Unicode对应的轮廓索引，就返回默认值0,Chinese parts: 对应的轮廓索引
+5763,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1005,,就返回默认值,thì trả về giá trị mặc định,,urn 0; // 如果找不到Unicode对应的轮廓索引，就返回默认值0,Chinese parts: 就返回默认值
+5764,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1027,,如果轮廓数据找不到对应的,Nếu dữ liệu đường viền không tìm thấy,,(result == null) return 0; // 如果轮廓数据找不到对应的Unicode，就返回默认值0,Chinese parts: 如果轮廓数据找不到对应的
+5765,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1027,,就返回默认值,thì trả về giá trị mặc định,,urn 0; // 如果轮廓数据找不到对应的Unicode，就返回默认值0,Chinese parts: 就返回默认值
+5766,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1039,,水平制表符,Ký tự tab ngang,,"case 0x0009,    // 水平制表符 (Horizontal Tab)",Chinese parts: 水平制表符
+5767,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1040,,空格,Khoảng trắng,,"0x0020,    // 空格 (Space)",Chinese parts: 空格
+5768,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1041,,不中断空格,Khoảng trắng không ngắt,,"0x00A0,    // 不中断空格 (No-Break Space)",Chinese parts: 不中断空格
+5769,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1042,,空格,Khoảng trắng,,"0x2002,    // En空格 (En Space)",Chinese parts: 空格
+5770,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1043,,空格,Khoảng trắng,,"0x2003,    // Em空格 (Em Space)",Chinese parts: 空格
+5771,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1044,,刚性空格,Khoảng trắng cố định,,"0x2007,    // 刚性空格 (Figure Space)",Chinese parts: 刚性空格
+5772,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1045,,发音修饰字母的连字符,Khoảng trắng hẹp,,"0x200A,    // 发音修饰字母的连字符 (Hair Space)",Chinese parts: 发音修饰字母的连字符
+5773,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1046,,零宽空格,Khoảng trắng không rộng,,"0x200B,    // 零宽空格 (Zero Width Space)",Chinese parts: 零宽空格
+5774,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1047,,零宽不连字,Ký tự không nối không rộng,,"0x200C,    // 零宽不连字 (Zero Width Non-Joiner)",Chinese parts: 零宽不连字
+5775,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1048,,零宽连字,Ký tự nối không rộng,,"0x200D,    // 零宽连字 (Zero Width Joiner)",Chinese parts: 零宽连字
+5776,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1049,,狭窄不中断空格,Khoảng trắng không ngắt hẹp,,"0x202F,    // 狭窄不中断空格 (Narrow No-Break Space)",Chinese parts: 狭窄不中断空格
+5777,source_code,app\src\main\java\io\legado\app\model\analyzeRule\QueryTTF.java,1050,,中等数学空格,Khoảng trắng toán học trung bình,,0x205F     // 中等数学空格 (Medium Mathematical Space),Chinese parts: 中等数学空格
+5778,source_code,modules\rhino\src\main\java\com\script\rhino\ExternalScriptable.kt,247,,找不到对象的默认值,Không tìm thấy giá trị mặc định của đối tượng,,"w Context.reportRuntimeError(""找不到对象的默认值 $arg"")",Chinese parts: 找不到对象的默认值
+5779,source_code,modules\rhino\src\main\java\com\script\rhino\RhinoScriptEngine.kt,189,,脚本对象不能为空,Đối tượng script không được để trống,,"row IllegalArgumentException(""脚本对象不能为空"")",Chinese parts: 脚本对象不能为空
+5780,source_code,modules\rhino\src\main\java\com\script\rhino\RhinoScriptEngine.kt,203,,方法名为空,Tên phương thức bị trống,,"throw NullPointerException(""方法名为空"")",Chinese parts: 方法名为空
+5781,source_code,modules\rhino\src\main\java\com\script\rhino\RhinoScriptEngine.kt,239,,脚本对象不能为空,Đối tượng script không được để trống,,"row IllegalArgumentException(""脚本对象不能为空"")",Chinese parts: 脚本对象不能为空
+5782,source_code,modules\book\src\main\java\me\ag2s\umdlib\domain\UmdChapters.java,54,,总长度,Tổng độ dài,,"System.out.println(""总长度:"" + contents.size());",Chinese parts: 总长度
+5783,source_code,modules\book\src\main\java\me\ag2s\umdlib\domain\UmdChapters.java,55,,起始值,Giá trị bắt đầu,,"System.out.println(""起始值:"" + st);",Chinese parts: 起始值
+5784,source_code,modules\book\src\main\java\me\ag2s\umdlib\domain\UmdChapters.java,56,,结束值,Giá trị kết thúc,,"System.out.println(""结束值:"" + end);",Chinese parts: 结束值
+5785,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,47,,块标识,Mã định danh khối,,"System.out.println(""块标识:"" + segType);",Chinese parts: 块标识
+5786,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,113,,未知内容,Nội dung không xác định,,"/*Console.WriteLine(""未知内容"");",Chinese parts: 未知内容
+5787,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,123,,文件头,Tiêu đề tệp,,case 1://umd文件头 DCTS_CMD_ID_VERSION,Chinese parts: 文件头
+5788,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,126,,文件类型,Loại tệp,,"System.out.println(""UMD文件类型:"" + header.getUmdType());",Chinese parts: 文件类型
+5789,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,128,,文件标题,Tiêu đề tệp,,case 2://文件标题 DCTS_CMD_ID_TITLE,Chinese parts: 文件标题
+5790,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,130,,文件标题,Tiêu đề tệp,,"System.out.println(""文件标题:"" + header.getTitle());",Chinese parts: 文件标题
+5791,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,132,,作者,Tác giả,,case 3://作者,Chinese parts: 作者
+5792,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,134,,作者,Tác giả,,"System.out.println(""作者:"" + header.getAuthor());",Chinese parts: 作者
+5793,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,136,,年,Năm,,case 4://年,Chinese parts: 年
+5794,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,138,,年,Năm,,"System.out.println(""年:"" + header.getYear());",Chinese parts: 年
+5795,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,140,,月,Tháng,,case 5://月,Chinese parts: 月
+5796,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,142,,月,Tháng,,"System.out.println(""月:"" + header.getMonth());",Chinese parts: 月
+5797,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,144,,日,Ngày,,case 6://日,Chinese parts: 日
+5798,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,146,,日,Ngày,,"System.out.println(""日:"" + header.getDay());",Chinese parts: 日
+5799,source_code,modules\book\src\main\java\me\ag2s\umdlib\umd\UmdReader.java,148,,小说类型,Thể loại tiểu thuyết,,case 7://小说类型

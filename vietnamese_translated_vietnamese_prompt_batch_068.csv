@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3351,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1005,upload_to_remote,上傳,Tải lên,String resource: upload_to_remote,Chinese parts: 上傳
+3352,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1006,add_remote_book,远程書籍,Sách từ xa,String resource: add_remote_book,Chinese parts: 远程書籍
+3353,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1007,bitmap_cache_size_summary,目前最大快取 %1$s MB,Bộ nhớ đệm tối đa hiện tại %1$s MB,String resource: bitmap_cache_size_summary,Chinese parts: 目前最大快取
+3354,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1008,bitmap_cache_size,圖片繪製快取,Bộ nhớ đệm hình ảnh,String resource: bitmap_cache_size,Chinese parts: 圖片繪製快取
+3355,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1009,image_retain_number_summary,保留已讀章節數量 %s,Giữ lại số chương đã đọc %s,String resource: image_retain_number_summary,Chinese parts: 保留已讀章節數量
+3356,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1010,image_retain_number,漫畫保留數量,Số lượng truyện tranh giữ lại,String resource: image_retain_number,Chinese parts: 漫畫保留數量
+3357,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1011,export_pics_file,TXT匯出圖片,Xuất ảnh TXT,String resource: export_pics_file,Chinese parts: 匯出圖片
+3358,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1013,error_decode_bitmap,圖片解碼失敗,Giải mã ảnh thất bại,String resource: error_decode_bitmap,Chinese parts: 圖片解碼失敗
+3359,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1014,error_image_url_empty,圖片連結為空，檢查取代淨化規則,Liên kết ảnh trống, kiểm tra quy tắc thay thế và làm sạch,String resource: error_image_url_empty,"Chinese parts: 圖片連結為空, 檢查取代淨化規則"
+3360,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1015,variable_comment,變數說明(variableComment),Giải thích biến (variableComment),String resource: variable_comment,Chinese parts: 變數說明
+3361,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1016,remote_book,遠端書籍,Sách từ xa,String resource: remote_book,Chinese parts: 遠端書籍
+3362,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1017,reading_time_sort,閱讀時長排序,Sắp xếp theo thời gian đọc,String resource: reading_time_sort,Chinese parts: 閱讀時長排序
+3363,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1018,last_read_time_sort,閱讀時間排序,Sắp xếp theo thời gian đọc cuối,String resource: last_read_time_sort,Chinese parts: 閱讀時間排序
+3364,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1019,reading_time_tag,閱讀時長：,Thời gian đọc:,String resource: reading_time_tag,Chinese parts: 閱讀時長
+3365,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1020,last_read_time_tag,最後閱讀時間：,Thời gian đọc cuối:,String resource: last_read_time_tag,Chinese parts: 最後閱讀時間
+3366,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1021,page_touch_slop_title,滑動翻頁閾值,Ngưỡng vuốt chuyển trang,String resource: page_touch_slop_title,Chinese parts: 滑動翻頁閾值
+3367,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1022,page_touch_slop_dialog_title,滑動翻頁閾值（0 = 系統預設值）,Ngưỡng vuốt chuyển trang (0 = mặc định hệ thống),String resource: page_touch_slop_dialog_title,"Chinese parts: 滑動翻頁閾值, 系統預設值"
+3368,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1023,page_touch_slop_summary,滑動多長距離才會觸發滑動翻頁（系統預設值 %s px）,Vuốt bao xa để kích hoạt chuyển trang (mặc định hệ thống %s px),String resource: page_touch_slop_summary,"Chinese parts: 滑動多長距離才會觸發滑動翻頁, 系統預設值"
+3369,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1024,example,範例,Ví dụ,String resource: example,Chinese parts: 範例
+3370,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1025,check_selected_interval,選中所選區間,Kiểm tra khoảng đã chọn,String resource: check_selected_interval,Chinese parts: 選中所選區間
+3371,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1026,show_add_to_shelf_alert_title,返回時提示放入書架,Nhắc thêm vào kệ sách khi quay lại,String resource: show_add_to_shelf_alert_title,Chinese parts: 返回時提示放入書架
+3372,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1027,show_add_to_shelf_alert_summary,閱讀未放入書架的書籍在返回時提示放入書架,Khi đọc sách chưa thêm vào kệ, nhắc thêm vào kệ sách lúc quay lại,String resource: show_add_to_shelf_alert_summary,Chinese parts: 閱讀未放入書架的書籍在返回時提示放入書架
+3373,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1028,review,段評,Bình luận đoạn,String resource: review,Chinese parts: 段評
+3374,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1029,rule_review_url,段評URL（reviewUrl）,URL bình luận đoạn (reviewUrl),String resource: rule_review_url,Chinese parts: 段評
+3375,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1030,rule_avatar,段評發布者大頭貼（avatarRule）,Ảnh đại diện người đăng bình luận đoạn (avatarRule),String resource: rule_avatar,Chinese parts: 段評發布者大頭貼
+3376,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1031,rule_review_content,段評內容（contentRule）,Nội dung bình luận đoạn (contentRule),String resource: rule_review_content,Chinese parts: 段評內容
+3377,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1032,rule_post_time,段評發布時間（postTimeRule）,Thời gian đăng bình luận đoạn (postTimeRule),String resource: rule_post_time,Chinese parts: 段評發布時間
+3378,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1033,rule_review_quote,段評回復URL（reviewQuoteUrl）,URL trích dẫn bình luận đoạn (reviewQuoteUrl),String resource: rule_review_quote,Chinese parts: 段評回復
+3379,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1034,review_vote_down,點踩URL（voteDownUrl）,URL bỏ thích (voteDownUrl),String resource: review_vote_down,Chinese parts: 點踩
+3380,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1035,review_vote_up,按讚URL（voteUpUrl）,URL thích (voteUpUrl),String resource: review_vote_up,Chinese parts: 按讚
+3381,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1036,post_review_url,發送回復URL（postReviewUrl）,URL gửi bình luận (postReviewUrl),String resource: post_review_url,Chinese parts: 發送回復
+3382,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1037,post_quote_url,發送回復段評URL（postQuoteUrl）,URL gửi trích dẫn bình luận đoạn (postQuoteUrl),String resource: post_quote_url,Chinese parts: 發送回復段評
+3383,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1038,delete_review_url,刪除段評URL（deleteUrl）,URL xóa bình luận đoạn (deleteUrl),String resource: delete_review_url,Chinese parts: 刪除段評
+3384,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1039,tag_explore_enabled,標誌：發現已啟用,Thẻ: Khám phá đã bật,String resource: tag_explore_enabled,"Chinese parts: 標誌, 發現已啟用"
+3385,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1040,tag_explore_disabled,標誌：發現已禁用,Thẻ: Khám phá đã tắt,String resource: tag_explore_disabled,"Chinese parts: 標誌, 發現已禁用"
+3386,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1041,show_read_title_addition,展示頂部工具列附加區域,Hiển thị khu vực bổ sung thanh công cụ trên cùng,String resource: show_read_title_addition,Chinese parts: 展示頂部工具列附加區域
+3387,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1042,read_bar_style_follow_page,工具列樣式跟隨頁面,Kiểu thanh công cụ theo trang,String resource: read_bar_style_follow_page,Chinese parts: 工具列樣式跟隨頁面
+3388,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1043,rule_image_decode,圖片解密（imageDecode）,Giải mã ảnh (imageDecode),String resource: rule_image_decode,Chinese parts: 圖片解密
+3389,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1044,like_source,讚,Thích,String resource: like_source,Chinese parts: 讚
+3390,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1045,not_like_source,踩,Không thích,String resource: not_like_source,Chinese parts: 踩
+3391,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1046,async_load_image,非同步載入圖片,Tải ảnh không đồng bộ,String resource: async_load_image,Chinese parts: 非同步載入圖片
+3392,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1047,ignore_audio_focus_title,忽略音訊焦點,Bỏ qua tiêu điểm âm thanh,String resource: ignore_audio_focus_title,Chinese parts: 忽略音訊焦點
+3393,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1048,ignore_audio_focus_summary,允許與其他應用同時播放音訊,Cho phép phát âm thanh cùng lúc với ứng dụng khác,String resource: ignore_audio_focus_summary,Chinese parts: 允許與其他應用同時播放音訊
+3394,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1049,refresh_sort,重新整理分類,Làm mới phân loại,String resource: refresh_sort,Chinese parts: 重新整理分類
+3395,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1050,cover_decode_js,封面解密（coverDecodeJs）,Giải mã bìa (coverDecodeJs),String resource: cover_decode_js,Chinese parts: 封面解密
+3396,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1051,net_no_group,網路未分組,Trực tuyến chưa nhóm,String resource: net_no_group,Chinese parts: 網路未分組
+3397,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1052,local_no_group,本機未分組,Cục bộ chưa nhóm,String resource: local_no_group,Chinese parts: 本機未分組
+3398,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1053,parallel_export_book,多執行緒匯出,Xuất đa luồng,String resource: parallel_export_book,Chinese parts: 多執行緒匯出
+3399,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1054,progress_bar_behavior,進度條行為,Hành vi thanh tiến độ,String resource: progress_bar_behavior,Chinese parts: 進度條行為
+3400,xml_string,app\src\main\res\values-zh-rTW\strings.xml,1055,source_edit_text_max_line,源編輯框最大行數,Số dòng tối đa của ô chỉnh sửa nguồn,String resource: source_edit_text_max_line,Chinese parts: 源編輯框最大行數

@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2001,xml_string,app\src\main\res\values-zh-rHK\strings.xml,836,crash_log,崩潰日誌,,String resource: crash_log,Chinese parts: 崩潰日誌
+2002,xml_string,app\src\main\res\values-zh-rHK\strings.xml,837,use_zh_layout,使用自訂中文分行,,String resource: use_zh_layout,Chinese parts: 使用自訂中文分行
+2003,xml_string,app\src\main\res\values-zh-rHK\strings.xml,838,image_style,圖片樣式,,String resource: image_style,Chinese parts: 圖片樣式
+2004,xml_string,app\src\main\res\values-zh-rHK\strings.xml,839,system_tts,系統TTS,,String resource: system_tts,Chinese parts: 系統
+2005,xml_string,app\src\main\res\values-zh-rHK\strings.xml,840,export_type,導出格式,,String resource: export_type,Chinese parts: 導出格式
+2006,xml_string,app\src\main\res\values-zh-rHK\strings.xml,841,checkAuthor,校驗作者,,String resource: checkAuthor,Chinese parts: 校驗作者
+2007,xml_string,app\src\main\res\values-zh-rHK\strings.xml,842,search_src,搜尋源碼,,String resource: search_src,Chinese parts: 搜尋源碼
+2008,xml_string,app\src\main\res\values-zh-rHK\strings.xml,843,boo_src,書輯源碼,,String resource: boo_src,Chinese parts: 書輯源碼
+2009,xml_string,app\src\main\res\values-zh-rHK\strings.xml,844,toc_src,目錄源碼,,String resource: toc_src,Chinese parts: 目錄源碼
+2010,xml_string,app\src\main\res\values-zh-rHK\strings.xml,845,content_src,正文源碼,,String resource: content_src,Chinese parts: 正文源碼
+2011,xml_string,app\src\main\res\values-zh-rHK\strings.xml,846,list_src,列表源碼,,String resource: list_src,Chinese parts: 列表源碼
+2012,xml_string,app\src\main\res\values-zh-rHK\strings.xml,847,url_already,此url訂閱咗,,String resource: url_already,"Chinese parts: 此, 訂閱咗"
+2013,xml_string,app\src\main\res\values-zh-rHK\strings.xml,848,high_brush_title,高刷,,String resource: high_brush_title,Chinese parts: 高刷
+2014,xml_string,app\src\main\res\values-zh-rHK\strings.xml,849,high_brush_summary,使用螢幕最高刷新率,,String resource: high_brush_summary,Chinese parts: 使用螢幕最高刷新率
+2015,xml_string,app\src\main\res\values-zh-rHK\strings.xml,850,export_all,導出所有,,String resource: export_all,Chinese parts: 導出所有
+2016,xml_string,app\src\main\res\values-zh-rHK\strings.xml,851,complete,完成,,String resource: complete,Chinese parts: 完成
+2017,xml_string,app\src\main\res\values-zh-rHK\strings.xml,852,show_unread,顯示未讀標誌,,String resource: show_unread,Chinese parts: 顯示未讀標誌
+2018,xml_string,app\src\main\res\values-zh-rHK\strings.xml,853,use_default_cover,總是使用默認封面,,String resource: use_default_cover,Chinese parts: 總是使用默認封面
+2019,xml_string,app\src\main\res\values-zh-rHK\strings.xml,854,use_default_cover_s,"總是使用默認封面,唔顯示網路封面",,String resource: use_default_cover_s,"Chinese parts: 總是使用默認封面, 唔顯示網路封面"
+2020,xml_string,app\src\main\res\values-zh-rHK\strings.xml,855,title_font_size,字號,,String resource: title_font_size,Chinese parts: 字號
+2021,xml_string,app\src\main\res\values-zh-rHK\strings.xml,856,title_margin_top,上邊距,,String resource: title_margin_top,Chinese parts: 上邊距
+2022,xml_string,app\src\main\res\values-zh-rHK\strings.xml,857,title_margin_bottom,下邊距,,String resource: title_margin_bottom,Chinese parts: 下邊距
+2023,xml_string,app\src\main\res\values-zh-rHK\strings.xml,858,show,顯示,,String resource: show,Chinese parts: 顯示
+2024,xml_string,app\src\main\res\values-zh-rHK\strings.xml,859,hide,隱藏,,String resource: hide,Chinese parts: 隱藏
+2025,xml_string,app\src\main\res\values-zh-rHK\strings.xml,860,hide_when_status_bar_show,狀態欄顯示時隱藏,,String resource: hide_when_status_bar_show,Chinese parts: 狀態欄顯示時隱藏
+2026,xml_string,app\src\main\res\values-zh-rHK\strings.xml,861,diy_source_group,自訂源分組,,String resource: diy_source_group,Chinese parts: 自訂源分組
+2027,xml_string,app\src\main\res\values-zh-rHK\strings.xml,862,diy_edit_source_group,輸入自訂源分組名稱,,String resource: diy_edit_source_group,Chinese parts: 輸入自訂源分組名稱
+2028,xml_string,app\src\main\res\values-zh-rHK\strings.xml,863,reverse_toc,反轉目錄,,String resource: reverse_toc,Chinese parts: 反轉目錄
+2029,xml_string,app\src\main\res\values-zh-rHK\strings.xml,864,show_discovery,顯示發現,,String resource: show_discovery,Chinese parts: 顯示發現
+2030,xml_string,app\src\main\res\values-zh-rHK\strings.xml,865,style,樣式,,String resource: style,Chinese parts: 樣式
+2031,xml_string,app\src\main\res\values-zh-rHK\strings.xml,866,group_style,分組樣式,,String resource: group_style,Chinese parts: 分組樣式
+2032,xml_string,app\src\main\res\values-zh-rHK\strings.xml,867,export_file_name,導出文件名,,String resource: export_file_name,Chinese parts: 導出文件名
+2033,xml_string,app\src\main\res\values-zh-rHK\strings.xml,868,reset,重置,,String resource: reset,Chinese parts: 重置
+2034,xml_string,app\src\main\res\values-zh-rHK\strings.xml,869,null_url,url為空,,String resource: null_url,Chinese parts: 為空
+2035,xml_string,app\src\main\res\values-zh-rHK\strings.xml,870,dict,字典,,String resource: dict,Chinese parts: 字典
+2036,xml_string,app\src\main\res\values-zh-rHK\strings.xml,871,unknown_error,未知錯誤,,String resource: unknown_error,Chinese parts: 未知錯誤
+2037,xml_string,app\src\main\res\values-zh-rHK\strings.xml,872,export_no_chapter_name,TXT不導出章節名,,String resource: export_no_chapter_name,Chinese parts: 不導出章節名
+2038,xml_string,app\src\main\res\values-zh-rHK\strings.xml,874,custom_group_summary,關閉替換分組/開啟添加分組,,String resource: custom_group_summary,"Chinese parts: 關閉替換分組, 開啟添加分組"
+2039,xml_string,app\src\main\res\values-zh-rHK\strings.xml,875,pref_media_button_per_next,媒體按鈕•上一首|下一首,,String resource: pref_media_button_per_next,"Chinese parts: 媒體按鈕, 上一首, 下一首"
+2040,xml_string,app\src\main\res\values-zh-rHK\strings.xml,876,pref_media_button_per_next_summary,上一段|下一段/上一章|下一章,,String resource: pref_media_button_per_next_summary,"Chinese parts: 上一段, 下一段, 上一章, 下一章"
+2041,xml_string,app\src\main\res\values-zh-rHK\strings.xml,877,read_aloud_by_page_summary,"及時翻頁,翻頁時會停頓一下",,String resource: read_aloud_by_page_summary,"Chinese parts: 及時翻頁, 翻頁時會停頓一下"
+2042,xml_string,app\src\main\res\values-zh-rHK\strings.xml,878,check_source_show_debug_message,校驗書源顯示詳細信息,,String resource: check_source_show_debug_message,Chinese parts: 校驗書源顯示詳細信息
+2043,xml_string,app\src\main\res\values-zh-rHK\strings.xml,879,check_source_show_debug_message_summary,書源校驗時顯示網絡請求步驟和時間,,String resource: check_source_show_debug_message_summary,Chinese parts: 書源校驗時顯示網絡請求步驟和時間
+2044,xml_string,app\src\main\res\values-zh-rHK\strings.xml,880,need_login,需登錄,,String resource: need_login,Chinese parts: 需登錄
+2045,xml_string,app\src\main\res\values-zh-rHK\strings.xml,881,pref_cronet_summary,使用Cronet網絡組件,,String resource: pref_cronet_summary,"Chinese parts: 使用, 網絡組件"
+2046,xml_string,app\src\main\res\values-zh-rHK\strings.xml,882,anti_alias,抗鋸齒,,String resource: anti_alias,Chinese parts: 抗鋸齒
+2047,xml_string,app\src\main\res\values-zh-rHK\strings.xml,883,pref_anti_alias_summary,繪製圖片時抗鋸齒,,String resource: pref_anti_alias_summary,Chinese parts: 繪製圖片時抗鋸齒
+2048,xml_string,app\src\main\res\values-zh-rHK\strings.xml,884,upload_url,上傳URL,,String resource: upload_url,Chinese parts: 上傳
+2049,xml_string,app\src\main\res\values-zh-rHK\strings.xml,885,download_url_rule,下载URL规则(downloadUrls),,String resource: download_url_rule,"Chinese parts: 下载, 规则"
+2050,xml_string,app\src\main\res\values-zh-rHK\strings.xml,886,sort_by_respondTime,響應時間排序,,String resource: sort_by_respondTime,Chinese parts: 響應時間排序

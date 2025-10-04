@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+5601,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,134,,替换内容,,"AppLog.put(""${item.name}替换出错\n替换内容\n${displayTitle}"", e)",Chinese parts: 替换内容
+5602,source_code,app\src\main\java\io\legado\app\data\entities\BookChapter.kt,135,,替换出错,,"appCtx.toastOnUi(""${item.name}替换出错"")",Chinese parts: 替换出错
+5603,source_code,app\src\main\java\io\legado\app\data\entities\BookSource.kt,219,,失效,,"""失效"" in it || it == ""校验超时""",Chinese parts: 失效
+5604,source_code,app\src\main\java\io\legado\app\data\entities\BookSource.kt,219,,校验超时,,"""失效"" in it || it == ""校验超时""",Chinese parts: 校验超时
+5605,source_code,app\src\main\java\io\legado\app\data\entities\ReplaceRule.kt,97,,正则语法错误或不支持,,"AppLog.put(""正则语法错误或不支持：${ex.localizedMessage}"", ex)",Chinese parts: 正则语法错误或不支持
+5606,source_code,app\src\main\java\io\legado\app\data\entities\RssArticle.kt,24,,默认分组,,"@ColumnInfo(defaultValue = ""默认分组"")",Chinese parts: 默认分组
+5607,source_code,app\src\main\java\io\legado\app\data\entities\RssArticle.kt,25,,默认分组,,"var group: String = ""默认分组"",",Chinese parts: 默认分组
+5608,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,35,,并发率,,/**并发率**/,Chinese parts: 并发率
+5609,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,37,,请求头,,/**请求头**/,Chinese parts: 请求头
+5610,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,39,,登录地址,,/**登录地址**/,Chinese parts: 登录地址
+5611,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,41,,登录,,/**登录Ui**/,Chinese parts: 登录
+5612,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,43,,登录检测,,/**登录检测js**/,Chinese parts: 登录检测
+5613,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,45,,封面解密,,/**封面解密js**/,Chinese parts: 封面解密
+5614,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,47,,分类,,/**分类Url**/,Chinese parts: 分类
+5615,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,49,,是否单,,/**是否单url源**/,Chinese parts: 是否单
+5616,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,49,,源,,/**是否单url源**/,Chinese parts: 源
+5617,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,51,,列表规则,,/*列表规则*/,Chinese parts: 列表规则
+5618,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,52,,列表样式,,"/**列表样式,0,1,2**/",Chinese parts: 列表样式
+5619,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,55,,列表规则,,/**列表规则**/,Chinese parts: 列表规则
+5620,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,57,,下一页规则,,/**下一页规则**/,Chinese parts: 下一页规则
+5621,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,59,,标题规则,,/**标题规则**/,Chinese parts: 标题规则
+5622,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,61,,发布日期规则,,/**发布日期规则**/,Chinese parts: 发布日期规则
+5623,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,63,,规则,,/*webView规则*/,Chinese parts: 规则
+5624,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,64,,描述规则,,/**描述规则**/,Chinese parts: 描述规则
+5625,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,66,,图片规则,,/**图片规则**/,Chinese parts: 图片规则
+5626,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,68,,链接规则,,/**链接规则**/,Chinese parts: 链接规则
+5627,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,70,,正文规则,,/**正文规则**/,Chinese parts: 正文规则
+5628,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,72,,正文,,/**正文url白名单**/,Chinese parts: 正文
+5629,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,72,,白名单,,/**正文url白名单**/,Chinese parts: 白名单
+5630,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,74,,正文,,/**正文url黑名单**/,Chinese parts: 正文
+5631,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,74,,黑名单,,/**正文url黑名单**/,Chinese parts: 黑名单
+5632,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,81,,样式,,/**webView样式**/,Chinese parts: 样式
+5633,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,87,,注入,,/**注入js**/,Chinese parts: 注入
+5634,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,89,,其它规则,,/*其它规则*/,Chinese parts: 其它规则
+5635,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,90,,最后更新时间,,/**最后更新时间，用于排序**/,Chinese parts: 最后更新时间
+5636,source_code,app\src\main\java\io\legado\app\data\entities\RssSource.kt,90,,用于排序,,/**最后更新时间，用于排序**/,Chinese parts: 用于排序
+5637,source_code,app\src\main\java\io\legado\app\data\entities\RssStar.kt,25,,默认分组,,"@ColumnInfo(defaultValue = ""默认分组"")",Chinese parts: 默认分组
+5638,source_code,app\src\main\java\io\legado\app\data\entities\RssStar.kt,26,,默认分组,,"var group: String = ""默认分组"",",Chinese parts: 默认分组
+5639,source_code,app\src\main\java\io\legado\app\data\entities\SearchBook.kt,33,,书源,,/** 书源 */,Chinese parts: 书源
+5640,source_code,app\src\main\java\io\legado\app\data\entities\SearchBook.kt,45,,目录页,,/** 目录页Url (toc=table of Contents) */,Chinese parts: 目录页
+5641,source_code,app\src\main\java\io\legado\app\data\entities\SearchBook.kt,95,,无最新章节,,"return ""无最新章节""",Chinese parts: 无最新章节
+5642,source_code,app\src\main\java\io\legado\app\data\entities\SearchKeyword.kt,13,,搜索关键词,,/** 搜索关键词 */,Chinese parts: 搜索关键词
+5643,source_code,app\src\main\java\io\legado\app\data\entities\SearchKeyword.kt,16,,使用次数,,/** 使用次数 */,Chinese parts: 使用次数
+5644,source_code,app\src\main\java\io\legado\app\data\entities\SearchKeyword.kt,18,,最后一次使用时间,,/** 最后一次使用时间 */,Chinese parts: 最后一次使用时间
+5645,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,14,,有些网站只能在正文中获取标题,,"var title: String? = null, //有些网站只能在正文中获取标题",Chinese parts: 有些网站只能在正文中获取标题
+5646,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,18,,替换规则,,"placeRegex: String? = null, //替换规则",Chinese parts: 替换规则
+5647,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,19,,默认大小居中,,"ageStyle: String? = null,   //默认大小居中,FULL最大宽度",Chinese parts: 默认大小居中
+5648,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,19,,最大宽度,,"tring? = null,   //默认大小居中,FULL最大宽度",Chinese parts: 最大宽度
+5649,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,20,,图片,,"mageDecode: String? = null, //图片bytes二次解密js, 返回解密后的bytes",Chinese parts: 图片
+5650,source_code,app\src\main\java\io\legado\app\data\entities\rule\ContentRule.kt,20,,二次解密,,"ode: String? = null, //图片bytes二次解密js, 返回解密后的bytes",Chinese parts: 二次解密

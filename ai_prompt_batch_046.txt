@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2251,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1096,unsupport_archivefile_entry,压缩文件内没有支持的文件,,String resource: unsupport_archivefile_entry,Chinese parts: 压缩文件内没有支持的文件
+2252,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1097,no_books_dir,没有设置书籍保存位置!,,String resource: no_books_dir,Chinese parts: 没有设置书籍保存位置
+2253,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1098,delete_alert,删除提醒,,String resource: delete_alert,Chinese parts: 删除提醒
+2254,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1099,no_book_found_bookshelf,"未在书架上找到所选书籍, 是否重新导入？",,String resource: no_book_found_bookshelf,"Chinese parts: 未在书架上找到所选书籍, 是否重新导入"
+2255,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1100,archive_not_found,未能在书籍保存目录找到压缩文件，是否重新导入？,,String resource: archive_not_found,"Chinese parts: 未能在书籍保存目录找到压缩文件, 是否重新导入"
+2256,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1101,privacy_policy,用户隐私与协议,,String resource: privacy_policy,Chinese parts: 用户隐私与协议
+2257,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1102,agree,同意,,String resource: agree,Chinese parts: 同意
+2258,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1103,refuse,拒绝,,String resource: refuse,Chinese parts: 拒绝
+2259,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1104,file_manage,文件管理,,String resource: file_manage,Chinese parts: 文件管理
+2260,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1105,file_manage_summary,管理私有文件夹的文件,,String resource: file_manage_summary,Chinese parts: 管理私有文件夹的文件
+2261,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1106,create_folder,创建文件夹,,String resource: create_folder,Chinese parts: 创建文件夹
+2262,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1107,allow_drop_down_refresh,允许下拉刷新,,String resource: allow_drop_down_refresh,Chinese parts: 允许下拉刷新
+2263,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1108,text_underline,文字下划线,,String resource: text_underline,Chinese parts: 文字下划线
+2264,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1109,select_new_source,选中新增源,,String resource: select_new_source,Chinese parts: 选中新增源
+2265,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1110,select_update_source,选中更新源,,String resource: select_update_source,Chinese parts: 选中更新源
+2266,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1111,set_local_password,设置本地密码,,String resource: set_local_password,Chinese parts: 设置本地密码
+2267,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1112,set_local_password_summary,"本地密码用来对备份的敏感信息加密和解密,如需在不同设备之间同步,本地密码需一致.",,String resource: set_local_password_summary,"Chinese parts: 本地密码用来对备份的敏感信息加密和解密, 如需在不同设备之间同步, 本地密码需一致"
+2268,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1113,only_latest_backup_t,仅保留最新备份,,String resource: only_latest_backup_t,Chinese parts: 仅保留最新备份
+2269,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1114,only_latest_backup_s,本地备份仅保留最新备份文件,,String resource: only_latest_backup_s,Chinese parts: 本地备份仅保留最新备份文件
+2270,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1115,webdav_application_authorization_error,webDav应用验证失败,,String resource: webdav_application_authorization_error,Chinese parts: 应用验证失败
+2271,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1116,load_word_count,加載字數,,String resource: load_word_count,Chinese parts: 加載字數
+2272,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1117,replace_exclude_scope,排除范围，选填书名或者书源 URL,,String resource: replace_exclude_scope,"Chinese parts: 排除范围, 选填书名或者书源"
+2273,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1118,format_js_rule,格式化规则(formatJs),,String resource: format_js_rule,Chinese parts: 格式化规则
+2274,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1119,adjust_pos,调整位置,,String resource: adjust_pos,Chinese parts: 调整位置
+2275,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1120,select_section_export,選擇待導出章節,,String resource: select_section_export,Chinese parts: 選擇待導出章節
+2276,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1121,error_scope_input,請輸入正確的範圍,,String resource: error_scope_input,Chinese parts: 請輸入正確的範圍
+2277,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1122,custom_export,自定義導出,,String resource: custom_export,Chinese parts: 自定義導出
+2278,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1123,file_contains_number,每個文件包含的章節數量,,String resource: file_contains_number,Chinese parts: 每個文件包含的章節數量
+2279,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1124,export_chapter_index,需要輸出的章節,,String resource: export_chapter_index,Chinese parts: 需要輸出的章節
+2280,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1125,shrink_database,压缩数据库,,String resource: shrink_database,Chinese parts: 压缩数据库
+2281,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1126,shrink_database_summary,减小数据库文件的大小,,String resource: shrink_database_summary,Chinese parts: 减小数据库文件的大小
+2282,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1127,is_compress,是否压缩,,String resource: is_compress,Chinese parts: 是否压缩
+2283,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1128,sort_desc,反序,,String resource: sort_desc,Chinese parts: 反序
+2284,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1129,test,测试,,String resource: test,Chinese parts: 测试
+2285,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1130,show_wait_up_count,显示等待更新数量,,String resource: show_wait_up_count,Chinese parts: 显示等待更新数量
+2286,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1131,exit_app,退出软件,,String resource: exit_app,Chinese parts: 退出软件
+2287,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1132,result_analyzed,解析示例,,String resource: result_analyzed,Chinese parts: 解析示例
+2288,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1133,bookshelf_px_4,綜合排序,,String resource: bookshelf_px_4,Chinese parts: 綜合排序
+2289,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1134,bookshelf_px_5,按作者,,String resource: bookshelf_px_5,Chinese parts: 按作者
+2290,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1135,effective_replaces,起效的替换,,String resource: effective_replaces,Chinese parts: 起效的替换
+2291,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1136,export_book,导出书籍,,String resource: export_book,Chinese parts: 导出书籍
+2292,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1137,export_book_notification_content,"正在导出(%1$s),还有%2$d本待导出",,String resource: export_book_notification_content,"Chinese parts: 正在导出, 还有, 本待导出"
+2293,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1138,export_md,导出(MD),,String resource: export_md,Chinese parts: 导出
+2294,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1139,change_source_delay,换源间隔,,String resource: change_source_delay,Chinese parts: 换源间隔
+2295,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1140,change_source_progress,""" 結果 %1$d, 當前進度 %2$d / %3$d: %4$s""",,String resource: change_source_progress,"Chinese parts: 結果, 當前進度"
+2296,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1141,open_book_info_by_click_title,点击书名打开详情,,String resource: open_book_info_by_click_title,Chinese parts: 点击书名打开详情
+2297,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1142,export_wait,等待导出,,String resource: export_wait,Chinese parts: 等待导出
+2298,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1143,sync_book_progress_success,進度同步成功,,String resource: sync_book_progress_success,Chinese parts: 進度同步成功
+2299,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1144,default_home_page,默认主页,,String resource: default_home_page,Chinese parts: 默认主页
+2300,xml_string,app\src\main\res\values-zh-rHK\strings.xml,1145,show_bookshelf_fast_scroller,显示快速滚动条,,String resource: show_bookshelf_fast_scroller,Chinese parts: 显示快速滚动条

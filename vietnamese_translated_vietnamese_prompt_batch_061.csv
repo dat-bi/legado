@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+3001,xml_string,app\src\main\res\values-zh-rTW\strings.xml,649,chinese_converter,中文簡繁體轉換,Chuyển đổi tiếng Trung giản/phồn thể,String resource: chinese_converter,Chinese parts: 中文簡繁體轉換
+3002,xml_string,app\src\main\res\values-zh-rTW\strings.xml,650,change_icon_error,圖示為向量圖示，Android8.0以前不支援,Biểu tượng là ảnh vector, không hỗ trợ Android 8.0 trở xuống,String resource: change_icon_error,"Chinese parts: 圖示為向量圖示, 以前不支援"
+3003,xml_string,app\src\main\res\values-zh-rTW\strings.xml,651,aloud_config,朗讀設定,Cài đặt Đọc to,String resource: aloud_config,Chinese parts: 朗讀設定
+3004,xml_string,app\src\main\res\values-zh-rTW\strings.xml,652,main_activity,主介面,Giao diện chính,String resource: main_activity,Chinese parts: 主介面
+3005,xml_string,app\src\main\res\values-zh-rTW\strings.xml,653,selectText,長按選擇文字,Nhấn giữ để chọn văn bản,String resource: selectText,Chinese parts: 長按選擇文字
+3006,xml_string,app\src\main\res\values-zh-rTW\strings.xml,654,header,頁首,Đầu trang,String resource: header,Chinese parts: 頁首
+3007,xml_string,app\src\main\res\values-zh-rTW\strings.xml,655,main_body,正文,Nội dung chính,String resource: main_body,Chinese parts: 正文
+3008,xml_string,app\src\main\res\values-zh-rTW\strings.xml,656,footer,頁尾,Chân trang,String resource: footer,Chinese parts: 頁尾
+3009,xml_string,app\src\main\res\values-zh-rTW\strings.xml,657,select_end,文字選擇結束位置,Vị trí kết thúc chọn văn bản,String resource: select_end,Chinese parts: 文字選擇結束位置
+3010,xml_string,app\src\main\res\values-zh-rTW\strings.xml,658,select_start,文字選擇開始位置,Vị trí bắt đầu chọn văn bản,String resource: select_start,Chinese parts: 文字選擇開始位置
+3011,xml_string,app\src\main\res\values-zh-rTW\strings.xml,659,share_layout,共用布局,Chia sẻ bố cục,String resource: share_layout,Chinese parts: 共用布局
+3012,xml_string,app\src\main\res\values-zh-rTW\strings.xml,660,browser,瀏覽器,Trình duyệt,String resource: browser,Chinese parts: 瀏覽器
+3013,xml_string,app\src\main\res\values-zh-rTW\strings.xml,661,import_default_rule,匯入預設規則,Nhập quy tắc mặc định,String resource: import_default_rule,Chinese parts: 匯入預設規則
+3014,xml_string,app\src\main\res\values-zh-rTW\strings.xml,662,name,名稱,Tên,String resource: name,Chinese parts: 名稱
+3015,xml_string,app\src\main\res\values-zh-rTW\strings.xml,663,regex,正則,Biểu thức chính quy,String resource: regex,Chinese parts: 正則
+3016,xml_string,app\src\main\res\values-zh-rTW\strings.xml,664,more_menu,更多選單,Menu khác,String resource: more_menu,Chinese parts: 更多選單
+3017,xml_string,app\src\main\res\values-zh-rTW\strings.xml,665,reduce,減,Giảm,String resource: reduce,Chinese parts: 減
+3018,xml_string,app\src\main\res\values-zh-rTW\strings.xml,666,plus,加,Tăng,String resource: plus,Chinese parts: 加
+3019,xml_string,app\src\main\res\values-zh-rTW\strings.xml,667,system_typeface,系統內建字體樣式,Kiểu phông chữ hệ thống,String resource: system_typeface,Chinese parts: 系統內建字體樣式
+3020,xml_string,app\src\main\res\values-zh-rTW\strings.xml,668,delete_book_file,刪除來源文件,Xóa tệp nguồn,String resource: delete_book_file,Chinese parts: 刪除來源文件
+3021,xml_string,app\src\main\res\values-zh-rTW\strings.xml,669,text_default,默认,Mặc định,String resource: text_default,Chinese parts: 默认
+3022,xml_string,app\src\main\res\values-zh-rTW\strings.xml,670,default1,預設一,Mặc định 1,String resource: default1,Chinese parts: 預設一
+3023,xml_string,app\src\main\res\values-zh-rTW\strings.xml,671,default2,預設二,Mặc định 2,String resource: default2,Chinese parts: 預設二
+3024,xml_string,app\src\main\res\values-zh-rTW\strings.xml,672,default3,預設三,Mặc định 3,String resource: default3,Chinese parts: 預設三
+3025,xml_string,app\src\main\res\values-zh-rTW\strings.xml,673,title,標題,Tiêu đề,String resource: title,Chinese parts: 標題
+3026,xml_string,app\src\main\res\values-zh-rTW\strings.xml,674,title_left,靠左,Căn trái,String resource: title_left,Chinese parts: 靠左
+3027,xml_string,app\src\main\res\values-zh-rTW\strings.xml,675,title_center,居中,Căn giữa,String resource: title_center,Chinese parts: 居中
+3028,xml_string,app\src\main\res\values-zh-rTW\strings.xml,676,title_hide,隱藏,Ẩn,String resource: title_hide,Chinese parts: 隱藏
+3029,xml_string,app\src\main\res\values-zh-rTW\strings.xml,677,add_to_group,加入分組,Thêm vào nhóm,String resource: add_to_group,Chinese parts: 加入分組
+3030,xml_string,app\src\main\res\values-zh-rTW\strings.xml,678,save_image,儲存圖片,Lưu ảnh,String resource: save_image,Chinese parts: 儲存圖片
+3031,xml_string,app\src\main\res\values-zh-rTW\strings.xml,679,no_default_path,沒有預設路徑,Không có đường dẫn mặc định,String resource: no_default_path,Chinese parts: 沒有預設路徑
+3032,xml_string,app\src\main\res\values-zh-rTW\strings.xml,680,change_group,設定分組,Đặt nhóm,String resource: change_group,Chinese parts: 設定分組
+3033,xml_string,app\src\main\res\values-zh-rTW\strings.xml,681,view_toc,查看目錄,Xem mục lục,String resource: view_toc,Chinese parts: 查看目錄
+3034,xml_string,app\src\main\res\values-zh-rTW\strings.xml,682,bar_elevation,導航欄陰影,Đổ bóng thanh điều hướng,String resource: bar_elevation,Chinese parts: 導航欄陰影
+3035,xml_string,app\src\main\res\values-zh-rTW\strings.xml,683,bar_elevation_s,目前陰影大小(elevation)：%s,Kích thước đổ bóng hiện tại (elevation): %s,String resource: bar_elevation_s,Chinese parts: 目前陰影大小
+3036,xml_string,app\src\main\res\values-zh-rTW\strings.xml,684,btn_default_s,預設,Mặc định,String resource: btn_default_s,Chinese parts: 預設
+3037,xml_string,app\src\main\res\values-zh-rTW\strings.xml,685,main_menu,主選單,Menu chính,String resource: main_menu,Chinese parts: 主選單
+3038,xml_string,app\src\main\res\values-zh-rTW\strings.xml,686,request_permission,點擊授予權限,Nhấn để cấp quyền,String resource: request_permission,Chinese parts: 點擊授予權限
+3039,xml_string,app\src\main\res\values-zh-rTW\strings.xml,687,tip_local_perm_request_storage,"閱讀需要存取記憶卡權限，請點擊下方的""授予權限""按鈕，或前往「設定」—「應用權限」—打開所需權限。如果授予權限後仍然不正常，請點擊右上角的「選擇資料夾」，使用系統資料夾選擇器。","Đọc sách cần quyền truy cập bộ nhớ. Vui lòng nhấn nút ""Cấp quyền"" bên dưới, hoặc vào ""Cài đặt"" — ""Quyền ứng dụng"" — bật quyền cần thiết. Nếu sau khi cấp quyền vẫn không hoạt động bình thường, vui lòng nhấn ""Chọn thư mục"" ở góc trên bên phải để sử dụng trình chọn thư mục hệ thống.",String resource: tip_local_perm_request_storage,"Chinese parts: 閱讀需要存取記憶卡權限, 請點擊下方的, 授予權限, 按鈕, 或前往, 設定, 應用權限, 打開所需權限, 如果授予權限後仍然不正常, 請點擊右上角的, 選擇資料夾, 使用系統資料夾選擇器"
+3040,xml_string,app\src\main\res\values-zh-rTW\strings.xml,688,alouding_disable,全文朗讀中不能朗讀選中文字,Không thể đọc to văn bản đã chọn khi đang đọc toàn bộ văn bản.,String resource: alouding_disable,Chinese parts: 全文朗讀中不能朗讀選中文字
+3041,xml_string,app\src\main\res\values-zh-rTW\strings.xml,689,read_body_to_lh,擴展到瀏海,Mở rộng đến tai thỏ,String resource: read_body_to_lh,Chinese parts: 擴展到瀏海
+3042,xml_string,app\src\main\res\values-zh-rTW\strings.xml,690,toc_updateing,更新目錄中,Đang cập nhật mục lục,String resource: toc_updateing,Chinese parts: 更新目錄中
+3043,xml_string,app\src\main\res\values-zh-rTW\strings.xml,691,media_button_on_exit_title,全程響應耳機按鍵,Luôn phản hồi nút tai nghe,String resource: media_button_on_exit_title,Chinese parts: 全程響應耳機按鍵
+3044,xml_string,app\src\main\res\values-zh-rTW\strings.xml,692,media_button_on_exit_summary,即使退出軟體也響應耳機按鍵,Phản hồi nút tai nghe ngay cả khi đã thoát ứng dụng.,String resource: media_button_on_exit_summary,Chinese parts: 即使退出軟體也響應耳機按鍵
+3045,xml_string,app\src\main\res\values-zh-rTW\strings.xml,693,contributors,開發人員,Nhà phát triển,String resource: contributors,Chinese parts: 開發人員
+3046,xml_string,app\src\main\res\values-zh-rTW\strings.xml,694,contact,聯繫我們,Liên hệ,String resource: contact,Chinese parts: 聯繫我們
+3047,xml_string,app\src\main\res\values-zh-rTW\strings.xml,695,license,開源許可,Giấy phép mã nguồn mở,String resource: license,Chinese parts: 開源許可
+3048,xml_string,app\src\main\res\values-zh-rTW\strings.xml,696,other,其它,Khác,String resource: other,Chinese parts: 其它
+3049,xml_string,app\src\main\res\values-zh-rTW\strings.xml,698,follow_official_account,關注公眾號,Theo dõi tài khoản chính thức,String resource: follow_official_account,Chinese parts: 關注公眾號
+3050,xml_string,app\src\main\res\values-zh-rTW\strings.xml,699,wechat,微信,WeChat,String resource: wechat,Chinese parts: 微信

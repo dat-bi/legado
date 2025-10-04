@@ -94,11 +94,11 @@ fun String.splitNotBlank(regex: Regex, limit: Int = 0): Array<String> = run {
 }
 
 @SuppressLint("ObsoleteSdkInt")
-fun String.cnCompare(other: String): Int {
+fun String.viCompare(other: String): Int {
     return if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-        Collator.getInstance(ULocale.SIMPLIFIED_CHINESE).compare(this, other)
+        Collator.getInstance(ULocale.forLanguageTag("vi")).compare(this, other)
     } else {
-        java.text.Collator.getInstance(Locale.CHINA).compare(this, other)
+        java.text.Collator.getInstance(Locale.forLanguageTag("vi")).compare(this, other)
     }
 }
 
@@ -111,16 +111,16 @@ fun String?.memorySize(): Int {
 }
 
 /**
- * 是否中文
+ * Có phải là tiếng Việt
  */
-fun String.isChinese(): Boolean {
-    val p = Pattern.compile("[\u4e00-\u9fa5]")
+fun String.isVietnamese(): Boolean {
+    val p = Pattern.compile("[À-ỹ]")
     val m = p.matcher(this)
     return m.find()
 }
 
 /**
- * 将字符串拆分为单个字符,包含emoji
+ * Tách chuỗi thành các ký tự đơn, bao gồm emoji
  */
 fun CharSequence.toStringArray(): Array<String> {
     var codePointIndex = 0

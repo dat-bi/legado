@@ -1,0 +1,51 @@
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+2601,xml_string,app\src\main\res\values-zh-rTW\strings.xml,236,import_replace_rule,匯入取代規則,,String resource: import_replace_rule,Chinese parts: 匯入取代規則
+2602,xml_string,app\src\main\res\values-zh-rTW\strings.xml,237,import_replace_rule_on_line,匯入線上規則,,String resource: import_replace_rule_on_line,Chinese parts: 匯入線上規則
+2603,xml_string,app\src\main\res\values-zh-rTW\strings.xml,238,check_update_interval,檢查更新間隔,,String resource: check_update_interval,Chinese parts: 檢查更新間隔
+2604,xml_string,app\src\main\res\values-zh-rTW\strings.xml,239,bookshelf_px_0,按閱讀時間,,String resource: bookshelf_px_0,Chinese parts: 按閱讀時間
+2605,xml_string,app\src\main\res\values-zh-rTW\strings.xml,240,bookshelf_px_1,按更新時間,,String resource: bookshelf_px_1,Chinese parts: 按更新時間
+2606,xml_string,app\src\main\res\values-zh-rTW\strings.xml,241,bookshelf_px_2,按書名,,String resource: bookshelf_px_2,Chinese parts: 按書名
+2607,xml_string,app\src\main\res\values-zh-rTW\strings.xml,242,bookshelf_px_3,手動排序,,String resource: bookshelf_px_3,Chinese parts: 手動排序
+2608,xml_string,app\src\main\res\values-zh-rTW\strings.xml,243,read_type,閱讀方式,,String resource: read_type,Chinese parts: 閱讀方式
+2609,xml_string,app\src\main\res\values-zh-rTW\strings.xml,244,compose_type,排版,,String resource: compose_type,Chinese parts: 排版
+2610,xml_string,app\src\main\res\values-zh-rTW\strings.xml,245,del_select,刪除所選,,String resource: del_select,Chinese parts: 刪除所選
+2611,xml_string,app\src\main\res\values-zh-rTW\strings.xml,246,del_msg,是否確認刪除？,,String resource: del_msg,Chinese parts: 是否確認刪除
+2612,xml_string,app\src\main\res\values-zh-rTW\strings.xml,247,clear_font,預設字體,,String resource: clear_font,Chinese parts: 預設字體
+2613,xml_string,app\src\main\res\values-zh-rTW\strings.xml,248,find_on_www,發現,,String resource: find_on_www,Chinese parts: 發現
+2614,xml_string,app\src\main\res\values-zh-rTW\strings.xml,249,find_source_manage,發現管理,,String resource: find_source_manage,Chinese parts: 發現管理
+2615,xml_string,app\src\main\res\values-zh-rTW\strings.xml,250,find_empty,沒有內容，去書源裡自訂吧！,,String resource: find_empty,"Chinese parts: 沒有內容, 去書源裡自訂吧"
+2616,xml_string,app\src\main\res\values-zh-rTW\strings.xml,251,del_all,刪除所有,,String resource: del_all,Chinese parts: 刪除所有
+2617,xml_string,app\src\main\res\values-zh-rTW\strings.xml,252,searchHistory,搜尋歷史,,String resource: searchHistory,Chinese parts: 搜尋歷史
+2618,xml_string,app\src\main\res\values-zh-rTW\strings.xml,253,clear,清除,,String resource: clear,Chinese parts: 清除
+2619,xml_string,app\src\main\res\values-zh-rTW\strings.xml,254,showTitle,正文顯示標題,,String resource: showTitle,Chinese parts: 正文顯示標題
+2620,xml_string,app\src\main\res\values-zh-rTW\strings.xml,255,refresh_default,書源同步,,String resource: refresh_default,Chinese parts: 書源同步
+2621,xml_string,app\src\main\res\values-zh-rTW\strings.xml,256,no_last_chapter,無最新章節訊息,,String resource: no_last_chapter,Chinese parts: 無最新章節訊息
+2622,xml_string,app\src\main\res\values-zh-rTW\strings.xml,257,showTimeBattery,顯示時間和電量,,String resource: showTimeBattery,Chinese parts: 顯示時間和電量
+2623,xml_string,app\src\main\res\values-zh-rTW\strings.xml,258,showLine,顯示分隔線,,String resource: showLine,Chinese parts: 顯示分隔線
+2624,xml_string,app\src\main\res\values-zh-rTW\strings.xml,259,dark_status_icon,深色狀態欄圖示,,String resource: dark_status_icon,Chinese parts: 深色狀態欄圖示
+2625,xml_string,app\src\main\res\values-zh-rTW\strings.xml,260,content,內容,,String resource: content,Chinese parts: 內容
+2626,xml_string,app\src\main\res\values-zh-rTW\strings.xml,261,copy_text,複製內容,,String resource: copy_text,Chinese parts: 複製內容
+2627,xml_string,app\src\main\res\values-zh-rTW\strings.xml,262,download_all,一鍵快取,,String resource: download_all,Chinese parts: 一鍵快取
+2628,xml_string,app\src\main\res\values-zh-rTW\strings.xml,263,content_sl,這是一段測試文字\n\u3000\u3000只是讓你看看效果的,,String resource: content_sl,"Chinese parts: 這是一段測試文字, 只是讓你看看效果的"
+2629,xml_string,app\src\main\res\values-zh-rTW\strings.xml,264,text_bg_style,文字顏色和背景(長按自訂),,String resource: text_bg_style,"Chinese parts: 文字顏色和背景, 長按自訂"
+2630,xml_string,app\src\main\res\values-zh-rTW\strings.xml,265,immersion_status_bar,沉浸式狀態欄,,String resource: immersion_status_bar,Chinese parts: 沉浸式狀態欄
+2631,xml_string,app\src\main\res\values-zh-rTW\strings.xml,266,un_download,還剩%d章未下載,,String resource: un_download,"Chinese parts: 還剩, 章未下載"
+2632,xml_string,app\src\main\res\values-zh-rTW\strings.xml,267,long_click_input_color,長按輸入顏色值,,String resource: long_click_input_color,Chinese parts: 長按輸入顏色值
+2633,xml_string,app\src\main\res\values-zh-rTW\strings.xml,268,loading,載入中…,,String resource: loading,Chinese parts: 載入中
+2634,xml_string,app\src\main\res\values-zh-rTW\strings.xml,269,group_zg,追更區,,String resource: group_zg,Chinese parts: 追更區
+2635,xml_string,app\src\main\res\values-zh-rTW\strings.xml,270,group_yf,養肥區,,String resource: group_yf,Chinese parts: 養肥區
+2636,xml_string,app\src\main\res\values-zh-rTW\strings.xml,271,bookmark,書籤,,String resource: bookmark,Chinese parts: 書籤
+2637,xml_string,app\src\main\res\values-zh-rTW\strings.xml,272,bookmark_add,新增書籤,,String resource: bookmark_add,Chinese parts: 新增書籤
+2638,xml_string,app\src\main\res\values-zh-rTW\strings.xml,273,action_del,刪除,,String resource: action_del,Chinese parts: 刪除
+2639,xml_string,app\src\main\res\values-zh-rTW\strings.xml,274,load_over_time,載入超時,,String resource: load_over_time,Chinese parts: 載入超時
+2640,xml_string,app\src\main\res\values-zh-rTW\strings.xml,275,join_group,關注：%s,,String resource: join_group,Chinese parts: 關注
+2641,xml_string,app\src\main\res\values-zh-rTW\strings.xml,276,copy_complete,已複製,,String resource: copy_complete,Chinese parts: 已複製
+2642,xml_string,app\src\main\res\values-zh-rTW\strings.xml,277,bookshelf_management,書架管理,,String resource: bookshelf_management,Chinese parts: 書架管理
+2643,xml_string,app\src\main\res\values-zh-rTW\strings.xml,278,clear_bookshelf_s,這將會刪除所有書籍，請謹慎操作。,,String resource: clear_bookshelf_s,"Chinese parts: 這將會刪除所有書籍, 請謹慎操作"
+2644,xml_string,app\src\main\res\values-zh-rTW\strings.xml,279,search_book_source,搜尋書源,,String resource: search_book_source,Chinese parts: 搜尋書源
+2645,xml_string,app\src\main\res\values-zh-rTW\strings.xml,280,search_rss_source,搜尋訂閱源,,String resource: search_rss_source,Chinese parts: 搜尋訂閱源
+2646,xml_string,app\src\main\res\values-zh-rTW\strings.xml,281,search_book_source_num,搜尋(共%d個書源),,String resource: search_book_source_num,"Chinese parts: 搜尋, 共, 個書源"
+2647,xml_string,app\src\main\res\values-zh-rTW\strings.xml,282,chapter_list_size,目錄(%d),,String resource: chapter_list_size,Chinese parts: 目錄
+2648,xml_string,app\src\main\res\values-zh-rTW\strings.xml,283,text_bold,加粗,,String resource: text_bold,Chinese parts: 加粗
+2649,xml_string,app\src\main\res\values-zh-rTW\strings.xml,284,text_font,字體,,String resource: text_font,Chinese parts: 字體
+2650,xml_string,app\src\main\res\values-zh-rTW\strings.xml,285,text,文字,,String resource: text,Chinese parts: 文字

@@ -1,0 +1,106 @@
+Dịch các chuỗi ứng dụng Legado này từ tiếng Trung sang tiếng Việt:
+
+**DỰ ÁN**: Legado - Ứng dụng đọc sách Android mã nguồn mở
+**BỐI CẢNH**: Ứng dụng đọc sách với các tính năng:
+- Quản lý nguồn sách
+- Giao diện đọc tùy chỉnh
+- Text-to-Speech (TTS)
+- Nhập/Xuất dữ liệu
+- Dịch vụ web
+
+**YÊU CẦU DỊCH**:
+- Tiếng Việt tự nhiên, thân thiện với người dùng mobile
+- Giữ định dạng CSV hoàn toàn giống nhau
+- Chỉ điền cột "translation"
+- Giữ nguyên các placeholder như %s, %d, \n
+- Sử dụng thuật ngữ nhất quán
+
+**TỪ VỰNG CHUẨN**:
+- 阅读 = Đọc sách
+- 书源 = Nguồn sách
+- 书架 = Kệ sách
+- 朗读 = Đọc to / TTS
+- 搜索 = Tìm kiếm
+- 设置 = Cài đặt
+- 导入 = Nhập
+- 导出 = Xuất
+- 备份 = Sao lưu
+- 恢复 = Khôi phục
+- 刷新 = Làm mới
+- 缓存 = Bộ nhớ đệm
+- 主题 = Giao diện
+- 界面 = Giao diện
+- 管理 = Quản lý
+- 编辑 = Chỉnh sửa
+- 删除 = Xóa
+- 添加 = Thêm
+- 分享 = Chia sẻ
+- 下载 = Tải về
+- 更新 = Cập nhật
+- 目录 = Mục lục
+- 章节 = Chương
+- 页面 = Trang
+- 字体 = Phông chữ
+- 亮度 = Độ sáng
+- 背景 = Nền
+- 颜色 = Màu sắc
+
+**PHONG CÁCH DỊCH**:
+- Ngôn ngữ giao diện mobile (ngắn gọn, rõ ràng)
+- Thân thiện, không quá kỹ thuật
+- Theo chuẩn Android bằng tiếng Việt
+- Text nút bấm ngắn (dưới 20 ký tự)
+- Menu items mô tả nhưng súc tích
+
+Dữ liệu CSV cần dịch:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4851,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSonPath.kt,80,,为空,,if (st.isEmpty()) { //st为空，表明无成功替换的内嵌规则,Chinese parts: 为空
+4852,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSonPath.kt,80,,表明无成功替换的内嵌规则,,if (st.isEmpty()) { //st为空，表明无成功替换的内嵌规则,Chinese parts: 表明无成功替换的内嵌规则
+4853,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSonPath.kt,132,,设置平衡组为代码平衡,,"= RuleAnalyzer(rule, true) //设置平衡组为代码平衡",Chinese parts: 设置平衡组为代码平衡
+4854,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,155,,修剪当前规则之前的,,"rsRule.trim()  // 修剪当前规则之前的""@""或者空白符",Chinese parts: 修剪当前规则之前的
+4855,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,155,,或者空白符,,"rsRule.trim()  // 修剪当前规则之前的""@""或者空白符",Chinese parts: 或者空白符
+4856,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,208,,创建解析,,ule = RuleAnalyzer(ruleStr) //创建解析,Chinese parts: 创建解析
+4857,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,210,,修建前置赘余符号,,rule.trim() //修建前置赘余符号,Chinese parts: 修建前置赘余符号
+4858,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,212,,切割成列表,,"ules = rule.splitRule(""@"") // 切割成列表",Chinese parts: 切割成列表
+4859,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,305,,执行索引列表处理器,,findIndexSet(rule) //执行索引列表处理器,Chinese parts: 执行索引列表处理器
+4860,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,311,,允许索引直接作为根元素,,.isEmpty()) temp.children() //允许索引直接作为根元素，此时前置规则为空，效果与children相同,Chinese parts: 允许索引直接作为根元素
+4861,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,311,,此时前置规则为空,,temp.children() //允许索引直接作为根元素，此时前置规则为空，效果与children相同,Chinese parts: 此时前置规则为空
+4862,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,311,,效果与,,dren() //允许索引直接作为根元素，此时前置规则为空，效果与children相同,Chinese parts: 效果与
+4863,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,311,,相同,,索引直接作为根元素，此时前置规则为空，效果与children相同,Chinese parts: 相同
+4864,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,315,,允许索引直接作为根元素,,"hildren"" -> temp.children() //允许索引直接作为根元素，此时前置规则为空，效果与children相同",Chinese parts: 允许索引直接作为根元素
+4865,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,315,,此时前置规则为空,,temp.children() //允许索引直接作为根元素，此时前置规则为空，效果与children相同,Chinese parts: 此时前置规则为空
+4866,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,315,,效果与,,dren() //允许索引直接作为根元素，此时前置规则为空，效果与children相同,Chinese parts: 效果与
+4867,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,315,,相同,,索引直接作为根元素，此时前置规则为空，效果与children相同,Chinese parts: 相同
+4868,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,331,,为空,,tIndexes downTo 0) { //indexes为空，表明是非[]式索引，集合是逆向遍历插入的，所以这里也逆向遍,Chinese parts: 为空
+4869,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,331,,表明是非,,dexes downTo 0) { //indexes为空，表明是非[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原,Chinese parts: 表明是非
+4870,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,331,,式索引,,downTo 0) { //indexes为空，表明是非[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 式索引
+4871,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,331,,集合是逆向遍历插入的,,To 0) { //indexes为空，表明是非[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 集合是逆向遍历插入的
+4872,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,331,,所以这里也逆向遍历,,ndexes为空，表明是非[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 所以这里也逆向遍历
+4873,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,331,,好还原顺序,,明是非[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 好还原顺序
+4874,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,334,,将正数不越界的索引添加到集合,,until len) indexSet.add(it) //将正数不越界的索引添加到集合,Chinese parts: 将正数不越界的索引添加到集合
+4875,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,335,,将负数不越界的索引添加到集合,,-it) indexSet.add(it + len) //将负数不越界的索引添加到集合,Chinese parts: 将负数不越界的索引添加到集合
+4876,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,337,,不空,,tIndexes downTo 0) { //indexes不空，表明是[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历,Chinese parts: 不空
+4877,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,337,,表明是,,dexes downTo 0) { //indexes不空，表明是[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原,Chinese parts: 表明是
+4878,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,337,,式索引,,downTo 0) { //indexes不空，表明是[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 式索引
+4879,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,337,,集合是逆向遍历插入的,,nTo 0) { //indexes不空，表明是[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 集合是逆向遍历插入的
+4880,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,337,,所以这里也逆向遍历,,indexes不空，表明是[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 所以这里也逆向遍历
+4881,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,337,,好还原顺序,,表明是[]式索引，集合是逆向遍历插入的，所以这里也逆向遍历，好还原顺序,Chinese parts: 好还原顺序
+4882,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,339,,区间,,"s[ix] is Triple<*, *, *>) { //区间",Chinese parts: 区间
+4883,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,340,,还原储存时的类型,,"as Triple<Int?, Int?, Int> //还原储存时的类型",Chinese parts: 还原储存时的类型
+4884,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,342,,左端省略表示,,var start = startX ?: 0 // 左端省略表示0,Chinese parts: 左端省略表示
+4885,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,343,,将负索引转正,,f (start < 0) start += len // 将负索引转正,Chinese parts: 将负索引转正
+4886,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,345,,右端省略表示,,ar end = endX ?: (len - 1) // 右端省略表示 len - 1,Chinese parts: 右端省略表示
+4887,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,346,,将负索引转正,,if (end < 0) end += len // 将负索引转正,Chinese parts: 将负索引转正
+4888,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,353,,右端越界,,rt >= len) start = len - 1 // 右端越界，设置为最大索引,Chinese parts: 右端越界
+4889,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,353,,设置为最大索引,,len) start = len - 1 // 右端越界，设置为最大索引,Chinese parts: 设置为最大索引
+4890,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,354,,左端越界,,e if (start < 0) start = 0 // 左端越界，设置为最小索引,Chinese parts: 左端越界
+4891,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,354,,设置为最小索引,,(start < 0) start = 0 // 左端越界，设置为最小索引,Chinese parts: 设置为最小索引
+4892,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,356,,右端越界,,(end >= len) end = len - 1 // 右端越界，设置为最大索引,Chinese parts: 右端越界
+4893,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,356,,设置为最大索引,,>= len) end = len - 1 // 右端越界，设置为最大索引,Chinese parts: 设置为最大索引
+4894,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,357,,左端越界,,else if (end < 0) end = 0 // 左端越界，设置为最小索引,Chinese parts: 左端越界
+4895,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,357,,设置为最小索引,,if (end < 0) end = 0 // 左端越界，设置为最小索引,Chinese parts: 设置为最小索引
+4896,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,359,,两端相同,,t == end || stepX >= len) { //两端相同，区间里只有一个数。或间隔过大，区间实际上仅有首位,Chinese parts: 两端相同
+4897,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,359,,区间里只有一个数,,end || stepX >= len) { //两端相同，区间里只有一个数。或间隔过大，区间实际上仅有首位,Chinese parts: 区间里只有一个数
+4898,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,359,,或间隔过大,,epX >= len) { //两端相同，区间里只有一个数。或间隔过大，区间实际上仅有首位,Chinese parts: 或间隔过大
+4899,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,359,,区间实际上仅有首位,,len) { //两端相同，区间里只有一个数。或间隔过大，区间实际上仅有首位,Chinese parts: 区间实际上仅有首位
+4900,source_code,app\src\main\java\io\legado\app\model\analyzeRule\AnalyzeByJSoup.kt,367,,最小正数间隔为,,X < len) stepX + len else 1 //最小正数间隔为1,Chinese parts: 最小正数间隔为

@@ -1,0 +1,75 @@
+Translate these Legado e-book app strings from Chinese to English.
+
+**CONTEXT**: Legado is an Android e-book reader app with features like:
+- Book sources management
+- Reading interface customization  
+- Text-to-speech (TTS)
+- Import/Export functionality
+- Web services
+
+**REQUIREMENTS**:
+- Natural English for mobile app users
+- Keep CSV format exactly the same
+- Fill in the "translation" column only
+- Maintain placeholders like %s, %d, \n
+- Use consistent terminology
+
+**COMMON TERMS**:
+- 阅读 = Reading
+- 书源 = Book Sources
+- 书架 = Bookshelf  
+- 朗读 = Read Aloud
+- 设置 = Settings
+
+CSV Data:
+id,type,file_path,line_number,string_name,original_text,translation,context,notes
+4001,source_code,app\src\main\java\io\legado\app\service\DownloadService.kt,74,,下载的文件夹,,"toastOnUi(""未完成,下载的文件夹Download"")",Chinese parts: 下载的文件夹
+4002,source_code,app\src\main\java\io\legado\app\service\DownloadService.kt,98,,已在下载列表,,"toastOnUi(""已在下载列表"")",Chinese parts: 已在下载列表
+4003,source_code,app\src\main\java\io\legado\app\service\DownloadService.kt,119,,下载出错,,"is SecurityException -> ""下载出错,没有存储权限""",Chinese parts: 下载出错
+4004,source_code,app\src\main\java\io\legado\app\service\DownloadService.kt,119,,没有存储权限,,"is SecurityException -> ""下载出错,没有存储权限""",Chinese parts: 没有存储权限
+4005,source_code,app\src\main\java\io\legado\app\service\DownloadService.kt,120,,下载出错,,"else -> ""下载出错,${it.localizedMessage}""",Chinese parts: 下载出错
+4006,source_code,app\src\main\java\io\legado\app\service\DownloadService.kt,222,,打开下载文件,,"AppLog.put(""打开下载文件${fileName}出错"", it)",Chinese parts: 打开下载文件
+4007,source_code,app\src\main\java\io\legado\app\service\DownloadService.kt,222,,出错,,"AppLog.put(""打开下载文件${fileName}出错"", it)",Chinese parts: 出错
+4008,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,173,,导出完成,,"notificationContentText = ""导出完成""",Chinese parts: 导出完成
+4009,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,181,,获取,,"throw NoStackTraceException(""获取${bookUrl}书籍出错"")",Chinese parts: 获取
+4010,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,181,,书籍出错,,"ckTraceException(""获取${bookUrl}书籍出错"")",Chinese parts: 书籍出错
+4011,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,205,,导出书籍,,"AppLog.put(""导出书籍<${book?.name ?: bookUrl}>出错"",",Chinese parts: 导出书籍
+4012,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,205,,出错,,"导出书籍<${book?.name ?: bookUrl}>出错"", e)",Chinese parts: 出错
+4013,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,380,,使用内置模板,,= if (customPath == null) {//使用内置模板,Chinese parts: 使用内置模板
+4014,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,382,,外部模板,,} else {//外部模板,Chinese parts: 外部模板
+4015,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,444,,下面的资源文件,,} else {//Asset下面的资源文件,Chinese parts: 下面的资源文件
+4016,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,514,,获取书籍封面出错,,"AppLog.put(""获取书籍封面出错\n${it.localizedMessage}"", it)",Chinese parts: 获取书籍封面出错
+4017,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,625,,书籍的名称,,tadata.titles.add(book.name)//书籍的名称,Chinese parts: 书籍的名称
+4018,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,626,,书籍的作者,,uthor(book.getRealAuthor()))//书籍的作者,Chinese parts: 书籍的作者
+4019,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,627,,数据的语言,,"metadata.language = ""zh""//数据的语言",Chinese parts: 数据的语言
+4020,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,628,,数据的创建日期,,metadata.dates.add(Date())//数据的创建日期,Chinese parts: 数据的创建日期
+4021,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,629,,数据的创建者,,"ata.publishers.add(""Legado"")//数据的创建者",Chinese parts: 数据的创建者
+4022,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,630,,书籍的简介,,.add(book.getDisplayIntro())//书籍的简介,Chinese parts: 书籍的简介
+4023,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,690,,分割导出书籍,,"AppLog.put(""分割导出书籍 ${book.name} 一共耗时 $elapsed"")",Chinese parts: 分割导出书籍
+4024,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,690,,一共耗时,,"pLog.put(""分割导出书籍 ${book.name} 一共耗时 $elapsed"")",Chinese parts: 一共耗时
+4025,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,723,,书籍,,"throw RuntimeException(""书籍<${book.name}>(${epubBookIndex",Chinese parts: 书籍
+4026,source_code,app\src\main\java\io\legado\app\service\ExportBookService.kt,723,,未找到章节信息,,"k.name}>(${epubBookIndex + 1})未找到章节信息"")",Chinese parts: 未找到章节信息
+4027,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,116,,朗读列表为空,,"AppLog.putDebug(""朗读列表为空"")",Chinese parts: 朗读列表为空
+4028,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,160,,阅读段落内容为空,,"AppLog.put(""阅读段落内容为空，使用无声音频代替。\n朗读文本：$text"")",Chinese parts: 阅读段落内容为空
+4029,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,160,,使用无声音频代替,,"AppLog.put(""阅读段落内容为空，使用无声音频代替。\n朗读文本：$text"")",Chinese parts: 使用无声音频代替
+4030,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,160,,朗读文本,,"pLog.put(""阅读段落内容为空，使用无声音频代替。\n朗读文本：$text"")",Chinese parts: 朗读文本
+4031,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,187,,朗读下载出错,,"AppLog.put(""朗读下载出错\n${it.localizedMessage}"", it,",Chinese parts: 朗读下载出错
+4032,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,239,,阅读段落内容为空,,"AppLog.put(""阅读段落内容为空，使用无声音频代替。\n朗读文本：$speakText"")",Chinese parts: 阅读段落内容为空
+4033,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,239,,使用无声音频代替,,"AppLog.put(""阅读段落内容为空，使用无声音频代替。\n朗读文本：$speakText"")",Chinese parts: 使用无声音频代替
+4034,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,239,,朗读文本,,"pLog.put(""阅读段落内容为空，使用无声音频代替。\n朗读文本：$speakText"")",Chinese parts: 朗读文本
+4035,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,253,,朗读下载出错,,"AppLog.put(""朗读下载出错\n${it.localizedMessage}"", it,",Chinese parts: 朗读下载出错
+4036,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,350,,服务器返回错误,,"""TTS服务器返回错误："" + response.body.string()",Chinese parts: 服务器返回错误
+4037,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,364,,错误,,"AppLog.put(""js错误\n${e.localizedMessage}"", e, t",Chinese parts: 错误
+4038,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,372,,超时或连接错误超过,,"val msg = ""tts超时或连接错误超过5次\n${e.localizedMessage}""",Chinese parts: 超时或连接错误超过
+4039,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,372,,次,,"val msg = ""tts超时或连接错误超过5次\n${e.localizedMessage}""",Chinese parts: 次
+4040,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,380,,下载错误,,"val msg = ""tts下载错误\n${e.localizedMessage}""",Chinese parts: 下载错误
+4041,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,384,,服务器连续,,"val msg1 = ""TTS服务器连续5次错误，已暂停阅读。""",Chinese parts: 服务器连续
+4042,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,384,,次错误,,"val msg1 = ""TTS服务器连续5次错误，已暂停阅读。""",Chinese parts: 次错误
+4043,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,384,,已暂停阅读,,"val msg1 = ""TTS服务器连续5次错误，已暂停阅读。""",Chinese parts: 已暂停阅读
+4044,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,388,,下载音频出错,,"AppLog.put(""TTS下载音频出错，使用无声音频代替。\n朗读文本：$speakText"")",Chinese parts: 下载音频出错
+4045,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,388,,使用无声音频代替,,"AppLog.put(""TTS下载音频出错，使用无声音频代替。\n朗读文本：$speakText"")",Chinese parts: 使用无声音频代替
+4046,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,388,,朗读文本,,"Log.put(""TTS下载音频出错，使用无声音频代替。\n朗读文本：$speakText"")",Chinese parts: 朗读文本
+4047,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,557,,朗读错误,,"AppLog.put(""朗读错误\n${contentList[nowSpeak]}"", e",Chinese parts: 朗读错误
+4048,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,561,,朗读连续,,"toastOnUi(""朗读连续5次错误, 最后一次错误代码(${error.localiz",Chinese parts: 朗读连续
+4049,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,561,,次错误,,"toastOnUi(""朗读连续5次错误, 最后一次错误代码(${error.localizedMe",Chinese parts: 次错误
+4050,source_code,app\src\main\java\io\legado\app\service\HttpReadAloudService.kt,561,,最后一次错误代码,,"toastOnUi(""朗读连续5次错误, 最后一次错误代码(${error.localizedMessage})"")",Chinese parts: 最后一次错误代码
