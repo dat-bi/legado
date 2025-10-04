@@ -37,25 +37,25 @@ Lấy ví dụ nhập tập tin nguồn sách nhận được từ QQ:
 
 ![QQ 导入书源](https://cdn.jsdelivr.net/gh/gedoor/gedoor.github.io@master/images/importSource.jpg)
 
-### 2. 如何新建大佬发的单独书源？
+### 2. Làm thế nào để tạo một nguồn sách riêng do người khác chia sẻ?
 
-- 复制书源代码；
-- 打开阅读软件；
-- 点击“**我的**”——“**书源管理**”；
-- 右上角“**⁝**”——“**+ 新建书源**”；
-- 进入后点击右上角“**⁝**”——“**粘贴源**”；
-- 粘贴完成后点击上方保存“**🖫**”按钮；
-- 本次新建单独书源操作完成。
+- Sao chép mã nguồn sách;
+- Mở ứng dụng Legado;
+- Nhấn “**Của tôi**” — “**Quản lý nguồn sách**”;
+- Ở góc trên bên phải nhấn “**⁝**” — “**+ Tạo nguồn mới**”;
+- Sau khi vào, nhấn góc trên bên phải “**⁝**” — “**Dán nguồn**”;
+- Sau khi dán xong, nhấn nút lưu “**🖫**” phía trên;
+- Hoàn tất tạo nguồn sách riêng.
 
-**【注】** _如果书源有错误或者复制不全会显示格式错误，请重新复制。_
+**[Lưu ý]** _Nếu nguồn có lỗi hoặc sao chép không đầy đủ sẽ báo sai định dạng. Hãy sao chép lại._
 
-### 3. 为什么导入 2.0 书源后无法阅读？
+### 3. Tại sao nhập nguồn sách 2.0 xong nhưng không đọc được?
 
-部分 2.0 书源并不适用于 3.0 版本的阅读，建议导入后进行筛选。
+Một số nguồn 2.0 không phù hợp với phiên bản 3.0. Nên lọc lại sau khi nhập.
 
-### 4. 【阅读】2.0 数据如何导入【阅读】3.0？
+### 4. Làm thế nào nhập dữ liệu Legado 2.0 vào Legado 3.0?
 
-先对【阅读】2.0 的数据进行备份，然后进入【阅读】3.0，点击“**我的**”，选择“**备份与恢复**”，再点击“**导入旧版本数据**”。
+Sao lưu dữ liệu của Legado 2.0 trước. Sau đó vào Legado 3.0, nhấn “**Của tôi**”, chọn “**Sao lưu & Khôi phục**”, rồi nhấn “**Nhập dữ liệu phiên bản cũ**”.
 
 ### 5. 如何给朋友分享我的书源？
 
@@ -76,17 +76,17 @@ Lấy ví dụ nhập tập tin nguồn sách nhận được từ QQ:
 2. _Android 10 及以下版本系统，新版 QQ 文件接收路径在 `Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/`，旧版 QQ 文件接收路径则在 `Tencent/QQfile_recv/`；新版微信文件接收路径在 `Android/data/com.tencent.mobileqq/Tencent/MicroMsg/Download`，旧版微信文件接收路径则在 `Tencent/MicroMsg/Download`。_
 3. _Android 11 及以上系统版本用户，由于系统限制，无法访问 `Android/data` 目录。_
 
-### 6. 效验书源显示失效就说明书源不能用了吗？
+### 6. Kiểm tra nguồn báo “mất hiệu lực” có nghĩa là không dùng được nữa?
 
-效验书源只是测试书源，可以做为参考，但失效了不代表书源不能用了。
+Kiểm tra chỉ là thử nghiệm để tham khảo, “mất hiệu lực” không đồng nghĩa nguồn không dùng được.
 
-### 7. “发现”和正版书源能不能使用？
+### 7. “Khám phá” và nguồn chính thống có dùng để đọc được không?
 
-发现和正版书源只能用来找书或看排行榜，不能用来看书，如需看书请切换书源。
+“Khám phá” và nguồn chính thống chỉ dùng để tìm sách hoặc xem bảng xếp hạng, không dùng để đọc. Muốn đọc, hãy đổi sang nguồn phù hợp.
 
-### 8. 为什么书源这么多，“发现”里却只有一点点？
+### 8. Vì sao có nhiều nguồn mà trong “Khám phá” chỉ có vài cái?
 
-书源想要在发现界面里显示需要在书源里添加发现规则，并不是所有书源都有发现规则。
+Muốn hiện trong “Khám phá” thì nguồn phải có quy tắc khám phá. Không phải nguồn nào cũng có.
 
 ## 本地/WebDav 远程书籍相关
 

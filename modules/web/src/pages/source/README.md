@@ -1,13 +1,13 @@
 # legado_web_editor
 
-## 🚧开发注意
+## 🚧 Lưu ý phát triển
 
-如果你想要调试项目 请修改文件`.env.development`里`VITE_API`为阅读web服务ip
+Nếu bạn muốn debug dự án, hãy sửa `VITE_API` trong `.env.development` thành IP dịch vụ web của Legado.
 
-## 路由
+## Đường dẫn
 
-/rssSource 订阅源编辑
-/rssSource 书源编辑
+/rssSource Chỉnh sửa nguồn RSS
+/bookSource Chỉnh sửa nguồn sách
 
 ## 🎨Project setup
 
@@ -15,19 +15,19 @@
 pnpm i
 ```
 
-### Compiles and hot-reloads for development
+### Biên dịch và chạy nóng cho môi trường phát triển
 
 ```
 pnpm dev
 ```
 
-### Compiles and minifies for production
+### Biên dịch và tối ưu cho sản xuất
 
 ```
 pnpm build
 ```
 
-### Lints and fixes files
+### Kiểm tra lint và tự sửa lỗi
 
 ```
 pnpm lint:fix

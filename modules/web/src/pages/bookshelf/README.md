@@ -1,33 +1,33 @@
-# 「阅读3.0」 web 端（已打包进阅读3.0，不能设置IP）
+# Web cho “Legado 3.0” (đã đóng gói trong Legado 3.0, không thể đặt IP)
 
-本程序为「阅读3.0」的配套 web 端，需要保证手机和电脑在同一局域网内，然后手机端打开 web 服务。
+Chương trình này là web đi kèm cho “Legado 3.0”. Hãy đảm bảo điện thoại và máy tính ở cùng một mạng LAN, sau đó bật dịch vụ web trên điện thoại.
 
 ~~在线地址 http://alanskycn.gitee.io/vip/reader/~~
 
-## 具体实现
+## Triển khai
 
-使用 Vue3 开发
+Phát triển bằng Vue3
 
-## 功能特性
+## Tính năng
 
-- 本地存储阅读记录与设置
-- 阅读主题切换
-- 夜间模式
-- 字号调节
-- 字体调节
-- 阅读宽度调节
+- Lưu trữ cục bộ lịch sử đọc và cài đặt
+- Chuyển đổi chủ đề đọc
+- Chế độ ban đêm
+- Điều chỉnh cỡ chữ
+- Điều chỉnh phông chữ
+- Điều chỉnh độ rộng vùng đọc
 
-## 使用方法
+## Cách sử dụng
 
 ```shell
 pnpm install
-#安装项目
+# cài đặt phụ thuộc dự án
 pnpm dev
-#开发模式
+# chạy chế độ phát triển
 pnpm build
-#打包
+# đóng gói sản phẩm
 pnpm lint:fix
-#格式化代码
+# định dạng mã nguồn
 ```
 
-- 调试的时候可以修改.env.development里面的地址连接手机端调试
+- Khi debug có thể sửa địa chỉ trong `.env.development` để kết nối tới dịch vụ trên điện thoại

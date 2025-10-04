@@ -90,7 +90,7 @@ class BookshelfViewModel(application: Application) : BaseViewModel(application) 
             if (successCount > 0) {
                 context.toastOnUi(R.string.success)
             } else {
-                context.toastOnUi("添加网址失败")
+                context.toastOnUi("Không thể thêm địa chỉ")
             }
         }.onError {
             AppLog.put("添加网址出错\n${it.localizedMessage}", it, true)
@@ -120,7 +120,7 @@ class BookshelfViewModel(application: Application) : BaseViewModel(application) 
                     writer.close()
                 }
                 file
-            } ?: throw NoStackTraceException("书籍不能为空")
+            } ?: throw NoStackTraceException("Không được bỏ trống sách")
         }.onSuccess {
             success(it)
         }.onError {
@@ -145,7 +145,7 @@ class BookshelfViewModel(application: Application) : BaseViewModel(application) 
                 }
 
                 else -> {
-                    throw NoStackTraceException("格式不对")
+                    throw NoStackTraceException("Định dạng không hợp lệ")
                 }
             }
         }.onError {
