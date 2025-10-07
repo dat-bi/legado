@@ -200,10 +200,10 @@ class TextActionMenu(private val context: Context, private val callBack: CallBac
             holder.itemView.setOnLongClickListener {
                 if (AppConfig.contentSelectSpeakMod == 0) {
                     AppConfig.contentSelectSpeakMod = 1
-                    context.toastOnUi(R.string.toggle_read_from_selection)
+                    context.toastOnUi("切换为从选择的地方开始一直朗读")
                 } else {
                     AppConfig.contentSelectSpeakMod = 0
-                    context.toastOnUi(R.string.toggle_read_selection_only)
+                    context.toastOnUi("切换为朗读选择内容")
                 }
                 true
             }
@@ -281,7 +281,7 @@ class TextActionMenu(private val context: Context, private val callBack: CallBac
                 ).intent = createProcessTextIntentForResolveInfo(resolveInfo)
             }
         }.onFailure {
-            context.toastOnUi(context.getString(R.string.export_book_error_fmt, it.localizedMessage))
+            context.toastOnUi("获取文字操作菜单出错:${it.localizedMessage}")
         }
     }
 

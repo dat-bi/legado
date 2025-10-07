@@ -39,7 +39,7 @@ class CoverRuleConfigDialog : BaseDialogFragment(R.layout.dialog_cover_rule_conf
             val searchUrl = binding.editSearchUrl.text?.toString()
             val coverRule = binding.editCoverUrlRule.text?.toString()
             if (searchUrl.isNullOrBlank() || coverRule.isNullOrBlank()) {
-                toastOnUi(R.string.search_url_and_cover_rule_empty)
+                toastOnUi("搜索url和cover规则不能为空")
             } else {
                 BookCover.CoverRule(enable, searchUrl, coverRule).let { config ->
                     BookCover.saveCoverRule(config)

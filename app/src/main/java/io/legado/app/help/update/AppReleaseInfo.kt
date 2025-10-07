@@ -36,7 +36,7 @@ data class GithubRelease(
     val isPreRelease: Boolean,
 ) {
     fun gitReleaseToAppReleaseInfo(): List<AppReleaseInfo> {
-        assets ?: throw NoStackTraceException(appCtx.getString(R.string.get_new_version_error))
+        assets ?: throw NoStackTraceException("获取新版本出错")
         return assets
             .filter { it.isValid }
             .map { it.assetToAppReleaseInfo(isPreRelease, body) }

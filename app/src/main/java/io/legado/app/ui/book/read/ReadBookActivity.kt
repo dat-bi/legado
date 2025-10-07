@@ -611,7 +611,7 @@ class ReadBookActivity : BaseReadBookActivity(),
                             textChapter.chapter.getFileName("nr")
                         )
                     ) {
-                        toastOnUi(R.string.no_removable_duplicate_title)
+                        toastOnUi("未找到可移除的重复标题")
                     }
                 }
                 viewModel.reverseRemoveSameTitle()

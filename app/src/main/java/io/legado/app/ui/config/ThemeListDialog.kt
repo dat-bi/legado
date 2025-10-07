@@ -62,7 +62,7 @@ class ThemeListDialog : BaseDialogFragment(R.layout.dialog_recycler_view),
                     if (ThemeConfig.addConfig(it)) {
                         initData()
                     } else {
-                        toastOnUi(R.string.invalid_format_add_fail)
+                        toastOnUi("格式不对,添加失败")
                     }
                 }
             }

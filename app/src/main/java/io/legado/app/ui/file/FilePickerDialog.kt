@@ -120,7 +120,7 @@ class FilePickerDialog : BaseDialogFragment(R.layout.dialog_file_chooser),
             } else {
                 val file = fileAdapter.selectFile
                 if (file == null) {
-                    toastOnUi(R.string.please_select_file)
+                    toastOnUi("请选择文件")
                 } else {
                     setResultData(file.path)
                     dismissAllowingStateLoss()
@@ -139,7 +139,7 @@ class FilePickerDialog : BaseDialogFragment(R.layout.dialog_file_chooser),
                 okButton {
                     val text = alertBinding.editView.text?.toString()
                     if (text.isNullOrBlank()) {
-                        toastOnUi(R.string.folder_name_empty)
+                        toastOnUi("文件夹名不能为空")
                     } else {
                         viewModel.createFolder(text.trim())
                     }

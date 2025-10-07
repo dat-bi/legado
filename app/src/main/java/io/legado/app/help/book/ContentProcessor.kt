@@ -140,7 +140,7 @@ class ContentProcessor private constructor(
                         2 -> mContent = ChineseUtils.s2t(mContent)
                     }
                 } catch (e: Exception) {
-                    appCtx.toastOnUi(R.string.chinese_convert_error)
+                    appCtx.toastOnUi("简繁转换出错")
                 }
             }
             if (useReplace && book.getUseReplaceRule()) {
@@ -172,7 +172,7 @@ class ContentProcessor private constructor(
                     } catch (_: CancellationException) {
                     } catch (e: Exception) {
                         AppLog.put("替换净化: 规则 ${item.name}替换出错.\n${mContent}", e)
-                        appCtx.toastOnUi(appCtx.getString(R.string.replace_rule_error_fmt, item.name))
+                        appCtx.toastOnUi("替换净化: 规则 ${item.name}替换出错")
                     }
                 }
             }

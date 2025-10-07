@@ -18,7 +18,7 @@ class SourceLoginViewModel(application: Application) : BaseViewModel(application
     fun initData(intent: Intent, success: (bookSource: BaseSource) -> Unit, error: () -> Unit) {
         execute {
             val sourceKey = intent.getStringExtra("key")
-                ?: throw NoStackTraceException(context.getString(R.string.no_params))
+                ?: throw NoStackTraceException("没有参数")
             when (intent.getStringExtra("type")) {
                 "bookSource" -> source = appDb.bookSourceDao.getBookSource(sourceKey)
                 "rssSource" -> source = appDb.rssSourceDao.getByKey(sourceKey)
@@ -32,7 +32,7 @@ class SourceLoginViewModel(application: Application) : BaseViewModel(application
             if (it != null) {
                 success.invoke(it)
             } else {
-                context.toastOnUi(R.string.book_source_not_found)
+                context.toastOnUi("未找到书源")
             }
         }.onError {
             error.invoke()

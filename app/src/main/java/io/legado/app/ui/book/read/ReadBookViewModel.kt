@@ -317,12 +317,12 @@ class ReadBookViewModel(application: Application) : BaseViewModel(application) {
             }.take(1).onEach { (book, toc) ->
                 changeTo(book, toc)
             }.onEmpty {
-                throw NoStackTraceException(context.getString(R.string.no_suitable_source))
+                throw NoStackTraceException("没有合适书源")
             }.onCompletion {
                 ReadBook.upMsg(null)
             }.catch {
                 AppLog.put("自动换源失败\n${it.localizedMessage}", it)
-                context.toastOnUi(context.getString(R.string.auto_change_source_fail_fmt, it.localizedMessage))
+                context.toastOnUi("自动换源失败\n${it.localizedMessage}")
             }.collect()
         }
     }
@@ -527,7 +527,7 @@ class ReadBookViewModel(application: Application) : BaseViewModel(application) {
             }
         }.onError {
             AppLog.put("保存图片出错\n${it.localizedMessage}", it)
-            context.toastOnUi(context.getString(R.string.save_image_error_fmt, it.localizedMessage))
+            context.toastOnUi("保存图片出错\n${it.localizedMessage}")
         }
     }
 

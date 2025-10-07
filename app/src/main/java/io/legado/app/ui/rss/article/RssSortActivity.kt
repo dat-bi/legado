@@ -117,7 +117,7 @@ class RssSortActivity : VMBaseActivity<ActivityRssArtivlesBinding, RssSortViewMo
         lifecycleScope.launch {
             val source = viewModel.rssSource
             if (source == null) {
-                toastOnUi(R.string.book_source_not_found)
+                toastOnUi("源不存在")
                 return@launch
             }
             val comment =

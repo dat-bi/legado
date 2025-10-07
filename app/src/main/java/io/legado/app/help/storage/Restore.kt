@@ -85,7 +85,7 @@ object Restore {
             restoreLocked(Backup.backupPath)
             LocalConfig.lastBackup = System.currentTimeMillis()
         }.onFailure {
-            appCtx.toastOnUi(appCtx.getString(R.string.restore_backup_error_fmt, it.localizedMessage))
+            appCtx.toastOnUi("恢复备份出错\n${it.localizedMessage}")
             AppLog.put("恢复备份出错\n${it.localizedMessage}", it)
         }
     }
@@ -298,7 +298,7 @@ object Restore {
             }
         } catch (e: Exception) {
             AppLog.put("$fileName\n读取解析出错\n${e.localizedMessage}", e)
-            appCtx.toastOnUi(appCtx.getString(R.string.read_file_error_fmt, fileName, e.localizedMessage))
+            appCtx.toastOnUi("$fileName\n读取文件出错\n${e.localizedMessage}")
         }
         return null
     }

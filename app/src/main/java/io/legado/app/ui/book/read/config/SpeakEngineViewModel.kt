@@ -32,9 +32,9 @@ class SpeakEngineViewModel(application: Application) : BaseViewModel(application
         execute {
             import(uri.readText(context))
         }.onSuccess {
-            context.toastOnUi(R.string.import_success)
+            context.toastOnUi("导入成功")
         }.onError {
-            context.toastOnUi(context.getString(R.string.import_fail_fmt, it.localizedMessage))
+            context.toastOnUi("导入失败\n${it.localizedMessage}")
         }
     }
 

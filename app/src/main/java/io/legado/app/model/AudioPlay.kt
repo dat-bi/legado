@@ -150,7 +150,7 @@ object AudioPlay : CoroutineScope by MainScope() {
                 WebBook.getContent(this, bookSource, book, chapter)
                     .onSuccess { content ->
                         if (content.isEmpty()) {
-                            appCtx.toastOnUi(R.string.resource_link_not_found)
+                            appCtx.toastOnUi("未获取到资源链接")
                         } else {
                             contentLoadFinish(chapter, content)
                         }

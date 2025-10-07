@@ -249,9 +249,9 @@ object Backup {
         val treeDoc = DocumentFile.fromTreeUri(context, uri)!!
         treeDoc.findFile(fileName)?.delete()
         val fileDoc = treeDoc.createFile("", fileName)
-            ?: throw NoStackTraceException(appCtx.getString(R.string.create_file_failed))
+            ?: throw NoStackTraceException("创建文件失败")
         val outputS = fileDoc.openOutputStream()
-            ?: throw NoStackTraceException(appCtx.getString(R.string.open_outputstream_failed))
+            ?: throw NoStackTraceException("打开OutputStream失败")
         outputS.use {
             FileInputStream(zipFilePath).use { inputS ->
                 inputS.copyTo(outputS)
