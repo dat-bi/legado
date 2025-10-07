@@ -948,7 +948,7 @@ public class QueryTTF {
      */
     public QueryTTF(final byte[] buffer) {
         var fontReader = new BufferReader(buffer, 0);
-//        Log.i("QueryTTF", "读文件头"); // 获取文件头
+//        Log.i("QueryTTF", "Read file header"); // Get file header
         fileHeader.sfntVersion = fontReader.ReadUInt32();
         fileHeader.numTables = fontReader.ReadUInt16();
         fileHeader.searchRange = fontReader.ReadUInt16();
@@ -964,19 +964,19 @@ public class QueryTTF {
             directorys.put(d.tableTag, d);
         }
 
-//        Log.i("QueryTTF", "解析表 name"); // 字体信息,包含版权、名称、作者等...
+//        Log.i("QueryTTF", "Parse name table"); // Font information, including copyright, name, author, etc...
         readNameTable(buffer);
-//        Log.i("QueryTTF", "解析表 head"); // 获取 head.indexToLocFormat
+//        Log.i("QueryTTF", "Parse head table"); // Get head.indexToLocFormat
         readHeadTable(buffer);
-//        Log.i("QueryTTF", "解析表 cmap"); // Unicode编码->轮廓索引 对照表
+//        Log.i("QueryTTF", "Parse cmap table"); // Unicode encoding -> glyph index mapping table
         readCmapTable(buffer);
-//        Log.i("QueryTTF", "解析表 loca"); // 轮廓数据偏移地址表
+//        Log.i("QueryTTF", "Parse loca table"); // Glyph data offset address table
         readLocaTable(buffer);
-//        Log.i("QueryTTF", "解析表 maxp"); // 获取 maxp.numGlyphs 字体轮廓数量
+//        Log.i("QueryTTF", "Parse maxp table"); // Get maxp.numGlyphs font glyph count
         readMaxpTable(buffer);
-//        Log.i("QueryTTF", "解析表 glyf"); // 字体轮廓数据表,需要解析loca,maxp表后计算
+//        Log.i("QueryTTF", "Parse glyf table"); // Font glyph data table, needs to parse loca, maxp tables first
         readGlyfTable(buffer);
-//        Log.i("QueryTTF", "建立Unicode&Glyph映射表");
+//        Log.i("QueryTTF", "Build Unicode&Glyph mapping table");
         int glyfArrayLength = glyfArray.length;
         for (var item : unicodeToGlyphId.entrySet()) {
             int key = item.getKey();
@@ -987,7 +987,7 @@ public class QueryTTF {
             if (glyfString == null) continue;   // null 不能用作hashmap的key
             glyphToUnicode.put(glyfString, key);
         }
-//        Log.i("QueryTTF", "字体处理完成");
+//        Log.i("QueryTTF", "Font processing complete");
     }
 
     public final HashMap<Integer, String> unicodeToGlyph = new HashMap<>();

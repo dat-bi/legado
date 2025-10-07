@@ -3,7 +3,7 @@
     id="source-json"
     v-model="sourceString"
     type="textarea"
-    placeholder="这里输出序列化的JSON数据,可直接导入'阅读'APP"
+    :placeholder="$t('sourceJson.placeholder')"
     :rows="30"
     @change="update"
     style="margin-bottom: 4px"
@@ -11,7 +11,9 @@
 </template>
 <script setup lang="ts">
 import { useSourceStore } from '@/store'
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 const store = useSourceStore()
 const sourceString = ref('')
 const update = async (string: string) => {
@@ -19,7 +21,7 @@ const update = async (string: string) => {
     store.changeEditTabSource(JSON.parse(string))
   } catch {
     ElMessage({
-      message: '粘贴的源格式错误',
+      message: t('sourceJson.formatError'),
       type: 'error',
     })
   }

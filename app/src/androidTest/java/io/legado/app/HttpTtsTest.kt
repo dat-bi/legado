@@ -1,9 +1,15 @@
 package io.legado.app
 
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import io.legado.app.R
 import io.legado.app.help.config.AppConfig
 import io.legado.app.model.analyzeRule.AnalyzeUrl
 import kotlinx.coroutines.runBlocking
 import org.junit.Test
+import org.junit.runner.RunWith
+import splitties.init.appCtx
+
+@RunWith(AndroidJUnit4::class)
 
 class HttpTtsTest {
 
@@ -16,7 +22,7 @@ class HttpTtsTest {
             }
         """.trimIndent()
         val analyzeUrl =
-            AnalyzeUrl(url, speakText = "魔神", speakSpeed = AppConfig.speechRatePlay + 5)
+            AnalyzeUrl(url, speakText = appCtx.getString(R.string.test_speak_text), speakSpeed = AppConfig.speechRatePlay + 5)
         runBlocking {
             val response = analyzeUrl.getResponseAwait()
             response.headers

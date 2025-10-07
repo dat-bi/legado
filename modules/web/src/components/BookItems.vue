@@ -33,7 +33,7 @@
             </div>
             <div class="update-info" v-if="!isSearch">
               <div class="dot">•</div>
-              <div class="size">共{{ (book as Book).totalChapterNum }}章</div>
+              <div class="size">{{ $t('shelf.totalChapters', { count: (book as Book).totalChapterNum }) }}</div>
               <div class="dot">•</div>
               <div class="date">
                 {{ dateFormat((book as Book).lastCheckTime) }}
@@ -43,9 +43,9 @@
           <div class="intro" v-if="isSearch">{{ book.intro }}</div>
 
           <div class="dur-chapter" v-if="!isSearch">
-            已读：{{ (book as Book).durChapterTitle }}
+            {{ $t('shelf.alreadyRead', { title: (book as Book).durChapterTitle }) }}
           </div>
-          <div class="last-chapter">最新：{{ book.latestChapterTitle }}</div>
+          <div class="last-chapter">{{ $t('shelf.latest', { title: book.latestChapterTitle }) }}</div>
         </div>
       </div>
     </div>
@@ -55,6 +55,9 @@
 import type { Book, SeachBook } from '@/book'
 import { dateFormat, isLegadoUrl } from '../utils/utils'
 import API from '@api'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 const props = defineProps<{
   books: Array<Book | SeachBook>
   isSearch: boolean

@@ -94,7 +94,7 @@ abstract class BaseDialogFragment(
             manager.beginTransaction().remove(this).commit()
             super.show(manager, tag)
         }.onFailure {
-            AppLog.put("显示对话框失败 tag:$tag", it)
+            AppLog.put(getString(R.string.log_show_dialog_failed) + "$tag", it)
         }
     }
 

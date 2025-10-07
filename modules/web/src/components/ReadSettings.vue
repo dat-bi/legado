@@ -4,11 +4,11 @@
     :style="popupTheme"
     :class="{ night: isNight, day: !isNight }"
   >
-    <div class="settings-title">设置</div>
+    <div class="settings-title">{{ $t('settings.title') }}</div>
     <div class="setting-list">
       <ul>
         <li class="theme-list">
-          <i>阅读主题</i>
+          <i>{{ $t('settings.readTheme') }}</i>
           <span
             class="theme-item"
             v-for="(themeColor, index) in themeColors"
@@ -22,7 +22,7 @@
           >
         </li>
         <li class="font-list">
-          <i>正文字体</i>
+          <i>{{ $t('settings.textFont') }}</i>
           <span
             class="font-item"
             v-for="(font, index) in fonts"

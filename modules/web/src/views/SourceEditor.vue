@@ -11,17 +11,19 @@ import rssSourceConfig from '@/config/rssSourceEditConfig'
 import '@/assets/sourceeditor.css'
 import { useDark } from '@vueuse/core'
 import type { SourceConfig } from '@/config/sourceConfig'
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 useDark()
 
 let config: SourceConfig
 
 if (/bookSource/i.test(location.href)) {
   config = bookSourceConfig as SourceConfig
-  document.title = '书源管理'
+  document.title = t('source.bookSourceManagement')
 } else {
   config = rssSourceConfig as SourceConfig
-  document.title = '订阅源管理'
+  document.title = t('source.rssSourceManagement')
 }
 </script>
 <style lang="scss" scoped>

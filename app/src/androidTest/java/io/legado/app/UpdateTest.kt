@@ -1,6 +1,8 @@
 package io.legado.app
 
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.google.gson.Gson
+import io.legado.app.R
 import io.legado.app.exception.NoStackTraceException
 import io.legado.app.help.http.okHttpClient
 import io.legado.app.help.update.GithubRelease
@@ -8,6 +10,10 @@ import io.legado.app.utils.fromJsonObject
 import okhttp3.Request
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import org.junit.runner.RunWith
+import splitties.init.appCtx
+
+@RunWith(AndroidJUnit4::class)
 
 class UpdateTest {
 
@@ -24,7 +30,7 @@ class UpdateTest {
 
         val releaseList = Gson().fromJsonObject<GithubRelease>(body)
             .getOrElse {
-                throw NoStackTraceException("获取新版本出错 " + it.localizedMessage)
+                throw NoStackTraceException(appCtx.getString(R.string.error_get_new_version) + " " + it.localizedMessage)
             }
             .gitReleaseToAppReleaseInfo()
             .sortedByDescending { it.createdAt }
@@ -41,7 +47,7 @@ class UpdateTest {
 
         val releaseList = Gson().fromJsonObject<GithubRelease>(body)
             .getOrElse {
-                throw NoStackTraceException("获取新版本出错 " + it.localizedMessage)
+                throw NoStackTraceException(appCtx.getString(R.string.error_get_new_version) + " " + it.localizedMessage)
             }
             .gitReleaseToAppReleaseInfo()
             .sortedByDescending { it.createdAt }

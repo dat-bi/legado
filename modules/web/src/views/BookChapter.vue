@@ -19,7 +19,7 @@
           <template #reference>
             <div class="tool-icon" :class="{ 'no-point': false }">
               <div class="iconfont">&#58905;</div>
-              <div class="icon-text">目录</div>
+              <div class="icon-text">{{ $t('chapter.catalog') }}</div>
             </div>
           </template>
         </el-popover>
@@ -35,17 +35,17 @@
           <template #reference>
             <div class="tool-icon" :class="{ 'no-point': noPoint }">
               <div class="iconfont">&#58971;</div>
-              <div class="icon-text">设置</div>
+              <div class="icon-text">{{ $t('chapter.settings') }}</div>
             </div>
           </template>
         </el-popover>
         <div class="tool-icon" @click="toShelf">
           <div class="iconfont">&#58892;</div>
-          <div class="icon-text">书架</div>
+          <div class="icon-text">{{ $t('chapter.bookshelf') }}</div>
         </div>
         <div class="tool-icon" :class="{ 'no-point': noPoint }" @click="toTop">
           <div class="iconfont">&#58914;</div>
-          <div class="icon-text">顶部</div>
+          <div class="icon-text">{{ $t('chapter.top') }}</div>
         </div>
         <div
           class="tool-icon"
@@ -53,7 +53,7 @@
           @click="toBottom"
         >
           <div class="iconfont">&#58915;</div>
-          <div class="icon-text">底部</div>
+          <div class="icon-text">{{ $t('chapter.bottom') }}</div>
         </div>
       </div>
     </div>
@@ -65,14 +65,14 @@
           @click="toPreChapter"
         >
           <div class="iconfont">&#58920;</div>
-          <span v-if="miniInterface">上一章</span>
+          <span v-if="miniInterface">{{ $t('chapter.previous') }}</span>
         </div>
         <div
           class="tool-icon"
           :class="{ 'no-point': noPoint }"
           @click="toNextChapter"
         >
-          <span v-if="miniInterface">下一章</span>
+          <span v-if="miniInterface">{{ $t('chapter.next') }}</span>
           <div class="iconfont">&#58913;</div>
         </div>
       </div>
@@ -113,10 +113,13 @@ import API from '@api'
 import { useLoading } from '@/hooks/loading'
 import { useThrottleFn } from '@vueuse/shared'
 import { isNullOrBlank } from '@/utils/utils'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const content = ref()
 // loading spinner
-const { isLoading, loadingWrapper } = useLoading(content, '正在获取信息')
+const { isLoading, loadingWrapper } = useLoading(content, t('chapter.loading'))
 const store = useBookStore()
 
 const {
@@ -531,9 +534,9 @@ const addToBookShelfConfirm = async () => {
   const book = store.readingBook
   // 阅读的是搜索的书籍 并未在书架
   if (book.isSeachBook === true) {
-    await ElMessageBox.confirm(`是否将《${book.name}》放入书架？`, '放入书架', {
-      confirmButtonText: '确认',
-      cancelButtonText: '否',
+    await ElMessageBox.confirm(t('chapter.addToShelf.message', { name: book.name }), t('chapter.addToShelf.title'), {
+      confirmButtonText: t('chapter.addToShelf.confirm'),
+      cancelButtonText: t('chapter.addToShelf.cancel'),
       type: 'info',
       /*
         ElMessageBox.confirm默认在触发hashChange事件时自动关闭

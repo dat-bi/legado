@@ -1,54 +1,57 @@
 <script setup lang="ts">
 import { Link } from '@element-plus/icons-vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 <template>
   <el-link :icon="Link" href="/help/#appHelp" target="_blank"
-    >APP帮助文档</el-link
+    >{{ t('help.appHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#ruleHelp" target="_blank"
-    >书源制作教程</el-link
+    >{{ t('help.ruleHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#jsHelp" target="_blank"
-    >js变量和函数</el-link
+    >{{ t('help.jsHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#xpathHelp" target="_blank"
-    >xpath语法教程</el-link
+    >{{ t('help.xpathHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#regexHelp" target="_blank"
-    >正则表达式教程</el-link
+    >{{ t('help.regexHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#txtTocRuleHelp" target="_blank"
-    >txt目录正则说明</el-link
+    >{{ t('help.txtTocRuleHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#debugHelp" target="_blank"
-    >书源调试说明</el-link
+    >{{ t('help.debugHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#httpTTSHelp" target="_blank"
-    >在线朗读规则</el-link
+    >{{ t('help.httpTTSHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#webDavBookHelp" target="_blank">
-    WebDav书籍简明使用教程</el-link
+    {{ t('help.webDavBookHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="/help/#webDavHelp" target="_blank">
-    WebDav备份教程</el-link
+    {{ t('help.webDavHelp') }}</el-link
   ><br />
   <el-link :icon="Link" href="https://regexr-cn.com/" target="_blank"
-    >正则表达式在线验证工具</el-link
+    >{{ t('help.regexOnlineValidator') }}</el-link
   ><br />
   <div style="margin-top: 20px">
     <span
       ><el-text
-        ><code>^$()[]{}.?+*|</code> 这些是Java正则特殊符号,匹配需转义</el-text
+        ><code>^$()[]{}.?+*|</code> {{ t('help.javaRegexSpecialChars') }}</el-text
       ></span
     ><br />
     <span
-      ><el-text><code>(?s)</code> 前缀表示跨行解析</el-text></span
+      ><el-text><code>(?s)</code> {{ t('help.regexCrossLine') }}</el-text></span
     ><br />
     <span
-      ><el-text><code>(?m)</code> 前缀表示逐行匹配</el-text></span
+      ><el-text><code>(?m)</code> {{ t('help.regexLineByLine') }}</el-text></span
     ><br />
     <span
-      ><el-text><code>(?i)</code> 前缀表示忽略大小写</el-text></span
+      ><el-text><code>(?i)</code> {{ t('help.regexIgnoreCase') }}</el-text></span
     ><br />
   </div>
 </template>

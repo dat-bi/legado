@@ -2,12 +2,12 @@
   <div :class="{ 'index-wrapper': true, night: isNight, day: !isNight }">
     <div class="navigation-wrapper">
       <div class="navigation-title-wrapper">
-        <div class="navigation-title">阅读</div>
-        <div class="navigation-sub-title">清风不识字，何故乱翻书</div>
+        <div class="navigation-title">{{ $t('shelf.title') }}</div>
+        <div class="navigation-sub-title">{{ $t('shelf.subtitle') }}</div>
       </div>
       <div class="search-wrapper">
         <el-input
-          placeholder="搜索书籍，在线书籍自动加入书架"
+          placeholder="{{ $t('shelf.searchPlaceholder') }}"
           v-model="searchWord"
           class="search-input"
           :prefix-icon="SearchIcon"
@@ -17,11 +17,11 @@
       </div>
       <div class="bottom-wrapper">
         <div class="recent-wrapper">
-          <div class="recent-title">最近阅读</div>
+          <div class="recent-title">{{ $t('shelf.recentReading') }}</div>
           <div class="reading-recent">
             <el-tag
               :type="
-                readingRecent.name == '尚无阅读记录' ? 'warning' : 'primary'
+                readingRecent.name == t('shelf.noReadingRecord') ? 'warning' : 'primary'
               "
               class="recent-book"
               size="large"
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="setting-wrapper">
-          <div class="setting-title">基本设定</div>
+          <div class="setting-title">{{ $t('shelf.basicSettings') }}</div>
           <div class="setting-item">
             <el-tag
               :type="connectType"
@@ -94,7 +94,9 @@ import API, {
 import { validatorHttpUrl } from '@/utils/utils'
 import type { Book, SeachBook } from '@/book'
 import type { webReadConfig } from '@/web'
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 const store = useBookStore()
 const isNight = computed(() => store.isNight)
 
@@ -103,12 +105,12 @@ const applyReadConfig = (config?: webReadConfig) => {
   try {
     if (config !== undefined) store.setConfig(config)
   } catch {
-    ElMessage.info('阅读界面配置解析错误')
+    ElMessage.info(t('shelf.configParseError'))
   }
 }
 
 const readingRecent = ref<typeof store.readingBook>({
-  name: '尚无阅读记录',
+  name: t('shelf.noReadingRecord'),
   author: '',
   bookUrl: '',
   chapterIndex: 0,
@@ -120,7 +122,7 @@ const shelfWrapper = ref<HTMLElement>()
 //const shelfWrapper = useTemplateRef<HTMLElement>("shelfWrapper")
 const { showLoading, closeLoading, loadingWrapper, isLoading } = useLoading(
   shelfWrapper,
-  '正在获取书籍信息',
+  t('shelf.gettingBookInfo'),
 )
 
 // 书架书籍和在线书籍搜索
@@ -161,7 +163,7 @@ const searchBook = () => {
         books.value = store.searchBooks
         //store.searchBooks.forEach((item) => books.value.push(item));
       } catch (e) {
-        ElMessage.error('后端数据错误')
+        ElMessage.error(t('shelf.backendDataError'))
         throw e
       }
     },

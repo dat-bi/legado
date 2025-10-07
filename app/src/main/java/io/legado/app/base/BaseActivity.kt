@@ -168,7 +168,7 @@ abstract class BaseActivity<VB : ViewBinding>(
             } catch (e: OutOfMemoryError) {
                 toastOnUi(R.string.bg_image_oom)
             } catch (e: Exception) {
-                AppLog.put("加载背景出错\n${e.localizedMessage}", e)
+                AppLog.put(getString(R.string.log_load_background_error) + "\n${e.localizedMessage}", e)
             }
         }
     }

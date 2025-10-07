@@ -9,6 +9,7 @@ import android.os.Looper
 import android.webkit.WebSettings
 import io.legado.app.constant.AppConst
 import io.legado.app.constant.AppLog
+import io.legado.app.R
 import io.legado.app.exception.NoStackTraceException
 import io.legado.app.help.config.AppConfig
 import io.legado.app.help.config.LocalConfig
@@ -49,7 +50,7 @@ class CrashHandler(val context: Context) : Thread.UncaughtExceptionHandler {
      */
     override fun uncaughtException(thread: Thread, ex: Throwable) {
         if (shouldAbsorb(ex)) {
-            AppLog.put("发生未捕获的异常\n${ex.localizedMessage}", ex)
+            AppLog.put(appCtx.getString(R.string.log_uncaught_exception) + "\n${ex.localizedMessage}", ex)
             Looper.loop()
         } else {
             ReadAloud.stop(context)

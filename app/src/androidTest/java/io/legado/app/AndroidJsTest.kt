@@ -1,5 +1,6 @@
 package io.legado.app
 
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import cn.hutool.core.lang.JarClassLoader
 import com.script.ScriptBindings
 import com.script.rhino.RhinoScriptEngine
@@ -7,8 +8,12 @@ import dalvik.system.DexClassLoader
 import org.intellij.lang.annotations.Language
 import org.junit.Assert
 import org.junit.Test
+import org.junit.runner.RunWith
 import org.mozilla.javascript.DefiningClassLoader
+import splitties.init.appCtx
 import java.net.URLClassLoader
+
+@RunWith(AndroidJUnit4::class)
 
 class AndroidJsTest {
 
@@ -47,7 +52,7 @@ class AndroidJsTest {
             returnData.getErrorMsg()
         """.trimIndent()
         val result1 = RhinoScriptEngine.eval(js1)
-        Assert.assertEquals(result1, "未知错误,请联系开发者!")
+        Assert.assertEquals(result1, appCtx.getString(R.string.error_unknown))
     }
 
     @Test

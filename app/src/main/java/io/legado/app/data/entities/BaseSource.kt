@@ -6,6 +6,7 @@ import com.script.buildScriptBindings
 import com.script.rhino.RhinoScriptEngine
 import io.legado.app.constant.AppConst
 import io.legado.app.constant.AppLog
+import io.legado.app.R
 import io.legado.app.data.entities.rule.RowUi
 import io.legado.app.help.CacheManager
 import io.legado.app.help.JsExtensions
@@ -20,6 +21,7 @@ import io.legado.app.utils.fromJsonObject
 import io.legado.app.utils.has
 import io.legado.app.utils.printOnDebug
 import org.intellij.lang.annotations.Language
+import splitties.init.appCtx
 
 /**
  * 可在js里调用,source.xxx()
@@ -115,11 +117,11 @@ interface BaseSource : JsExtensions {
                 GSONStrict.fromJsonObject<Map<String, String>>(json).getOrNull()?.let { map ->
                     putAll(map)
                 } ?: GSON.fromJsonObject<Map<String, String>>(json).getOrNull()?.let { map ->
-                    log("请求头规则 JSON 格式不规范，请改为规范格式")
+                    log(appCtx.getString(R.string.log_request_header_rule_error))
                     putAll(map)
                 }
             } catch (e: Exception) {
-                AppLog.put("执行请求头规则出错\n$e", e)
+                AppLog.put(appCtx.getString(R.string.log_request_header_rule_error) + "\n$e", e)
             }
         }
         if (!has(AppConst.UA_NAME, true)) {
@@ -171,7 +173,7 @@ interface BaseSource : JsExtensions {
             val cache = CacheManager.get("userInfo_${getKey()}") ?: return null
             return AES(key).decryptStr(cache)
         } catch (e: Exception) {
-            AppLog.put("获取登陆信息出错", e)
+            AppLog.put(appCtx.getString(R.string.log_get_login_info_error), e)
             return null
         }
     }
@@ -190,7 +192,7 @@ interface BaseSource : JsExtensions {
             CacheManager.put("userInfo_${getKey()}", encodeStr)
             true
         } catch (e: Exception) {
-            AppLog.put("保存登陆信息出错", e)
+            AppLog.put(appCtx.getString(R.string.log_save_login_info_error), e)
             false
         }
     }

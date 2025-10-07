@@ -1,6 +1,8 @@
 package io.legado.app.api
 
 import androidx.annotation.Keep
+import io.legado.app.R
+import io.legado.app.utils.appCtx
 
 @Keep
 class ReturnData {
@@ -8,7 +10,7 @@ class ReturnData {
     var isSuccess: Boolean = false
         private set
 
-    var errorMsg: String = "未知错误,请联系开发者!"
+    var errorMsg: String = appCtx.getString(R.string.error_unknown)
         private set
 
     var data: Any? = null

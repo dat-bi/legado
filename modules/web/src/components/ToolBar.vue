@@ -9,7 +9,7 @@
       {{ button.name }}
     </el-button>
     <el-button size="large" @click="() => (hotkeysDialogVisible = true)"
-      >快捷键</el-button
+      >{{ $t('toolbar.shortcuts') }}</el-button
     >
   </div>
   <el-dialog
@@ -20,16 +20,16 @@
     <template #header="{ titleClass, titleId }">
       <div class="hotkeys-header flex-space-between">
         <div :id="titleId" :class="titleClass">
-          快捷键设置
+          {{ $t('toolbar.shortcutSettings') }}
           <span v-if="recordKeyDowning">
-            <el-text> / 录入中 </el-text>
+            <el-text> / {{ $t('toolbar.recording') }} </el-text>
           </span>
         </div>
         <el-button
           :disabled="recordKeyDowning"
           @click="saveHotKeys"
           :icon="CircleCheckFilled"
-          >保存</el-button
+          >{{ $t('toolbar.save') }}</el-button
         >
       </div>
     </template>
