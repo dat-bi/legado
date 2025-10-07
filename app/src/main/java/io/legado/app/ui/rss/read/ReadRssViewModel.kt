@@ -119,7 +119,7 @@ class ReadRssViewModel(application: Application) : BaseViewModel(application) {
                     finish.invoke()
                 }
             } ?: let {
-                appCtx.toastOnUi("订阅源不存在")
+                appCtx.toastOnUi(R.string.rss_source_not_exist)
                 finish.invoke()
             }
         } ?: finish.invoke()
@@ -180,9 +180,9 @@ class ReadRssViewModel(application: Application) : BaseViewModel(application) {
             uri.writeBytes(context, fileName, byteArray)
         }.onError {
             ACache.get().remove(imagePathKey)
-            context.toastOnUi("保存图片失败:${it.localizedMessage}")
+            context.toastOnUi(context.getString(R.string.save_image_failed_fmt, it.localizedMessage))
         }.onSuccess {
-            context.toastOnUi("保存成功")
+            context.toastOnUi(R.string.save_success)
         }
     }
 

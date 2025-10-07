@@ -106,7 +106,7 @@ private val localUriCache by lazy {
 
 fun Book.getLocalUri(): Uri {
     if (!isLocal) {
-        throw NoStackTraceException("不是本地书籍")
+        throw NoStackTraceException(appCtx.getString(R.string.not_local_book))
     }
     var uri = localUriCache[bookUrl]
     if (uri != null) {
@@ -132,7 +132,7 @@ fun Book.getLocalUri(): Uri {
         val treeUri = Uri.parse(defaultBookDir)
         val treeFileDoc = FileDoc.fromUri(treeUri, true)
         if (!treeFileDoc.exists()) {
-            appCtx.toastOnUi("书籍保存目录失效，请重新设置！")
+            appCtx.toastOnUi(R.string.book_save_dir_invalid)
         } else {
             val fileDoc = treeFileDoc.find(originName, 5, 100)
             if (fileDoc != null) {

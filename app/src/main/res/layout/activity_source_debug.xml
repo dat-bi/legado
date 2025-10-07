@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="调试搜索>>输入关键字，如："
+                android:text="@string/debug_search_hint"
                 android:textColor="@color/secondaryText"
                 tools:ignore="HardcodedText" />
 
@@ -75,7 +75,7 @@
                     android:paddingTop="4dp"
                     android:paddingRight="12dp"
                     android:paddingBottom="4dp"
-                    android:text="我的"
+                    android:text="@string/my"
                     android:textColor="@color/primaryText"
                     android:textSize="14sp"
                     tools:ignore="HardcodedText,UnusedAttribute" />
@@ -93,7 +93,7 @@
                     android:paddingTop="4dp"
                     android:paddingRight="12dp"
                     android:paddingBottom="4dp"
-                    android:text="系统"
+                    android:text="@string/system"
                     android:textColor="@color/primaryText"
                     android:textSize="14sp"
                     tools:ignore="HardcodedText,UnusedAttribute" />
@@ -103,7 +103,7 @@
                 android:id="@+id/text_fx_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="调试发现>>输入发现URL，如："
+                android:text="@string/debug_find_hint"
                 android:textColor="@color/secondaryText"
                 tools:ignore="HardcodedText" />
 
@@ -120,7 +120,7 @@
                 android:paddingTop="4dp"
                 android:paddingRight="12dp"
                 android:paddingBottom="4dp"
-                android:text="系统::http://xxx"
+                android:text="@string/system_url_example"
                 android:textColor="@color/primaryText"
                 android:textSize="14sp"
                 tools:ignore="HardcodedText,UnusedAttribute" />
@@ -128,7 +128,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="调试详情页>>输入详情页URL，如："
+                android:text="@string/debug_info_hint"
                 android:textColor="@color/secondaryText"
                 tools:ignore="HardcodedText" />
 
@@ -145,7 +145,7 @@
                 android:paddingTop="4dp"
                 android:paddingRight="12dp"
                 android:paddingBottom="4dp"
-                android:text="https://m.qidian.com/book/1015609210"
+                android:text="@string/debug_info_example"
                 android:textColor="@color/primaryText"
                 android:textSize="14sp"
                 tools:ignore="HardcodedText,UnusedAttribute" />
@@ -153,7 +153,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="调试目录页>>输入目录页URL，如："
+                android:text="@string/debug_toc_hint"
                 android:textColor="@color/secondaryText"
                 tools:ignore="HardcodedText" />
 
@@ -170,7 +170,7 @@
                 android:paddingTop="4dp"
                 android:paddingRight="12dp"
                 android:paddingBottom="4dp"
-                android:text="++https://www.zhaishuyuan.com/read/30394"
+                android:text="@string/debug_toc_example"
                 android:textColor="@color/primaryText"
                 android:textSize="14sp"
                 tools:ignore="HardcodedText,UnusedAttribute" />
@@ -178,7 +178,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="调试正文页>>输入正文页URL，如："
+                android:text="@string/debug_content_hint"
                 android:textColor="@color/secondaryText"
                 tools:ignore="HardcodedText" />
 
@@ -195,7 +195,7 @@
                 android:paddingTop="4dp"
                 android:paddingRight="12dp"
                 android:paddingBottom="4dp"
-                android:text="--https://www.zhaishuyuan.com/chapter/30394/20940996"
+                android:text="@string/debug_content_example"
                 android:textColor="@color/primaryText"
                 android:textSize="14sp"
                 tools:ignore="HardcodedText,UnusedAttribute" />

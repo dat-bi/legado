@@ -74,7 +74,7 @@ class TxtTocRuleEditDialog() : BaseDialogFragment(R.layout.dialog_toc_regex_edit
 
     private fun checkValid(tocRule: TxtTocRule): Boolean {
         if (tocRule.name.isEmpty()) {
-            toastOnUi("名称不能为空")
+            toastOnUi(R.string.name_empty)
             return false
         }
 

@@ -315,12 +315,12 @@ class BookInfoActivity :
         bookWebDav: RemoteBookWebDav? = AppWebDav.defaultBookWebDav,
     ) {
         lifecycleScope.launch {
-            waitDialog.setText("上传中.....")
+            waitDialog.setText(getString(R.string.exporting))
             waitDialog.show()
             try {
                 bookWebDav
                     ?.upload(book)
-                    ?: throw NoStackTraceException("未配置webDav")
+                    ?: throw NoStackTraceException(getString(R.string.webdav_not_configured))
                 //更新书籍最后更新时间,使之比远程书籍的时间新
                 book.lastCheckTime = System.currentTimeMillis()
                 viewModel.saveBook(book)
@@ -521,15 +521,11 @@ class BookInfoActivity :
         }
     }
 
-    private fun setSourceVariable() {
-        lifecycleScope.launch {
-            val source = viewModel.bookSource
-            if (source == null) {
-                toastOnUi("书源不存在")
+                toastOnUi(R.string.source_not_exist)
                 return@launch
             }
             val comment =
-                source.getDisplayVariableComment("源变量可在js中通过source.getVariable()获取")
+                source.getDisplayVariableComment(getString(R.string.source_variable_comment))
             val variable = withContext(IO) { source.getVariable() }
             showDialogFragment(
                 VariableDialog(
@@ -546,13 +542,13 @@ class BookInfoActivity :
         lifecycleScope.launch {
             val source = viewModel.bookSource
             if (source == null) {
-                toastOnUi("书源不存在")
+                toastOnUi(R.string.source_not_exist)
                 return@launch
             }
             val book = viewModel.getBook() ?: return@launch
             val variable = withContext(IO) { book.getCustomVariable() }
             val comment = source.getDisplayVariableComment(
-                """书籍变量可在js中通过book.getVariable("custom")获取"""
+                getString(R.string.book_variable_comment)
             )
             showDialogFragment(
                 VariableDialog(
@@ -628,7 +624,7 @@ class BookInfoActivity :
     ) {
         val webFiles = viewModel.webFiles
         if (webFiles.isEmpty()) {
-            toastOnUi("Unexpected webFileData")
+            toastOnUi(R.string.unexpected_webfile_data)
             return
         }
         selector(
@@ -757,7 +753,7 @@ class BookInfoActivity :
     }
 
     private fun upWaitDialogStatus(isShow: Boolean) {
-        val showText = "Loading....."
+        val showText = getString(R.string.loading)
         if (isShow) {
             waitDialog.run {
                 setText(showText)

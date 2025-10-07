@@ -90,7 +90,7 @@ class BookshelfViewModel(application: Application) : BaseViewModel(application) 
             if (successCount > 0) {
                 context.toastOnUi(R.string.success)
             } else {
-                context.toastOnUi("添加网址失败")
+                context.toastOnUi(R.string.add_url_failed)
             }
         }.onError {
             AppLog.put("添加网址出错\n${it.localizedMessage}", it, true)
@@ -120,11 +120,11 @@ class BookshelfViewModel(application: Application) : BaseViewModel(application) 
                     writer.close()
                 }
                 file
-            } ?: throw NoStackTraceException("书籍不能为空")
+            } ?: throw NoStackTraceException(context.getString(R.string.book_empty))
         }.onSuccess {
             success(it)
         }.onError {
-            context.toastOnUi("导出书籍出错\n${it.localizedMessage}")
+            context.toastOnUi(context.getString(R.string.export_book_error_fmt, it.localizedMessage))
         }
     }
 
@@ -145,7 +145,7 @@ class BookshelfViewModel(application: Application) : BaseViewModel(application) 
                 }
 
                 else -> {
-                    throw NoStackTraceException("格式不对")
+                    throw NoStackTraceException(context.getString(R.string.invalid_format))
                 }
             }
         }.onError {
